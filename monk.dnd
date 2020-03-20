@@ -1,0 +1,107 @@
+Monk::section
+  Monk Class Table::table
+    ::head
+      Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special                                     | Unarmed Damage | AC Bonus | Speed Bonus
+    ::row
+      1st   | +1                | +2        | +2       | +2        | Bonus feat, flurry of blows, unarmed strike | 1d6            | +2       | +10 ft.
+    ::row
+      2nd   | +2                | +3        | +3       | +3        | Bonus feat, evasion                         | 1d6            | +3       | +10 ft.
+    ::row
+      3rd   | +3                | +3        | +3       | +3        | Still mind                                  | 1d8            | +4       | +20 ft.
+    ::row
+      4th   | +4                | +4        | +4       | +4        | Ki strike (+1), slow fall 20 ft.            | 1d8            | +5       | +20 ft.
+    ::row
+      5th   | +5                | +4        | +4       | +4        | Purity of body                              | 1d10           | +6       | +20 ft.
+    ::row
+      6th   | +6/+1              | +5        | +5       | +5        | Bonus feat, slow fall 30 ft.                | 1d10           | +7       | +30 ft.
+    ::row
+      7th   | +7/+2              | +5        | +5       | +5        | Wholeness of body                           | 1d12           | +8       | +30 ft.
+    ::row
+      8th   | +8/+3              | +6        | +6       | +6        | Slow fall 40 ft.  Greater Flurry of Blows   | 1d12           | +9       | +30 ft.
+  Alignment Requirement::text
+    Any lawful.
+
+  Hit Die::text
+    d8
+
+  Class Skills::bullets
+    * Balance
+    * Climb
+    * Craft
+    * Diplomacy
+    * Escape Artist
+    * Hide
+    * Jump
+    * Knowledge (arcana)
+    * Knowledge (religion)
+    * Listen
+    * Move Silently
+    * Perform
+    * Profession
+    * Sense Motive
+    * Spot
+    * Swim
+    * Tumble
+
+  Skill Points at 1st Level::text
+    (4 + Int modifier) ×4.
+
+  Skill Points at Each Additional Level::text
+    4 + Int modifier.
+
+  Weapon and Armor Proficiency::text
+    Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama, nunchaku, quarterstaff, sai, shuriken, siangham, and sling.
+    These are referred to as monk weapons.
+
+    Monks are not proficient with any armor or shields
+
+    When wearing armor, using a shield, or carrying a medium or heavy load, a monk loses his AC bonus, as well as his fast movement and flurry of blows abilities. He may wear normal clothing or robes.
+
+  AC Bonus::text
+    When unarmored and unencumbered, the monk adds his Wisdom bonus (if any) to his AC. In addition, the monk gains a bonus to AC as given in his table.
+
+  Flurry of Blows::text
+    When making an unarmed attack or attack with a melee monk weapon, the monk may make an extra attack with the same weapon.
+
+  Greater Flurry of Blows::text
+    At 8th level, a monk gets another extra attack from flurry of blows.
+
+  Unarmed Strike::text
+    Monks are considered armed even when unarmed, sufferring none of the usual drawbacks of fighting unarmed. A monk's unarmed attacks can deal either lethal or nonlethal damage with every hit.
+
+    Monks also deal increased damage. The damage is given in their monk class table.
+
+  Fast Movement::text
+    An unarmored monk gains a bonus to their land speed as given in their class table.
+
+  Bonus Feat::text
+    At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. 
+
+    At 2nd level, the monk may select either Combat Reflexes or Deflect Arrows as a bonus feat. 
+
+    At 6th level, the monk may select either Improved Disarm or Improved Trip as a bonus feat.
+
+    A monk need not have any of the prerequisites normally required for these feats to select them.
+
+  Evasion::text
+    At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, the monk instead takes no damage. 
+    Evasion can be used only if a monk is wearing no armor.
+    A helpless monk does not gain the benefit of evasion.
+
+  Still Mind::text
+    At 3rd level, the monk gains a +2 bonus to saves against all mind-affecting effects, like charms, dominations, sleep spells, etc.
+
+  Ki Strike::text
+    At 4th level, the monk's unarmed attacks are empowered by ki. Her unarmed attacks gain a +1 enhancement bonus to attack and damage and are considered magical.
+
+  Slow Fall::text
+    At 4th level, a monk that falls takes damage as if they fell a shorter distance than they did. The amount of reduction is given in the class table.
+
+  Purity of Body::text
+    At 5th level, a monk gains immunity to all diseases except for supernatural and magical diseases.
+
+  Wholeness of body::text
+    At 7th level or higher, a monk can heal his own wounds. 
+    He can heal a number of hit points of damage equal to twice his current monk level each day, and he can spread this healing out among several uses. 
+    This is a swift action.
+

@@ -1,0 +1,38 @@
+Fighter::section
+  Fighter Class Table::table
+    ::head
+      Level | Base Attack Bonus | Fort Save | Ref Save  | Will Save | Special
+    ::row
+      1st | +1    | +2 | +2 | +2 | Bonus fighter feat
+    ::row
+      2nd | +2    | +3 | +3 | +3 | Bonus fighter feat
+    ::row
+      3rd | +3    | +3 | +3 | +3 | Bonus fighter feat
+    ::row
+      4th | +4    | +4 | +4 | +4 | Bonus fighter feat
+    ::row
+      5th | +5    | +4 | +4 | +4 | Bonus fighter feat
+    ::row
+      6th | +6/+1 | +5 | +5 | +5 | Bonus fighter feat
+    ::row
+      7th | +7/+2 | +5 | +5 | +5 | Bonus fighter feat
+    ::row
+      8th | +8/+3 | +6 | +6 | +6 | Bonus fighter feat
+  Hit Die::text
+    d10
+  Class Skills::bullets
+    * Climb
+    * Craft
+    * Handle Animal
+    * Intimidate
+    * Jump
+    * Ride
+    * Swim
+  Skill Points at 1st Level::text
+    (2 + Int modifier) ×4.
+  Skill Points at Each Additional Level::text
+    2 + Int modifier.
+  Weapon And Armor Proficiency::text
+    A fighter is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields).
+  Bonus fighter feat::text
+    At every level, a fighter may choose an additional feat from the fighter feats. He still must meet all prerequisites.

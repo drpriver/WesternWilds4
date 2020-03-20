@@ -1,0 +1,172 @@
+Thief::section
+  Thief Class Table::table
+    ::head
+      Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+    ::row
+      1st   | +0                | +0  | +2 |  +0  | Flanker, Sneak attack +1d6, Thief Skills, Hide in Shadows
+    ::row
+      2nd   | +1                | +0  | +3 |  +0  | Evasion
+    ::row
+      3rd   | +2                | +1  | +3 |  +1  | Sneak attack +2d6
+    ::row
+      4th   | +3                | +1  | +4 |  +1  | Uncanny dodge
+    ::row
+      5th   | +3                | +1  | +4 |  +1  | Sneak attack +3d6
+    ::row
+      6th   | +4                | +2  | +5 |  +2  | Skill Focus
+    ::row
+      7th   | +5                | +2  | +5 |  +2  | Sneak attack +4d6
+    ::row
+      8th   | +6/+1             | +2  | +6 |  +2  | Improved uncanny dodge
+  Hit Die::text
+    d6
+  Class Skills::bullets
+    * Appraise
+    * Balance
+    * Bluff
+    * Climb
+    * Craft
+    * Decipher Script
+    * Diplomacy
+    * Disable Device
+    * Disguise
+    * Escape Artist
+    * Forgery
+    * Gather Information
+    * Hide
+    * Intimidate
+    * Jump
+    * Knowledge (local)
+    * Listen
+    * Move Silently
+    * Open Lock
+    * Perform
+    * Profession
+    * Search
+    * Sense Motive
+    * Sleight of Hand
+    * Spot
+    * Swim
+    * Tumble (Dex)
+    * Use Magic Device
+    * Use Rope
+  Skill Points at 1st Level::text
+    (8 + Int modifier) ×4
+  Skill Points at Each Additional Level::text
+    8 + Int modifier
+  Weapon and Armor Proficiency::text
+    Thieves are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow, and short sword. Thieves are proficient with light armor, but not with shields.
+
+  Flanker::text
+    Thieves have the exclusive ability to flank their opponents to gain an advantage. Flanking is described in the combat chapter, but in short it is when the thief and an ally are on opposite positions of an enemy. The thief gains a +2 attack bonus against creatures he flanks. Flanking enables sneak attack (see sneak attack).
+
+  Sneak Attack::text
+    If a thief can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.
+
+    The thief’s attack deals extra damage any time her target would be denied a Dexterity bonus to AC, is flat-footed, or when the thief flanks her target. This extra damage is 1d6 at 1st level, and it increases by 1d6 every two thief levels thereafter. Should the thief score a critical hit with a sneak attack, this extra damage is multiplied.
+
+    Ranged attacks can count as sneak attacks only if the target is within 30 feet.
+
+    With a sap (blackjack) or an unarmed strike, a thief can make a sneak attack that deals nonlethal damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.
+
+    The thief must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A thief cannot sneak attack while striking a creature with concealment or striking the limbs of a creature whose vitals are beyond reach.
+
+  Thief Skills::section
+    ::text
+      Certain skills are exclusive to the thief. They are purchased with skill points and function otherwise identically to normal skills. Their descriptions are listed here rather than in the skills chapter.
+
+    Pick Lock::section
+      ::text
+        Thieves can pick locks if they have thief's tools. The DC is determined by the lock. Picking a lock takes half a dungeon turn.
+      Retry::text
+        No
+    Pick Pockets::section
+      ::text
+        Thieves with this skill can pluck an item from another person. This is normally an opposed check against the victim's spot check, but apply the modifiers in the table below. The thief must have some opportunity to steal from the other person, such as having a conversation with them, bumping into them, the person being distracted, etc.
+
+        DM judgement is required for when these circumstances apply. For example, it doesn't matter if the victim trusts the thief if he can't see him because he is hidden in shadows.
+      ::table
+        ::head
+          Circumstance | Check Modifier
+        ::row
+          Physical contact, such as bumping into another person | +2
+        ::row
+          Speaking with the victim | +0
+        ::row
+          Someone else has the victim's attention | +4
+        ::row
+          Victim is otherwise distracted | +2
+        ::row
+          Victim trusts the thief | +2
+        ::row
+          Victim distrusts the thief | -2
+        ::row
+          Victim is blind | +4
+        ::row
+          Victim is deaf | +2
+        ::row
+          Victim is sleeping | +10
+        ::row
+          Thief is hidden in shadows | +4
+        ::row
+          Area is crowded | +2
+        ::row
+          Area is noisy | +2
+        ::row
+          Item in victim's pocket | +0
+        ::row
+          Item is small ( < 1 slot) | +2
+        ::row
+          Item is worn | -4
+        ::row
+          Item is heavy | -2 per encumbrance slot
+        ::row
+          Item is large (like a greatsword) | -4
+      ::text
+        The victim notices the item is missing 1d6 hours later or when they next try to use the item.
+
+    Find Secret Door or Compartment::section
+      ::text
+        Thieves with this skill can roll a DC 20 skill check. On a success, the secret door or compartment is revealed. Doing so takes 1 dungeon turn.
+      Retry::text
+        No
+      Normal::text
+        Normally, any character can spend 1 dungeon turn searching for a secret door or compartment, with a 1-in-6 chance of discovering such a secret door.
+    Use Magic Device::section
+      TODO
+    Find and Disarm Trap::section
+      ::text
+        This skill is used to both find and disarm traps. The DC for both is determined by the trap itself. 
+        Some traps cannot be disarmed (for example a camouflaged pit trap - disarming it would just be triggering it).
+
+        A thief who fails to disarm a trap by more than 5 sets the trap off.
+
+        Searching for a trap and disarming the trap each take one half of a dungeon turn.
+      Retry::text
+        No
+      Normal::text
+        Traps are normally found by descriptive exploration and reasoning rather than rolling dice.
+
+  Hide In Shadows::section
+    The thief is able to blend into shadows and darkness to make himself nearly invisible.
+
+    Any amount of shadowy lighting is sufficient to allow the thief to attempt to hide in the shadows.
+    Unlike other classes with this feature, the thief may do this once combat has begun.  To do so they must be over 20 feet from anyone other than party members and be in an area with at least some shadowy lighting. Hiding in the shadows in combat is a standard action.
+
+    While hiding in shadows, the thief gains the benefits of invisibility (he is not literally invisible, but if no one sees you, you effectively are). This ends if he draws attention to himself, attacks, casts a spell, sings a song, etc. A thief will often begin combat hidden in the shadows. The thief may move about while hiding in shadows, as long as he remains within some amount of shadow or natural obscurement.
+
+    When the thief's hiding is tested, the thief rolls a hide check contested by the opposing creature's spot check. A creature must be within 20 feet of the thief to be eligible to roll a spot check.
+
+  Evasion::text
+    At 2nd level and higher, a thief can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the thief is wearing light armor or no armor. A helpless thief does not gain the benefit of evasion.
+
+  Skill Focus::text
+    At 6th level, the thief gains the skill focus feat for any skill she has.
+
+  Uncanny Dodge::text
+    Starting at 4th level, a thief can react to danger before her senses would normally allow her to do so. She retains her Dexterity bonus to AC (if any) even if she is caught flat-footed or struck by an invisible attacker. However, she still loses her Dexterity bonus to AC if immobilized.
+    
+  Improved Uncanny Dodge::text
+    A thief of 8th level or higher can no longer be flanked.  This defense denies another thief the ability to sneak attack the character by flanking her.
+
+    At 8th level and higher, a thief can no longer be flanked by thieves and can no longer be sneak attacked. This defense denies a thief the ability to sneak attack the thief flanking him and also denies him the bonus to attack by flanking.

@@ -1,0 +1,99 @@
+Cleric::section
+  Cleric Class Table::table
+    ::head
+      Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+    ::row
+      1st|+0   |+2 |+0 |+2    | Turn Undead
+    ::row
+      2nd|+1   |+3 |+0 |+3    |
+    ::row
+      3rd|+2   |+3 |+1 |+3    |
+    ::row
+      4th|+3   |+4 |+1 |+4    |
+    ::row
+      5th|+3   |+4 |+1 |+4    |
+    ::row
+      6th|+4   |+5 |+2 |+5    |
+    ::row
+      7th|+5   |+5 |+2 |+5    |
+    ::row
+      8th|+6/+1|+6 |+2 |+6    |
+  Cleric Spells Per Day::table
+    ::head
+      Level | 0 | 1 | 2 | 3 | 4
+    ::row
+      1st   | 3 |1+1|   |   |
+    ::row
+      2nd   | 4 |2+1|   |   |
+    ::row
+      3rd   | 4 |2+1|1+1|   |
+    ::row
+      4th   | 5 |3+1|2+1|   |
+    ::row
+      5th   | 5 |3+1|2+1|1+1|
+    ::row
+      6th   | 5 |3+1|3+1|2+1|
+    ::row
+      7th   | 6 |4+1|3+1|2+1|1+1
+    ::row
+      8th   | 6 |4+1|3+1|3+1|2+1
+  Cleric Alignment Requirement::text
+    A cleric’s alignment must be within one step of his deity’s (that is, it may be one step away on either the lawful-chaotic axis or the good-evil axis, but not both). A cleric may not be neutral on an axis unless his deity’s alignment is also neutral on that axis.
+    For example, a lawful good cleric of a lawful neutral god is allowed. A chaotic netural cleric of a chaotic evil god is not allowed.
+
+  Hit Die::text
+    d8
+
+  Class Skills::bullets
+    * Craft
+    * Diplomacy
+    * Heal
+    * Knowledge (arcana)
+    * Knowledge (history)
+    * Knowledge (religion)
+    * Knowledge (the planes)
+    * Profession
+    * Spellcraft
+
+  Domains and Class Skills::text
+    A cleric who chooses the Animal or Plant domain adds Knowledge (nature) (Int) to the cleric class skills listed above. A cleric who chooses the Knowledge domain adds all Knowledge (Int) skills to the list. A cleric who chooses the Travel domain adds Survival (Wis) to the list. A cleric who chooses the Trickery domain adds Bluff (Cha), Disguise (Cha), and Hide (Dex) to the list. See Deity, Domains, and Domain Spells, for more information.
+
+  Skill Points at 1st Level::text
+    (2 + Int modifier) ×4.
+
+  Skill Points at Each Additional Level::text
+    2 + Int modifier.
+
+  Weapon and Armor Proficiency::text
+    Clerics are proficient with all simple weapons, with all types of armor (light, medium, and heavy), and with shields (except tower shields).
+
+  Aura::text
+    A cleric of a chaotic, evil, good, or lawful deity has a particularly powerful aura corresponding to the deity’s alignment.
+
+  Deity::text
+    A cleric must worship a deity. A cleric does not necessarily need to be a member of the organized religion of that deity, but that would be unusual.
+
+    A cleric chooses two domains from his deity's domains, which grant him a special ability and access to a bonus spell in his domain slot (see spells below).
+
+  Spells::text
+    A cleric casts divine spells, which are drawn from the cleric spell list. However, his alignment may restrict him from casting certain spells opposed to his moral or ethical beliefs; see Chaotic, Evil, Good, and Lawful Spells, below. A cleric must choose and prepare his spells in advance.
+
+    To prepare or cast a spell, a cleric must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a cleric’s spell is 10 + the spell level + the cleric’s Wisdom modifier.
+
+    Like other spellcasters, a cleric can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given in his table. In addition, he receives bonus spells per day if he has a high Wisdom score. A cleric also gets one domain spell of each spell level he can cast, starting at 1st level. When a cleric prepares a spell in a domain spell slot, it must come from one of his two domains.
+
+    Clerics meditate or pray for their spells. Each cleric must choose a time at which he must spend 1 hour each day in quiet contemplation or supplication to regain his daily allotment of spells. See [spell recuperation]. A cleric may prepare and cast any spell on the cleric spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation. A cleric may only prepare a single instance of any particular spell.
+
+  Spell Conversion::text
+    A cleric can spontaneously convert any of his spells into one of his domain spells. He loses that prepared spell and instead casts a domain spell of the corresponding level.
+    This does not make the cleric a spontaneous caster.
+
+  Turn Undead::text
+    Any cleric, regardless of alignment, has the power to affect undead creatures by channeling the power of his faith through his holy (or unholy) symbol (see Turn or Rebuke Undead).
+
+    All clerics can turn undead (for evil clerics it is fear of a more powerful source rather than of goodness). Powerful Good and neutral clerics destroy undead, while powerful evil clerics instead command the undead.
+
+    A cleric may attempt to turn undead a number of times per day equal to 3 + his Charisma modifier. A cleric with 5 or more ranks in Knowledge (religion) gets a +2 bonus on turning checks against undead.
+
+  Ex-Clerics::text
+    A cleric who grossly violates the code of conduct required by his god loses all spells and class features, except for armor and shield proficiencies and proficiency with simple weapons. He cannot thereafter gain levels as a cleric of that god until he [atones].
