@@ -573,3 +573,37 @@ The Skills::section
         Rough Water or Open Ocean | 15
       ::row
         Stormy Water | 20
+  Tumble (Dex, trained only)::section
+    ::text
+      Armor check penalty applies
+
+      You can land softly when you fall or tumble past opponents. You can also tumble to entertain an audience (as though using the Perform skill). The DCs for various tasks involving the Tumble skill are given on the table below.
+
+    ::table
+      ::head
+        Tumble DC | Task
+      ::row
+        15 | Treat a fall as if it were 10 feet shorter than it really is when determining damage.
+      ::row
+        15 | Tumble at one-half speed as part of normal movement, provoking no attacks of opportunity while doing so. Failure means you provoke attacks of opportunity normally. Check separately for each opponent you move past, in the order in which you pass them (player’s choice of order in case of a tie). Each additional enemy after the first adds +2 to the Tumble DC.
+      ::row
+        25 | Tumble at one-half speed through an area occupied by an enemy (over, under, or around the opponent) as part of normal movement, provoking no attacks of opportunity while doing so. Failure means you stop before entering the enemy-occupied area and provoke an attack of opportunity from that enemy. Check separately for each opponent. Each additional enemy after the first adds +2 to the Tumble DC.
+
+    ::text
+      Obstructed or otherwise treacherous surfaces, such as natural cavern floors or undergrowth, are tough to tumble through. The DC for any Tumble check made to tumble into such a square is modified as indicated below.
+
+    ::table
+      ::head
+        Surface Is… |  DC Modifier
+      ::row
+        Deep Bog | Impossible
+      ::row
+        Lightly obstructed (scree, light rubble, shallow bog1, undergrowth) | +2
+      ::row
+        Severely obstructed (natural cavern floor, dense rubble, dense undergrowth)|  +5
+      ::row
+        Lightly slippery (wet floor) | +2
+      ::row
+        Severely slippery (ice sheet) | +5
+      ::row
+        Sloped or angled | +2
