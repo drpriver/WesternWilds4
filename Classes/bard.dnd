@@ -1,5 +1,5 @@
   Bard::section
-    Bard Class Table::table
+    Bard Class Table::table.class_table
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
@@ -18,8 +18,6 @@
         7 | +5 | +2 | +5 | +5 |
       ::row
         8 | +6/+1 | +2 | +6 | +6 | [Inspire courage] +3
-
-
     Bard Spells Known::table
       ::head
         Level | 0 | 1 | 2 | 3

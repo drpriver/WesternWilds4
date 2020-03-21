@@ -1,5 +1,5 @@
   Humans::section.race
-    Medium Createure::text
+    Medium Creature::text
       As Medium creatures, humans have no special bonuses or penalties due to their size.
 
       Human base land speed is 30 feet.

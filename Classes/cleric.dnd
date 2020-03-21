@@ -1,5 +1,5 @@
   Cleric::section
-    Cleric Class Table::table
+    Cleric Class Table::table.class_table
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row

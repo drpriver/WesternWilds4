@@ -85,6 +85,8 @@ Skills::section
 
 
 The Skills::section
+  Alchemy (Int)::section.skill_description
+    TODO
   Appraise (Int)::section.skill_description
     ::text
       You can appraise common or well-known objects with a DC 12 Appraise check. Failure means that you estimate the value at 50% to 150% (2d6+3 times 10%,) of its actual value.

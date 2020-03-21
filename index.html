@@ -136,6 +136,9 @@
       border: 1px solid black;
       text-align: left;
       }
+      table {
+      max-width: 60em;
+      }
       table.text_table {
       text-align: left;
       }
@@ -160,6 +163,9 @@
       }
       table.large {
       max-width: 50em;
+      }
+      table.class_table {
+      max-width:50em;
       }
     </style>
     <script>
@@ -345,7 +351,6 @@
               <li><a href="#dwarves">Dwarves</a></li>
               <li><a href="#elves">Elves</a></li>
               <li><a href="#gnomes">Gnomes</a></li>
-              <li><a href="#gnomes1">Gnomes</a></li>
               <li><a href="#half-elves">Half-Elves</a></li>
               <li><a href="#half-orcs">Half-Orcs</a></li>
               <li><a href="#halflings">Halflings</a></li>
@@ -384,6 +389,7 @@
               <li><a href="#skill-synergy">Skill Synergy</a></li>
             </ul></li>
             <li><a href="#the-skills">The Skills</a><ul>
+              <li><a href="#alchemy-int">Alchemy (Int)</a></li>
               <li><a href="#appraise-int">Appraise (Int)</a></li>
               <li><a href="#bluff-cha">Bluff (Cha)</a></li>
               <li><a href="#climb-str">Climb (Str)</a></li>
@@ -1058,7 +1064,7 @@
           <section class="race">
             <h3 id="humans">Humans</h3>
             <div>
-              <h4 id="medium-createure">Medium Createure</h4>
+              <h4 id="medium-creature">Medium Creature</h4>
               <p>
                 As Medium creatures, humans have no special bonuses or penalties due to their size.
               </p>
@@ -1094,7 +1100,7 @@
               </p>
             </div>
             <div>
-              <h4 id="medium-creature">Medium Creature</h4>
+              <h4 id="medium-creature1">Medium Creature</h4>
               <p>
                 As Medium creatures, dwarves have no special bonuses or penalties due to their size.
                 A Dwarf's base land speed is 20 feet. However, dwarves can move at this speed even when wearing medium or heavy armor or when carrying a medium or heavy load (unlike other creatures, whose speed is reduced in such situations).
@@ -1170,7 +1176,7 @@
               </p>
             </div>
             <div>
-              <h4 id="medium-creature1">Medium Creature</h4>
+              <h4 id="medium-creature2">Medium Creature</h4>
               <p>
                 As Medium creatures, elves have no special bonuses or penalties due to their size.
                 An Elf's base land speed is 30 feet.
@@ -1185,7 +1191,7 @@
                 Due to this, elves are immune to sleep effects, and  get a +2 racial saving throw bonus against enchantment spells or effects.
               </p>
               <p>
-                Additionally, their brains are particularly well-shaped for holding spells in their mind, which grants them +1 on spell learning checks (see the wizard) and allows them to cast an extra 1st level wizard spell each day if they are a wizard.
+                Additionally, their brains are particularly well-shaped for holding spells in their mind, which grants them +1 on spell learning checks (see the <a href="#wizard">wizard</a>) and allows them to cast an extra 1st level wizard spell each day if they are a wizard.
               </p>
             </div>
             <div>
@@ -1219,23 +1225,6 @@
           <section class="race">
             <h3 id="gnomes">Gnomes</h3>
             <div>
-              
-              <ul>
-                <li> Weapon Familiarity: Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.</li>
-                <li> +2 racial bonus on saving throws against illusions.</li>
-                <li> Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes. This adjustment stacks with those from similar effects.</li>
-                <li> +1 racial bonus on attack rolls against kobolds and goblinoids.</li>
-                <li> +4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it’s caught flat-footed, it loses its dodge bonus, too.</li>
-                <li> +2 racial bonus on Listen checks.</li>
-                <li> +2 racial bonus on Craft (alchemy) checks.</li>
-                <li> Automatic Languages: Common and Gnome. Bonus Languages: Draconic, Dwarven, Elven, Giant, Goblin, and Orc. In addition, a gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like, see below). This ability is innate to gnomes. See the speak with animals spell description.</li>
-                <li> Spell-Like Abilities: 1/day—speak with animals (burrowing mammal only, duration 1 minute). A gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day—dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + gnome’s Cha modifier + spell level.</li>
-              </ul>
-            </div>
-          </section>
-          <section class="race">
-            <h3 id="gnomes1">Gnomes</h3>
-            <div>
               <h4 id="ability-score-adjustments2">Ability Score Adjustments</h4>
               <p>
                 +2 <a href="#constitution-con">Constitution</a>, -2 <a href="#strenght-str">Strength</a>
@@ -1245,16 +1234,20 @@
               <h4 id="small-creature">Small Creature</h4>
               <p>
                 As a Small creature, a gnome gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but he uses smaller weapons than humans use, and his lifting and carrying limits are three-quarters of those of a Medium character.
+              </p>
+              <p>
                 A Gnome's base land speed is 20 feet.
               </p>
             </div>
             <div>
               <h4 id="natural-illusionists">Natural Illusionists</h4>
               <p>
-                Gnomes can create some illusionary effects. Once per day, they can create dancing lights, ghost sound and prestidigitation.
+                Gnomes can create some illusionary effects. Once per day, they can create <a href="#dancing-lights">dancing lights</a>, <a href="#ghost-sound">ghost sound</a> and <a href="#prestidigitation">prestidigitation</a>.
               </p>
               <p>
                 Additionally, if a gnome casts an illusion spell, the DC to resist it is 1 point higher.
+              </p>
+              <p>
                 Gnomes receive a +2 bonus on saving throws against illusions due to their familiarity with them.
               </p>
             </div>
@@ -1267,10 +1260,10 @@
             <div>
               <h4 id="racial-enemies">Racial Enemies</h4>
               <p>
-                Gnomes receive a +1 bonus on attack rolls against kobolds and goblinoids.
+                Gnomes receive a +1 bonus on <a href="#attack-rolls">attack rolls</a> against kobolds and goblinoids.
               </p>
               <p>
-                +4 dodge bonus to Armor Class against any giant type monster or monster that is humanoid in shape and Large or larger.
+                +4 dodge bonus to <a href="#armor-class">Armor Class</a> against any giant type monster or monster that is humanoid in shape and Large or larger.
               </p>
             </div>
             <div>
@@ -1282,13 +1275,13 @@
             <div>
               <h4 id="sharp-ears">Sharp Ears</h4>
               <p>
-                Gnomes have a +2 bonus to listen checks.
+                Gnomes have a +2 bonus to <a href="#listen">listen</a> checks.
               </p>
             </div>
             <div>
               <h4 id="alchemists">Alchemists</h4>
               <p>
-                Gnomes have a +2 bonus to alchemy checks. This counts as 2 bonus ranks for effects that care how many ranks in alchemy you have, but do not count against the gnome for how many ranks he may purchase.
+                Gnomes have a +2 bonus to <a href="#alchemy">alchemy</a> checks. This counts as 2 bonus ranks for effects that care how many ranks in alchemy you have, but do not count against the gnome for how many ranks he may purchase.
               </p>
             </div>
             <div>
@@ -1310,7 +1303,7 @@
               </p>
             </div>
             <div>
-              <h4 id="medium-createure1">Medium Createure</h4>
+              <h4 id="medium-createure">Medium Createure</h4>
               <p>
                 As Medium creatures, half-elves have no special bonuses or penalties due to their size.
                 A Half-elf's base land speed is 30 feet.
@@ -1410,7 +1403,7 @@
                 Halflings get a +1 bonus to all saving throws
               </p>
               <p>
-                Halflings get a +1 racial bonus on attack rolls with thrown weapons and slings (lucky shot).
+                Halflings get a +1 bonus on attack rolls with thrown weapons and slings.
               </p>
             </div>
             <div>
@@ -1480,7 +1473,7 @@
             <h3 id="barbarian">Barbarian</h3>
             <section>
               <h4 id="barbarian-class-table">Barbarian Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -1674,7 +1667,7 @@
             <h3 id="bard">Bard</h3>
             <section>
               <h4 id="bard-class-table">Bard Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -2061,7 +2054,7 @@
             <h3 id="cleric">Cleric</h3>
             <section>
               <h4 id="cleric-class-table">Cleric Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -2330,7 +2323,7 @@
             <h3 id="druid">Druid</h3>
             <section>
               <h4 id="druid-class-table">Druid Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -2659,7 +2652,7 @@
             <h3 id="fighter">Fighter</h3>
             <section>
               <h4 id="fighter-class-table">Fighter Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -2782,7 +2775,7 @@
             <h3 id="monk">Monk</h3>
             <section>
               <h4 id="monk-class-table">Monk Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -3035,7 +3028,7 @@
             <h3 id="paladin">Paladin</h3>
             <section>
               <h4 id="paladin-class-table">Paladin Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level</th>
@@ -3396,7 +3389,7 @@
             <h3 id="ranger">Ranger</h3>
             <section>
               <h4 id="ranger-class-table">Ranger Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -3852,7 +3845,7 @@
             <h3 id="thief">Thief</h3>
             <section>
               <h4 id="thief-class-table">Thief Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -4226,7 +4219,7 @@
             <h3 id="sorcerer">Sorcerer</h3>
             <section>
               <h4 id="sorcerer-class-table">Sorcerer Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -4550,7 +4543,7 @@
             <h3 id="wizard">Wizard</h3>
             <section>
               <h4 id="wizard-class-table">Wizard Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -4892,7 +4885,7 @@
             <h3 id="fighterwizard">Fighter/Wizard</h3>
             <section>
               <h4 id="fighterwizard-class-table">Fighter/Wizard Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -5018,7 +5011,7 @@
             <h3 id="fighterthief">Fighter/Thief</h3>
             <section>
               <h4 id="fighterthief-class-table">Fighter/Thief Class Table</h4>
-              <table>
+              <table class="class_table">
                 <thead>
                   <tr class="table_header">
                     <th>Level </th>
@@ -5306,6 +5299,10 @@
         </section>
         <section>
           <h2 id="the-skills">The Skills</h2>
+          <section class="skill_description">
+            <h3 id="alchemy-int">Alchemy (Int)</h3>
+            TODO
+          </section>
           <section class="skill_description">
             <h3 id="appraise-int">Appraise (Int)</h3>
             <div>

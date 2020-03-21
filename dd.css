@@ -146,6 +146,9 @@ th, td {
 	border: 1px solid black;
 	text-align: left;
 	}
+table {
+	max-width: 60em;
+}
 table.text_table {
 	text-align: left;
 }
@@ -170,4 +173,7 @@ table.medium {
 }
 table.large {
 	max-width: 50em;
+}
+table.class_table {
+	max-width:50em;
 }

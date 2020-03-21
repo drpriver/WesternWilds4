@@ -11,7 +11,7 @@
     Lucky::text
       Halflings get a +1 bonus to all saving throws
 
-      Halflings get a +1 racial bonus on attack rolls with thrown weapons and slings (lucky shot).
+      Halflings get a +1 bonus on attack rolls with thrown weapons and slings.
     Brave::text
       Halflings get a +2 morale bonus on saving throws against fear: This bonus stacks with the halfling’s +1 bonus on saving throws in general.
     Languages::text

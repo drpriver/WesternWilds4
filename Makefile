@@ -55,7 +55,7 @@ ALL=basics.dnd\
     magic.dnd\
     $(addprefix Spells/,$(SPELLS))
 
-index.html: $(ALL)
+index.html: $(ALL) dd.css dd.js
 	rm -rf build
 	mkdir build
 	cat $(ALL) > build/rules.dnd
