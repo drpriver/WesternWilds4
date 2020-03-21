@@ -1,0 +1,30 @@
+  Loxodon::section.race
+    Ability Score Adjustments::text
+      +2 [Strength], +2 [Wisdom], -4 [Dexterity]
+    Tough Hide::text
+      When unarmored, base AC is 12 is due to elephant hide
+    Mediumish Creature::text
+      Loxodons are medium creatures, but they are on the large side of medium. In combat, they can occupy one or two spaces (their choice from round to round). Additionally, they get a +4 bonus to overrun and bull rush checks and strength checks where mass would be of aid (like forcing open or holding a door).
+
+      A loxodon's base speed is 30 feet.
+
+      Loxodons are on average 8' tall.
+
+      Loxodons are too large and heavy to ride horses and similar sized mounts. However, when travelling long distances they count as mounted for the purposes of determing overland travel rates.
+
+    Stampede::text
+      Unlike other creatures, loxodon can overrun creatures of the same size as them. If they succeed on an overrun, they deal 1d6+str damage from stomping with their feet.
+
+    Illiterate::text
+      Loxodons have great memory, able to recall exact events or spoken words when they need to (although they may not remember they need to remember until reminded). Due to this, they have no native writing system in the loxodon language and do not generally pick up how to read other languages. Loxodons start play with no ability to read or write.  A loxodon may spend 2 skill points after the 1st level to learn to read and write the languages they speak.
+
+      The exception to this is loxodon wizards. They are not illiterate.
+    Prehensile Trunk::text
+      A loxodon's nose is just like an elephant's and so can be used to hold or grab things. It can be used to hold one handed items, draw items from their inventory, etc. It cannot be used to effectively wield weapons or shields. Switching an item between the trunk and a hand is a free action.
+
+    Fear of Rodents::text
+      Suddenly viewing rodents (mice, rats, rodents of unusual size, etc.) can induce a panicked reaction in a loxodon. The loxodon must make a DC 10 will save or be [panicked] for 1d10 minutes.
+
+      Even if the loxodon succeeds on the save or the viewing is not sudden (the loxodon knows there will be rats when entering the room for example), the loxodon suffers a -2 penalty on all saving throws, skill checks, and ability checks while the rodents are in sight or can be heard.
+    Languages::text
+      All loxodons speak Loxodon and all adventuring loxodons speak common. Loxodons who receive bonus languages due to a high [Intelligence] can choose from any language (including secret languages).

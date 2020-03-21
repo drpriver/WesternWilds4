@@ -22,6 +22,7 @@ RACES=races.dnd\
       half-elves.dnd\
       half-orcs.dnd\
       halflings.dnd\
+      loxodon.dnd\
 
 SPELLS=spells.dnd\
 
