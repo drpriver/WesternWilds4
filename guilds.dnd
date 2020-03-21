@@ -1,6 +1,7 @@
 Guilds::section
-  TODO
+  ::text
+    TODO
 
-  There is a guild for each class (although not for the multiclass combos). For clerics this is their church, for thieves it is a thieves guild, etc.
+    There is a guild for each class (although not for the multiclass combos). For clerics this is their church, for thieves it is a thieves guild, etc.
 
-  Players can join or found class guilds.
+    Players can join or found class guilds.

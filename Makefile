@@ -1,5 +1,8 @@
 .SUFFIXES:
-ALL=basics.dnd classes.dnd barbarian.dnd bard.dnd cleric.dnd druid.dnd fighter.dnd monk.dnd paladin.dnd ranger.dnd thief.dnd sorcerer.dnd wizard.dnd  fighter-wizard.dnd fighter-thief.dnd
+CLASSES=classes.dnd barbarian.dnd bard.dnd cleric.dnd druid.dnd fighter.dnd monk.dnd paladin.dnd ranger.dnd thief.dnd sorcerer.dnd wizard.dnd  fighter-wizard.dnd fighter-thief.dnd
+
+ALL=basics.dnd $(CLASSES) skills.dnd feats.dnd equipment.dnd experience.dnd factions.dnd guilds.dnd domains.dnd combat.dnd ships.dnd magic.dnd spells.dnd
+
 index.html: $(ALL)
 	rm -rf build
 	mkdir build
