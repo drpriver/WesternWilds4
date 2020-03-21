@@ -82,7 +82,7 @@ Cleric::section
 
     Like other spellcasters, a cleric can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given in his table. In addition, he receives bonus spells per day if he has a high Wisdom score. A cleric also gets one domain spell of each spell level he can cast, starting at 1st level. When a cleric prepares a spell in a domain spell slot, it must come from one of his two domains.
 
-    Clerics meditate or pray for their spells. Each cleric must choose a time at which he must spend 1 hour each day in quiet contemplation or supplication to regain his daily allotment of spells. See [spell recuperation]. A cleric may prepare and cast any spell on the cleric spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation. A cleric may only prepare a single instance of any particular spell.
+    Clerics meditate or pray for their spells. Each cleric must choose a time at which he must spend 1 hour each day in quiet contemplation or supplication to regain his daily allotment of spells. See [spell recuperation]. A cleric may prepare and cast any spell on the cleric spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.
 
   Spell Conversion::text
     A cleric can spontaneously convert any of his spells into one of his domain spells. He loses that prepared spell and instead casts a domain spell of the corresponding level.
