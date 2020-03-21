@@ -1,9 +1,48 @@
 .SUFFIXES:
-CLASSES=classes.dnd barbarian.dnd bard.dnd cleric.dnd druid.dnd fighter.dnd monk.dnd paladin.dnd ranger.dnd thief.dnd sorcerer.dnd wizard.dnd  fighter-wizard.dnd fighter-thief.dnd
-SPELLS=spells.dnd
-FEATS=feats.dnd
+CLASSES=classes.dnd\
+	barbarian.dnd\
+	bard.dnd\
+	cleric.dnd\
+	druid.dnd\
+	fighter.dnd\
+	monk.dnd\
+	paladin.dnd\
+	ranger.dnd\
+	thief.dnd\
+	sorcerer.dnd\
+	wizard.dnd\
+	fighter-wizard.dnd\
+	fighter-thief.dnd\
 
-ALL=basics.dnd $(addprefix Classes/,$(CLASSES)) skills.dnd $(addprefix Feats/,$(FEATS)) equipment.dnd experience.dnd factions.dnd guilds.dnd domains.dnd combat.dnd ships.dnd magic.dnd $(addprefix Spells/,$(SPELLS))
+SPELLS=spells.dnd\
+
+FEATS=feats.dnd\
+      	general-feats.dnd\
+	barbarian-feats.dnd\
+	bard-feats.dnd\
+	cleric-feats.dnd\
+	druid-feats.dnd\
+	fighter-feats.dnd\
+	monk-feats.dnd\
+	paladin-feats.dnd\
+	ranger-feats.dnd\
+	thief-feats.dnd\
+	sorcerer-feats.dnd\
+	wizard-feats.dnd
+
+ALL=basics.dnd\
+    $(addprefix Classes/,$(CLASSES))\
+    skills.dnd\
+    $(addprefix Feats/,$(FEATS))\
+    equipment.dnd\
+    experience.dnd\
+    factions.dnd\
+    guilds.dnd\
+    domains.dnd\
+    combat.dnd\
+    ships.dnd\
+    magic.dnd\
+    $(addprefix Spells/,$(SPELLS))
 
 index.html: $(ALL)
 	rm -rf build
