@@ -60,13 +60,10 @@ Sorcerer::section
   Hit Die::text
     d4
 
-  Class Skills::text
-    Bluff
-    Concentration
-    Craft
-    Knowledge (arcana)
-    Profession
-    Spellcraft
+  Class Skills::bullets
+    * Bluff
+    * Knowledge (arcana)
+    * Spellcraft
 
   Skill Points at 1st Level::text
     (4 + Int modifier) × 4

@@ -30,16 +30,11 @@ Paladin::section
     d10
 
   Class Skills::bullets
-    * Concentration
-    * Craft
     * Diplomacy
-    * Handle Animal
     * Heal
     * Knowledge (nobility and royalty)
     * Knowledge (religion)
-    * Profession
     * Ride
-    * Sense Motive
 
   Skill Points at 1st Level::text
     (4 + Int modifier) ×4.

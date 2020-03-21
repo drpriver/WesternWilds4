@@ -27,23 +27,17 @@ Ranger::section
 
   Class Skills::bullets
     * Climb
-    * Craft
-    * Handle Animal
     * Heal
-    * Hide
     * Jump
     * Knowledge (dungeoneering)
     * Knowledge (geography)
     * Knowledge (nature)
     * Listen
-    * Move Silently
-    * Profession
     * Ride
-    * Search
     * Spot
+    * Stealth
     * Survival
     * Swim
-    * Use Rope
 
   Skill Points at 1st Level::text
     (8 + Int modifier) ×4.

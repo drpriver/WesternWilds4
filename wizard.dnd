@@ -42,10 +42,7 @@ Wizard::section
 
   Class Skills::bullets
     * Alchemy
-    * Craft
-    * Decipher Script
     * Knowledge (all skills taken individually)
-    * Profession
     * Spellcraft
 
   Skill Points at 1st Level::text

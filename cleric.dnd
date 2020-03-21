@@ -45,14 +45,12 @@ Cleric::section
     d8
 
   Class Skills::bullets
-    * Craft
     * Diplomacy
     * Heal
     * Knowledge (arcana)
     * Knowledge (history)
     * Knowledge (religion)
     * Knowledge (the planes)
-    * Profession
     * Spellcraft
 
   Domains and Class Skills::text

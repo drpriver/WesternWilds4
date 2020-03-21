@@ -22,9 +22,6 @@ Fighter::section
     d10
   Class Skills::bullets
     * Climb
-    * Craft
-    * Handle Animal
-    * Intimidate
     * Jump
     * Ride
     * Swim

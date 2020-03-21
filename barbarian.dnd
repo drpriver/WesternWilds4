@@ -24,8 +24,6 @@ Barbarian::section
     d12
   Class Skills::bullets
     * [Climb]
-    * [Handle Animal]
-    * [Intimidate]
     * [Jump]
     * [Listen]
     * [Ride]

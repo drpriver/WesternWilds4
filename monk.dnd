@@ -25,20 +25,15 @@ Monk::section
     d8
 
   Class Skills::bullets
-    * Balance
     * Climb
-    * Craft
     * Diplomacy
     * Escape Artist
-    * Hide
     * Jump
     * Knowledge (arcana)
     * Knowledge (religion)
     * Listen
-    * Move Silently
     * Perform
-    * Profession
-    * Sense Motive
+    * Stealth
     * Spot
     * Swim
     * Tumble

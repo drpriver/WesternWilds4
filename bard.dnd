@@ -3,7 +3,7 @@ Bard::section
     ::head
       Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
     ::row
-      1 | +0 | +0 | +2 | +2 | [Bardic Music], [Bardic Knowledge], [Countersong], [Fascinate], [Inspire Courage] +1
+      1 | +0 | +0 | +2 | +2 | [Bardic Music], [Bardic Knowledge], [Countersong], [Fascinate], [Inspire Courage] +1, [Polygot], [Some Thief Skills]
     ::row
       2 | +1 | +0 | +3 | +3 | [Hide in Shadows]
     ::row
@@ -63,30 +63,21 @@ Bard::section
     d6
   Class Skills::bullets
     * [Appraise]
-    * [Balance]
     * [Bluff]
     * [Climb]
-    * [Concentration]
     * [Craft]
-    * [Decipher Script]
     * [Diplomacy]
     * [Disguise]
     * [Escape Artist]
     * [Gather Information]
-    * [Hide]
+    * [Stealth]
     * [Jump]
     * [Knowledge]
     * [Listen]
-    * [Move Silently]
     * [Perform]
-    * [Profession]
-    * [Sense Motive]
-    * [Sleight of Hand]
-    * [Speak Language]
     * [Spellcraft]
     * [Swim]
     * [Tumble]
-    * [Use Magic Device]
   Skill Points at 1st Level::text
     (8 + Int modifier) ×4.
   Skill Points at Each Additional Level::text
@@ -97,6 +88,11 @@ Bard::section
     Bards are proficient with light armor and shields (except tower shields).
 
     A bard can cast bard spells while wearing light armor without incurring the normal arcane spell failure chance.
+  Polygot::text
+    A bard can purchase languages (via the speak language skill) at 1 skill point per language instead of the usual 2 points per language.
+
+  Some Thief Skills::text
+    The bard can purchase ranks in [Pick Pocket] and [Use Magic Device] like a thief can. See the thief for details.
   Bard Spells::text
     A bard casts arcane spells, which are drawn from the bard spell list. He can cast any spell he knows without preparing it ahead of time. Every bard spell has a verbal component (singing, reciting, or music). To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a bard’s spell is 10 + the spell level + the bard’s Charisma modifier.
 

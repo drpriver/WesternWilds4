@@ -46,13 +46,10 @@ Druid::section
     d8
 
   Class Skills::bullets
-    * Craft
     * Diplomacy
-    * Handle Animal
     * Heal
     * Knowledge (nature)
     * Listen
-    * Profession
     * Ride
     * Spellcraft
     * Spot
