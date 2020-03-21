@@ -1,0 +1,44 @@
+Fighter/Thief::section
+  Fighter/Thief Class Table::table
+    ::head
+      Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+    ::row
+      1st | +1    | +2 | +2 | +2 | Bonus fighter feat, Thief Skills, Sneak attack +1d6, Hide in Shadows
+    ::row
+      2nd | +2    | +3 | +3 | +3 | Bonus fighter feat 
+    ::row
+      3rd | +3    | +3 | +3 | +3 | Sneak attack +2d6
+    ::row
+      4th | +4    | +4 | +4 | +4 | Bonus fighter feat
+    ::row
+      5th | +5    | +4 | +4 | +4 | Sneak attack +3d6
+    ::row
+      6th | +6/+1 | +5 | +5 | +5 | Bonus fighter feat 
+    ::row
+      7th | +7/+2 | +5 | +5 | +5 | Sneak attack +4d6
+    ::row
+      8th | +8/+3 | +6 | +6 | +6 | Bonus fighter feat
+  Hit Die::text
+    d8
+  Skill Points at 1st Level:: text
+    (6 + Int modifier) x4
+  Skill Points at Each Additional Level::text
+    6 + Int modifier.
+  Weapon And Armor Proficiency::text
+    A fighter/thief is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). 
+
+    A fighter/thief cannot use any thief skills, sneak attack, or hide in shadows while wearing armor heavier than light armor.
+
+  Bonus Fighter Feat::text
+    At 1st level and every even level, the fighter/thief gets a bonus fighter feat.
+
+  Sneak Attack::text
+    This works like the thief ability. See the thief for details.
+
+  Thief Skills::text
+    This works like the thief ability. See the thief for details.
+
+  Hide in Shadows::text
+    This works like the thief ability. See the thief for details.
+  
+

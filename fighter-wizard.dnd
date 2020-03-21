@@ -1,0 +1,34 @@
+Fighter/Wizard::section
+  Fighter/Wizard Class Table::table
+    ::head
+      Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+    ::row
+      1st | +1    | +2 | +2 | +2 | Bonus fighter feat, Spells and Spellbook
+    ::row
+      2nd | +2    | +3 | +3 | +3 | Bonus fighter feat
+    ::row
+      3rd | +3    | +3 | +3 | +3 |
+    ::row
+      4th | +4    | +4 | +4 | +4 | Bonus fighter feat 
+    ::row
+      5th | +5    | +4 | +4 | +4 |
+    ::row
+      6th | +6/+1 | +5 | +5 | +5 | Bonus fighter feat
+    ::row
+      7th | +7/+2 | +5 | +5 | +5 |
+    ::row
+      8th | +8/+3 | +6 | +6 | +6 | Bonus fighter feat
+  Hit Die::text
+    d7
+  Skill Points at 1st Level:: text
+    (2 + Int modifier) x4
+  Skill Points at Each Additional Level::text
+    2 + Int modifier.
+  Weapon And Armor Proficiency::text
+    A fighter/wizard is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). A fighter/wizard cannot cast any spells while wearing armor. Elven Fighter/Wizards wearing elven chain can cast spells in armor, as magic is part of the nature of elves. However, elven chain is extremely rare and can never be purchased. It must be given, found, or won. It cannot be manufactured as the ways have been lost -- only inherited.
+
+  Bonus Fighter Feat::text
+    At 1st level and every even level, the fighter/wizard gets a bonus fighter feat.
+
+  Spells and Spellbook::text
+    The fighter/wizard prepares, casts, and learns spells in the same manner a wizard does. See the wizard for full information.

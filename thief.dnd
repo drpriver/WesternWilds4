@@ -147,7 +147,7 @@ Thief::section
       Normal::text
         Traps are normally found by descriptive exploration and reasoning rather than rolling dice.
 
-  Hide In Shadows::section
+  Hide In Shadows::text
     The thief is able to blend into shadows and darkness to make himself nearly invisible.
 
     Any amount of shadowy lighting is sufficient to allow the thief to attempt to hide in the shadows.

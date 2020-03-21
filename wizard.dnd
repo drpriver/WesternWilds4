@@ -55,7 +55,8 @@ Wizard::section
     2 + Int modifier
 
   Weapon and Armor Proficiency::text
-    Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. Armor of any type interferes with a wizard’s movements, which can cause her spells with somatic components to fail.
+    Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. 
+    Wizards cannot cast spells while wearing armor or shields.
 
   Spells::text
     A wizard casts arcane spells which are drawn from the sorcerer/wizard spell list. A wizard must choose and prepare her spells ahead of time (see below).
@@ -94,7 +95,7 @@ Wizard::section
           This seems harsh, but it means that wizards (even in the same party) will have different spells and thus play differently (otherwise two wizards in the same party would likely share their spells and have duplicate spell knowledge). I also like the flavor of spells as alien things that are only compatible with certain brains.
 
       Spells Gained at a New Level::text
-        Wizards perform a certain amount of spell research between adventures. Each time a character attains a new wizard level, she gains two spells of her choice to add to her spellbook. The two free spells must be of spell levels she can cast. Pick spells from the wizard spell list that the wizard could cast at this new level. Roll learning checks until the wizard has learned two new spells. If the list of spells at a certain level is exhausted, the DM will invent new spells.
+        Wizards perform a certain amount of spell research between adventures. Each time a character attains a new wizard level, she gains two spells of her choice to add to her spellbook. The two free spells must be of spell levels she can cast. Pick spells from the wizard spell list that the wizard could cast at this new level. Roll learning checks until the wizard has learned two new spells. Keep picking spells and rolling until the wizard learns two spells. If the list of spells at a certain level is exhausted, the DM will invent new spells.
 
       Spells Copied from a Scroll or Spellbook::text
         A wizard can also add a spell to her book whenever she encounters one on a magic scroll or in another wizard’s spellbook. No matter what the spell’s source, the wizard must first decipher the magical writing (see Arcane Magical Writings, above). Next, she must spend a day studying the spell. At the end of the day, she must make a learning check (see above). If the check succeeds, the wizard understands the spell and can copy it into her spellbook (see Writing a New Spell into a Spellbook, below). If the check fails, she can never understand the spell. The process leaves a spellbook that was copied from unharmed, but a spell successfully copied from a magic scroll disappears from the parchment. A failed learning check with a scroll also consumes it.
