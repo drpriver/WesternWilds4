@@ -1,9 +1,5 @@
   Gnomes::section.race
     ::bullets
-      * +2 Constitution, -2 Strength.
-      * Small: As a Small creature, a gnome gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but he uses smaller weapons than humans use, and his lifting and carrying limits are three-quarters of those of a Medium character.
-      * Gnome base land speed is 20 feet.
-      * Low-Light Vision: A gnome can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.
       * Weapon Familiarity: Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.
       * +2 racial bonus on saving throws against illusions.
       * Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes. This adjustment stacks with those from similar effects.
@@ -13,3 +9,30 @@
       * +2 racial bonus on Craft (alchemy) checks.
       * Automatic Languages: Common and Gnome. Bonus Languages: Draconic, Dwarven, Elven, Giant, Goblin, and Orc. In addition, a gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like, see below). This ability is innate to gnomes. See the speak with animals spell description.
       * Spell-Like Abilities: 1/day—speak with animals (burrowing mammal only, duration 1 minute). A gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day—dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + gnome’s Cha modifier + spell level.
+  Gnomes::section.race
+    Ability Score Adjustments::text
+      +2 [Constitution], -2 [Strength]
+    Small Creature::text
+      As a Small creature, a gnome gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but he uses smaller weapons than humans use, and his lifting and carrying limits are three-quarters of those of a Medium character.
+      A Gnome's base land speed is 20 feet.
+    Natural Illusionists::text
+      Gnomes can create some illusionary effects. Once per day, they can create dancing lights, ghost sound and prestidigitation.
+
+      Additionally, if a gnome casts an illusion spell, the DC to resist it is 1 point higher.
+      Gnomes receive a +2 bonus on saving throws against illusions due to their familiarity with them.
+    Low-light Vision::text
+      A gnome can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.
+    Racial Enemies::text
+      Gnomes receive a +1 bonus on attack rolls against kobolds and goblinoids.
+
+      +4 dodge bonus to Armor Class against any giant type monster or monster that is humanoid in shape and Large or larger.
+    Gnomish Weapons::text
+      Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.
+    Sharp Ears::text
+      Gnomes have a +2 bonus to listen checks.
+    Alchemists::text
+      Gnomes have a +2 bonus to alchemy checks. This counts as 2 bonus ranks for effects that care how many ranks in alchemy you have, but do not count against the gnome for how many ranks he may purchase.
+    Languages::text
+      All gnomes speak Gnome and all adventuring elves speak common. Gnomes who receive bonus languages due to a high [Intelligence] can choose from Draconic, Dwarven, Elven, Giant, Goblin and Orc.
+
+      In addition, a gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like) once per day.

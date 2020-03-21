@@ -1,10 +1,18 @@
   Halflings::section.race
-    ::bullets
-      * +2 Dexterity, -2 Strength.
-      * Small: As a Small creature, a halfling gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but she uses smaller weapons than humans use, and her lifting and carrying limits are three-quarters of those of a Medium character.
-      * Halfling base land speed is 20 feet.
-      * +2 racial bonus on Climb, Jump, Listen, and Move Silently checks.
-      * +1 racial bonus on all saving throws.
-      * +2 morale bonus on saving throws against fear: This bonus stacks with the halfling’s +1 bonus on saving throws in general.
-      * +1 racial bonus on attack rolls with thrown weapons and slings.
-      * Automatic Languages: Common and Halfling. Bonus Languages: Dwarven, Elven, Gnome, Goblin, and Orc.
+    Ability Score Adjustments::text
+      +2 [Dexterity], -2 [Strength]
+    Small Creature::text
+      As a Small creature, a halfling gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but she uses smaller weapons than humans use, and her lifting and carrying limits are three-quarters of those of a Medium character.
+
+      A Halfling's base land speed is 20 feet.
+
+    Halfling athleticism::text
+      Halflings receive +2 bonus to [Climb], [Jump], [Listen] and [Move Silently] checks.
+    Lucky::text
+      Halflings get a +1 bonus to all saving throws
+
+      Halflings get a +1 racial bonus on attack rolls with thrown weapons and slings (lucky shot).
+    Brave::text
+      Halflings get a +2 morale bonus on saving throws against fear: This bonus stacks with the halfling’s +1 bonus on saving throws in general.
+    Languages::text
+      All Halflings speak Halfling and all adventuring halflings speak Common. Halflings who receive bonus languages due to a high [Intelligence] can choose from Dwarven, Elven, Gnome, Goblin and Orc.

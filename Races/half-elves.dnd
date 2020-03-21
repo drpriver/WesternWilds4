@@ -1,10 +1,16 @@
   Half-Elves::section.race
-    ::bullets
-      * Medium: As Medium creatures, half-elves have no special bonuses or penalties due to their size.
-      * Half-elf base land speed is 30 feet.
-      * Immunity to sleep spells and similar magical effects, and a +2 racial bonus on saving throws against enchantment spells or effects.
-      * Low-Light Vision: A half-elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.
-      * +1 racial bonus on Listen, Search, and Spot checks.
-      * +2 racial bonus on Diplomacy and Gather Information checks.
-      * Elven Blood: For all effects related to race, a half-elf is considered an elf.
-      * Automatic Languages: Common and Elven. Bonus Languages: Any (other than secret languages, such as Druidic).
+    Ability Score Adjustments::text
+      +1 [Dexterity], -1 [Constitution]
+    Medium Createure::text
+      As Medium creatures, half-elves have no special bonuses or penalties due to their size.
+      A Half-elf's base land speed is 30 feet.
+    Elven Blood::text
+      For all effects related to race, a half-elf is considered both a human and an elf.
+    Low-light Vision::text
+      A half-elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.
+    Half-Sharp senses::text
+      Half-Elves also enjoy a +1 bonus to [Listen] and [Spot] checks.  Half-Elven thieves get a +1 bonus to [Find Secret Door or Compartment] and a +1 bonus when attempting to find a trap.
+    Extra Feat::text
+      Half-Elves start play with 1 extra [feat] at 1st level.
+    Languages::text
+      All half-elves speak common and elven. Half-elves can choose any common language other than secret languages for their bonus languages due to high [Intelligence]

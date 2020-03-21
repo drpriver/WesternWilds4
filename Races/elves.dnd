@@ -1,11 +1,23 @@
-
   Elves::section.race
-    ::bullets
-      * +2 Dexterity, -2 Constitution.
-      * Medium: As Medium creatures, elves have no special bonuses or penalties due to their size.
-      * Elf base land speed is 30 feet.
-      * Immunity to magic sleep effects, and a +2 racial saving throw bonus against enchantment spells or effects.
-      * Low-Light Vision: An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.
-      * Weapon Proficiency: Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats.
-      * +2 racial bonus on Listen, Search, and Spot checks. An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it.
-      * Automatic Languages: Common and Elven. Bonus Languages: Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan.
+    Ability Score Adjustments::text
+      +2 [Dexterity], -2 [Constitution]
+    Medium Creature::text
+      As Medium creatures, elves have no special bonuses or penalties due to their size.
+      An Elf's base land speed is 30 feet.
+    Alien Brains::text
+      Elves' brains are alien and otherworldly. They do not sleep, instead they meditate for 4 hours in state known as trancing. 4 hours of trancing a night gives the same benefits as 8 hours of sleep does a human.
+
+      Due to this, elves are immune to sleep effects, and  get a +2 racial saving throw bonus against enchantment spells or effects.
+
+      Additionally, their brains are particularly well-shaped for holding spells in their mind, which grants them +1 on spell learning checks (see the wizard) and allows them to cast an extra 1st level wizard spell each day if they are a wizard.
+
+    Low-light Vision::text
+      An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.
+    Elven Weapon Training::text
+      Elves are proficient in the use of the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow). These proficiencies are in addition to those allowed by their class, although specific oaths or beliefs (like the druid's) might prevent their use. These weapons do not count as monk weapons for Elven monks.
+    Sharp Senses::text
+      Elves are 1 pip in 6 better at finding secret doors and have a 1-in-6 chance of discovering a secret door by merely passing within 5 feet of a secret or concealed door. This roll is made secretly by the DM.
+
+      Elves also enjoy a +2 bonus to [Listen] and [Spot] checks.  Elven thieves get a +2 bonus to [Find Secret Door or Compartment] and a +2 bonus when attempting to find a trap.
+    Languages::text
+      All elves speak Elven and all adventuring elves speak common. Elves who receive bonus languages due to a high [Intelligence] can choose from Draconic, Gnoll, Gnome, Goblin, Orc and Sylvan.
