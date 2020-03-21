@@ -42,10 +42,10 @@ Paladin::section
     * Sense Motive
 
   Skill Points at 1st Level::text
-    (2 + Int modifier) ×4.
+    (4 + Int modifier) ×4.
 
   Skill Points at Each Additional Level::text
-    2 + Int modifier.
+    4 + Int modifier.
 
   Weapon and Armor Proficiency::text
     Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).

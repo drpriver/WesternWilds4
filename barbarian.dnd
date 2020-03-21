@@ -32,9 +32,9 @@ Barbarian::section
     * [Survival]
     * [Swim]
   Skill Points at 1st Level::text
-    (4+1 [Int] modifier) x 4
+    (6+ [Int] modifier) x 4
   Skill Points At Each Additional Level::text
-    4 + [Int] modifier
+    6 + [Int] modifier
   Weapon Proficiencies::text
     All simple and martial weapons
   Armor Proficiencies::text

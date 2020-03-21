@@ -11,7 +11,7 @@ Fighter/Wizard::section
     ::row
       4th | +4    | +4 | +4 | +4 | Bonus fighter feat 
     ::row
-      5th | +5    | +4 | +4 | +4 |
+      5th | +5    | +4 | +4 | +4 | Bonus wizard feat
     ::row
       6th | +6/+1 | +5 | +5 | +5 | Bonus fighter feat
     ::row
@@ -21,9 +21,9 @@ Fighter/Wizard::section
   Hit Die::text
     d7
   Skill Points at 1st Level:: text
-    (2 + Int modifier) x4
+    (4 + Int modifier) x4
   Skill Points at Each Additional Level::text
-    2 + Int modifier.
+    4 + Int modifier.
   Weapon And Armor Proficiency::text
     A fighter/wizard is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). A fighter/wizard cannot cast any spells while wearing armor. Elven Fighter/Wizards wearing elven chain can cast spells in armor, as magic is part of the nature of elves. However, elven chain is extremely rare and can never be purchased. It must be given, found, or won. It cannot be manufactured as the ways have been lost -- only inherited.
 
@@ -32,3 +32,6 @@ Fighter/Wizard::section
 
   Spells and Spellbook::text
     The fighter/wizard prepares, casts, and learns spells in the same manner a wizard does. See the wizard for full information.
+
+  Bonus Wizard Feat::text
+    At 5th level, the fighter/wizard gets a bonus wizard feat.

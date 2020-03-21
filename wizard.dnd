@@ -3,7 +3,7 @@ Wizard::section
     ::head
       Level | Base Attack Bonus | Fort Save | Ref Save  | Will Save | Special
     ::row
-      1st   | +0                | +0        | +0        | +2        | Summon familiar
+      1st   | +0                | +0        | +0        | +2        | Summon familiar, Bonus Wizard Feat
     ::row
       2nd   | +1                | +0        | +0        | +3        |                                  
     ::row
@@ -49,10 +49,10 @@ Wizard::section
     * Spellcraft
 
   Skill Points at 1st Level::text
-    (2 + Int modifier) ×4
+    (4 + Int modifier) ×4
 
   Skill Points at Each Additional Level::text
-    2 + Int modifier
+    4 + Int modifier
 
   Weapon and Armor Proficiency::text
     Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. 
@@ -128,5 +128,8 @@ Wizard::section
 
     Selling a Spellbook::text
       Captured spellbooks can be sold for a gp amount in the ballpark of 20gp x the number of pages used. A particular wizard may be willing to pay a higher price if it contains several novel to him spells.
+
+    Bonus Feat::text
+      At 1st and 5th level, the wizard get a bonus wizard feat.
 
 

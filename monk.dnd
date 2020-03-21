@@ -44,10 +44,10 @@ Monk::section
     * Tumble
 
   Skill Points at 1st Level::text
-    (4 + Int modifier) ×4.
+    (6 + Int modifier) ×4.
 
   Skill Points at Each Additional Level::text
-    4 + Int modifier.
+    6 + Int modifier.
 
   Weapon and Armor Proficiency::text
     Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama, nunchaku, quarterstaff, sai, shuriken, siangham, and sling.

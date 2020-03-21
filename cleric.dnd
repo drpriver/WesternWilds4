@@ -59,10 +59,10 @@ Cleric::section
     A cleric who chooses the Animal or Plant domain adds Knowledge (nature) (Int) to the cleric class skills listed above. A cleric who chooses the Knowledge domain adds all Knowledge (Int) skills to the list. A cleric who chooses the Travel domain adds Survival (Wis) to the list. A cleric who chooses the Trickery domain adds Bluff (Cha), Disguise (Cha), and Hide (Dex) to the list. See Deity, Domains, and Domain Spells, for more information.
 
   Skill Points at 1st Level::text
-    (2 + Int modifier) ×4.
+    (4 + Int modifier) ×4.
 
   Skill Points at Each Additional Level::text
-    2 + Int modifier.
+    4 + Int modifier.
 
   Weapon and Armor Proficiency::text
     Clerics are proficient with all simple weapons, with all types of armor (light, medium, and heavy), and with shields (except tower shields).

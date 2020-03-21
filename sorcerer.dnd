@@ -3,7 +3,7 @@ Sorcerer::section
     ::head
       Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
     ::row
-      1st   | +0                | +0        | +0       | +2        | Summon familiar
+      1st   | +0                | +0        | +0       | +2        | Summon familiar, Bonus Sorcerer Feat
     ::row
       2nd   | +1                | +0        | +0       | +3        |
     ::row
@@ -11,7 +11,7 @@ Sorcerer::section
     ::row
       4th   | +2                | +1        | +1       | +4        |
     ::row
-      5th   | +2                | +1        | +1       | +4        |
+      5th   | +2                | +1        | +1       | +4        | Bonus Sorcerer Feat
     ::row
       6th   | +3                | +2        | +2       | +5        |
     ::row
@@ -69,10 +69,10 @@ Sorcerer::section
     Spellcraft
 
   Skill Points at 1st Level::text
-    (2 + Int modifier) × 4
+    (4 + Int modifier) × 4
 
   Skill Points at Each Additional Level::text
-    2 + Int modifier
+    4 + Int modifier
 
   Weapon and Armor Proficiency::text
     Sorcerers are proficient with all simple weapons. 
@@ -102,3 +102,6 @@ Sorcerer::section
     If the familiar dies, the sorcerer must roll against [System Shock]. Failure means he loses 200 experience points per sorcerer level; success reduces the loss to one-half that amount. However, a sorcerer’s experience point total can never go below 0 as the result of a familiar’s demise or dismissal. A slain or dismissed familiar cannot be replaced for a year and day. A slain familiar can be raised from the dead just as a character can be, and it does not lose a level or a Constitution point when this happy event occurs.
 
     A character with more than one class that grants a familiar may have only one familiar at a time.
+
+  Bonus Sorcerer Feat::text
+    At 1st and 5th level the sorcerer gains a bonus sorcerer feat.

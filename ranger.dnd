@@ -46,10 +46,10 @@ Ranger::section
     * Use Rope
 
   Skill Points at 1st Level::text
-    (6 + Int modifier) ×4.
+    (8 + Int modifier) ×4.
 
   Skill Points at Each Additional Level::text
-    6 + Int modifier.
+    8 + Int modifier.
 
   Weapon and Armor Proficiency::text
     A ranger is proficient with all simple and martial weapons, and with light armor, medium armor, heavy armor and shields (except tower shields).

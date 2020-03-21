@@ -60,10 +60,10 @@ Druid::section
     * Swim
 
   Skill Points at 1st Level::text
-    (4 + Int modifier) ×4.
+    (6 + Int modifier) ×4.
 
   Skill Points at Each Additional Level::text
-    4 + Int modifier.
+    6 + Int modifier.
 
   Weapon and Armor Proficiency::text
     Druids are proficient with the following weapons: club, dagger, dart, quarterstaff, scimitar, sickle, shortspear, sling, and spear. They are also proficient with all natural attacks (claw, bite, and so forth) of any form they assume with wild shape.

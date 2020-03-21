@@ -88,9 +88,9 @@ Bard::section
     * [Tumble]
     * [Use Magic Device]
   Skill Points at 1st Level::text
-    (6 + Int modifier) ×4.
+    (8 + Int modifier) ×4.
   Skill Points at Each Additional Level::text
-    6 + Int modifier.
+    8 + Int modifier.
   Weapon Proficiencies::text
     A bard is proficient with all simple weapons, plus the longsword, rapier, sap, short sword, shortbow, and whip.
   Armor Proficiencies::text
