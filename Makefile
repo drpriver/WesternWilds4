@@ -14,6 +14,15 @@ CLASSES=classes.dnd\
 	fighter-wizard.dnd\
 	fighter-thief.dnd\
 
+RACES=races.dnd\
+      humans.dnd\
+      dwarves.dnd\
+      elves.dnd\
+      gnomes.dnd\
+      half-elves.dnd\
+      half-orcs.dnd\
+      halflings.dnd\
+
 SPELLS=spells.dnd\
 
 FEATS=feats.dnd\
@@ -31,6 +40,8 @@ FEATS=feats.dnd\
 	wizard-feats.dnd
 
 ALL=basics.dnd\
+    $(addprefix Races/,$(RACES))\
+    alignment.dnd\
     $(addprefix Classes/,$(CLASSES))\
     skills.dnd\
     $(addprefix Feats/,$(FEATS))\

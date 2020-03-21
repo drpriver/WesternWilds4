@@ -1,40 +1,39 @@
-Fighter/Thief::section
-  Fighter/Thief Class Table::table
-    ::head
-      Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
-    ::row
-      1st | +1    | +2 | +2 | +2 | Bonus fighter feat, Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker
-    ::row
-      2nd | +2    | +3 | +3 | +3 | Bonus fighter feat, Evasion
-    ::row
-      3rd | +3    | +3 | +3 | +3 | Sneak attack +2d6
-    ::row
-      4th | +4    | +4 | +4 | +4 | Bonus fighter feat
-    ::row
-      5th | +5    | +4 | +4 | +4 | Sneak attack +3d6
-    ::row
-      6th | +6/+1 | +5 | +5 | +5 | Bonus fighter feat 
-    ::row
-      7th | +7/+2 | +5 | +5 | +5 | Sneak attack +4d6
-    ::row
-      8th | +8/+3 | +6 | +6 | +6 | Bonus fighter feat
-  Hit Die::text
-    d8
-  Skill Points at 1st Level:: text
-    (7 + Int modifier) x4
-  Skill Points at Each Additional Level::text
-    7 + Int modifier.
-  Weapon And Armor Proficiency::text
-    A fighter/thief is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). 
+  Fighter/Thief::section
+    Fighter/Thief Class Table::table
+      ::head
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+      ::row
+        1st | +1    | +2 | +2 | +2 | Bonus fighter feat, Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker
+      ::row
+        2nd | +2    | +3 | +3 | +3 | Bonus fighter feat, Evasion
+      ::row
+        3rd | +3    | +3 | +3 | +3 | Sneak attack +2d6
+      ::row
+        4th | +4    | +4 | +4 | +4 | Bonus fighter feat
+      ::row
+        5th | +5    | +4 | +4 | +4 | Sneak attack +3d6
+      ::row
+        6th | +6/+1 | +5 | +5 | +5 | Bonus fighter feat 
+      ::row
+        7th | +7/+2 | +5 | +5 | +5 | Sneak attack +4d6
+      ::row
+        8th | +8/+3 | +6 | +6 | +6 | Bonus fighter feat
+    Hit Die::text
+      d8
+    Skill Points at 1st Level:: text
+      (7 + Int modifier) x4
+    Skill Points at Each Additional Level::text
+      7 + Int modifier.
+    Weapon And Armor Proficiency::text
+      A fighter/thief is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). 
 
-    A fighter/thief cannot use any thief skills, sneak attack, or hide in shadows while wearing armor heavier than light armor.
+      A fighter/thief cannot use any thief skills, sneak attack, or hide in shadows while wearing armor heavier than light armor.
 
-  Bonus Fighter Feat::text
-    At 1st level and every even level, the fighter/thief gets a bonus fighter feat.
+    Bonus Fighter Feat::text
+      At 1st level and every even level, the fighter/thief gets a bonus fighter feat.
 
-  Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
-    These function as the theif ability. See the thief for details
+    Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
+      These function as the theif ability. See the thief for details
 
-  Evasion::text
-    At 2nd level, the fighter/thief gains evasion. See the thief for details.
-
+    Evasion::text
+      At 2nd level, the fighter/thief gains evasion. See the thief for details.

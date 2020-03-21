@@ -1,0 +1,31 @@
+Races::section
+  Languages::section
+    ::text
+      All characters know how to speak Common. A dwarf, elf, gnome, half-elf, half-orc, or halfling also speaks a racial language, as appropriate. A character who has an Intelligence bonus at 1st level speaks other languages as well, one extra language per point of Intelligence bonus as a starting character.
+
+    Literacy::section
+      ::text
+        Any character except a barbarian can read and write all the languages he or she speaks.
+
+    Class-Related Languages::section
+      ::text
+        Clerics, druids, rangers, and wizards can choose certain languages as bonus languages even if they’re not on the lists found in the race descriptions. These class-related languages are as follows:
+      ::table
+        ::head
+          Class | Languages
+        ::row
+          Cleric | Abyssal, Celestial, Infernal
+        ::row
+          Druid | Sylvan
+        ::row
+          Wizard | Draconic
+        ::row
+          Ranger | Giant, Goblin, Orc
+
+  Small Characters::section
+    ::text
+      A Small character gets a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks. A Small character’s carrying capacity is three-quarters of that of a Medium character.
+
+      A Small character generally moves about two-thirds as fast as a Medium character.
+
+      A Small character must use smaller weapons than a Medium character.

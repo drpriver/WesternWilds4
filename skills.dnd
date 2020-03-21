@@ -85,7 +85,7 @@ Skills::section
 
 
 The Skills::section
-  Appraise (Int)::section
+  Appraise (Int)::section.skill_description
     ::text
       You can appraise common or well-known objects with a DC 12 Appraise check. Failure means that you estimate the value at 50% to 150% (2d6+3 times 10%,) of its actual value.
 
@@ -98,7 +98,7 @@ The Skills::section
     Synergy::text
       If you have 5 ranks in any Craft skill, you gain a +2 bonus on Appraise checks related to items made with that Craft skill.
 
-  Bluff (Cha)::section
+  Bluff (Cha)::section.skill_description
     Lying::text
       A bluff check is made to convince another creature that you are speaking earnestly. This is usually necessary when the DM knows your character is lying. The DC for a bluff check is the target's wisdom score. The bluff skill is not used on players for this purpose - the DM just has the character lie and the players must decide for themselves whether the character is lying or not based on their knowledge and the character's behavior.
 
@@ -123,7 +123,7 @@ The Skills::section
     Delivering a Secret Message::text
       You can use Bluff to get a message across to another character without others understanding it. The DC is 15 for simple messages, or 20 for complex messages, especially those that rely on getting across new information. Failure by 4 or less means you can’t get the message across. Failure by 5 or more means that some false information has been implied or inferred. Anyone listening to the exchange can make a Listen check opposed by the Bluff check you made to transmit in order to intercept your message.
 
-  Climb (Str)::section
+  Climb (Str)::section.skill_description
     ::text
       Note that armor check penalties apply to climbing.
 
@@ -182,7 +182,7 @@ The Skills::section
         +5  | Surface is slippery (increases DC by 5).
       ::row
         +5  | Climbing at 1/2 instead of 1/4 speed
-  Diplomacy (Cha)::section
+  Diplomacy (Cha)::section.skill_description
     ::text
       Diplomacy is used to break the ice, calm people down, and ???
       In general, the players talk to the NPCs and the DM may call for diplomacy checks for certain things.
@@ -205,7 +205,7 @@ The Skills::section
 
     End a Combat as a Draw::text
       The DC for this is 15 if neither side particularly has the upper hand and fighting in neutral territory.
-  Disguise (Dex)::section
+  Disguise (Dex)::section.skill_description
     ::text
       Your Disguise check result determines how good the disguise is, and it is opposed by others’ Spot check results. If you don’t draw any attention to yourself, others do not get to make Spot checks. If you come to the attention of people who are suspicious (such as a guard who is watching commoners walking through a city gate), it can be assumed that such observers rolled a 10 on their Spot checks.
 
@@ -233,7 +233,7 @@ The Skills::section
       ::row
         Disguised as different age category  | -2
 
-  Escape Artist (Dex) ::section
+  Escape Artist (Dex) ::section.skill_description
     ::text
       Armor check penalty applies.
     ::text
@@ -256,7 +256,7 @@ The Skills::section
         Masterwork manacles | 35
       ::row
         Grappler  | Grappler’s grapple check result
-  Forgery (Int)::section
+  Forgery (Int)::section.skill_description
     ::text
       Forgery requires writing materials appropriate to the document being forged, enough light or sufficient visual acuity to see the details of what you’re writing, wax for seals (if appropriate), and some time. To forge a document on which the handwriting is not specific to a person (military orders, a government decree, a business ledger, or the like), you need only to have seen a similar document before, and you gain a +8 bonus on your check. To forge a signature, you need an autograph of that person to copy, and you gain a +4 bonus on the check. To forge a longer document written in the hand of some particular person, a large sample of that person’s handwriting is needed.
 
@@ -283,7 +283,7 @@ The Skills::section
         Handwriting intimately known to reader | +2
       ::row
         Reader only casually reviews the document | -2
-  Gather Information (Cha)::section
+  Gather Information (Cha)::section.skill_description
     ::text
       Gather information can be used to obtain local rumors and find out semi-hidden local knowledge (for example, the location of a black market, which the average person on the street won't tell you).
 
@@ -299,7 +299,7 @@ The Skills::section
         Learn Semi-hidden location (black market, etc.) | 12 | 2d12 | Learn its location
       ::row
         Learn habits of specific person | 2d20gp | 16 | Learn 2d4 habits
-  Heal (Wis) ::section
+  Heal (Wis) ::section.skill_description
     First Aid::text
       A character with at least 3 ranks in heal can recover some of a character’s hit points suffered from a combat or traumatic event (like falling off a ladder).
 
@@ -329,7 +329,7 @@ The Skills::section
     Perform Surgery::text
       Some surgeries require heal checks.
 
-  Stealth (Dex)::section
+  Stealth (Dex)::section.skill_description
     Hide::text
       If the character has the Hide in Shadows class feature, use those rules instead.
 
@@ -348,7 +348,7 @@ The Skills::section
     Move Silently::text
       Moving silently is opposed by the listen check of anyone who might hear you.
 
-  Jump (Str)::section
+  Jump (Str)::section.skill_description
     ::text 
       Armor check penalty applies to jumping.
 
@@ -422,12 +422,12 @@ The Skills::section
         25 feet|  25
       ::row
         30 feet|  30
-  Listen (Wis)::section
+  Listen (Wis)::section.skill_description
     ::text
       Listen is used to hear things, like on the other side of doors and such.
       Usually the DM rolls the listen check.
 
-  Perform (Cha)::section
+  Perform (Cha)::section.skill_description
     ::text
       You could have several Perform skills, each with its own ranks, each purchased as a separate skill.
 
@@ -446,7 +446,7 @@ The Skills::section
 
     ::text
       Performance can be used to impress people, make a living, etc.
-  Ride (Dex):: section
+  Ride (Dex):: section.skill_description
     ::text
       A character with no ranks in ride can still ride a horse, but cannot effectively control a mount in combat.
 
@@ -470,7 +470,7 @@ The Skills::section
     Fast Mount or Dismount (DC 20):: text
       You can attempt to mount or dismount from a mount of up to one size category larger than yourself as a free action, provided that you still have a move action available that round. If you fail the Ride check, mounting or dismounting is a move action. You can’t use fast mount or dismount on a mount more than one size category larger than yourself.
 
-  Sailing (Wis)::section
+  Sailing (Wis)::section.skill_description
     ::text
       Sailing is used when working on a ship. A single character acts as pilot for the ship. Another character acts as navigator.
 
@@ -490,11 +490,11 @@ The Skills::section
         (Pilot) Speed up: Ship gains +20% speed this round | 15
         
       
-  Speak Language (None) ::section
+  Speak Language (None) ::section.skill_description
     The speak language skill doesn't work like other skills.
     Instead of buying ranks in it, you spend 2 skill points and learn a new language.
 
-  Spellcraft (Int, trained only)::section
+  Spellcraft (Int, trained only)::section.skill_description
     ::text
       You can identify spells and magic effects. The DCs for Spellcraft checks relating to various tasks are summarized on the table below.
     ::table
@@ -522,7 +522,7 @@ The Skills::section
         20 | Draw a diagram to allow dimensional anchor to be cast on a magic circle spell. Requires 10 minutes. This check is made secretly so you do not know the result.
       ::row
         30 or higher | Understand a strange or unique magical effect, such as the effects of a magic stream
-  Spot (Wis)::section
+  Spot (Wis)::section.skill_description
     ::text
       Spot is used to spot things. DM will set DCs. Usually use is opposed checks.
     Spot Check Penalties::table
@@ -532,7 +532,7 @@ The Skills::section
         Per 10 feet of distance | -1
       ::row
         Spotter distracted | -5
-  Survival (Wis)::section
+  Survival (Wis)::section.skill_description
     ::table
       ::head
         Survival DC | Task
@@ -552,7 +552,7 @@ The Skills::section
     ::text
       Rangers can use survival to [Track]
 
-  Swim (Str)::section
+  Swim (Str)::section.skill_description
     ::text
       Swimming in armor of medium or heavier is impossible. If you are wearing medium or heavy armor you immediately start sinking and go underwater. The time to remove armor is doubled in the water.
 
@@ -573,7 +573,7 @@ The Skills::section
         Rough Water or Open Ocean | 15
       ::row
         Stormy Water | 20
-  Tumble (Dex, trained only)::section
+  Tumble (Dex, trained only)::section.skill_description
     ::text
       Armor check penalty applies
 

@@ -1,157 +1,157 @@
-Paladin::section
-  Paladin Class Table::table
-    ::head
-      Level| Base Attack Bonus  |Fort Save  |Ref Save  |Will Save  |Special                                | 1st level Spells per Day
-    ::row
-      1st  | +1                 | +2        | +0       | +0        | Aura of good, detect evil, Smite Evil | 
-    ::row
-      2nd  | +2                 | +3        | +0       | +0        | Divine grace, lay on hands            |
-    ::row
-      3rd  | +3                 | +3        | +1       | +1        | Aura of courage, divine health        |
-    ::row
-      4th  | +4                 | +4        | +1       | +1        | Turn undead                           | 0
-    ::row
-      5th  | +5                 | +4        | +1       | +1        | Special mount                         | 0
-    ::row
-      6th  | +6/+1              | +5        | +2       | +2        | Remove disease 1/week                 | 1
-    ::row
-      7th  | +7/+2              | +5        | +2       | +2        |                                       | 1  
-    ::row
-      8th  | +8/+3              | +6        | +2       | +2        |                                       | 1 
-
-  Alignment Requirement::text
-    Lawful good
-
-    Additionally, due to the paladin's strict code of conduct, a paladin player should get the other players to agree 
-    that they will not engage in chaotic/evil acts. If this cannot be agreed to, the paladin player should pick a 
-    different class as internal strife will result.
-
-  Hit Die::text
-    d10
-
-  Class Skills::bullets
-    * Diplomacy
-    * Heal
-    * Knowledge (nobility and royalty)
-    * Knowledge (religion)
-    * Ride
-
-  Skill Points at 1st Level::text
-    (4 + Int modifier) ×4.
-
-  Skill Points at Each Additional Level::text
-    4 + Int modifier.
-
-  Weapon and Armor Proficiency::text
-    Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).
-
-  Aura of Good::text
-    The power of a paladin’s aura of good is equal to his paladin level.
-
-  Detect Evil::text
-    At will, a paladin can use detect evil, as the spell.
-
-  Smite Evil::text
-    Once per day per paladin level, a paladin may attempt to smite evil with one normal melee attack. He adds his Charisma bonus (if any) to his attack roll and deals 1 extra point of damage per paladin level. If the paladin accidentally smites a creature that is not evil, the smite has no effect, but the ability is still used up for that day.
-    Smite evil ignores the incorporeal miss change of ghosts and causes the weapon to be treated as magical, lawful, and good.
-
-  Divine Grace::text
-    At 2nd level, a paladin gains a bonus equal to his Charisma bonus (if any) on all saving throws.
-
-  Lay on Hands::text
-    Beginning at 2nd level, a paladin with a Charisma score of 12 or higher can heal wounds (his own or those of others) by touch. Each day he can heal a total number of hit points of damage equal to his paladin level × his Charisma bonus. A paladin may choose to divide his healing among multiple recipients, and he doesn’t have to use it all at once. Using lay on hands is a standard action.
-
-    Alternatively, a paladin can use any or all of this healing power to deal damage to undead creatures. Using lay on hands in this way requires a successful melee touch attack and doesn’t provoke an attack of opportunity. The paladin decides how many of his daily allotment of points to use as damage after successfully touching an undead creature.
-
-  Aura of Courage::text
-    Beginning at 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of his gains a +4 morale bonus on saving throws against fear effects.
-
-    This ability functions while the paladin is conscious, but not if he is unconscious or dead.
-
-  Divine Health::text
-    At 3rd level, a paladin gains immunity to all diseases, including supernatural and magical diseases.
-
-  Turn Undead::text
-    When a paladin reaches 4th level, he gains the supernatural ability to turn undead. He may use this ability a number of times per day equal to 3 + his Charisma modifier. He turns undead as a cleric of three levels lower would.
-
-  Spells::text
-    Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells, which are drawn from the paladin spell list. A paladin must choose and prepare his spells in advance.
-
-    To prepare or cast a spell, a paladin must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a paladin’s spell is 10 + the spell level + the paladin’s Wisdom modifier.
-
-    Like other spellcasters, a paladin can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Paladin. In addition, he receives bonus spells per day if he has a high Wisdom score. When Table: The Paladin indicates that the paladin gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level The paladin does not have access to any domain spells or granted powers, as a cleric does.
-
-    A paladin prepares and casts spells the way a cleric does. A paladin may prepare and cast any spell on the paladin spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.
-
-    Through 3rd level, a paladin has no caster level. At 4th level and higher, his caster level is one-half his paladin level.
-
-  Special Mount::text
-    Upon reaching 5th level, a paladin gains the service of an unusually intelligent, strong, and loyal steed to serve his in his crusade against evil. This mount is usually a heavy warhorse (for a Medium paladin) or a warpony (for a Small paladin). The paladin might earn special mounts from quests or as rewards from celestial forces.
-
-    Once per day, as a full-round action, a paladin may magically call his mount from the celestial realms in which it resides. This ability is the equivalent of a spell of a level equal to one-third the paladin’s level. The mount immediately appears adjacent to the paladin and remains until dismissed; it may be dismissed at any time as a free action. The mount is the same creature each time it is summoned, though the paladin may release a particular mount from service. However, this should not be done lightly.
-
-    Each time the mount is called, it appears in full health, regardless of any damage it may have taken previously. The mount also appears wearing or carrying any gear it had when it was last dismissed.
-
-    Should the paladin’s mount die, it immediately disappears, leaving behind any equipment it was carrying. The paladin may not summon another mount for thirty days or until he gains a paladin level, whichever comes first, even if the mount is somehow returned from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack and weapon damage rolls.
-
-  Remove Disease::text
-    At 6th level, a paladin can produce a remove disease effect, as the spell, once per week.
-
-  Code of Conduct::text
-    A paladin must be of lawful good alignment and loses all class abilities if he ever willingly commits an evil act.
-
-    Additionally, a paladin’s code requires that he respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help for evil or chaotic ends), and punish those who harm or threaten innocents.
-
-  Associates::text
-    While he may adventure with characters of any good or neutral alignment, a paladin will never knowingly associate with evil characters, nor will he continue an association with someone who consistently offends his moral code. A paladin may accept only henchmen, followers, or cohorts who are lawful good.
-
-  Paladin's Mount::section
-    ::text
-      The paladin’s mount is superior to a normal mount of its kind and has special powers, as described below. The standard mount for a Medium paladin is a heavy warhorse, and the standard mount for a Small paladin is a warpony. Another kind of mount, such as a riding dog (for a halfling paladin) or a Large shark (for a paladin in an aquatic campaign) may be allowed as well.
-
-      A paladin’s mount is treated as a magical beast, not an animal, for the purpose of all effects that depend on its type (though it retains an animal’s HD, base attack bonus, saves, skill points, and feats).
-
-    ::table
+  Paladin::section
+    Paladin Class Table::table
       ::head
-        Paladin Level | Bonus HD |  Natural Armor Adj. |  Str Adj.  | Int | Special
+        Level| Base Attack Bonus  |Fort Save  |Ref Save  |Will Save  |Special                                | 1st level Spells per Day
       ::row
-        5th-7th | +2  | +4 |  +1  | 6 | Empathic link, improved evasion, share spells, share saving throws
+        1st  | +1                 | +2        | +0       | +0        | Aura of good, detect evil, Smite Evil | 
       ::row
-        8th     | +4  | +6  | +2 |  7 | Improved speed
+        2nd  | +2                 | +3        | +0       | +0        | Divine grace, lay on hands            |
+      ::row
+        3rd  | +3                 | +3        | +1       | +1        | Aura of courage, divine health        |
+      ::row
+        4th  | +4                 | +4        | +1       | +1        | Turn undead                           | 0
+      ::row
+        5th  | +5                 | +4        | +1       | +1        | Special mount                         | 0
+      ::row
+        6th  | +6/+1              | +5        | +2       | +2        | Remove disease 1/week                 | 1
+      ::row
+        7th  | +7/+2              | +5        | +2       | +2        |                                       | 1  
+      ::row
+        8th  | +8/+3              | +6        | +2       | +2        |                                       | 1 
 
-    Paladin’s Mount Basics::text
-      Use the base statistics for a creature of the mount’s kind, but make changes to take into account the attributes and characteristics summarized on the table and described below.
+    Alignment Requirement::text
+      Lawful good
 
-    Bonus HD::text
-      Extra eight-sided (d8) Hit Dice, each of which gains a Constitution modifier, as normal. Extra Hit Dice improve the mount’s base attack and base save bonuses. A special mount’s base attack bonus is equal to that of a cleric of a level equal to the mount’s HD. A mount has good Fortitude and Reflex saves (treat it as a character whose level equals the animal’s HD). The mount gains additional skill points or feats for bonus HD as normal for advancing a monster’s Hit Dice.
+      Additionally, due to the paladin's strict code of conduct, a paladin player should get the other players to agree 
+      that they will not engage in chaotic/evil acts. If this cannot be agreed to, the paladin player should pick a 
+      different class as internal strife will result.
 
-    Natural Armor Adj.::text
-      The number on the table is an improvement to the mount’s existing natural armor bonus.
+    Hit Die::text
+      d10
 
-    Str Adj.::text
-      Add this figure to the mount’s Strength score.
+    Class Skills::bullets
+      * Diplomacy
+      * Heal
+      * Knowledge (nobility and royalty)
+      * Knowledge (religion)
+      * Ride
 
-    Int::text
-      The mount’s Intelligence score.
+    Skill Points at 1st Level::text
+      (4 + Int modifier) ×4.
 
-    Empathic Link::text
-      The paladin has an empathic link with her mount out to a distance of up to 1 mile. The paladin cannot see through the mount’s eyes, but they can communicate empathically.
+    Skill Points at Each Additional Level::text
+      4 + Int modifier.
 
-      Note that even intelligent mounts see the world differently from humans, so misunderstandings are always possible.
+    Weapon and Armor Proficiency::text
+      Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).
 
-      Because of this empathic link, the paladin has the same connection to an item or place that her mount does, just as with a master and his familiar.
+    Aura of Good::text
+      The power of a paladin’s aura of good is equal to his paladin level.
 
-    Improved Evasion::text
-      When subjected to an attack that normally allows a Reflex saving throw for half damage, a mount takes no damage if it makes a successful saving throw and half damage if the saving throw fails.
+    Detect Evil::text
+      At will, a paladin can use detect evil, as the spell.
 
-    Share Spells::text
-      At the paladin’s option, she may have any spell (but not any spell-like ability) she casts on herself also affect her mount.
+    Smite Evil::text
+      Once per day per paladin level, a paladin may attempt to smite evil with one normal melee attack. He adds his Charisma bonus (if any) to his attack roll and deals 1 extra point of damage per paladin level. If the paladin accidentally smites a creature that is not evil, the smite has no effect, but the ability is still used up for that day.
+      Smite evil ignores the incorporeal miss change of ghosts and causes the weapon to be treated as magical, lawful, and good.
 
-      The mount must be within 5 feet at the time of casting to receive the benefit. If the spell or effect has a duration other than instantaneous, it stops affecting the mount if it moves farther than 5 feet away and will not affect the mount again even if it returns to the paladin before the duration expires. Additionally, the paladin may cast a spell with a target of "You" on her mount (as a touch range spell) instead of on herself. A paladin and her mount can share spells even if the spells normally do not affect creatures of the mount’s type (magical beast).
+    Divine Grace::text
+      At 2nd level, a paladin gains a bonus equal to his Charisma bonus (if any) on all saving throws.
 
-    Share Saving Throws::text
-      For each of its saving throws, the mount uses its own base save bonus or the paladin’s, whichever is higher. The mount applies its own ability modifiers to saves, and it doesn’t share any other bonuses on saves that the master might have.
+    Lay on Hands::text
+      Beginning at 2nd level, a paladin with a Charisma score of 12 or higher can heal wounds (his own or those of others) by touch. Each day he can heal a total number of hit points of damage equal to his paladin level × his Charisma bonus. A paladin may choose to divide his healing among multiple recipients, and he doesn’t have to use it all at once. Using lay on hands is a standard action.
 
-    Improved Speed::text
-      The mount’s speed increases by 10 feet.
+      Alternatively, a paladin can use any or all of this healing power to deal damage to undead creatures. Using lay on hands in this way requires a successful melee touch attack and doesn’t provoke an attack of opportunity. The paladin decides how many of his daily allotment of points to use as damage after successfully touching an undead creature.
+
+    Aura of Courage::text
+      Beginning at 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of his gains a +4 morale bonus on saving throws against fear effects.
+
+      This ability functions while the paladin is conscious, but not if he is unconscious or dead.
+
+    Divine Health::text
+      At 3rd level, a paladin gains immunity to all diseases, including supernatural and magical diseases.
+
+    Turn Undead::text
+      When a paladin reaches 4th level, he gains the supernatural ability to turn undead. He may use this ability a number of times per day equal to 3 + his Charisma modifier. He turns undead as a cleric of three levels lower would.
+
+    Spells::text
+      Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells, which are drawn from the paladin spell list. A paladin must choose and prepare his spells in advance.
+
+      To prepare or cast a spell, a paladin must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a paladin’s spell is 10 + the spell level + the paladin’s Wisdom modifier.
+
+      Like other spellcasters, a paladin can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Paladin. In addition, he receives bonus spells per day if he has a high Wisdom score. When Table: The Paladin indicates that the paladin gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level The paladin does not have access to any domain spells or granted powers, as a cleric does.
+
+      A paladin prepares and casts spells the way a cleric does. A paladin may prepare and cast any spell on the paladin spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.
+
+      Through 3rd level, a paladin has no caster level. At 4th level and higher, his caster level is one-half his paladin level.
+
+    Special Mount::text
+      Upon reaching 5th level, a paladin gains the service of an unusually intelligent, strong, and loyal steed to serve his in his crusade against evil. This mount is usually a heavy warhorse (for a Medium paladin) or a warpony (for a Small paladin). The paladin might earn special mounts from quests or as rewards from celestial forces.
+
+      Once per day, as a full-round action, a paladin may magically call his mount from the celestial realms in which it resides. This ability is the equivalent of a spell of a level equal to one-third the paladin’s level. The mount immediately appears adjacent to the paladin and remains until dismissed; it may be dismissed at any time as a free action. The mount is the same creature each time it is summoned, though the paladin may release a particular mount from service. However, this should not be done lightly.
+
+      Each time the mount is called, it appears in full health, regardless of any damage it may have taken previously. The mount also appears wearing or carrying any gear it had when it was last dismissed.
+
+      Should the paladin’s mount die, it immediately disappears, leaving behind any equipment it was carrying. The paladin may not summon another mount for thirty days or until he gains a paladin level, whichever comes first, even if the mount is somehow returned from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack and weapon damage rolls.
+
+    Remove Disease::text
+      At 6th level, a paladin can produce a remove disease effect, as the spell, once per week.
+
+    Code of Conduct::text
+      A paladin must be of lawful good alignment and loses all class abilities if he ever willingly commits an evil act.
+
+      Additionally, a paladin’s code requires that he respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help for evil or chaotic ends), and punish those who harm or threaten innocents.
+
+    Associates::text
+      While he may adventure with characters of any good or neutral alignment, a paladin will never knowingly associate with evil characters, nor will he continue an association with someone who consistently offends his moral code. A paladin may accept only henchmen, followers, or cohorts who are lawful good.
+
+    Paladin's Mount::section
+      ::text
+        The paladin’s mount is superior to a normal mount of its kind and has special powers, as described below. The standard mount for a Medium paladin is a heavy warhorse, and the standard mount for a Small paladin is a warpony. Another kind of mount, such as a riding dog (for a halfling paladin) or a Large shark (for a paladin in an aquatic campaign) may be allowed as well.
+
+        A paladin’s mount is treated as a magical beast, not an animal, for the purpose of all effects that depend on its type (though it retains an animal’s HD, base attack bonus, saves, skill points, and feats).
+
+      ::table
+        ::head
+          Paladin Level | Bonus HD |  Natural Armor Adj. |  Str Adj.  | Int | Special
+        ::row
+          5th-7th | +2  | +4 |  +1  | 6 | Empathic link, improved evasion, share spells, share saving throws
+        ::row
+          8th     | +4  | +6  | +2 |  7 | Improved speed
+
+      Paladin’s Mount Basics::text
+        Use the base statistics for a creature of the mount’s kind, but make changes to take into account the attributes and characteristics summarized on the table and described below.
+
+      Bonus HD::text
+        Extra eight-sided (d8) Hit Dice, each of which gains a Constitution modifier, as normal. Extra Hit Dice improve the mount’s base attack and base save bonuses. A special mount’s base attack bonus is equal to that of a cleric of a level equal to the mount’s HD. A mount has good Fortitude and Reflex saves (treat it as a character whose level equals the animal’s HD). The mount gains additional skill points or feats for bonus HD as normal for advancing a monster’s Hit Dice.
+
+      Natural Armor Adj.::text
+        The number on the table is an improvement to the mount’s existing natural armor bonus.
+
+      Str Adj.::text
+        Add this figure to the mount’s Strength score.
+
+      Int::text
+        The mount’s Intelligence score.
+
+      Empathic Link::text
+        The paladin has an empathic link with her mount out to a distance of up to 1 mile. The paladin cannot see through the mount’s eyes, but they can communicate empathically.
+
+        Note that even intelligent mounts see the world differently from humans, so misunderstandings are always possible.
+
+        Because of this empathic link, the paladin has the same connection to an item or place that her mount does, just as with a master and his familiar.
+
+      Improved Evasion::text
+        When subjected to an attack that normally allows a Reflex saving throw for half damage, a mount takes no damage if it makes a successful saving throw and half damage if the saving throw fails.
+
+      Share Spells::text
+        At the paladin’s option, she may have any spell (but not any spell-like ability) she casts on herself also affect her mount.
+
+        The mount must be within 5 feet at the time of casting to receive the benefit. If the spell or effect has a duration other than instantaneous, it stops affecting the mount if it moves farther than 5 feet away and will not affect the mount again even if it returns to the paladin before the duration expires. Additionally, the paladin may cast a spell with a target of "You" on her mount (as a touch range spell) instead of on herself. A paladin and her mount can share spells even if the spells normally do not affect creatures of the mount’s type (magical beast).
+
+      Share Saving Throws::text
+        For each of its saving throws, the mount uses its own base save bonus or the paladin’s, whichever is higher. The mount applies its own ability modifiers to saves, and it doesn’t share any other bonuses on saves that the master might have.
+
+      Improved Speed::text
+        The mount’s speed increases by 10 feet.
 
