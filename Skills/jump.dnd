@@ -1,5 +1,5 @@
   Jump (Str)::section.skill_description
-    ::text 
+    ::text
       Armor check penalty applies to jumping.
 
       The DC and the distance you can cover vary according to the type of jump you are attempting (see below).

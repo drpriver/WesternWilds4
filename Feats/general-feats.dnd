@@ -1,10 +1,62 @@
   General Feats::section.general_feats
     Pirate::section.feat
       Effect::text
-        +2 on all checks related to sailing, boarding ships, firing cannons, finding treasure, climbing or balancing on a ship, bluffing, and resisting intoxication.
+        +2 on all checks related to sailing, boarding ships, firing cannons, finding treasure, climbing or balancing on a ship, bluffing, and resisting intoxication
 
-        No penalties for prosthetics (peg legs, hook hands, glass eyes, etc.).
+        No penalties for prosthetics (peg legs, hook hands, glass eyes, ect)
 
-        You can charge when on a ship no matter the terrain or path (climbing on ropes, jumping down, stairs, rocking ground, etc.).
+        You can charge when on a ship no matter the terrain or path (climbing on ropes, jumping down, stairs, rocking ground, etc.)
 
-        You gain a parrot as an animal companion.
+        You gain a parrot, monkey, cat, or dog as an animal companion
+
+  Alchemist::section.feat
+    Effect::text
+      +2 on alchemy checks
+
+      +1 on attack rolls with alchemy items.
+
+      +2 on saves against poison and fire
+
+      Alchemy crafting time and costs reduced by 10%
+
+  Explorer::section.feat
+    Effect::text
+      2 in 6 chance to find secrets doors or compartments
+
+      +2 on jump, climb, swim, spot, and survival checks
+
+      +5 move speed
+
+      +2 on saves against traps
+
+      Whip Proficiency
+
+      When holding a whip, get +2 on climb checks and checks to swing/hang
+
+  Researcher::section.feat
+    Effect::text
+      +1 on knowledge checks
+
+      Can make untrained knowledge checks
+
+      Can decipher scripts of any language
+
+      +1 language known
+
+      While in a library, +4 on knowledge checks and checks to research a specific topic.
+
+      Research time and costs reduced by 10% (including spells)
+
+  Merchant::section.feat
+    Effect::text
+      +2 appraise, bluff, and diplomacy
+
+      Buy nonmagical items for 5% less
+
+      Sell nonmagical items for 5% more
+
+      When making a diplomacy check, you may bribe them up to 10gp per level. For each 10gp you give them, you get an additional +1 on the check.
+
+      Can make DC 25 appraise checks to identify magic items.
+
+      X bonus to owned trade routes
