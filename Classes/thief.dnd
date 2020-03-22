@@ -64,12 +64,12 @@
       ::text
         Certain skills are exclusive to the thief. They are purchased with skill points and function otherwise identically to normal skills. Their descriptions are listed here rather than in the skills chapter.
 
-      Pick Lock::section.skill_description
+      Pick Lock (Dex)::section.skill_description
         ::text
           Thieves can pick locks if they have thief's tools. The DC is determined by the lock. Picking a lock takes half a dungeon turn.
         Retry::text
           No
-      Pick Pockets::section.skill_description
+      Pick Pockets (Dex)::section.skill_description
         ::text
           Thieves with this skill can pluck an item from another person. This is normally an opposed check against the victim's spot check, but apply the modifiers in the table below. The thief must have some opportunity to steal from the other person, such as having a conversation with them, bumping into them, the person being distracted, etc.
 
@@ -114,16 +114,16 @@
         ::text
           The victim notices the item is missing 1d6 hours later or when they next try to use the item.
 
-      Find Secret Door or Compartment::section.skill_description
+      Find Secret Door or Compartment (Int)::section.skill_description
         ::text
           Thieves with this skill can roll a DC 20 skill check. On a success, the secret door or compartment is revealed. Doing so takes 1 dungeon turn.
         Retry::text
           No
         Normal::text
           Normally, any character can spend 1 dungeon turn searching for a secret door or compartment, with a 1-in-6 chance of discovering such a secret door.
-      Use Magic Device::section.skill_description
+      Use Magic Device (Cha)::section.skill_description
         TODO
-      Find and Disarm Trap::section.skill_description
+      Find and Disarm Trap (Int)::section.skill_description
         ::text
           This skill is used to both find and disarm traps. The DC for both is determined by the trap itself. 
           Some traps cannot be disarmed (for example a camouflaged pit trap - disarming it would just be triggering it).
