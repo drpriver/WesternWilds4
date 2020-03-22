@@ -21,10 +21,12 @@
     Hit Die::text
       d10
     Class Skills::bullets
-      * Climb
-      * Jump
-      * Ride
-      * Swim
+      * [Climb]
+      * [Craft Weapon]
+      * [Craft Armor]
+      * [Jump]
+      * [Ride]
+      * [Swim]
     Skill Points at 1st Level::text
       (4 + Int modifier) ×4.
     Skill Points at Each Additional Level::text

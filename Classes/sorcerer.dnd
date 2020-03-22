@@ -61,9 +61,9 @@
       d4
 
     Class Skills::bullets
-      * Bluff
-      * Knowledge (arcana)
-      * Spellcraft
+      * [Bluff]
+      * [Knowledge (arcana)]
+      * [Spellcraft]
 
     Skill Points at 1st Level::text
       (4 + Int modifier) × 4

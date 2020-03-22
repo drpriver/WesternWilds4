@@ -1,0 +1,16 @@
+  Knowledge (Int)::section.skill_description
+    ::text
+      Knowledge actually encompasses a number of unrelated skills. Knowledge represents a study of some body of lore, possibly an academic or even scientific discipline.
+
+      Below are listed typical fields of study.
+
+    ::bullets
+      * Arcana (ancient mysteries, magic traditions, arcane symbols, cryptic phrases, constructs, dragons, magical beasts)
+      * Architecture and engineering (buildings, aqueducts, bridges, fortifications)
+      * Dungeoneering (aberrations, caverns, oozes, spelunking)
+      * Geography (lands, terrain, climate, people)
+      * History (royalty, wars, colonies, migrations, founding of cities)
+      * Nature (animals, fey, giants, monstrous humanoids, plants, seasons and cycles, weather, vermin)
+      * Nobility and royalty (lineages, heraldry, family trees, mottoes, personalities)
+      * Religion (gods and goddesses, mythic history, ecclesiastic tradition, holy symbols, undead)
+      * The planes (the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane, outsiders, elementals, magic related to the planes)

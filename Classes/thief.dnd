@@ -21,24 +21,25 @@
     Hit Die::text
       d6
     Class Skills::bullets
-      * Appraise
-      * Bluff
-      * Climb
-      * Diplomacy
-      * Disable Device
-      * Disguise
-      * Escape Artist
-      * Forgery
-      * Gather Information
-      * Jump
-      * Knowledge (local)
-      * Listen
-      * Perform
-      * Spot
-      * Stealth
-      * Swim
-      * Tumble (Dex)
-      * Use Magic Device
+      * [Alchemy]
+      * [Appraise]
+      * [Bluff]
+      * [Climb]
+      * [Diplomacy]
+      * [Disable Device]
+      * [Disguise]
+      * [Escape Artist]
+      * [Forgery]
+      * [Gather Information]
+      * [Jump]
+      * [Knowledge (local)]
+      * [Listen]
+      * [Perform]
+      * [Spot]
+      * [Stealth]
+      * [Swim]
+      * [Tumble]
+      * [Use Magic Device]
     Skill Points at 1st Level::text
       (10 + Int modifier) ×4
     Skill Points at Each Additional Level::text

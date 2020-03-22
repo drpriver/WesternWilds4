@@ -25,18 +25,18 @@
       d8
 
     Class Skills::bullets
-      * Climb
-      * Diplomacy
-      * Escape Artist
-      * Jump
-      * Knowledge (arcana)
-      * Knowledge (religion)
-      * Listen
-      * Perform
-      * Stealth
-      * Spot
-      * Swim
-      * Tumble
+      * [Climb]
+      * [Diplomacy]
+      * [Escape Artist]
+      * [Jump]
+      * [Knowledge (arcana)]
+      * [Knowledge (religion)]
+      * [Listen]
+      * [Perform]
+      * [Stealth]
+      * [Spot]
+      * [Swim]
+      * [Tumble]
 
     Skill Points at 1st Level::text
       (6 + Int modifier) ×4.

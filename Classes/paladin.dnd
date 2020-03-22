@@ -30,11 +30,13 @@
       d10
 
     Class Skills::bullets
-      * Diplomacy
-      * Heal
-      * Knowledge (nobility and royalty)
-      * Knowledge (religion)
-      * Ride
+      * [Craft Armor]
+      * [Craft Weapon]
+      * [Diplomacy]
+      * [Heal]
+      * [Knowledge (nobility and royalty)]
+      * [Knowledge (religion)]
+      * [Ride]
 
     Skill Points at 1st Level::text
       (4 + Int modifier) ×4.

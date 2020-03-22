@@ -41,9 +41,9 @@
       d4
 
     Class Skills::bullets
-      * Alchemy
-      * Knowledge (all skills taken individually)
-      * Spellcraft
+      * [Alchemy]
+      * [Knowledge (all skills taken individually)]
+      * [Spellcraft]
 
     Skill Points at 1st Level::text
       (4 + Int modifier) ×4

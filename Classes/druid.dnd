@@ -46,15 +46,15 @@
       d8
 
     Class Skills::bullets
-      * Diplomacy
-      * Heal
-      * Knowledge (nature)
-      * Listen
-      * Ride
-      * Spellcraft
-      * Spot
-      * Survival
-      * Swim
+      * [Diplomacy]
+      * [Heal]
+      * [Knowledge (nature)]
+      * [Listen]
+      * [Ride]
+      * [Spellcraft]
+      * [Spot]
+      * [Survival]
+      * [Swim]
 
     Skill Points at 1st Level::text
       (6 + Int modifier) ×4.

@@ -26,18 +26,18 @@
       d8
 
     Class Skills::bullets
-      * Climb
-      * Heal
-      * Jump
-      * Knowledge (dungeoneering)
-      * Knowledge (geography)
-      * Knowledge (nature)
-      * Listen
-      * Ride
-      * Spot
-      * Stealth
-      * Survival
-      * Swim
+      * [Climb]
+      * [Heal]
+      * [Jump]
+      * [Knowledge (dungeoneering)]
+      * [Knowledge (geography)]
+      * [Knowledge (nature)]
+      * [Listen]
+      * [Ride]
+      * [Spot]
+      * [Stealth]
+      * [Survival]
+      * [Swim]
 
     Skill Points at 1st Level::text
       (8 + Int modifier) ×4.

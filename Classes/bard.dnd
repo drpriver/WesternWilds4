@@ -60,6 +60,7 @@
     Hit Die:: text
       d6
     Class Skills::bullets
+      * [Alchemy]
       * [Appraise]
       * [Bluff]
       * [Climb]
