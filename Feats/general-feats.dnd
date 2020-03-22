@@ -9,54 +9,54 @@
 
         You gain a parrot, monkey, cat, or dog as an animal companion
 
-  Alchemist::section.feat
-    Effect::text
-      +2 on alchemy checks
+    Alchemist::section.feat
+      Effect::text
+        +2 on alchemy checks
 
-      +1 on attack rolls with alchemy items.
+        +1 on attack rolls with alchemy items.
 
-      +2 on saves against poison and fire
+        +2 on saves against poison and fire
 
-      Alchemy crafting time and costs reduced by 10%
+        Alchemy crafting time and costs reduced by 10%
 
-  Explorer::section.feat
-    Effect::text
-      2 in 6 chance to find secrets doors or compartments
+    Explorer::section.feat
+      Effect::text
+        2 in 6 chance to find secrets doors or compartments
 
-      +2 on jump, climb, swim, spot, and survival checks
+        +2 on jump, climb, swim, spot, and survival checks
 
-      +5 move speed
+        +5 move speed
 
-      +2 on saves against traps
+        +2 on saves against traps
 
-      Whip Proficiency
+        Whip Proficiency
 
-      When holding a whip, get +2 on climb checks and checks to swing/hang
+        When holding a whip, get +2 on climb checks and checks to swing/hang
 
-  Researcher::section.feat
-    Effect::text
-      +1 on knowledge checks
+    Researcher::section.feat
+      Effect::text
+        +1 on knowledge checks
 
-      Can make untrained knowledge checks
+        Can make untrained knowledge checks
 
-      Can decipher scripts of any language
+        Can decipher scripts of any language
 
-      +1 language known
+        +1 language known
 
-      While in a library, +4 on knowledge checks and checks to research a specific topic.
+        While in a library, +4 on knowledge checks and checks to research a specific topic.
 
-      Research time and costs reduced by 10% (including spells)
+        Research time and costs reduced by 10% (including spells)
 
-  Merchant::section.feat
-    Effect::text
-      +2 appraise, bluff, and diplomacy
+    Merchant::section.feat
+      Effect::text
+        +2 appraise, bluff, and diplomacy
 
-      Buy nonmagical items for 5% less
+        Buy nonmagical items for 5% less
 
-      Sell nonmagical items for 5% more
+        Sell nonmagical items for 5% more
 
-      When making a diplomacy check, you may bribe them up to 10gp per level. For each 10gp you give them, you get an additional +1 on the check.
+        When making a diplomacy check, you may bribe them up to 10gp per level. For each 10gp you give them, you get an additional +1 on the check.
 
-      Can make DC 25 appraise checks to identify magic items.
+        Can make DC 25 appraise checks to identify magic items.
 
-      X bonus to owned trade routes
+        X bonus to owned trade routes
