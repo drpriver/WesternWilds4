@@ -1,8 +1,8 @@
   Sorcerer Feats::section.class_feats
     Special Rules::text
-      Some sorcerer spells are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
+      Some sorcerer feats are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
       
-      Some sorcerer spells are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. Only one metamagic can be applied to a single casting of a spell.
+      Some sorcerer feats are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. However, the spell is not higher level for the effects that care about the spell's level. Only one metamagic can be applied to a single casting of a spell.
 
 
     Extend Spell::section.feat

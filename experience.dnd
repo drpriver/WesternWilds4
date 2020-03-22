@@ -1,4 +1,8 @@
 Experience::section
+  ::text
+    XP for gold (coins, gems, jewelry). This treasure must be gained by risking life and limb. Magic items do not grant XP, but can be sold. They do not grant xp when sold.
+
+    XP is also earned from ruling domains, running a class guild, and rescuing maidens.
   Level table::table
     ::head
       Level | Total XP to this level

@@ -43,6 +43,8 @@ FEATS=feats.dnd\
 SKILLS=skills.dnd\
 	alchemy.dnd\
 	appraise.dnd\
+	craft-armor.dnd\
+	craft-weapon.dnd\
 	bluff.dnd\
 	climb.dnd\
 	diplomacy.dnd\

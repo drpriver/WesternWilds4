@@ -426,6 +426,8 @@
             <li><a href="#the-skills">The Skills</a><ul>
               <li><a href="#alchemy-int">Alchemy (Int)</a></li>
               <li><a href="#appraise-int">Appraise (Int)</a></li>
+              <li><a href="#craft-armor-str">Craft Armor (Str)</a></li>
+              <li><a href="#craft-weapon-str">Craft Weapon (Str)</a></li>
               <li><a href="#bluff-cha">Bluff (Cha)</a></li>
               <li><a href="#climb-str">Climb (Str)</a></li>
               <li><a href="#diplomacy-cha">Diplomacy (Cha)</a></li>
@@ -448,8 +450,11 @@
               <li><a href="#tumble-dex-trained-only">Tumble (Dex, trained only)</a></li>
             </ul></li>
             <li><a href="#feats">Feats</a><ul>
+              <li><a href="#acquiring-feats">Acquiring Feats</a></li>
+              <li><a href="#prerequisites">Prerequisites</a></li>
               <li><a href="#general-feats">General Feats</a></li>
               <li><a href="#sorcerer-feats">Sorcerer Feats</a></li>
+              <li><a href="#wizard-feats">Wizard Feats</a></li>
             </ul></li>
             <li><a href="#equipment">Equipment</a></li>
             <li><a href="#experience">Experience</a><ul>
@@ -5405,7 +5410,7 @@
           <h2 id="the-skills">The Skills</h2>
           <section class="skill_description">
             <h3 id="alchemy-int">Alchemy (Int)</h3>
-            TODO
+            TODO, brew potions, alchemical items, gunpowder, identify alchemical stuff
           </section>
           <section class="skill_description">
             <h3 id="appraise-int">Appraise (Int)</h3>
@@ -5430,6 +5435,14 @@
                 If you have 5 ranks in any Craft skill, you gain a +2 bonus on Appraise checks related to items made with that Craft skill.
               </p>
             </div>
+          </section>
+          <section class="skill_description">
+            <h3 id="craft-armor-str">Craft Armor (Str)</h3>
+            TODO, can make cool armors, reforge broken armor, etc
+          </section>
+          <section class="skill_description">
+            <h3 id="craft-weapon-str">Craft Weapon (Str)</h3>
+            TODO, can make cool weapons, reforge broken weapons, etc
           </section>
           <section class="skill_description">
             <h3 id="bluff-cha">Bluff (Cha)</h3>
@@ -6548,7 +6561,21 @@
         </section>
         <section>
           <h2 id="feats">Feats</h2>
-          TODO
+          <div>
+            <h3 id="acquiring-feats">Acquiring Feats</h3>
+            <p>
+              A character chooses a feat at 1st level and at every level divisible by 3. Some classes and races grant additional feats outside of this schedule.
+            </p>
+          </div>
+          <div>
+            <h3 id="prerequisites">Prerequisites</h3>
+            <p>
+              Some feats have prerequisites. Your character must have the indicated ability score, class feature, feat, skill, base attack bonus, or other quality designated in order to select or use that feat. A character can gain a feat at the same level at which he or she gains the prerequisite.
+            </p>
+            <p>
+              A character can’t use a feat if he or she has lost a prerequisite.
+            </p>
+          </div>
           <section class="general_feats">
             <h3 id="general-feats">General Feats</h3>
             <section class="feat">
@@ -6575,10 +6602,10 @@
             <div>
               <h4 id="special-rules">Special Rules</h4>
               <p>
-                Some sorcerer spells are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
+                Some sorcerer feats are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
               </p>
               <p>
-                Some sorcerer spells are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. Only one metamagic can be applied to a single casting of a spell.
+                Some sorcerer feats are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. However, the spell is not higher level for the effects that care about the spell's level. Only one metamagic can be applied to a single casting of a spell.
               </p>
             </div>
             <section class="feat">
@@ -7434,6 +7461,423 @@
               </div>
             </section>
           </section>
+          <section class="class_feats">
+            <h3 id="wizard-feats">Wizard Feats</h3>
+            <div>
+              <h4 id="special-rules1">Special Rules</h4>
+              <p>
+                Some wizard feats are being marked a "specialization". A wizard can only have one specialization and can only take this feat at level 1.
+              </p>
+              <p>
+                Some wizard feats are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires it to be prepared in a slot of a higher level than normal for the spell. However, the spell is not higher level for the effects that care about the spell's level. Only one metamagic can be applied to a single casting of a spell.
+              </p>
+            </div>
+            <section class="feat">
+              <h4 id="elusion">Elusion </h4>
+              Specialization
+              <div>
+                <h5 id="prerequisite21">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 specialization feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect40">Effect</h5>
+                <p>
+                  Specialize in illusion, enchantment, and divination magic.
+                </p>
+                <p>
+                  +1 DC and attack bonus for these schools.
+                </p>
+                <p>
+                  It takes half the time and gold to scribe spells of these schools into your spellbook.
+                </p>
+                <p>
+                  You gain a +2 bonus on checks to learn spells of these schools.
+                </p>
+                <p>
+                  If you have the mental spell metamagic feat, the level adjustment is always +0 when applied to spells of these schools.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="genesis">Genesis</h4>
+              Specialization
+              <div>
+                <h5 id="prerequisite22">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 specialization feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect41">Effect</h5>
+                <p>
+                  Specialize in conjuration and evocation.
+                </p>
+                <p>
+                  +1 DC and attack bonus for these schools.
+                </p>
+                <p>
+                  It takes half the time and gold to scribe spells of these schools into your spellbook.
+                </p>
+                <p>
+                  You gain a +2 bonus on checks to learn spells of these schools.
+                </p>
+                <p>
+                  Your caster level is increased by 1 when casting spells of these schools.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="metamorphosis">Metamorphosis</h4>
+              Specialization
+              <div>
+                <h5 id="prerequisite23">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 specialization feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect42">Effect</h5>
+                <p>
+                  Specialize in abjuration, necromancy, and transmutation.
+                </p>
+                <p>
+                  +1 DC and attack bonus for these schools.
+                </p>
+                <p>
+                  It takes half the time and gold to scribe spells of these schools into your spellbook
+                </p>
+                <p>
+                  You gain a +2 bonus on checks to learn spells of these schools.
+                </p>
+                <p>
+                  If you have the extend spell metamagic feat, the level adjustment is always +0 when applied to spells of these schools.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="universal-wizard">Universal Wizard</h4>
+              Specialization
+              <div>
+                <h5 id="prerequisite24">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 specialization feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect43">Effect</h5>
+                <p>
+                  You know an additional two 1st level spells at level 1.
+                </p>
+                <p>
+                  You learn one additional spell every level.
+                </p>
+                <p>
+                  You get a +1 bonus on checks to learn spells.
+                </p>
+                <p>
+                  It takes half the time and gold to scribe spells into your spellbook
+                </p>
+                <p>
+                  You gain one additional spell slot one spell level lower than the highest slot you have.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="perfect-spell-memory">Perfect Spell Memory</h4>
+              <div>
+                <h5 id="effect44">Effect</h5>
+                <p>
+                  Once you have learned a spell, you know that spell even without access to a spellbook. Thus, you can always prepare any spell you have ever learned. You still must scribe a spell in order to learn it.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="flexible-mind">Flexible Mind</h4>
+              <div>
+                <h5 id="prerequisite25">Prerequisite</h5>
+                <p>
+                  Perfect Spell Memory
+                </p>
+              </div>
+              <div>
+                <h5 id="effect45">Effect</h5>
+                <p>
+                  You can leave up to one spell slot open for each spell level below the highest level spell slot you have. You can use those slots to spontaneously cast spells you know as a sorcerer would. (You know all spells in your spellbook)
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="spell-potency">Spell Potency</h4>
+              <div>
+                <h5 id="effect46">Effect</h5>
+                <p>
+                  Add a +2 bonus on caster level checks. (Affects spell resistance and dispel magic, etc)
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="mobile-spellcasting">Mobile Spellcasting</h4>
+              <div>
+                <h5 id="prerequisite26">Prerequisite</h5>
+                <p>
+                  Dodge, Mobility
+                </p>
+              </div>
+              <div>
+                <h5 id="effect47">Effect</h5>
+                <p>
+                  You can move before and after you cast a spell (up to your normal maximum).
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="cloudy-evocuration">Cloudy Evocuration</h4>
+              <div>
+                <h5 id="prerequisite27">Prerequisite</h5>
+                <p>
+                  Genesis
+                </p>
+              </div>
+              <div>
+                <h5 id="effect48">Effect</h5>
+                <p>
+                  Whenever you cast a conjuration or evocation spell, you can create a 10 foot cube of vision-blocking cloud on or next to you, the target of the spell, or the area of the spell.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="insightful-elusion">Insightful Elusion</h4>
+              <div>
+                <h5 id="prerequisite28">Prerequisite</h5>
+                <p>
+                  Elusion
+                </p>
+              </div>
+              <div>
+                <h5 id="effect49">Effect</h5>
+                <p>
+                  When you cast an illusion, enchantment, or divination spell, you gain a bonus to your next initiative or saving throw equal to the level of the spell. This bonus lasts 24 hours.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="toughening-metamorphosis">Toughening Metamorphosis</h4>
+              <div>
+                <h5 id="prerequisite29">Prerequisite</h5>
+                <p>
+                  Metamorphosis
+                </p>
+              </div>
+              <div>
+                <h5 id="effect50">Effect</h5>
+                <p>
+                  When you cast an abjuration, necromancy, or transmutation spell, you and an ally within 30 feet gain temp HP equal to the level of the spell.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="extend-spell1">Extend Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect51">Effect</h5>
+                <p>
+                  Double the duration of the spell.
+                </p>
+                <p>
+                  Level adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="enlarge-spell1">Enlarge Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect52">Effect</h5>
+                <p>
+                  Increase the dimensions of the area of the spell by 50%.
+                </p>
+                <p>
+                  Level adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="reach-spell1">Reach Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect53">Effect</h5>
+                <p>
+                  Increase the range category of a spell.
+                </p>
+                <p>
+                  Touch -> Short
+                </p>
+                <p>
+                  Short -> Medium
+                </p>
+                <p>
+                  Medium ->Long
+                </p>
+                <p>
+                  Level adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="ghost-touch-spell1">Ghost Touch Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect54">Effect</h5>
+                <p>
+                  Your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
+                </p>
+                <p>
+                  Level Adjustment +0
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="mental-spell1">Mental Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect55">Effect</h5>
+                <p>
+                  Cast a spell without needing to supply verbal, somatic, or low cost material components.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="flash-frost-spell1">Flash Frost Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect56">Effect</h5>
+                <p>
+                  When you cast a spell that has an area and deals cold damage, the area of the spell is also covered in slippery ice for 1 round. Creatures that attempt to move in the ice must make reflex saves or fall prone.
+                </p>
+                <p>
+                  Additionally, the spell’s damage is increased by +2 per spell level.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="scorching-spell1">Scorching Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect57">Effect</h5>
+                <p>
+                  When you cast a spell that deals fire damage, any creatures that fails their save or is hit by an attack roll are now on fire. They will take an additional d6*spell level damage at the start of their next turn.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="shocking-spell1">Shocking Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect58">Effect</h5>
+                <p>
+                  When you cast a spell that deals lightning damage, creatures wearing or holding metal get -2 on their save/ac. Any creatures that fail their save or are hit by an attack roll are unable to make attacks of opportunity for 1 round.
+                </p>
+                <p>
+                  Additionally, the spell’s damage is increased by +3 per spell level.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sculpt1">Sculpt</h4>
+              Metamagic
+              <div>
+                <h5 id="effect59">Effect</h5>
+                <p>
+                  You can change the area of a spell that has an area to be one of the following: 120-foot tube, 20-foot radius sphere, 60-foot cone, two 10-foot cube.
+                </p>
+                <p>
+                  If the area of the spell is originally 2-dimensional, instead use line, circle, triangle, and square.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="empower-spell1">Empower Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect60">Effect</h5>
+                <p>
+                  Damage and healing of spell increased by 50%.
+                </p>
+                <p>
+                  Level adjustment +2
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="split-ray1">Split Ray</h4>
+              Metamagic
+              <div>
+                <h5 id="effect61">Effect</h5>
+                <p>
+                  Adds 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
+                </p>
+                <p>
+                  Level adjustment +2
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="twin-cast1">Twin Cast</h4>
+              Metamagic
+              <div>
+                <h5 id="effect62">Effect</h5>
+                <p>
+                  Can only be used on spells that can only affect a single target. You cast the spell a second time on a different target.
+                </p>
+                <p>
+                  Level adjustment +2
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="repeated-spell1">Repeated Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect63">Effect</h5>
+                <p>
+                  Cast the spell twice. Can have different targets/areas.
+                </p>
+                <p>
+                  Level adjustment +3
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="quick-cast1">Quick Cast</h4>
+              Metamagic
+              <div>
+                <h5 id="effect64">Effect</h5>
+                <p>
+                  Cast spell as swift action.
+                </p>
+                <p>
+                  Level Adjustment +3
+                </p>
+              </div>
+            </section>
+          </section>
         </section>
         <section>
           <h2 id="equipment">Equipment</h2>
@@ -7441,6 +7885,15 @@
         </section>
         <section>
           <h2 id="experience">Experience</h2>
+          <div>
+            
+            <p>
+              XP for gold (coins, gems, jewelry). This treasure must be gained by risking life and limb. Magic items do not grant XP, but can be sold. They do not grant xp when sold.
+            </p>
+            <p>
+              XP is also earned from ruling domains, running a class guild, and rescuing maidens.
+            </p>
+          </div>
           <section>
             <h3 id="level-table">Level table</h3>
             <table>
