@@ -134,23 +134,6 @@ The Basics::section
       ::text
         The ability that governs bonus spells depends on what type of spellcaster your character is: Intelligence for [wizards]; Wisdom for [clerics], [druids], [paladins], and [rangers]; or Charisma for [sorcerers] and [bards]. In addition to having a high ability score, a spellcaster must be of high enough class level to be able to cast spells of a given spell level.
 
-    Determining Your Ability Scores::section
-      ::text
-        When creating a new character, ability scores can be determined either by rolling, using an array, or using a hybrid method
-
-      Rolling Ability Scores::section
-        ::text
-          To roll your ability scores, roll four six-sided dice and discard the die with the lowest value. Total the three remaining dice. This number is your strength score.
-          Repeat this process for the other five abilities (dexterity, constitution, intelligence, wisdom, charisma).
-
-      Using an Array::section
-        ::text
-          If you are boring, you can assign the following six numbers as you choose to the six abilities: 14, 14, 13, 13, 12, 12.
-
-      The Hybrid Method::section
-        ::text
-          Before rolling anything, assign these three numbers to three of the six abilities: 14, 13, 12. For the remaining ability scores, roll 4d6, discarding the lowest die.
-
   The Abilities::section
     ::text
       Each ability partially describes your character and affects some of his or her actions.
@@ -238,3 +221,47 @@ The Basics::section
 
         ::text
           [Sorcerers] and [bards] get bonus spells based on their Charisma scores. The minimum Charisma score needed to cast a sorcerer or bard spell is 10 + the spell’s level.
+
+How to make a a Character::section
+  1. Determining Your Ability Scores::section
+    ::text
+      When creating a new character, ability scores can be determined either by rolling, using an array, or using a hybrid method
+
+    Rolling Ability Scores::section
+      ::text
+        To roll your ability scores, roll four six-sided dice and discard the die with the lowest value. Total the three remaining dice. This number is your strength score.
+        Repeat this process for the other five abilities (dexterity, constitution, intelligence, wisdom, charisma).
+
+    Using an Array::section
+      ::text
+        If you are boring, you can assign the following six numbers as you choose to the six abilities: 14, 14, 13, 13, 12, 12.
+
+    The Hybrid Method::section
+      ::text
+        Before rolling anything, assign these three numbers to three of the six abilities: 14, 13, 12. For the remaining ability scores, roll 4d6, discarding the lowest die.
+  2. Choose a race ::text
+    See the races chapter for the features, benefits, drawbacks, etc. of each race.
+  3. Choose a class::text
+    Pick a class bro.
+  4. (Optional) Roll for flaws::text
+    Roll up to two flaws. For each flaw, you may choose another feat at level 1.
+  5. Pick Skills::text
+    Using your skill points, buy ranks in skills.
+  6. Pick Feats::text
+    Each 1st level character starts with 1 feat. Some races or classes start with more than 1 feat.
+  7. Pick Spells::text
+    If your class has spells, determine them at this point.
+  8. Purchase Equipment::text
+    Each character starts with 100 + 2d100gp.
+  9. Determine age, name, alignment, etc.::text
+    You can pick your name.
+
+    Age is determined by a combination of race and class.
+
+    You can pick any alignment allowed by your class.
+
+    Pick a gender.
+
+    Height is determined by your race.
+
+    (Optional): roll 3d6 for comeliness or take 10 (average looking).

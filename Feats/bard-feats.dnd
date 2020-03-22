@@ -1,4 +1,7 @@
   Bard Feats::section.class_feats
+    Song of Defense::section.feat
+      Effect::text
+        You learn an additional way to use your bardic performance. It grants you and your allies +1 AC, +1 saves and DR 1/- while you play + 5 rounds afterwards.
     Jack of all Trades::section.feat
       Effect::text
         When you make a skill check, you can choose to roll as if you had ranks in that skill equal to ½ your bard level (rounded up).
