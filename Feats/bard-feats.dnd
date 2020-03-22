@@ -1,0 +1,56 @@
+  Bard Feats::section.class_feats
+    Jack of all Trades::section.feat
+      Effect::text
+        When you make a skill check, you can choose to roll as if you had ranks in that skill equal to ½ your bard level (rounded up).
+
+    Calming Music ::section.feat
+      Effect::text
+        When your group regains hit points from resting, double that healing.
+
+        Additionally, as long as any ally is affected by one of your bardic music abilities, when they are the target of a healing effect, they heal one additional HP per level of the effect. (1 HP if effect does not have a level)
+
+    Force of Personality ::section.feat
+      Effect::text
+        Use CHA instead of WIS for will saves. 
+
+    Dashing Rogue ::section.feat
+      Effect::text
+        Learn two thief skills. They start with 2 ranks each.
+
+    Extra Music ::section.feat
+      Effect::text
+        4 additional uses of bardic music per day
+
+    Swift Song ::section.feat
+      Effect::text
+        Start using bardic music as a swift action.
+
+    Skilled ::section.feat
+      Effect::text
+        Pick one skill. That skill gets a +3 bonus.
+
+        Additionally, you gain 2 skill points which you can spend immediately.
+
+    Multi Talented ::section.feat
+      Effect::text
+        Pick three Perform skills. They all count as having ranks equal to the highest ranks amongst them.
+
+    Battledancer ::section.feat
+      Effect::text
+        You can use Perform(Dance) in place of tumble.
+
+    Negotiator ::section.feat
+      Effect::text
+        You can use Perform(Oration) in place of bluff.
+
+    Musician’s Ears ::section.feat
+      Effect::text
+        +4 bonus to listen
+
+        +10 bonus on listen checks to pinpoint an invisible creature.
+
+    Battlesong ::section.feat
+      Effect::text
+        While under the effects of your own inspire courage ability, the bonuses are doubled for you only.
+
+        Same for song of defense?
