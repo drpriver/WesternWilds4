@@ -1,0 +1,19 @@
+  Survival (Wis)::section.skill_description
+    ::table
+      ::head
+        Survival DC | Task
+      ::row
+        Find food and water | DC 10 (varies by terrain)
+      ::row
+        Find site for level 2 Shelter | DC 15 (varies by terrain)
+      ::row
+        Avoid natural hazard (like quicksand) | DC 15 (rolled reactively)
+      ::row
+        Predict Tomorrow's Weather | DC 15
+      ::row
+        Gather Herbs | DC 15
+      ::row
+        Determine hex quality | DC 15
+        
+    ::text
+      Rangers can use survival to [Track]

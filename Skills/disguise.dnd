@@ -1,0 +1,27 @@
+  Disguise (Dex)::section.skill_description
+    ::text
+      Your Disguise check result determines how good the disguise is, and it is opposed by others’ Spot check results. If you don’t draw any attention to yourself, others do not get to make Spot checks. If you come to the attention of people who are suspicious (such as a guard who is watching commoners walking through a city gate), it can be assumed that such observers rolled a 10 on their Spot checks.
+
+      You get only one Disguise check per use of the skill, even if several people are making Spot checks against it. The Disguise check is made secretly, so that you can’t be sure how good the result is.
+
+      The effectiveness of your disguise depends in part on how much you’re attempting to change your appearance.
+
+      If you are impersonating a particular individual, those who know what that person looks like get a bonus on their Spot checks. Furthermore, they are automatically considered to be suspicious of you, so opposed checks are always called for.
+
+      Usually, an individual makes a Spot check to see through your disguise immediately upon meeting you and each hour thereafter. If you casually meet many different creatures, each for a short time, check once per day or hour, using an average Spot modifier for the group.
+
+      You can apply disguises to other.
+
+      You need a disguise kit or appropriate materials (makeup, clothing, etc.) to make a disguise.
+
+    Disguise Modifiers::table
+      ::head
+        Disguise  |Disguise Check Modifier
+      ::row
+        Minor details only | +5
+      ::row
+        Disguised as different gender | -2
+      ::row
+        Disguised as different race | -2
+      ::row
+        Disguised as different age category  | -2

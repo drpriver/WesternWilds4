@@ -1,0 +1,18 @@
+  Stealth (Dex)::section.skill_description
+    Hide::text
+      If the character has the Hide in Shadows class feature, use those rules instead.
+
+      Your Hide check is opposed by the Spot check of anyone who might see you.
+
+      You need cover or concealment in order to attempt a Hide check.
+
+      If people are observing you, even casually, you can’t hide. You can run around a corner or behind cover so that you’re out of sight and then hide, but the others then know at least where you went.
+
+      In some circumstances you can move and remain hidden (like moving behind curtains). In such a circumstance, you can move up to one half your normal speed and remain hidden. Otherwise, moving means you are no longer hidden.
+
+      If you leave cover/concealment, you are no longer hidden.
+
+      If you attack while hidden, you gain a surprise round. You are then no longer hidden.
+
+    Move Silently::text
+      Moving silently is opposed by the listen check of anyone who might hear you.

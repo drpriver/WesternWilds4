@@ -1,0 +1,10 @@
+  General Feats::section.general_feats
+    Pirate::section.feat
+      Effect::text
+        +2 on all checks related to sailing, boarding ships, firing cannons, finding treasure, climbing or balancing on a ship, bluffing, and resisting intoxication.
+
+        No penalties for prosthetics (peg legs, hook hands, glass eyes, etc.).
+
+        You can charge when on a ship no matter the terrain or path (climbing on ropes, jumping down, stairs, rocking ground, etc.).
+
+        You gain a parrot as an animal companion.

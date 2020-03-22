@@ -1,0 +1,12 @@
+  Appraise (Int)::section.skill_description
+    ::text
+      You can appraise common or well-known objects with a DC 12 Appraise check. Failure means that you estimate the value at 50% to 150% (2d6+3 times 10%,) of its actual value.
+
+      Appraising a rare or exotic item requires a successful check against DC 15, 20, or higher. If the check is successful, you estimate the value correctly; failure means you cannot estimate the item’s value.
+
+      You can also study an item to determine whether or not it is magical.  A DC 20 appraisal check will identify an object as magical. (no retry).
+
+      Appraisal also allows one to get a better price in the marketplace or when selling to specialist.  Every skill rank in appraisal improves the selling price of jewlery, gemstone and objets d’art by 1%. The best score in the party is used.
+
+    Synergy::text
+      If you have 5 ranks in any Craft skill, you gain a +2 bonus on Appraise checks related to items made with that Craft skill.

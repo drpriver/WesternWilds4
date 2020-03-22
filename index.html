@@ -167,6 +167,40 @@
       table.class_table {
       max-width:50em;
       }
+      section.feat {
+      border: 1px solid grey;
+      padding: 12px;
+      margin-bottom: .5em;
+      margin-left: 6px;
+      margin-right:6px;
+      width:50em;
+      }
+      section.spell{
+      border-top: 1px solid black;
+      padding-top: 1em;
+      }
+      section.spell td:first-child{
+      text-align: right;
+      }
+      section.spell thead {
+      display: none;
+      }
+      section.spell td{
+      border: none;
+      }
+      section.spell h1,
+      section.spell h2,
+      section.spell h3,
+      section.spell h4,
+      section.spell h5 {
+      font-weight: bold;
+      color: black;
+      font-size: 16px;
+      }
+      section.feat h4,
+      section.feat h3 {
+      margin-block-start:0px;
+      }
     </style>
     <script>
       "use strict"
@@ -400,7 +434,6 @@
               <li><a href="#forgery-int">Forgery (Int)</a></li>
               <li><a href="#gather-information-cha">Gather Information (Cha)</a></li>
               <li><a href="#heal-wis">Heal (Wis) </a></li>
-              <li><a href="#stealth-dex">Stealth (Dex)</a></li>
               <li><a href="#jump-str">Jump (Str)</a></li>
               <li><a href="#listen-wis">Listen (Wis)</a></li>
               <li><a href="#perform-cha">Perform (Cha)</a></li>
@@ -409,11 +442,15 @@
               <li><a href="#speak-language-none">Speak Language (None) </a></li>
               <li><a href="#spellcraft-int-trained-only">Spellcraft (Int, trained only)</a></li>
               <li><a href="#spot-wis">Spot (Wis)</a></li>
+              <li><a href="#stealth-dex">Stealth (Dex)</a></li>
               <li><a href="#survival-wis">Survival (Wis)</a></li>
               <li><a href="#swim-str">Swim (Str)</a></li>
               <li><a href="#tumble-dex-trained-only">Tumble (Dex, trained only)</a></li>
             </ul></li>
-            <li><a href="#feats">Feats</a></li>
+            <li><a href="#feats">Feats</a><ul>
+              <li><a href="#general-feats">General Feats</a></li>
+              <li><a href="#sorcerer-feats">Sorcerer Feats</a></li>
+            </ul></li>
             <li><a href="#equipment">Equipment</a></li>
             <li><a href="#experience">Experience</a><ul>
               <li><a href="#level-table">Level table</a></li>
@@ -2851,9 +2888,9 @@
                     <th> Ref Save </th>
                     <th> Will Save </th>
                     <th> Special                                     </th>
-                    <th> Unarmed Damage </th>
-                    <th> AC Bonus </th>
-                    <th> Speed Bonus</th>
+                    <th> Unarmed Damage </th>
+                    <th> AC Bonus </th>
+                    <th> Speed Bonus</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -2863,10 +2900,10 @@
                     <td> +2        </td>
                     <td> +2       </td>
                     <td> +2        </td>
-                    <td> Bonus feat, flurry of blows, unarmed strike </td>
+                    <td> Bonus feat, flurry of blows, unarmed strike </td>
                     <td> 1d6            </td>
                     <td> +2       </td>
-                    <td> +10 ft.</td>
+                    <td> +10 ft.</td>
                   </tr>
                   <tr class="even">
                     <td>2nd   </td>
@@ -2874,10 +2911,10 @@
                     <td> +3        </td>
                     <td> +3       </td>
                     <td> +3        </td>
-                    <td> Bonus feat, evasion                         </td>
+                    <td> Bonus feat, evasion                         </td>
                     <td> 1d6            </td>
                     <td> +3       </td>
-                    <td> +10 ft.</td>
+                    <td> +10 ft.</td>
                   </tr>
                   <tr class="odd">
                     <td>3rd   </td>
@@ -2885,10 +2922,10 @@
                     <td> +3        </td>
                     <td> +3       </td>
                     <td> +3        </td>
-                    <td> Still mind                                  </td>
+                    <td> Still mind                                  </td>
                     <td> 1d8            </td>
                     <td> +4       </td>
-                    <td> +20 ft.</td>
+                    <td> +20 ft.</td>
                   </tr>
                   <tr class="even">
                     <td>4th   </td>
@@ -2896,10 +2933,10 @@
                     <td> +4        </td>
                     <td> +4       </td>
                     <td> +4        </td>
-                    <td> Ki strike (+1), slow fall 20 ft.            </td>
+                    <td> Ki strike (+1), slow fall 20 ft.            </td>
                     <td> 1d8            </td>
                     <td> +5       </td>
-                    <td> +20 ft.</td>
+                    <td> +20 ft.</td>
                   </tr>
                   <tr class="odd">
                     <td>5th   </td>
@@ -2907,10 +2944,10 @@
                     <td> +4        </td>
                     <td> +4       </td>
                     <td> +4        </td>
-                    <td> Purity of body                              </td>
+                    <td> Purity of body                              </td>
                     <td> 1d10           </td>
                     <td> +6       </td>
-                    <td> +20 ft.</td>
+                    <td> +20 ft.</td>
                   </tr>
                   <tr class="even">
                     <td>6th   </td>
@@ -2918,10 +2955,10 @@
                     <td> +5        </td>
                     <td> +5       </td>
                     <td> +5        </td>
-                    <td> Bonus feat, slow fall 30 ft.                </td>
+                    <td> Bonus feat, slow fall 30 ft.                </td>
                     <td> 1d10           </td>
                     <td> +7       </td>
-                    <td> +30 ft.</td>
+                    <td> +30 ft.</td>
                   </tr>
                   <tr class="odd">
                     <td>7th   </td>
@@ -2929,10 +2966,10 @@
                     <td> +5        </td>
                     <td> +5       </td>
                     <td> +5        </td>
-                    <td> Wholeness of body                           </td>
+                    <td> Wholeness of body                           </td>
                     <td> 1d12           </td>
                     <td> +8       </td>
-                    <td> +30 ft.</td>
+                    <td> +30 ft.</td>
                   </tr>
                   <tr class="even">
                     <td>8th   </td>
@@ -2940,10 +2977,10 @@
                     <td> +6        </td>
                     <td> +6       </td>
                     <td> +6        </td>
-                    <td> Slow fall 40 ft.  Greater Flurry of Blows   </td>
+                    <td> Slow fall 40 ft.,  Greater Flurry of Blows   </td>
                     <td> 1d12           </td>
                     <td> +9       </td>
-                    <td> +30 ft.</td>
+                    <td> +30 ft.</td>
                   </tr>
                 </tbody>
               </table>
@@ -5901,39 +5938,6 @@
             </div>
           </section>
           <section class="skill_description">
-            <h3 id="stealth-dex">Stealth (Dex)</h3>
-            <div>
-              <h4 id="hide">Hide</h4>
-              <p>
-                If the character has the Hide in Shadows class feature, use those rules instead.
-              </p>
-              <p>
-                Your Hide check is opposed by the Spot check of anyone who might see you.
-              </p>
-              <p>
-                You need cover or concealment in order to attempt a Hide check.
-              </p>
-              <p>
-                If people are observing you, even casually, you can’t hide. You can run around a corner or behind cover so that you’re out of sight and then hide, but the others then know at least where you went.
-              </p>
-              <p>
-                In some circumstances you can move and remain hidden (like moving behind curtains). In such a circumstance, you can move up to one half your normal speed and remain hidden. Otherwise, moving means you are no longer hidden.
-              </p>
-              <p>
-                If you leave cover/concealment, you are no longer hidden.
-              </p>
-              <p>
-                If you attack while hidden, you gain a surprise round. You are then no longer hidden.
-              </p>
-            </div>
-            <div>
-              <h4 id="move-silently">Move Silently</h4>
-              <p>
-                Moving silently is opposed by the listen check of anyone who might hear you.
-              </p>
-            </div>
-          </section>
-          <section class="skill_description">
             <h3 id="jump-str">Jump (Str)</h3>
             <div>
               
@@ -5957,7 +5961,7 @@
               </p>
             </div>
             <div>
-              <h4 id="long-jump">Long Jump</h4>
+              <h4 id="long-jump">Long Jump</h4>
               <p>
                 Requires a 20-foot running start. Without a running start, double the DC.
               </p>
@@ -5969,7 +5973,7 @@
               </p>
             </div>
             <div>
-              <h4 id="high-jump">High Jump</h4>
+              <h4 id="high-jump">High Jump</h4>
               <p>
                 A high jump is a vertical leap made to reach a ledge high above or to grasp something overhead. The DC is equal to 4 times the distance to be cleared.
                 Requires a 20-foot running start. Without a running start, double the DC.
@@ -5985,13 +5989,13 @@
               </p>
             </div>
             <div>
-              <h4 id="hop-up">Hop Up</h4>
+              <h4 id="hop-up">Hop Up</h4>
               <p>
                 You can jump up onto an object as tall as your waist, such as a table or small boulder, with a DC 10 Jump check. Doing so counts as 10 feet of movement, so if your speed is 30 feet, you could move 20 feet, then hop up onto a counter. You do not need to get a running start to hop up, so the DC is not doubled if you do not get a running start.
               </p>
             </div>
             <div>
-              <h4 id="jumping-down">Jumping Down</h4>
+              <h4 id="jumping-down">Jumping Down</h4>
               <p>
                 If you intentionally jump from a height, you take less damage than you would if you just fell. The DC to jump down from a height is 15. You do not have to get a running start to jump down, so the DC is not doubled if you do not get a running start.
               </p>
@@ -6000,57 +6004,57 @@
               </p>
             </div>
             <section>
-              <h4 id="high-jump-dcs">High Jump DCs</h4>
+              <h4 id="high-jump-dcs">High Jump DCs</h4>
               <table>
                 <thead>
                   <tr class="table_header">
-                    <th>High Jump Distance</th>
+                    <th>High Jump Distance</th>
                     <th> Jump DC</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="odd">
-                    <td>1 foot </td>
+                    <td>1 foot </td>
                     <td>  4</td>
                   </tr>
                   <tr class="even">
-                    <td>2 feet </td>
+                    <td>2 feet </td>
                     <td>  8</td>
                   </tr>
                   <tr class="odd">
-                    <td>3 feet </td>
+                    <td>3 feet </td>
                     <td>  12</td>
                   </tr>
                   <tr class="even">
-                    <td>4 feet </td>
+                    <td>4 feet </td>
                     <td>  16</td>
                   </tr>
                   <tr class="odd">
-                    <td>5 feet </td>
+                    <td>5 feet </td>
                     <td>  20</td>
                   </tr>
                   <tr class="even">
-                    <td>6 feet </td>
+                    <td>6 feet </td>
                     <td>  24</td>
                   </tr>
                   <tr class="odd">
-                    <td>7 feet </td>
+                    <td>7 feet </td>
                     <td>  28</td>
                   </tr>
                   <tr class="even">
-                    <td>8 feet </td>
+                    <td>8 feet </td>
                     <td>  32</td>
                   </tr>
                 </tbody>
               </table>
             </section>
             <section>
-              <h4 id="long-jump-dcs">Long Jump DCs</h4>
+              <h4 id="long-jump-dcs">Long Jump DCs</h4>
               <table>
                 <thead>
                   <tr class="table_header">
-                    <th>Long Jump Distance </th>
-                    <th> Jump DC</th>
+                    <th>Long Jump Distance </th>
+                    <th> Jump DC</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -6253,7 +6257,7 @@
               <table>
                 <thead>
                   <tr class="table_header">
-                    <th>Spellcraft DC </th>
+                    <th>Spellcraft DC </th>
                     <th> Task</th>
                   </tr>
                 </thead>
@@ -6263,11 +6267,11 @@
                     <td> When using read magic, identify a glyph of warding. No action required.</td>
                   </tr>
                   <tr class="even">
-                    <td>15 + spell level  </td>
+                    <td>15 + spell level  </td>
                     <td> Identify a spell being cast.</td>
                   </tr>
                   <tr class="odd">
-                    <td>15 + spell level </td>
+                    <td>15 + spell level </td>
                     <td> When casting detect magic, determine the school of magic involved in the aura of a single item or creature you can see.</td>
                   </tr>
                   <tr class="even">
@@ -6275,19 +6279,19 @@
                     <td> When using read magic, identify a symbol.</td>
                   </tr>
                   <tr class="odd">
-                    <td>20 + spell level  </td>
+                    <td>20 + spell level  </td>
                     <td> Identify a spell that’s already in place and in effect.</td>
                   </tr>
                   <tr class="even">
-                    <td>20 + spell level </td>
+                    <td>20 + spell level </td>
                     <td> Identify materials created or shaped by magic, such as noting that an iron wall is the result of a wall of iron spell.</td>
                   </tr>
                   <tr class="odd">
-                    <td>20 + spell level </td>
+                    <td>20 + spell level </td>
                     <td> Decipher a written spell (such as a scroll) without using read magic. One try per day.</td>
                   </tr>
                   <tr class="even">
-                    <td>25 + spell level </td>
+                    <td>25 + spell level </td>
                     <td> After rolling a saving throw against a spell targeted on you, determine what that spell was.</td>
                   </tr>
                   <tr class="odd">
@@ -6299,7 +6303,7 @@
                     <td> Draw a diagram to allow dimensional anchor to be cast on a magic circle spell. Requires 10 minutes. This check is made secretly so you do not know the result.</td>
                   </tr>
                   <tr class="odd">
-                    <td>30 or higher </td>
+                    <td>30 or higher </td>
                     <td> Understand a strange or unique magical effect, such as the effects of a magic stream</td>
                   </tr>
                 </tbody>
@@ -6335,6 +6339,39 @@
                 </tbody>
               </table>
             </section>
+          </section>
+          <section class="skill_description">
+            <h3 id="stealth-dex">Stealth (Dex)</h3>
+            <div>
+              <h4 id="hide">Hide</h4>
+              <p>
+                If the character has the Hide in Shadows class feature, use those rules instead.
+              </p>
+              <p>
+                Your Hide check is opposed by the Spot check of anyone who might see you.
+              </p>
+              <p>
+                You need cover or concealment in order to attempt a Hide check.
+              </p>
+              <p>
+                If people are observing you, even casually, you can’t hide. You can run around a corner or behind cover so that you’re out of sight and then hide, but the others then know at least where you went.
+              </p>
+              <p>
+                In some circumstances you can move and remain hidden (like moving behind curtains). In such a circumstance, you can move up to one half your normal speed and remain hidden. Otherwise, moving means you are no longer hidden.
+              </p>
+              <p>
+                If you leave cover/concealment, you are no longer hidden.
+              </p>
+              <p>
+                If you attack while hidden, you gain a surprise round. You are then no longer hidden.
+              </p>
+            </div>
+            <div>
+              <h4 id="move-silently">Move Silently</h4>
+              <p>
+                Moving silently is opposed by the listen check of anyone who might hear you.
+              </p>
+            </div>
           </section>
           <section class="skill_description">
             <h3 id="survival-wis">Survival (Wis)</h3>
@@ -6444,7 +6481,7 @@
               <table>
                 <thead>
                   <tr class="table_header">
-                    <th>Tumble DC </th>
+                    <th>Tumble DC </th>
                     <th> Task</th>
                   </tr>
                 </thead>
@@ -6512,6 +6549,891 @@
         <section>
           <h2 id="feats">Feats</h2>
           TODO
+          <section class="general_feats">
+            <h3 id="general-feats">General Feats</h3>
+            <section class="feat">
+              <h4 id="pirate">Pirate</h4>
+              <div>
+                <h5 id="effect">Effect</h5>
+                <p>
+                  +2 on all checks related to sailing, boarding ships, firing cannons, finding treasure, climbing or balancing on a ship, bluffing, and resisting intoxication.
+                </p>
+                <p>
+                  No penalties for prosthetics (peg legs, hook hands, glass eyes, etc.).
+                </p>
+                <p>
+                  You can charge when on a ship no matter the terrain or path (climbing on ropes, jumping down, stairs, rocking ground, etc.).
+                </p>
+                <p>
+                  You gain a parrot as an animal companion.
+                </p>
+              </div>
+            </section>
+          </section>
+          <section class="class_feats">
+            <h3 id="sorcerer-feats">Sorcerer Feats</h3>
+            <div>
+              <h4 id="special-rules">Special Rules</h4>
+              <p>
+                Some sorcerer spells are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
+              </p>
+              <p>
+                Some sorcerer spells are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. Only one metamagic can be applied to a single casting of a spell.
+              </p>
+            </div>
+            <section class="feat">
+              <h4 id="extend-spell">Extend Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect1">Effect</h5>
+                <p>
+                  Double the duration of the spell.
+                </p>
+                <p>
+                  Level adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-extend-spell">Sudden Extend Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite">Prerequisite</h5>
+                <p>
+                  Prereq: Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect2">Effect</h5>
+                <p>
+                  Twice per day when you cast a spell with a duration, double the duration.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="enlarge-spell">Enlarge Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect3">Effect</h5>
+                <p>
+                  Increase the dimensions of the area of the spell by 50%.
+                </p>
+                <p>
+                  Level adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-enlarge-spell">Sudden Enlarge Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite1">Prerequisite</h5>
+                <p>
+                  Prereq: Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect4">Effect</h5>
+                <p>
+                  Twice per day when you cast a spell with an area, increase the dimensions of the area by 50%
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="reach-spell">Reach Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect5">Effect</h5>
+                <p>
+                  Increase the range category of a spell.
+                </p>
+                <p>
+                  Touch -> Short
+                </p>
+                <p>
+                  Short -> Medium
+                </p>
+                <p>
+                  Medium ->Long
+                </p>
+                <p>
+                  Level adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-reach-spell">Sudden Reach Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite2">Prerequisite</h5>
+                <p>
+                  Prereq: Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect6">Effect</h5>
+                <p>
+                  Twice per day, Increase the range category of a spell.
+                </p>
+                <p>
+                  Touch -> Short
+                </p>
+                <p>
+                  Short -> Medium
+                </p>
+                <p>
+                  Medium ->Long
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="ghost-touch-spell">Ghost Touch Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect7">Effect</h5>
+                <p>
+                  Your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
+                </p>
+                <p>
+                  Level Adjustment +0
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-ghost-touch-spell">Sudden Ghost Touch Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite3">Prerequisite</h5>
+                <p>
+                  Prereq: Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect8">Effect</h5>
+                <p>
+                  Four times per day, your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="mental-spell">Mental Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect9">Effect</h5>
+                <p>
+                  Cast a spell without needing to supply verbal, somatic, or low cost material components.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-mental-spell">Sudden Mental Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite4">Prerequisite</h5>
+                <p>
+                  Prereq: Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect10">Effect</h5>
+                <p>
+                  Twice per day, cast a spell without needing to supply verbal, somatic, or low cost material components.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="flash-frost-spell">Flash Frost Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect11">Effect</h5>
+                <p>
+                  When you cast a spell that has an area and deals cold damage, the area of the spell is also covered in slippery ice for 1 round. Creatures that attempt to move in the ice must make reflex saves or fall prone.
+                </p>
+                <p>
+                  Additionally, the spell’s damage is increased by +2 per spell level.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="scorching-spell">Scorching Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect12">Effect</h5>
+                <p>
+                  When you cast a spell that deals fire damage, any creatures that fails their save or is hit by an attack roll are now on fire. They will take an additional d6*spell level damage at the start of their next turn.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="shocking-spell">Shocking Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect13">Effect</h5>
+                <p>
+                  When you cast a spell that deals lightning damage, creatures wearing or holding metal get -2 on their save/ac. Any creatures that fail their save or are hit by an attack roll are unable to make attacks of opportunity for 1 round.
+                </p>
+                <p>
+                  Additionally, the spell’s damage is increased by +3 per spell level.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sculpt">Sculpt</h4>
+              Metamagic
+              <div>
+                <h5 id="effect14">Effect</h5>
+                <p>
+                  You can change the area of a spell that has an area to be one of the following: 120-foot tube, 20-foot radius sphere, 60-foot cone, two 10-foot cube.
+                </p>
+                <p>
+                  If the area of the spell is originally 2-dimensional, instead use line, circle, triangle, and square.
+                </p>
+                <p>
+                  Level Adjustment +1
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-sculpt">Sudden Sculpt</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite5">Prerequisite</h5>
+                <p>
+                  Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect15">Effect</h5>
+                <p>
+                  Twice per day, you can change the area of a spell that has an area to be one of the following: 120-foot line, 20-foot radius sphere, 60-foot cone, two 5-foot cylinders.
+                </p>
+                <p>
+                  If the area of the spell is originally 2-dimensional, instead use line, circle, triangle, and square.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="empower-spell">Empower Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect16">Effect</h5>
+                <p>
+                  Damage and healing of spell increased by 50%.
+                </p>
+                <p>
+                  Level adjustment +2
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-empower-spell">Sudden Empower Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite6">Prerequisite</h5>
+                <p>
+                  Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect17">Effect</h5>
+                <p>
+                  Once per day, damage and healing of spell increased by 50%.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="split-ray">Split Ray</h4>
+              Metamagic
+              <div>
+                <h5 id="effect18">Effect</h5>
+                <p>
+                  Adds 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
+                </p>
+                <p>
+                  Level adjustment +2
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-split-ray">Sudden Split Ray</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite7">Prerequisite</h5>
+                <p>
+                  Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect19">Effect</h5>
+                <p>
+                  Once per day, add 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="twin-cast">Twin Cast</h4>
+              Metamagic
+              <div>
+                <h5 id="effect20">Effect</h5>
+                <p>
+                  Can only be used on spells that can only affect a single target. You cast the spell a second time on a different target.
+                </p>
+                <p>
+                  Level adjustment +2
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="sudden-twin-cast">Sudden Twin Cast</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite8">Prerequisite</h5>
+                <p>
+                  Prereq: Any other metamagic feat
+                </p>
+              </div>
+              <div>
+                <h5 id="effect21">Effect</h5>
+                <p>
+                  Can only be used on spells that can only affect a single target. Once per day, you cast the spell a second time on a different target.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="repeated-spell">Repeated Spell</h4>
+              Metamagic
+              <div>
+                <h5 id="effect22">Effect</h5>
+                <p>
+                  Cast the spell twice. Can have different targets/areas.
+                </p>
+                <p>
+                  Level adjustment +3
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="quick-cast">Quick Cast</h4>
+              Metamagic
+              <div>
+                <h5 id="effect23">Effect</h5>
+                <p>
+                  Cast spell as swift action.
+                </p>
+                <p>
+                  Level Adjustment +3
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="metamagic-mastery">Metamagic Mastery</h4>
+              Metamagic
+              <div>
+                <h5 id="prerequisite9">Prerequisite</h5>
+                <p>
+                  Prereq: Any 3 other metamagic feats
+                </p>
+              </div>
+              <div>
+                <h5 id="effect24">Effect</h5>
+                <p>
+                  Twice per day, lower the level adjustment of a metamagic. Only usable once per spell cast.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="chaos-magic">Chaos Magic</h4>
+              <div>
+                <h5 id="prerequisite10">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 origin feat
+                </p>
+                <p>
+                  This is an origin feat.
+                </p>
+              </div>
+              <div>
+                <h5 id="effect25">Effect</h5>
+                <p>
+                  Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="blood-magic">Blood Magic</h4>
+              <div>
+                <h5 id="prerequisite11">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 origin feat
+                </p>
+                <p>
+                  This is an origin feat.
+                </p>
+              </div>
+              <div>
+                <h5 id="effect26">Effect</h5>
+                <p>
+                  When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
+                </p>
+                <p>
+                  Additionally, whenever you are the target of a healing effect, heal 1 additional HP.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="dragon-magic">Dragon Magic</h4>
+              <div>
+                <h5 id="prerequisite12">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 origin feat
+                </p>
+                <p>
+                  This is an origin feat.
+                </p>
+              </div>
+              <div>
+                <h5 id="effect27">Effect</h5>
+                <p>
+                  Choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
+                </p>
+                <p>
+                  All spells you cast that deal damage have their damage type changed to the associated type. You gain resistance 5 to that damage type, and spells you cast that would normally deal damage of that type have their DCs increased by 1 and a +1 bonus to any attack rolls. You also ignore 5 points of the target's resistance of that damage type.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="mana-magic">Mana Magic</h4>
+              TODO: this is cool but currently doesn't work.
+              <div>
+                <h5 id="prerequisite13">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 origin feat
+                </p>
+                <p>
+                  This is an origin feat.
+                </p>
+              </div>
+              <div>
+                <h5 id="effect28">Effect</h5>
+                <p>
+                  Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
+                </p>
+                <p>
+                  Additionally, you gain +1 saves vs spells and spell-like abilities
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="fiery-burst">Fiery Burst</h4>
+              <div>
+                <h5 id="effect29">Effect</h5>
+                <p>
+                  You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+                </p>
+                <p>
+                  Additionally, your effective caster level for fire spells is 1 higher.
+                </p>
+              </div>
+              <section class="spell">
+                <h5 id="fiery-burst1">Fiery Burst</h5>
+                <section>
+                  
+                  <table>
+                    <thead>
+                      <tr class="table_header">
+                        <th></th>
+                        <th> </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>Level: </td>
+                        <td> Special</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Components: </td>
+                        <td> V, S</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Casting Time: </td>
+                        <td> 1 standard action</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Range: </td>
+                        <td> Medium ( 100 feet + 10 feet per caster level)</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Area: </td>
+                        <td> 10-ft.-radius spread</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Duration: </td>
+                        <td> Instantaneous</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Saving Throw: </td>
+                        <td> Reflex negates</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Spell Resistance: </td>
+                        <td> Yes</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Tags: </td>
+                        <td> Fire</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+                <div>
+                  
+                  <p>
+                    You create a burst of flame at a location of your choosing. Those in the area may make a reflex save to negate the damage. Those who fail suffer d4 per (level+1)/2 fire damage. Flammable objects in the area, like papers and tinder, ignite.
+                  </p>
+                </div>
+              </section>
+            </section>
+            <section class="feat">
+              <h4 id="icy-breath">Icy Breath</h4>
+              <div>
+                <h5 id="effect30">Effect</h5>
+                <p>
+                  You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+                </p>
+                <p>
+                  Additionally, your effective caster level for cold spells is 1 higher.
+                </p>
+              </div>
+              <section class="spell">
+                <h5 id="icy-breath1">Icy Breath</h5>
+                <section>
+                  
+                  <table>
+                    <thead>
+                      <tr class="table_header">
+                        <th></th>
+                        <th> </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>Level: </td>
+                        <td> Special</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Components: </td>
+                        <td>V, S</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Casting Time: </td>
+                        <td>1 standard action</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Range: </td>
+                        <td>20 ft.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Area: </td>
+                        <td>Cone-shaped burst</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Duration: </td>
+                        <td>Instantaneous</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Saving Throw: </td>
+                        <td>Reflex negates</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Spell Resistance: </td>
+                        <td>Yes</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Tags: </td>
+                        <td> Cold</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+                <div>
+                  
+                  <p>
+                    You create a blast of icy cold that freezes people. Those in the cone who fail their saves take d6 per (level+1)/2 cold damage.
+                  </p>
+                </div>
+              </section>
+            </section>
+            <section class="feat">
+              <h4 id="chain-shock">Chain Shock</h4>
+              <div>
+                <h5 id="effect31">Effect</h5>
+                <p>
+                  You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+                </p>
+                <p>
+                  Additionally, your effective caster level for lightning spells is 1 higher.
+                </p>
+              </div>
+              <section class="spell">
+                <h5 id="chain-shock1">Chain Shock</h5>
+                <section>
+                  
+                  <table>
+                    <thead>
+                      <tr class="table_header">
+                        <th></th>
+                        <th> </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>Level: </td>
+                        <td> Special</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Components: </td>
+                        <td>V, S</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Casting Time: </td>
+                        <td>1 standard action</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Range: </td>
+                        <td> Medium ( 100 feet + 10 feet per caster level)</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Targets: </td>
+                        <td> One primary target, plus one secondary target within 10 feet of the primary target.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Duration: </td>
+                        <td>Instantaneous</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Saving Throw: </td>
+                        <td>Reflex negates</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Spell Resistance: </td>
+                        <td>Yes</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Tags: </td>
+                        <td> Lightning</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+                <div>
+                  
+                  <p>
+                    You create an arc of lighting that strikes a creature and then arcs from them to another creature. The primary target takes d8 per (level+1)/2 lightning damage and the second target takes half as much.
+                  </p>
+                </div>
+              </section>
+            </section>
+            <section class="feat">
+              <h4 id="acidic-splatter">Acidic Splatter</h4>
+              <div>
+                <h5 id="effect32">Effect</h5>
+                <p>
+                  You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+                </p>
+                <p>
+                  Additionally, your effective caster level for acid spells is 1 higher.
+                </p>
+              </div>
+              <section class="spell">
+                <h5 id="acidic-splatter1">Acidic Splatter</h5>
+                <section>
+                  
+                  <table>
+                    <thead>
+                      <tr class="table_header">
+                        <th></th>
+                        <th> </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>Level: </td>
+                        <td> Special</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Components: </td>
+                        <td>V, S</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Casting Time: </td>
+                        <td>1 standard action</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Range: </td>
+                        <td> Medium ( 100 feet + 10 feet per caster level)</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Targets: </td>
+                        <td> One target</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Duration: </td>
+                        <td>Instantaneous</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Saving Throw: </td>
+                        <td>Reflex negates</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Spell Resistance: </td>
+                        <td>Yes</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Tags: </td>
+                        <td> Lightning</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+                <div>
+                  
+                  <p>
+                    You create a blob of acid that eats away flesh, steel, bone. If the target fails to evade it, they suffer 1d10 per (level+1)/2 acid damage.
+                  </p>
+                </div>
+              </section>
+            </section>
+            <section class="feat">
+              <h4 id="draconic-scales">Draconic Scales</h4>
+              <div>
+                <h5 id="prerequisite14">Prerequisite</h5>
+                <p>
+                  Dragon Magic, Sorcerer level 3
+                </p>
+              </div>
+              <div>
+                <h5 id="effect33">Effect</h5>
+                <p>
+                  Your natural armor is increased by 2.
+                  This benefit increases to 3 at level 6.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="draconic-wings">Draconic Wings</h4>
+              <div>
+                <h5 id="prerequisite15">Prerequisite</h5>
+                <p>
+                  Dragon Magic, level 6
+                </p>
+              </div>
+              <div>
+                <h5 id="effect34">Effect</h5>
+                <p>
+                  You grow wings and gain a fly speed with average maneuverability equal to your ground speed.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="improved-draconic-wings">Improved Draconic Wings</h4>
+              <div>
+                <h5 id="prerequisite16">Prerequisite</h5>
+                <p>
+                  Draconic Wings
+                </p>
+              </div>
+              <div>
+                <h5 id="effect35">Effect</h5>
+                <p>
+                  Your maneuverability improves to good and your fly speed increases by 30'.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="dragon-breath">Dragon Breath</h4>
+              <div>
+                <h5 id="prerequisite17">Prerequisite</h5>
+                <p>
+                  Dragon Magic
+                </p>
+              </div>
+              <div>
+                <h5 id="effect36">Effect</h5>
+                <p>
+                  Once per day, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="pure-chaos">Pure Chaos</h4>
+              <div>
+                <h5 id="prerequisite18">Prerequisite</h5>
+                <p>
+                  Chaos Magic
+                </p>
+              </div>
+              <div>
+                <h5 id="effect37">Effect</h5>
+                <p>
+                  Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level.
+                </p>
+                <p>
+                  Whenever you level up, reroll all hit dice beyond the 1st.
+                </p>
+                <p>
+                  Whenever you deal or receive damage, roll 2d100. Multiply the damage by that percent.
+                </p>
+                <p>
+                  You gain +3 HP and a +1 to all saves.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="efficient-mana-manipulation">Efficient Mana Manipulation</h4>
+              <div>
+                <h5 id="prerequisite19">Prerequisite</h5>
+                <p>
+                  Mana Magic
+                </p>
+              </div>
+              <div>
+                <h5 id="effect38">Effect</h5>
+                <p>
+                  TODO: what does this MEAN???
+                </p>
+                <p>
+                  Gain +1 spell points for each level of the highest level spell known.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="immortal-blood">Immortal Blood</h4>
+              <div>
+                <h5 id="prerequisite20">Prerequisite</h5>
+                <p>
+                  Blood Magic
+                </p>
+              </div>
+              <div>
+                <h5 id="effect39">Effect</h5>
+                <p>
+                  When you are below half your maximum hit points, you gain fast healing 1 until you are above half your maximum hit points.
+                </p>
+              </div>
+            </section>
+          </section>
         </section>
         <section>
           <h2 id="equipment">Equipment</h2>

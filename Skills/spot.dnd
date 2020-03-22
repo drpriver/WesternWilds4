@@ -1,0 +1,10 @@
+  Spot (Wis)::section.skill_description
+    ::text
+      Spot is used to spot things. DM will set DCs. Usually use is opposed checks.
+    Spot Check Penalties::table
+      ::head
+        Condition | Penalty
+      ::row
+        Per 10 feet of distance | -1
+      ::row
+        Spotter distracted | -5

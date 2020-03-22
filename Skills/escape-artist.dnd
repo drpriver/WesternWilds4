@@ -1,0 +1,23 @@
+  Escape Artist (Dex) ::section.skill_description
+    ::text
+      Armor check penalty applies.
+    ::text
+      Escape artist is used to escape from grapples, manacles, ropes, etc.
+
+    ::table
+      ::head
+        Restraint | Escape Artist DC
+      ::row
+        Tied up Ropes | 26
+      ::row
+        Net, animate rope spell, command plants spell, control plants spell, or entangle spell | 20
+      ::row
+        Snare spell | 23
+      ::row
+        Manacles | 30
+      ::row
+        Tight space | 30
+      ::row
+        Masterwork manacles | 35
+      ::row
+        Grappler  | Grappler’s grapple check result

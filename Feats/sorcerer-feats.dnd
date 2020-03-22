@@ -1,0 +1,408 @@
+  Sorcerer Feats::section.class_feats
+    Special Rules::text
+      Some sorcerer spells are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
+      
+      Some sorcerer spells are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. Only one metamagic can be applied to a single casting of a spell.
+
+
+    Extend Spell::section.feat
+      Metamagic
+      Effect::text
+        Double the duration of the spell.
+
+        Level adjustment +1
+
+    Sudden Extend Spell::section.feat
+      Metamagic
+      Prerequisite::text
+        Prereq: Any other metamagic feat
+      Effect::text
+        Twice per day when you cast a spell with a duration, double the duration.
+
+    Enlarge Spell::section.feat
+      Metamagic
+      Effect::text
+        Increase the dimensions of the area of the spell by 50%. 
+
+        Level adjustment +1
+
+    Sudden Enlarge Spell::section.feat
+      Metamagic
+      Prerequisite::text
+        Prereq: Any other metamagic feat
+      Effect::text
+        Twice per day when you cast a spell with an area, increase the dimensions of the area by 50%
+
+    Reach Spell::section.feat
+      Metamagic
+      Effect::text
+        Increase the range category of a spell.
+
+        Touch -> Short
+        
+        Short -> Medium
+        
+        Medium ->Long
+
+        Level adjustment +1
+
+    Sudden Reach Spell::section.feat
+      Metamagic
+      Prerequisite::text
+        Prereq: Any other metamagic feat
+      Effect::text
+        Twice per day, Increase the range category of a spell.
+        
+        Touch -> Short
+        
+        Short -> Medium
+        
+        Medium ->Long
+
+    Ghost Touch Spell::section.feat
+      Metamagic
+      Effect::text
+        Your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
+
+        Level Adjustment +0
+
+    Sudden Ghost Touch Spell::section.feat
+      Metamagic
+      Prerequisite::text
+        Prereq: Any other metamagic feat
+      Effect::text
+        Four times per day, your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
+
+    Mental Spell::section.feat
+      Metamagic
+      Effect::text
+        Cast a spell without needing to supply verbal, somatic, or low cost material components.
+
+        Level Adjustment +1
+
+    Sudden Mental Spell::section.feat
+      Metamagic
+      Prerequisite::text
+        Prereq: Any other metamagic feat
+      Effect::text
+        Twice per day, cast a spell without needing to supply verbal, somatic, or low cost material components.
+
+
+    Flash Frost Spell::section.feat
+      Metamagic
+      Effect::text
+        When you cast a spell that has an area and deals cold damage, the area of the spell is also covered in slippery ice for 1 round. Creatures that attempt to move in the ice must make reflex saves or fall prone.
+
+        Additionally, the spell’s damage is increased by +2 per spell level.
+
+        Level Adjustment +1
+
+    Scorching Spell::section.feat
+      Metamagic
+      Effect::text
+        When you cast a spell that deals fire damage, any creatures that fails their save or is hit by an attack roll are now on fire. They will take an additional d6*spell level damage at the start of their next turn.
+
+        Level Adjustment +1
+
+    Shocking Spell::section.feat
+      Metamagic
+      Effect::text
+        When you cast a spell that deals lightning damage, creatures wearing or holding metal get -2 on their save/ac. Any creatures that fail their save or are hit by an attack roll are unable to make attacks of opportunity for 1 round.
+
+        Additionally, the spell’s damage is increased by +3 per spell level.
+
+        Level Adjustment +1
+
+    Sculpt::section.feat
+      Metamagic
+      Effect::text
+        You can change the area of a spell that has an area to be one of the following: 120-foot tube, 20-foot radius sphere, 60-foot cone, two 10-foot cube.
+
+        If the area of the spell is originally 2-dimensional, instead use line, circle, triangle, and square.
+
+        Level Adjustment +1
+
+    Sudden Sculpt::section.feat
+      Metamagic
+      Prerequisite::text
+        Any other metamagic feat
+      Effect::text
+        Twice per day, you can change the area of a spell that has an area to be one of the following: 120-foot line, 20-foot radius sphere, 60-foot cone, two 5-foot cylinders.
+
+        If the area of the spell is originally 2-dimensional, instead use line, circle, triangle, and square.
+
+    Empower Spell::section.feat
+      Metamagic
+      Effect::text
+        Damage and healing of spell increased by 50%.
+
+        Level adjustment +2
+
+    Sudden Empower Spell::section.feat
+      Metamagic
+      Prerequisite::text
+        Any other metamagic feat
+      Effect::text
+        Once per day, damage and healing of spell increased by 50%.
+
+    Split Ray::section.feat
+      Metamagic
+      Effect::text
+        Adds 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
+
+        Level adjustment +2
+
+    Sudden Split Ray::section.feat
+      Metamagic
+      Prerequisite::text
+        Any other metamagic feat
+      Effect::text
+        Once per day, add 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
+
+    Twin Cast::section.feat
+      Metamagic
+      Effect::text
+        Can only be used on spells that can only affect a single target. You cast the spell a second time on a different target.
+
+        Level adjustment +2
+
+    Sudden Twin Cast::section.feat
+      Metamagic
+      Prerequisite::text
+        Prereq: Any other metamagic feat
+      Effect::text
+        Can only be used on spells that can only affect a single target. Once per day, you cast the spell a second time on a different target.
+
+    Repeated Spell::section.feat
+      Metamagic
+      Effect::text
+        Cast the spell twice. Can have different targets/areas.
+
+        Level adjustment +3
+
+    Quick Cast::section.feat
+      Metamagic
+      Effect::text
+        Cast spell as swift action.
+
+        Level Adjustment +3
+
+    Metamagic Mastery::section.feat
+      Metamagic
+      Prerequisite::text
+        Prereq: Any 3 other metamagic feats
+      Effect::text
+        Twice per day, lower the level adjustment of a metamagic. Only usable once per spell cast.
+
+    Chaos Magic::section.feat
+      Prerequisite::text
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
+
+    Blood Magic::section.feat
+      Prerequisite::text
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
+
+        Additionally, whenever you are the target of a healing effect, heal 1 additional HP.
+
+    Dragon Magic::section.feat
+      Prerequisite::text 
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        Choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
+
+        All spells you cast that deal damage have their damage type changed to the associated type. You gain resistance 5 to that damage type, and spells you cast that would normally deal damage of that type have their DCs increased by 1 and a +1 bonus to any attack rolls. You also ignore 5 points of the target's resistance of that damage type.
+
+    Mana Magic::section.feat
+      TODO: this is cool but currently doesn't work.
+      Prerequisite::text
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
+
+        Additionally, you gain +1 saves vs spells and spell-like abilities
+
+    Fiery Burst::section.feat
+      Effect::text
+        You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+
+        Additionally, your effective caster level for fire spells is 1 higher.
+
+      Fiery Burst::section.spell
+        ::table
+          ::head
+            | 
+          ::row
+            Level: | Special
+          ::row
+            Components: | V, S
+          ::row
+            Casting Time: | 1 standard action
+          ::row
+            Range: | Medium ( 100 feet + 10 feet per caster level)
+          ::row
+            Area: | 10-ft.-radius spread
+          ::row
+            Duration: | Instantaneous
+          ::row
+            Saving Throw: | Reflex negates
+          ::row
+            Spell Resistance: | Yes
+          ::row
+            Tags: | Fire
+
+        ::text
+          You create a burst of flame at a location of your choosing. Those in the area may make a reflex save to negate the damage. Those who fail suffer d4 per (level+1)/2 fire damage. Flammable objects in the area, like papers and tinder, ignite.
+
+    Icy Breath::section.feat
+      Effect::text
+        You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+
+        Additionally, your effective caster level for cold spells is 1 higher.
+      Icy Breath::section.spell
+        ::table
+          ::head
+            | 
+          ::row
+            Level: | Special
+          ::row
+            Components: |V, S
+          ::row
+            Casting Time: |1 standard action
+          ::row
+            Range: |20 ft.
+          ::row
+            Area: |Cone-shaped burst
+          ::row
+            Duration: |Instantaneous
+          ::row
+            Saving Throw: |Reflex negates
+          ::row
+            Spell Resistance: |Yes
+          ::row
+            Tags: | Cold
+        ::text
+          You create a blast of icy cold that freezes people. Those in the cone who fail their saves take d6 per (level+1)/2 cold damage.
+
+    Chain Shock::section.feat
+      Effect::text
+        You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+
+        Additionally, your effective caster level for lightning spells is 1 higher.
+      Chain Shock::section.spell
+        ::table
+          ::head
+            | 
+          ::row
+            Level: | Special
+          ::row
+            Components: |V, S
+          ::row
+            Casting Time: |1 standard action
+          ::row
+            Range: | Medium ( 100 feet + 10 feet per caster level)
+          ::row
+            Targets: | One primary target, plus one secondary target within 10 feet of the primary target.
+          ::row
+            Duration: |Instantaneous
+          ::row
+            Saving Throw: |Reflex negates
+          ::row
+            Spell Resistance: |Yes
+          ::row
+            Tags: | Lightning
+        ::text
+          You create an arc of lighting that strikes a creature and then arcs from them to another creature. The primary target takes d8 per (level+1)/2 lightning damage and the second target takes half as much.
+
+    Acidic Splatter::section.feat
+      Effect::text
+        You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+
+        Additionally, your effective caster level for acid spells is 1 higher.
+      Acidic Splatter::section.spell
+        ::table
+          ::head
+            | 
+          ::row
+            Level: | Special
+          ::row
+            Components: |V, S
+          ::row
+            Casting Time: |1 standard action
+          ::row
+            Range: | Medium ( 100 feet + 10 feet per caster level)
+          ::row
+            Targets: | One target
+          ::row
+            Duration: |Instantaneous
+          ::row
+            Saving Throw: |Reflex negates
+          ::row
+            Spell Resistance: |Yes
+          ::row
+            Tags: | Lightning
+        ::text
+          You create a blob of acid that eats away flesh, steel, bone. If the target fails to evade it, they suffer 1d10 per (level+1)/2 acid damage.
+
+    Draconic Scales::section.feat
+      Prerequisite::text
+        Dragon Magic, Sorcerer level 3
+      Effect::text
+        Your natural armor is increased by 2. 
+        This benefit increases to 3 at level 6.
+
+    Draconic Wings::section.feat
+      Prerequisite::text
+        Dragon Magic, level 6
+      Effect::text 
+        You grow wings and gain a fly speed with average maneuverability equal to your ground speed. 
+
+    Improved Draconic Wings::section.feat
+      Prerequisite::text
+        Draconic Wings
+      Effect::text
+        Your maneuverability improves to good and your fly speed increases by 30'.
+
+    Dragon Breath::section.feat
+      Prerequisite::text 
+        Dragon Magic
+      Effect::text
+        Once per day, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
+
+    Pure Chaos::section.feat
+      Prerequisite::text
+        Chaos Magic
+      Effect::text
+        Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level. 
+
+        Whenever you level up, reroll all hit dice beyond the 1st.
+
+        Whenever you deal or receive damage, roll 2d100. Multiply the damage by that percent.
+
+        You gain +3 HP and a +1 to all saves.
+
+
+    Efficient Mana Manipulation::section.feat
+      Prerequisite::text
+        Mana Magic
+      Effect::text
+        TODO: what does this MEAN???
+
+        Gain +1 spell points for each level of the highest level spell known.
+
+    Immortal Blood::section.feat
+      Prerequisite::text
+        Blood Magic
+      Effect::text
+        When you are below half your maximum hit points, you gain fast healing 1 until you are above half your maximum hit points.

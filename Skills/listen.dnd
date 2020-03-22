@@ -1,0 +1,4 @@
+  Listen (Wis)::section.skill_description
+    ::text
+      Listen is used to hear things, like on the other side of doors and such.
+      Usually the DM rolls the listen check.

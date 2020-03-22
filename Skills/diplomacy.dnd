@@ -1,0 +1,23 @@
+  Diplomacy (Cha)::section.skill_description
+    ::text
+      Diplomacy is used to break the ice, calm people down, and ???
+      In general, the players talk to the NPCs and the DM may call for diplomacy checks for certain things.
+
+      This skill is also used in actual diplomacy in domain play.
+
+    Smooth Over a Situation::text
+      This is used after insulting an NPC.
+      The DC to get them to overlook the insult is 20.
+
+    Calm Down an Angry or Emotional Person::text
+      The DC to get them calm enough to talk is 15.
+
+    Get a Hostile to Parley::text
+      This is used right before initiative is rolled when neither side is surprised. If successful, the combat is delayed and instead both parties will speak to one another.
+      Combat may ultimately result, with normal initiative rolled.
+
+    Convince a Neutral Party to Your Cause::text
+      The general DC for this is 15. Depending on who they are or what kind of contribution would be necessary, the DC may be higher.
+
+    End a Combat as a Draw::text
+      The DC for this is 15 if neither side particularly has the upper hand and fighting in neutral territory.

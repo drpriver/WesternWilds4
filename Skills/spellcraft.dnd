@@ -1,0 +1,28 @@
+  Spellcraft (Int, trained only)::section.skill_description
+    ::text
+      You can identify spells and magic effects. The DCs for Spellcraft checks relating to various tasks are summarized on the table below.
+    ::table
+      ::head
+        Spellcraft DC | Task
+      ::row
+        13  | When using read magic, identify a glyph of warding. No action required.
+      ::row
+        15 + spell level  | Identify a spell being cast.
+      ::row
+        15 + spell level | When casting detect magic, determine the school of magic involved in the aura of a single item or creature you can see.
+      ::row
+        19  | When using read magic, identify a symbol.
+      ::row
+        20 + spell level  | Identify a spell that’s already in place and in effect.
+      ::row
+        20 + spell level | Identify materials created or shaped by magic, such as noting that an iron wall is the result of a wall of iron spell.
+      ::row
+        20 + spell level | Decipher a written spell (such as a scroll) without using read magic. One try per day.
+      ::row
+        25 + spell level | After rolling a saving throw against a spell targeted on you, determine what that spell was.
+      ::row
+        25 | Identify a potion. Requires 1 minute.
+      ::row
+        20 | Draw a diagram to allow dimensional anchor to be cast on a magic circle spell. Requires 10 minutes. This check is made secretly so you do not know the result.
+      ::row
+        30 or higher | Understand a strange or unique magical effect, such as the effects of a magic stream

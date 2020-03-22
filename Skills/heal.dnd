@@ -1,0 +1,29 @@
+  Heal (Wis) ::section.skill_description
+    First Aid::text
+      A character with at least 3 ranks in heal can recover some of a character’s hit points suffered from a combat or traumatic event (like falling off a ladder).
+
+      To do so, such a character expends a usage of a healing kit and rolls d6+their heal bonus. 
+
+      The character recovers that many hit points. A character cannot heal more than the damage received during the combat or traumatic event.
+
+      The above assumes the character is treated within 10 minutes of the event. The amount that may be recovered is halved if longer then this time period. It is halved again after 24 hours and is no longer possible after 48 hours.
+
+      Only one attempt can be made on the aided character.
+
+    Long Term Care::text
+      A character with at least 5 ranks in heal can effectively provide long term care to wounded persons.
+      Providing long-term care means treating a wounded person for a day or more. If your Heal check is successful, the patient recovers hit points or ability score points (lost to ability damage) at twice the normal rate: 2 hit points per level for a full 8 hours of rest in a day, or 4 hit points per level for each full day of complete rest; 2 ability score points for a full 8 hours of rest in a day, or 4 ability score points for each full day of complete rest.
+
+      You can tend as many as six patients at a time. You need a few items and supplies (bandages, salves, and so on) that are easy to come by in settled lands. Giving long-term care counts as light activity for the healer. You cannot give long-term care to yourself.
+
+    Immediately Treat Poison::text
+      A trained healer can attempt to remove the poison from a poisoned person within 1 minute of the poisoning. Roll a heal check. If the check is higher than the initial poison DC, the poison is removed and any ability damage is undone. If the poison was a save-or-die poison, the victim is recussitated and loses 1d6 hit points instead of dying. If this check fails, a second check may be made against the secondary damage of the poison. This check replaces the victim's fortitude save if it is better.
+
+    Long Term Treat Poison::text
+      This is covered by Long Term Care above.
+
+    Treat Disease::text
+      If a diseased creature is under your long term care, they may use your heal check result instead of the fortitude saving throw result if it is better when rolling against the disease.
+
+    Perform Surgery::text
+      Some surgeries require heal checks.

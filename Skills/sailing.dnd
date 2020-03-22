@@ -1,0 +1,18 @@
+  Sailing (Wis)::section.skill_description
+    ::text
+      Sailing is used when working on a ship. A single character acts as pilot for the ship. Another character acts as navigator.
+
+      There are other mundane tasks like knowing the ropes that are not listed here.
+    ::table
+      ::head
+        Sailing Task | DC
+      ::row
+        (Navigator) Navigate by dead reckoning | 20
+      ::row
+        (Navigator) Navigate by astronomy | 15
+      ::row
+        (Navigator) Navigate by coastal landmark | 10
+      ::row
+        (Pilot) Evasive Action: Ship gains +4 AC | 15
+      ::row
+        (Pilot) Speed up: Ship gains +20% speed this round | 15

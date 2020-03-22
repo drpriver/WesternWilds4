@@ -1,0 +1,16 @@
+  Gather Information (Cha)::section.skill_description
+    ::text
+      Gather information can be used to obtain local rumors and find out semi-hidden local knowledge (for example, the location of a black market, which the average person on the street won't tell you).
+
+      In general, usage of this skill involves buying drinks, greasing palms, etc. and costs gold to use.
+
+      This table is incomplete because I am lazy.
+    ::table
+      ::head
+        Usage | DC | Cost | Result
+      ::row
+        Obtain local general rumors | 5 | 6d4gp | Learn 1d6 local rumors
+      ::row
+        Learn Semi-hidden location (black market, etc.) | 12 | 2d12 | Learn its location
+      ::row
+        Learn habits of specific person | 2d20gp | 16 | Learn 2d4 habits

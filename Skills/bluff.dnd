@@ -1,0 +1,24 @@
+  Bluff (Cha)::section.skill_description
+    Lying::text
+      A bluff check is made to convince another creature that you are speaking earnestly. This is usually necessary when the DM knows your character is lying. The DC for a bluff check is the target's wisdom score. The bluff skill is not used on players for this purpose - the DM just has the character lie and the players must decide for themselves whether the character is lying or not based on their knowledge and the character's behavior.
+
+      The DM will assign a penalty or bonus to the bluff difficulty based on how outrageous or simple the lie is.
+
+      A successful buff check indicates that the target believes you are not lying -- however he might believe you are mistaken if your lie is outrageous or contradicts some knowledge they have.
+
+    Induce Reaction::text
+      This use of bluff is to get someone to react to something in a particular way. For example, you might pretend to be afraid of a chasing tiger in an effort to get them to react with fear. Or, you can get others to look a certain direction by claiming you see something. This difficulty for this check is the target's wisdom score.
+
+      A successful Bluff check indicates that the target reacts as you wish, at least for a short time (usually 1 round or less).
+
+    Feinting in Combat::text
+      You can also use Bluff to mislead an opponent in melee combat (so that it can’t dodge your next attack effectively). To feint, make a Bluff check opposed by your target’s wisdom score + base attack bonus as a standard action.
+
+      If your Bluff check result succeeds, your target is effectively flat-footed against the next melee attack you make against it (granting you a +2 bonus to your attack). This attack must be made on or before your next turn.
+
+      Feinting in this way against a nonhumanoid is difficult because it’s harder to read a strange creature’s body language; you take a -4 penalty on your Bluff check. Against a creature of animal Intelligence (1 or 2) it’s even harder; you take a -8 penalty. Against a nonintelligent creature, it’s impossible.
+
+      Feinting in combat does not provoke an attack of opportunity.
+
+    Delivering a Secret Message::text
+      You can use Bluff to get a message across to another character without others understanding it. The DC is 15 for simple messages, or 20 for complex messages, especially those that rely on getting across new information. Failure by 4 or less means you can’t get the message across. Failure by 5 or more means that some false information has been implied or inferred. Anyone listening to the exchange can make a Listen check opposed by the Bluff check you made to transmit in order to intercept your message.

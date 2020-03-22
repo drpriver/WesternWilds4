@@ -1,23 +1,23 @@
   Monk::section
     Monk Class Table::table.class_table
       ::head
-        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special                                     | Unarmed Damage | AC Bonus | Speed Bonus
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special                                     | Unarmed Damage | AC Bonus | Speed Bonus
       ::row
-        1st   | +1                | +2        | +2       | +2        | Bonus feat, flurry of blows, unarmed strike | 1d6            | +2       | +10 ft.
+        1st   | +1                | +2        | +2       | +2        | Bonus feat, flurry of blows, unarmed strike | 1d6            | +2       | +10 ft.
       ::row
-        2nd   | +2                | +3        | +3       | +3        | Bonus feat, evasion                         | 1d6            | +3       | +10 ft.
+        2nd   | +2                | +3        | +3       | +3        | Bonus feat, evasion                         | 1d6            | +3       | +10 ft.
       ::row
-        3rd   | +3                | +3        | +3       | +3        | Still mind                                  | 1d8            | +4       | +20 ft.
+        3rd   | +3                | +3        | +3       | +3        | Still mind                                  | 1d8            | +4       | +20 ft.
       ::row
-        4th   | +4                | +4        | +4       | +4        | Ki strike (+1), slow fall 20 ft.            | 1d8            | +5       | +20 ft.
+        4th   | +4                | +4        | +4       | +4        | Ki strike (+1), slow fall 20 ft.            | 1d8            | +5       | +20 ft.
       ::row
-        5th   | +5                | +4        | +4       | +4        | Purity of body                              | 1d10           | +6       | +20 ft.
+        5th   | +5                | +4        | +4       | +4        | Purity of body                              | 1d10           | +6       | +20 ft.
       ::row
-        6th   | +6/+1              | +5        | +5       | +5        | Bonus feat, slow fall 30 ft.                | 1d10           | +7       | +30 ft.
+        6th   | +6/+1              | +5        | +5       | +5        | Bonus feat, slow fall 30 ft.                | 1d10           | +7       | +30 ft.
       ::row
-        7th   | +7/+2              | +5        | +5       | +5        | Wholeness of body                           | 1d12           | +8       | +30 ft.
+        7th   | +7/+2              | +5        | +5       | +5        | Wholeness of body                           | 1d12           | +8       | +30 ft.
       ::row
-        8th   | +8/+3              | +6        | +6       | +6        | Slow fall 40 ft.  Greater Flurry of Blows   | 1d12           | +9       | +30 ft.
+        8th   | +8/+3              | +6        | +6       | +6        | Slow fall 40 ft.,  Greater Flurry of Blows   | 1d12           | +9       | +30 ft.
     Alignment Requirement::text
       Any lawful.
 

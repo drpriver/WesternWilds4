@@ -40,11 +40,35 @@ FEATS=feats.dnd\
 	sorcerer-feats.dnd\
 	wizard-feats.dnd
 
+SKILLS=skills.dnd\
+	alchemy.dnd\
+	appraise.dnd\
+	bluff.dnd\
+	climb.dnd\
+	diplomacy.dnd\
+	disguise.dnd\
+	escape-artist.dnd\
+	forgery.dnd\
+	gather-information.dnd\
+	heal.dnd\
+	jump.dnd\
+	listen.dnd\
+	perform.dnd\
+	ride.dnd\
+	sailing.dnd\
+	speak-language.dnd\
+	spellcraft.dnd\
+	spot.dnd\
+	stealth.dnd\
+	survival.dnd\
+	swim.dnd\
+	tumble.dnd\
+
 ALL=basics.dnd\
     $(addprefix Races/,$(RACES))\
     alignment.dnd\
     $(addprefix Classes/,$(CLASSES))\
-    skills.dnd\
+    $(addprefix Skills/,$(SKILLS))\
     $(addprefix Feats/,$(FEATS))\
     equipment.dnd\
     experience.dnd\
