@@ -54,6 +54,7 @@ SKILLS=skills.dnd\
 	gather-information.dnd\
 	heal.dnd\
 	jump.dnd\
+	knowledge.dnd\
 	listen.dnd\
 	perform.dnd\
 	ride.dnd\
