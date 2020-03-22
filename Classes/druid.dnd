@@ -1,4 +1,4 @@
-  Druid::section
+  Druid::section.character_class
     Druid Class Table::table.class_table
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special

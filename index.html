@@ -7,6 +7,9 @@
       *{
       box-sizing:border-box;
       }
+      *::-webkit-scrollbar {
+      display:none;
+      }
       a, img {
       -webkit-user-drag: none;
       -khtml-user-drag: none;
@@ -89,7 +92,7 @@
       }
       .center {
       padding: 0 10px;
-      max-width: 100%;
+      max-width: 80%;
       grid-column-start: 2;
       grid-column-end: 3;
       grid-row-start:2;
@@ -200,6 +203,18 @@
       section.feat h4,
       section.feat h3 {
       margin-block-start:0px;
+      }
+      section.skill_description {
+      border-top: 1px solid black;
+      padding-top: 1em;
+      }
+      section.character_class section.skill_description h5{
+      font-size:1.17em;
+      color: #58180D;
+      }
+      section.character_class section.skill_description h6{
+      font-size:.67em;
+      color: #58180D;
       }
     </style>
     <script>
@@ -1578,7 +1593,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="barbarian">Barbarian</h3>
             <section>
               <h4 id="barbarian-class-table">Barbarian Class Table</h4>
@@ -1772,7 +1787,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="bard">Bard</h3>
             <section>
               <h4 id="bard-class-table">Bard Class Table</h4>
@@ -2159,7 +2174,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="cleric">Cleric</h3>
             <section>
               <h4 id="cleric-class-table">Cleric Class Table</h4>
@@ -2428,7 +2443,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="druid">Druid</h3>
             <section>
               <h4 id="druid-class-table">Druid Class Table</h4>
@@ -2757,7 +2772,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="fighter">Fighter</h3>
             <section>
               <h4 id="fighter-class-table">Fighter Class Table</h4>
@@ -2880,7 +2895,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="monk">Monk</h3>
             <section>
               <h4 id="monk-class-table">Monk Class Table</h4>
@@ -3133,7 +3148,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="paladin">Paladin</h3>
             <section>
               <h4 id="paladin-class-table">Paladin Class Table</h4>
@@ -3494,7 +3509,7 @@
               </div>
             </section>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="ranger">Ranger</h3>
             <section>
               <h4 id="ranger-class-table">Ranger Class Table</h4>
@@ -3950,7 +3965,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="thief">Thief</h3>
             <section>
               <h4 id="thief-class-table">Thief Class Table</h4>
@@ -4324,7 +4339,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="sorcerer">Sorcerer</h3>
             <section>
               <h4 id="sorcerer-class-table">Sorcerer Class Table</h4>
@@ -4648,7 +4663,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="wizard">Wizard</h3>
             <section>
               <h4 id="wizard-class-table">Wizard Class Table</h4>
@@ -4990,7 +5005,7 @@
               </div>
             </section>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="fighterwizard">Fighter/Wizard</h3>
             <section>
               <h4 id="fighterwizard-class-table">Fighter/Wizard Class Table</h4>
@@ -5116,7 +5131,7 @@
               </p>
             </div>
           </section>
-          <section>
+          <section class="character_class">
             <h3 id="fighterthief">Fighter/Thief</h3>
             <section>
               <h4 id="fighterthief-class-table">Fighter/Thief Class Table</h4>

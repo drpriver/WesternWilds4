@@ -1,4 +1,4 @@
-  Fighter/Wizard::section
+  Fighter/Wizard::section.character_class
     Fighter/Wizard Class Table::table.class_table
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special

@@ -1,6 +1,9 @@
 *{
 	box-sizing:border-box;
 }
+*::-webkit-scrollbar {
+	display:none;
+}
 a, img {
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -97,7 +100,7 @@ a {
 }
 .center {
 	padding: 0 10px;
-	max-width: 100%;
+	max-width: 80%;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start:2;
@@ -211,4 +214,17 @@ section.spell h5 {
 section.feat h4,
 section.feat h3 {
 	margin-block-start:0px;
+}
+section.skill_description {
+	border-top: 1px solid black;
+	padding-top: 1em;
+}
+section.character_class section.skill_description h5{
+	font-size:1.17em;
+	color: #58180D;
+}
+
+section.character_class section.skill_description h6{
+	font-size:.67em;
+	color: #58180D;
 }

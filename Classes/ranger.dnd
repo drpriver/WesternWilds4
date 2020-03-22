@@ -1,4 +1,4 @@
-  Ranger::section
+  Ranger::section.character_class
     Ranger Class Table::table.class_table
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 1st level spell per day
