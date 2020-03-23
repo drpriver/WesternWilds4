@@ -418,7 +418,9 @@
             <li><a href="#factions">Factions</a></li>
             <li><a href="#guilds">Guilds</a></li>
             <li><a href="#domains">Domains</a></li>
-            <li><a href="#combat">Combat</a></li>
+            <li><a href="#combat">Combat</a><ul>
+              <li><a href="#grappling">Grappling</a></li>
+            </ul></li>
             <li><a href="#ships">Ships</a></li>
             <li><a href="#magic">Magic</a></li>
             <li><a href="#spells6">Spells</a></li>
@@ -9495,7 +9497,198 @@
         </section>
         <section class="chapter">
           <h2 id="combat">Combat</h2>
-          TODO
+          <section class="special_attack">
+            <h3 id="grappling">Grappling</h3>
+            <div>
+              <h4 id="grapple-checks">Grapple Checks</h4>
+              <p>
+                Your grapple bonus is BAB+Str+Size+other. A grapple check is an opposed roll where each
+                side rolles a d20+their grapple bonus. A tie maintains the status quo - the grapple is
+                not initiated, or no grapple points are earned or you do not escape from the pin.
+              </p>
+            </div>
+            <div>
+              <h4 id="grapple-points">Grapple Points</h4>
+              <p>
+                Grapple points represent how in control of the grapple you are.
+              </p>
+              <p>
+                You earn grapple points by winning grapple checks and can spend grapple points to
+                achieve certain effects.
+              </p>
+              <p>
+                When you earn grapple points, you earn 1d4+BAB grapple points.
+              </p>
+            </div>
+            <div>
+              <h4 id="starting-a-grapple">Starting a Grapple</h4>
+              <p>
+                To start a grapple, make a grapple check on your opponent.
+              </p>
+              <p>
+                If you beat their check, you two are now grappling and you move into their space.
+              </p>
+              <p>
+                You earn half as many grapple points as if you succeeded on a grapple contest.
+              </p>
+            </div>
+            <div>
+              <h4 id="in-the-grapple">In the grapple</h4>
+              <p>
+                While engaged in the grapple, you can either try to earn grapple points, escape the
+                grapple, or attack your opponent.
+              </p>
+              <p>
+                Earning grapple points is an attack (so if you have multiple attacks due to high BAB or
+                haste, you can do it more than once). To earn grapple points, win an opposed grapple check.
+              </p>
+              <p>
+                To escape, win an opposed grapple check (or you can use escape artist), but your
+                opponent gets +2 to their roll. If your opponent lets you escape, there is no need to roll.
+              </p>
+              <p>
+                Attacking your opponent is at -4 and can only be done with light weapons, unarmed
+                attacks, natural weapons or armor spikes.
+                (Exception, monks do not suffer the -4).
+              </p>
+              <p>
+                Additionally, you can spend grapple points as a free action once per turn. If there is more than one enemy in the grapple, you can spend your grapple points as many times as there are enemies, once for each.
+              </p>
+              <p>
+                The only spells you can cast while grappling are those with no somatic components and those fail 50% of the time.
+              </p>
+            </div>
+            <section>
+              <h4 id="uses-of-grapple-points">Uses of grapple points</h4>
+              <section>
+                
+                <table>
+                  <thead>
+                    <tr class="table_header">
+                      <th>Cost </th>
+                      <th> Effect</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>3x enemy HD </td>
+                      <td> <a href="#inflict-pinned-condition">Inflict pinned condition</a></td>
+                    </tr>
+                    <tr class="even">
+                      <td>1x enemy HD </td>
+                      <td> <a href="#subdue-pinned-creature">subdue pinned creature</a></td>
+                    </tr>
+                    <tr class="odd">
+                      <td>1x enemy HD </td>
+                      <td> <a href="#disarm-them">Disarm them</a></td>
+                    </tr>
+                    <tr class="even">
+                      <td>0.5x enemy HD </td>
+                      <td> Draw a light weapon, etc.</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>0.5x enemy HD </td>
+                      <td> <a href="#deal-grapple-damage">deal grapple damage</a></td>
+                    </tr>
+                    <tr class="even">
+                      <td>0.5x enemy HD </td>
+                      <td> <a href="#move-the-grapple">move the grapple</a></td>
+                    </tr>
+                    <tr class="odd">
+                      <td>1.5x enemy HD </td>
+                      <td> <a href="#throw-enemy">throw enemy</a></td>
+                    </tr>
+                    <tr class="even">
+                      <td>Any number of points </td>
+                      <td> reduce your enemy’s grapple point pool by the same amount</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                <h5 id="inflict-pinned-creature">Inflict Pinned Creature</h5>
+                <p>
+                  A pinned creature's only possible action is to try to escape from the pin, which they
+                  can do by besting the enemy's grapple check. The enemy gets a +4 bonus. If they
+                  succeed, they are no longer pinned (and are standing), but are still in the grapple.
+                </p>
+                <p>
+                  Pinned creatures still aid in multiple grappling (as keeping them pinned distracts the pinner).
+                </p>
+              </div>
+              <div>
+                <h5 id="subdue-pinned-creature">Subdue Pinned Creature</h5>
+                <p>
+                  A subdued creature is defeated and is no longer able to fight due to a combination of
+                  exhaustion, bruising, etc. Treat them as having as much subdual damage as necessary
+                  to bring them to -10. They are effectively no longer combatants.
+                </p>
+              </div>
+              <div>
+                <h5 id="disarm-them">Disarm Them</h5>
+                <p>
+                  A disarmed weapon is scattered in a random directly by 5-15'.
+                </p>
+              </div>
+              <div>
+                <h5 id="deal-grapple-damage">Deal Grapple Damage</h5>
+                <p>
+                  Grapple damage is equal to a creature's unarmed damage.
+                </p>
+              </div>
+              <div>
+                <h5 id="throw-enemy">Throw Enemy</h5>
+                <p>
+                  Throw them  10’ from the grapple and deal grapple damage to them.
+                </p>
+              </div>
+            </section>
+            <section>
+              <h4 id="multiple-grapplers">Multiple grapplers</h4>
+              <div>
+                
+                <p>
+                  If a grapple is already ongoing, you don't need to roll to join it. Additionally, if
+                  a creature next to you is grappled, you are allowed to join the grapple as well
+                  immediately.
+                </p>
+                <p>
+                  The area of a grapple is as many 5ft squares as there are participants, divided by
+                  two. Adjust as needed for larger creatures.
+                </p>
+                <p>
+                  Each round, randomly pair off who you are rolling against. If there is an excess on
+                  one side, the remainder pair up as they want, but this must be divided as evenly as
+                  possible.
+                </p>
+                <p>
+                  When a subgroup rolls against a subgroup, the creature within a subgroup with the
+                  highest bonus makes the check and the others grant him a +2 bonus per each of them.
+                </p>
+                <p>
+                  Creatures within a subgroup may pool their grapple points to achieve results.
+                </p>
+              </div>
+              <div>
+                <h5 id="example">Example</h5>
+                <p>
+                  For example, Krug the 8th level barbarian goes into a dungeon and encounters 4
+                  2HD orcs who refuse to join his clan. To make them join, he enters into a grapple
+                  with them. The 4 orcs are paired against Krug. The orc's individual grapple bonus is
+                  +5 and Krug's is +20 while raging as he has gone hard on grapple. One of the orcs is
+                  the chosen one to roll against krug each round and the others lend him +6 in total.
+                  Thus, the orc will roll at +11 and Krug rolls at +20. Krug easily wins his check and
+                  earns 1d4 + 8 grapple points, in this case 12 (rolled a 4 +8). As this is the
+                  initiation of the grapple, he earns half as many points and thus 6. Krug has a second
+                  attack, so he goes for it again, winning and earning another 9 points. He uses 12 of
+                  his 15 points to immediately pin two of the orcs. On the orcs' turn they go for
+                  points and roll at +11 again (+5 and 3 aiders is +11). They manage to best krug this
+                  round and roll d4+2 = 5 grapple points. This goes on for a while until krug has
+                  subdued all of the orcs and forces them into his clan.
+                </p>
+              </div>
+            </section>
+          </section>
         </section>
         <section class="chapter">
           <h2 id="ships">Ships</h2>
