@@ -1,5 +1,4 @@
 Combat::chapter
-
   Grappling::section.special_attack
     Grapple Checks::text
       Your grapple bonus is BAB+Str+Size+other. A grapple check is an opposed roll where each
@@ -33,7 +32,7 @@ Combat::chapter
 
       Attacking your opponent is at -4 and can only be done with light weapons, unarmed
       attacks, natural weapons or armor spikes.
-      (Exception, monks do not suffer the -4).
+      Monks and natural weapons do not suffer the -4.
 
       Additionally, you can spend grapple points as a free action once per turn. If there is more than one enemy in the grapple, you can spend your grapple points as many times as there are enemies, once for each.
 
@@ -57,7 +56,8 @@ Combat::chapter
         can do by besting the enemy's grapple check. The enemy gets a +4 bonus. If they
         succeed, they are no longer pinned (and are standing), but are still in the grapple.
 
-        Pinned creatures still aid in multiple grappling (as keeping them pinned distracts the pinner).
+        Pinned creatures still aid in multiple grappling (as keeping them pinned distracts
+        the pinner).
       Subdue Pinned Creature::text
         A subdued creature is defeated and is no longer able to fight due to a combination of
         exhaustion, bruising, etc. Treat them as having as much subdual damage as necessary
@@ -65,7 +65,8 @@ Combat::chapter
       Disarm Them::text
         A disarmed weapon is scattered in a random directly by 5-15'.
       Deal Grapple Damage::text
-        Grapple damage is equal to a creature's unarmed damage.
+        Grapple damage is equal to a creature's unarmed damage. If you have armor spikes, you
+        can deal damage with those instead.
       Throw Enemy::text
         Throw them  10’ from the grapple and deal grapple damage to them.
     Multiple grapplers::section
