@@ -1,2 +1,30 @@
   Craft Weapon (Str)::section.skill_description
-    TODO, can make cool weapons, reforge broken weapons, etc
+    ::text
+      Craft weapon represents skill in weapon-making and related skills like weapon repair.
+    Craft Weapon::text
+      A character with at least 1 rank in craft weapon can craft any normal weapon.
+
+      To do so, he must purchase or acquire one half the cost of the weapon in raw materials and spend an amount of days equal to the remaining cost/their craft bonus. This activity can only be done during downtime. After that length of time, an ordinary suit of weapon is produced.
+
+    Craft Masterwork Weapon::section
+      ::text
+        A character with at least 5 ranks in craft weapon can craft superior versions of normal weapons. One property can be added to a weapon when crafting it. The procedure is the same as the one listed above, but the character must expend an extra 2000gp in raw materials.
+      Masterwork Weapon Properties::table 
+        ::head
+          Property | Effect
+        ::row
+          Lightweight | Encumbers one fewer slot than normal
+          Accurate    | +1 to attack
+          Deadly      | damage die is one larger (eg, d6->d8. d12 and multi-die weapons instead are +1 damage).
+          Balanced    | +4 bonus to resist disarm attempts
+          Throwable   | Weapon can be thrown with a 30' range increment.
+          Nimble      | Weapon can be drawn/stowed as a free action.
+    Craft Grandmasterwork Weapon::section
+      ::text
+        A character with at least 10 ranks in craft weapon can craft grandmasterwork weapons.
+        This follows the same procedure as crafting a masterwork weapon, but requires an extra 6000gp on top of that and allows two properties to be added. The properties must be different.
+    Repair Weapon::section
+      Repairing non-magical weapons is like crafting the weapon, but costs half as much time and money.
+
+      Repairing magical weapons requires at least 6 ranks in craft weapon (or more, depending on the weapon) and special materials as determined by the DM.
+

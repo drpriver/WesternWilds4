@@ -228,6 +228,17 @@ section.feat h4,
 section.feat h3 {
 	margin-block-start:0px;
 }
+section.feat h3,
+section.feat h4,
+section.feat h5{
+	margin-bottom:2px;
+}
+section.feat h3+p,
+section.feat h4+p,
+section.feat h5+p{
+	margin-top:0;
+}
+
 section.skill_description {
 	border-top: 1px solid black;
 	padding-top: 1em;

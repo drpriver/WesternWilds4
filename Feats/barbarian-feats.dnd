@@ -73,9 +73,9 @@
       Prerequisite::text
         Combat Tactics or Combat Brawn, Power Attack, Level 3
       Effect::text
-        When you hit an enemy with a charge attack, you can make a free bullrush attempt.If you succeed, you can push them in any direction up to 10 feet.
+        When you hit an enemy with a charge attack, you can make a free bullrush attempt. If you succeed, you can push them in any direction up to 10 feet.
 
-        When you bullrush an enemy, if they collide with a solid barrier or another enemy, you get a free trip attempt on the primary target. This does not trigger improved trip.
+        When you bullrush an enemy, if they collide with a solid barrier or another enemy, you get a free trip attempt on the primary target. This does not trigger combat tactics.
 
         When you use your power attack with your charge attack with a penalty of at least -2 attack, you may choose to take a -2 penalty to AC for a +2 bonus to attack.
 

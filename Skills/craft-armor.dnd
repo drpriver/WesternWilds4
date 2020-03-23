@@ -1,2 +1,28 @@
   Craft Armor (Str)::section.skill_description
-    TODO, can make cool armors, reforge broken armor, etc
+    ::text
+      Craft armor represents skill in armor-making and related skills like armor repair.
+    Craft Armor::text
+      A character with at least 1 rank in craft armor can craft any normal armor.
+
+      To do so, he must purchase or acquire one half the cost of the armor in raw materials and spend an amount of days equal to the remaining cost/their craft bonus. This activity can only be done during downtime. After that length of time, an ordinary suit of armor is produced.
+
+    Craft Masterwork Armor::section
+      ::text
+        A character with at least 5 ranks in craft armor can craft superior versions of normal armor. One property can be added to a suit of armor when crafting it. The procedure is the same as the one listed above, but the character must expend an extra 1000gp in raw materials.
+      Masterwork Armor Properties::table 
+        ::head
+          Property | Effect
+        ::row
+          Lightweight | Encumbers one fewer slot than normal
+          Sturdy      | Armor bonus is 1 higher
+          Flexible    | Armor check penalty is reduced by 2 and maximum allowable dexterity bonus is increased by 1.
+          Spiked      | Armor has [weapon spikes] protruding from it.
+          Fortified   | 10% chance to negate any critical hit upon the wearer.
+    Craft Grandmasterwork Armor::section
+      ::text
+        A character with at least 10 ranks in craft armor can craft grandmasterwork armors.
+        This follows the same procedure as crafting masterwork armor, but requires an extra 3000gp on top of that and allows two properties to be added. The properties must be different.
+    Repair Armor::section
+      Repairing non-magical armors is like crafting the armor, but costs half as much time and money.
+
+      Repairing magical armors requires at least 6 ranks in craft armor (or more, depending on the armor) and special materials as determined by the DM.
