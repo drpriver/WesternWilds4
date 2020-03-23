@@ -1,4 +1,4 @@
-Flaws::section
+Flaws::chapter
   Determining Flaws::text
     After a character's ability scores, race and class has been determined, the player may opt to roll for up to two flaws. Before rolling, the player is allowed to ban 1 of the possible options. For every flaw a character has, they can choose an extra feat at first level.
 

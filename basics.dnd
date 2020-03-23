@@ -1,4 +1,4 @@
-The Basics::section
+The Basics::chapter
   The Core Mechanic::section
     ::text
       Whenever you attempt an action that has some chance of failure, you roll a twenty-sided die (d20). To determine if your character succeeds at a task you do this:
@@ -222,7 +222,7 @@ The Basics::section
         ::text
           [Sorcerers] and [bards] get bonus spells based on their Charisma scores. The minimum Charisma score needed to cast a sorcerer or bard spell is 10 + the spell’s level.
 
-How to make a a Character::section
+How to make a a Character::chapter
   1. Determining Your Ability Scores::section
     ::text
       When creating a new character, ability scores can be determined either by rolling, using an array, or using a hybrid method
