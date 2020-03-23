@@ -4,13 +4,32 @@
 
     Power Attack::section.feat
       Effect::text
-        On your action, before making attack rolls for a round, you may choose to subtract a number from all weapon attack rolls and add the same number to all weapon damage rolls. The penalty on attacks and bonus on damage apply until your next turn. You may only use this feat with attacks that add your strength modifier to the damage. You cannot subtract from your attack roll a number higher than your base attack. If you attack with a two-handed melee weapon, or with a one-handed melee weapon wielded in two hands, instead add twice the number subtracted from your attack rolls. You can't add the bonus from Power Attack to the damage dealt with a light weapon (except with unarmed strikes or natural weapon attacks). 
+        On your action, before making attack rolls for a round, you may choose to subtract a
+        number from all weapon attack rolls and add the same number to all weapon damage
+        rolls. The penalty on attacks and bonus on damage apply until your next turn.
+
+        You may only use this feat with attacks that add your strength modifier to the
+        damage. You cannot subtract from your attack roll a number higher than your base
+        attack. 
+
+        If you attack with a two-handed melee weapon, or with a one-handed melee weapon
+        wielded in two hands, instead add twice the number subtracted from your attack 
+        rolls. 
+
+        You can't add the bonus from Power Attack to the damage dealt with a light weapon
+        (except with unarmed strikes or natural weapon attacks). 
 
     Cleave::section.feat
       Prerequisite::text
         Power Attack
       Effect::text
-        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach. If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round. The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. You can use this ability once per round.
+        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach. 
+        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. 
+
+        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round. 
+
+
+        You can use this ability once per round.
 
     Great Cleave::section.feat
       Prerequisite::text
@@ -20,14 +39,20 @@
 
     Two Weapon Style::section.feat
       Effect::text
-        Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon. When you choose to use this ability, all your attacks get a -3 bonus on the attack. Weapons must be one-handed. For each light weapon you are wielding, reduce the attack penalty by 1.
+        Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon.  The weapons must be one-handed. 
+
+        When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
+        For each light weapon you are wielding, reduce the attack penalty by 1.
+
       Normal::text
         Normally, you can only attack with your primary weapon.
 
 
     Combat Tactics::section.feat
       Effect::text
-        You gain a +2 bonus when tripping or disarming. Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
+        You gain a +2 bonus when tripping or disarming.
+
+        Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
 
     Greater Combat Tactics::section.feat
       Prerequisite::text
@@ -37,7 +62,9 @@
 
     Combat Brawn::section.feat
       Effect::text
-        You gain a +2 bonus when bullrushing, grappling and overrunning. Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
+        You gain a +2 bonus when bullrushing, grappling and overrunning. 
+
+        Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
     Greater Combat Brawn::section.feat
       Effect::text
         Your bonus from combat brawn increases from +2 to +4
@@ -70,7 +97,8 @@
 
     Lion Totem::section.feat
       Effect::text
-        When you make a charge attack while raging, you can make an extra attack at your highest base attack bonus.
+        When you make a charge attack while raging, you can make an extra attack at your
+        highest base attack bonus.
       Special::text
         You may have a maximum of 3 totem feats
 
@@ -80,7 +108,8 @@
 
         You can use dexterity based skills while raging.
 
-        You can make charge attacks while hidden without the enemy having a chance to spot you after you leave cover.
+        You can make charge attacks while hidden without the enemy having a chance to
+        spot you after you leave cover.
 
         Stealth becomes a class skill and starts with 4 ranks in it.
       Special::text
@@ -88,9 +117,11 @@
 
     Wolf Totem::section.feat
       Effect::text
-        If you and an ally threaten the same enemy, you are both considered flanking (+2 on melee attack rolls).
+        If you and an ally threaten the same enemy, you are both considered flanking
+        (+2 on melee attack rolls).
 
-        You can buy the Scent skill (usually reserved for animals), Scent becomes a class skill and starts with 4 ranks in it.
+        You can buy the [Scent] skill (usually reserved for animals), Scent becomes a
+        class skill and starts with 4 ranks in it.
 
       Special::text
         You may have a maximum of 3 totem feats
@@ -99,7 +130,9 @@
       Effect::text
         While raging, you have blindsight 30’
 
-        When you take this feat, choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
+        When you take this feat, choose a color of dragon -- red (fire), blue (lighting),
+        white (cold), yellow (wind) or brown (earth). The associated damage types for wind
+        and earth are slashing and bludgeoning, respectively.
 
         While raging, your weapon attacks deal 2 bonus damage of the associated type.
 
@@ -128,14 +161,17 @@
     Rage Mage::section.feat
       Effect::section
         ::text
-          Once per rage while raging, you can cast one of the following sorcerer spells as a swift action. The only component for the spell is verbal. Your selection of spells increases with level. The caster level for your spells is your level. If a spell has a duration, the spell ends when your rage ends. Your spellcasting attribute for spell DCs is strength.
+          Once per rage while raging, you can cast one of the following sorcerer spells as a swift action.
         ::bullets
           * Burning Hands
-          * Expeditious Retreat
+          * Color Spray
+          * Jump
           * Magic Missile
-
         ::text
           At level 5, these spells are accessible.
         ::bullets
+          * Acid Arrow
           * See Invisibility
           * Resist Energy
+        ::text
+          The caster level for your spells is your level. If a spell has a duration, the spell ends when your rage ends. Your spellcasting attribute for spell DCs is strength. The only component for the spell is verbal.
