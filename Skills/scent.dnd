@@ -1,0 +1,39 @@
+
+  Scent (Wis, trained only, animal only)::section.skill_description
+    ::text
+      Scent is an unusual skill, as normally only animals and monsters can have it.
+      Some unusual abilities allow players to purchase ranks in it however.
+
+      Scent is used to smell things, both now and past.
+
+      Creatures with the scent skill can identify familiar odors just as humans do
+      familiar sights.
+
+      Water, particularly running water, ruins a trail for air-breathing creatures.
+      Water-breathing creatures that have the scent skill, however, can use it in 
+      the water easily.
+
+      False, powerful odors can easily mask other scents. The presence of such an odor
+      completely spoils the ability to properly detect, identify or locate creatures.
+      Some odors still afford some ability to detect scents, but increase the DC by 10.
+
+    Smell Position::text
+      A creature with the scent skill can attempt to locate the position of a creature by
+      scent alone. The DC for such a task is usually 10, but it can be 5 for stinky creatures
+      (like orcs) or even lower (like for trogs), or higher (like 15 for reptiles). The
+      creature must be within 30 feet in relatively still conditions. If downwind, the
+      range is 15' and upwind the range is 60'.
+
+      A successful check indicates the direction of the creature (or creatures). If 
+      adjacent to the creature, their position is revealed.
+
+    Smell Tracks::text
+      This works like the ranger's [track] ability, but the base DC is 10 for a fresh trail. For each hour the trail is cold, the DC increases by 2.
+
+    Other Usages::text
+      Scent can be used as you can imagine it could in the real world. The DM will set an appropriate DC.
+    Special::text
+      Gnomes who somehow have the scent skill get +2 to scent checks due to their keen nose.
+
+      
+

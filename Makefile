@@ -59,6 +59,7 @@ SKILLS=skills.dnd\
 	perform.dnd\
 	ride.dnd\
 	sailing.dnd\
+	scent.dnd\
 	speak-language.dnd\
 	spellcraft.dnd\
 	spot.dnd\

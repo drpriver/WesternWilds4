@@ -1,0 +1,141 @@
+  Barbarian Feats::section.class_feats
+    Special Rules::text
+      Some barbarian feats are "totem" feats. This is indicated by having totem in the name. A barbarian can only have 3 totem feats.
+
+    Power Attack::section.feat
+      Effect::text
+        On your action, before making attack rolls for a round, you may choose to subtract a number from all weapon attack rolls and add the same number to all weapon damage rolls. The penalty on attacks and bonus on damage apply until your next turn. You may only use this feat with attacks that add your strength modifier to the damage. You cannot subtract from your attack roll a number higher than your base attack. If you attack with a two-handed melee weapon, or with a one-handed melee weapon wielded in two hands, instead add twice the number subtracted from your attack rolls. You can't add the bonus from Power Attack to the damage dealt with a light weapon (except with unarmed strikes or natural weapon attacks). 
+
+    Cleave::section.feat
+      Prerequisite::text
+        Power Attack
+      Effect::text
+        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach. If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round. The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. You can use this ability once per round.
+
+    Great Cleave::section.feat
+      Prerequisite::text
+        Cleave
+      Effect::text
+        There is no limit on the number of cleaves you can make in a turn. Additionally, you can move in between cleave attacks (not restricted to 5' steps).
+
+    Two Weapon Style::section.feat
+      Effect::text
+        Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon. When you choose to use this ability, all your attacks get a -3 bonus on the attack. Weapons must be one-handed. For each light weapon you are wielding, reduce the attack penalty by 1.
+      Normal::text
+        Normally, you can only attack with your primary weapon.
+
+
+    Combat Tactics::section.feat
+      Effect::text
+        You gain a +2 bonus when tripping or disarming. Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
+
+    Greater Combat Tactics::section.feat
+      Prerequisite::text
+        Combat Tactics
+      Effect::text
+        Your bonus from combat tactics improves from +2 to +4
+
+    Combat Brawn::section.feat
+      Effect::text
+        You gain a +2 bonus when bullrushing, grappling and overrunning. Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
+    Greater Combat Brawn::section.feat
+      Effect::text
+        Your bonus from combat brawn increases from +2 to +4
+
+    Shock Trooper::section.feat
+      Prerequisite::text
+        Combat Tactics or Combat Brawn, Power Attack, Level 3
+      Effect::text
+        When you hit an enemy with a charge attack, you can make a free bullrush attempt.If you succeed, you can push them in any direction up to 10 feet.
+
+        When you bullrush an enemy, if they collide with a solid barrier or another enemy, you get a free trip attempt on the primary target. This does not trigger improved trip.
+
+        When you use your power attack with your charge attack with a penalty of at least -2 attack, you may choose to take a -2 penalty to AC for a +2 bonus to attack.
+
+    Eagle Totem::section.feat
+      Effect::text
+        You can jump in any direction at double movespeed cost without making a jump check.
+
+        Spot becomes a class skill and starts with 4 ranks in it.
+      Special::text
+        You may have a maximum of 3 totem feats
+
+    Bear Totem::section.feat
+      Effect::text
+        While raging, your DR and natural armor are increased by 1.
+
+        While raging, you get a +4 bonus on grapple checks.
+      Special::text
+        You may have a maximum of 3 totem feats
+
+    Lion Totem::section.feat
+      Effect::text
+        When you make a charge attack while raging, you can make an extra attack at your highest base attack bonus.
+      Special::text
+        You may have a maximum of 3 totem feats
+
+    Fox Totem::section.feat
+      Effect::text
+        While raging, your dexterity is increased by 2.
+
+        You can use dexterity based skills while raging.
+
+        You can make charge attacks while hidden without the enemy having a chance to spot you after you leave cover.
+
+        Stealth becomes a class skill and starts with 4 ranks in it.
+      Special::text
+        You may have a maximum of 3 totem feats
+
+    Wolf Totem::section.feat
+      Effect::text
+        If you and an ally threaten the same enemy, you are both considered flanking (+2 on melee attack rolls).
+
+        You can buy the Scent skill (usually reserved for animals), Scent becomes a class skill and starts with 4 ranks in it.
+
+      Special::text
+        You may have a maximum of 3 totem feats
+
+    Dragon Totem::section.feat
+      Effect::text
+        While raging, you have blindsight 30’
+
+        When you take this feat, choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
+
+        While raging, your weapon attacks deal 2 bonus damage of the associated type.
+
+        This damage bonus increases to 3 at level 6.
+      Special::text
+        You may have a maximum of 3 totem feats
+
+    Extra Rage::section.feat
+      Effect::text
+        You can Rage two additional times per day.
+
+    Enduring Rage::section.feat
+      Effect::text
+        When you enter into a rage, you gain temporary HP equal to ½ your level. You lose this temp HP when your rage ends.
+
+        Additionally, when your rage ends, if the loss of your constitution bonus would reduce your HP  below 0 you instead have 0 HP.
+
+    Mindless Rage::section.feat
+      Effect::text
+        The will save bonus from your rage is doubled.
+
+        You are immune to fear effects while raging.
+
+        If you enter into a rage while suffering from an effect that resulted from a failed will save, you can immediately make a new save. You can enter into a rage even when charmed/paralyzed/etc.
+
+    Rage Mage::section.feat
+      Effect::section
+        ::text
+          Once per rage while raging, you can cast one of the following sorcerer spells as a swift action. The only component for the spell is verbal. Your selection of spells increases with level. The caster level for your spells is your level. If a spell has a duration, the spell ends when your rage ends. Your spellcasting attribute for spell DCs is strength.
+        ::bullets
+          * Burning Hands
+          * Expeditious Retreat
+          * Magic Missile
+
+        ::text
+          At level 5, these spells are accessible.
+        ::bullets
+          * See Invisibility
+          * Resist Energy
