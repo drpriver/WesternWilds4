@@ -8,36 +8,36 @@ Flaws::section
     ::head
       d30 | Flaw
     ::row
-      1 | Claustrophobia
-      2 | Excessively Honorable
-      3 | Feeble
-      4 | Frail
-      5 | Fussy
-      6 | Hydrophobia
-      7 | Inattentive
-      8 | Light Sensitivity
-      9 | Lightweight
-      10 | Meager Fortitude
-      11 | Murky-Eyed
-      12 | No Time for Book Learning
-      13 | Noncombatant
-      14 | Pathetic (Cha)
-      15 | Pathetic (Con)
-      16 | Pathetic (Dex)
-      17 | Pathetic (Int)
-      18 | Pathetic (Str)
-      19 | Pathetic (Wis)
-      20 | Poor Reflexes
-      21 | Scaredy Cat
-      22 | Separation Anxiety
-      23 | Shaky
-      24 | Slow
-      25 | Thin Skin and Weak Bones
-      26 | Unimposing
-      27 | Unreactive
-      28 | Vulnerable
-      29 | Weak Back
-      30 | Weak Will
+      1  | [ Claustrophobia             ]
+      2  | [ Excessively Honorable      ]
+      3  | [ Feeble                     ]
+      4  | [ Frail                      ]
+      5  | [ Fussy                      ]
+      6  | [ Hydrophobia                ]
+      7  | [ Inattentive                ]
+      8  | [ Light Sensitivity          ]
+      9  | [ Lightweight                ]
+      10 | [ Meager Fortitude           ]
+      11 | [ Murky-Eyed                 ]
+      12 | [ No Time for Book Learning  ]
+      13 | [ Noncombatant               ]
+      14 | [ Pathetic (Cha)             ]
+      15 | [ Pathetic (Con)             ]
+      16 | [ Pathetic (Dex)             ]
+      17 | [ Pathetic (Int)             ]
+      18 | [ Pathetic (Str)             ]
+      19 | [ Pathetic (Wis)             ]
+      20 | [ Poor Reflexes              ]
+      21 | [ Scaredy Cat                ]
+      22 | [ Separation Anxiety         ]
+      23 | [ Shaky                      ]
+      24 | [ Slow                       ]
+      25 | [ Thin Skin and Weak Bones   ]
+      26 | [ Unimposing                 ]
+      27 | [ Unreactive                 ]
+      28 | [ Vulnerable                 ]
+      29 | [ Weak Back                  ]
+      30 | [ Weak Will                  ]
   The Flaws::section
     Claustrophobia::section.feat
       You are afraid of tight quarters.
