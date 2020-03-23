@@ -100,5 +100,6 @@ $(basename $(ALL)):
 	mkdir build
 	python3 -m ez_dungeon.document $(addsuffix .dnd,$@) build
 
-
+make clean:
+	rm -f index.html
 .DEFAULT:index.html
