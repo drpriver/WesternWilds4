@@ -107,7 +107,7 @@ Flaws::section
       Effect::text
         You are illiterate. You can never learn to read any language, and you suffer a -2 penalty on all Knowledge checks except Knowledge (nature).
 
-        If you are a wizard, reroll this flaw.
+        If you are a wizard or are already illiterate, reroll this flaw.
     Noncombatant::section.feat
       You are relatively inept at melee combat.
       Effect::text
@@ -140,7 +140,7 @@ Flaws::section
       You move exceptionally slowly.
       Effect::text
         Your base land speed is halved (round down to the nearest 5-foot interval).
-      Special::section.feat
+      Special::text
         You must have a base land speed of at least 20 feet to take this flaw.
     Thin Skin and Weak Bones::section.feat
       You get hurt bad.
