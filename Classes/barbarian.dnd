@@ -4,19 +4,12 @@
         Level |  Base Attack Bonus  | Fort Save | Ref Save | Will Save | Special
       ::row
         1st   | +1                  | +2        | +0       | +0        | [Fast movement], [illiteracy], [rage] 1/day
-      ::row
         2nd   | +2                  | +3        | +0       | +0        | [Uncanny dodge]
-      ::row
         3rd   | +3                  | +3        | +1       | +1        | [Aggressive]
-      ::row
         4th   | +4                  | +4        | +1       | +1        | [Rage] 2/day
-      ::row
         5th   | +5                  | +4        | +1       | +1        | [Improved uncanny dodge]
-      ::row
         6th   | +6/+1               | +5        | +2       | +2        | [Spell Resistance]
-      ::row
         7th   | +7/+2               | +5        | +2       | +2        | [Damage reduction] 1/—
-      ::row
         8th   | +8/+3               | +6        | +2       | +2        | [Rage] 3/day
     Alignment Requirement:: text
       Any non-lawful

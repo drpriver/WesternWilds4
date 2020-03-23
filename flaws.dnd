@@ -1,0 +1,168 @@
+Flaws::section
+  Determining Flaws::text
+    After a character's ability scores, race and class has been determined, the player may opt to roll for up to two flaws. Before rolling, the player is allowed to ban 1 of the possible options. For every flaw a character has, they can choose an extra feat at first level.
+
+    A character cannot roll the same flaw twice. There is no way to remove a flaw.
+  
+  Flaw Table::table
+    ::head
+      d30 | Flaw
+    ::row
+      1 | Claustrophobia
+      2 | Excessively Honorable
+      3 | Feeble
+      4 | Frail
+      5 | Fussy
+      6 | Hydrophobia
+      7 | Inattentive
+      8 | Light Sensitivity
+      9 | Lightweight
+      10 | Meager Fortitude
+      11 | Murky-Eyed
+      12 | No Time for Book Learning
+      13 | Noncombatant
+      14 | Pathetic (Cha)
+      15 | Pathetic (Con)
+      16 | Pathetic (Dex)
+      17 | Pathetic (Int)
+      18 | Pathetic (Str)
+      19 | Pathetic (Wis)
+      20 | Poor Reflexes
+      21 | Scaredy Cat
+      22 | Separation Anxiety
+      23 | Shaky
+      24 | Slow
+      25 | Thin Skin and Weak Bones
+      26 | Unimposing
+      27 | Unreactive
+      28 | Vulnerable
+      29 | Weak Back
+      30 | Weak Will
+  The Flaws::section
+    Claustrophobia::section.feat
+      You are afraid of tight quarters.
+      Effect::text
+        You are shaken while within a hallway that is 10' wide or narrower or any other space where you are between two walls that is 10' or narrower. Effects that suppress fear suppress this penalty.
+
+        A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.
+
+        You will not willingly enter areas that are 3' wide or narrower.
+    Excessively Honorable::section.feat
+      Your sense of honor means you cannot strike first.
+      Effect::text
+        You cannot attack or cast spells that would harm a creature who has not himself attacked or cast a spell that would harm.
+    Feeble::section.feat
+      You are unathletic and uncoordinated.
+      Effect::text
+        You take a -2 penalty on Strength-, Dexterity-, and Constitution-based ability checks and skill checks.
+    Frail::section.feat
+      You are thin and weak of frame.
+      Effect::text
+        Subtract 1 from the number of hit points you gain at each level. This flaw can reduce the number of hit points you gain to 1 (but not below).
+      Special::text
+        You must have a Constitution of 4 or higher to take this flaw.
+    Fussy::section.feat
+      You are uncomfortable ingesting anything but a small range of preferred foods and drinks.
+      Effect::text
+        You cannot consume anything besides your preferred foods, beverages and waters. You cannot drink potions.
+
+        Your rations cost 5x as much and are harder to procure. You cannot eat magically created food.
+    Hydrophobia::section.feat
+      Your fear of water makes you completely panic when in water.
+      Effect::text
+        You automatically fail all swim checks and begin to sink if in the water.
+
+        If in a misty area (like within 10 feet of a waterfall), you become shaken.
+
+        A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.
+        
+        You will not willingly jump into water and if you can stay more than 5 feet from it, you will. 
+
+        Effects that suppress fear suppress these penalties
+    Inattentive::section.feat
+      You are particularly unaware of your surroundings.
+      Effect::text
+        You take a -4 penalty on Listen checks and Spot checks.
+    Light Sensitivity::section.feat
+      Bright light gives you headaches.
+      Effect::text
+        You are dazzled in daylight or similarly bright light. 
+        A dazzled creature takes a -1 penalty on attack rolls and Spot checks.
+    Lightweight::section.feat
+      You are very light for your size.
+      Effect::text
+        You have half the base weight of a normal character of your race. Height and weight modifiers are added normally. You suffer a -4 penalty when making or resisting bull rushes, grapples, overruns, or trip attacks. You gain no attack bonus when you charge, but you do suffer the -2 Armor Class penalty and take double damage from weapons set against charges you make.
+
+        You suffer 1d6 less falling damage.
+    Meager Fortitude::section.feat
+      You are sickly and weak of stomach.
+      Effect::text
+        You take a -3 penalty on Fortitude saves.
+    Murky-Eyed::section.feat
+      Your vision is obscured.
+      Effect::text
+        In combat, every time you attack an opponent that has concealment, roll your miss chance twice. If either or both results indicate that you miss, your attack fails.
+    No Time for Book Learning::section.feat
+      You put no faith in the written word.
+      Effect::text
+        You are illiterate. You can never learn to read any language, and you suffer a -2 penalty on all Knowledge checks except Knowledge (nature).
+
+        If you are a wizard, reroll this flaw.
+    Noncombatant::section.feat
+      You are relatively inept at melee combat.
+      Effect::text
+        You take a -2 penalty on all melee attack rolls.
+    Pathetic::section.feat
+      You are weaker in an attribute than you should be.
+      Effect::text
+        Reduce one of your ability scores by 2.
+      Special::text
+        You can roll this flaw more than once, but it must be for a different ability score each time.
+    Poor Reflexes::section.feat
+      You often zig when you should have zagged.
+      Effect::text
+        You take a -3 penalty on Reflex saves.
+    Scaredy Cat::section.feat
+      Anything remotely frightening makes you quiver.
+      Effect::text
+        You automatically fail all saves against fear effects.
+    Separation Anxiety::section.feat
+      Being alone scares you.
+      Effect::text
+        You are shaken when you are not adjacent to an ally. Effects that suppress fear suppress this penalty.
+
+        A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.
+    Shaky::section.feat
+      You are relatively poor at ranged combat.
+      Effect::text
+        You take a -2 penalty on all ranged attack rolls.
+    Slow::section.feat
+      You move exceptionally slowly.
+      Effect::text
+        Your base land speed is halved (round down to the nearest 5-foot interval).
+      Special::section.feat
+        You must have a base land speed of at least 20 feet to take this flaw.
+    Thin Skin and Weak Bones::section.feat
+      You get hurt bad.
+      Effect::text
+        Whenever you take damage, you take an extra 1 damage.
+    Unimposing::section.feat
+      You do not command the area around you.
+      Effect::text
+        You suffer -4 penalty to attack when making an attack of opportunity and must automatically yield when being overrun. If any ally could take an attack of opportunity at the same time as you, you cannot make one (even if they choose to not make one).
+    Unreactive::section.feat
+      You are slow to react to danger.
+      Effect::text
+        You can only take a single standard action in the first round of combat. If you achieve surprise, you instead don't act during the suprise round, but act normally during the first regular round of combat.
+    Vulnerable::section.feat
+      You are not good at defending yourself.
+      Effect::text
+        You take a -1 penalty to Armor Class.
+    Weak Back::section.feat
+      Backpain renders you unable to carry as much as your strength implies.
+      Effect::text
+        Your carrying capacity is halved.
+    Weak Will::section.feat
+      You are highly suggestible and easily duped.
+      Effect::text
+        You take a -3 penalty on Will saves.

@@ -72,6 +72,7 @@ ALL=basics.dnd\
     alignment.dnd\
     $(addprefix Classes/,$(CLASSES))\
     $(addprefix Skills/,$(SKILLS))\
+    flaws.dnd\
     $(addprefix Feats/,$(FEATS))\
     equipment.dnd\
     experience.dnd\

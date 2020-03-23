@@ -87,7 +87,6 @@
       Effect::text
         Twice per day, cast a spell without needing to supply verbal, somatic, or low cost material components.
 
-
     Flash Frost Spell::section.feat
       Metamagic
       Effect::text
