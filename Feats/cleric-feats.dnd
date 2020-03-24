@@ -1,0 +1,84 @@
+  Cleric Feats::section.class_feats
+    Special Rules::text
+      Some cleric feats are marked as being a "purpose" feat. A cleric can only have one purpose feat and must take it at level 1.
+
+    Extra Turning::section.feat
+      Effect::text
+        You can turn the undead 4 more times per day.
+      Special::text
+        You can take this feat more than once. Its effects stack.
+
+    Archivist::section.feat
+      Purpose
+      Effect::section
+        ::text
+          You gain a +1 bonus on knowledge checks. 
+
+          You can spend a use of turn undead as a standard action to gain insight into a
+          creature you are fighting. You must be able to directly see the creature to do
+          this. Pick one of the below from the table. You must have at least 4 ranks in the
+          corresponding knowledge skill. You learn qualitative, not quantitative information
+          (the monster has a poison attack that hurts constitution, but you don't know the
+          save DC or amount of damage).
+
+        Creature Insights::table.medium
+          ::head
+            Category | Result
+          ::row
+            Defenses | Any damage immunities, resistances or reductions.<br>Whether the creature has spell resistance.<br>What damage type overcomes their damage reduction.
+            Offenses | Special attacks, general attack forms, whether it is a magic-user.
+
+        Knowledge Requirements::table.medium
+          ::head
+            Skill | Creatures
+          ::row
+            Arcana | Dragons, Magical creatures
+            Architecture and Engineering | Constructs (like golems, animated statues)
+            Dungeoneering | Oozes, Slimes
+            History | Demihumans, giants
+            Nature | Animals, plants, vermin
+            Religion | Undead, demons, devils, angels
+            The Planes | Elementals, other outsiders
+          
+      Special::text
+        You can only take one purpose feat.
+
+    Undead Hunter::section.feat
+      Purpose
+      Effect::text
+        Gain 1 additional use of turn undead. You turn undead as if you were 1 level higher.
+
+        Once per turn when you hit an undead creature, a demon, devil or evil priest with a weapon attack, you can spend one use of turn undead to deal an additional 1d6 sacred damage. This damage increases by 1d6 at each odd level. (2d6 at 3, 3d6 at 5, etc.)
+      Special::text
+        You can only take one purpose feat.
+
+    Preacher::section.feat
+      Purpose
+      Effect::text
+        You gain a +1 bonus on charisma based skill checks
+
+        Bluff and Gather Information are now class skills, and start with 4 ranks in each.
+
+        You can spend uses of turn undead to heal allies. As a standard action, you can touch a creature and heal them for 1d8+wisdom modifier HP. This healing increases by 1d8 at each odd level. (2d8 at 3, 3d8 at 5, etc.)
+      Special::text
+        You can only take one purpose feat.
+
+    Quicken Turning::section.feat
+      Effect::text
+        You can expend two uses of turn undead instead of one in order to turn as a swift action. You can only turn undead once per turn.
+
+    Augment Healing::section.feat
+      Effect::text
+        Increase healing of your spells by +2 per spell level
+
+    Increase Pain::section.feat
+      Prerequisite::text
+        Evil alignment
+      Effect::text
+        Increase the damage of your inflict wounds spells by +2 per spell level
+
+    Extra Domain::section.feat
+      Effect::text
+        Gain one additional domain (both its power and its spells).
+
+

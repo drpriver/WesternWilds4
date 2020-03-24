@@ -1,0 +1,74 @@
+  ::data
+    Simple Melee Weapons::table
+      ::head
+        Weapon | Cost | Dmg | Critical | Range Increment | Slots | Damage Type | Hands
+      ::row
+        Dagger      | 2 gp  | 1d4     | 19-20/×2 | 10 ft. | .5  | Piercing or slashing     | Light
+        Mace, light | 5 gp  | 1d6     | ×2       |  —     | 1   | Bludgeoning              | Light
+        Club        |   —   | 1d6     | ×2       | 10 ft. | 1   | Bludgeoning              | One-handed
+        Mace, heavy | 12 gp | 1d8     | ×2       | —      | 1.5 | Bludgeoning              | One-handed
+        Morningstar | 8 gp  | 1d8     | ×2       | —      | 1.5 | Bludgeoning and piercing | One-handed
+        Shortspear  | 1 gp  | 1d6     | ×2       | 20 ft. | 1   | Piercing                 | One-handed
+        Longspear   | 5 gp  | 1d8     | ×3       | —      | 2   | Piercing                 | Two-handed
+        Quarterstaff|  —    | 1d6/1d6 | ×2       | —      | 1   | Bludgeoning              | One-handed/Double Weapon
+        Spear       | 2 gp  | 1d8     | ×3       | 20 ft. | 2   | Piercing                 | Two-handed
+
+    Simple Ranged Weapons::table
+      ::head
+        Weapon | Cost | Dmg | Critical | Range Increment | Slots | Damage Type | Hands
+      ::row
+        Crossbow, heavy | 50 gp | 1d10     | 19-20/×2        | 120 ft.| 3   | Piercing    | Two-handed
+        Crossbow, light | 35 gp | 1d8      | 19-20/×2        | 80 ft. | 2   | Piercing    | Two-handed
+        Javelin         | 1 gp  | 1d6      | ×2              | 30 ft. | 1/4 | Piercing    | One-handed
+        Sling           | —     | 1d4      | ×2              | 50 ft. | 0   | Bludgeoning | One-handed
+
+    Martial Melee Weapons::table
+      ::head
+        Weapon | Cost | Dmg | Critical | Range Increment | Slots | Damage Type | Hands
+      ::row
+        Axe, throwing | 8 gp  | 1d6 | ×2       | 10 ft. | 1   |  Slashing             | Light
+        Hammer, light | 1 gp  | 1d4 | ×2       | 20 ft. | 1   |  Bludgeoning          | Light
+        Handaxe       | 6 gp  | 1d6 | ×3       | —      | 1   |  Slashing             | Light
+        Sap           | 1 gp  | 1d6 | ×2       | —      | 1   |  Bludgeoning          | Light
+        Sword, short  | 10 gp | 1d6 | 19-20/×2 | —      | 1   |  Piercing             | Light
+        Battleaxe     | 10 gp | 1d8 | ×3       | —      | 1.5 |  Slashing             | One-handed
+        Flail         | 8 gp  | 1d8 | ×2       | —      | 1.5 |  Bludgeoning          | One-handed
+        Longsword     | 15 gp | 1d8 | 19-20/×2 | —      | 1.5 |  Slashing             | One-handed
+        Pick, heavy   | 8 gp  | 1d6 | ×4       | —      | 1.5 |  Piercing             | One-handed
+        Rapier        | 20 gp | 1d6 | 18-20/×2 | —      | 1.5 |  Piercing             | One-handed
+        Cutlass       | 15 gp | 1d6 | 18-20/×2 | —      | 1.5 |  Slashing             | One-handed
+        Trident       | 15 gp | 1d8 | ×2       | 10 ft. | 1.5 |  Piercing             | One-handed
+        Warhammer     | 12 gp | 1d8 | ×3       | —      | 1.5 |  Bludgeoning          | One-handed
+        Falchion      | 75 gp | 2d4 | 18-20/×2 | —      | 2   |  Slashing             | Two-handed
+        Glaive        | 8 gp  | 1d10| ×3       | —      | 2   |  Slashing             | Two-handed
+        Greataxe      | 20 gp | 1d12| ×3       | —      | 2   |  Slashing             | Two-handed
+        Greatclub     | 5 gp  | 1d10| ×2       | —      | 2   |  Bludgeoning          | Two-handed
+        Flail, heavy  | 15 gp | 1d10| 19-20/×2 | —      | 2   |  Bludgeoning          | Two-handed
+        Greatsword    | 50 gp | 2d6 | 19-20/×2 | —      | 2   |  Slashing             | Two-handed
+        Guisarme      | 9 gp  | 2d4 | ×3       | —      | 3   |  Slashing             | Two-handed
+        Halberd       | 10 gp | 1d10| ×3       | —      | 3   |  Piercing or slashing | Two-handed
+        Lance         | 10 gp | 1d8 | ×3       | —      | 3   |  Piercing             | Two-handed
+        Ranseur       | 10 gp | 2d4 | ×3       | —      | 3   |  Piercing             | Two-handed
+        Scythe        | 18 gp | 2d4 | ×4       | —      | 3   |  Piercing or slashing | Two-handed
+
+    Martial Ranged Weapons::table
+      ::head
+        Weapon | Cost | Dmg | Critical | Range Increment | Slots | Damage Type | Hands
+      ::row
+        Longbow             | 75 gp  | 1d8 | ×3 | 100 ft. | 2 | Piercing | Two-handed
+        Longbow, composite  | 100 gp | 1d8 | ×3 | 110 ft. | 2 | Piercing | Two-handed
+        Shortbow            | 30 gp  | 1d6 | ×3 | 60 ft.  | 1 | Piercing | Two-handed
+        Shortbow, composite | 75 gp  | 1d6 | ×3 | 70 ft.  | 1 | Piercing | Two-handed
+
+    Exotic Melee Weapons::table
+      ::head
+        Weapon | Cost | Dmg | Critical | Range Increment | Slots | Damage Type | Hands
+      ::row
+        Sword, bastard       | 35 gp  | 1d10    | 19-20/×2 | — | 2 | Slashing             | One-handed
+        Waraxe, dwarven      | 30 gp  | 1d10    | ×3       | — | 2 | Slashing             | One-handed
+        Whip                 | 1 gp   | 1d3     | ×2       | — | 1 | Slashing             | One-handed
+        Axe, orc double      | 60 gp  | 1d8/1d8 | ×3       | — | 3 | Slashing             | Double
+        Flail, dire          | 90 gp  | 1d8/1d8 | ×2       | — | 3 | Bludgeoning          | Double
+        Hammer, gnome hooked | 20 gp  | 1d8/1d6 | ×3/×4    | — | 2 | Bludgeoning/Piercing | Double
+        Sword, two-bladed    | 100 gp | 1d8/1d8 | 19-20/×2 | — | 3 | Slashing             | Double
+        Urgrosh, dwarven     | 50 gp  | 1d8/1d6 | ×3       | — | 3 | Slashing or piercing | Double

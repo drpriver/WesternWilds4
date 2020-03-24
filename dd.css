@@ -22,7 +22,7 @@ body {
 div.grid_container{
 	display: grid;
 	grid-template-columns: 20% 80%;
-	grid-template-rows: 1% 99%;
+	grid-template-rows: 5% 95%;
 	height:100%;
 	width:100%;
 	}
@@ -92,7 +92,7 @@ a {
 }
 .left {
 	grid-column: 1;
-	grid-row-start: 1;
+	grid-row-start: 2;
 	grid-row-end: 3;
 	height:100%;
 	overflow-y:scroll;
@@ -103,7 +103,7 @@ a {
 	max-width: 80%;
 	grid-column-start: 2;
 	grid-column-end: 3;
-	grid-row-start:2;
+	grid-row-start:1;
 	grid-row-end:3;
 	overflow-y: scroll;
 	padding-bottom: 20em;
@@ -127,16 +127,22 @@ div.buttonContainer {
 }
 
 .top {
-	grid-column: 2;
+	margin:auto;
+	grid-column: 1;
 	grid-row: 1;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: left;
 	align-content: center;
+	display:flex;
 }
 .top a {
-	background-color: darkgrey;
+	background-color:lightgrey;
 	padding: 10px;
 	cursor:pointer;
+	border:none;
+}
+.top a:hover {
+	background-color: darkgrey;
 }
 .center p, .center ol, .center ul {
 	max-width: 50em;

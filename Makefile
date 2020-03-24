@@ -68,6 +68,9 @@ SKILLS=skills.dnd\
 	swim.dnd\
 	tumble.dnd\
 
+EQUIPMENT=equipment.dnd\
+	  weapons.dnd\
+
 ALL=basics.dnd\
     $(addprefix Races/,$(RACES))\
     alignment.dnd\
@@ -75,7 +78,7 @@ ALL=basics.dnd\
     $(addprefix Skills/,$(SKILLS))\
     flaws.dnd\
     $(addprefix Feats/,$(FEATS))\
-    equipment.dnd\
+    $(addprefix Equipment/,$(EQUIPMENT))\
     experience.dnd\
     factions.dnd\
     guilds.dnd\

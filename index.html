@@ -28,7 +28,7 @@
       div.grid_container{
       	display: grid;
       	grid-template-columns: 20% 80%;
-      	grid-template-rows: 1% 99%;
+      	grid-template-rows: 5% 95%;
       	height:100%;
       	width:100%;
       	}
@@ -98,7 +98,7 @@
       }
       .left {
       	grid-column: 1;
-      	grid-row-start: 1;
+      	grid-row-start: 2;
       	grid-row-end: 3;
       	height:100%;
       	overflow-y:scroll;
@@ -109,7 +109,7 @@
       	max-width: 80%;
       	grid-column-start: 2;
       	grid-column-end: 3;
-      	grid-row-start:2;
+      	grid-row-start:1;
       	grid-row-end:3;
       	overflow-y: scroll;
       	padding-bottom: 20em;
@@ -133,16 +133,22 @@
       }
       
       .top {
-      	grid-column: 2;
+      	margin:auto;
+      	grid-column: 1;
       	grid-row: 1;
       	flex-direction: row;
-      	justify-content: center;
+      	justify-content: left;
       	align-content: center;
+      	display:flex;
       }
       .top a {
-      	background-color: darkgrey;
+      	background-color:lightgrey;
       	padding: 10px;
       	cursor:pointer;
+      	border:none;
+      }
+      .top a:hover {
+      	background-color: darkgrey;
       }
       .center p, .center ol, .center ul {
       	max-width: 50em;
@@ -291,20 +297,61 @@
     </style>
     <script>
       "use strict"
+      let rules;
+      let weapons;
       function onload(){
+          {
           const chapters = document.getElementsByClassName("chapter");
           for(let i = 0; i < chapters.length; i++){
               const chapter = chapters[i];
               const el = document.createElement("hr");
               chapter.parentNode.insertBefore(el, chapter.nextSibling);
-              console.log(i);
+          }
+          }
+          {
+          rules = document.getElementsByClassName("center")[0];
+          }
+          {
+          const keys = ["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons"];
+          const d = document.createElement("div");
+          d.className = "center";
+          for(let key of keys){
+              const weapon_table = data_blob[key];
+              d.innerHTML += weapon_table;
+          }
+          weapons = d;
+          }
+          function restorify(el){
+              const links = el.getElementsByTagName("a");
+              function restore(){
+                  document.getElementsByClassName("center")[0].replaceWith(rules);
+              }
+              for(let i = 0; i < links.length; i++){
+                  links[i].addEventListener("click", restore);
+              }
+          }
+          restorify(document);
+          restorify(weapons);
+          {
+          const button_names = ["Rules", "Weapon Table"];
+          const button_funcs = [
+              function(){document.getElementsByClassName("center")[0].replaceWith(rules);},
+              function(){document.getElementsByClassName("center")[0].replaceWith(weapons);},
+          ];
+          const top = document.getElementsByClassName("top")[0];
+          for(let i = 0; i < button_names.length;i++){
+              const link = document.createElement("a");
+              link.innerText = button_names[i];
+              link.onclick = button_funcs[i];
+              top.appendChild(link);
+          }
           }
       }
-      document.addEventListener("DOMContentLoaded", onload)
+      //document.addEventListener("DOMContentLoaded", onload)
       
     </script>
     <script>
-      data_blob={}
+      data_blob={"Simple Melee Weapons": "<section>\n  <h3 id=\"simple-melee-weapons\">Simple Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Dagger      </td>\n        <td> 2 gp  </td>\n        <td> 1d4     </td>\n        <td> 19-20/\u00d72 </td>\n        <td> 10 ft. </td>\n        <td> .5  </td>\n        <td> Piercing or slashing     </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Mace, light </td>\n        <td> 5 gp  </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td>  \u2014     </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Club        </td>\n        <td>   \u2014   </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Mace, heavy </td>\n        <td> 12 gp </td>\n        <td> 1d8     </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Morningstar </td>\n        <td> 8 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td> Bludgeoning and piercing </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Shortspear  </td>\n        <td> 1 gp  </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td> 20 ft. </td>\n        <td> 1   </td>\n        <td> Piercing                 </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Longspear   </td>\n        <td> 5 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td> Piercing                 </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Quarterstaff</td>\n        <td>  \u2014    </td>\n        <td> 1d6/1d6 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed/Double Weapon</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Spear       </td>\n        <td> 2 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d73       </td>\n        <td> 20 ft. </td>\n        <td> 2   </td>\n        <td> Piercing                 </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Simple Ranged Weapons": "<section>\n  <h3 id=\"simple-ranged-weapons\">Simple Ranged Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Crossbow, heavy </td>\n        <td> 50 gp </td>\n        <td> 1d10     </td>\n        <td> 19-20/\u00d72        </td>\n        <td> 120 ft.</td>\n        <td> 3   </td>\n        <td> Piercing    </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Crossbow, light </td>\n        <td> 35 gp </td>\n        <td> 1d8      </td>\n        <td> 19-20/\u00d72        </td>\n        <td> 80 ft. </td>\n        <td> 2   </td>\n        <td> Piercing    </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Javelin         </td>\n        <td> 1 gp  </td>\n        <td> 1d6      </td>\n        <td> \u00d72              </td>\n        <td> 30 ft. </td>\n        <td> 1/4 </td>\n        <td> Piercing    </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sling           </td>\n        <td> \u2014     </td>\n        <td> 1d4      </td>\n        <td> \u00d72              </td>\n        <td> 50 ft. </td>\n        <td> 0   </td>\n        <td> Bludgeoning </td>\n        <td> One-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Melee Weapons": "<section>\n  <h3 id=\"martial-melee-weapons\">Martial Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Axe, throwing </td>\n        <td> 8 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1   </td>\n        <td>  Slashing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Hammer, light </td>\n        <td> 1 gp  </td>\n        <td> 1d4 </td>\n        <td> \u00d72       </td>\n        <td> 20 ft. </td>\n        <td> 1   </td>\n        <td>  Bludgeoning          </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Handaxe       </td>\n        <td> 6 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Slashing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sap           </td>\n        <td> 1 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Bludgeoning          </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Sword, short  </td>\n        <td> 10 gp </td>\n        <td> 1d6 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Piercing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Battleaxe     </td>\n        <td> 10 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Flail         </td>\n        <td> 8 gp  </td>\n        <td> 1d8 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Bludgeoning          </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Longsword     </td>\n        <td> 15 gp </td>\n        <td> 1d8 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Pick, heavy   </td>\n        <td> 8 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d74       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Rapier        </td>\n        <td> 20 gp </td>\n        <td> 1d6 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Cutlass       </td>\n        <td> 15 gp </td>\n        <td> 1d6 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Trident       </td>\n        <td> 15 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Warhammer     </td>\n        <td> 12 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Bludgeoning          </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Falchion      </td>\n        <td> 75 gp </td>\n        <td> 2d4 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Glaive        </td>\n        <td> 8 gp  </td>\n        <td> 1d10</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Greataxe      </td>\n        <td> 20 gp </td>\n        <td> 1d12</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Greatclub     </td>\n        <td> 5 gp  </td>\n        <td> 1d10</td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Bludgeoning          </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Flail, heavy  </td>\n        <td> 15 gp </td>\n        <td> 1d10</td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Bludgeoning          </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Greatsword    </td>\n        <td> 50 gp </td>\n        <td> 2d6 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Guisarme      </td>\n        <td> 9 gp  </td>\n        <td> 2d4 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Halberd       </td>\n        <td> 10 gp </td>\n        <td> 1d10</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing or slashing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Lance         </td>\n        <td> 10 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Ranseur       </td>\n        <td> 10 gp </td>\n        <td> 2d4 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Scythe        </td>\n        <td> 18 gp </td>\n        <td> 2d4 </td>\n        <td> \u00d74       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing or slashing </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Ranged Weapons": "<section>\n  <h3 id=\"martial-ranged-weapons\">Martial Ranged Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Longbow             </td>\n        <td> 75 gp  </td>\n        <td> 1d8 </td>\n        <td> \u00d73 </td>\n        <td> 100 ft. </td>\n        <td> 2 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Longbow, composite  </td>\n        <td> 100 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73 </td>\n        <td> 110 ft. </td>\n        <td> 2 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Shortbow            </td>\n        <td> 30 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73 </td>\n        <td> 60 ft.  </td>\n        <td> 1 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Shortbow, composite </td>\n        <td> 75 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73 </td>\n        <td> 70 ft.  </td>\n        <td> 1 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Exotic Melee Weapons": "<section>\n  <h3 id=\"exotic-melee-weapons\">Exotic Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Sword, bastard       </td>\n        <td> 35 gp  </td>\n        <td> 1d10    </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Waraxe, dwarven      </td>\n        <td> 30 gp  </td>\n        <td> 1d10    </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Whip                 </td>\n        <td> 1 gp   </td>\n        <td> 1d3     </td>\n        <td> \u00d72       </td>\n        <td> \u2014 </td>\n        <td> 1 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Axe, orc double      </td>\n        <td> 60 gp  </td>\n        <td> 1d8/1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing             </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Flail, dire          </td>\n        <td> 90 gp  </td>\n        <td> 1d8/1d8 </td>\n        <td> \u00d72       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Bludgeoning          </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Hammer, gnome hooked </td>\n        <td> 20 gp  </td>\n        <td> 1d8/1d6 </td>\n        <td> \u00d73/\u00d74    </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Bludgeoning/Piercing </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Sword, two-bladed    </td>\n        <td> 100 gp </td>\n        <td> 1d8/1d8 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing             </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Urgrosh, dwarven     </td>\n        <td> 50 gp  </td>\n        <td> 1d8/1d6 </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing or piercing </td>\n        <td> Double</td>\n      </tr>\n    </tbody>\n  </table>\n</section>"}
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   </head>
@@ -415,6 +462,7 @@
               <li><a href="#general-feats">General Feats</a></li>
               <li><a href="#barbarian-feats">Barbarian Feats</a></li>
               <li><a href="#bard-feats">Bard Feats</a></li>
+              <li><a href="#cleric-feats">Cleric Feats</a></li>
               <li><a href="#fighter-feats">Fighter Feats</a></li>
               <li><a href="#sorcerer-feats">Sorcerer Feats</a></li>
               <li><a href="#wizard-feats">Wizard Feats</a></li>
@@ -433,7 +481,7 @@
             </ul></li>
             <li><a href="#ships">Ships</a></li>
             <li><a href="#magic">Magic</a></li>
-            <li><a href="#spells6">Spells</a></li>
+            <li><a href="#spells5">Spells</a></li>
           </ul>
           <hr>
         </nav>
@@ -3434,85 +3482,76 @@
                   <tr class="table_header">
                     <th>Level</th>
                     <th> Base Attack Bonus  </th>
-                    <th>Fort Save  </th>
-                    <th>Ref Save  </th>
-                    <th>Will Save  </th>
-                    <th>Special                                </th>
-                    <th> 1st level Spells per Day</th>
+                    <th> Fort Save </th>
+                    <th> Ref Save </th>
+                    <th> Will Save </th>
+                    <th> Special</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="odd">
                     <td>1st  </td>
                     <td> +1                 </td>
-                    <td> +2        </td>
-                    <td> +0       </td>
-                    <td> +0        </td>
-                    <td> Aura of good, detect evil, Smite Evil </td>
-                    <td> </td>
+                    <td> +4        </td>
+                    <td> +2       </td>
+                    <td> +4        </td>
+                    <td> <a href="#aura-of-good">Aura of good</a>, <a href="#detect-evil">detect evil</a>, <a href="#smite-evil">Smite Evil</a>, <a href="#divine-health">Divine health</a>, <a href="#lay-on-hands">Lay on Hands</a>, <a href="#remove-disease">Remove disease</a> 1/week, <a href="#courage">Courage</a></td>
                   </tr>
                   <tr class="even">
                     <td>2nd  </td>
                     <td> +2                 </td>
-                    <td> +3        </td>
-                    <td> +0       </td>
-                    <td> +0        </td>
-                    <td> Divine grace, lay on hands            </td>
-                    <td></td>
+                    <td> +5        </td>
+                    <td> +2       </td>
+                    <td> +5        </td>
+                    <td> <a href="#bonus-paladin-feat">Bonus Paladin Feat</a></td>
                   </tr>
                   <tr class="odd">
                     <td>3rd  </td>
                     <td> +3                 </td>
-                    <td> +3        </td>
-                    <td> +1       </td>
-                    <td> +1        </td>
-                    <td> Aura of courage, divine health        </td>
-                    <td></td>
+                    <td> +5        </td>
+                    <td> +3       </td>
+                    <td> +5        </td>
+                    <td> <a href="#turn-undead">Turn undead</a></td>
                   </tr>
                   <tr class="even">
                     <td>4th  </td>
                     <td> +4                 </td>
-                    <td> +4        </td>
-                    <td> +1       </td>
-                    <td> +1        </td>
-                    <td> Turn undead                           </td>
-                    <td> 0</td>
+                    <td> +6        </td>
+                    <td> +3       </td>
+                    <td> +6        </td>
+                    <td> <a href="#special-mount">Special mount</a></td>
                   </tr>
                   <tr class="odd">
                     <td>5th  </td>
                     <td> +5                 </td>
-                    <td> +4        </td>
-                    <td> +1       </td>
-                    <td> +1        </td>
-                    <td> Special mount                         </td>
-                    <td> 0</td>
+                    <td> +6        </td>
+                    <td> +3       </td>
+                    <td> +6        </td>
+                    <td> <a href="#bonus-paladin-feat">Bonus Paladin Feat</a></td>
                   </tr>
                   <tr class="even">
                     <td>6th  </td>
                     <td> +6/+1              </td>
-                    <td> +5        </td>
-                    <td> +2       </td>
-                    <td> +2        </td>
-                    <td> Remove disease 1/week                 </td>
-                    <td> 1</td>
+                    <td> +7        </td>
+                    <td> +4       </td>
+                    <td> +7        </td>
+                    <td> <a href="#remove-disease">Remove disease</a> 2/week</td>
                   </tr>
                   <tr class="odd">
                     <td>7th  </td>
                     <td> +7/+2              </td>
-                    <td> +5        </td>
-                    <td> +2       </td>
-                    <td> +2        </td>
-                    <td>                                       </td>
-                    <td> 1  </td>
+                    <td> +7        </td>
+                    <td> +4       </td>
+                    <td> +7        </td>
+                    <td> Improved <a href="#smite-evil">Smite Evil</a></td>
                   </tr>
                   <tr class="even">
                     <td>8th  </td>
                     <td> +8/+3              </td>
-                    <td> +6        </td>
-                    <td> +2       </td>
-                    <td> +2        </td>
-                    <td>                                       </td>
-                    <td> 1 </td>
+                    <td> +8        </td>
+                    <td> +4       </td>
+                    <td> +8        </td>
+                    <td> <a href="#bonus-paladin-feat">Bonus Paladin Feat</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -3561,7 +3600,8 @@
             <div>
               <h4 id="weapon-and-armor-proficiency4">Weapon and Armor Proficiency</h4>
               <p>
-                Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).
+                Paladins are proficient with all simple and martial weapons, with all types of armor
+                (heavy, medium, and light), and with shields (except tower shields).
               </p>
             </div>
             <div>
@@ -3569,108 +3609,131 @@
               <p>
                 The power of a paladin’s aura of good is equal to his paladin level.
               </p>
+              <p>
+                Additionally, undead, demons, devils and those with an evil aura (like evil priests)
+                suffer a -1 penalty to their attack rolls and the DCs to resist their abilities while
+                within 10' of the paladin.
+              </p>
             </div>
             <div>
               <h4 id="detect-evil">Detect Evil</h4>
               <p>
-                At will, a paladin can use detect evil, as the spell.
+                At will as a standard action, a paladin detect the presence of evil within 60' by
+                concentrating on locating evil in a particular direction. This ability detects undead,
+                demons, devils, those with an evil aura (like evil priests), evil spells. It does not
+                detect normal people who are aligned with evil.
               </p>
             </div>
             <div>
               <h4 id="smite-evil">Smite Evil</h4>
               <p>
-                Once per day per paladin level, a paladin may attempt to smite evil with one normal melee attack. He adds his Charisma bonus (if any) to his attack roll and deals 1 extra point of damage per paladin level. If the paladin accidentally smites a creature that is not evil, the smite has no effect, but the ability is still used up for that day.
-                Smite evil ignores the incorporeal miss change of ghosts and causes the weapon to be treated as magical, lawful, and good.
+                Once per day per paladin level, a paladin may attempt to smite evil with one normal
+                melee attack. If the paladin hits with this attack, he deals an extra 1d8 sacred
+                damage. This damage is doubled if the creature is an undead, demon, devil, evil priest
+                or a creature with an evil aura. If the paladin misses with this attack, his use of
+                smite evil is not expended.
               </p>
-            </div>
-            <div>
-              <h4 id="divine-grace">Divine Grace</h4>
               <p>
-                At 2nd level, a paladin gains a bonus equal to his Charisma bonus (if any) on all saving throws.
+                Smite evil ignores the incorporeal miss chance of ghosts and causes the weapon to be
+                treated as magical, lawful, and good.
+              </p>
+              <p>
+                At 7th level, the damage increases to 2d8.
               </p>
             </div>
             <div>
               <h4 id="lay-on-hands">Lay on Hands</h4>
               <p>
-                Beginning at 2nd level, a paladin with a Charisma score of 12 or higher can heal wounds (his own or those of others) by touch. Each day he can heal a total number of hit points of damage equal to his paladin level × his Charisma bonus. A paladin may choose to divide his healing among multiple recipients, and he doesn’t have to use it all at once. Using lay on hands is a standard action.
-              </p>
-              <p>
-                Alternatively, a paladin can use any or all of this healing power to deal damage to undead creatures. Using lay on hands in this way requires a successful melee touch attack and doesn’t provoke an attack of opportunity. The paladin decides how many of his daily allotment of points to use as damage after successfully touching an undead creature.
-              </p>
-            </div>
-            <div>
-              <h4 id="aura-of-courage">Aura of Courage</h4>
-              <p>
-                Beginning at 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of his gains a +4 morale bonus on saving throws against fear effects.
-              </p>
-              <p>
-                This ability functions while the paladin is conscious, but not if he is unconscious or dead.
-              </p>
-            </div>
-            <div>
-              <h4 id="divine-health">Divine Health</h4>
-              <p>
-                At 3rd level, a paladin gains immunity to all diseases, including supernatural and magical diseases.
-              </p>
-            </div>
-            <div>
-              <h4 id="turn-undead1">Turn Undead</h4>
-              <p>
-                When a paladin reaches 4th level, he gains the supernatural ability to turn undead. He may use this ability a number of times per day equal to 3 + his Charisma modifier. He turns undead as a cleric of three levels lower would.
-              </p>
-            </div>
-            <div>
-              <h4 id="spells2">Spells</h4>
-              <p>
-                Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells, which are drawn from the paladin spell list. A paladin must choose and prepare his spells in advance.
-              </p>
-              <p>
-                To prepare or cast a spell, a paladin must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a paladin’s spell is 10 + the spell level + the paladin’s Wisdom modifier.
-              </p>
-              <p>
-                Like other spellcasters, a paladin can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Paladin. In addition, he receives bonus spells per day if he has a high Wisdom score. When Table: The Paladin indicates that the paladin gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level The paladin does not have access to any domain spells or granted powers, as a cleric does.
-              </p>
-              <p>
-                A paladin prepares and casts spells the way a cleric does. A paladin may prepare and cast any spell on the paladin spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.
-              </p>
-              <p>
-                Through 3rd level, a paladin has no caster level. At 4th level and higher, his caster level is one-half his paladin level.
-              </p>
-            </div>
-            <div>
-              <h4 id="special-mount">Special Mount</h4>
-              <p>
-                Upon reaching 5th level, a paladin gains the service of an unusually intelligent, strong, and loyal steed to serve his in his crusade against evil. This mount is usually a heavy warhorse (for a Medium paladin) or a warpony (for a Small paladin). The paladin might earn special mounts from quests or as rewards from celestial forces.
-              </p>
-              <p>
-                Once per day, as a full-round action, a paladin may magically call his mount from the celestial realms in which it resides. This ability is the equivalent of a spell of a level equal to one-third the paladin’s level. The mount immediately appears adjacent to the paladin and remains until dismissed; it may be dismissed at any time as a free action. The mount is the same creature each time it is summoned, though the paladin may release a particular mount from service. However, this should not be done lightly.
-              </p>
-              <p>
-                Each time the mount is called, it appears in full health, regardless of any damage it may have taken previously. The mount also appears wearing or carrying any gear it had when it was last dismissed.
-              </p>
-              <p>
-                Should the paladin’s mount die, it immediately disappears, leaving behind any equipment it was carrying. The paladin may not summon another mount for thirty days or until he gains a paladin level, whichever comes first, even if the mount is somehow returned from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack and weapon damage rolls.
+                A paladin can heal wounds (his own or those of others) by touch. Each day he can heal a
+                total number of hit points of damage equal to his paladin level × 2. A paladin may
+                choose to divide his healing among multiple recipients, and he doesn’t have to use it
+                all at once. Using lay on hands is a standard action.
               </p>
             </div>
             <div>
               <h4 id="remove-disease">Remove Disease</h4>
               <p>
-                At 6th level, a paladin can produce a remove disease effect, as the spell, once per week.
+                A paladin can produce a remove disease effect, as the spell, once per week. This
+                increases to twice per week at level 6.
+              </p>
+            </div>
+            <div>
+              <h4 id="courage">Courage</h4>
+              <p>
+                A paladin is immune to fear (magical or otherwise). A paladin cannot have any
+                fear-based flaws and must reroll them.
+              </p>
+            </div>
+            <div>
+              <h4 id="divine-health">Divine Health</h4>
+              <p>
+                A paladin is immune to all disease, but not to mummy rot or lycanthropy.
+              </p>
+            </div>
+            <div>
+              <h4 id="bonus-paladin-feat">Bonus Paladin Feat</h4>
+              <p>
+                At 2nd, 5th and 8th level, the paladin can choose a bonus feat from the paladin list.
+                He must still meet the prerequisites.
+              </p>
+            </div>
+            <div>
+              <h4 id="turn-undead1">Turn Undead</h4>
+              <p>
+                When a paladin reaches 3rd level, he gains the supernatural ability to turn undead. He
+                may use this ability a number of times per day equal to 3 + his Charisma modifier. He
+                turns undead as a cleric of two levels lower would.
+              </p>
+            </div>
+            <div>
+              <h4 id="special-mount">Special Mount</h4>
+              <p>
+                Upon reaching 4th level, a paladin gains the service of an unusually intelligent,
+                strong, and loyal steed to serve his in his crusade against evil. This mount is usually
+                a heavy warhorse (for a Medium paladin) or a warpony (for a Small paladin). The paladin
+                might earn special mounts from quests or as rewards from celestial forces.
+              </p>
+              <p>
+                Once per day, as a full-round action, a paladin may magically call his mount from the
+                celestial realms in which it resides. This ability is the equivalent of a spell of a
+                level equal to one-third the paladin’s level. The mount immediately appears adjacent to
+                the paladin and remains until dismissed; it may be dismissed at any time as a free
+                action. The mount is the same creature each time it is summoned, though the paladin may
+                release a particular mount from service. However, this should not be done lightly.
+              </p>
+              <p>
+                Each time the mount is called, it appears in full health, regardless of any damage it
+                may have taken previously. The mount also appears wearing or carrying any gear it had
+                when it was last dismissed.
+              </p>
+              <p>
+                Should the paladin’s mount die, it immediately disappears, leaving behind any equipment
+                it was carrying. The paladin may not summon another mount for thirty days or until he
+                gains a paladin level, whichever comes first, even if the mount is somehow returned
+                from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack
+                and weapon damage rolls.
               </p>
             </div>
             <div>
               <h4 id="code-of-conduct">Code of Conduct</h4>
               <p>
-                A paladin must be of lawful good alignment and loses all class abilities if he ever willingly commits an evil act.
+                A paladin must be of lawful good alignment and loses all class abilities if he ever
+                willingly commits an evil act.
               </p>
               <p>
-                Additionally, a paladin’s code requires that he respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help for evil or chaotic ends), and punish those who harm or threaten innocents.
+                Additionally, a paladin’s code requires that he respect legitimate authority, act with
+                honor (not lying, not cheating, not using poison, and so forth), help those in need
+                (provided they do not use the help for evil or chaotic ends), and punish those who harm
+                or threaten innocents.
               </p>
             </div>
             <div>
               <h4 id="associates">Associates</h4>
               <p>
-                While he may adventure with characters of any good or neutral alignment, a paladin will never knowingly associate with evil characters, nor will he continue an association with someone who consistently offends his moral code. A paladin may accept only henchmen, followers, or cohorts who are lawful good.
+                While he may adventure with characters of any good or neutral alignment, a paladin will
+                never knowingly associate with evil characters, nor will he continue an association
+                with someone who consistently offends his moral code. A paladin may accept only
+                henchmen, followers, or cohorts who are lawful good.
               </p>
             </div>
             <section>
@@ -3678,10 +3741,16 @@
               <div>
                 
                 <p>
-                  The paladin’s mount is superior to a normal mount of its kind and has special powers, as described below. The standard mount for a Medium paladin is a heavy warhorse, and the standard mount for a Small paladin is a warpony. Another kind of mount, such as a riding dog (for a halfling paladin) or a Large shark (for a paladin in an aquatic campaign) may be allowed as well.
+                  The paladin’s mount is superior to a normal mount of its kind and has special powers,
+                  as described below. The standard mount for a Medium paladin is a heavy warhorse, and
+                  the standard mount for a Small paladin is a warpony. Another kind of mount, such as a
+                  riding dog (for a halfling paladin) or a Large shark (for a paladin in an aquatic
+                  campaign) may be allowed as well.
                 </p>
                 <p>
-                  A paladin’s mount is treated as a magical beast, not an animal, for the purpose of all effects that depend on its type (though it retains an animal’s HD, base attack bonus, saves, skill points, and feats).
+                  A paladin’s mount is treated as a magical beast, not an animal, for the purpose of
+                  all effects that depend on its type (though it retains an animal’s HD, base attack
+                  bonus, saves, skill points, and feats).
                 </p>
               </div>
               <section>
@@ -3699,12 +3768,12 @@
                   </thead>
                   <tbody>
                     <tr class="odd">
-                      <td>5th-7th </td>
+                      <td>4th-7th </td>
                       <td> +2  </td>
                       <td> +4 </td>
                       <td>  +1  </td>
                       <td> 6 </td>
-                      <td> Empathic link, improved evasion, share spells, share saving throws</td>
+                      <td> Empathic link, improved evasion, share saving throws</td>
                     </tr>
                     <tr class="even">
                       <td>8th     </td>
@@ -3720,13 +3789,20 @@
               <div>
                 <h5 id="paladin’s-mount-basics">Paladin’s Mount Basics</h5>
                 <p>
-                  Use the base statistics for a creature of the mount’s kind, but make changes to take into account the attributes and characteristics summarized on the table and described below.
+                  Use the base statistics for a creature of the mount’s kind, but make changes to take
+                  into account the attributes and characteristics summarized on the table and described
+                  below.
                 </p>
               </div>
               <div>
                 <h5 id="bonus-hd">Bonus HD</h5>
                 <p>
-                  Extra eight-sided (d8) Hit Dice, each of which gains a Constitution modifier, as normal. Extra Hit Dice improve the mount’s base attack and base save bonuses. A special mount’s base attack bonus is equal to that of a cleric of a level equal to the mount’s HD. A mount has good Fortitude and Reflex saves (treat it as a character whose level equals the animal’s HD). The mount gains additional skill points or feats for bonus HD as normal for advancing a monster’s Hit Dice.
+                  Extra eight-sided (d8) Hit Dice, each of which gains a Constitution modifier, as
+                  normal. Extra Hit Dice improve the mount’s base attack and base save bonuses. A
+                  special mount’s base attack bonus is equal to that of a cleric of a level equal to
+                  the mount’s HD. A mount has good Fortitude and Reflex saves (treat it as a character
+                  whose level equals the animal’s HD). The mount gains additional skill points or feats
+                  for bonus HD as normal for advancing a monster’s Hit Dice.
                 </p>
               </div>
               <div>
@@ -3750,34 +3826,33 @@
               <div>
                 <h5 id="empathic-link">Empathic Link</h5>
                 <p>
-                  The paladin has an empathic link with her mount out to a distance of up to 1 mile. The paladin cannot see through the mount’s eyes, but they can communicate empathically.
+                  The paladin has an empathic link with her mount out to a distance of up to 1 mile.
+                  The paladin cannot see through the mount’s eyes, but they can communicate
+                  empathically.
                 </p>
                 <p>
-                  Note that even intelligent mounts see the world differently from humans, so misunderstandings are always possible.
+                  Note that even intelligent mounts see the world differently from humans, so
+                  misunderstandings are always possible.
                 </p>
                 <p>
-                  Because of this empathic link, the paladin has the same connection to an item or place that her mount does, just as with a master and his familiar.
+                  Because of this empathic link, the paladin has the same connection to an item or
+                  place that her mount does, just as with a master and his familiar.
                 </p>
               </div>
               <div>
                 <h5 id="improved-evasion">Improved Evasion</h5>
                 <p>
-                  When subjected to an attack that normally allows a Reflex saving throw for half damage, a mount takes no damage if it makes a successful saving throw and half damage if the saving throw fails.
-                </p>
-              </div>
-              <div>
-                <h5 id="share-spells">Share Spells</h5>
-                <p>
-                  At the paladin’s option, she may have any spell (but not any spell-like ability) she casts on herself also affect her mount.
-                </p>
-                <p>
-                  The mount must be within 5 feet at the time of casting to receive the benefit. If the spell or effect has a duration other than instantaneous, it stops affecting the mount if it moves farther than 5 feet away and will not affect the mount again even if it returns to the paladin before the duration expires. Additionally, the paladin may cast a spell with a target of "You" on her mount (as a touch range spell) instead of on herself. A paladin and her mount can share spells even if the spells normally do not affect creatures of the mount’s type (magical beast).
+                  When subjected to an attack that normally allows a Reflex saving throw for half
+                  damage, a mount takes no damage if it makes a successful saving throw and half damage
+                  if the saving throw fails.
                 </p>
               </div>
               <div>
                 <h5 id="share-saving-throws">Share Saving Throws</h5>
                 <p>
-                  For each of its saving throws, the mount uses its own base save bonus or the paladin’s, whichever is higher. The mount applies its own ability modifiers to saves, and it doesn’t share any other bonuses on saves that the master might have.
+                  For each of its saving throws, the mount uses its own base save bonus or the
+                  paladin’s, whichever is higher. The mount applies its own ability modifiers to saves,
+                  and it doesn’t share any other bonuses on saves that the master might have.
                 </p>
               </div>
               <div>
@@ -4208,7 +4283,7 @@
               </p>
             </div>
             <div>
-              <h4 id="spells3">Spells</h4>
+              <h4 id="spells2">Spells</h4>
               <p>
                 Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the ranger spell list. A ranger must choose and prepare his spells in advance (see below).
               </p>
@@ -4899,7 +4974,7 @@
               </p>
             </div>
             <div>
-              <h4 id="spells4">Spells</h4>
+              <h4 id="spells3">Spells</h4>
               <p>
                 A sorcerer casts arcane spells which are drawn primarily from the sorcerer/wizard spell list. He can cast any spell he knows without preparing it ahead of time, the way a wizard or a cleric must.
               </p>
@@ -5141,7 +5216,7 @@
               </p>
             </div>
             <div>
-              <h4 id="spells5">Spells</h4>
+              <h4 id="spells4">Spells</h4>
               <p>
                 A wizard casts arcane spells which are drawn from the sorcerer/wizard spell list. A wizard must choose and prepare her spells ahead of time (see below).
               </p>
@@ -8175,11 +8250,207 @@
             </section>
           </section>
           <section class="class_feats">
+            <h3 id="cleric-feats">Cleric Feats</h3>
+            <div>
+              <h4 id="special-rules1">Special Rules</h4>
+              <p>
+                Some cleric feats are marked as being a "purpose" feat. A cleric can only have one purpose feat and must take it at level 1.
+              </p>
+            </div>
+            <section class="feat">
+              <h4 id="extra-turning">Extra Turning</h4>
+              <div>
+                <h5 id="effect63">Effect</h5>
+                <p>
+                  You can turn the undead 4 more times per day.
+                </p>
+              </div>
+              <div>
+                <h5 id="special10">Special</h5>
+                <p>
+                  You can take this feat more than once. Its effects stack.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="archivist">Archivist</h4>
+              Purpose
+              <section>
+                <h5 id="effect64">Effect</h5>
+                <div>
+                  
+                  <p>
+                    You gain a +1 bonus on knowledge checks.
+                  </p>
+                  <p>
+                    You can spend a use of turn undead as a standard action to gain insight into a
+                    creature you are fighting. You must be able to directly see the creature to do
+                    this. Pick one of the below from the table. You must have at least 4 ranks in the
+                    corresponding knowledge skill. You learn qualitative, not quantitative information
+                    (the monster has a poison attack that hurts constitution, but you don't know the
+                    save DC or amount of damage).
+                  </p>
+                </div>
+                <section>
+                  <h6 id="creature-insights">Creature Insights</h6>
+                  <table class="medium">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Category </th>
+                        <th> Result</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>Defenses </td>
+                        <td> Any damage immunities, resistances or reductions.<br>Whether the creature has spell resistance.<br>What damage type overcomes their damage reduction.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Offenses </td>
+                        <td> Special attacks, general attack forms, whether it is a magic-user.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+                <section>
+                  <h6 id="knowledge-requirements">Knowledge Requirements</h6>
+                  <table class="medium">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Skill </th>
+                        <th> Creatures</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>Arcana </td>
+                        <td> Dragons, Magical creatures</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Architecture and Engineering </td>
+                        <td> Constructs (like golems, animated statues)</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Dungeoneering </td>
+                        <td> Oozes, Slimes</td>
+                      </tr>
+                      <tr class="even">
+                        <td>History </td>
+                        <td> Demihumans, giants</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>Nature </td>
+                        <td> Animals, plants, vermin</td>
+                      </tr>
+                      <tr class="even">
+                        <td>Religion </td>
+                        <td> Undead, demons, devils, angels</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>The Planes </td>
+                        <td> Elementals, other outsiders</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </section>
+              <div>
+                <h5 id="special11">Special</h5>
+                <p>
+                  You can only take one purpose feat.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="undead-hunter">Undead Hunter</h4>
+              Purpose
+              <div>
+                <h5 id="effect65">Effect</h5>
+                <p>
+                  Gain 1 additional use of turn undead. You turn undead as if you were 1 level higher.
+                </p>
+                <p>
+                  Once per turn when you hit an undead creature, a demon, devil or evil priest with a weapon attack, you can spend one use of turn undead to deal an additional 1d6 sacred damage. This damage increases by 1d6 at each odd level. (2d6 at 3, 3d6 at 5, etc.)
+                </p>
+              </div>
+              <div>
+                <h5 id="special12">Special</h5>
+                <p>
+                  You can only take one purpose feat.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="preacher">Preacher</h4>
+              Purpose
+              <div>
+                <h5 id="effect66">Effect</h5>
+                <p>
+                  You gain a +1 bonus on charisma based skill checks
+                </p>
+                <p>
+                  Bluff and Gather Information are now class skills, and start with 4 ranks in each.
+                </p>
+                <p>
+                  You can spend uses of turn undead to heal allies. As a standard action, you can touch a creature and heal them for 1d8+wisdom modifier HP. This healing increases by 1d8 at each odd level. (2d8 at 3, 3d8 at 5, etc.)
+                </p>
+              </div>
+              <div>
+                <h5 id="special13">Special</h5>
+                <p>
+                  You can only take one purpose feat.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="quicken-turning">Quicken Turning</h4>
+              <div>
+                <h5 id="effect67">Effect</h5>
+                <p>
+                  You can expend two uses of turn undead instead of one in order to turn as a swift action. You can only turn undead once per turn.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="augment-healing">Augment Healing</h4>
+              <div>
+                <h5 id="effect68">Effect</h5>
+                <p>
+                  Increase healing of your spells by +2 per spell level
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="increase-pain">Increase Pain</h4>
+              <div>
+                <h5 id="prerequisite4">Prerequisite</h5>
+                <p>
+                  Evil alignment
+                </p>
+              </div>
+              <div>
+                <h5 id="effect69">Effect</h5>
+                <p>
+                  Increase the damage of your inflict wounds spells by +2 per spell level
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="extra-domain">Extra Domain</h4>
+              <div>
+                <h5 id="effect70">Effect</h5>
+                <p>
+                  Gain one additional domain (both its power and its spells).
+                </p>
+              </div>
+            </section>
+          </section>
+          <section class="class_feats">
             <h3 id="fighter-feats">Fighter Feats</h3>
             <section class="feat">
               <h4 id="power-attack1">Power Attack</h4>
               <div>
-                <h5 id="effect63">Effect</h5>
+                <h5 id="effect71">Effect</h5>
                 <p>
                   On your action, before making attack rolls for a round, you may choose to subtract a
                   number from all weapon attack rolls and add the same number to all weapon damage
@@ -8207,7 +8478,7 @@
             <section class="feat">
               <h4 id="combat-expertise">Combat Expertise</h4>
               <div>
-                <h5 id="effect64">Effect</h5>
+                <h5 id="effect72">Effect</h5>
                 <p>
                   On your action, before making attack rolls for a round, you may choose to subtract a number from all melee weapon attack rolls and add the same number to your AC. The penalty on attacks and bonus on AC apply until the start of your next turn.
                 </p>
@@ -8225,13 +8496,13 @@
             <section class="feat">
               <h4 id="cleave1">Cleave</h4>
               <div>
-                <h5 id="prerequisite4">Prerequisite</h5>
+                <h5 id="prerequisite5">Prerequisite</h5>
                 <p>
                   Power Attack
                 </p>
               </div>
               <div>
-                <h5 id="effect65">Effect</h5>
+                <h5 id="effect73">Effect</h5>
                 <p>
                   If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach.
                   The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature.
@@ -8247,13 +8518,13 @@
             <section class="feat">
               <h4 id="great-cleave1">Great Cleave</h4>
               <div>
-                <h5 id="prerequisite5">Prerequisite</h5>
+                <h5 id="prerequisite6">Prerequisite</h5>
                 <p>
                   Cleave
                 </p>
               </div>
               <div>
-                <h5 id="effect66">Effect</h5>
+                <h5 id="effect74">Effect</h5>
                 <p>
                   There is no limit on the number of cleaves you can make in a turn. Additionally, you can move in between cleave attacks (not restricted to 5' steps).
                 </p>
@@ -8262,7 +8533,7 @@
             <section class="feat">
               <h4 id="two-weapon-style1">Two Weapon Style</h4>
               <div>
-                <h5 id="effect67">Effect</h5>
+                <h5 id="effect75">Effect</h5>
                 <p>
                   Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon.  The weapons must be one-handed or a double weapon.
                 </p>
@@ -8281,7 +8552,7 @@
             <section class="feat">
               <h4 id="two-weapon-defense">Two Weapon Defense</h4>
               <div>
-                <h5 id="effect68">Effect</h5>
+                <h5 id="effect76">Effect</h5>
                 <p>
                   When fighting with a double weapon or with two weapons, you gain a +1 shield bonus to AC. This shield bonus doubles if you fight defensively, take total defense or use <a href="#combat-expertise">combat expertise</a>.
                 </p>
@@ -8290,7 +8561,7 @@
             <section class="feat">
               <h4 id="combat-tactics1">Combat Tactics</h4>
               <div>
-                <h5 id="effect69">Effect</h5>
+                <h5 id="effect77">Effect</h5>
                 <p>
                   You gain a +2 bonus when tripping or disarming.
                 </p>
@@ -8302,13 +8573,13 @@
             <section class="feat">
               <h4 id="greater-combat-tactics1">Greater Combat Tactics</h4>
               <div>
-                <h5 id="prerequisite6">Prerequisite</h5>
+                <h5 id="prerequisite7">Prerequisite</h5>
                 <p>
                   Combat Tactics
                 </p>
               </div>
               <div>
-                <h5 id="effect70">Effect</h5>
+                <h5 id="effect78">Effect</h5>
                 <p>
                   Your bonus from combat tactics improves from +2 to +4
                 </p>
@@ -8317,7 +8588,7 @@
             <section class="feat">
               <h4 id="combat-brawn1">Combat Brawn</h4>
               <div>
-                <h5 id="effect71">Effect</h5>
+                <h5 id="effect79">Effect</h5>
                 <p>
                   You gain a +2 bonus when bullrushing, grappling and overrunning.
                 </p>
@@ -8329,7 +8600,7 @@
             <section class="feat">
               <h4 id="greater-combat-brawn1">Greater Combat Brawn</h4>
               <div>
-                <h5 id="effect72">Effect</h5>
+                <h5 id="effect80">Effect</h5>
                 <p>
                   Your bonus from combat brawn increases from +2 to +4
                 </p>
@@ -8338,13 +8609,13 @@
             <section class="feat">
               <h4 id="shock-trooper1">Shock Trooper</h4>
               <div>
-                <h5 id="prerequisite7">Prerequisite</h5>
+                <h5 id="prerequisite8">Prerequisite</h5>
                 <p>
                   Combat Tactics or Combat Brawn, Power Attack, Level 3
                 </p>
               </div>
               <div>
-                <h5 id="effect73">Effect</h5>
+                <h5 id="effect81">Effect</h5>
                 <p>
                   When you hit an enemy with a charge attack, you can make a free bullrush attempt. If you succeed, you can push them in any direction up to 10 feet.
                 </p>
@@ -8359,7 +8630,7 @@
             <section class="feat">
               <h4 id="combat-reflexes">Combat Reflexes</h4>
               <div>
-                <h5 id="effect74">Effect</h5>
+                <h5 id="effect82">Effect</h5>
                 <p>
                   You may make up to three attacks of opportunity each round. You receive a +2 bonus on these attacks.
                 </p>
@@ -8374,7 +8645,7 @@
             <section class="feat">
               <h4 id="two-handed-style1">Two-Handed Style</h4>
               <div>
-                <h5 id="effect75">Effect</h5>
+                <h5 id="effect83">Effect</h5>
                 <p>
                   When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemey that is adjacent to you as well.
                 </p>
@@ -8383,7 +8654,7 @@
             <section class="feat">
               <h4 id="ranged-style">Ranged Style</h4>
               <div>
-                <h5 id="effect76">Effect</h5>
+                <h5 id="effect84">Effect</h5>
                 <p>
                   You don't suffer the -4 penalty for firing into a melee.
                 </p>
@@ -8398,13 +8669,13 @@
             <section class="feat">
               <h4 id="rapid-shots">Rapid Shots</h4>
               <div>
-                <h5 id="prerequisite8">Prerequisite</h5>
+                <h5 id="prerequisite9">Prerequisite</h5>
                 <p>
                   Ranged Style
                 </p>
               </div>
               <div>
-                <h5 id="effect77">Effect</h5>
+                <h5 id="effect85">Effect</h5>
                 <p>
                   When you take the full attack action with a ranged weapon, you can make one additional attack at your highest BAB, but all attacks are made with a -2 penalty.
                 </p>
@@ -8413,13 +8684,13 @@
             <section class="feat">
               <h4 id="reloader-style">Reloader Style</h4>
               <div>
-                <h5 id="prerequisite9">Prerequisite</h5>
+                <h5 id="prerequisite10">Prerequisite</h5>
                 <p>
                   Ranged Style
                 </p>
               </div>
               <div>
-                <h5 id="effect78">Effect</h5>
+                <h5 id="effect86">Effect</h5>
                 <p>
                   You can reload gun and crossbows faster
                 </p>
@@ -8437,13 +8708,13 @@
             <section class="feat">
               <h4 id="precision-style">Precision Style</h4>
               <div>
-                <h5 id="prerequisite10">Prerequisite</h5>
+                <h5 id="prerequisite11">Prerequisite</h5>
                 <p>
                   Reloader Style
                 </p>
               </div>
               <div>
-                <h5 id="effect79">Effect</h5>
+                <h5 id="effect87">Effect</h5>
                 <p>
                   Add ½ DEX bonus to damage with crossbows and guns.
                 </p>
@@ -8452,13 +8723,13 @@
             <section class="feat">
               <h4 id="clustered-shots">Clustered Shots</h4>
               <div>
-                <h5 id="prerequisite11">Prerequisite</h5>
+                <h5 id="prerequisite12">Prerequisite</h5>
                 <p>
                   Ranged Style, Rapid Shots
                 </p>
               </div>
               <div>
-                <h5 id="effect80">Effect</h5>
+                <h5 id="effect88">Effect</h5>
                 <p>
                   When you hit an enemy with multiple ranged attacks in a single turn, damage reduction is only applied once.
                 </p>
@@ -8467,7 +8738,7 @@
             <section class="feat">
               <h4 id="throwing-style">Throwing Style</h4>
               <div>
-                <h5 id="effect81">Effect</h5>
+                <h5 id="effect89">Effect</h5>
                 <p>
                   Range increment for throwing weapons increased to 45’ if less than 45'.
                 </p>
@@ -8479,7 +8750,7 @@
             <section class="feat">
               <h4 id="shield-style">Shield Style</h4>
               <div>
-                <h5 id="effect82">Effect</h5>
+                <h5 id="effect90">Effect</h5>
                 <p>
                   +1 AC when using a shield.
                 </p>
@@ -8497,7 +8768,7 @@
             <section class="feat">
               <h4 id="swashbuckler-style">Swashbuckler Style</h4>
               <div>
-                <h5 id="effect83">Effect</h5>
+                <h5 id="effect91">Effect</h5>
                 <p>
                   Once per turn when you attack with a one-handed weapon, you may also attack with a one-handed ranged weapon in another hand with no two-weapon fighting penalty and without provoking attacks of opportunity.
                 </p>
@@ -8509,7 +8780,7 @@
             <section class="feat">
               <h4 id="finesse-style">Finesse Style</h4>
               <div>
-                <h5 id="effect84">Effect</h5>
+                <h5 id="effect92">Effect</h5>
                 <p>
                   You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
                 </p>
@@ -8521,7 +8792,7 @@
             <section class="feat">
               <h4 id="weapon-focus">Weapon Focus</h4>
               <div>
-                <h5 id="effect85">Effect</h5>
+                <h5 id="effect93">Effect</h5>
                 <p>
                   Choose a class of weapon: sword, axe, hammer, polearm, bow, crossbow, gun, or flail.
                 </p>
@@ -8530,7 +8801,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="special10">Special</h5>
+                <h5 id="special14">Special</h5>
                 <p>
                   You can take this feat more than once. Each time, choose a different class of weapon for it to apply to.
                 </p>
@@ -8539,13 +8810,13 @@
             <section class="feat">
               <h4 id="weapon-specialization">Weapon Specialization</h4>
               <div>
-                <h5 id="prerequisite12">Prerequisite</h5>
+                <h5 id="prerequisite13">Prerequisite</h5>
                 <p>
                   Weapon Focus, level 2
                 </p>
               </div>
               <div>
-                <h5 id="effect86">Effect</h5>
+                <h5 id="effect94">Effect</h5>
                 <p>
                   You receive a +2 bonus to damage with the classes of weapons in which you have weapon focus.
                 </p>
@@ -8554,13 +8825,13 @@
             <section class="feat">
               <h4 id="improved-critical">Improved Critical</h4>
               <div>
-                <h5 id="prerequisite13">Prerequisite</h5>
+                <h5 id="prerequisite14">Prerequisite</h5>
                 <p>
                   Weapon Focus, level 6
                 </p>
               </div>
               <div>
-                <h5 id="effect87">Effect</h5>
+                <h5 id="effect95">Effect</h5>
                 <p>
                   Increase the critical range by 1 for any weapon you have weapon focus.
                 </p>
@@ -8569,7 +8840,7 @@
             <section class="feat">
               <h4 id="provoker">Provoker</h4>
               <div>
-                <h5 id="effect88">Effect</h5>
+                <h5 id="effect96">Effect</h5>
                 <p>
                   Once per enemy, when you hit them with a melee attack, you may make a DC 15 bluff check. If you succeed, that enemy must target you next round. If they make multiple attacks, they must continue targeting you until they hit you once. If they use an ability with an area, you must be inside the area. If they use a single target ability, they must target you.
                 </p>
@@ -8581,7 +8852,7 @@
             <section class="feat">
               <h4 id="skirmisher-stances">Skirmisher Stances</h4>
               <div>
-                <h5 id="effect89">Effect</h5>
+                <h5 id="effect97">Effect</h5>
                 <p>
                   As a swift action, you can change between the following stances. You can only have one active stance at a time.
                 </p>
@@ -8596,7 +8867,7 @@
             <section class="feat">
               <h4 id="vanguard-stances">Vanguard Stances</h4>
               <div>
-                <h5 id="effect90">Effect</h5>
+                <h5 id="effect98">Effect</h5>
                 <p>
                   As a swift action, you can change between the following stances. You can only have one active stance at a time.
                 </p>
@@ -8611,13 +8882,13 @@
             <section class="feat">
               <h4 id="spring-attack">Spring Attack</h4>
               <div>
-                <h5 id="prerequisite14">Prerequisite</h5>
+                <h5 id="prerequisite15">Prerequisite</h5>
                 <p>
                   Dexterity 13
                 </p>
               </div>
               <div>
-                <h5 id="effect91">Effect</h5>
+                <h5 id="effect99">Effect</h5>
                 <p>
                   If you move, attack, and then move again, you do not provoke attacks of opportunity from the target of your attack(s). Intent is all that matters here (you might fall in a pit and be unable to attack).
                 </p>
@@ -8626,13 +8897,13 @@
             <section class="feat">
               <h4 id="whirlwind-attack">Whirlwind Attack</h4>
               <div>
-                <h5 id="prerequisite15">Prerequisite</h5>
+                <h5 id="prerequisite16">Prerequisite</h5>
                 <p>
                   Power Attack, Cleave, Combat Expertise, Spring Attack, Level 4
                 </p>
               </div>
               <div>
-                <h5 id="effect92">Effect</h5>
+                <h5 id="effect100">Effect</h5>
                 <p>
                   When you use attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.
                 </p>
@@ -8646,7 +8917,7 @@
           <section class="class_feats">
             <h3 id="sorcerer-feats">Sorcerer Feats</h3>
             <div>
-              <h4 id="special-rules1">Special Rules</h4>
+              <h4 id="special-rules2">Special Rules</h4>
               <p>
                 Some sorcerer feats are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
               </p>
@@ -8658,7 +8929,7 @@
               <h4 id="extend-spell">Extend Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect93">Effect</h5>
+                <h5 id="effect101">Effect</h5>
                 <p>
                   Double the duration of the spell.
                 </p>
@@ -8671,13 +8942,13 @@
               <h4 id="sudden-extend-spell">Sudden Extend Spell</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite16">Prerequisite</h5>
+                <h5 id="prerequisite17">Prerequisite</h5>
                 <p>
                   Prereq: Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect94">Effect</h5>
+                <h5 id="effect102">Effect</h5>
                 <p>
                   Twice per day when you cast a spell with a duration, double the duration.
                 </p>
@@ -8687,7 +8958,7 @@
               <h4 id="enlarge-spell">Enlarge Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect95">Effect</h5>
+                <h5 id="effect103">Effect</h5>
                 <p>
                   Increase the dimensions of the area of the spell by 50%.
                 </p>
@@ -8700,13 +8971,13 @@
               <h4 id="sudden-enlarge-spell">Sudden Enlarge Spell</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite17">Prerequisite</h5>
+                <h5 id="prerequisite18">Prerequisite</h5>
                 <p>
                   Prereq: Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect96">Effect</h5>
+                <h5 id="effect104">Effect</h5>
                 <p>
                   Twice per day when you cast a spell with an area, increase the dimensions of the area by 50%
                 </p>
@@ -8716,7 +8987,7 @@
               <h4 id="reach-spell">Reach Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect97">Effect</h5>
+                <h5 id="effect105">Effect</h5>
                 <p>
                   Increase the range category of a spell.
                 </p>
@@ -8738,13 +9009,13 @@
               <h4 id="sudden-reach-spell">Sudden Reach Spell</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite18">Prerequisite</h5>
+                <h5 id="prerequisite19">Prerequisite</h5>
                 <p>
                   Prereq: Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect98">Effect</h5>
+                <h5 id="effect106">Effect</h5>
                 <p>
                   Twice per day, Increase the range category of a spell.
                 </p>
@@ -8763,7 +9034,7 @@
               <h4 id="ghost-touch-spell">Ghost Touch Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect99">Effect</h5>
+                <h5 id="effect107">Effect</h5>
                 <p>
                   Your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
                 </p>
@@ -8776,13 +9047,13 @@
               <h4 id="sudden-ghost-touch-spell">Sudden Ghost Touch Spell</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite19">Prerequisite</h5>
+                <h5 id="prerequisite20">Prerequisite</h5>
                 <p>
                   Prereq: Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect100">Effect</h5>
+                <h5 id="effect108">Effect</h5>
                 <p>
                   Four times per day, your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
                 </p>
@@ -8792,7 +9063,7 @@
               <h4 id="mental-spell">Mental Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect101">Effect</h5>
+                <h5 id="effect109">Effect</h5>
                 <p>
                   Cast a spell without needing to supply verbal, somatic, or low cost material components.
                 </p>
@@ -8805,13 +9076,13 @@
               <h4 id="sudden-mental-spell">Sudden Mental Spell</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite20">Prerequisite</h5>
+                <h5 id="prerequisite21">Prerequisite</h5>
                 <p>
                   Prereq: Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect102">Effect</h5>
+                <h5 id="effect110">Effect</h5>
                 <p>
                   Twice per day, cast a spell without needing to supply verbal, somatic, or low cost material components.
                 </p>
@@ -8821,7 +9092,7 @@
               <h4 id="flash-frost-spell">Flash Frost Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect103">Effect</h5>
+                <h5 id="effect111">Effect</h5>
                 <p>
                   When you cast a spell that has an area and deals cold damage, the area of the spell is also covered in slippery ice for 1 round. Creatures that attempt to move in the ice must make reflex saves or fall prone.
                 </p>
@@ -8837,7 +9108,7 @@
               <h4 id="scorching-spell">Scorching Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect104">Effect</h5>
+                <h5 id="effect112">Effect</h5>
                 <p>
                   When you cast a spell that deals fire damage, any creatures that fails their save or is hit by an attack roll are now on fire. They will take an additional d6*spell level damage at the start of their next turn.
                 </p>
@@ -8850,7 +9121,7 @@
               <h4 id="shocking-spell">Shocking Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect105">Effect</h5>
+                <h5 id="effect113">Effect</h5>
                 <p>
                   When you cast a spell that deals lightning damage, creatures wearing or holding metal get -2 on their save/ac. Any creatures that fail their save or are hit by an attack roll are unable to make attacks of opportunity for 1 round.
                 </p>
@@ -8866,7 +9137,7 @@
               <h4 id="sculpt">Sculpt</h4>
               Metamagic
               <div>
-                <h5 id="effect106">Effect</h5>
+                <h5 id="effect114">Effect</h5>
                 <p>
                   You can change the area of a spell that has an area to be one of the following: 120-foot tube, 20-foot radius sphere, 60-foot cone, two 10-foot cube.
                 </p>
@@ -8882,13 +9153,13 @@
               <h4 id="sudden-sculpt">Sudden Sculpt</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite21">Prerequisite</h5>
+                <h5 id="prerequisite22">Prerequisite</h5>
                 <p>
                   Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect107">Effect</h5>
+                <h5 id="effect115">Effect</h5>
                 <p>
                   Twice per day, you can change the area of a spell that has an area to be one of the following: 120-foot line, 20-foot radius sphere, 60-foot cone, two 5-foot cylinders.
                 </p>
@@ -8901,7 +9172,7 @@
               <h4 id="empower-spell">Empower Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect108">Effect</h5>
+                <h5 id="effect116">Effect</h5>
                 <p>
                   Damage and healing of spell increased by 50%.
                 </p>
@@ -8914,13 +9185,13 @@
               <h4 id="sudden-empower-spell">Sudden Empower Spell</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite22">Prerequisite</h5>
+                <h5 id="prerequisite23">Prerequisite</h5>
                 <p>
                   Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect109">Effect</h5>
+                <h5 id="effect117">Effect</h5>
                 <p>
                   Once per day, damage and healing of spell increased by 50%.
                 </p>
@@ -8930,7 +9201,7 @@
               <h4 id="split-ray">Split Ray</h4>
               Metamagic
               <div>
-                <h5 id="effect110">Effect</h5>
+                <h5 id="effect118">Effect</h5>
                 <p>
                   Adds 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
                 </p>
@@ -8943,13 +9214,13 @@
               <h4 id="sudden-split-ray">Sudden Split Ray</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite23">Prerequisite</h5>
+                <h5 id="prerequisite24">Prerequisite</h5>
                 <p>
                   Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect111">Effect</h5>
+                <h5 id="effect119">Effect</h5>
                 <p>
                   Once per day, add 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
                 </p>
@@ -8959,7 +9230,7 @@
               <h4 id="twin-cast">Twin Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect112">Effect</h5>
+                <h5 id="effect120">Effect</h5>
                 <p>
                   Can only be used on spells that can only affect a single target. You cast the spell a second time on a different target.
                 </p>
@@ -8972,13 +9243,13 @@
               <h4 id="sudden-twin-cast">Sudden Twin Cast</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite24">Prerequisite</h5>
+                <h5 id="prerequisite25">Prerequisite</h5>
                 <p>
                   Prereq: Any other metamagic feat
                 </p>
               </div>
               <div>
-                <h5 id="effect113">Effect</h5>
+                <h5 id="effect121">Effect</h5>
                 <p>
                   Can only be used on spells that can only affect a single target. Once per day, you cast the spell a second time on a different target.
                 </p>
@@ -8988,7 +9259,7 @@
               <h4 id="repeated-spell">Repeated Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect114">Effect</h5>
+                <h5 id="effect122">Effect</h5>
                 <p>
                   Cast the spell twice. Can have different targets/areas.
                 </p>
@@ -9001,7 +9272,7 @@
               <h4 id="quick-cast">Quick Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect115">Effect</h5>
+                <h5 id="effect123">Effect</h5>
                 <p>
                   Cast spell as swift action.
                 </p>
@@ -9014,13 +9285,13 @@
               <h4 id="metamagic-mastery">Metamagic Mastery</h4>
               Metamagic
               <div>
-                <h5 id="prerequisite25">Prerequisite</h5>
+                <h5 id="prerequisite26">Prerequisite</h5>
                 <p>
                   Prereq: Any 3 other metamagic feats
                 </p>
               </div>
               <div>
-                <h5 id="effect116">Effect</h5>
+                <h5 id="effect124">Effect</h5>
                 <p>
                   Twice per day, lower the level adjustment of a metamagic. Only usable once per spell cast.
                 </p>
@@ -9028,24 +9299,6 @@
             </section>
             <section class="feat">
               <h4 id="chaos-magic">Chaos Magic</h4>
-              <div>
-                <h5 id="prerequisite26">Prerequisite</h5>
-                <p>
-                  Can take only at level 1, can only have 1 origin feat
-                </p>
-                <p>
-                  This is an origin feat.
-                </p>
-              </div>
-              <div>
-                <h5 id="effect117">Effect</h5>
-                <p>
-                  Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
-                </p>
-              </div>
-            </section>
-            <section class="feat">
-              <h4 id="blood-magic">Blood Magic</h4>
               <div>
                 <h5 id="prerequisite27">Prerequisite</h5>
                 <p>
@@ -9056,7 +9309,25 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect118">Effect</h5>
+                <h5 id="effect125">Effect</h5>
+                <p>
+                  Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
+              <h4 id="blood-magic">Blood Magic</h4>
+              <div>
+                <h5 id="prerequisite28">Prerequisite</h5>
+                <p>
+                  Can take only at level 1, can only have 1 origin feat
+                </p>
+                <p>
+                  This is an origin feat.
+                </p>
+              </div>
+              <div>
+                <h5 id="effect126">Effect</h5>
                 <p>
                   When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
                 </p>
@@ -9068,7 +9339,7 @@
             <section class="feat">
               <h4 id="dragon-magic">Dragon Magic</h4>
               <div>
-                <h5 id="prerequisite28">Prerequisite</h5>
+                <h5 id="prerequisite29">Prerequisite</h5>
                 <p>
                   Can take only at level 1, can only have 1 origin feat
                 </p>
@@ -9077,7 +9348,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect119">Effect</h5>
+                <h5 id="effect127">Effect</h5>
                 <p>
                   Choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
                 </p>
@@ -9090,7 +9361,7 @@
               <h4 id="mana-magic">Mana Magic</h4>
               TODO: this is cool but currently doesn't work.
               <div>
-                <h5 id="prerequisite29">Prerequisite</h5>
+                <h5 id="prerequisite30">Prerequisite</h5>
                 <p>
                   Can take only at level 1, can only have 1 origin feat
                 </p>
@@ -9099,7 +9370,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect120">Effect</h5>
+                <h5 id="effect128">Effect</h5>
                 <p>
                   Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
                 </p>
@@ -9111,7 +9382,7 @@
             <section class="feat">
               <h4 id="fiery-burst">Fiery Burst</h4>
               <div>
-                <h5 id="effect121">Effect</h5>
+                <h5 id="effect129">Effect</h5>
                 <p>
                   You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -9132,31 +9403,31 @@
                     </thead>
                     <tbody>
                       <tr class="odd">
-                        <td>Level: </td>
+                        <td>Level:            </td>
                         <td> Special</td>
                       </tr>
                       <tr class="even">
-                        <td>Components: </td>
+                        <td>Components:       </td>
                         <td> V, S</td>
                       </tr>
                       <tr class="odd">
-                        <td>Casting Time: </td>
+                        <td>Casting Time:     </td>
                         <td> 1 standard action</td>
                       </tr>
                       <tr class="even">
-                        <td>Range: </td>
+                        <td>Range:            </td>
                         <td> Medium ( 100 feet + 10 feet per caster level)</td>
                       </tr>
                       <tr class="odd">
-                        <td>Area: </td>
+                        <td>Area:             </td>
                         <td> 10-ft.-radius spread</td>
                       </tr>
                       <tr class="even">
-                        <td>Duration: </td>
+                        <td>Duration:         </td>
                         <td> Instantaneous</td>
                       </tr>
                       <tr class="odd">
-                        <td>Saving Throw: </td>
+                        <td>Saving Throw:     </td>
                         <td> Reflex negates</td>
                       </tr>
                       <tr class="even">
@@ -9164,7 +9435,7 @@
                         <td> Yes</td>
                       </tr>
                       <tr class="odd">
-                        <td>Tags: </td>
+                        <td>Tags:             </td>
                         <td> Fire</td>
                       </tr>
                     </tbody>
@@ -9181,7 +9452,7 @@
             <section class="feat">
               <h4 id="icy-breath">Icy Breath</h4>
               <div>
-                <h5 id="effect122">Effect</h5>
+                <h5 id="effect130">Effect</h5>
                 <p>
                   You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -9251,7 +9522,7 @@
             <section class="feat">
               <h4 id="chain-shock">Chain Shock</h4>
               <div>
-                <h5 id="effect123">Effect</h5>
+                <h5 id="effect131">Effect</h5>
                 <p>
                   You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -9321,7 +9592,7 @@
             <section class="feat">
               <h4 id="acidic-splatter">Acidic Splatter</h4>
               <div>
-                <h5 id="effect124">Effect</h5>
+                <h5 id="effect132">Effect</h5>
                 <p>
                   You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -9391,13 +9662,13 @@
             <section class="feat">
               <h4 id="draconic-scales">Draconic Scales</h4>
               <div>
-                <h5 id="prerequisite30">Prerequisite</h5>
+                <h5 id="prerequisite31">Prerequisite</h5>
                 <p>
                   Dragon Magic, Sorcerer level 3
                 </p>
               </div>
               <div>
-                <h5 id="effect125">Effect</h5>
+                <h5 id="effect133">Effect</h5>
                 <p>
                   Your natural armor is increased by 2.
                   This benefit increases to 3 at level 6.
@@ -9407,13 +9678,13 @@
             <section class="feat">
               <h4 id="draconic-wings">Draconic Wings</h4>
               <div>
-                <h5 id="prerequisite31">Prerequisite</h5>
+                <h5 id="prerequisite32">Prerequisite</h5>
                 <p>
                   Dragon Magic, level 6
                 </p>
               </div>
               <div>
-                <h5 id="effect126">Effect</h5>
+                <h5 id="effect134">Effect</h5>
                 <p>
                   You grow wings and gain a fly speed with average maneuverability equal to your ground speed.
                 </p>
@@ -9422,13 +9693,13 @@
             <section class="feat">
               <h4 id="improved-draconic-wings">Improved Draconic Wings</h4>
               <div>
-                <h5 id="prerequisite32">Prerequisite</h5>
+                <h5 id="prerequisite33">Prerequisite</h5>
                 <p>
                   Draconic Wings
                 </p>
               </div>
               <div>
-                <h5 id="effect127">Effect</h5>
+                <h5 id="effect135">Effect</h5>
                 <p>
                   Your maneuverability improves to good and your fly speed increases by 30'.
                 </p>
@@ -9437,13 +9708,13 @@
             <section class="feat">
               <h4 id="dragon-breath">Dragon Breath</h4>
               <div>
-                <h5 id="prerequisite33">Prerequisite</h5>
+                <h5 id="prerequisite34">Prerequisite</h5>
                 <p>
                   Dragon Magic
                 </p>
               </div>
               <div>
-                <h5 id="effect128">Effect</h5>
+                <h5 id="effect136">Effect</h5>
                 <p>
                   Once per day, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
                 </p>
@@ -9452,13 +9723,13 @@
             <section class="feat">
               <h4 id="pure-chaos">Pure Chaos</h4>
               <div>
-                <h5 id="prerequisite34">Prerequisite</h5>
+                <h5 id="prerequisite35">Prerequisite</h5>
                 <p>
                   Chaos Magic
                 </p>
               </div>
               <div>
-                <h5 id="effect129">Effect</h5>
+                <h5 id="effect137">Effect</h5>
                 <p>
                   Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level.
                 </p>
@@ -9476,13 +9747,13 @@
             <section class="feat">
               <h4 id="efficient-mana-manipulation">Efficient Mana Manipulation</h4>
               <div>
-                <h5 id="prerequisite35">Prerequisite</h5>
+                <h5 id="prerequisite36">Prerequisite</h5>
                 <p>
                   Mana Magic
                 </p>
               </div>
               <div>
-                <h5 id="effect130">Effect</h5>
+                <h5 id="effect138">Effect</h5>
                 <p>
                   TODO: what does this MEAN???
                 </p>
@@ -9494,13 +9765,13 @@
             <section class="feat">
               <h4 id="immortal-blood">Immortal Blood</h4>
               <div>
-                <h5 id="prerequisite36">Prerequisite</h5>
+                <h5 id="prerequisite37">Prerequisite</h5>
                 <p>
                   Blood Magic
                 </p>
               </div>
               <div>
-                <h5 id="effect131">Effect</h5>
+                <h5 id="effect139">Effect</h5>
                 <p>
                   When you are below half your maximum hit points, you gain fast healing 1 until you are above half your maximum hit points.
                 </p>
@@ -9510,7 +9781,7 @@
           <section class="class_feats">
             <h3 id="wizard-feats">Wizard Feats</h3>
             <div>
-              <h4 id="special-rules2">Special Rules</h4>
+              <h4 id="special-rules3">Special Rules</h4>
               <p>
                 Some wizard feats are being marked a "specialization". A wizard can only have one specialization and can only take this feat at level 1.
               </p>
@@ -9522,13 +9793,13 @@
               <h4 id="elusion">Elusion </h4>
               Specialization
               <div>
-                <h5 id="prerequisite37">Prerequisite</h5>
+                <h5 id="prerequisite38">Prerequisite</h5>
                 <p>
                   Can take only at level 1, can only have 1 specialization feat
                 </p>
               </div>
               <div>
-                <h5 id="effect132">Effect</h5>
+                <h5 id="effect140">Effect</h5>
                 <p>
                   Specialize in illusion, enchantment, and divination magic.
                 </p>
@@ -9550,13 +9821,13 @@
               <h4 id="genesis">Genesis</h4>
               Specialization
               <div>
-                <h5 id="prerequisite38">Prerequisite</h5>
+                <h5 id="prerequisite39">Prerequisite</h5>
                 <p>
                   Can take only at level 1, can only have 1 specialization feat
                 </p>
               </div>
               <div>
-                <h5 id="effect133">Effect</h5>
+                <h5 id="effect141">Effect</h5>
                 <p>
                   Specialize in conjuration and evocation.
                 </p>
@@ -9578,13 +9849,13 @@
               <h4 id="metamorphosis">Metamorphosis</h4>
               Specialization
               <div>
-                <h5 id="prerequisite39">Prerequisite</h5>
+                <h5 id="prerequisite40">Prerequisite</h5>
                 <p>
                   Can take only at level 1, can only have 1 specialization feat
                 </p>
               </div>
               <div>
-                <h5 id="effect134">Effect</h5>
+                <h5 id="effect142">Effect</h5>
                 <p>
                   Specialize in abjuration, necromancy, and transmutation.
                 </p>
@@ -9606,13 +9877,13 @@
               <h4 id="universal-wizard">Universal Wizard</h4>
               Specialization
               <div>
-                <h5 id="prerequisite40">Prerequisite</h5>
+                <h5 id="prerequisite41">Prerequisite</h5>
                 <p>
                   Can take only at level 1, can only have 1 specialization feat
                 </p>
               </div>
               <div>
-                <h5 id="effect135">Effect</h5>
+                <h5 id="effect143">Effect</h5>
                 <p>
                   You know an additional two 1st level spells at level 1.
                 </p>
@@ -9633,7 +9904,7 @@
             <section class="feat">
               <h4 id="perfect-spell-memory">Perfect Spell Memory</h4>
               <div>
-                <h5 id="effect136">Effect</h5>
+                <h5 id="effect144">Effect</h5>
                 <p>
                   Once you have learned a spell, you know that spell even without access to a spellbook. Thus, you can always prepare any spell you have ever learned. You still must scribe a spell in order to learn it.
                 </p>
@@ -9642,13 +9913,13 @@
             <section class="feat">
               <h4 id="flexible-mind">Flexible Mind</h4>
               <div>
-                <h5 id="prerequisite41">Prerequisite</h5>
+                <h5 id="prerequisite42">Prerequisite</h5>
                 <p>
                   Perfect Spell Memory
                 </p>
               </div>
               <div>
-                <h5 id="effect137">Effect</h5>
+                <h5 id="effect145">Effect</h5>
                 <p>
                   You can leave up to one spell slot open for each spell level below the highest level spell slot you have. You can use those slots to spontaneously cast spells you know as a sorcerer would. (You know all spells in your spellbook)
                 </p>
@@ -9657,7 +9928,7 @@
             <section class="feat">
               <h4 id="spell-potency">Spell Potency</h4>
               <div>
-                <h5 id="effect138">Effect</h5>
+                <h5 id="effect146">Effect</h5>
                 <p>
                   Add a +2 bonus on caster level checks. (Affects spell resistance and dispel magic, etc)
                 </p>
@@ -9666,13 +9937,13 @@
             <section class="feat">
               <h4 id="mobile-spellcasting">Mobile Spellcasting</h4>
               <div>
-                <h5 id="prerequisite42">Prerequisite</h5>
+                <h5 id="prerequisite43">Prerequisite</h5>
                 <p>
                   Dodge, Mobility
                 </p>
               </div>
               <div>
-                <h5 id="effect139">Effect</h5>
+                <h5 id="effect147">Effect</h5>
                 <p>
                   You can move before and after you cast a spell (up to your normal maximum).
                 </p>
@@ -9681,13 +9952,13 @@
             <section class="feat">
               <h4 id="cloudy-evocuration">Cloudy Evocuration</h4>
               <div>
-                <h5 id="prerequisite43">Prerequisite</h5>
+                <h5 id="prerequisite44">Prerequisite</h5>
                 <p>
                   Genesis
                 </p>
               </div>
               <div>
-                <h5 id="effect140">Effect</h5>
+                <h5 id="effect148">Effect</h5>
                 <p>
                   Whenever you cast a conjuration or evocation spell, you can create a 10 foot cube of vision-blocking cloud on or next to you, the target of the spell, or the area of the spell.
                 </p>
@@ -9696,13 +9967,13 @@
             <section class="feat">
               <h4 id="insightful-elusion">Insightful Elusion</h4>
               <div>
-                <h5 id="prerequisite44">Prerequisite</h5>
+                <h5 id="prerequisite45">Prerequisite</h5>
                 <p>
                   Elusion
                 </p>
               </div>
               <div>
-                <h5 id="effect141">Effect</h5>
+                <h5 id="effect149">Effect</h5>
                 <p>
                   When you cast an illusion, enchantment, or divination spell, you gain a bonus to your next initiative or saving throw equal to the level of the spell. This bonus lasts 24 hours.
                 </p>
@@ -9711,13 +9982,13 @@
             <section class="feat">
               <h4 id="toughening-metamorphosis">Toughening Metamorphosis</h4>
               <div>
-                <h5 id="prerequisite45">Prerequisite</h5>
+                <h5 id="prerequisite46">Prerequisite</h5>
                 <p>
                   Metamorphosis
                 </p>
               </div>
               <div>
-                <h5 id="effect142">Effect</h5>
+                <h5 id="effect150">Effect</h5>
                 <p>
                   When you cast an abjuration, necromancy, or transmutation spell, you and an ally within 30 feet gain temp HP equal to the level of the spell.
                 </p>
@@ -9727,7 +9998,7 @@
               <h4 id="extend-spell1">Extend Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect143">Effect</h5>
+                <h5 id="effect151">Effect</h5>
                 <p>
                   Double the duration of the spell.
                 </p>
@@ -9740,7 +10011,7 @@
               <h4 id="enlarge-spell1">Enlarge Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect144">Effect</h5>
+                <h5 id="effect152">Effect</h5>
                 <p>
                   Increase the dimensions of the area of the spell by 50%.
                 </p>
@@ -9753,7 +10024,7 @@
               <h4 id="reach-spell1">Reach Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect145">Effect</h5>
+                <h5 id="effect153">Effect</h5>
                 <p>
                   Increase the range category of a spell.
                 </p>
@@ -9775,7 +10046,7 @@
               <h4 id="ghost-touch-spell1">Ghost Touch Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect146">Effect</h5>
+                <h5 id="effect154">Effect</h5>
                 <p>
                   Your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
                 </p>
@@ -9788,7 +10059,7 @@
               <h4 id="mental-spell1">Mental Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect147">Effect</h5>
+                <h5 id="effect155">Effect</h5>
                 <p>
                   Cast a spell without needing to supply verbal, somatic, or low cost material components.
                 </p>
@@ -9801,7 +10072,7 @@
               <h4 id="flash-frost-spell1">Flash Frost Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect148">Effect</h5>
+                <h5 id="effect156">Effect</h5>
                 <p>
                   When you cast a spell that has an area and deals cold damage, the area of the spell is also covered in slippery ice for 1 round. Creatures that attempt to move in the ice must make reflex saves or fall prone.
                 </p>
@@ -9817,7 +10088,7 @@
               <h4 id="scorching-spell1">Scorching Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect149">Effect</h5>
+                <h5 id="effect157">Effect</h5>
                 <p>
                   When you cast a spell that deals fire damage, any creatures that fails their save or is hit by an attack roll are now on fire. They will take an additional d6*spell level damage at the start of their next turn.
                 </p>
@@ -9830,7 +10101,7 @@
               <h4 id="shocking-spell1">Shocking Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect150">Effect</h5>
+                <h5 id="effect158">Effect</h5>
                 <p>
                   When you cast a spell that deals lightning damage, creatures wearing or holding metal get -2 on their save/ac. Any creatures that fail their save or are hit by an attack roll are unable to make attacks of opportunity for 1 round.
                 </p>
@@ -9846,7 +10117,7 @@
               <h4 id="sculpt1">Sculpt</h4>
               Metamagic
               <div>
-                <h5 id="effect151">Effect</h5>
+                <h5 id="effect159">Effect</h5>
                 <p>
                   You can change the area of a spell that has an area to be one of the following: 120-foot tube, 20-foot radius sphere, 60-foot cone, two 10-foot cube.
                 </p>
@@ -9862,7 +10133,7 @@
               <h4 id="empower-spell1">Empower Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect152">Effect</h5>
+                <h5 id="effect160">Effect</h5>
                 <p>
                   Damage and healing of spell increased by 50%.
                 </p>
@@ -9875,7 +10146,7 @@
               <h4 id="split-ray1">Split Ray</h4>
               Metamagic
               <div>
-                <h5 id="effect153">Effect</h5>
+                <h5 id="effect161">Effect</h5>
                 <p>
                   Adds 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
                 </p>
@@ -9888,7 +10159,7 @@
               <h4 id="twin-cast1">Twin Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect154">Effect</h5>
+                <h5 id="effect162">Effect</h5>
                 <p>
                   Can only be used on spells that can only affect a single target. You cast the spell a second time on a different target.
                 </p>
@@ -9901,7 +10172,7 @@
               <h4 id="repeated-spell1">Repeated Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect155">Effect</h5>
+                <h5 id="effect163">Effect</h5>
                 <p>
                   Cast the spell twice. Can have different targets/areas.
                 </p>
@@ -9914,7 +10185,7 @@
               <h4 id="quick-cast1">Quick Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect156">Effect</h5>
+                <h5 id="effect164">Effect</h5>
                 <p>
                   Cast spell as swift action.
                 </p>
@@ -9928,6 +10199,7 @@
         <section class="chapter">
           <h2 id="equipment">Equipment</h2>
           TODO
+          
         </section>
         <section class="chapter">
           <h2 id="experience">Experience</h2>
@@ -10305,7 +10577,7 @@
           RULES OF MAGIC
         </section>
         <section class="chapter">
-          <h2 id="spells6">Spells</h2>
+          <h2 id="spells5">Spells</h2>
           TODO
         </section>
         
