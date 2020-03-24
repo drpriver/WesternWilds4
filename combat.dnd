@@ -25,18 +25,23 @@ Combat::chapter
       grapple, or attack your opponent.
 
       Earning grapple points is an attack (so if you have multiple attacks due to high BAB or
-      haste, you can do it more than once). To earn grapple points, win an opposed grapple check.
+      haste, you can do it more than once). To earn grapple points, win an opposed grapple
+      check.
 
       To escape, win an opposed grapple check (or you can use escape artist), but your
-      opponent gets +2 to their roll. If your opponent lets you escape, there is no need to roll.
+      opponent gets +2 to their roll. If your opponent lets you escape, there is no need to
+      roll.
 
       Attacking your opponent is at -4 and can only be done with light weapons, unarmed
       attacks, natural weapons or armor spikes.
       Monks and natural weapons do not suffer the -4.
 
-      Additionally, you can spend grapple points as a free action once per turn. If there is more than one enemy in the grapple, you can spend your grapple points as many times as there are enemies, once for each.
+      Additionally, you can spend grapple points as a free action once per turn. If there is
+      more than one enemy in the grapple, you can spend your grapple points as many times as
+      there are enemies, once for each.
 
-      The only spells you can cast while grappling are those with no somatic components and those fail 50% of the time.
+      The only spells you can cast while grappling are those with no somatic components and
+      those fail 50% of the time.
 
     Uses of grapple points::section
       ::table

@@ -39,13 +39,21 @@
 
     Two Weapon Style::section.feat
       Effect::text
-        Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon.  The weapons must be one-handed. 
+        Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon.  The weapons must be one-handed or a double weapon.
 
         When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
         For each light weapon you are wielding, reduce the attack penalty by 1.
 
+        Reduce the attack penalty by 1 for double weapons.
+
+        Additionally, you can draw two weapons as part of the same action.
+
       Normal::text
         Normally, you can only attack with your primary weapon.
+
+    Two-Handed Style::section.feat
+      Effect::text
+        When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemey that is adjacent to you as well.
 
 
     Combat Tactics::section.feat
@@ -98,7 +106,7 @@
     Lion Totem::section.feat
       Effect::text
         When you make a charge attack while raging, you can make an extra attack at your
-        highest base attack bonus.
+        highest base attack bonus. You must decide this before you make your first attack. If you do, all your attacks suffer a -2 penalty this round.
       Special::text
         You may have a maximum of 3 totem feats
 

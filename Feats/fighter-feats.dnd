@@ -1,0 +1,234 @@
+  Fighter Feats::section.class_feats
+    Power Attack::section.feat
+      Effect::text
+        On your action, before making attack rolls for a round, you may choose to subtract a
+        number from all weapon attack rolls and add the same number to all weapon damage
+        rolls. The penalty on attacks and bonus on damage apply until your next turn.
+
+        You may only use this feat with attacks that add your strength modifier to the
+        damage. You cannot subtract from your attack roll a number higher than your base
+        attack. 
+
+        If you attack with a two-handed melee weapon, or with a one-handed melee weapon
+        wielded in two hands, instead add twice the number subtracted from your attack 
+        rolls. 
+
+        You can't add the bonus from Power Attack to the damage dealt with a light weapon
+        (except with unarmed strikes or natural weapon attacks). 
+
+        You can't use Power Attack and Combat Expertise in the same round.
+    Combat Expertise::section.feat
+      Effect::text
+        On your action, before making attack rolls for a round, you may choose to subtract a number from all melee weapon attack rolls and add the same number to your AC. The penalty on attacks and bonus on AC apply until the start of your next turn.
+
+        You must be using a melee weapon to gain this benefit. If you are disarmed or otherwise left without a melee weapon in your hands, you lose the benefit to your AC.
+
+        You cannot subtract more than your base attack from your attack roll and cannot subtract more than 5.
+
+        You can't use Combat Expertise and Power Attack in the same round.
+
+    Cleave::section.feat
+      Prerequisite::text
+        Power Attack
+      Effect::text
+        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach. 
+        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. 
+
+        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round. 
+
+
+        You can use this ability once per round.
+
+    Great Cleave::section.feat
+      Prerequisite::text
+        Cleave
+      Effect::text
+        There is no limit on the number of cleaves you can make in a turn. Additionally, you can move in between cleave attacks (not restricted to 5' steps).
+
+    Two Weapon Style::section.feat
+      Effect::text
+        Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon.  The weapons must be one-handed or a double weapon.
+
+        When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
+        For each light weapon you are wielding, reduce the attack penalty by 1.
+
+        Reduce the attack penalty by 1 for double weapons.
+
+        Additionally, you can draw two weapons as part of the same action.
+
+    Two Weapon Defense::section.feat
+      Effect::text
+        When fighting with a double weapon or with two weapons, you gain a +1 shield bonus to AC. This shield bonus doubles if you fight defensively, take total defense or use [combat expertise].
+
+    Combat Tactics::section.feat
+      Effect::text
+        You gain a +2 bonus when tripping or disarming.
+
+        Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
+
+    Greater Combat Tactics::section.feat
+      Prerequisite::text
+        Combat Tactics
+      Effect::text
+        Your bonus from combat tactics improves from +2 to +4
+
+    Combat Brawn::section.feat
+      Effect::text
+        You gain a +2 bonus when bullrushing, grappling and overrunning. 
+
+        Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
+
+    Greater Combat Brawn::section.feat
+      Effect::text
+        Your bonus from combat brawn increases from +2 to +4
+
+    Shock Trooper::section.feat
+      Prerequisite::text
+        Combat Tactics or Combat Brawn, Power Attack, Level 3
+      Effect::text
+        When you hit an enemy with a charge attack, you can make a free bullrush attempt. If you succeed, you can push them in any direction up to 10 feet.
+
+        When you bullrush an enemy, if they collide with a solid barrier or another enemy, you get a free trip attempt on the primary target. This does not trigger combat tactics.
+
+        When you use your power attack with your charge attack with a penalty of at least -2 attack, you may choose to take a -2 penalty to AC for a +2 bonus to attack.
+
+    Combat Reflexes::section.feat
+      Effect::text
+        You may make up to three attacks of opportunity each round. You receive a +2 bonus on these attacks.
+      Normal::text
+        You can normally only make up to one attack of opportunity each round.
+
+    Two-Handed Style::section.feat
+      Effect::text
+        When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemey that is adjacent to you as well.
+      
+    Ranged Style::section.feat
+      Effect::text
+        You don't suffer the -4 penalty for firing into a melee.
+      Normal::text
+        Normally you must take a -4 penalty to attack a specific target in a group or melee with a ranger attack.
+
+    Rapid Shots::section.feat
+      Prerequisite::text
+        Ranged Style
+      Effect::text
+        When you take the full attack action with a ranged weapon, you can make one additional attack at your highest BAB, but all attacks are made with a -2 penalty.
+
+    Reloader Style::section.feat
+      Prerequisite::text
+        Ranged Style
+      Effect::text
+        You can reload gun and crossbows faster 
+
+        light crossbow: move->no action
+
+        heavy crossbow: full round -> move action)
+
+        HOW DO GUNS WORK?
+
+    Precision Style::section.feat
+      Prerequisite::text
+        Reloader Style
+      Effect::text
+        Add ½ DEX bonus to damage with crossbows and guns.
+
+    Clustered Shots::section.feat
+      Prerequisite::text
+        Ranged Style, Rapid Shots
+      Effect::text
+        When you hit an enemy with multiple ranged attacks in a single turn, damage reduction is only applied once.
+
+    Throwing Style::section.feat
+      Effect::text
+        Range increment for throwing weapons increased to 45’ if less than 45'.
+
+        You can draw as many weapons each turn as you need to make all your attacks and still end your turn with weapons in hand.
+
+    Shield Style::section.feat
+      Effect::text
+        +1 AC when using a shield.
+
+        Add shield AC bonus to reflex saves against damaging area effects.
+
+        You can shield bash without losing your shields AC bonus.
+
+        When you bullrush an enemy, you can make a shield bash attack for free.
+
+    Swashbuckler Style::section.feat
+      Effect::text
+        Once per turn when you attack with a one-handed weapon, you may also attack with a one-handed ranged weapon in another hand with no two-weapon fighting penalty and without provoking attacks of opportunity.
+
+        You get a +2 bonus to reflex saves and to flirting.
+
+    Finesse Style::section.feat
+      Effect::text
+        You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
+
+        You gain [tumble] as a class skill. It starts with 4 ranks in it.
+
+    Weapon Focus::section.feat
+      Effect::text
+        Choose a class of weapon: sword, axe, hammer, polearm, bow, crossbow, gun, or flail.
+
+        You receive a +1 bonus to attacks with that class of weapon.
+      Special::text
+        You can take this feat more than once. Each time, choose a different class of weapon for it to apply to.
+
+    Weapon Specialization::section.feat
+      Prerequisite::text
+        Weapon Focus, level 2
+      Effect::text
+        You receive a +2 bonus to damage with the classes of weapons in which you have weapon focus.
+
+    Improved Critical::section.feat
+      Prerequisite::text
+        Weapon Focus, level 6
+      Effect::text
+        Increase the critical range by 1 for any weapon you have weapon focus.
+
+    Provoker::section.feat
+      Effect::text
+        Once per enemy, when you hit them with a melee attack, you may make a DC 15 bluff check. If you succeed, that enemy must target you next round. If they make multiple attacks, they must continue targeting you until they hit you once. If they use an ability with an area, you must be inside the area. If they use a single target ability, they must target you.
+
+        You gain +3 HP
+
+    Skirmisher Stances::section.feat
+      Effect::text
+        As a swift action, you can change between the following stances. You can only have one active stance at a time.
+
+        Mobile Stance: You don’t provoke AoO for movement if you have not attacked this turn.
+
+        Power Stance: Your first attack each turn deals an additional d6 damage.
+
+    Vanguard Stances::section.feat
+      Effect::text
+        As a swift action, you can change between the following stances. You can only have one active stance at a time.
+
+        (TODO: boring?) Inspiring Stance: You and all allies who can see you gain a +4 bonus on will saves.
+
+        (TODO: OP?) Mountain Stance: +10 to defend or escape against bullrush and grapple. When you deal unarmed damage with a grapple check, your unarmed damage is a d12+STR. When you bullrush an enemy, double the distance you push them.
+
+    Spring Attack::section.feat
+      Prerequisite::text
+        Dexterity 13
+      Effect::text
+        If you move, attack, and then move again, you do not provoke attacks of opportunity from the target of your attack(s). Intent is all that matters here (you might fall in a pit and be unable to attack).
+    Whirlwind Attack::section.feat
+      Prerequisite::text
+        Power Attack, Cleave, Combat Expertise, Spring Attack, Level 4
+      Effect::text
+        When you use attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.
+
+        When you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities, with the exception of cleave and great cleave.
+
+    ::commented
+      Martial Maneuvers
+      You gain a stamina pool with 1 point in it. You also learn two of the following maneuvers. Using a maneuver costs 1 stamina point. Stamina points are recovered at the start of an encounter (including non-combat encounters). Each additional time you take this feat, gain 1 stamina point and learn 1 maneuver.
+      Deflect: When an attack would hit you, as an immediate action you can force the attacker to reroll the attack.
+      Double Strike: Once per turn when you make a melee attack, you can make an additional melee attack against another adjacent enemy.
+      Distracting Attack: When you make an attack, you can declare it a distracting attack. If you hit, allies get a +4 bonus on their attacks against that enemy for 1 round.
+      Swift Step: As a swift action, increase your move speed by 20’ this turn. Additionally, you ignore rough terrain like debri and stairs (not when you are waist deep in mud).
+      Mighty Throw: When you have an enemy grappled, you can make a grapple check. If you succeed, you can throw them up to 15 feet away and they take (d6 per 5’)+STR bludgeoning damage. They land prone.
+      Frenzy: Ignore all penalties for two-weapon fighting this turn.
+      Blitz: Make a charge attack with an additional +2 attack bonus. You do not provoke attacks of opportunity this turn.
+      Godslayer: Once per turn when you make an attack, you can declare it a Godslayer attack. If you hit, you deal double damage. Costs 2 stamina

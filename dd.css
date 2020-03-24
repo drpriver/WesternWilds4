@@ -219,7 +219,8 @@ section.spell h1,
 section.spell h2,
 section.spell h3,
 section.spell h4,
-section.spell h5 {
+section.spell h5,
+section.spell h6{
 	font-weight: bold;
 	color: black;
 	font-size: 16px;
@@ -228,14 +229,16 @@ section.feat h4,
 section.feat h3 {
 	margin-block-start:0px;
 }
-section.feat h3,
-section.feat h4,
-section.feat h5{
+section h3,
+section h4,
+section h5,
+section h6{
 	margin-bottom:2px;
 }
-section.feat h3+p,
-section.feat h4+p,
-section.feat h5+p{
+section h3+p,
+section h4+p,
+section h5+p,
+section h6+p {
 	margin-top:0;
 }
 
