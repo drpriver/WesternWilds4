@@ -358,25 +358,22 @@ How to make a a Character::chapter
       When creating a new character, ability scores can be determined either by rolling,
       using an array, or using a hybrid method
 
-    Rolling Ability Scores::section
-      ::text
-        To roll your ability scores, roll four six-sided dice and discard the die with the
-        lowest value. Total the three remaining dice. This number is your strength score.
+    Rolling Ability Scores::text
+      To roll your ability scores, roll four six-sided dice and discard the die with the
+      lowest value. Total the three remaining dice. This number is your strength score.
 
-        Repeat this process for the other five abilities (dexterity, constitution,
-        intelligence, wisdom, charisma).
+      Repeat this process for the other five abilities (dexterity, constitution,
+      intelligence, wisdom, charisma).
 
-    Using an Array::section
-      ::text
-        If you are boring, you can assign the following six numbers as you choose to the
-        six abilities: 14, 14, 13, 13, 12, 12.
+    Using an Array::text
+      If you are boring, you can assign the following six numbers as you choose to the
+      six abilities: 14, 14, 13, 13, 12, 12.
 
-    The Hybrid Method::section
-      ::text
-        Before rolling anything, assign these three numbers to three of the six abilities:
-        14, 13, 12. 
+    The Hybrid Method::text
+      Before rolling anything, assign these three numbers to three of the six abilities:
+      14, 13, 12. 
 
-        For the remaining ability scores, roll 4d6, discarding the lowest die.
+      For the remaining ability scores, roll 4d6, discarding the lowest die.
   2. Choose a race ::text
     See the races chapter for the features, benefits, drawbacks, etc. of each race.
   3. Choose a class::text

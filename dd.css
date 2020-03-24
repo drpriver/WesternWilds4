@@ -241,6 +241,12 @@ section h5+p,
 section h6+p {
 	margin-top:0;
 }
+section h3+div>p,
+section h4+div>p,
+section h5+div>p,
+section h6+div>p {
+	margin-top:0;
+}
 
 section.skill_description {
 	border-top: 1px solid black;
