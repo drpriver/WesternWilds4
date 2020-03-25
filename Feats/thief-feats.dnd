@@ -1,0 +1,188 @@
+  Thief Feats::section.class_feats
+    Special Rules::text
+      Some thief feats are marked as being a "style" feat. A thief can only have one style 
+      feat, but they do not have to pick this at level 1.
+
+    Spy::section.feat
+      Style
+      Effect::text
+        +4 to disguise, bluff, and forgery
+
+    Assassin::section.feat
+      Style
+      Effect::text
+        Once per turn when you deal sneak attack damage while hiding in shadows, you gain bonus damage equal to twice your level.
+
+    Master Thief::section.feat
+      Style
+      Effect::text
+        +1 to all thief skills
+        +2 to stealth
+
+    Lucky Thief::section.feat
+      Effect::text
+        Gain two luck points that recover each day.
+
+        If you roll a 1 on a thief skill or a DEX skill, reroll it.
+
+        You can spend a luck point to reroll a thief skill or any DEX skill.
+
+    Lucky Recovery::section.feat
+      Effect::text
+        Gain two luck points that recover each day.
+
+        If you roll a 1 on any CHA check, reroll it.
+
+        You can spend a luck point to reroll any CHA skill.
+
+    Lucky Save::section.feat
+      Effect::text
+        Gain one luck point that recovers each day.
+
+        If you roll a 1 on a saving throw, reroll it.
+
+        You can spend a luck point to reroll a failed saving throw.
+    Lucky Shot::section.feat
+      Effect::text
+        Gain two luck points that recover each day.
+
+        When you roll a 1 on a critical hit confirmation roll, reroll it.
+
+        Whenever you fail to confirm a critical hit, you can spend a luck point to confirm it instead.
+      
+
+    Improved Hide::section.feat
+      Effect::text
+        Creatures with the scent skill roll against your hide check instead of a fixed DC.
+
+        Creatures with blindsight need to roll against your hide check as well.
+
+    Improved Flanking::section.feat
+      Effect::text
+        You are considered flanking if you and an ally are at least 90 degrees from each other.
+
+    Surgical Strike::section.feat
+      Prerequisite::text 
+        Level 3
+      Effect::section
+        ::text
+          When you would deal sneak attack damage, you can forgo damage dice in favor of other effects. You cannot reduce your damage pool to 0 dice. All effects are a fort save to negate against a DC of 10+Dex Mod+(Level+1)/2. Once a target has been affected by an effect, they are immune to that effect for 24 hours. Ie if you blind an opponent, you can’t blind them again for 24 hours.
+        ::table
+          ::head
+            Price | Effect
+          ::row
+            1d6   | Victim is deafened for 1 minute.
+            1d6   | Victim's movespeed is halved and cannot take opportunity attacks for 2 rounds.
+            2d6   | Loses spell levels equal to their level, starting with highest slots (if level 5, could lose 2 level 3 slots)
+            2d6   | Victim is blinded for 2 rounds
+            3d6   | Victim is dazed for 1 round
+            3d6   | Victim is muted for 2 rounds
+    Mage Slayer::section.feat
+      Prerequisite::text
+        Level 6
+      Effect::text
+        +2 on saves against spells and spell-like abilities
+
+        2 in 3 chance to interrupt a spell instead of 1 in 2
+
+        If you miss an attack due to a magical miss chance or a mirror image, roll again and take the better result.
+
+        When you make a search check, you can easily notice the presence of magic, even if you do not manage to pinpoint its source.
+
+    Skilled::section.feat
+      Effect::text
+        Pick one skill. That skill gets a +3 bonus.
+
+        Additionally, you gain 2 skill points which you can spend immediately.
+
+    Skirmisher::section.feat
+      Effect::text
+        If you are able to maneuver around, your opponent's partially weakened defenses allows a partial sneak attack.
+
+        If you move at least 10 feet before you attack, deal ½  of your sneak attack damage even if you would not otherwise qualify. This does not allow you to use Surgical Strike.
+
+    Cloak of Shadows::section.feat
+      Prerequisite::text
+        Level 3
+      Effect::text
+        Once per day, you can become invisible as per the greater invisibility spell as a swift action. The effect lasts until the end of your turn.
+
+    Plagiarize::section.feat
+      Prerequisite::text
+        Level 3
+      Effect::section
+        ::text
+          Gain one of the following abilities
+        ::bullets
+          * Learn 1 level 1 spell from any class. You can use it once per day.
+          * Turn Undead once per day
+          * Inspire Courage bardic music once per day
+        ::text
+          Any factors based on a class level use your thief level. Your spell DC is 10+Dex mod+spell level
+
+          When you have downtime, you can swap to a different choice without spending any extra downtime.
+
+    Ambusher::section.feat
+      Effect::text
+        If you would get a surprise round, you roll a 20 on your initiative check.
+
+        +4 initiative
+
+        +1 on stealth checks
+
+    Poisoner::section.feat
+      Effect::text
+        You can prepare and apply a poison to your weapons. Others can't use it because they
+        suck and would poison and kill themselves.
+
+        Any enemy that you have dealt damage to with a weapon attack takes an additional 
+        1 damage at the start of each of their turns. Additionally, the effectiveness of fast
+        healing, regeneration, and other healing effects on them are halved. 
+        This effect lasts until they receive first aid in the form of a DC 12 heal check, or
+        any form of magical healing.
+
+    Dual Wielding::section.feat
+      Effect::text
+        Each time you make an attack with your primary weapon, you can make an extra attack
+        with your off-hand weapon.  The weapons must be one-handed.
+        
+        When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
+        For each light weapon you are wielding, reduce the attack penalty by 1.
+        
+        Additionally, you can draw two weapons as part of the same action.
+
+    Precise Shot::section.feat
+      Effect::text
+        You don't suffer the -4 penalty for firing into a melee.
+      Normal::text
+        Normally you must take a -4 penalty to attack a specific target in a group or melee with a ranged attack.
+
+    Rapid Shots::section.feat
+      Prerequisite::text
+        Ranged Style
+      Effect::text
+        When you take the full attack action with a ranged weapon, you can make one additional attack at your highest BAB, but all attacks are made with a -2 penalty.
+
+    Rapid Reload::section.feat
+      Prerequisite::text
+        Ranged Style
+      Effect::text
+        You can reload gun and crossbows faster 
+
+        light crossbow: move->no action
+
+        heavy crossbow: full round -> move action)
+
+        HOW DO GUNS WORK?
+
+    Swashbuckling::section.feat
+      Effect::text
+        Once per turn when you attack with a one-handed weapon, you may also attack with a
+        one-handed ranged weapon in another hand with no two-weapon fighting penalty and
+        without provoking attacks of opportunity.
+
+        You get a +2 bonus to flirting.
+
+    Weapon Finesse::section.feat
+      Effect::text
+        You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
