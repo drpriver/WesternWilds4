@@ -1,16 +1,16 @@
   Ranger::section.character_class
     Ranger Class Table::table.class_table
       ::head
-        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 1st level spell per day
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +1    | +2  | +2  | +0  | 1st favored enemy, Track, wild empathy, 1st favored terrain, Animal Companion|
-        2nd | +2    | +3  | +3  | +0  | Combat style                                                |
-        3rd | +3    | +3  | +3  | +1  | 2nd favored terrain, hide in shadows                        | 0
-        4th | +4    | +4  | +4  | +1  |                                                             | 0
-        5th | +5    | +4  | +4  | +1  | 2nd favored enemy                                           | 0
-        6th | +6/+1 | +5  | +5  | +2  | Improved combat style                                       | 1
-        7th | +7/+2 | +5  | +5  | +2  | 3rd favored terrain                                         | 1
-        8th | +8/+3 | +6  | +6  | +2  | Evasion                                                     | 1
+        1st | +1    | +2  | +2  | +0  | 1st favored enemy, Track, wild empathy, 1st favored terrain, Animal Companion, Combat Style
+        2nd | +2    | +3  | +3  | +0  |
+        3rd | +3    | +3  | +3  | +1  | 2nd favored terrain, hide in shadows
+        4th | +4    | +4  | +4  | +1  | Bonus Ranger Feat
+        5th | +5    | +4  | +4  | +1  | 2nd favored enemy
+        6th | +6/+1 | +5  | +5  | +2  | Improved combat style
+        7th | +7/+2 | +5  | +5  | +2  | 3rd favored terrain
+        8th | +8/+3 | +6  | +6  | +2  | Evasion, Bonus Ranger Feat
 
     Alignment::text
       Any good.
@@ -40,6 +40,8 @@
 
     Weapon and Armor Proficiency::text
       A ranger is proficient with all simple and martial weapons, and with light armor, medium armor, heavy armor and shields (except tower shields).
+
+      Note that many of the ranger's features only function if he is ot wearing medium or heavy armor.
 
     Favored Enemy::text
       At 1st level, a ranger may select a type of creature to be his favored enemy (given below).
@@ -169,21 +171,15 @@
     Animal Companion::text
       A ranger may begin play with an animal companion selected from the following list: badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf. If the campaign takes place wholly or partly in an aquatic environment, the following creatures are also available: porpoise, Medium shark, and squid. This animal is a loyal companion that accompanies the ranger on her adventures as appropriate for its kind.
 
-      A 1st-level ranger’s companion is completely typical for its kind except as noted below. As a ranger advances in level, the animal’s power increases as shown on the table. If a ranger releases her companion from service, she may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer. This ceremony can also replace an animal companion that has perished.
+      A 1st-level ranger’s companion is completely typical for its kind except as noted below. As a ranger advances in level, the animal’s power increases as shown on the table. If a ranger releases her companion from service, he may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer. This ceremony can also replace an animal companion that has perished.
 
-      A ranger of 4th level or higher may select from alternative lists of animals. Should she select an animal companion from one of these alternative lists, the creature gains abilities as if the character’s ranger level were lower than it actually is. Subtract the value indicated in the appropriate list header from the character’s ranger level and compare the result with the ranger level entry on the table to determine the animal companion’s powers. (If this adjustment would reduce the ranger’s effective level to 0 or lower, she can’t have that animal as a companion.)
+      A ranger of 4th level or higher may select from alternative lists of animals. Should he select an animal companion from one of these alternative lists, the creature gains abilities as if the character’s ranger level were lower than it actually is. Subtract the value indicated in the appropriate list header from the character’s ranger level and compare the result with the ranger level entry on the table to determine the animal companion’s powers. (If this adjustment would reduce the ranger’s effective level to 0 or lower, he can’t have that animal as a companion.)
 
     Combat Style::text
-      At 2nd level, a ranger must select one of two combat styles to pursue: archery or two-weapon combat. This choice affects the character’s class features but does not restrict his selection of feats or special abilities in any way.
-
-      If the ranger selects archery, he is treated as having the [Rapid Shot] feat, even if he does not have the normal prerequisites for that feat.
-
-      If the ranger selects two-weapon combat, he is treated as having the [Two-Weapon Fighting] feat, even if he does not have the normal prerequisites for that feat.
-
-      The benefits of the ranger’s chosen style apply only when he wears light or no armor. He loses all benefits of his combat style when wearing medium or heavy armor.
+      A ranger is selected as having the [Rapid Shot] and [Two-Weapon Style] feats, even if he does not have the normal prerequisites for that feat. He loses these benefits when wearing medium or heavy armor.
 
     Hide In Shadows::text
-      At 3rd level, the ranger is able to blend into shadows and darkness to make himself nearly invisible. This functions similarily to the thief ability.
+      At 3rd level, the ranger is able to blend into shadows and darkness to make himself nearly invisible. This functions similarily to the thief ability. He cannot use it while wearing medium or heavy armor.
 
       The ranger may not do this once combat has begun. Any amount of shadowy lighting is sufficient to allow the ranger to attempt to hide in the shadows. Additionally, the ranger may use the natural environment of his favored terrain to hide in the shadows. For the forest, this would be in the canopy of trees or behind bushes, for the jungle behind ferns or other vines, etc. The natural environment must provide some amount of concealment.
 
@@ -191,23 +187,12 @@
 
       When the ranger's hiding is tested, the ranger rolls a hide check contested by the opposing creature's spot check. A creature must be within 20 feet of the ranger to be eligible to roll a spot check.
 
-    Spells::text
-      Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the ranger spell list. A ranger must choose and prepare his spells in advance (see below).
-
-      To prepare or cast a spell, a ranger must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a ranger’s spell is 10 + the spell level + the ranger’s Wisdom modifier.
-
-      Like other spellcasters, a ranger can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Ranger. In addition, he receives bonus spells per day if he has a high Wisdom score. When Table: The Ranger indicates that the ranger gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level. The ranger does not have access to any domain spells or granted powers, as a cleric does.
-
-      A ranger prepares and casts spells the way a cleric does. A ranger may prepare and cast any spell on the ranger spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.
-
-      Through 3rd level, a ranger has no caster level. At 4th level and higher, his caster level is one-half his ranger level.
+    Bonus Ranger Feat::text
+      At 4th and 8th level, the ranger may select an extra ranger feat. He must still meet the prerequisites.
 
     Improved Combat Style::text
-      At 6th level, a ranger’s aptitude in his chosen combat style (archery or two-weapon combat) improves. If he selected archery at 2nd level, he is treated as having the Manyshot feat, even if he does not have the normal prerequisites for that feat.
-
-      If the ranger selected two-weapon combat at 2nd level, he is treated as having the Improved Two-Weapon Fighting feat, even if he does not have the normal prerequisites for that feat.
-
-      As before, the benefits of the ranger’s chosen style apply only when he wears light or no armor. He loses all benefits of his combat style when wearing medium or heavy armor.
+      At 6th level, a ranger’s aptitude combat style improves.  He gains the [Manyshot] and [Improved Two-weapon Fighting feat], even if he does not have the normal prerequisites for that feat.
+      He loses these benefits if he wears medium or heavy armor.
 
     Evasion::text
       At 8th level, a ranger can avoid even magical and unusual attacks with great agility. If he makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the ranger is wearing light armor or no armor. A helpless ranger does not gain the benefit of evasion.
