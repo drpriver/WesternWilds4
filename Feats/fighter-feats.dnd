@@ -101,7 +101,7 @@
 
     Two-Handed Style::section.feat
       Effect::text
-        When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemey that is adjacent to you as well.
+        When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemy that is adjacent to you as well.
       
     Ranged Style::section.feat
       Effect::text
