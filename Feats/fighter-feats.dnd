@@ -220,6 +220,23 @@
         When you use attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.
 
         When you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities, with the exception of cleave and great cleave.
+    Blind-Fight::section.feat
+      Effect::text
+        In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.
+
+        An invisible attacker gets no advantages related to hitting you in melee. The invisible attacker’s bonuses do still apply for ranged attacks, however.
+
+        You take only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces your speed to three-quarters normal, instead of one-half.
+    Exotic Weapon Proficiency::section.feat
+      Effect::text
+        You become proficient will all exotic weapons.
+
+    Improved Feint::section.feat
+      Effect::text
+        You can [feint, Feinting in Combat] as a move action instead of as a standard action. If you succeed, the feint bonus is +4 instead of +2.
+    Quick Draw::section.feat
+      Effect::text
+        You can draw/stow weapons as free actions instead of as a move action.
 
     ::commented
       Martial Maneuvers

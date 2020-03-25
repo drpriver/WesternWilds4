@@ -2,7 +2,7 @@
     First Aid::text
       A character with at least 3 ranks in heal can recover some of a character’s hit points suffered from a combat or traumatic event (like falling off a ladder).
 
-      To do so, such a character expends a usage of a healing kit and rolls d6+their heal bonus. 
+      To do so, such a character expends a usage of a healing kit and heals their heal bonus. 
 
       The character recovers that many hit points. A character cannot heal more than the damage received during the combat or traumatic event.
 

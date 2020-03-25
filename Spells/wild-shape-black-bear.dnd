@@ -1,0 +1,30 @@
+  Wild Shape - Black Bear::section.spell
+    ::table
+      ::head
+        | 
+      ::row
+        Level:            | [Druid] 2
+        Components:       | V
+        Casting Time:     | 1 swift action
+        Duration:         | 1 minute/level (dismissable)
+        Tags:             | Wild Shape
+    ::text
+      You transform into a black bear for the duration of this spell. 
+
+      When you become a black bear, your possessions merge into your new form and become non-functional. Your HP remains unchanged. While a black bear, you cannot speak or cast spells. You can growl and roar.
+
+      A black bear grants you the following benefits. Despite your change in constitution, your HP remains unchanged. You use your ranks in skills, your base save bonuses, and your base attack bonus.
+
+    ::table
+      ::head
+        | 
+      ::row
+        Size:| Medium
+        Str: | 19 (+4)
+        Dex: | 13 (+1)
+        Con: | 15 (+2)
+        AC:  | 13 (+2 natural armor and +1 dex)
+        Speed:| 40'
+        Attacks: | 2 claws (1d4+4 each) and a bite (1d6+4)
+        Full Attack: | 2 claws and a bite
+        Senses:| Scent (requires points in scent)

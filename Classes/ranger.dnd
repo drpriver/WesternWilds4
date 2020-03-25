@@ -3,20 +3,13 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 1st level spell per day
       ::row
-        1st | +1    | +2  | +2  | +0  | 1st favored enemy, Track, wild empathy, 1st favored terrain |
-      ::row
+        1st | +1    | +2  | +2  | +0  | 1st favored enemy, Track, wild empathy, 1st favored terrain, Animal Companion|
         2nd | +2    | +3  | +3  | +0  | Combat style                                                |
-      ::row
         3rd | +3    | +3  | +3  | +1  | 2nd favored terrain, hide in shadows                        | 0
-      ::row
-        4th | +4    | +4  | +4  | +1  | Animal companion                                            | 0
-      ::row
+        4th | +4    | +4  | +4  | +1  |                                                             | 0
         5th | +5    | +4  | +4  | +1  | 2nd favored enemy                                           | 0
-      ::row
         6th | +6/+1 | +5  | +5  | +2  | Improved combat style                                       | 1
-      ::row
         7th | +7/+2 | +5  | +5  | +2  | 3rd favored terrain                                         | 1
-      ::row
         8th | +8/+3 | +6  | +6  | +2  | Evasion                                                     | 1
 
     Alignment::text
@@ -173,6 +166,13 @@
     ::text
       If a specific terrain falls into more than one category of terrain, the ranger’s bonuses do not stack; he simply uses whichever bonus is higher.
 
+    Animal Companion::text
+      A ranger may begin play with an animal companion selected from the following list: badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf. If the campaign takes place wholly or partly in an aquatic environment, the following creatures are also available: porpoise, Medium shark, and squid. This animal is a loyal companion that accompanies the ranger on her adventures as appropriate for its kind.
+
+      A 1st-level ranger’s companion is completely typical for its kind except as noted below. As a ranger advances in level, the animal’s power increases as shown on the table. If a ranger releases her companion from service, she may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer. This ceremony can also replace an animal companion that has perished.
+
+      A ranger of 4th level or higher may select from alternative lists of animals. Should she select an animal companion from one of these alternative lists, the creature gains abilities as if the character’s ranger level were lower than it actually is. Subtract the value indicated in the appropriate list header from the character’s ranger level and compare the result with the ranger level entry on the table to determine the animal companion’s powers. (If this adjustment would reduce the ranger’s effective level to 0 or lower, she can’t have that animal as a companion.)
+
     Combat Style::text
       At 2nd level, a ranger must select one of two combat styles to pursue: archery or two-weapon combat. This choice affects the character’s class features but does not restrict his selection of feats or special abilities in any way.
 
@@ -190,11 +190,6 @@
       While hiding in shadows, the ranger gains the benefits of invisibility (he is not literally invisible, but if no one sees you, you effectively are). This ends if he draws attention to himself, attacks, casts a spell, etc. Although he may not hide while in combat, a ranger will often begin combat hidden in the shadows. The ranger may move about while hiding in shadows, as long as he remains within some amount of shadow or natural obscurement.
 
       When the ranger's hiding is tested, the ranger rolls a hide check contested by the opposing creature's spot check. A creature must be within 20 feet of the ranger to be eligible to roll a spot check.
-
-    Animal Companion::text
-      At 4th level, a ranger gains an animal companion selected from the following list: badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf. This animal is a loyal companion that accompanies the ranger on his adventures as appropriate for its kind. The companion cannot wear armor.
-
-      This ability functions like the druid ability of the same name, except that the ranger’s effective druid level is one-half his ranger level.
 
     Spells::text
       Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the ranger spell list. A ranger must choose and prepare his spells in advance (see below).

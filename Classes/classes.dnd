@@ -10,3 +10,19 @@ Classes::chapter
       A multiclass character requires more experience points to level up than a non-multiclass character. This multiplier is equal to the number of classes they are multiclassing. For example, a Fighter/Wizard requires twice as many experience points to level up as a Fighter.
 
       Unlike other games, only certain multiclass combinations are allowed and the math for these combinations are precomputed. Thus each multiclass combination is presented as its own class entry (although it makes copious reference to the normal classes).
+
+
+    Multiclass Combinations::bullets
+      * Fighter/Cleric
+      * Fighter/Druid
+      * Fighter/Wizard
+      * Fighter/Sorcerer
+      * Fighter/Thief
+      * Cleric/Wizard
+      * Druid/Wizard
+      * Cleric/Sorcerer
+      * Druid/Sorcerer
+      * Cleric/Thief
+      * Druid/Thief
+      * Wizard/Thief
+      * Sorcerer/Thief

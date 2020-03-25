@@ -60,3 +60,45 @@
         Can make DC 25 appraise checks to identify magic items.
 
         X bonus to owned trade routes
+
+    Skill Focus::section.feat
+      Effect::text
+        Pick a skill you have at least 1 rank in. You gain a +3 bonus to that skill.
+      Special::text
+        You can pick skill focus more than once. Each time, pick a different skill.
+    Run::section.feat
+      Effect::text
+        You move 5x your speed when running instead of 4x (or 4x if wearing heavy armor).
+
+        Additionally, you suffer no defensive penalties while running.
+    Leadership::section.feat
+      Prerequisite::text
+        Level 6
+      Effect::section
+        ::text
+          You are someone others want to follow. This leadership ability and experience that
+          you have acquired allows you to found or take over one of the following:
+        ::bullets
+          * A new domain
+          * A new town
+          * A class guild
+          * A faction
+        ::text
+          A character can only control/manage one of these. He can turn over the institution
+          to an NPC if he desires, which frees him to pick up a different one.
+          
+          Additionally, you can recruit a loyal cohort. The cohort is an NPC two levels lower
+          than you. The DM will roll up 3 npcs (or choose from pre-established NPCs), and you
+          can pick one. You can request a broad category of character: Warrior, Rogue,
+          Priest, Mage.
+
+          After recruitment, the cohort earns experience at half the rate you do if he does
+          not accompany you on adventures. If he does accompany you on adventures, he gets a
+          half-share of the treasure and earns a proportionate amount of XP (which is
+          effectively half as much as you).
+          
+          The loyal cohort will not betray you unless mind controlled or cursed or whatever.
+
+          You control the cohort during combat and adventures. The DM will roleplay the cohort
+          if necessary (or you can do it, whatever).
+

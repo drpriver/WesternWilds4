@@ -1,0 +1,16 @@
+::section.spell
+    ::table
+      ::head
+        | 
+      ::row
+        Level:            | 
+        Components:       |
+        Casting Time:     |
+        Range:            |
+        Targets:          |
+        Area:             |
+        Duration:         |
+        Saving Throw:     |
+        Spell Resistance: |
+        Tags:             |
+    ::text

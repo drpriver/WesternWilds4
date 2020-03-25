@@ -327,21 +327,13 @@
             | 
           ::row
             Level: | Special
-          ::row
             Components: |V, S
-          ::row
             Casting Time: |1 standard action
-          ::row
             Range: | Medium ( 100 feet + 10 feet per caster level)
-          ::row
             Targets: | One target
-          ::row
             Duration: |Instantaneous
-          ::row
             Saving Throw: |Reflex negates
-          ::row
             Spell Resistance: |Yes
-          ::row
             Tags: | Acid
         ::text
           You create a blob of acid that eats away flesh, steel, bone. If the target fails to evade it, they suffer 1d10 per (level+1)/2 acid damage.

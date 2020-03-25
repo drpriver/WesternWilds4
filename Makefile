@@ -25,6 +25,7 @@ RACES=races.dnd\
       loxodon.dnd\
 
 SPELLS=spells.dnd\
+       wild-shape-black-bear.dnd\
 
 FEATS=feats.dnd\
       	general-feats.dnd\
