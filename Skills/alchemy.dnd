@@ -3,7 +3,7 @@
       Brewing and crafting must take place in a well-stocked alchemical lab (which costs 1000gp to
       establish). Crafting assumes access to a market for materials - if your lab is in a secret base, you
       will need to obtain raw materials such as saltpetre explicitly somehow.
-    Alchemical Knowledge::table
+    Alchemical Tasks::table
       ::head
         Alchemy DC | Task
       ::row
@@ -14,6 +14,23 @@
         Varies       | Brew potion
         Varies       | Craft alchemical good
 
+    Craft Alchemical Good::section
+      ::text
+        Alchemists can craft gunpowder goods, vials of acid, etc. during downtime.
+        The only requirement is sufficient ranks in alchemy.
+        In addition to those on the table, alchemists can create gunpowder for gunpowder
+        weapons such as cannons.
+      Alchemical Table::table
+        ::head
+          Alchemical Good           | Required Alchemy Ranks | Material Cost
+        ::row
+          Vial of Acid              |   2                    | 5gp
+          Vial of Alchemist’s fire  |   3                    | 10gp
+          Dose of Antitoxin         |   4                    | 30gp
+          Smokebomb                 |   4                    | 10gp
+          Bomb                      |   4                    | 50gp
+          Megabomb                  |   9                    | 250gp
+          Tanglefoot bag            |   4                    | 30gp
     Brew Potion::section
       ::text
         During downtime, you can brew potions. Brewing a potion takes XXX units of time and some amount of
@@ -29,54 +46,38 @@
         ::head
           Potion                                  | Required Alchemy Ranks | Material Cost
         ::row
-          Oil of Acid Resistance                  | 3                      |
-          Oil of Elemental Invulnerability        | 10                     |
-          Oil of Fiery Burning                    | 4                      |
-          Oil of Impact                           | 8                      |
-          Oil of Slipperiness                     | 4                      |
-          Oil of Timelessness                     | 8                      |
-          Philter of Glibness                     | 7                      |
-          Philter of Love                         | 3                      |
-          Philter of Persuasiveness               | 5                      |
-          Philter of Stammering and Stuttering    | 5                      |
-          Potion of Heroism                       | 6                      |
-          Potion of Invisibility                  | 6                      |
-          Potion of Invulnerability               | 8                      |
-          Potion of Levitation                    | 7                      |
-          Potion of Poison                        | 1                      |
-          Potion of Rainbow Hues                  | 4                      |
-          Potion of Speed                         | 7                      |
-          Potion of Super-Heroism                 | 10                     |
-          Potion of Ventriloquism                 | 3                      |
-          Potion of Vitality                      | 7                      |
-          Potion of Water Breathing               | 6                      |
-          Syrup of Sweet Water                    | 5                      |
-          Elixir of Health                        | 7                      |
-          Elixir of Madness                       | 6                      |
-          Elixir of Youth                         | 10                     |
-          Potion of Climbing                      | 2                      |
-          Potion of Diminution                    | 3                      |
+          Oil of Acid Resistance                  | 3                      | XXX
+          Oil of Elemental Invulnerability        | 10                     | XXX
+          Oil of Fiery Burning                    | 4                      | XXX
+          Oil of Impact                           | 8                      | XXX
+          Oil of Slipperiness                     | 4                      | XXX
+          Oil of Timelessness                     | 8                      | XXX
+          Philter of Glibness                     | 7                      | XXX
+          Philter of Love                         | 3                      | XXX
+          Philter of Persuasiveness               | 5                      | XXX
+          Philter of Stammering and Stuttering    | 5                      | XXX
+          Potion of Heroism                       | 6                      | XXX
+          Potion of Invisibility                  | 6                      | XXX
+          Potion of Invulnerability               | 8                      | XXX
+          Potion of Levitation                    | 7                      | XXX
+          Potion of Poison                        | 1                      | XXX
+          Potion of Rainbow Hues                  | 4                      | XXX
+          Potion of Speed                         | 7                      | XXX
+          Potion of Super-Heroism                 | 10                     | XXX
+          Potion of Ventriloquism                 | 3                      | XXX
+          Potion of Vitality                      | 7                      | XXX
+          Potion of Water Breathing               | 6                      | XXX
+          Syrup of Sweet Water                    | 5                      | XXX
+          Elixir of Health                        | 7                      | XXX
+          Elixir of Madness                       | 6                      | XXX
+          Elixir of Youth                         | 10                     | XXX
+          Potion of Climbing                      | 2                      | XXX
+          Potion of Diminution                    | 3                      | XXX
           Potion of Extra Healing                 | 5                      | 50gp
-          Potion of Fire Breath                   | 4                      |
-          Potion of Fire Resistance               | 5                      |
-          Potion of Gaseous Form                  | 6                      |
-          Potion of Giant Strength                | 6                      |
-          Potion of Growth                        | 3                      |
+          Potion of Fire Breath                   | 4                      | XXX
+          Potion of Fire Resistance               | 5                      | XXX
+          Potion of Gaseous Form                  | 6                      | XXX
+          Potion of Giant Strength                | 6                      | XXX
+          Potion of Growth                        | 3                      | XXX
           Potion of Healing                       | 1                      | 15gp
-          Potion of Jumping                       | 2                      |
-    Craft Alchemical Good::section
-      ::text
-        Alchemists can also craft gunpowder goods, vials of acid, etc. The only requirement is sufficient
-        ranks in alchemy. In addition to those on the table, alchemists can create gunpowder for gunpowder
-        weapons such as cannons.
-      Alchemical Table::table
-        ::head
-          Alchemical Good           | Required Alchemy Ranks | Material Cost
-        ::row
-          Vial of Acid              |   2                    | 5gp
-          Vial of Alchemist’s fire  |   3                    | 10gp
-          Dose of Antitoxin         |   4                    | 30gp
-          Smokebomb                 |   4                    | 10gp
-          Bomb                      |   4                    | 50gp
-          Megabomb                  |   9                    | 250gp
-          Tanglefoot bag            |   4                    | 30gp
+          Potion of Jumping                       | 2                      | XXX

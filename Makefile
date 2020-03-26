@@ -87,7 +87,8 @@ ALL=basics.dnd\
     combat.dnd\
     ships.dnd\
     magic.dnd\
-    $(addprefix Spells/,$(SPELLS))
+    $(addprefix Spells/,$(SPELLS))\
+    NavalCombat/naval_combat.dnd
 
 index.html: $(ALL) dd.css dd.js
 	rm -rf build
