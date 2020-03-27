@@ -7,9 +7,10 @@ CLASSES=classes.dnd\
 	fighter.dnd\
 	monk.dnd\
 	paladin.dnd\
+	pirate.dnd\
 	ranger.dnd\
-	thief.dnd\
 	sorcerer.dnd\
+	thief.dnd\
 	wizard.dnd\
 	fighter-wizard.dnd\
 	fighter-thief.dnd\
