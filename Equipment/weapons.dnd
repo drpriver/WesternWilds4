@@ -3,7 +3,6 @@
       ::head
         Weapon | Cost | Dmg | Critical | Range Increment | Slots | Damage Type | Hands
       ::row
-        <th scope=rowgroup> Light Melee Weapons </th> | | | | | | |
         Dagger      | 2 gp  | 1d4     | 19-20/×2 | 10 ft. | .5  | Piercing or slashing     | Light
         Mace, light | 5 gp  | 1d6     | ×2       |  —     | 1   | Bludgeoning              | Light
         Club        |   —   | 1d6     | ×2       | 10 ft. | 1   | Bludgeoning              | One-handed
