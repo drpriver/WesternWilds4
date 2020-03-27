@@ -79,6 +79,7 @@
       
       nav {
       	font-size: .7em;
+      	padding-bottom: 50%;
       	/*overflow-y:scroll;*/
       }
       
@@ -299,6 +300,7 @@
       "use strict"
       let rules;
       let weapons;
+      let armor;
       function onload(){
           {
           const chapters = document.getElementsByClassName("chapter");
@@ -311,16 +313,18 @@
           {
           rules = document.getElementsByClassName("center")[0];
           }
-          {
-          const keys = ["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons"];
-          const d = document.createElement("div");
-          d.className = "center";
-          for(let key of keys){
-              const weapon_table = data_blob[key];
-              d.innerHTML += weapon_table;
+      
+          function make_table_view(keys){
+              const d = document.createElement("div");
+              d.className = "center";
+              for(let key of keys){
+                  const table = data_blob[key];
+                  d.innerHTML += table;
+              }
+              return d;
           }
-          weapons = d;
-          }
+          weapons = make_table_view(["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons"]);
+          armor = make_table_view(["Light Armor", "Medium Armor", "Heavy Armor", "Shields"])
           function restorify(el){
               const links = el.getElementsByTagName("a");
               function restore(){
@@ -333,10 +337,11 @@
           restorify(document);
           restorify(weapons);
           {
-          const button_names = ["Rules", "Weapon Table"];
+          const button_names = ["Rules", "Weapon Table", "Armor Table"];
           const button_funcs = [
               function(){document.getElementsByClassName("center")[0].replaceWith(rules);},
               function(){document.getElementsByClassName("center")[0].replaceWith(weapons);},
+              function(){document.getElementsByClassName("center")[0].replaceWith(armor);},
           ];
           const top = document.getElementsByClassName("top")[0];
           for(let i = 0; i < button_names.length;i++){
@@ -347,11 +352,11 @@
           }
           }
       }
-      //document.addEventListener("DOMContentLoaded", onload)
+      document.addEventListener("DOMContentLoaded", onload)
       
     </script>
     <script>
-      data_blob={"Simple Melee Weapons": "<section>\n  <h3 id=\"simple-melee-weapons\">Simple Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Dagger      </td>\n        <td> 2 gp  </td>\n        <td> 1d4     </td>\n        <td> 19-20/\u00d72 </td>\n        <td> 10 ft. </td>\n        <td> .5  </td>\n        <td> Piercing or slashing     </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Mace, light </td>\n        <td> 5 gp  </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td>  \u2014     </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Club        </td>\n        <td>   \u2014   </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Mace, heavy </td>\n        <td> 12 gp </td>\n        <td> 1d8     </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Morningstar </td>\n        <td> 8 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td> Bludgeoning and piercing </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Shortspear  </td>\n        <td> 1 gp  </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td> 20 ft. </td>\n        <td> 1   </td>\n        <td> Piercing                 </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Longspear   </td>\n        <td> 5 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td> Piercing                 </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Quarterstaff</td>\n        <td>  \u2014    </td>\n        <td> 1d6/1d6 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed/Double Weapon</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Spear       </td>\n        <td> 2 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d73       </td>\n        <td> 20 ft. </td>\n        <td> 2   </td>\n        <td> Piercing                 </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Simple Ranged Weapons": "<section>\n  <h3 id=\"simple-ranged-weapons\">Simple Ranged Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Crossbow, heavy </td>\n        <td> 50 gp </td>\n        <td> 1d10     </td>\n        <td> 19-20/\u00d72        </td>\n        <td> 120 ft.</td>\n        <td> 3   </td>\n        <td> Piercing    </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Crossbow, light </td>\n        <td> 35 gp </td>\n        <td> 1d8      </td>\n        <td> 19-20/\u00d72        </td>\n        <td> 80 ft. </td>\n        <td> 2   </td>\n        <td> Piercing    </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Javelin         </td>\n        <td> 1 gp  </td>\n        <td> 1d6      </td>\n        <td> \u00d72              </td>\n        <td> 30 ft. </td>\n        <td> 1/4 </td>\n        <td> Piercing    </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sling           </td>\n        <td> \u2014     </td>\n        <td> 1d4      </td>\n        <td> \u00d72              </td>\n        <td> 50 ft. </td>\n        <td> 0   </td>\n        <td> Bludgeoning </td>\n        <td> One-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Melee Weapons": "<section>\n  <h3 id=\"martial-melee-weapons\">Martial Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Axe, throwing </td>\n        <td> 8 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1   </td>\n        <td>  Slashing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Hammer, light </td>\n        <td> 1 gp  </td>\n        <td> 1d4 </td>\n        <td> \u00d72       </td>\n        <td> 20 ft. </td>\n        <td> 1   </td>\n        <td>  Bludgeoning          </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Handaxe       </td>\n        <td> 6 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Slashing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sap           </td>\n        <td> 1 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Bludgeoning          </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Sword, short  </td>\n        <td> 10 gp </td>\n        <td> 1d6 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Piercing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Battleaxe     </td>\n        <td> 10 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Flail         </td>\n        <td> 8 gp  </td>\n        <td> 1d8 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Bludgeoning          </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Longsword     </td>\n        <td> 15 gp </td>\n        <td> 1d8 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Pick, heavy   </td>\n        <td> 8 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d74       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Rapier        </td>\n        <td> 20 gp </td>\n        <td> 1d6 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Cutlass       </td>\n        <td> 15 gp </td>\n        <td> 1d6 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Trident       </td>\n        <td> 15 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Warhammer     </td>\n        <td> 12 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Bludgeoning          </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Falchion      </td>\n        <td> 75 gp </td>\n        <td> 2d4 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Glaive        </td>\n        <td> 8 gp  </td>\n        <td> 1d10</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Greataxe      </td>\n        <td> 20 gp </td>\n        <td> 1d12</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Greatclub     </td>\n        <td> 5 gp  </td>\n        <td> 1d10</td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Bludgeoning          </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Flail, heavy  </td>\n        <td> 15 gp </td>\n        <td> 1d10</td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Bludgeoning          </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Greatsword    </td>\n        <td> 50 gp </td>\n        <td> 2d6 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Guisarme      </td>\n        <td> 9 gp  </td>\n        <td> 2d4 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Halberd       </td>\n        <td> 10 gp </td>\n        <td> 1d10</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing or slashing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Lance         </td>\n        <td> 10 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Ranseur       </td>\n        <td> 10 gp </td>\n        <td> 2d4 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Scythe        </td>\n        <td> 18 gp </td>\n        <td> 2d4 </td>\n        <td> \u00d74       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing or slashing </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Ranged Weapons": "<section>\n  <h3 id=\"martial-ranged-weapons\">Martial Ranged Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Longbow             </td>\n        <td> 75 gp  </td>\n        <td> 1d8 </td>\n        <td> \u00d73 </td>\n        <td> 100 ft. </td>\n        <td> 2 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Longbow, composite  </td>\n        <td> 100 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73 </td>\n        <td> 110 ft. </td>\n        <td> 2 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Shortbow            </td>\n        <td> 30 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73 </td>\n        <td> 60 ft.  </td>\n        <td> 1 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Shortbow, composite </td>\n        <td> 75 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73 </td>\n        <td> 70 ft.  </td>\n        <td> 1 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Exotic Melee Weapons": "<section>\n  <h3 id=\"exotic-melee-weapons\">Exotic Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Sword, bastard       </td>\n        <td> 35 gp  </td>\n        <td> 1d10    </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Waraxe, dwarven      </td>\n        <td> 30 gp  </td>\n        <td> 1d10    </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Whip                 </td>\n        <td> 1 gp   </td>\n        <td> 1d3     </td>\n        <td> \u00d72       </td>\n        <td> \u2014 </td>\n        <td> 1 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Axe, orc double      </td>\n        <td> 60 gp  </td>\n        <td> 1d8/1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing             </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Flail, dire          </td>\n        <td> 90 gp  </td>\n        <td> 1d8/1d8 </td>\n        <td> \u00d72       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Bludgeoning          </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Hammer, gnome hooked </td>\n        <td> 20 gp  </td>\n        <td> 1d8/1d6 </td>\n        <td> \u00d73/\u00d74    </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Bludgeoning/Piercing </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Sword, two-bladed    </td>\n        <td> 100 gp </td>\n        <td> 1d8/1d8 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing             </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Urgrosh, dwarven     </td>\n        <td> 50 gp  </td>\n        <td> 1d8/1d6 </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing or piercing </td>\n        <td> Double</td>\n      </tr>\n    </tbody>\n  </table>\n</section>"}
+      data_blob={"Simple Melee Weapons": "<section>\n  <h3 id=\"simple-melee-weapons\">Simple Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Dagger      </td>\n        <td> 2 gp  </td>\n        <td> 1d4     </td>\n        <td> 19-20/\u00d72 </td>\n        <td> 10 ft. </td>\n        <td> .5  </td>\n        <td> Piercing or slashing     </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Mace, light </td>\n        <td> 5 gp  </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td>  \u2014     </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Club        </td>\n        <td>   \u2014   </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Mace, heavy </td>\n        <td> 12 gp </td>\n        <td> 1d8     </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Morningstar </td>\n        <td> 8 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td> Bludgeoning and piercing </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Shortspear  </td>\n        <td> 1 gp  </td>\n        <td> 1d6     </td>\n        <td> \u00d72       </td>\n        <td> 20 ft. </td>\n        <td> 1   </td>\n        <td> Piercing                 </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Longspear   </td>\n        <td> 5 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td> Piercing                 </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Quarterstaff</td>\n        <td>  \u2014    </td>\n        <td> 1d6/1d6 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td> Bludgeoning              </td>\n        <td> One-handed/Double Weapon</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Spear       </td>\n        <td> 2 gp  </td>\n        <td> 1d8     </td>\n        <td> \u00d73       </td>\n        <td> 20 ft. </td>\n        <td> 2   </td>\n        <td> Piercing                 </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Simple Ranged Weapons": "<section>\n  <h3 id=\"simple-ranged-weapons\">Simple Ranged Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Crossbow, heavy </td>\n        <td> 50 gp </td>\n        <td> 1d10     </td>\n        <td> 19-20/\u00d72        </td>\n        <td> 120 ft.</td>\n        <td> 3   </td>\n        <td> Piercing    </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Crossbow, light </td>\n        <td> 35 gp </td>\n        <td> 1d8      </td>\n        <td> 19-20/\u00d72        </td>\n        <td> 80 ft. </td>\n        <td> 2   </td>\n        <td> Piercing    </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Javelin         </td>\n        <td> 1 gp  </td>\n        <td> 1d6      </td>\n        <td> \u00d72              </td>\n        <td> 30 ft. </td>\n        <td> 1/4 </td>\n        <td> Piercing    </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sling           </td>\n        <td> \u2014     </td>\n        <td> 1d4      </td>\n        <td> \u00d72              </td>\n        <td> 50 ft. </td>\n        <td> 0   </td>\n        <td> Bludgeoning </td>\n        <td> One-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Melee Weapons": "<section>\n  <h3 id=\"martial-melee-weapons\">Martial Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Axe, throwing </td>\n        <td> 8 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1   </td>\n        <td>  Slashing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Hammer, light </td>\n        <td> 1 gp  </td>\n        <td> 1d4 </td>\n        <td> \u00d72       </td>\n        <td> 20 ft. </td>\n        <td> 1   </td>\n        <td>  Bludgeoning          </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Handaxe       </td>\n        <td> 6 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Slashing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sap           </td>\n        <td> 1 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Bludgeoning          </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Sword, short  </td>\n        <td> 10 gp </td>\n        <td> 1d6 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1   </td>\n        <td>  Piercing             </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Battleaxe     </td>\n        <td> 10 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Flail         </td>\n        <td> 8 gp  </td>\n        <td> 1d8 </td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Bludgeoning          </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Longsword     </td>\n        <td> 15 gp </td>\n        <td> 1d8 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Pick, heavy   </td>\n        <td> 8 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d74       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Rapier        </td>\n        <td> 20 gp </td>\n        <td> 1d6 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Cutlass       </td>\n        <td> 15 gp </td>\n        <td> 1d6 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Trident       </td>\n        <td> 15 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d72       </td>\n        <td> 10 ft. </td>\n        <td> 1.5 </td>\n        <td>  Piercing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Warhammer     </td>\n        <td> 12 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 1.5 </td>\n        <td>  Bludgeoning          </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Falchion      </td>\n        <td> 75 gp </td>\n        <td> 2d4 </td>\n        <td> 18-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Glaive        </td>\n        <td> 8 gp  </td>\n        <td> 1d10</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Greataxe      </td>\n        <td> 20 gp </td>\n        <td> 1d12</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Greatclub     </td>\n        <td> 5 gp  </td>\n        <td> 1d10</td>\n        <td> \u00d72       </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Bludgeoning          </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Flail, heavy  </td>\n        <td> 15 gp </td>\n        <td> 1d10</td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Bludgeoning          </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Greatsword    </td>\n        <td> 50 gp </td>\n        <td> 2d6 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014      </td>\n        <td> 2   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Guisarme      </td>\n        <td> 9 gp  </td>\n        <td> 2d4 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Slashing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Halberd       </td>\n        <td> 10 gp </td>\n        <td> 1d10</td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing or slashing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Lance         </td>\n        <td> 10 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Ranseur       </td>\n        <td> 10 gp </td>\n        <td> 2d4 </td>\n        <td> \u00d73       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing             </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Scythe        </td>\n        <td> 18 gp </td>\n        <td> 2d4 </td>\n        <td> \u00d74       </td>\n        <td> \u2014      </td>\n        <td> 3   </td>\n        <td>  Piercing or slashing </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Ranged Weapons": "<section>\n  <h3 id=\"martial-ranged-weapons\">Martial Ranged Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Longbow             </td>\n        <td> 75 gp  </td>\n        <td> 1d8 </td>\n        <td> \u00d73 </td>\n        <td> 100 ft. </td>\n        <td> 2 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Longbow, composite  </td>\n        <td> 100 gp </td>\n        <td> 1d8 </td>\n        <td> \u00d73 </td>\n        <td> 110 ft. </td>\n        <td> 2 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Shortbow            </td>\n        <td> 30 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73 </td>\n        <td> 60 ft.  </td>\n        <td> 1 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Shortbow, composite </td>\n        <td> 75 gp  </td>\n        <td> 1d6 </td>\n        <td> \u00d73 </td>\n        <td> 70 ft.  </td>\n        <td> 1 </td>\n        <td> Piercing </td>\n        <td> Two-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Exotic Melee Weapons": "<section>\n  <h3 id=\"exotic-melee-weapons\">Exotic Melee Weapons</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon </th>\n        <th> Cost </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range Increment </th>\n        <th> Slots </th>\n        <th> Damage Type </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Sword, bastard       </td>\n        <td> 35 gp  </td>\n        <td> 1d10    </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Waraxe, dwarven      </td>\n        <td> 30 gp  </td>\n        <td> 1d10    </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Whip                 </td>\n        <td> 1 gp   </td>\n        <td> 1d3     </td>\n        <td> \u00d72       </td>\n        <td> \u2014 </td>\n        <td> 1 </td>\n        <td> Slashing             </td>\n        <td> One-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Axe, orc double      </td>\n        <td> 60 gp  </td>\n        <td> 1d8/1d8 </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing             </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Flail, dire          </td>\n        <td> 90 gp  </td>\n        <td> 1d8/1d8 </td>\n        <td> \u00d72       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Bludgeoning          </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Hammer, gnome hooked </td>\n        <td> 20 gp  </td>\n        <td> 1d8/1d6 </td>\n        <td> \u00d73/\u00d74    </td>\n        <td> \u2014 </td>\n        <td> 2 </td>\n        <td> Bludgeoning/Piercing </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Sword, two-bladed    </td>\n        <td> 100 gp </td>\n        <td> 1d8/1d8 </td>\n        <td> 19-20/\u00d72 </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing             </td>\n        <td> Double</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Urgrosh, dwarven     </td>\n        <td> 50 gp  </td>\n        <td> 1d8/1d6 </td>\n        <td> \u00d73       </td>\n        <td> \u2014 </td>\n        <td> 3 </td>\n        <td> Slashing or piercing </td>\n        <td> Double</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Light Armor": "<section>\n  <h3 id=\"light-armor\">Light Armor</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price </th>\n        <th> Armor Bonus </th>\n        <th> Max. Dex. Bonus </th>\n        <th> Armor Check Penalty </th>\n        <th> Speed </th>\n        <th> Slots</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Padded Armor    </td>\n        <td> 5gp  </td>\n        <td>        +1   </td>\n        <td> unlimited       </td>\n        <td>   0                 </td>\n        <td> x1     </td>\n        <td> 0</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Leather         </td>\n        <td> 25gp </td>\n        <td>        +2   </td>\n        <td>    +6           </td>\n        <td>   0                 </td>\n        <td> x1     </td>\n        <td> 1</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Studded Leather </td>\n        <td> 50gp </td>\n        <td>        +3   </td>\n        <td>    +5           </td>\n        <td>   -1                </td>\n        <td> x1     </td>\n        <td> 2</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Chain Shirt     </td>\n        <td> 250gp</td>\n        <td>        +4   </td>\n        <td>    +4           </td>\n        <td>   -3                </td>\n        <td> x1     </td>\n        <td> 2</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Medium Armor": "<section>\n  <h3 id=\"medium-armor\">Medium Armor</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price </th>\n        <th> Armor Bonus </th>\n        <th> Max. Dex. Bonus </th>\n        <th> Armor Check Penalty </th>\n        <th> Speed </th>\n        <th> Slots</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Hide            </td>\n        <td> 15gp </td>\n        <td>        +4   </td>\n        <td>     +4          </td>\n        <td>       -3            </td>\n        <td> x2/3  </td>\n        <td>  2</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Scale mail      </td>\n        <td> 50gp </td>\n        <td>        +4   </td>\n        <td>     +3          </td>\n        <td>       -4            </td>\n        <td> x2/3  </td>\n        <td>  2</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Chain mail      </td>\n        <td>150gp </td>\n        <td>        +5   </td>\n        <td>     +2          </td>\n        <td>       -5            </td>\n        <td> x2/3  </td>\n        <td>  3</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Breastplate     </td>\n        <td>400gp </td>\n        <td>        +5   </td>\n        <td>     +3          </td>\n        <td>       -4            </td>\n        <td> x2/3  </td>\n        <td>  3</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Heavy Armor": "<section>\n  <h3 id=\"heavy-armor\">Heavy Armor</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price </th>\n        <th> Armor Bonus </th>\n        <th> Max. Dex. Bonus </th>\n        <th> Armor Check Penalty </th>\n        <th> Speed </th>\n        <th> Slots</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Splint mail     </td>\n        <td>250gp </td>\n        <td>       +6    </td>\n        <td>     +1          </td>\n        <td>       -7            </td>\n        <td> x2/3  </td>\n        <td>  4</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Half plate      </td>\n        <td>600gp </td>\n        <td>       +7    </td>\n        <td>     +1          </td>\n        <td>       -7            </td>\n        <td> x2/3  </td>\n        <td>  4</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Full plate      </td>\n        <td>1500gp</td>\n        <td>       +8    </td>\n        <td>     +1          </td>\n        <td>       -7            </td>\n        <td> x2/3  </td>\n        <td>  5</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Shields": "<section>\n  <h3 id=\"shields\">Shields</h3>\n  <table>\n    <thead>\n      <tr class=\"table_header\">\n        <th>Shield        </th>\n        <th> Price </th>\n        <th> Shield Bonus </th>\n        <th> Armor Check Penalty </th>\n        <th> Slots</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Buckler       </td>\n        <td> 15gp </td>\n        <td> +1 vs melee  </td>\n        <td>    -0               </td>\n        <td>  0</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Wooden Shield </td>\n        <td> 10gp </td>\n        <td> +1           </td>\n        <td>    -1               </td>\n        <td>  1</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Metal Shield  </td>\n        <td> 25gp </td>\n        <td> +2           </td>\n        <td>    -2               </td>\n        <td>  2</td>\n      </tr>\n    </tbody>\n  </table>\n</section>"}
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   </head>
@@ -485,6 +490,8 @@
             <li><a href="#spells4">Spells</a><ul>
               <li><a href="#wild-shape---black-bear">Wild Shape - Black Bear</a></li>
             </ul></li>
+            <li><a href="#turn-sequence">Turn Sequence</a></li>
+            <li><a href="#movement">Movement</a></li>
           </ul>
           <hr>
         </nav>
@@ -5752,7 +5759,7 @@
               </p>
             </div>
             <section>
-              <h4 id="alchemical-knowledge">Alchemical Knowledge</h4>
+              <h4 id="alchemical-tasks">Alchemical Tasks</h4>
               <table>
                 <thead>
                   <tr class="table_header">
@@ -5789,220 +5796,13 @@
               </table>
             </section>
             <section>
-              <h4 id="brew-potion">Brew Potion</h4>
-              <div>
-                
-                <p>
-                  During downtime, you can brew potions. Brewing a potion takes XXX units of time and some amount of
-                  gold or unique material.
-                </p>
-                <p>
-                  All alchemists know how to brew potions of healing. To brew other potions, they need to learn the
-                  formula for it. Formulas can be learned from other alchemists, found written down or
-                  reverse-engineered from potions. However, some potions require materials so rare that they are
-                  essentially uncraftable from raw materials. Those are not listed here.
-                </p>
-                <p>
-                  Consult the table below.
-                </p>
-              </div>
-              <section>
-                <h5 id="brewing-table">Brewing Table</h5>
-                <table>
-                  <thead>
-                    <tr class="table_header">
-                      <th>Potion                                  </th>
-                      <th> Required Alchemy Ranks </th>
-                      <th> Material Cost</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="odd">
-                      <td>Oil of Acid Resistance                  </td>
-                      <td> 3                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Oil of Elemental Invulnerability        </td>
-                      <td> 10                     </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Oil of Fiery Burning                    </td>
-                      <td> 4                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Oil of Impact                           </td>
-                      <td> 8                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Oil of Slipperiness                     </td>
-                      <td> 4                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Oil of Timelessness                     </td>
-                      <td> 8                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Philter of Glibness                     </td>
-                      <td> 7                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Philter of Love                         </td>
-                      <td> 3                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Philter of Persuasiveness               </td>
-                      <td> 5                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Philter of Stammering and Stuttering    </td>
-                      <td> 5                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Heroism                       </td>
-                      <td> 6                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Invisibility                  </td>
-                      <td> 6                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Invulnerability               </td>
-                      <td> 8                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Levitation                    </td>
-                      <td> 7                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Poison                        </td>
-                      <td> 1                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Rainbow Hues                  </td>
-                      <td> 4                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Speed                         </td>
-                      <td> 7                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Super-Heroism                 </td>
-                      <td> 10                     </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Ventriloquism                 </td>
-                      <td> 3                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Vitality                      </td>
-                      <td> 7                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Water Breathing               </td>
-                      <td> 6                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Syrup of Sweet Water                    </td>
-                      <td> 5                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Elixir of Health                        </td>
-                      <td> 7                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Elixir of Madness                       </td>
-                      <td> 6                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Elixir of Youth                         </td>
-                      <td> 10                     </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Climbing                      </td>
-                      <td> 2                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Diminution                    </td>
-                      <td> 3                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Extra Healing                 </td>
-                      <td> 5                      </td>
-                      <td> 50gp</td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Fire Breath                   </td>
-                      <td> 4                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Fire Resistance               </td>
-                      <td> 5                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Gaseous Form                  </td>
-                      <td> 6                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Giant Strength                </td>
-                      <td> 6                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Growth                        </td>
-                      <td> 3                      </td>
-                      <td></td>
-                    </tr>
-                    <tr class="even">
-                      <td>Potion of Healing                       </td>
-                      <td> 1                      </td>
-                      <td> 15gp</td>
-                    </tr>
-                    <tr class="odd">
-                      <td>Potion of Jumping                       </td>
-                      <td> 2                      </td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </section>
-            </section>
-            <section>
               <h4 id="craft-alchemical-good">Craft Alchemical Good</h4>
               <div>
                 
                 <p>
-                  Alchemists can also craft gunpowder goods, vials of acid, etc. The only requirement is sufficient
-                  ranks in alchemy. In addition to those on the table, alchemists can create gunpowder for gunpowder
+                  Alchemists can craft gunpowder goods, vials of acid, etc. during downtime.
+                  The only requirement is sufficient ranks in alchemy.
+                  In addition to those on the table, alchemists can create gunpowder for gunpowder
                   weapons such as cannons.
                 </p>
               </div>
@@ -6051,6 +5851,214 @@
                       <td>Tanglefoot bag            </td>
                       <td>   4                    </td>
                       <td> 30gp</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </section>
+            <section>
+              <h4 id="brew-potion">Brew Potion</h4>
+              <div>
+                
+                <p>
+                  During downtime, you can brew potions. Brewing a potion takes XXX units of time and some amount of
+                  gold or unique material.
+                </p>
+                <p>
+                  All alchemists know how to brew potions of healing. To brew other potions, they need to learn the
+                  formula for it. Formulas can be learned from other alchemists, found written down or
+                  reverse-engineered from potions. However, some potions require materials so rare that they are
+                  essentially uncraftable from raw materials. Those are not listed here.
+                </p>
+                <p>
+                  Consult the table below.
+                </p>
+              </div>
+              <section>
+                <h5 id="brewing-table">Brewing Table</h5>
+                <table>
+                  <thead>
+                    <tr class="table_header">
+                      <th>Potion                                  </th>
+                      <th> Required Alchemy Ranks </th>
+                      <th> Material Cost</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Oil of Acid Resistance                  </td>
+                      <td> 3                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Oil of Elemental Invulnerability        </td>
+                      <td> 10                     </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Oil of Fiery Burning                    </td>
+                      <td> 4                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Oil of Impact                           </td>
+                      <td> 8                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Oil of Slipperiness                     </td>
+                      <td> 4                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Oil of Timelessness                     </td>
+                      <td> 8                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Philter of Glibness                     </td>
+                      <td> 7                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Philter of Love                         </td>
+                      <td> 3                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Philter of Persuasiveness               </td>
+                      <td> 5                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Philter of Stammering and Stuttering    </td>
+                      <td> 5                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Heroism                       </td>
+                      <td> 6                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Invisibility                  </td>
+                      <td> 6                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Invulnerability               </td>
+                      <td> 8                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Levitation                    </td>
+                      <td> 7                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Poison                        </td>
+                      <td> 1                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Rainbow Hues                  </td>
+                      <td> 4                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Speed                         </td>
+                      <td> 7                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Super-Heroism                 </td>
+                      <td> 10                     </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Ventriloquism                 </td>
+                      <td> 3                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Vitality                      </td>
+                      <td> 7                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Water Breathing               </td>
+                      <td> 6                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Syrup of Sweet Water                    </td>
+                      <td> 5                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Elixir of Health                        </td>
+                      <td> 7                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Elixir of Madness                       </td>
+                      <td> 6                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Elixir of Youth                         </td>
+                      <td> 10                     </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Climbing                      </td>
+                      <td> 2                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Diminution                    </td>
+                      <td> 3                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Extra Healing                 </td>
+                      <td> 5                      </td>
+                      <td> 50gp</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Fire Breath                   </td>
+                      <td> 4                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Fire Resistance               </td>
+                      <td> 5                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Gaseous Form                  </td>
+                      <td> 6                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Giant Strength                </td>
+                      <td> 6                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Growth                        </td>
+                      <td> 3                      </td>
+                      <td> XXX</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Potion of Healing                       </td>
+                      <td> 1                      </td>
+                      <td> 15gp</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potion of Jumping                       </td>
+                      <td> 2                      </td>
+                      <td> XXX</td>
                     </tr>
                   </tbody>
                 </table>
@@ -11006,6 +11014,7 @@
           <h2 id="equipment">Equipment</h2>
           TODO
           
+          
         </section>
         <section class="chapter">
           <h2 id="experience">Experience</h2>
@@ -11482,6 +11491,35 @@
               </table>
             </section>
           </section>
+        </section>
+        <section class="rules">
+          <h2 id="turn-sequence">Turn Sequence</h2>
+          <div>
+            
+            <p>
+              The order of play is as such.
+            </p>
+          </div>
+          <div>
+            
+            <ol>
+              <li> Each side writes orders showing direction and length of move, firing orders including target and aim (high or low). Character actions (if any) are decided upon.</li>
+              <li> Movement is simultaneous and at its end firing and damage are determined. Morale is checked if warranted.</li>
+              <li> Boarding operations, if any, are conducted</li>
+            </ol>
+          </div>
+          <div>
+            
+            <p>
+              Each turn of play corresponds to approximately 5 minutes.
+            </p>
+            <p>
+              One square on the grid corresponds to 100 yards.
+            </p>
+          </div>
+        </section>
+        <section class="rules">
+          <h2 id="movement">Movement</h2>
         </section>
         
       </div>

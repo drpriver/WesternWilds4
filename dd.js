@@ -1,6 +1,7 @@
 "use strict"
 let rules;
 let weapons;
+let armor;
 function onload(){
     {
     const chapters = document.getElementsByClassName("chapter");
@@ -13,16 +14,18 @@ function onload(){
     {
     rules = document.getElementsByClassName("center")[0];
     }
-    {
-    const keys = ["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons"];
-    const d = document.createElement("div");
-    d.className = "center";
-    for(let key of keys){
-        const weapon_table = data_blob[key];
-        d.innerHTML += weapon_table;
+
+    function make_table_view(keys){
+        const d = document.createElement("div");
+        d.className = "center";
+        for(let key of keys){
+            const table = data_blob[key];
+            d.innerHTML += table;
+        }
+        return d;
     }
-    weapons = d;
-    }
+    weapons = make_table_view(["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons"]);
+    armor = make_table_view(["Light Armor", "Medium Armor", "Heavy Armor", "Shields"])
     function restorify(el){
         const links = el.getElementsByTagName("a");
         function restore(){
@@ -35,10 +38,11 @@ function onload(){
     restorify(document);
     restorify(weapons);
     {
-    const button_names = ["Rules", "Weapon Table"];
+    const button_names = ["Rules", "Weapon Table", "Armor Table"];
     const button_funcs = [
         function(){document.getElementsByClassName("center")[0].replaceWith(rules);},
         function(){document.getElementsByClassName("center")[0].replaceWith(weapons);},
+        function(){document.getElementsByClassName("center")[0].replaceWith(armor);},
     ];
     const top = document.getElementsByClassName("top")[0];
     for(let i = 0; i < button_names.length;i++){
@@ -49,5 +53,5 @@ function onload(){
     }
     }
 }
-//document.addEventListener("DOMContentLoaded", onload)
+document.addEventListener("DOMContentLoaded", onload)
 

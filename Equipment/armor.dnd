@@ -1,0 +1,32 @@
+  ::data
+    Light Armor::table
+      ::head
+        Armor           | Price | Armor Bonus | Max. Dex. Bonus | Armor Check Penalty | Speed | Slots
+      ::row
+        Padded Armor    | 5gp  |        +1   | unlimited       |   0                 | x1     | 0
+        Leather         | 25gp |        +2   |    +6           |   0                 | x1     | 1
+        Studded Leather | 50gp |        +3   |    +5           |   -1                | x1     | 2
+        Chain Shirt     | 250gp|        +4   |    +4           |   -3                | x1     | 2
+    Medium Armor::table
+      ::head
+        Armor           | Price | Armor Bonus | Max. Dex. Bonus | Armor Check Penalty | Speed | Slots
+      ::row
+        Hide            | 15gp |        +4   |     +4          |       -3            | x2/3  |  2
+        Scale mail      | 50gp |        +4   |     +3          |       -4            | x2/3  |  2
+        Chain mail      |150gp |        +5   |     +2          |       -5            | x2/3  |  3
+        Breastplate     |400gp |        +5   |     +3          |       -4            | x2/3  |  3
+    Heavy Armor::table
+      ::head
+        Armor           | Price | Armor Bonus | Max. Dex. Bonus | Armor Check Penalty | Speed | Slots
+      ::row
+        Splint mail     |250gp |       +6    |     +1          |       -7            | x2/3  |  4
+        Half plate      |600gp |       +7    |     +1          |       -7            | x2/3  |  4
+        Full plate      |1500gp|       +8    |     +1          |       -7            | x2/3  |  5
+
+    Shields::table
+      ::head
+        Shield        | Price | Shield Bonus | Armor Check Penalty | Slots
+      ::row
+        Buckler       | 15gp | +1 vs melee  |    -0               |  0
+        Wooden Shield | 10gp | +1           |    -1               |  1
+        Metal Shield  | 25gp | +2           |    -2               |  2

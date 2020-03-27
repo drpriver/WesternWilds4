@@ -71,6 +71,7 @@ SKILLS=skills.dnd\
 
 EQUIPMENT=equipment.dnd\
 	  weapons.dnd\
+	  armor.dnd\
 
 ALL=basics.dnd\
     $(addprefix Races/,$(RACES))\
