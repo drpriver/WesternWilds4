@@ -74,3 +74,27 @@
         Arrows (20)             | 1gp  | 1
 
   Weapons::section
+    Weapon Proficiency::text
+      Characters can only use weapons they are proficient with. They attack ineffectively with other weapons.
+
+    Weapon Size::section
+      ::text
+        Each weapon has a size which is the size of creature it is designed for. 
+        The damage entries in the weapon table are for medium creatures. 
+        For unusual sizes, use the table below
+      ::table
+        ::head
+          Example Weapon | Tiny | Small | Medium | Large | Huge | Gargantuan | Colossal
+        ::row
+          Dagger         | 1d2  | 1d3   | 1d4    | 1d6   | 1d8  | 2d6        | 3d6
+          Shortspear     | 1d3  | 1d4   | 1d6    | 1d8   | 2d6  | 3d6        | 4d6
+          Falchion       | 1d4  | 1d6   | 2d4    | 2d6   | 3d6  | 4d6        | 6d6
+          Longsword      | 1d4  | 1d6   | 1d8    | 2d6   | 3d6  | 4d6        | 6d6
+          Bastard Sword  | 1d6  | 1d8   | 1d10   | 2d8   | 3d8  | 4d8        | 6d8
+          Greataxe       | 1d8  | 1d10  | 1d12   | 3d6   | 4d6  | 6d6        | 8d6
+
+    Range Increment::text
+      Any attack at less than this distance is not penalized for range. 
+      However, each full range increment imposes a cumulative -2 penalty on the attack roll. 
+      A thrown weapon has a maximum range of five range increments. 
+      A projectile weapon can shoot out to ten range increments.
