@@ -6,7 +6,6 @@ CLASSES=classes.dnd\
 	druid.dnd\
 	fighter.dnd\
 	monk.dnd\
-	paladin.dnd\
 	ranger.dnd\
 	sorcerer.dnd\
 	thief.dnd\
