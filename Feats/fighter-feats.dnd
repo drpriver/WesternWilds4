@@ -89,6 +89,7 @@
         (except with unarmed strikes or natural weapon attacks). 
 
         You can't use Power Attack and Combat Expertise in the same round.
+
     Combat Expertise::section.feat
       Effect::text
         On your action, before making attack rolls for a round, you may choose to subtract a number from all melee weapon attack rolls and add the same number to your AC. The penalty on attacks and bonus on AC apply until the start of your next turn.

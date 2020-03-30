@@ -100,39 +100,22 @@
           Condition | Survival DC Modifier
         ::row
           Every three creatures in the group being tracked | -1
-        ::row
           Creature is size Fine   | +8
-        ::row
           Creature is size Diminutive   | +4
-        ::row
           Creature is size Tiny   | +2
-        ::row
           Creature is size Small  | +1
-        ::row
           Creature is size Medium   | 0
-        ::row
           Creature is size Large  | -1
-        ::row
           Creature is size Huge  |  -2
-        ::row
           Creature is size Gargantuan   | -4
-        ::row
           Creature is size Colossal   | -8
-        ::row
           Every 24 hours since the trail was made  | +1
-        ::row
           Every hour of rain since the trail was made  | +1
-        ::row
           Fresh snow cover since the trail was made  | +10
-        ::row
           Poor visibility | +2
-        ::row
           Overcast or moonless night   | +6
-        ::row
           Moonlight  | +3
-        ::row
           Fog or precipitation   | +3
-        ::row
           Tracked party hides trail (and moves at half speed)  | +5
       ::text
         For a group of creatures, use the size modifier of the largest creature in the group.
@@ -176,7 +159,7 @@
       A ranger of 4th level or higher may select from alternative lists of animals. Should he select an animal companion from one of these alternative lists, the creature gains abilities as if the character’s ranger level were lower than it actually is. Subtract the value indicated in the appropriate list header from the character’s ranger level and compare the result with the ranger level entry on the table to determine the animal companion’s powers. (If this adjustment would reduce the ranger’s effective level to 0 or lower, he can’t have that animal as a companion.)
 
     Combat Style::text
-      A ranger is selected as having the [Rapid Shot] and [Two-Weapon Style] feats, even if he does not have the normal prerequisites for that feat. He loses these benefits when wearing medium or heavy armor.
+      A ranger is selected as having the Precise Shot and Two Weapon Fighting feats, even if he does not have the normal prerequisites for that feat. He loses these benefits when wearing medium or heavy armor.
 
     Hide In Shadows::text
       At 3rd level, the ranger is able to blend into shadows and darkness to make himself nearly invisible. This functions similarily to the thief ability. He cannot use it while wearing medium or heavy armor.
@@ -191,7 +174,7 @@
       At 4th and 8th level, the ranger may select an extra ranger feat. He must still meet the prerequisites.
 
     Improved Combat Style::text
-      At 6th level, a ranger’s aptitude combat style improves.  He gains the [Manyshot] and [Improved Two-weapon Fighting feat], even if he does not have the normal prerequisites for that feat.
+      At 6th level, a ranger’s aptitude combat style improves.  He gains the [Manyshot] and [Improved Two Weapon Fighting] feat, even if he does not have the normal prerequisites for that feat.
       He loses these benefits if he wears medium or heavy armor.
 
     Evasion::text
