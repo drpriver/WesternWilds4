@@ -1,0 +1,20 @@
+
+    Halberd::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d10
+          Damage (S): | 1d8
+          Critical:   | x3
+          Range Inc:  | -
+          Slots:      | 3
+          Damage Type:| Slashing
+          Hands:      | 2-handed
+          Reach:      | 10'
+      ::text
+        A halberd has reach. You can strike opponents 10 feet away with it, but you can’t use it against an adjacent foe.
+
+        You can use a halberd to make trip attacks. If you are tripped during your own trip attempt, you can drop the halberd to avoid being tripped.
+
+

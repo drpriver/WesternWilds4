@@ -1,0 +1,17 @@
+    Dagger::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d4
+          Damage (S): | 1d3
+          Critical:   | 19-20/x2
+          Range Inc:  | 10'
+          Slots:      | 0.5
+          Damage Type:| Piercing or Slashing
+          Hands:      | Light
+          Reach:      | 5'
+      ::text
+        Daggers may be thrown.
+
+        Daggers are much easier to conceal than other weapons. You get +2 to conceal a dagger.

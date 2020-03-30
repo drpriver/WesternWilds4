@@ -1,0 +1,16 @@
+
+    Sap::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d6
+          Damage (S): | 1d4
+          Critical:   | x2
+          Range Inc:  | - 
+          Slots:      | 1
+          Damage Type:| Bludgeoning
+          Hands:      | Light
+          Reach:      | 5'
+      ::text
+        A sap deals nonlethal damage.

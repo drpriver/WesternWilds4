@@ -1,0 +1,14 @@
+
+    Greatclub::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d10
+          Damage (S): | 1d8
+          Critical:   | x2
+          Range Inc:  | -
+          Slots:      | 2
+          Damage Type:| Bludgeoning
+          Hands:      | 2-handed
+          Reach:      | 5'

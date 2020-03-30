@@ -1,0 +1,14 @@
+
+    Longsword::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d8
+          Damage (S): | 1d6
+          Critical:   | 19-20/x2
+          Range Inc:  | -
+          Slots:      | 1.5
+          Damage Type:| Slashing
+          Hands:      | 1-handed
+          Reach:      | 5'

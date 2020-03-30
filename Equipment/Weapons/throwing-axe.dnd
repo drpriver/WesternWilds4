@@ -1,0 +1,16 @@
+
+    Throwing Axe::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d6
+          Damage (S): | 1d4
+          Critical:   | x2
+          Range Inc:  | 10'
+          Slots:      | 1
+          Damage Type:| Slashing
+          Hands:      | Light
+          Reach:      | 5'
+      ::text
+        Throwing axes can be thrown.

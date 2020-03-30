@@ -352,6 +352,20 @@
           width: auto;
           text-align:center;
       }
+      table.weapon_stats thead{
+          display:none
+      }
+      
+      table.weapon_stats, table.weapon_stats *{
+          border:none;
+      }
+      table.weapon_stats .even {
+          background-color: rgb(205,200,184);
+      }
+      table.weapon_stats tr td:nth-child(1){
+          text-align:right;
+      }
+      
     </style>
     <script>
       "use strict"
@@ -413,7 +427,7 @@
       
     </script>
     <script>
-      data_blob={"Simple Melee Weapons": "<section>\n  <h3 id=\"simple-melee-weapons\">Simple Melee Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon      </th>\n        <th> Cost  </th>\n        <th> Dmg </th>\n        <th> Critical     </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Dagger      </td>\n        <td> 2\u00a0gp  </td>\n        <td> 1d4 </td>\n        <td> 19\u201120/x2 </td>\n        <td> 10'       </td>\n        <td>  .5   </td>\n        <td> P/S   </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Club        </td>\n        <td>   \u2014   </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> 10'       </td>\n        <td>  1    </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Mace        </td>\n        <td> 12\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td>  1.5  </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Morningstar </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td>  1.5  </td>\n        <td> B&P   </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Shortspear  </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> 20'       </td>\n        <td>  1    </td>\n        <td> P     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Longspear   </td>\n        <td> 5\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td>  2    </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Quarterstaff</td>\n        <td>  \u2014    </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td>  1    </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Spear       </td>\n        <td> 2\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> 20'       </td>\n        <td>  2    </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Simple Ranged Weapons": "<section>\n  <h3 id=\"simple-ranged-weapons\">Simple Ranged Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon          </th>\n        <th> Cost  </th>\n        <th> Dmg  </th>\n        <th> Critical     </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Heavy\u00a0crosssbow </td>\n        <td> 50\u00a0gp </td>\n        <td> 1d10 </td>\n        <td> 19\u201120/x2 </td>\n        <td> 120'      </td>\n        <td> 3     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Light\u00a0crossbow  </td>\n        <td> 35\u00a0gp </td>\n        <td> 1d8  </td>\n        <td> 19\u201120/x2 </td>\n        <td> 80'       </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Javelin         </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d6  </td>\n        <td> x2       </td>\n        <td> 30'       </td>\n        <td> 1/4   </td>\n        <td> P     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sling           </td>\n        <td> \u2014     </td>\n        <td> 1d4  </td>\n        <td> x2       </td>\n        <td> 50'       </td>\n        <td> 0     </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Melee Weapons": "<section>\n  <h3 id=\"martial-melee-weapons\">Martial Melee Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon        </th>\n        <th> Cost  </th>\n        <th> Dmg </th>\n        <th> Critical     </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Throwing\u00a0Axe  </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> 10'       </td>\n        <td> 1     </td>\n        <td>  S    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Handaxe       </td>\n        <td> 6\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 1     </td>\n        <td>  S    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Sap           </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td> 1     </td>\n        <td>  B    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Shortsword    </td>\n        <td> 10\u00a0gp </td>\n        <td> 1d6 </td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1     </td>\n        <td>  P    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Battleaxe     </td>\n        <td> 10\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  S    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Flail         </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  B    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Longsword     </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  S    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Heavy\u00a0Pick    </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x4       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  P    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Rapier        </td>\n        <td> 20\u00a0gp </td>\n        <td> 1d6 </td>\n        <td> 18\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  P    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Cutlass       </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d6 </td>\n        <td> 18\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  S    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Trident       </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> 10'       </td>\n        <td> 1.5   </td>\n        <td>  P    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Warhammer     </td>\n        <td> 12\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  B    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Falchion      </td>\n        <td> 75\u00a0gp </td>\n        <td> 2d4 </td>\n        <td> 18\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Glaive        </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d10</td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Greataxe      </td>\n        <td> 20\u00a0gp </td>\n        <td> 1d12</td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Greatclub     </td>\n        <td> 5\u00a0gp  </td>\n        <td> 1d10</td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  B    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Heavy\u00a0Flail   </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d10</td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  B    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Greatsword    </td>\n        <td> 50\u00a0gp </td>\n        <td> 2d6 </td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Guisarme      </td>\n        <td> 9\u00a0gp  </td>\n        <td> 2d4 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 3     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Halberd       </td>\n        <td> 10\u00a0gp </td>\n        <td> 1d10</td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 3     </td>\n        <td>  P/S  </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Lance         </td>\n        <td> 10\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 3     </td>\n        <td>  P    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Ranseur       </td>\n        <td> 10\u00a0gp </td>\n        <td> 2d4 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 3     </td>\n        <td>  P    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Scythe        </td>\n        <td> 18\u00a0gp </td>\n        <td> 2d4 </td>\n        <td> x4       </td>\n        <td> \u2014         </td>\n        <td> 3     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Ranged Weapons": "<section>\n  <h3 id=\"martial-ranged-weapons\">Martial Ranged Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon             </th>\n        <th> Cost   </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Longbow            </td>\n        <td> 75\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x3   </td>\n        <td> 100'      </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Composite\u00a0Longbow  </td>\n        <td> 100\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x3   </td>\n        <td> 110'      </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Shortbow           </td>\n        <td> 30\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x3   </td>\n        <td> 60'       </td>\n        <td> 1     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Composite\u00a0Shortbow </td>\n        <td> 75\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x3   </td>\n        <td> 70'       </td>\n        <td> 1     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Musket             </td>\n        <td> 500\u00a0gp </td>\n        <td> 1d12</td>\n        <td> x3   </td>\n        <td> 150'      </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Pistol             </td>\n        <td> 250\u00a0gp </td>\n        <td> 1d10</td>\n        <td> x3   </td>\n        <td> 50'       </td>\n        <td> 1     </td>\n        <td> P     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Exotic Melee Weapons": "<section>\n  <h3 id=\"exotic-melee-weapons\">Exotic Melee Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon         </th>\n        <th> Cost  </th>\n        <th> Dmg  </th>\n        <th> Critical     </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Bastard\u00a0Sword  </td>\n        <td> 35\u00a0gp </td>\n        <td> 1d10 </td>\n        <td> 19\u201120/x2 </td>\n        <td>  \u2014        </td>\n        <td> 2     </td>\n        <td> S     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Dwarven\u00a0Waraxe </td>\n        <td> 30\u00a0gp </td>\n        <td> 1d10 </td>\n        <td> x3       </td>\n        <td>  \u2014        </td>\n        <td> 2     </td>\n        <td> S     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Whip           </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d3  </td>\n        <td> x2       </td>\n        <td>  \u2014        </td>\n        <td> 1     </td>\n        <td> S     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Harpoon        </td>\n        <td> 5gp   </td>\n        <td> 1d8  </td>\n        <td> x3       </td>\n        <td> 20'       </td>\n        <td> 1     </td>\n        <td> P     </td>\n        <td> 1-handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Light Armor": "<section>\n  <h3 id=\"light-armor\">Light Armor</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price </th>\n        <th> AC </th>\n        <th> Max\u00a0Dex </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Speed </th>\n        <th> Slots </th>\n        <th> Drown</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Padded\u00a0Armor    </td>\n        <td> 5gp   </td>\n        <td> +1 </td>\n        <td> \u221e       </td>\n        <td>   0           </td>\n        <td> x1    </td>\n        <td> 0     </td>\n        <td> No</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Leather         </td>\n        <td> 25gp  </td>\n        <td> +2 </td>\n        <td>    +6   </td>\n        <td>   0           </td>\n        <td> x1    </td>\n        <td> 1     </td>\n        <td> Maybe</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Studded\u00a0Leather </td>\n        <td> 50gp  </td>\n        <td> +3 </td>\n        <td>    +5   </td>\n        <td>   -1          </td>\n        <td> x1    </td>\n        <td> 2     </td>\n        <td> Maybe</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Chain Shirt     </td>\n        <td> 250gp </td>\n        <td> +4 </td>\n        <td>    +4   </td>\n        <td>   -3          </td>\n        <td> x1    </td>\n        <td> 2     </td>\n        <td> Probably</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Medium Armor": "<section>\n  <h3 id=\"medium-armor\">Medium Armor</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price </th>\n        <th> AC </th>\n        <th> Max\u00a0Dex </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Speed </th>\n        <th> Slots </th>\n        <th> Drown</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Hide            </td>\n        <td>  15gp </td>\n        <td> +4 </td>\n        <td>     +4  </td>\n        <td>       -3      </td>\n        <td>  x\u2154    </td>\n        <td>  2 </td>\n        <td> Maybe</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Scale\u00a0mail      </td>\n        <td>  50gp </td>\n        <td> +4 </td>\n        <td>     +3  </td>\n        <td>       -4      </td>\n        <td>  x\u2154    </td>\n        <td>  2 </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Chain\u00a0mail      </td>\n        <td> 150gp </td>\n        <td> +5 </td>\n        <td>     +2  </td>\n        <td>       -5      </td>\n        <td>  x\u2154    </td>\n        <td>  3 </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Breastplate     </td>\n        <td> 400gp </td>\n        <td> +5 </td>\n        <td>     +3  </td>\n        <td>       -4      </td>\n        <td>  x\u2154    </td>\n        <td>  3 </td>\n        <td> Yes</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Heavy Armor": "<section>\n  <h3 id=\"heavy-armor\">Heavy Armor</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price</th>\n        <th> AC </th>\n        <th> Max\u00a0Dex </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Speed </th>\n        <th> Slots </th>\n        <th> Drown</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Splint\u00a0mail     </td>\n        <td>250gp </td>\n        <td> +6 </td>\n        <td> +1      </td>\n        <td>       -7      </td>\n        <td> x\u2154    </td>\n        <td>  4    </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Half\u00a0plate      </td>\n        <td>600gp </td>\n        <td> +7 </td>\n        <td> +1      </td>\n        <td>       -7      </td>\n        <td> x\u2154    </td>\n        <td>  4    </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Full\u00a0plate      </td>\n        <td>1500gp</td>\n        <td> +8 </td>\n        <td> +1      </td>\n        <td>       -7      </td>\n        <td> x\u2154    </td>\n        <td>  5    </td>\n        <td> Yes</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Shields": "<section>\n  <h3 id=\"shields\">Shields</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Shield        </th>\n        <th> Price </th>\n        <th> AC           </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Slots</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Buckler       </td>\n        <td> 15gp  </td>\n        <td> +1\u00a0vs\u00a0melee  </td>\n        <td>    -0         </td>\n        <td>  0</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Wooden\u00a0Shield </td>\n        <td> 10gp  </td>\n        <td> +1           </td>\n        <td>    -1         </td>\n        <td>  1</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Metal\u00a0Shield  </td>\n        <td> 25gp  </td>\n        <td> +2           </td>\n        <td>    -2         </td>\n        <td>  2</td>\n      </tr>\n    </tbody>\n  </table>\n</section>"}
+      data_blob={"Simple Melee Weapons": "<section>\n  <h3 id=\"simple-melee-weapons\">Simple Melee Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon      </th>\n        <th> Cost  </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td><a href=\"#dagger\">Dagger</a>      </td>\n        <td> 2\u00a0gp  </td>\n        <td> 1d4 </td>\n        <td> 19\u201120/x2 </td>\n        <td> 10'       </td>\n        <td>  .5   </td>\n        <td> P/S   </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#club\">Club</a>        </td>\n        <td>   \u2014   </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> 10'       </td>\n        <td>  1    </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#mace\">Mace</a>        </td>\n        <td> 12\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td>  1.5  </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#morningstar\">Morningstar</a> </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td>  1.5  </td>\n        <td> B&P   </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#shortspear\">Shortspear</a>  </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> 20'       </td>\n        <td>  1    </td>\n        <td> P     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#quarterstaff\">Quarterstaff</a></td>\n        <td>  \u2014    </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td>  1    </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#longspear\">Longspear</a>   </td>\n        <td> 5\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td>  2    </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#spear\">Spear</a>       </td>\n        <td> 2\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> 20'       </td>\n        <td>  2    </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Simple Ranged Weapons": "<section>\n  <h3 id=\"simple-ranged-weapons\">Simple Ranged Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon          </th>\n        <th> Cost  </th>\n        <th> Dmg  </th>\n        <th> Critical </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td><a href=\"#heavy-crossbow\">Heavy\u00a0crossbow</a> </td>\n        <td> 50\u00a0gp </td>\n        <td> 1d10 </td>\n        <td> 19\u201120/x2 </td>\n        <td> 120'      </td>\n        <td> 3     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#light-crossbow\">Light\u00a0crossbow</a>  </td>\n        <td> 35\u00a0gp </td>\n        <td> 1d8  </td>\n        <td> 19\u201120/x2 </td>\n        <td> 80'       </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#javelin\">Javelin</a>         </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d6  </td>\n        <td> x2       </td>\n        <td> 30'       </td>\n        <td> 1/4   </td>\n        <td> P     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#sling\">Sling</a>           </td>\n        <td> \u2014     </td>\n        <td> 1d4  </td>\n        <td> x2       </td>\n        <td> 50'       </td>\n        <td> 0     </td>\n        <td> B     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Melee Weapons": "<section>\n  <h3 id=\"martial-melee-weapons\">Martial Melee Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon        </th>\n        <th> Cost  </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td><a href=\"#handaxe\">Handaxe</a>       </td>\n        <td> 6\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 1     </td>\n        <td>  S    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#sap\">Sap</a>           </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td> 1     </td>\n        <td>  B    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#shortsword\">Shortsword</a>    </td>\n        <td> 10\u00a0gp </td>\n        <td> 1d6 </td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1     </td>\n        <td>  P    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#throwing-axe\">Throwing\u00a0Axe</a>  </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x2       </td>\n        <td> 10'       </td>\n        <td> 1     </td>\n        <td>  S    </td>\n        <td> Light</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#battleaxe\">Battleaxe</a>     </td>\n        <td> 10\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  S    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#cutlass\">Cutlass</a>       </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d6 </td>\n        <td> 18\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1     </td>\n        <td>  S    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#flail\">Flail</a>         </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  B    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#heavy-pick\">Heavy\u00a0Pick</a>    </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x4       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  P    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#longsword\">Longsword</a>     </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  S    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#rapier\">Rapier</a>        </td>\n        <td> 20\u00a0gp </td>\n        <td> 1d6 </td>\n        <td> 18\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  P    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#trident\">Trident</a>       </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x2       </td>\n        <td> 10'       </td>\n        <td> 1.5   </td>\n        <td>  P    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#warhammer\">Warhammer</a>     </td>\n        <td> 12\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 1.5   </td>\n        <td>  B    </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#falchion\">Falchion</a>      </td>\n        <td> 75\u00a0gp </td>\n        <td> 2d4 </td>\n        <td> 18\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#glaive\">Glaive</a>        </td>\n        <td> 8\u00a0gp  </td>\n        <td> 1d10</td>\n        <td> 19-20/x2 </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#greataxe\">Greataxe</a>      </td>\n        <td> 20\u00a0gp </td>\n        <td> 1d12</td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#greatclub\">Greatclub</a>     </td>\n        <td> 5\u00a0gp  </td>\n        <td> 1d10</td>\n        <td> x2       </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  B    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#greatsword\">Greatsword</a>    </td>\n        <td> 50\u00a0gp </td>\n        <td> 1d12</td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  S    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#halberd\">Halberd</a>       </td>\n        <td> 10\u00a0gp </td>\n        <td> 1d10</td>\n        <td> x3       </td>\n        <td> \u2014         </td>\n        <td> 3     </td>\n        <td>  P/S  </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#heavy-flail\">Heavy\u00a0Flail</a>   </td>\n        <td> 15\u00a0gp </td>\n        <td> 1d10</td>\n        <td> 19\u201120/x2 </td>\n        <td> \u2014         </td>\n        <td> 2     </td>\n        <td>  B    </td>\n        <td> 2\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Martial Ranged Weapons": "<section>\n  <h3 id=\"martial-ranged-weapons\">Martial Ranged Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon             </th>\n        <th> Cost   </th>\n        <th> Dmg </th>\n        <th> Critical </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td><a href=\"#longbow\">Longbow</a>            </td>\n        <td> 100\u00a0gp </td>\n        <td> 1d8 </td>\n        <td> x3   </td>\n        <td> 100'      </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#shortbow\">Shortbow</a>           </td>\n        <td> 50\u00a0gp  </td>\n        <td> 1d6 </td>\n        <td> x3   </td>\n        <td> 60'       </td>\n        <td> 1     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#musket\">Musket</a>             </td>\n        <td> 500\u00a0gp </td>\n        <td> 1d12</td>\n        <td> x3   </td>\n        <td> 150'      </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#blunderbuss\">Blunderbuss</a>        </td>\n        <td> 400\u00a0gp </td>\n        <td> 1d12</td>\n        <td> x3   </td>\n        <td> 30'       </td>\n        <td> 2     </td>\n        <td> P     </td>\n        <td> 2\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#pistol\">Pistol</a>             </td>\n        <td> 250\u00a0gp </td>\n        <td> 1d10</td>\n        <td> x3   </td>\n        <td> 50'       </td>\n        <td> 1     </td>\n        <td> P     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Exotic Melee Weapons": "<section>\n  <h3 id=\"exotic-melee-weapons\">Exotic Melee Weapons</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Weapon         </th>\n        <th> Cost  </th>\n        <th> Dmg  </th>\n        <th> Critical     </th>\n        <th> Range\u00a0Inc </th>\n        <th> Slots </th>\n        <th> DType </th>\n        <th> Hands</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td><a href=\"#bastard-sword\">Bastard\u00a0Sword</a>  </td>\n        <td> 35\u00a0gp </td>\n        <td> 1d10 </td>\n        <td> 19\u201120/x2 </td>\n        <td>  \u2014        </td>\n        <td> 2     </td>\n        <td> S     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#dwarven-waraxe\">Dwarven\u00a0Waraxe</a> </td>\n        <td> 30\u00a0gp </td>\n        <td> 1d10 </td>\n        <td> x3       </td>\n        <td>  \u2014        </td>\n        <td> 2     </td>\n        <td> S     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n      <tr class=\"odd\">\n        <td><a href=\"#harpoon\">Harpoon</a>        </td>\n        <td> 5gp   </td>\n        <td> 1d8  </td>\n        <td> x3       </td>\n        <td> 20'       </td>\n        <td> 1     </td>\n        <td> P     </td>\n        <td> 1-handed</td>\n      </tr>\n      <tr class=\"even\">\n        <td><a href=\"#whip\">Whip</a>           </td>\n        <td> 1\u00a0gp  </td>\n        <td> 1d3  </td>\n        <td> x2       </td>\n        <td>  \u2014        </td>\n        <td> 1     </td>\n        <td> S     </td>\n        <td> 1\u2011handed</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Ammunition": "<section>\n  <h3 id=\"ammunition\">Ammunition</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Ammo                    </th>\n        <th> Cost </th>\n        <th> Slots</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Bullets and Powder (10) </td>\n        <td> 3gp  </td>\n        <td> 1</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Sling Bullets (10)      </td>\n        <td> 1sp  </td>\n        <td> 1</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Crossbow Bolts (20)     </td>\n        <td> 1gp  </td>\n        <td> 1</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Arrows (20)             </td>\n        <td> 1gp  </td>\n        <td> 1</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Light Armor": "<section>\n  <h3 id=\"light-armor\">Light Armor</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price </th>\n        <th> AC </th>\n        <th> Max\u00a0Dex </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Speed </th>\n        <th> Slots </th>\n        <th> Drown</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Padded\u00a0Armor    </td>\n        <td> 5gp   </td>\n        <td> +1 </td>\n        <td> \u221e       </td>\n        <td>   0           </td>\n        <td> x1    </td>\n        <td> 0     </td>\n        <td> No</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Leather         </td>\n        <td> 25gp  </td>\n        <td> +2 </td>\n        <td>    +6   </td>\n        <td>   0           </td>\n        <td> x1    </td>\n        <td> 1     </td>\n        <td> Maybe</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Studded\u00a0Leather </td>\n        <td> 50gp  </td>\n        <td> +3 </td>\n        <td>    +5   </td>\n        <td>   -1          </td>\n        <td> x1    </td>\n        <td> 2     </td>\n        <td> Maybe</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Chain Shirt     </td>\n        <td> 250gp </td>\n        <td> +4 </td>\n        <td>    +4   </td>\n        <td>   -3          </td>\n        <td> x1    </td>\n        <td> 2     </td>\n        <td> Probably</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Medium Armor": "<section>\n  <h3 id=\"medium-armor\">Medium Armor</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price </th>\n        <th> AC </th>\n        <th> Max\u00a0Dex </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Speed </th>\n        <th> Slots </th>\n        <th> Drown</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Hide            </td>\n        <td>  15gp </td>\n        <td> +4 </td>\n        <td>     +4  </td>\n        <td>       -3      </td>\n        <td>  x\u2154    </td>\n        <td>  2 </td>\n        <td> Maybe</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Scale\u00a0mail      </td>\n        <td>  50gp </td>\n        <td> +4 </td>\n        <td>     +3  </td>\n        <td>       -4      </td>\n        <td>  x\u2154    </td>\n        <td>  2 </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Chain\u00a0mail      </td>\n        <td> 150gp </td>\n        <td> +5 </td>\n        <td>     +2  </td>\n        <td>       -5      </td>\n        <td>  x\u2154    </td>\n        <td>  3 </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Breastplate     </td>\n        <td> 400gp </td>\n        <td> +5 </td>\n        <td>     +3  </td>\n        <td>       -4      </td>\n        <td>  x\u2154    </td>\n        <td>  3 </td>\n        <td> Yes</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Heavy Armor": "<section>\n  <h3 id=\"heavy-armor\">Heavy Armor</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Armor           </th>\n        <th> Price</th>\n        <th> AC </th>\n        <th> Max\u00a0Dex </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Speed </th>\n        <th> Slots </th>\n        <th> Drown</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Splint\u00a0mail     </td>\n        <td>250gp </td>\n        <td> +6 </td>\n        <td> +1      </td>\n        <td>       -7      </td>\n        <td> x\u2154    </td>\n        <td>  4    </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Half\u00a0plate      </td>\n        <td>600gp </td>\n        <td> +7 </td>\n        <td> +1      </td>\n        <td>       -7      </td>\n        <td> x\u2154    </td>\n        <td>  4    </td>\n        <td> Yes</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Full\u00a0plate      </td>\n        <td>1500gp</td>\n        <td> +8 </td>\n        <td> +1      </td>\n        <td>       -7      </td>\n        <td> x\u2154    </td>\n        <td>  5    </td>\n        <td> Yes</td>\n      </tr>\n    </tbody>\n  </table>\n</section>", "Shields": "<section>\n  <h3 id=\"shields\">Shields</h3>\n  <table class=\"equipment\">\n    <thead>\n      <tr class=\"table_header\">\n        <th>Shield        </th>\n        <th> Price </th>\n        <th> AC           </th>\n        <th> Skill\u00a0Penalty </th>\n        <th> Slots</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr class=\"odd\">\n        <td>Buckler       </td>\n        <td> 15gp  </td>\n        <td> +1\u00a0vs\u00a0melee  </td>\n        <td>    -0         </td>\n        <td>  0</td>\n      </tr>\n      <tr class=\"even\">\n        <td>Wooden\u00a0Shield </td>\n        <td> 10gp  </td>\n        <td> +1           </td>\n        <td>    -1         </td>\n        <td>  1</td>\n      </tr>\n      <tr class=\"odd\">\n        <td>Metal\u00a0Shield  </td>\n        <td> 25gp  </td>\n        <td> +2           </td>\n        <td>    -2         </td>\n        <td>  2</td>\n      </tr>\n    </tbody>\n  </table>\n</section>"}
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   </head>
@@ -530,7 +544,9 @@
               <li><a href="#sorcerer-feats">Sorcerer Feats</a></li>
               <li><a href="#wizard-feats">Wizard Feats</a></li>
             </ul></li>
-            <li><a href="#equipment">Equipment</a></li>
+            <li><a href="#equipment">Equipment</a><ul>
+              <li><a href="#weapons">Weapons</a></li>
+            </ul></li>
             <li><a href="#experience">Experience</a><ul>
               <li><a href="#level-table">Level table</a></li>
               <li><a href="#leveling-up">Leveling Up</a></li>
@@ -9280,21 +9296,23 @@
                   Ranged Style
                 </p>
               </div>
-              <div>
+              <section>
                 <h5 id="effect91">Effect</h5>
-                <p>
-                  You can reload gun and crossbows faster
-                </p>
-                <p>
-                  light crossbow: move->no action
-                </p>
-                <p>
-                  heavy crossbow: full round -> move action)
-                </p>
-                <p>
-                  HOW DO GUNS WORK?
-                </p>
-              </div>
+                <div>
+                  
+                  <p>
+                    You can reload gun and crossbows faster
+                  </p>
+                </div>
+                <div>
+                  
+                  <ul>
+                    <li> move->no action</li>
+                    <li> standard -> move action, can also move half your speed.</li>
+                    <li> full round -> move action</li>
+                  </ul>
+                </div>
+              </section>
             </section>
             <section class="feat">
               <h4 id="precision-style">Precision Style</h4>
@@ -11236,6 +11254,2147 @@
           <h2 id="equipment">Equipment</h2>
           TODO
           
+          <section>
+            <h3 id="weapons">Weapons</h3>
+            <div class="weapon">
+              <h4 id="bastard-sword">Bastard Sword</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A bastard sword requires special training (exotic weapon proficiency) and strength 13 to wield in one hand.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="battleaxe">Battleaxe</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="blunderbuss">Blunderbuss</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d12</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 30'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> full round action</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Blunderbusses must be reloaded after firing, which provokes attacks of opportunity.
+                </p>
+                <p>
+                  A blunderbuss is a firearm. On a roll of natural 1, the weapon is fouled and cannot be fired until unfouled (a process that takes 5 minutes).
+                </p>
+                <p>
+                  When firing at a creature within 30', you can target an additional creature adjacent to your target with the same attack roll. Roll only once and apply to both.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="club">Club</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 10'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Clubs may be thrown.
+                </p>
+                <p>
+                  Clubs don't need to be purchased - any sturdy piece of wood will do.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="cutlass">Cutlass</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 18-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="dagger">Dagger</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d3</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 10'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 0.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing or Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> Light</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Daggers may be thrown.
+                </p>
+                <p>
+                  Daggers are much easier to conceal than other weapons. You get +2 to conceal a dagger.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="dwarven-waraxe">Dwarven Waraxe</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> - </td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A dwarven waraxe requires special training (exotic weapon proficiency) and strength 13 to wield in one hand.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="falchion">Falchion</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 2d4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 18-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="flail">Flail</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  With a flail, you get a +2 bonus on disarm rolls (including the roll to avoid being disarmed).
+                </p>
+                <p>
+                  You can also use this weapon to make trip attacks.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="glaive">Glaive</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 10'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A glaive has reach. You can strike opponents 10 feet away with it, but you can’t use it against an adjacent foe.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="greataxe">Greataxe</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d12</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="greatclub">Greatclub</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="greatsword">Greatsword</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d12</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="halberd">Halberd</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 10'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A halberd has reach. You can strike opponents 10 feet away with it, but you can’t use it against an adjacent foe.
+                </p>
+                <p>
+                  You can use a halberd to make trip attacks. If you are tripped during your own trip attempt, you can drop the halberd to avoid being tripped.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="handaxe">Handaxe</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> Light</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="harpoon">Harpoon</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 20'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A harpoon can be thrown. A harpoon that deals 8 or more damage impales into the victim. If a rope is attached to the harpoon (which gives it a -2 attack penalty due to the awkardness), the victim cannot move beyond the lead of the rope. If the rope is held short by you or others, they can make strength checks to move, which takes half their movement (or all of it on a failure).
+                </p>
+                <p>
+                  The harpoon can be removed, but deals 8 damage on the way out if taken out violently (taking it out gently requires a DC 10 heal check). In the case of the rope, succeeding by 10 or more means the harpoon is violently ripped out. After 3 checks, the harpoon is not coming out.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="heavy-crossbow">Heavy Crossbow</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 120'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> full round</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Crossbows require crossbow bolts.
+                </p>
+                <p>
+                  You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.
+                </p>
+                <p>
+                  Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a -4 penalty on attack rolls.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="heavy-flail">Heavy Flail</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  With a flail, you get a +2 bonus on disarm rolls (including the roll to avoid being disarmed).
+                </p>
+                <p>
+                  You can also use this weapon to make trip attacks.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="heavy-pick">Heavy Pick</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Heavy picks get an extra +2 to attack against constructs.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="javelin">Javelin</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 30'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1/4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Javelins are thrown.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="light-crossbow">Light Crossbow</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 80'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> move action</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Crossbows require crossbow bolts.
+                </p>
+                <p>
+                  You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.
+                </p>
+                <p>
+                  Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="longbow">Longbow</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 100'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> None</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  You need at least two hands to use a bow, regardless of its size.
+                  A longbow is too unwieldy to use while you are mounted.
+                  A longbow requires at least 13 strength to use.
+                  If you have a bonus for high Strength, you can apply it to damage rolls.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="longspear">Longspear</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 10'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A longspear has reach. You can strike opponents 10 feet away with it, but you can’t use it against an adjacent foe. If you use a ready action to set a longspear against a charge, you deal double damage on a successful hit against a charging character.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="longsword">Longsword</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="mace">Mace</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="morningstar">Morningstar</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning and Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="musket">Musket</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d12</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 150'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> Full round action</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Muskets must be reloaded after firing, which provokes attacks of opportunity.
+                </p>
+                <p>
+                  A musket is a firearm. On a roll of natural 1, the weapon is fouled and cannot be fired until unfouled (a process that takes 5 minutes).
+                </p>
+                <p>
+                  A bayonet can be mounted on the end of the musket. This weapon is a d10, 2-handed melee weapon with a 19-20/x2 crit. Switching your hold on your musket to melee is equivelant to drawing a weapon.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="pistol">Pistol</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d10</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 50'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> Standard Action</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Pistols must be reloaded after firing, which provokes attacks of opportunity.
+                </p>
+                <p>
+                  A pistol is a firearm. On a roll of natural 1, the weapon is fouled and cannot be fired until unfouled (a process that takes 5 minutes).
+                </p>
+                <p>
+                  A character cannot carry more than two loaded pistols or risk shooting themselves.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="quarterstaff">Quarterstaff</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> - </td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A quarterstaff need not be purchased - any sturdy stick long enough will do.
+                </p>
+                <p>
+                  A quarterstaff can be used as a double weapon. Treat it as two light weapons if used in such a way.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="rapier">Rapier</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 18-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="sap">Sap</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> - </td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> Light</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A sap deals nonlethal damage.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="shortbow">Shortbow</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 60'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> None</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  You need at least two hands to use a bow, regardless of its size.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="shortspear">Shortspear</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 20'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A shortspear can be thrown.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="shortsword">Shortsword</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> 19-20/x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing or Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> Light</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="sling">Sling</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d3</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 50'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 0</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reload:     </td>
+                      <td> move action</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes attacks of opportunity.
+                </p>
+                <p>
+                  You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus, such an attack suffers -1 to the roll and -1 damage.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="spear">Spear</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 20'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A spear can be thrown.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="throwing-axe">Throwing Axe</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d4</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 10'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> Light</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Throwing axes can be thrown.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="trident">Trident</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> 10'</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Piercing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  This weapon can be thrown. If you use a ready action to set a trident against a charge, you deal double damage on a successful hit against a charging character.
+                </p>
+              </div>
+            </div>
+            <div class="weapon">
+              <h4 id="warhammer">Warhammer</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1.5</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Bludgeoning</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 5'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="weapon">
+              <h4 id="whip">whip</h4>
+              <section>
+                
+                <table class="weapon_stats">
+                  <thead>
+                    <tr class="table_header">
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>Damage (M): </td>
+                      <td> 1d3</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage (S): </td>
+                      <td> 1d2</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Critical:   </td>
+                      <td> x2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Range Inc:  </td>
+                      <td> -</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Slots:      </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Damage Type:</td>
+                      <td> Slashing</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Hands:      </td>
+                      <td> 1-handed</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Reach:      </td>
+                      <td> 15'</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  A whip deals nonlethal damage.
+                  The whip is treated as a melee weapon with 15-foot reach, though you don’t threaten the area into which you can make an attack.
+                  In addition, unlike most other weapons with reach, you can use it against foes anywhere within your reach (including adjacent foes).
+                </p>
+                <p>
+                  Using a whip provokes an attack of opportunity, just as if you had used a ranged weapon.
+                </p>
+                <p>
+                  You can make trip attacks with a whip.
+                </p>
+                <p>
+                  When using a whip, you get a +2 bonus to disarm.
+                </p>
+              </div>
+            </div>
+          </section>
           
         </section>
         <section class="chapter">

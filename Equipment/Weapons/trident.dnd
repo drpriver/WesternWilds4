@@ -1,0 +1,16 @@
+
+    Trident::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d8
+          Damage (S): | 1d6
+          Critical:   | x2
+          Range Inc:  | 10'
+          Slots:      | 1.5
+          Damage Type:| Piercing
+          Hands:      | 1-handed
+          Reach:      | 5'
+      ::text
+        This weapon can be thrown. If you use a ready action to set a trident against a charge, you deal double damage on a successful hit against a charging character.

@@ -1,0 +1,16 @@
+
+    Spear::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d8
+          Damage (S): | 1d6
+          Critical:   | x3
+          Range Inc:  | 20'
+          Slots:      | 2
+          Damage Type:| Piercing
+          Hands:      | 2
+          Reach:      | 5'
+      ::text
+        A spear can be thrown.

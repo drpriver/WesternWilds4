@@ -346,3 +346,17 @@ table.equipment tr td:nth-child(8) {
     width: auto;
     text-align:center;
 }
+table.weapon_stats thead{
+    display:none
+}
+
+table.weapon_stats, table.weapon_stats *{
+    border:none;
+}
+table.weapon_stats .even {
+    background-color: rgb(205,200,184);
+}
+table.weapon_stats tr td:nth-child(1){
+    text-align:right;
+}
+

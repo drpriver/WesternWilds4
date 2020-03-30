@@ -190,14 +190,16 @@
     Reloader Style::section.feat
       Prerequisite::text
         Ranged Style
-      Effect::text
-        You can reload gun and crossbows faster 
+      Effect::section
+        ::text
+          You can reload gun and crossbows faster 
 
-        light crossbow: move->no action
+        ::bullets
+          * move->no action
+          * standard -> move action, can also move half your speed.
+          * full round -> move action
 
-        heavy crossbow: full round -> move action)
 
-        HOW DO GUNS WORK?
 
     Precision Style::section.feat
       Prerequisite::text

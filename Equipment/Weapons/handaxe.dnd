@@ -1,0 +1,14 @@
+
+    Handaxe::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d6
+          Damage (S): | 1d4
+          Critical:   | x3
+          Range Inc:  | -
+          Slots:      | 1
+          Damage Type:| Slashing
+          Hands:      | Light
+          Reach:      | 5'

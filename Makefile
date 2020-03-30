@@ -76,6 +76,46 @@ SKILLS=skills.dnd\
 
 EQUIPMENT=equipment.dnd\
 	  weapons.dnd\
+	  Weapons/bastard-sword.dnd\
+	  Weapons/battleaxe.dnd\
+	  Weapons/blunderbuss.dnd\
+	  Weapons/club.dnd\
+	  Weapons/cutlass.dnd\
+	  Weapons/dagger.dnd\
+	  Weapons/dwarven-waraxe.dnd\
+	  Weapons/falchion.dnd\
+	  Weapons/flail.dnd\
+	  Weapons/glaive.dnd\
+	  Weapons/greataxe.dnd\
+	  Weapons/greatclub.dnd\
+	  Weapons/greatsword.dnd\
+	  Weapons/halberd.dnd\
+	  Weapons/handaxe.dnd\
+	  Weapons/harpoon.dnd\
+	  Weapons/heavy-crossbow.dnd\
+	  Weapons/heavy-flail.dnd\
+	  Weapons/heavy-pick.dnd\
+	  Weapons/javelin.dnd\
+	  Weapons/light-crossbow.dnd\
+	  Weapons/longbow.dnd\
+	  Weapons/longspear.dnd\
+	  Weapons/longsword.dnd\
+	  Weapons/mace.dnd\
+	  Weapons/morningstar.dnd\
+	  Weapons/musket.dnd\
+	  Weapons/pistol.dnd\
+	  Weapons/quarterstaff.dnd\
+	  Weapons/rapier.dnd\
+	  Weapons/sap.dnd\
+	  Weapons/shortbow.dnd\
+	  Weapons/shortspear.dnd\
+	  Weapons/shortsword.dnd\
+	  Weapons/sling.dnd\
+	  Weapons/spear.dnd\
+	  Weapons/throwing-axe.dnd\
+	  Weapons/trident.dnd\
+	  Weapons/warhammer.dnd\
+	  Weapons/whip.dnd\
 	  armor.dnd\
 
 ALL=basics.dnd\

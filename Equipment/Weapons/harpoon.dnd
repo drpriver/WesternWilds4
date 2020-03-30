@@ -1,0 +1,18 @@
+
+    Harpoon::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d8
+          Damage (S): | 1d6
+          Critical:   | x3
+          Range Inc:  | 20'
+          Slots:      | 1
+          Damage Type:| Piercing
+          Hands:      | 1-handed
+          Reach:      | 5'
+      ::text
+        A harpoon can be thrown. A harpoon that deals 8 or more damage impales into the victim. If a rope is attached to the harpoon (which gives it a -2 attack penalty due to the awkardness), the victim cannot move beyond the lead of the rope. If the rope is held short by you or others, they can make strength checks to move, which takes half their movement (or all of it on a failure).
+
+        The harpoon can be removed, but deals 8 damage on the way out if taken out violently (taking it out gently requires a DC 10 heal check). In the case of the rope, succeeding by 10 or more means the harpoon is violently ripped out. After 3 checks, the harpoon is not coming out.

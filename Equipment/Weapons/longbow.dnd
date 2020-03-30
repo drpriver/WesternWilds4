@@ -1,0 +1,20 @@
+
+    Longbow::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d8
+          Damage (S): | 1d6
+          Critical:   | x3
+          Range Inc:  | 100'
+          Slots:      | 2
+          Damage Type:| Piercing
+          Hands:      | 2-handed
+          Reload:     | None
+      ::text
+        You need at least two hands to use a bow, regardless of its size. 
+        A longbow is too unwieldy to use while you are mounted. 
+        A longbow requires at least 13 strength to use.
+        If you have a bonus for high Strength, you can apply it to damage rolls.
+

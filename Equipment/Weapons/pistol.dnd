@@ -1,0 +1,21 @@
+
+    Pistol::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d10
+          Damage (S): | 1d8
+          Critical:   | x3
+          Range Inc:  | 50'
+          Slots:      | 1
+          Damage Type:| Piercing
+          Hands:      | 1-handed
+          Reload:     | Standard Action
+      ::text
+        Pistols must be reloaded after firing, which provokes attacks of opportunity.
+
+        A pistol is a firearm. On a roll of natural 1, the weapon is fouled and cannot be fired until unfouled (a process that takes 5 minutes).
+
+        A character cannot carry more than two loaded pistols or risk shooting themselves.
+

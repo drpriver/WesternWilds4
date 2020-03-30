@@ -1,0 +1,22 @@
+
+    Light Crossbow::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d8
+          Damage (S): | 1d6
+          Critical:   | 19-20/x2
+          Range Inc:  | 80'
+          Slots:      | 2
+          Damage Type:| Piercing
+          Hands:      | 2-handed
+          Reload:     | move action
+      ::text
+        Crossbows require crossbow bolts.
+
+        You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.
+
+        Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls.
+
+

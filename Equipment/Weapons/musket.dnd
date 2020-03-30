@@ -1,0 +1,20 @@
+
+    Musket::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d12
+          Damage (S): | 1d10
+          Critical:   | x3
+          Range Inc:  | 150'
+          Slots:      | 2
+          Damage Type:| Piercing
+          Hands:      | 2-handed
+          Reload:     | Full round action
+      ::text
+        Muskets must be reloaded after firing, which provokes attacks of opportunity.
+
+        A musket is a firearm. On a roll of natural 1, the weapon is fouled and cannot be fired until unfouled (a process that takes 5 minutes).
+
+        A bayonet can be mounted on the end of the musket. This weapon is a d10, 2-handed melee weapon with a 19-20/x2 crit. Switching your hold on your musket to melee is equivelant to drawing a weapon.

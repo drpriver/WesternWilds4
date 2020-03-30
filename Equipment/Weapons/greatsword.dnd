@@ -1,0 +1,14 @@
+
+    Greatsword::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d12
+          Damage (S): | 1d10
+          Critical:   | 19-20/x2
+          Range Inc:  | -
+          Slots:      | 2
+          Damage Type:| Slashing
+          Hands:      | 2-handed
+          Reach:      | 5'

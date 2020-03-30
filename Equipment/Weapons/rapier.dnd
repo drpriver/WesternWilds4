@@ -1,0 +1,14 @@
+
+    Rapier::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d6
+          Damage (S): | 1d4
+          Critical:   | 18-20/x2
+          Range Inc:  | -
+          Slots:      | 1.5
+          Damage Type:| Piercing
+          Hands:      | 1-handed
+          Reach:      | 5'

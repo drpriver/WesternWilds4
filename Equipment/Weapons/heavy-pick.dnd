@@ -1,0 +1,16 @@
+
+    Heavy Pick::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d6
+          Damage (S): | 1d4
+          Critical:   | x4
+          Range Inc:  | -
+          Slots:      | 1.5
+          Damage Type:| Piercing
+          Hands:      | 1-handed
+          Reach:      | 5'
+      ::text
+        Heavy picks get an extra +2 to attack against constructs.

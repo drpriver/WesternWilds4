@@ -1,0 +1,16 @@
+
+    Glaive::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d10
+          Damage (S): | 1d8
+          Critical:   | 19-20/x2
+          Range Inc:  | -
+          Slots:      | 3
+          Damage Type:| Slashing
+          Hands:      | 2-handed
+          Reach:      | 10'
+      ::text
+        A glaive has reach. You can strike opponents 10 feet away with it, but you can’t use it against an adjacent foe.

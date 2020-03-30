@@ -1,0 +1,17 @@
+
+    Shortbow::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d6
+          Damage (S): | 1d4
+          Critical:   | x3
+          Range Inc:  | 60'
+          Slots:      | 1
+          Damage Type:| Piercing
+          Hands:      | 2-handed
+          Reload:     | None
+      ::text
+        You need at least two hands to use a bow, regardless of its size. 
+        

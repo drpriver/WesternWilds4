@@ -1,0 +1,20 @@
+
+    Blunderbuss::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d12
+          Damage (S): | 1d10
+          Critical:   | x3
+          Range Inc:  | 30'
+          Slots:      | 2
+          Damage Type:| Piercing
+          Hands:      | 2-handed
+          Reload:     | full round action
+      ::text
+        Blunderbusses must be reloaded after firing, which provokes attacks of opportunity.
+
+        A blunderbuss is a firearm. On a roll of natural 1, the weapon is fouled and cannot be fired until unfouled (a process that takes 5 minutes).
+
+        When firing at a creature within 30', you can target an additional creature adjacent to your target with the same attack roll. Roll only once and apply to both.

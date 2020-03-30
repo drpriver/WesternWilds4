@@ -1,0 +1,20 @@
+
+    Heavy Crossbow::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d10
+          Damage (S): | 1d8
+          Critical:   | 19-20/x2
+          Range Inc:  | 120'
+          Slots:      | 3
+          Damage Type:| Piercing
+          Hands:      | 2-handed
+          Reload:     | full round
+      ::text
+        Crossbows require crossbow bolts.
+
+        You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.
+
+        Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a -4 penalty on attack rolls. 

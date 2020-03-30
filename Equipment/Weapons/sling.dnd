@@ -1,0 +1,17 @@
+    Sling::div.weapon
+      ::table.weapon_stats
+        ::head
+          |
+        ::row
+          Damage (M): | 1d4
+          Damage (S): | 1d3
+          Critical:   | x2
+          Range Inc:  | 50'
+          Slots:      | 0
+          Damage Type:| Bludgeoning
+          Hands:      | 1-handed
+          Reload:     | move action
+      ::text
+        Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes attacks of opportunity.
+
+        You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus, such an attack suffers -1 to the roll and -1 damage.
