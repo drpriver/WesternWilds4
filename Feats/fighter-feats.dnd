@@ -117,7 +117,7 @@
       Effect::text
         There is no limit on the number of cleaves you can make in a turn. Additionally, you can move in between cleave attacks (not restricted to 5' steps).
 
-    Two Weapon Style::section.feat
+    Two Weapon Fighting::section.feat
       Effect::text
         Each time you make an attack with your primary weapon, you can make an extra attack
         with your off-hand weapon.  The weapons must be one-handed or a double weapon.
@@ -125,13 +125,11 @@
         When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
         For each light weapon you are wielding, reduce the attack penalty by 1.
 
-        Reduce the attack penalty by 1 for double weapons.
-
         Additionally, you can draw two weapons as part of the same action.
 
     Two Weapon Defense::section.feat
       Effect::text
-        When fighting with a double weapon or with two weapons, you gain a +1 shield bonus to AC. This shield bonus doubles if you fight defensively, take total defense or use [combat expertise].
+        When fighting with two weapons, you gain a +1 shield bonus to AC. This shield bonus doubles if you fight defensively, take total defense or use [combat expertise].
 
     Combat Tactics::section.feat
       Effect::text
@@ -171,25 +169,19 @@
       Normal::text
         You can normally only make up to one attack of opportunity each round.
 
-    Two-Handed Style::section.feat
+    Two-Handed Fighting::section.feat
       Effect::text
         When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemy that is adjacent to you as well.
       
-    Ranged Style::section.feat
+    Precise Shot::section.feat
       Effect::text
         You don't suffer the -4 penalty for firing into a melee.
       Normal::text
         Normally you must take a -4 penalty to attack a specific target in a group or melee with a ranged attack.
 
-    Rapid Shots::section.feat
+    Rapid Reload::section.feat
       Prerequisite::text
-        Ranged Style
-      Effect::text
-        When you take the full attack action with a ranged weapon, you can make one additional attack at your highest BAB, but all attacks are made with a -2 penalty.
-
-    Reloader Style::section.feat
-      Prerequisite::text
-        Ranged Style
+        Precise Shot
       Effect::section
         ::text
           You can reload gun and crossbows faster 
@@ -199,29 +191,21 @@
           * standard -> move action, can also move half your speed.
           * full round -> move action
 
-
-
-    Precision Style::section.feat
+    Gun Fighting::section.feat
       Prerequisite::text
-        Reloader Style
+        Precise Shot
+      Effect::text
+        You can add your BAB to the damage of your gun attacks.
+
+    Sharpshooter::section.feat
+      Prerequisite::text
+        Precise Shot
       Effect::text
         Add ½ DEX bonus to damage with crossbows and guns.
 
         The max precision damage range is increased to 60'.
 
-    Clustered Shots::section.feat
-      Prerequisite::text
-        Ranged Style, Rapid Shots
-      Effect::text
-        When you hit an enemy with multiple ranged attacks in a single turn, damage reduction is only applied once.
-
-    Throwing Style::section.feat
-      Effect::text
-        Range increment for throwing weapons increased to 45’ if less than 45'.
-
-        You can draw as many weapons each turn as you need to make all your attacks and still end your turn with weapons in hand.
-
-    Shield Style::section.feat
+    Shield Fighting::section.feat
       Effect::text
         +1 AC when using a shield.
 
@@ -231,17 +215,19 @@
 
         When you bullrush an enemy, you can make a shield bash attack for free.
 
-    Swashbuckler Style::section.feat
+    Swashbuckling::section.feat
       Effect::text
         Once per turn when you attack with a one-handed weapon, you may also attack with a one-handed ranged weapon in another hand with no two-weapon fighting penalty and without provoking attacks of opportunity.
 
-        You get a +2 bonus to reflex saves and to flirting.
+        You can reload a pistol as a move action.
 
-    Finesse Style::section.feat
+        If you fight with a sword-type weapon in one hand and the other hand is empty, you get a +2 dodge bonus to AC.
+
+        You get a +2 bonus to flirting.
+
+    Weapon Finesse ::section.feat
       Effect::text
         You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
-
-        You gain [tumble] as a class skill. It starts with 4 ranks in it.
 
     Weapon Focus::section.feat
       Effect::text
@@ -290,6 +276,7 @@
         Dexterity 13
       Effect::text
         If you move, attack, and then move again, you do not provoke attacks of opportunity from the target of your attack(s). Intent is all that matters here (you might fall in a pit and be unable to attack).
+
     Whirlwind Attack::section.feat
       Prerequisite::text
         Power Attack, Cleave, Combat Expertise, Spring Attack, Level 4
@@ -297,6 +284,7 @@
         When you use attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.
 
         When you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities, with the exception of cleave and great cleave.
+
     Blind-Fight::section.feat
       Effect::text
         In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.
@@ -304,6 +292,7 @@
         An invisible attacker gets no advantages related to hitting you in melee. The invisible attacker’s bonuses do still apply for ranged attacks, however.
 
         You take only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces your speed to three-quarters normal, instead of one-half.
+
     Exotic Weapon Proficiency::section.feat
       Effect::text
         You become proficient will all exotic weapons.
@@ -311,6 +300,7 @@
     Improved Feint::section.feat
       Effect::text
         You can [feint, Feinting in Combat] as a move action instead of as a standard action. If you succeed, the feint bonus is +4 instead of +2.
+
     Quick Draw::section.feat
       Effect::text
         You can draw/stow weapons as free actions instead of as a move action.

@@ -1,7 +1,7 @@
   ::data
     Simple Melee Weapons::table.equipment
       ::head
-        Weapon      | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
+        Weapon        | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
       ::row
         [Dagger]      | 2 gp  | 1d4 | 19‑20/x2 | 10'       |  .5   | P/S   | Light
         [Club]        |   —   | 1d6 | x2       | 10'       |  1    | B     | 1‑handed
@@ -14,16 +14,16 @@
 
     Simple Ranged Weapons::table.equipment
       ::head
-        Weapon          | Cost  | Dmg  | Critical | Range Inc | Slots | DType | Hands
+        Weapon           | Cost  | Dmg  | Critical | Range Inc | Slots | DType | Hands
       ::row
         [Heavy crossbow] | 50 gp | 1d10 | 19‑20/x2 | 120'      | 3     | P     | 2‑handed
-        [Light crossbow]  | 35 gp | 1d8  | 19‑20/x2 | 80'       | 2     | P     | 2‑handed
-        [Javelin]         | 1 gp  | 1d6  | x2       | 30'       | 1/4   | P     | 1‑handed
-        [Sling]           | —     | 1d4  | x2       | 50'       | 0     | B     | 1‑handed
+        [Light crossbow] | 35 gp | 1d8  | 19‑20/x2 | 80'       | 2     | P     | 2‑handed
+        [Javelin]        | 1 gp  | 1d6  | x2       | 30'       | 1/4   | P     | 1‑handed
+        [Sling]          | —     | 1d4  | x2       | 50'       | 0     | B     | 1‑handed
 
     Martial Melee Weapons::table.equipment
       ::head
-        Weapon        | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
+        Weapon          | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
       ::row
         [Handaxe]       | 6 gp  | 1d6 | x3       | —         | 1     |  S    | Light
         [Sap]           | 1 gp  | 1d6 | x2       | —         | 1     |  B    | Light
@@ -47,17 +47,17 @@
 
     Martial Ranged Weapons::table.equipment
       ::head
-        Weapon             | Cost   | Dmg | Critical | Range Inc | Slots | DType | Hands
+        Weapon        | Cost   | Dmg | Critical | Range Inc | Slots | DType | Hands
       ::row
-        [Longbow]            | 100 gp | 1d8 | x3   | 100'      | 2     | P     | 2‑handed
-        [Shortbow]           | 50 gp  | 1d6 | x3   | 60'       | 1     | P     | 2‑handed
-        [Musket]             | 500 gp | 1d12| x3   | 150'      | 2     | P     | 2‑handed
-        [Blunderbuss]        | 400 gp | 1d12| x3   | 30'       | 2     | P     | 2‑handed
-        [Pistol]             | 250 gp | 1d10| x3   | 50'       | 1     | P     | 1‑handed
+        [Longbow]     | 100 gp | 1d8 | x3       | 100'      | 2     | P     | 2‑handed
+        [Shortbow]    | 50 gp  | 1d6 | x3       | 60'       | 1     | P     | 2‑handed
+        [Musket]      | 500 gp | 1d12| x3       | 150'      | 2     | P     | 2‑handed
+        [Blunderbuss] | 400 gp | 1d12| x3       | 30'       | 2     | P     | 2‑handed
+        [Pistol]      | 250 gp | 1d10| x3       | 50'       | 1     | P     | 1‑handed
 
     Exotic Melee Weapons::table.equipment
       ::head
-        Weapon         | Cost  | Dmg  | Critical     | Range Inc | Slots | DType | Hands
+        Weapon           | Cost  | Dmg  | Critical | Range Inc | Slots | DType | Hands
       ::row
         [Bastard Sword]  | 35 gp | 1d10 | 19‑20/x2 |  —        | 2     | S     | 1‑handed
         [Dwarven Waraxe] | 30 gp | 1d10 | x3       |  —        | 2     | S     | 1‑handed

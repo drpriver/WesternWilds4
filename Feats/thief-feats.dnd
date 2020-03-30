@@ -135,13 +135,16 @@
         You can prepare and apply a poison to your weapons. Others can't use it because they
         suck and would poison and kill themselves.
 
+        This is evil.
+
         Any enemy that you have dealt damage to with a weapon attack takes an additional 
         1 damage at the start of each of their turns. Additionally, the effectiveness of fast
         healing, regeneration, and other healing effects on them are halved. 
+
         This effect lasts until they receive first aid in the form of a DC 12 heal check, or
         any form of magical healing.
 
-    Dual Wielding::section.feat
+    Two Weapon Fighting::section.feat
       Effect::text
         Each time you make an attack with your primary weapon, you can make an extra attack
         with your off-hand weapon.  The weapons must be one-handed.
@@ -157,29 +160,41 @@
       Normal::text
         Normally you must take a -4 penalty to attack a specific target in a group or melee with a ranged attack.
 
-    Rapid Shots::section.feat
+    Sharpshooter::section.feat
       Prerequisite::text
-        Ranged Style
+        Precise Shot
       Effect::text
-        When you take the full attack action with a ranged weapon, you can make one additional attack at your highest BAB, but all attacks are made with a -2 penalty.
+        Add ½ DEX bonus to damage with crossbows and guns.
+
+        The max precision damage range is increased to 60'.
 
     Rapid Reload::section.feat
       Prerequisite::text
-        Ranged Style
+        Precise Shot
+      Effect::section
+        ::text
+          You can reload gun and crossbows faster 
+
+        ::bullets
+          * move->no action
+          * standard -> move action, can also move half your speed.
+          * full round -> move action
+
+    Gun Fighting::section.feat
+      Prerequisite::text
+        Precise Shot
       Effect::text
-        You can reload gun and crossbows faster 
-
-        light crossbow: move->no action
-
-        heavy crossbow: full round -> move action)
-
-        HOW DO GUNS WORK?
+        You can add your BAB to the damage of your gun attacks.
 
     Swashbuckling::section.feat
       Effect::text
         Once per turn when you attack with a one-handed weapon, you may also attack with a
         one-handed ranged weapon in another hand with no two-weapon fighting penalty and
         without provoking attacks of opportunity.
+
+        You can reload a pistol as a move action.
+
+        If you fight with a sword-type weapon in one hand and the other hand is empty, you get a +2 dodge bonus to AC.
 
         You get a +2 bonus to flirting.
 

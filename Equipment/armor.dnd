@@ -6,7 +6,7 @@
         Padded Armor    | 5gp   | +1 | ∞       |   0           | x1    | 0     | No
         Leather         | 25gp  | +2 |    +6   |   0           | x1    | 1     | Maybe
         Studded Leather | 50gp  | +3 |    +5   |   -1          | x1    | 2     | Maybe
-        Chain Shirt     | 250gp | +4 |    +4   |   -3          | x1    | 2     | Probably
+        Chain Shirt     | 250gp | +4 |    +4   |   -3          | x1    | 2     | Yes
     Medium Armor::table.equipment
       ::head
         Armor           | Price | AC | Max Dex | Skill Penalty | Speed | Slots | Drown
@@ -30,3 +30,41 @@
         Buckler       | 15gp  | +1 vs melee  |    -0         |  0
         Wooden Shield | 10gp  | +1           |    -1         |  1
         Metal Shield  | 25gp  | +2           |    -2         |  2
+
+  Armor::section
+    Armor Proficiency::text
+      Characters can only wear armor they are proficient in.
+    Armor/Shield Bonus::text
+      Each armor grants an armor bonus to AC, while shields grant a shield bonus to AC. The armor bonus from a suit of armor doesn’t stack with other effects or items that grant an armor bonus. Similarly, the shield bonus from a shield doesn’t stack with other effects that grant a shield bonus.
+    Maximum Dex Bonus::text
+      This number is the maximum Dexterity bonus to AC that this type of armor allows. Heavier armors limit mobility, reducing the wearer’s ability to dodge blows. This restriction doesn’t affect any other Dexterity-related abilities.
+
+      Even if a character’s Dexterity bonus to AC drops to 0 because of armor, this situation does not count as losing a Dexterity bonus to AC.
+    Shields::text
+      Shields do not affect a character’s maximum Dexterity bonus.
+    Skill Penalty::section
+      ::text
+        Any armor heavier than leather hurts a character’s ability to use some skills. An armor's skill penalty is the penalty that applies to Climb, Escape Artist, Hide, Jump, Move Silently, and Tumble checks by a character wearing a certain kind of armor. 
+
+      Shields::text
+        If a character is wearing armor and using a shield, both  penalties apply.
+
+    Drown::text
+      The drown column indicates whether a character can swim while wearing the armor. This assumes open sea. A value of "Yes" means the character immediately starts sinking and swimming is impossible. A value of "Maybe" indicates a -10 penalty to swim.
+
+      See the drowning rules for how long you have once you start sinking.
+    Arcane Spellcasting::text
+      Wizards and sorcerers cannot cast spells while wearing any armor. The exception is elven fighter/wizards in elven chain.
+
+      Bards can only cast in light armor.
+    Speed::text
+      The speed column indicates a multipler on your base movement speed. Round up to the nearest 5' increment.
+
+      Heavy armor reduces your run speed from x4 to x3.
+    Slots::text
+      The slots column indicates the effective bulk of worn armor. Unworn armor encumbers by 5 more slots than this number.
+
+
+
+
+
