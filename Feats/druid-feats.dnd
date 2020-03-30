@@ -7,85 +7,85 @@
     Sudden Entangling Spell::section.feat
       2/day suddenly add entangling spell to a spell.
 
-  Wildfire Druid::section.feat
-    Effect::section
-      ::text
-        Add these spells to your druid spell list. You can cast them spontaneously, in the same way you can wild shape spontaneously.
+    Wildfire Druid::section.feat
+      Effect::section
+        ::text
+          Add these spells to your druid spell list. You can cast them spontaneously, in the same way you can wild shape spontaneously.
 
-        Additionally, you gain fire resist 5
+          Additionally, you gain fire resist 5
 
-      ::bullets
-        * Ray of Fire (level 0, 1d3 fire on touch attack)
-        * Burning Hands
-        * Scorching Ray
-        * Fireball
-        * Wall of Fire
+        ::bullets
+          * Ray of Fire (level 0, 1d3 fire on touch attack)
+          * Burning Hands
+          * Scorching Ray
+          * Fireball
+          * Wall of Fire
 
-  Storm Druid::section.feat
-    Effect::section
-      ::text
-        Add these spells to your druid spell list. You can cast them spontaneously, in the same way you can wild shape spontaneously.
-        Additionally, you gain electric resist 5
-      ::bullets
-        * Electric Jolt
-        * Jumping Bolt (Two targets within 30’, 1d4 per caster level, reflex for half)
-        * Lightning Strike (5’ radius, 3d6 + 1d6 per 2 levels above 3, reflex for half)
-        * Lightning Bolt
-        * Lightning Fog
+    Storm Druid::section.feat
+      Effect::section
+        ::text
+          Add these spells to your druid spell list. You can cast them spontaneously, in the same way you can wild shape spontaneously.
+          Additionally, you gain electric resist 5
+        ::bullets
+          * Electric Jolt
+          * Jumping Bolt (Two targets within 30’, 1d4 per caster level, reflex for half)
+          * Lightning Strike (5’ radius, 3d6 + 1d6 per 2 levels above 3, reflex for half)
+          * Lightning Bolt
+          * Lightning Fog
 
-  Wildshape Specialization::section.feat
-    Effect::text
-      You can speak while wildshaped. This does not allow you to cast spells with verbal components.
+    Wildshape Specialization::section.feat
+      Effect::text
+        You can speak while wildshaped. This does not allow you to cast spells with verbal components.
 
-      Additionally, when you cast a wildshape spell, you gain temp HP equal to the level of the spell.
-    Normal::text
-      You can't speak while wildshaped.
+        Additionally, when you cast a wildshape spell, you gain temp HP equal to the level of the spell.
+      Normal::text
+        You can't speak while wildshaped.
 
-  Wildshape Fighting Focus::section.feat
-    Effect::text
-      You get a +1 bonus to attacks while wildshaped.
+    Wildshape Fighting Focus::section.feat
+      Effect::text
+        You get a +1 bonus to attacks while wildshaped.
 
-  Ferocious Wildshape::section.feat
-    Prerequisite::text
-      Wildshape Specialization
-    Effect::text
-      When you take the charge action while shapeshifted, you get an additional attack at your highest BAB, but all your attacks suffer a -2 attack penalty.
+    Ferocious Wildshape::section.feat
+      Prerequisite::text
+        Wildshape Specialization
+      Effect::text
+        When you take the charge action while shapeshifted, you get an additional attack at your highest BAB, but all your attacks suffer a -2 attack penalty.
 
-  Beast Senses::section.feat
-    Prerequisite::text
-      Wildshape Specialization
-    Effect::text
-      Even when not transformed, you can make scent checks.
+    Beast Senses::section.feat
+      Prerequisite::text
+        Wildshape Specialization
+      Effect::text
+        Even when not transformed, you can make scent checks.
 
-      You get a +2 bonus to spot, listen, and scent.
+        You get a +2 bonus to spot, listen, and scent.
 
 
-  Bestial Fury::section.feat
-    Prerequisite::text
-      Wildshape Specialization
-    Effect::text
-      Once per day while shapeshifted, you can rage like a barbarian. The rage ends early if you transform back into a person.
+    Bestial Fury::section.feat
+      Prerequisite::text
+        Wildshape Specialization
+      Effect::text
+        Once per day while shapeshifted, you can rage like a barbarian. The rage ends early if you transform back into a person.
 
-  Extra Wildshaping::section.feat
-    Prerequisite::text
-      Wildshape Specialization
-    Effect::text
-      You gain an extra spell slot of the highest level you normally have access to which can only be used to cast a wildshape spell.
+    Extra Wildshaping::section.feat
+      Prerequisite::text
+        Wildshape Specialization
+      Effect::text
+        You gain an extra spell slot of the highest level you normally have access to which can only be used to cast a wildshape spell.
 
-  Animal Speech::section.feat
-    Effect::text
-      You can cast Speak with Animals as a spell like ability at will.
+    Animal Speech::section.feat
+      Effect::text
+        You can cast Speak with Animals as a spell like ability at will.
 
-      If you speak with an animal and learn a bit of its concerns and interests, you get a +4 bonus to any diplomacy/wild empathy checks on that animal.
+        If you speak with an animal and learn a bit of its concerns and interests, you get a +4 bonus to any diplomacy/wild empathy checks on that animal.
 
-  Animal Mind::section.feat
-    Effect::text
-      +1 to will saves
+    Animal Mind::section.feat
+      Effect::text
+        +1 to will saves
 
-      As an immediate action when you fail a will save, you may cast a wildshape spell. If you do, you save against the effect instead. However, you must spend your next turn with the brain of the animal you turned into. A bear might attack things it thinks are enemies, but an owl will probably fly away.
+        As an immediate action when you fail a will save, you may cast a wildshape spell. If you do, you save against the effect instead. However, you must spend your next turn with the brain of the animal you turned into. A bear might attack things it thinks are enemies, but an owl will probably fly away.
 
-  Warden::section.feat
-    Effect::text
-      +1 to attack and damage with weapon attacks. This includes spell weapons like Flame Blade, but not natural weapons. This effect is doubled for spell weapons like Flame Blade.
-    
-      You gain +3 HP.
+    Warden::section.feat
+      Effect::text
+        +1 to attack and damage with weapon attacks. This includes spell weapons like Flame Blade, but not natural weapons. This effect is doubled for spell weapons like Flame Blade.
+      
+        You gain +3 HP.
