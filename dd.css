@@ -310,3 +310,39 @@ div.maneuver_title{
     font-weight: bold;
     margin-bottom:.3em;
 }
+
+table.equipment .odd {
+    background-color: rgb(205,200,184);
+}
+
+table.equipment tr td:nth-child(1) {
+    width: 12em;
+}
+table.equipment tr td:nth-child(2) {
+    width: 5em;
+    text-align: right;
+}
+table.equipment tr td:nth-child(3) {
+    width: 4em;
+    text-align:center;
+}
+table.equipment tr td:nth-child(4) {
+    width: 6em;
+    text-align:center;
+}
+table.equipment tr td:nth-child(5) {
+    width: 4em;
+    text-align:center;
+}
+table.equipment tr td:nth-child(6) {
+    width: auto;
+    text-align:center;
+}
+table.equipment tr td:nth-child(7) {
+    width: auto;
+    text-align:center;
+}
+table.equipment tr td:nth-child(8) {
+    width: auto;
+    text-align:center;
+}
