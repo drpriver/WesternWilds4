@@ -1,4 +1,76 @@
   Fighter Feats::section.class_feats
+    Martial Maneuvers::section.feat
+      Effect::section
+        ::text
+          Pick two maneuvers from the list below. You can use those maneuvers once per battle. Most are made as part of an attack.
+
+          You can only apply one of these to a single attack.
+
+        ::div.maneuver
+          ::div.maneuver_title
+            Sweeping Blow
+          ::div.maneuver_text
+            This melee attack attacks two adjacent creatures within your reach (only roll one attack).
+        ::div.maneuver
+          ::div.maneuver_title
+            Brazen Attack
+          ::div.maneuver_text
+            This melee attack gets a +4 bonus, but you suffer -4 to your AC until beginning of the next turn.
+        ::div.maneuver
+          ::div.maneuver_title
+            Focused Attack
+          ::div.maneuver_text
+            Roll two attack rolls for this attack.
+            You may pick which roll to use. 
+            If you use the lower roll, your attack deals an extra 1d6 damage.
+        ::div.maneuver
+          ::div.maneuver_title
+            Blocking Attack
+          ::div.maneuver_text
+            If you hit with this melee attack, that creature can only take opportunity attacks against you this turn.
+        ::div.maneuver
+          ::div.maneuver_title
+            Clever Positioning
+          ::div.maneuver_text
+            If you hit with this melee attack, you and the creature swap positions. Neither of you need to spend movement.
+        ::div.maneuver
+          ::div.maneuver_title
+            Overwhelming Attack
+          ::div.maneuver_text
+            If you hit with this melee attack, the creature loses their move action on their next turn.
+        ::div.maneuver
+          ::div.maneuver_title
+            Leap Attack
+          ::div.maneuver_text
+            For this melee attack, you can use your ranks in jump instead of your base attack bonus. For every 5 points you exceed their AC, you deal an extra 1d6 damage. Any miscellaneous bonuses to jump you have (such as [Halfling athleticism]) applies to this attack.
+        ::div.maneuver
+          ::div.maneuver_title
+            Distracting Attack
+          ::div.maneuver_text
+            If you hit with this melee attack, your allies get a +2 bonus against that enemy. This enables sneak attack.
+        ::div.maneuver
+          ::div.maneuver_title
+            Stonecold Attack
+          ::div.maneuver_text
+            If you hit with this melee attack, you gain DR 5/- (all sources of damage deal 5 less to you) until yyour next turn.
+        ::div.maneuver
+          ::div.maneuver_title
+            Impairing Attack
+          ::div.maneuver_text
+            If you hit with this melee attack, the victim suffers -4 to their attacks until your next turn.
+        ::div.maneuver
+          ::div.maneuver_title
+            Dedicated Attack
+          ::div.maneuver_text
+            Use this after you miss. You can reroll.
+        ::div.maneuver
+          ::div.maneuver_title
+            Critical Attack
+          ::div.maneuver_text
+            If you hit with this attack, you deal double damage.
+      Special::text
+        You can take this feat multiple times. Each time, pick two new maneuvers. You can use each maneuver once per battle.
+
     Power Attack::section.feat
       Effect::text
         On your action, before making attack rolls for a round, you may choose to subtract a
@@ -240,15 +312,3 @@
     Quick Draw::section.feat
       Effect::text
         You can draw/stow weapons as free actions instead of as a move action.
-
-    ::commented
-      Martial Maneuvers
-      You gain a stamina pool with 1 point in it. You also learn two of the following maneuvers. Using a maneuver costs 1 stamina point. Stamina points are recovered at the start of an encounter (including non-combat encounters). Each additional time you take this feat, gain 1 stamina point and learn 1 maneuver.
-      Deflect: When an attack would hit you, as an immediate action you can force the attacker to reroll the attack.
-      Double Strike: Once per turn when you make a melee attack, you can make an additional melee attack against another adjacent enemy.
-      Distracting Attack: When you make an attack, you can declare it a distracting attack. If you hit, allies get a +4 bonus on their attacks against that enemy for 1 round.
-      Swift Step: As a swift action, increase your move speed by 20’ this turn. Additionally, you ignore rough terrain like debri and stairs (not when you are waist deep in mud).
-      Mighty Throw: When you have an enemy grappled, you can make a grapple check. If you succeed, you can throw them up to 15 feet away and they take (d6 per 5’)+STR bludgeoning damage. They land prone.
-      Frenzy: Ignore all penalties for two-weapon fighting this turn.
-      Blitz: Make a charge attack with an additional +2 attack bonus. You do not provoke attacks of opportunity this turn.
-      Godslayer: Once per turn when you make an attack, you can declare it a Godslayer attack. If you hit, you deal double damage. Costs 2 stamina

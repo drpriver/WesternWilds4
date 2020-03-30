@@ -5,10 +5,10 @@
     <title>Rules</title>
     <style>
       *{
-      	box-sizing:border-box;
+          box-sizing:border-box;
       }
       *::-webkit-scrollbar {
-      	display:none;
+          display:none;
       }
       a, img {
         -webkit-user-drag: none;
@@ -18,79 +18,79 @@
         user-drag: none;
       }
       html, body {
-      	height: 100%;
-      	margin: 0;
-      	font-family: "Tahoma";
+          height: 100%;
+          margin: 0;
+          font-family: "Tahoma";
       }
       body {
-      	background-color: rgb(228,223,204);
+          background-color: rgb(228,223,204);
       }
       div.grid_container{
-      	display: grid;
-      	grid-template-columns: 20% 80%;
-      	grid-template-rows: 5% 95%;
-      	height:100%;
-      	width:100%;
-      	}
+          display: grid;
+          grid-template-columns: 20% 80%;
+          grid-template-rows: 5% 95%;
+          height:100%;
+          width:100%;
+          }
       
       h1,h2,h3,h4,h5,h6 {
-      	font-family: "Tahoma";
+          font-family: "Tahoma";
       
       }
       
       h1 {
-      	font-size:2em;
-      	margin-top: 0;
+          font-size:2em;
+          margin-top: 0;
       }
       
       h2 {
-      	font-size:1.5em;
+          font-size:1.5em;
       }
       
       h3 {
-      	font-size:1.17em;
-      	color: #58180D;
+          font-size:1.17em;
+          color: #58180D;
       }
       
       h4 {
-      	font-size:1em;
-      	color: #58180D;
+          font-size:1em;
+          color: #58180D;
       
       }
       
       h5 {
-      	font-size:.83em;
-      	color: #58180D;
+          font-size:.83em;
+          color: #58180D;
       }
       
       h6 {
-      	font-size:.67em;
-      	color: #58180D;
+          font-size:.67em;
+          color: #58180D;
       }
       
       h3,h4,h5 {
       color: rgb(88,24,13);
       }
       h1, h2, h3 {
-      	border-bottom: 1px solid #aaaaaa;
-      	max-width: 800px;
+          border-bottom: 1px solid #aaaaaa;
+          max-width: 800px;
       }
       
       
       nav {
-      	font-size: .7em;
-      	padding-bottom: 50%;
-      	/*overflow-y:scroll;*/
+          font-size: .7em;
+          padding-bottom: 50%;
+          /*overflow-y:scroll;*/
       }
       
       img {
-      	width:100%;
+          width:100%;
       }
       
       .left a {
-      	font-size: 14px;
-      	display: block;
-      	border-bottom: none;
+          font-size: 14px;
+          display: block;
+          border-bottom: none;
       }
       a {
           text-decoration: none;
@@ -98,135 +98,135 @@
           border-bottom: 1px grey dotted;
       }
       .left {
-      	grid-column: 1;
-      	grid-row-start: 2;
-      	grid-row-end: 3;
-      	height:100%;
-      	overflow-y:scroll;
+          grid-column: 1;
+          grid-row-start: 2;
+          grid-row-end: 3;
+          height:100%;
+          overflow-y:scroll;
       }
       .center {
-      	padding: 0 10px;
-      	padding-left: 4em;
-      	max-width: 80%;
-      	grid-column-start: 2;
-      	grid-column-end: 3;
-      	grid-row-start:1;
-      	grid-row-end:3;
-      	overflow-y: scroll;
-      	padding-bottom: 20em;
+          padding: 0 10px;
+          padding-left: 4em;
+          max-width: 80%;
+          grid-column-start: 2;
+          grid-column-end: 3;
+          grid-row-start:1;
+          grid-row-end:3;
+          overflow-y: scroll;
+          padding-bottom: 20em;
       }
       span.button {
-      	background: lightblue;
-      	color: black;
-      	padding: 1em 1em 1em 1em;
-      	margin: 2em 1em;
-      	display: block;
-      	text-align: center;
+          background: lightblue;
+          color: black;
+          padding: 1em 1em 1em 1em;
+          margin: 2em 1em;
+          display: block;
+          text-align: center;
       }
       span.button:hover {
-      	cursor: pointer;
+          cursor: pointer;
       }
       div.buttonContainer {
           display: flex;
-      	position: absolute;
-      	left: .5em;
-      	top: .5em;
+          position: absolute;
+          left: .5em;
+          top: .5em;
       }
       
       .top {
-      	margin:auto;
-      	grid-column: 1;
-      	grid-row: 1;
-      	flex-direction: row;
-      	justify-content: left;
-      	align-content: center;
-      	display:flex;
+          margin:auto;
+          grid-column: 1;
+          grid-row: 1;
+          flex-direction: row;
+          justify-content: left;
+          align-content: center;
+          display:flex;
       }
       .top a {
-      	background-color:lightgrey;
-      	padding: 10px;
-      	cursor:pointer;
-      	border:none;
+          background-color:lightgrey;
+          padding: 10px;
+          cursor:pointer;
+          border:none;
       }
       .top a:hover {
-      	background-color: darkgrey;
+          background-color: darkgrey;
       }
       .center p, .center ol, .center ul {
-      	max-width: 50em;
+          max-width: 50em;
       }
       @media only screen and (max-width: 720px) {
-      	.center {
-      		margin:auto;
-      		max-width: 100vw;
-      	}
-      	nav li ul {
-      		display: none;
-      	}
+          .center {
+              margin:auto;
+              max-width: 100vw;
+          }
+          nav li ul {
+              display: none;
+          }
       
       }
       table {
-      	border-collapse: collapse;
-      	margin: 2rem;
-      	margin-top: 0;
-      	text-align: left;
-      	}
+          border-collapse: collapse;
+          margin: 2rem;
+          margin-top: 0;
+          text-align: left;
+          }
       th, td {
-      	padding: .2em 1em;
-      	border: 1px solid black;
-      	text-align: left;
-      	}
+          padding: .2em 1em;
+          border: 1px solid black;
+          text-align: left;
+          }
       table {
-      	max-width: 90%;
+          max-width: 90%;
       }
       table.text_table {
-      	text-align: left;
+          text-align: left;
       }
       table.text_table .even {
-      	background-color: initial;
+          background-color: initial;
       }
       table ul {
-      	-webkit-margin-before: 0;
-      	-webkit-margin-after: 0;
+          -webkit-margin-before: 0;
+          -webkit-margin-after: 0;
       }
       table.puny {
-      	max-width: 10em;
+          max-width: 10em;
       }
       table.tiny {
-      	max-width: 20em;
+          max-width: 20em;
       }
       table.small {
-      	max-width: 30em;
+          max-width: 30em;
       }
       table.medium {
-      	max-width: 40em;
+          max-width: 40em;
       }
       table.large {
-      	max-width: 50em;
+          max-width: 50em;
       }
       table.class_table {
-      	max-width: 90%;
+          max-width: 90%;
       }
       section.feat {
-      	border: 1px solid grey;
-      	padding: 12px;
-      	margin-bottom: .5em;
-      	margin-left: 6px;
-      	margin-right:6px;
-      	width:50em;
+          border: 1px solid grey;
+          padding: 12px;
+          margin-bottom: .5em;
+          margin-left: 6px;
+          margin-right:6px;
+          width:50em;
       }
       
       section.spell{
-      	border-top: 1px solid black;
-      	padding-top: 1em;
+          border-top: 1px solid black;
+          padding-top: 1em;
       }
       section.spell td:first-child{
-      	text-align: right;
+          text-align: right;
       }
       section.spell thead {
-      	display: none;
+          display: none;
       }
       section.spell td{
-      	border: none;
+          border: none;
       }
       section.spell h1,
       section.spell h2,
@@ -234,45 +234,45 @@
       section.spell h4,
       section.spell h5,
       section.spell h6{
-      	font-weight: bold;
-      	color: black;
-      	font-size: 16px;
+          font-weight: bold;
+          color: black;
+          font-size: 16px;
       }
       section.feat h4,
       section.feat h3 {
-      	margin-block-start:0px;
+          margin-block-start:0px;
       }
       section h3,
       section h4,
       section h5,
       section h6{
-      	margin-bottom:2px;
+          margin-bottom:2px;
       }
       section h3+p,
       section h4+p,
       section h5+p,
       section h6+p {
-      	margin-top:0;
+          margin-top:0;
       }
       section h3+div>p,
       section h4+div>p,
       section h5+div>p,
       section h6+div>p {
-      	margin-top:0;
+          margin-top:0;
       }
       
       section.skill_description {
-      	border-top: 1px solid black;
-      	padding-top: 1em;
+          border-top: 1px solid black;
+          padding-top: 1em;
       }
       section.character_class section.skill_description h5{
-      	font-size:1.17em;
-      	color: #58180D;
+          font-size:1.17em;
+          color: #58180D;
       }
       
       section.character_class section.skill_description h6{
-      	font-size:.67em;
-      	color: #58180D;
+          font-size:.67em;
+          color: #58180D;
       }
       section.chapter+hr{
           overflow: visible; /* For IE */
@@ -296,14 +296,25 @@
           padding: 0 0.25em;
       }
       table.spell_list *{
-      	border: none;
-      	/*border-bottom: 1px solid black;*/
+          border: none;
+          /*border-bottom: 1px solid black;*/
       }
       table.spell_list .even {
-      	background-color: rgb(205,200,184);
+          background-color: rgb(205,200,184);
       }
       table.spell_list thead {
-      	display:none;
+          display:none;
+      }
+      div.maneuver{
+          border: 1px solid grey;
+          padding: 12px;
+          margin-bottom: .5em;
+          margin-left: 6px;
+          margin-right: 6px;
+      }
+      div.maneuver_title{
+          font-weight: bold;
+          margin-bottom:.3em;
       }
     </style>
     <script>
@@ -8836,9 +8847,164 @@
           <section class="class_feats">
             <h3 id="fighter-feats">Fighter Feats</h3>
             <section class="feat">
+              <h4 id="martial-maneuvers">Martial Maneuvers</h4>
+              <section>
+                <h5 id="effect75">Effect</h5>
+                <div>
+                  
+                  <p>
+                    Pick two maneuvers from the list below. You can use those maneuvers once per battle. Most are made as part of an attack.
+                  </p>
+                  <p>
+                    You can only apply one of these to a single attack.
+                  </p>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Sweeping Blow
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    This melee attack attacks two adjacent creatures within your reach (only roll one attack).
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Brazen Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    This melee attack gets a +4 bonus, but you suffer -4 to your AC until beginning of the next turn.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Focused Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    Roll two attack rolls for this attack.
+                    You may pick which roll to use. 
+                    If you use the lower roll, your attack deals an extra 1d6 damage.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Blocking Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    If you hit with this melee attack, that creature can only take opportunity attacks against you this turn.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Clever Positioning
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    If you hit with this melee attack, you and the creature swap positions. Neither of you need to spend movement.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Overwhelming Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    If you hit with this melee attack, the creature loses their move action on their next turn.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Leap Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    For this melee attack, you can use your ranks in jump instead of your base attack bonus. For every 5 points you exceed their AC, you deal an extra 1d6 damage. Any miscellaneous bonuses to jump you have (such as <a href="#halfling-athleticism">Halfling athleticism</a>) applies to this attack.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Distracting Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    If you hit with this melee attack, your allies get a +2 bonus against that enemy. This enables sneak attack.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Stonecold Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    If you hit with this melee attack, you gain DR 5/- (all sources of damage deal 5 less to you) until yyour next turn.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Impairing Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    If you hit with this melee attack, the victim suffers -4 to their attacks until your next turn.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Dedicated Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    Use this after you miss. You can reroll.
+                  </div>
+                </div>
+                <div class="maneuver">
+                  
+                  <div class="maneuver_title">
+                    
+                    Critical Attack
+                  </div>
+                  <div class="maneuver_text">
+                    
+                    If you hit with this attack, you deal double damage.
+                  </div>
+                </div>
+              </section>
+              <div>
+                <h5 id="special15">Special</h5>
+                <p>
+                  You can take this feat multiple times. Each time, pick two new maneuvers. You can use each maneuver once per battle.
+                </p>
+              </div>
+            </section>
+            <section class="feat">
               <h4 id="power-attack1">Power Attack</h4>
               <div>
-                <h5 id="effect75">Effect</h5>
+                <h5 id="effect76">Effect</h5>
                 <p>
                   On your action, before making attack rolls for a round, you may choose to subtract a
                   number from all weapon attack rolls and add the same number to all weapon damage
@@ -8866,7 +9032,7 @@
             <section class="feat">
               <h4 id="combat-expertise">Combat Expertise</h4>
               <div>
-                <h5 id="effect76">Effect</h5>
+                <h5 id="effect77">Effect</h5>
                 <p>
                   On your action, before making attack rolls for a round, you may choose to subtract a number from all melee weapon attack rolls and add the same number to your AC. The penalty on attacks and bonus on AC apply until the start of your next turn.
                 </p>
@@ -8890,7 +9056,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect77">Effect</h5>
+                <h5 id="effect78">Effect</h5>
                 <p>
                   If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach.
                   The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature.
@@ -8912,7 +9078,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect78">Effect</h5>
+                <h5 id="effect79">Effect</h5>
                 <p>
                   There is no limit on the number of cleaves you can make in a turn. Additionally, you can move in between cleave attacks (not restricted to 5' steps).
                 </p>
@@ -8921,7 +9087,7 @@
             <section class="feat">
               <h4 id="two-weapon-style1">Two Weapon Style</h4>
               <div>
-                <h5 id="effect79">Effect</h5>
+                <h5 id="effect80">Effect</h5>
                 <p>
                   Each time you make an attack with your primary weapon, you can make an extra attack
                   with your off-hand weapon.  The weapons must be one-handed or a double weapon.
@@ -8941,7 +9107,7 @@
             <section class="feat">
               <h4 id="two-weapon-defense">Two Weapon Defense</h4>
               <div>
-                <h5 id="effect80">Effect</h5>
+                <h5 id="effect81">Effect</h5>
                 <p>
                   When fighting with a double weapon or with two weapons, you gain a +1 shield bonus to AC. This shield bonus doubles if you fight defensively, take total defense or use <a href="#combat-expertise">combat expertise</a>.
                 </p>
@@ -8950,7 +9116,7 @@
             <section class="feat">
               <h4 id="combat-tactics1">Combat Tactics</h4>
               <div>
-                <h5 id="effect81">Effect</h5>
+                <h5 id="effect82">Effect</h5>
                 <p>
                   You gain a +2 bonus when tripping or disarming.
                 </p>
@@ -8968,7 +9134,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect82">Effect</h5>
+                <h5 id="effect83">Effect</h5>
                 <p>
                   Your bonus from combat tactics improves from +2 to +4
                 </p>
@@ -8977,7 +9143,7 @@
             <section class="feat">
               <h4 id="combat-brawn1">Combat Brawn</h4>
               <div>
-                <h5 id="effect83">Effect</h5>
+                <h5 id="effect84">Effect</h5>
                 <p>
                   You gain a +2 bonus when bullrushing, grappling and overrunning.
                 </p>
@@ -8989,7 +9155,7 @@
             <section class="feat">
               <h4 id="greater-combat-brawn1">Greater Combat Brawn</h4>
               <div>
-                <h5 id="effect84">Effect</h5>
+                <h5 id="effect85">Effect</h5>
                 <p>
                   Your bonus from combat brawn increases from +2 to +4
                 </p>
@@ -9004,7 +9170,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect85">Effect</h5>
+                <h5 id="effect86">Effect</h5>
                 <p>
                   When you hit an enemy with a charge attack, you can make a free bullrush attempt. If you succeed, you can push them in any direction up to 10 feet.
                 </p>
@@ -9019,7 +9185,7 @@
             <section class="feat">
               <h4 id="combat-reflexes">Combat Reflexes</h4>
               <div>
-                <h5 id="effect86">Effect</h5>
+                <h5 id="effect87">Effect</h5>
                 <p>
                   You may make up to three attacks of opportunity each round. You receive a +2 bonus on these attacks.
                 </p>
@@ -9034,7 +9200,7 @@
             <section class="feat">
               <h4 id="two-handed-style1">Two-Handed Style</h4>
               <div>
-                <h5 id="effect87">Effect</h5>
+                <h5 id="effect88">Effect</h5>
                 <p>
                   When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemy that is adjacent to you as well.
                 </p>
@@ -9043,7 +9209,7 @@
             <section class="feat">
               <h4 id="ranged-style">Ranged Style</h4>
               <div>
-                <h5 id="effect88">Effect</h5>
+                <h5 id="effect89">Effect</h5>
                 <p>
                   You don't suffer the -4 penalty for firing into a melee.
                 </p>
@@ -9064,7 +9230,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect89">Effect</h5>
+                <h5 id="effect90">Effect</h5>
                 <p>
                   When you take the full attack action with a ranged weapon, you can make one additional attack at your highest BAB, but all attacks are made with a -2 penalty.
                 </p>
@@ -9079,7 +9245,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect90">Effect</h5>
+                <h5 id="effect91">Effect</h5>
                 <p>
                   You can reload gun and crossbows faster
                 </p>
@@ -9103,7 +9269,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect91">Effect</h5>
+                <h5 id="effect92">Effect</h5>
                 <p>
                   Add ½ DEX bonus to damage with crossbows and guns.
                 </p>
@@ -9121,7 +9287,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect92">Effect</h5>
+                <h5 id="effect93">Effect</h5>
                 <p>
                   When you hit an enemy with multiple ranged attacks in a single turn, damage reduction is only applied once.
                 </p>
@@ -9130,7 +9296,7 @@
             <section class="feat">
               <h4 id="throwing-style">Throwing Style</h4>
               <div>
-                <h5 id="effect93">Effect</h5>
+                <h5 id="effect94">Effect</h5>
                 <p>
                   Range increment for throwing weapons increased to 45’ if less than 45'.
                 </p>
@@ -9142,7 +9308,7 @@
             <section class="feat">
               <h4 id="shield-style">Shield Style</h4>
               <div>
-                <h5 id="effect94">Effect</h5>
+                <h5 id="effect95">Effect</h5>
                 <p>
                   +1 AC when using a shield.
                 </p>
@@ -9160,7 +9326,7 @@
             <section class="feat">
               <h4 id="swashbuckler-style">Swashbuckler Style</h4>
               <div>
-                <h5 id="effect95">Effect</h5>
+                <h5 id="effect96">Effect</h5>
                 <p>
                   Once per turn when you attack with a one-handed weapon, you may also attack with a one-handed ranged weapon in another hand with no two-weapon fighting penalty and without provoking attacks of opportunity.
                 </p>
@@ -9172,7 +9338,7 @@
             <section class="feat">
               <h4 id="finesse-style">Finesse Style</h4>
               <div>
-                <h5 id="effect96">Effect</h5>
+                <h5 id="effect97">Effect</h5>
                 <p>
                   You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
                 </p>
@@ -9184,7 +9350,7 @@
             <section class="feat">
               <h4 id="weapon-focus">Weapon Focus</h4>
               <div>
-                <h5 id="effect97">Effect</h5>
+                <h5 id="effect98">Effect</h5>
                 <p>
                   Choose a class of weapon: sword, axe, hammer, polearm, bow, crossbow, gun, or flail.
                 </p>
@@ -9193,7 +9359,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="special15">Special</h5>
+                <h5 id="special16">Special</h5>
                 <p>
                   You can take this feat more than once. Each time, choose a different class of weapon for it to apply to.
                 </p>
@@ -9208,7 +9374,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect98">Effect</h5>
+                <h5 id="effect99">Effect</h5>
                 <p>
                   You receive a +2 bonus to damage with the classes of weapons in which you have weapon focus.
                 </p>
@@ -9223,7 +9389,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect99">Effect</h5>
+                <h5 id="effect100">Effect</h5>
                 <p>
                   Increase the critical range by 1 for any weapon you have weapon focus.
                 </p>
@@ -9232,7 +9398,7 @@
             <section class="feat">
               <h4 id="provoker">Provoker</h4>
               <div>
-                <h5 id="effect100">Effect</h5>
+                <h5 id="effect101">Effect</h5>
                 <p>
                   Once per enemy, when you hit them with a melee attack, you may make a DC 15 bluff check. If you succeed, that enemy must target you next round. If they make multiple attacks, they must continue targeting you until they hit you once. If they use an ability with an area, you must be inside the area. If they use a single target ability, they must target you.
                 </p>
@@ -9244,7 +9410,7 @@
             <section class="feat">
               <h4 id="skirmisher-stances">Skirmisher Stances</h4>
               <div>
-                <h5 id="effect101">Effect</h5>
+                <h5 id="effect102">Effect</h5>
                 <p>
                   As a swift action, you can change between the following stances. You can only have one active stance at a time.
                 </p>
@@ -9259,7 +9425,7 @@
             <section class="feat">
               <h4 id="vanguard-stances">Vanguard Stances</h4>
               <div>
-                <h5 id="effect102">Effect</h5>
+                <h5 id="effect103">Effect</h5>
                 <p>
                   As a swift action, you can change between the following stances. You can only have one active stance at a time.
                 </p>
@@ -9280,7 +9446,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect103">Effect</h5>
+                <h5 id="effect104">Effect</h5>
                 <p>
                   If you move, attack, and then move again, you do not provoke attacks of opportunity from the target of your attack(s). Intent is all that matters here (you might fall in a pit and be unable to attack).
                 </p>
@@ -9295,7 +9461,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect104">Effect</h5>
+                <h5 id="effect105">Effect</h5>
                 <p>
                   When you use attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.
                 </p>
@@ -9307,7 +9473,7 @@
             <section class="feat">
               <h4 id="blind-fight">Blind-Fight</h4>
               <div>
-                <h5 id="effect105">Effect</h5>
+                <h5 id="effect106">Effect</h5>
                 <p>
                   In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.
                 </p>
@@ -9322,7 +9488,7 @@
             <section class="feat">
               <h4 id="exotic-weapon-proficiency">Exotic Weapon Proficiency</h4>
               <div>
-                <h5 id="effect106">Effect</h5>
+                <h5 id="effect107">Effect</h5>
                 <p>
                   You become proficient will all exotic weapons.
                 </p>
@@ -9331,7 +9497,7 @@
             <section class="feat">
               <h4 id="improved-feint">Improved Feint</h4>
               <div>
-                <h5 id="effect107">Effect</h5>
+                <h5 id="effect108">Effect</h5>
                 <p>
                   You can <a href="#feinting-in-combat">feint</a> as a move action instead of as a standard action. If you succeed, the feint bonus is +4 instead of +2.
                 </p>
@@ -9340,13 +9506,12 @@
             <section class="feat">
               <h4 id="quick-draw">Quick Draw</h4>
               <div>
-                <h5 id="effect108">Effect</h5>
+                <h5 id="effect109">Effect</h5>
                 <p>
                   You can draw/stow weapons as free actions instead of as a move action.
                 </p>
               </div>
             </section>
-            
           </section>
           <section class="class_feats">
             <h3 id="thief-feats">Thief Feats</h3>
@@ -9361,7 +9526,7 @@
               <h4 id="spy">Spy</h4>
               Style
               <div>
-                <h5 id="effect109">Effect</h5>
+                <h5 id="effect110">Effect</h5>
                 <p>
                   +4 to disguise, bluff, and forgery
                 </p>
@@ -9371,7 +9536,7 @@
               <h4 id="assassin">Assassin</h4>
               Style
               <div>
-                <h5 id="effect110">Effect</h5>
+                <h5 id="effect111">Effect</h5>
                 <p>
                   Once per turn when you deal sneak attack damage while hiding in shadows, you gain bonus damage equal to twice your level.
                 </p>
@@ -9381,7 +9546,7 @@
               <h4 id="master-thief">Master Thief</h4>
               Style
               <div>
-                <h5 id="effect111">Effect</h5>
+                <h5 id="effect112">Effect</h5>
                 <p>
                   +1 to all thief skills
                   +2 to stealth
@@ -9391,7 +9556,7 @@
             <section class="feat">
               <h4 id="lucky-thief">Lucky Thief</h4>
               <div>
-                <h5 id="effect112">Effect</h5>
+                <h5 id="effect113">Effect</h5>
                 <p>
                   Gain two luck points that recover each day.
                 </p>
@@ -9406,7 +9571,7 @@
             <section class="feat">
               <h4 id="lucky-recovery">Lucky Recovery</h4>
               <div>
-                <h5 id="effect113">Effect</h5>
+                <h5 id="effect114">Effect</h5>
                 <p>
                   Gain two luck points that recover each day.
                 </p>
@@ -9421,7 +9586,7 @@
             <section class="feat">
               <h4 id="lucky-save">Lucky Save</h4>
               <div>
-                <h5 id="effect114">Effect</h5>
+                <h5 id="effect115">Effect</h5>
                 <p>
                   Gain one luck point that recovers each day.
                 </p>
@@ -9436,7 +9601,7 @@
             <section class="feat">
               <h4 id="lucky-shot">Lucky Shot</h4>
               <div>
-                <h5 id="effect115">Effect</h5>
+                <h5 id="effect116">Effect</h5>
                 <p>
                   Gain two luck points that recover each day.
                 </p>
@@ -9451,7 +9616,7 @@
             <section class="feat">
               <h4 id="improved-hide">Improved Hide</h4>
               <div>
-                <h5 id="effect116">Effect</h5>
+                <h5 id="effect117">Effect</h5>
                 <p>
                   Creatures with the scent skill roll against your hide check instead of a fixed DC.
                 </p>
@@ -9463,7 +9628,7 @@
             <section class="feat">
               <h4 id="improved-flanking">Improved Flanking</h4>
               <div>
-                <h5 id="effect117">Effect</h5>
+                <h5 id="effect118">Effect</h5>
                 <p>
                   You are considered flanking if you and an ally are at least 90 degrees from each other.
                 </p>
@@ -9478,7 +9643,7 @@
                 </p>
               </div>
               <section>
-                <h5 id="effect118">Effect</h5>
+                <h5 id="effect119">Effect</h5>
                 <div>
                   
                   <p>
@@ -9533,7 +9698,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect119">Effect</h5>
+                <h5 id="effect120">Effect</h5>
                 <p>
                   +2 on saves against spells and spell-like abilities
                 </p>
@@ -9551,7 +9716,7 @@
             <section class="feat">
               <h4 id="skilled1">Skilled</h4>
               <div>
-                <h5 id="effect120">Effect</h5>
+                <h5 id="effect121">Effect</h5>
                 <p>
                   Pick one skill. That skill gets a +3 bonus.
                 </p>
@@ -9563,7 +9728,7 @@
             <section class="feat">
               <h4 id="skirmisher">Skirmisher</h4>
               <div>
-                <h5 id="effect121">Effect</h5>
+                <h5 id="effect122">Effect</h5>
                 <p>
                   If you are able to maneuver around, your opponent's partially weakened defenses allows a partial sneak attack.
                 </p>
@@ -9581,7 +9746,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect122">Effect</h5>
+                <h5 id="effect123">Effect</h5>
                 <p>
                   Once per day, you can become invisible as per the greater invisibility spell as a swift action. The effect lasts until the end of your turn.
                 </p>
@@ -9596,7 +9761,7 @@
                 </p>
               </div>
               <section>
-                <h5 id="effect123">Effect</h5>
+                <h5 id="effect124">Effect</h5>
                 <div>
                   
                   <p>
@@ -9625,7 +9790,7 @@
             <section class="feat">
               <h4 id="ambusher">Ambusher</h4>
               <div>
-                <h5 id="effect124">Effect</h5>
+                <h5 id="effect125">Effect</h5>
                 <p>
                   If you would get a surprise round, you roll a 20 on your initiative check.
                 </p>
@@ -9640,7 +9805,7 @@
             <section class="feat">
               <h4 id="poisoner">Poisoner</h4>
               <div>
-                <h5 id="effect125">Effect</h5>
+                <h5 id="effect126">Effect</h5>
                 <p>
                   You can prepare and apply a poison to your weapons. Others can't use it because they
                   suck and would poison and kill themselves.
@@ -9657,7 +9822,7 @@
             <section class="feat">
               <h4 id="dual-wielding">Dual Wielding</h4>
               <div>
-                <h5 id="effect126">Effect</h5>
+                <h5 id="effect127">Effect</h5>
                 <p>
                   Each time you make an attack with your primary weapon, you can make an extra attack
                   with your off-hand weapon.  The weapons must be one-handed.
@@ -9674,7 +9839,7 @@
             <section class="feat">
               <h4 id="precise-shot">Precise Shot</h4>
               <div>
-                <h5 id="effect127">Effect</h5>
+                <h5 id="effect128">Effect</h5>
                 <p>
                   You don't suffer the -4 penalty for firing into a melee.
                 </p>
@@ -9695,7 +9860,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect128">Effect</h5>
+                <h5 id="effect129">Effect</h5>
                 <p>
                   When you take the full attack action with a ranged weapon, you can make one additional attack at your highest BAB, but all attacks are made with a -2 penalty.
                 </p>
@@ -9710,7 +9875,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect129">Effect</h5>
+                <h5 id="effect130">Effect</h5>
                 <p>
                   You can reload gun and crossbows faster
                 </p>
@@ -9728,7 +9893,7 @@
             <section class="feat">
               <h4 id="swashbuckling">Swashbuckling</h4>
               <div>
-                <h5 id="effect130">Effect</h5>
+                <h5 id="effect131">Effect</h5>
                 <p>
                   Once per turn when you attack with a one-handed weapon, you may also attack with a
                   one-handed ranged weapon in another hand with no two-weapon fighting penalty and
@@ -9742,7 +9907,7 @@
             <section class="feat">
               <h4 id="weapon-finesse">Weapon Finesse</h4>
               <div>
-                <h5 id="effect131">Effect</h5>
+                <h5 id="effect132">Effect</h5>
                 <p>
                   You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
                 </p>
@@ -9764,7 +9929,7 @@
               <h4 id="extend-spell">Extend Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect132">Effect</h5>
+                <h5 id="effect133">Effect</h5>
                 <p>
                   Double the duration of the spell.
                 </p>
@@ -9783,7 +9948,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect133">Effect</h5>
+                <h5 id="effect134">Effect</h5>
                 <p>
                   Twice per day when you cast a spell with a duration, double the duration.
                 </p>
@@ -9793,7 +9958,7 @@
               <h4 id="enlarge-spell">Enlarge Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect134">Effect</h5>
+                <h5 id="effect135">Effect</h5>
                 <p>
                   Increase the dimensions of the area of the spell by 50%.
                 </p>
@@ -9812,7 +9977,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect135">Effect</h5>
+                <h5 id="effect136">Effect</h5>
                 <p>
                   Twice per day when you cast a spell with an area, increase the dimensions of the area by 50%
                 </p>
@@ -9822,7 +9987,7 @@
               <h4 id="reach-spell">Reach Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect136">Effect</h5>
+                <h5 id="effect137">Effect</h5>
                 <p>
                   Increase the range category of a spell.
                 </p>
@@ -9850,7 +10015,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect137">Effect</h5>
+                <h5 id="effect138">Effect</h5>
                 <p>
                   Twice per day, Increase the range category of a spell.
                 </p>
@@ -9869,7 +10034,7 @@
               <h4 id="ghost-touch-spell">Ghost Touch Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect138">Effect</h5>
+                <h5 id="effect139">Effect</h5>
                 <p>
                   Your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
                 </p>
@@ -9888,7 +10053,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect139">Effect</h5>
+                <h5 id="effect140">Effect</h5>
                 <p>
                   Four times per day, your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
                 </p>
@@ -9898,7 +10063,7 @@
               <h4 id="mental-spell">Mental Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect140">Effect</h5>
+                <h5 id="effect141">Effect</h5>
                 <p>
                   Cast a spell without needing to supply verbal, somatic, or low cost material components.
                 </p>
@@ -9917,7 +10082,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect141">Effect</h5>
+                <h5 id="effect142">Effect</h5>
                 <p>
                   Twice per day, cast a spell without needing to supply verbal, somatic, or low cost material components.
                 </p>
@@ -9927,7 +10092,7 @@
               <h4 id="flash-frost-spell">Flash Frost Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect142">Effect</h5>
+                <h5 id="effect143">Effect</h5>
                 <p>
                   When you cast a spell that has an area and deals cold damage, the area of the spell is also covered in slippery ice for 1 round. Creatures that attempt to move in the ice must make reflex saves or fall prone.
                 </p>
@@ -9943,7 +10108,7 @@
               <h4 id="scorching-spell">Scorching Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect143">Effect</h5>
+                <h5 id="effect144">Effect</h5>
                 <p>
                   When you cast a spell that deals fire damage, any creatures that fails their save or is hit by an attack roll are now on fire. They will take an additional d6*spell level damage at the start of their next turn.
                 </p>
@@ -9956,7 +10121,7 @@
               <h4 id="shocking-spell">Shocking Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect144">Effect</h5>
+                <h5 id="effect145">Effect</h5>
                 <p>
                   When you cast a spell that deals lightning damage, creatures wearing or holding metal get -2 on their save/ac. Any creatures that fail their save or are hit by an attack roll are unable to make attacks of opportunity for 1 round.
                 </p>
@@ -9972,7 +10137,7 @@
               <h4 id="sculpt">Sculpt</h4>
               Metamagic
               <div>
-                <h5 id="effect145">Effect</h5>
+                <h5 id="effect146">Effect</h5>
                 <p>
                   You can change the area of a spell that has an area to be one of the following: 120-foot tube, 20-foot radius sphere, 60-foot cone, two 10-foot cube.
                 </p>
@@ -9994,7 +10159,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect146">Effect</h5>
+                <h5 id="effect147">Effect</h5>
                 <p>
                   Twice per day, you can change the area of a spell that has an area to be one of the following: 120-foot line, 20-foot radius sphere, 60-foot cone, two 5-foot cylinders.
                 </p>
@@ -10007,7 +10172,7 @@
               <h4 id="empower-spell">Empower Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect147">Effect</h5>
+                <h5 id="effect148">Effect</h5>
                 <p>
                   Damage and healing of spell increased by 50%.
                 </p>
@@ -10026,7 +10191,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect148">Effect</h5>
+                <h5 id="effect149">Effect</h5>
                 <p>
                   Once per day, damage and healing of spell increased by 50%.
                 </p>
@@ -10036,7 +10201,7 @@
               <h4 id="split-ray">Split Ray</h4>
               Metamagic
               <div>
-                <h5 id="effect149">Effect</h5>
+                <h5 id="effect150">Effect</h5>
                 <p>
                   Adds 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
                 </p>
@@ -10055,7 +10220,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect150">Effect</h5>
+                <h5 id="effect151">Effect</h5>
                 <p>
                   Once per day, add 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
                 </p>
@@ -10065,7 +10230,7 @@
               <h4 id="twin-cast">Twin Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect151">Effect</h5>
+                <h5 id="effect152">Effect</h5>
                 <p>
                   Can only be used on spells that can only affect a single target. You cast the spell a second time on a different target.
                 </p>
@@ -10084,7 +10249,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect152">Effect</h5>
+                <h5 id="effect153">Effect</h5>
                 <p>
                   Can only be used on spells that can only affect a single target. Once per day, you cast the spell a second time on a different target.
                 </p>
@@ -10094,7 +10259,7 @@
               <h4 id="repeated-spell">Repeated Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect153">Effect</h5>
+                <h5 id="effect154">Effect</h5>
                 <p>
                   Cast the spell twice. Can have different targets/areas.
                 </p>
@@ -10107,7 +10272,7 @@
               <h4 id="quick-cast">Quick Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect154">Effect</h5>
+                <h5 id="effect155">Effect</h5>
                 <p>
                   Cast spell as swift action.
                 </p>
@@ -10126,7 +10291,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect155">Effect</h5>
+                <h5 id="effect156">Effect</h5>
                 <p>
                   Twice per day, lower the level adjustment of a metamagic. Only usable once per spell cast.
                 </p>
@@ -10144,7 +10309,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect156">Effect</h5>
+                <h5 id="effect157">Effect</h5>
                 <p>
                   Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
                 </p>
@@ -10162,7 +10327,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect157">Effect</h5>
+                <h5 id="effect158">Effect</h5>
                 <p>
                   When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
                 </p>
@@ -10183,7 +10348,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect158">Effect</h5>
+                <h5 id="effect159">Effect</h5>
                 <p>
                   Choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
                 </p>
@@ -10205,7 +10370,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect159">Effect</h5>
+                <h5 id="effect160">Effect</h5>
                 <p>
                   Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
                 </p>
@@ -10217,7 +10382,7 @@
             <section class="feat">
               <h4 id="fiery-burst">Fiery Burst</h4>
               <div>
-                <h5 id="effect160">Effect</h5>
+                <h5 id="effect161">Effect</h5>
                 <p>
                   You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -10287,7 +10452,7 @@
             <section class="feat">
               <h4 id="icy-breath">Icy Breath</h4>
               <div>
-                <h5 id="effect161">Effect</h5>
+                <h5 id="effect162">Effect</h5>
                 <p>
                   You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -10357,7 +10522,7 @@
             <section class="feat">
               <h4 id="chain-shock">Chain Shock</h4>
               <div>
-                <h5 id="effect162">Effect</h5>
+                <h5 id="effect163">Effect</h5>
                 <p>
                   You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -10427,7 +10592,7 @@
             <section class="feat">
               <h4 id="acidic-splatter">Acidic Splatter</h4>
               <div>
-                <h5 id="effect163">Effect</h5>
+                <h5 id="effect164">Effect</h5>
                 <p>
                   You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
                 </p>
@@ -10503,7 +10668,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect164">Effect</h5>
+                <h5 id="effect165">Effect</h5>
                 <p>
                   Your natural armor is increased by 2.
                   This benefit increases to 3 at level 6.
@@ -10519,7 +10684,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect165">Effect</h5>
+                <h5 id="effect166">Effect</h5>
                 <p>
                   You grow wings and gain a fly speed with average maneuverability equal to your ground speed.
                 </p>
@@ -10534,7 +10699,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect166">Effect</h5>
+                <h5 id="effect167">Effect</h5>
                 <p>
                   Your maneuverability improves to good and your fly speed increases by 30'.
                 </p>
@@ -10549,7 +10714,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect167">Effect</h5>
+                <h5 id="effect168">Effect</h5>
                 <p>
                   Once per day, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
                 </p>
@@ -10564,7 +10729,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect168">Effect</h5>
+                <h5 id="effect169">Effect</h5>
                 <p>
                   Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level.
                 </p>
@@ -10588,7 +10753,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect169">Effect</h5>
+                <h5 id="effect170">Effect</h5>
                 <p>
                   TODO: what does this MEAN???
                 </p>
@@ -10606,7 +10771,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect170">Effect</h5>
+                <h5 id="effect171">Effect</h5>
                 <p>
                   When you are below half your maximum hit points, you gain fast healing 1 until you are above half your maximum hit points.
                 </p>
@@ -10634,7 +10799,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect171">Effect</h5>
+                <h5 id="effect172">Effect</h5>
                 <p>
                   Specialize in illusion, enchantment, and divination magic.
                 </p>
@@ -10662,7 +10827,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect172">Effect</h5>
+                <h5 id="effect173">Effect</h5>
                 <p>
                   Specialize in conjuration and evocation.
                 </p>
@@ -10690,7 +10855,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect173">Effect</h5>
+                <h5 id="effect174">Effect</h5>
                 <p>
                   Specialize in abjuration, necromancy, and transmutation.
                 </p>
@@ -10718,7 +10883,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect174">Effect</h5>
+                <h5 id="effect175">Effect</h5>
                 <p>
                   You know an additional two 1st level spells at level 1.
                 </p>
@@ -10739,7 +10904,7 @@
             <section class="feat">
               <h4 id="perfect-spell-memory">Perfect Spell Memory</h4>
               <div>
-                <h5 id="effect175">Effect</h5>
+                <h5 id="effect176">Effect</h5>
                 <p>
                   Once you have learned a spell, you know that spell even without access to a spellbook. Thus, you can always prepare any spell you have ever learned. You still must scribe a spell in order to learn it.
                 </p>
@@ -10754,7 +10919,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect176">Effect</h5>
+                <h5 id="effect177">Effect</h5>
                 <p>
                   You can leave up to one spell slot open for each spell level below the highest level spell slot you have. You can use those slots to spontaneously cast spells you know as a sorcerer would. (You know all spells in your spellbook)
                 </p>
@@ -10763,7 +10928,7 @@
             <section class="feat">
               <h4 id="spell-potency">Spell Potency</h4>
               <div>
-                <h5 id="effect177">Effect</h5>
+                <h5 id="effect178">Effect</h5>
                 <p>
                   Add a +2 bonus on caster level checks. (Affects spell resistance and dispel magic, etc)
                 </p>
@@ -10778,7 +10943,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect178">Effect</h5>
+                <h5 id="effect179">Effect</h5>
                 <p>
                   You can move before and after you cast a spell (up to your normal maximum).
                 </p>
@@ -10793,7 +10958,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect179">Effect</h5>
+                <h5 id="effect180">Effect</h5>
                 <p>
                   Whenever you cast a conjuration or evocation spell, you can create a 10 foot cube of vision-blocking cloud on or next to you, the target of the spell, or the area of the spell.
                 </p>
@@ -10808,7 +10973,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect180">Effect</h5>
+                <h5 id="effect181">Effect</h5>
                 <p>
                   When you cast an illusion, enchantment, or divination spell, you gain a bonus to your next initiative or saving throw equal to the level of the spell. This bonus lasts 24 hours.
                 </p>
@@ -10823,7 +10988,7 @@
                 </p>
               </div>
               <div>
-                <h5 id="effect181">Effect</h5>
+                <h5 id="effect182">Effect</h5>
                 <p>
                   When you cast an abjuration, necromancy, or transmutation spell, you and an ally within 30 feet gain temp HP equal to the level of the spell.
                 </p>
@@ -10833,7 +10998,7 @@
               <h4 id="extend-spell1">Extend Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect182">Effect</h5>
+                <h5 id="effect183">Effect</h5>
                 <p>
                   Double the duration of the spell.
                 </p>
@@ -10846,7 +11011,7 @@
               <h4 id="enlarge-spell1">Enlarge Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect183">Effect</h5>
+                <h5 id="effect184">Effect</h5>
                 <p>
                   Increase the dimensions of the area of the spell by 50%.
                 </p>
@@ -10859,7 +11024,7 @@
               <h4 id="reach-spell1">Reach Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect184">Effect</h5>
+                <h5 id="effect185">Effect</h5>
                 <p>
                   Increase the range category of a spell.
                 </p>
@@ -10881,7 +11046,7 @@
               <h4 id="ghost-touch-spell1">Ghost Touch Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect185">Effect</h5>
+                <h5 id="effect186">Effect</h5>
                 <p>
                   Your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
                 </p>
@@ -10894,7 +11059,7 @@
               <h4 id="mental-spell1">Mental Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect186">Effect</h5>
+                <h5 id="effect187">Effect</h5>
                 <p>
                   Cast a spell without needing to supply verbal, somatic, or low cost material components.
                 </p>
@@ -10907,7 +11072,7 @@
               <h4 id="flash-frost-spell1">Flash Frost Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect187">Effect</h5>
+                <h5 id="effect188">Effect</h5>
                 <p>
                   When you cast a spell that has an area and deals cold damage, the area of the spell is also covered in slippery ice for 1 round. Creatures that attempt to move in the ice must make reflex saves or fall prone.
                 </p>
@@ -10923,7 +11088,7 @@
               <h4 id="scorching-spell1">Scorching Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect188">Effect</h5>
+                <h5 id="effect189">Effect</h5>
                 <p>
                   When you cast a spell that deals fire damage, any creatures that fails their save or is hit by an attack roll are now on fire. They will take an additional d6*spell level damage at the start of their next turn.
                 </p>
@@ -10936,7 +11101,7 @@
               <h4 id="shocking-spell1">Shocking Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect189">Effect</h5>
+                <h5 id="effect190">Effect</h5>
                 <p>
                   When you cast a spell that deals lightning damage, creatures wearing or holding metal get -2 on their save/ac. Any creatures that fail their save or are hit by an attack roll are unable to make attacks of opportunity for 1 round.
                 </p>
@@ -10952,7 +11117,7 @@
               <h4 id="sculpt1">Sculpt</h4>
               Metamagic
               <div>
-                <h5 id="effect190">Effect</h5>
+                <h5 id="effect191">Effect</h5>
                 <p>
                   You can change the area of a spell that has an area to be one of the following: 120-foot tube, 20-foot radius sphere, 60-foot cone, two 10-foot cube.
                 </p>
@@ -10968,7 +11133,7 @@
               <h4 id="empower-spell1">Empower Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect191">Effect</h5>
+                <h5 id="effect192">Effect</h5>
                 <p>
                   Damage and healing of spell increased by 50%.
                 </p>
@@ -10981,7 +11146,7 @@
               <h4 id="split-ray1">Split Ray</h4>
               Metamagic
               <div>
-                <h5 id="effect192">Effect</h5>
+                <h5 id="effect193">Effect</h5>
                 <p>
                   Adds 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
                 </p>
@@ -10994,7 +11159,7 @@
               <h4 id="twin-cast1">Twin Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect193">Effect</h5>
+                <h5 id="effect194">Effect</h5>
                 <p>
                   Can only be used on spells that can only affect a single target. You cast the spell a second time on a different target.
                 </p>
@@ -11007,7 +11172,7 @@
               <h4 id="repeated-spell1">Repeated Spell</h4>
               Metamagic
               <div>
-                <h5 id="effect194">Effect</h5>
+                <h5 id="effect195">Effect</h5>
                 <p>
                   Cast the spell twice. Can have different targets/areas.
                 </p>
@@ -11020,7 +11185,7 @@
               <h4 id="quick-cast1">Quick Cast</h4>
               Metamagic
               <div>
-                <h5 id="effect195">Effect</h5>
+                <h5 id="effect196">Effect</h5>
                 <p>
                   Cast spell as swift action.
                 </p>
@@ -11440,7 +11605,7 @@
                   </tr>
                   <tr class="even">
                     <td>Duration:         </td>
-                    <td> 1 minute/level (dismissable)</td>
+                    <td> 10 minutes/level (dismissable)</td>
                   </tr>
                   <tr class="odd">
                     <td>Tags:             </td>
@@ -11459,6 +11624,9 @@
               </p>
               <p>
                 A black bear grants you the following benefits. Despite your change in constitution, your HP remains unchanged. You use your ranks in skills, your base save bonuses, and your base attack bonus.
+              </p>
+              <p>
+                You can transform back to your normal form as a standard action. While you are in your normal form, you can transform back to being a black bear as a swift action.
               </p>
             </div>
             <section>

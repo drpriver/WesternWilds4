@@ -6,7 +6,7 @@
         Level:            | [Druid] 2
         Components:       | V
         Casting Time:     | 1 swift action
-        Duration:         | 1 minute/level (dismissable)
+        Duration:         | 10 minutes/level (dismissable)
         Tags:             | Wild Shape
     ::text
       You transform into a black bear for the duration of this spell. 
@@ -14,6 +14,8 @@
       When you become a black bear, your possessions merge into your new form and become non-functional. Your HP remains unchanged. While a black bear, you cannot speak or cast spells. You can growl and roar.
 
       A black bear grants you the following benefits. Despite your change in constitution, your HP remains unchanged. You use your ranks in skills, your base save bonuses, and your base attack bonus.
+
+      You can transform back to your normal form as a standard action. While you are in your normal form, you can transform back to being a black bear as a swift action.
 
     ::table
       ::head
