@@ -68,10 +68,10 @@
       ::head
         Ammo                    | Cost | Slots
       ::row
-        Bullets and Powder (10) | 3gp  | 1
-        Sling Bullets (10)      | 1sp  | 1
-        Crossbow Bolts (20)     | 1gp  | 1
-        Arrows (20)             | 1gp  | 1
+        Bullets and Powder (10) | 3gp  | 1
+        Sling Bullets (10)      | 1sp  | 1
+        Crossbow Bolts (20)     | 1gp  | 1
+        Arrows (20)             | 1gp  | 1
 
   Weapons::section
     Weapon Proficiency::text
