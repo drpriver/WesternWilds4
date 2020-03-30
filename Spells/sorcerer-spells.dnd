@@ -1,127 +1,142 @@
   Sorcerer spells::section.class_spell_list
-    0th-level Sorcerer spells::bullets.spell_list
-      * Acid Splash: Orb deals 1d3 acid damage.
-      * Dancing Lights: Creates torches or other lights.
-      * Daze: Humanoid creature of 4 HD or less loses next action.
-      * Detect Magic: Detects spells and magic items within 60 ft.
-      * Disrupt Undead: Deals 1d6 damage to one undead.
-      * Electroic Jolt: Ranged Touch attack deals 1d3 electricity damage.
-      * Flare: Dazzles one creature (-1 on attack rolls).
-      * Ghost Sound: Figment sounds.
-      * Light: Object shines like a torch.
-      * Mage Hand: 5-pound telekinesis.
-      * Open/Close: Opens or closes small or light things.
-      * Prestidigitation: Performs minor tricks.
-      * Ray of Frost: Ray deals 1d3 cold damage.
-      * Reload: reloads one mustket/pistol/crossbow per level.
-      * Sonic Snap: Subject saves or takes 1 point of sonic damage is deaf for 1 round.
-      * Stick: Glues an object weighing 5 pounds or less to another object.
-    1st-level Sorcerer spells::bullets.spell_list
-      * Animate Rope: Makes a rope move at your command.
-      * Animate Skeletons: Animate two skeletons for 1hr/level. EVIL.
-      * Benign Transposition: Two willing subjects swap places.
-      * Burning Hands: 1d4/level fire damage (max 5d4).
-      * Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.
-      * Charm Person: Makes one person your friend.
-      * Color Spray: Knocks unconscious, blinds, and/or stuns weak creatures.
-      * Corrosive Graspe: 1 touch/level deals 1d8 acid damage.
-      * Detect Secret Doors: Reveals hidden doors within 60 ft.
-      * Disguise Self: Changes your appearance.
-      * Expeditious Retreat: Your speed increases by 30 ft.
-      * Feather Fall: Objects or creatures fall slowly.
-      * Floating Disk: Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.
-      * Grease: Makes 10-ft. square or one object slippery.
-      * Hypnotism: Fascinates 2d4 HD of creatures.
-      * Identify: Determines properties of magic item.
-      * Jump: Subject gets bonus on Jump checks.
-      * Lesser Elemental Orb: Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/2 levels damage. Ranged Touch attack.
-      * Mage Armor: Gives subject +4 armor bonus.
-      * Magic Missile: 1d4+1 damage; +1 missile per two levels above 1st (max 5).
-      * Magic Weapon: Weapon gains +1 bonus.
-      * Obscuring Mist: Fog surrounds you.
-      * Protection from Chaos/Evil/Good/Law: +2 to AC and saves, counter mind control.
-      * Shield: Invisible disc gives +4 shield bonus to AC, blocks magic missiles.
-      * Shocking Grasp: Touch delivers 1d6/level electricity damage (max 5d6).
-      * Silent Image: Creates minor illusion of your design.
-      * Sleep: Puts 4 HD of creatures into magical slumber.
-      * Unseen Servant: Invisible force obeys your commands.
-    2nd-level Sorcerer spells::bullets.spell_list
-      * Acid Arrow: Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
-      * Animate Zombies: Animate two zombies for 1hr/level. EVIL.
-      * Baleful Transposition: Two unwilling targets swap positions.
-      * Blindness/Deafness: Makes subject blinded or deafened.
-      * Blur: Attacks miss subject 20% of the time.
-      * Combust: Subject takes 1d8/level fire damage and might catch fire.
-      * Darkness: 20-ft. radius of supernatural shadow.
-      * Daze Monster: Living creature of 6 HD or less loses next action.
-      * Electric Loop: Deals 1d6/level electricity damage plus stunning to a single creature.
-      * Enhance ability: Subject's ability becomes 19 for 10min/level.
-      * False Life: Gain 1d10 temporary hp +1/level (max +10).
-      * Flaming Sphere: Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
-      * Fog Cloud: Fog obscures vision.
-      * Ghoul Touch: Paralyzes one subject, which exudes stench that makes those nearby sickened.
-      * Gust of Wind: Blows away or knocks down smaller creatures for 1rd/level.
-      * Hideous Laughter: Subject loses actions for 1 round/level.
-      * Hypnotic Pattern: Fascinates (2d4 + level) HD of creatures.
-      * Invisibility: Subject is invisible for 1 min./level or until it attacks.
-      * Knock: Opens locked or magically sealed door.
-      * Minor Image: As silent image, plus some sound.
-      * Mirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
-      * Protection from Arrows: Subject immune to most ranged attacks.
-      * Pyrotechnics: Turns fire into blinding light or choking smoke.
-      * Scare: Panics creatures of less than 6 HD.
-      * Scorching Ray: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
-      * See Invisibility: Reveals invisible creatures or objects.
-      * Shatter: Sonic vibration damages objects or crystalline creatures.
-      * Snowball Swarm: Snowballs deal 2d6 points of cold damage in 10' burst.
-    3rd-level Sorcerer spells::bullets.spell_list
-      * Animate Ghouls: Animate two ghouls for 1 hr/level. EVIL.
-      * Blink: You randomly vanish and reappear for 1 round/level.
-      * Chain Missiles: 1 magic missile per two levels strike one target, then one fewer another, then one fewer another, etc.
-      * Daylight: 60-ft. radius of bright light.
-      * Deep Slumber: Puts 10 HD of creatures to sleep.
-      * Dispel Magic: Cancels magical spells and effects.
-      * Displacement: Attacks miss subject 50%.
-      * Fireball: 1d6 damage per level, 20-ft. radius.
-      * Flame Arrow: Arrows deal +1d6 fire damage.
-      * Fly: Subject flies at speed of 60 ft.
-      * Haste: One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
-      * Heroism: Gives +2 bonus on attack rolls, saves, skill checks.
-      * Hold Person: Paralyzes one humanoid for 1 round/level.
-      * Invisibility, 10' radius: Makes everyone within 10 ft. invisible.
-      * Lightning Bolt: Electricity deals 1d6/level damage.
-      * Mass Mage Armor: one creature per level gains mage armor.
-      * Mass Shield: one creature per level gains shield.
-      * Magic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.
-      * Major Image: As silent image, plus sound, smell and thermal effects.
-      * Reverse Arrows: Like Protection From Arrows, but arrows reflect back.
-      * Shrink Item: Object shrinks to one-sixteenth size.
-      * Sleet Storm: Hampers vision and movement.
-      * Slow: One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.
-      * Suggestion: Compels subject to follow stated course of action.
-      * Vampiric Touch: Touch deals 1d6/two levels damage; caster gains damage as hp.
-      * Web: Fills 20-ft.-radius spread with sticky spiderwebs.
-      * Wind Gale: 30' cone deals 1d6 slashing damage per level.
-    4th-level Sorcerer spells::bullets.spell_list
-      * Charm Monster: Makes monster believe it is your ally.
-      * Cone of Fire: 60 ft cone of fire deals 1d6/level.
-      * Confusion: Subjects behave oddly for 1 round/level.
-      * Crushing Despair: Subjects take -2 on attack rolls, damage rolls, saves, and checks.
-      * Dimension Door: Teleports you short distance.
-      * Earthbind: A creature can't fly and falls to the ground.
-      * Lesser Elemental Orb: Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/level damage. Ranged Touch attack.
-      * Fear: Subjects within cone flee for 1 round/level.
-      * Fire Shield: Creatures attacking you take fire damage; you’re protected from heat or cold.
-      * Lesser Globe of Invulnerability: Stops 1st- through 3rd-level spell effects.
-      * Ice Storm: Hail deals 5d6 damage in cylinder 40 ft. across.
-      * Illusory Wall: Wall, floor, or ceiling looks real, but anything can pass through.
-      * Greater Invisibility: As invisibility, but subject can attack and stay invisible, becomes partially visible.
-      * Greater Flaming Sphere: Like flaming sphere, but 4d6.
-      * Phantasmal Killer: Fearsome illusion kills subject or deals 3d6 damage.
-      * Remove Curse: Frees object or person from curse.
-      * Resilient Sphere: Force globe protects but traps one subject.
-      * Shout: Deafens all within cone and deals 5d6 sonic damage.
-      * Stinking Cloud: Nauseating vapors, 1 round/level.
-      * Stoneskin: Ignore 10 points of damage per attack.
-      * Wall of Fire: Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
-      * Wall of Ice: Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.
+    0th-level Sorcerer spells::table.spell_list
+      ::head
+        |
+      ::row
+        Acid Splash|Orb deals 1d3 acid damage.
+        Dancing Lights|Creates torches or other lights.
+        Daze|Humanoid creature of 4 HD or less loses next action.
+        Detect Magic|Detects spells and magic items within 60 ft.
+        Disrupt Undead|Deals 1d6 damage to one undead.
+        Electroic Jolt|Ranged Touch attack deals 1d3 electricity damage.
+        Flare|Dazzles one creature (-1 on attack rolls).
+        Ghost Sound|Figment sounds.
+        Light|Object shines like a torch.
+        Mage Hand|5-pound telekinesis.
+        Open/Close|Opens or closes small or light things.
+        Prestidigitation|Performs minor tricks.
+        Ray of Frost|Ray deals 1d3 cold damage.
+        Reload|reloads one mustket/pistol/crossbow per level.
+        Sonic Snap|Subject saves or takes 1 point of sonic damage is deaf for 1 round.
+        Stick|Glues an object weighing 5 pounds or less to another object.
+    1st-level Sorcerer spells::table.spell_list
+      ::head
+        |
+      ::row
+        Animate Rope|Makes a rope move at your command.
+        Animate Skeletons|Animate two skeletons for 1hr/level. EVIL.
+        Benign Transposition|Two willing subjects swap places.
+        Burning Hands|1d4/level fire damage (max 5d4).
+        Cause Fear|One creature of 5 HD or less flees for 1d4 rounds.
+        Charm Person|Makes one person your friend.
+        Color Spray|Knocks unconscious, blinds, and/or stuns weak creatures.
+        Corrosive Graspe|1 touch/level deals 1d8 acid damage.
+        Detect Secret Doors|Reveals hidden doors within 60 ft.
+        Disguise Self|Changes your appearance.
+        Expeditious Retreat|Your speed increases by 30 ft.
+        Feather Fall|Objects or creatures fall slowly.
+        Floating Disk|Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.
+        Grease|Makes 10-ft. square or one object slippery.
+        Hypnotism|Fascinates 2d4 HD of creatures.
+        Identify|Determines properties of magic item.
+        Jump|Subject gets bonus on Jump checks.
+        Lesser Elemental Orb|Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/2 levels damage. Ranged Touch attack.
+        Mage Armor|Gives subject +4 armor bonus.
+        Magic Missile|1d4+1 damage; +1 missile per two levels above 1st (max 5).
+        Magic Weapon|Weapon gains +1 bonus.
+        Obscuring Mist|Fog surrounds you.
+        Protection from Chaos/Evil/Good/Law|+2 to AC and saves, counter mind control.
+        Shield|Invisible disc gives +4 shield bonus to AC, blocks magic missiles.
+        Shocking Grasp|Touch delivers 1d6/level electricity damage (max 5d6).
+        Silent Image|Creates minor illusion of your design.
+        Sleep|Puts 4 HD of creatures into magical slumber.
+        Unseen Servant|Invisible force obeys your commands.
+    2nd-level Sorcerer spells::table.spell_list
+      ::head
+        |
+      ::row
+        Acid Arrow|Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
+        Animate Zombies|Animate two zombies for 1hr/level. EVIL.
+        Baleful Transposition|Two unwilling targets swap positions.
+        Blindness/Deafness|Makes subject blinded or deafened.
+        Blur|Attacks miss subject 20% of the time.
+        Combust|Subject takes 1d8/level fire damage and might catch fire.
+        Darkness|20-ft. radius of supernatural shadow.
+        Daze Monster|Living creature of 6 HD or less loses next action.
+        Electric Loop|Deals 1d6/level electricity damage plus stunning to a single creature.
+        Enhance ability|Subject's ability becomes 19 for 10min/level.
+        False Life|Gain 1d10 temporary hp +1/level (max +10).
+        Flaming Sphere|Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
+        Fog Cloud|Fog obscures vision.
+        Ghoul Touch|Paralyzes one subject, which exudes stench that makes those nearby sickened.
+        Gust of Wind|Blows away or knocks down smaller creatures for 1rd/level.
+        Hideous Laughter|Subject loses actions for 1 round/level.
+        Hypnotic Pattern|Fascinates (2d4 + level) HD of creatures.
+        Invisibility|Subject is invisible for 1 min./level or until it attacks.
+        Knock|Opens locked or magically sealed door.
+        Minor Image|As silent image, plus some sound.
+        Mirror Image|Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
+        Protection from Arrows|Subject immune to most ranged attacks.
+        Pyrotechnics|Turns fire into blinding light or choking smoke.
+        Scare|Panics creatures of less than 6 HD.
+        Scorching Ray|Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
+        See Invisibility|Reveals invisible creatures or objects.
+        Shatter|Sonic vibration damages objects or crystalline creatures.
+        Snowball Swarm|Snowballs deal 2d6 points of cold damage in 10' burst.
+    3rd-level Sorcerer spells::table.spell_list
+      ::head
+        |
+      ::row
+        Animate Ghouls|Animate two ghouls for 1 hr/level. EVIL.
+        Blink|You randomly vanish and reappear for 1 round/level.
+        Chain Missiles|1 magic missile per two levels strike one target, then one fewer another, then one fewer another, etc.
+        Daylight|60-ft. radius of bright light.
+        Deep Slumber|Puts 10 HD of creatures to sleep.
+        Dispel Magic|Cancels magical spells and effects.
+        Displacement|Attacks miss subject 50%.
+        Fireball|1d6 damage per level, 20-ft. radius.
+        Flame Arrow|Arrows deal +1d6 fire damage.
+        Fly|Subject flies at speed of 60 ft.
+        Haste|One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
+        Heroism|Gives +2 bonus on attack rolls, saves, skill checks.
+        Hold Person|Paralyzes one humanoid for 1 round/level.
+        Invisibility, 10' radius|Makes everyone within 10 ft. invisible.
+        Lightning Bolt|Electricity deals 1d6/level damage.
+        Mass Mage Armor|one creature per level gains mage armor.
+        Mass Shield|one creature per level gains shield.
+        Magic Circle against Chaos/Evil/Good/Law|As protection spells, but 10-ft. radius and 10 min./level.
+        Major Image|As silent image, plus sound, smell and thermal effects.
+        Reverse Arrows|Like Protection From Arrows, but arrows reflect back.
+        Shrink Item|Object shrinks to one-sixteenth size.
+        Sleet Storm|Hampers vision and movement.
+        Slow|One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.
+        Suggestion|Compels subject to follow stated course of action.
+        Vampiric Touch|Touch deals 1d6/two levels damage; caster gains damage as hp.
+        Web|Fills 20-ft.-radius spread with sticky spiderwebs.
+        Wind Gale|30' cone deals 1d6 slashing damage per level.
+    4th-level Sorcerer spells::table.spell_list
+      ::head
+        |
+      ::row
+        Charm Monster|Makes monster believe it is your ally.
+        Cone of Fire|60 ft cone of fire deals 1d6/level.
+        Confusion|Subjects behave oddly for 1 round/level.
+        Crushing Despair|Subjects take -2 on attack rolls, damage rolls, saves, and checks.
+        Dimension Door|Teleports you short distance.
+        Earthbind|A creature can't fly and falls to the ground.
+        Lesser Elemental Orb|Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/level damage. Ranged Touch attack.
+        Fear|Subjects within cone flee for 1 round/level.
+        Fire Shield|Creatures attacking you take fire damage; you’re protected from heat or cold.
+        Lesser Globe of Invulnerability|Stops 1st- through 3rd-level spell effects.
+        Ice Storm|Hail deals 5d6 damage in cylinder 40 ft. across.
+        Illusory Wall|Wall, floor, or ceiling looks real, but anything can pass through.
+        Greater Invisibility|As invisibility, but subject can attack and stay invisible, becomes partially visible.
+        Greater Flaming Sphere|Like flaming sphere, but 4d6.
+        Phantasmal Killer|Fearsome illusion kills subject or deals 3d6 damage.
+        Remove Curse|Frees object or person from curse.
+        Resilient Sphere|Force globe protects but traps one subject.
+        Shout|Deafens all within cone and deals 5d6 sonic damage.
+        Stinking Cloud|Nauseating vapors, 1 round/level.
+        Stoneskin|Ignore 10 points of damage per attack.
+        Wall of Fire|Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
+        Wall of Ice|Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.

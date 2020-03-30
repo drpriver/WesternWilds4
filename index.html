@@ -295,6 +295,16 @@
           font-size: 1.5em;
           padding: 0 0.25em;
       }
+      table.spell_list *{
+      	border: none;
+      	/*border-bottom: 1px solid black;*/
+      }
+      table.spell_list .even {
+      	background-color: rgb(205,200,184);
+      }
+      table.spell_list thead {
+      	display:none;
+      }
     </style>
     <script>
       "use strict"
@@ -11503,111 +11513,386 @@
           </section>
           <section class="class_spell_list">
             <h3 id="bard-spells1">Bard Spells</h3>
-            <div class="spell_list">
+            <section>
               <h4 id="th-level-bard-spells">0th-Level Bard Spells</h4>
-              <ul>
-                <li> Dancing Lights   </li>
-                <li> Daze             </li>
-                <li> Detect Magic     </li>
-                <li> Flare            </li>
-                <li> Ghost Sound      </li>
-                <li> Ghost Harp</li>
-                <li> Light            </li>
-                <li> Lullaby          </li>
-                <li> Mage Hand        </li>
-                <li> Mending          </li>
-                <li> Message          </li>
-                <li> Open/Close       </li>
-                <li> Prestidigitation </li>
-                <li> Read Magic       </li>
-                <li> Resistance       </li>
-                <li> Stick</li>
-                <li> Summon Instrument</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Dancing Lights</td>
+                    <td> Creates torches or other lights.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Daze</td>
+                    <td> Humanoid creature of 4 HD or less loses next action.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Magic</td>
+                    <td> Detects spells and magic items within 60 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Flare</td>
+                    <td> Dazzles one creature (-1 on attack rolls).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Ghost Sound</td>
+                    <td> Figment sounds.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Ghost Harp</td>
+                    <td>Object records, plays a song at your command.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Light</td>
+                    <td> Object shines like a torch.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Lullaby</td>
+                    <td> Makes subject drowsy; -5 on Spot and Listen checks, -2 on Will saves against sleep.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Mage Hand</td>
+                    <td> 5-pound telekinesis.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Message</td>
+                    <td> Whispered conversation at distance.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Open/Close</td>
+                    <td> Opens or closes small or light things.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Prestidigitation</td>
+                    <td> Performs minor tricks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Stick</td>
+                    <td>Glues an object weighing 5 pounds or less to another object.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Summon Instrument</td>
+                    <td> Summons one instrument of the caster’s choice.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="st-level-bard-spells">1st-Level Bard Spells</h4>
-              <ul>
-                <li> Animate Rope: Makes a rope move at your command.</li>
-                <li> Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.</li>
-                <li> Charm Person: Makes one person your friend.</li>
-                <li> Confusion, Lesser: One creature is confused for 1 round.</li>
-                <li> Cure Light Wounds: Cures 1d8 damage +1/level (max +5).</li>
-                <li> Detect Secret Doors: Reveals hidden doors within 60 ft.</li>
-                <li> Distort Speech: 50% of target's speech is gibberish for 1rd/level, spoils spells.</li>
-                <li> Expeditious Retreat: Your speed increases by 30 ft.</li>
-                <li> Feather Fall: Objects or creatures fall slowly.</li>
-                <li> Grease: Makes 10-ft. square or one object slippery.</li>
-                <li> Guiding Light: Creatures in 10' square shines brightly, granting +2 to ranged attacks.</li>
-                <li> Hideous Laughter: Subject loses actions for 1 round/ level.</li>
-                <li> Hypnotism: Fascinates 2d4 HD of creatures.</li>
-                <li> Identify: Determines properties of magic item.</li>
-                <li> Inspirational Boost: Your next bardic music is +1 better.</li>
-                <li> Magic Mouth: Speaks once when triggered.</li>
-                <li> Remove Fear: Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.</li>
-                <li> Silent Image: Creates minor illusion of your design.</li>
-                <li> Sleep: Puts 4 HD of creatures into magical slumber.</li>
-                <li> Unseen Servant: Invisible force obeys your commands.</li>
-                <li> Ventriloquism: Throws voice for 1 min./level.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Animate Rope</td>
+                    <td>Makes a rope move at your command.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cause Fear</td>
+                    <td>One creature of 5 HD or less flees for 1d4 rounds.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Charm Person</td>
+                    <td>Makes one person your friend.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Confusion, Lesser</td>
+                    <td>One creature is confused for 1 round.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cure Light Wounds</td>
+                    <td>Cures 1d8 damage +1/level (max +5).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Secret Doors</td>
+                    <td>Reveals hidden doors within 60 ft.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Distort Speech</td>
+                    <td>50% of target's speech is gibberish for 1rd/level, spoils spells.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Expeditious Retreat</td>
+                    <td>Your speed increases by 30 ft.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Feather Fall</td>
+                    <td>Objects or creatures fall slowly.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Grease</td>
+                    <td>Makes 10-ft. square or one object slippery.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Guiding Light</td>
+                    <td>Creatures in 10' square shines brightly, granting +2 to ranged attacks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Hideous Laughter</td>
+                    <td>Subject loses actions for 1 round/ level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hypnotism</td>
+                    <td>Fascinates 2d4 HD of creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Identify</td>
+                    <td>Determines properties of magic item.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Inspirational Boost</td>
+                    <td>Your next bardic music is +1 better.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Magic Mouth</td>
+                    <td>Speaks once when triggered.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Remove Fear</td>
+                    <td>Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Silent Image</td>
+                    <td>Creates minor illusion of your design.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Sleep</td>
+                    <td>Puts 4 HD of creatures into magical slumber.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Unseen Servant</td>
+                    <td>Invisible force obeys your commands.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Ventriloquism</td>
+                    <td>Throws voice for 1 min./level.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="nd-level-bard-spells">2nd-Level Bard Spells</h4>
-              <ul>
-                <li> Animal Messenger: Sends a Tiny animal to a specific place.</li>
-                <li> Animal Trance: Fascinates 2d6 HD of animals.</li>
-                <li> Blindness/Deafness: Makes subject blind or deaf.</li>
-                <li> Blur: Attacks miss subject 20% of the time.</li>
-                <li> Calm Emotions: Calms creatures, negating emotion effects.</li>
-                <li> Cure Moderate Wounds: Cures 2d8 damage +1/level (max +10).</li>
-                <li> Curse of Impending Blades: Subject takes -2 penalty to AC.</li>
-                <li> Darkness: 20-ft. radius of supernatural shadow.</li>
-                <li> Daze Monster: Living creature of 6 HD or less loses next action.</li>
-                <li> Delay Poison: Stops poison from harming subject for 1 hour/ level.</li>
-                <li> Delusions of Grandeur: </li>
-                <li> Enthrall: Captivates all within 100 ft. + 10 ft./level.</li>
-                <li> Glitterdust: Blinds creatures, outlines invisible creatures.</li>
-                <li> Heroism: Gives +2 on attack rolls, saves, skill checks.</li>
-                <li> Hold Person: Paralyzes one humanoid for 1 round/level.</li>
-                <li> Hypnotic Pattern: Fascinates (2d4 + level) HD of creatures.</li>
-                <li> Invisibility: Subject is invisible for 1 min./level or until it attacks.</li>
-                <li> Minor Image: As silent image, plus some sound.</li>
-                <li> Mirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).</li>
-                <li> Pyrotechnics: Turns fire into blinding light or choking smoke.</li>
-                <li> Scare: Panics creatures of less than 6 HD.</li>
-                <li> Shatter: Sonic vibration damages objects or crystalline creatures.</li>
-                <li> Silence: Negates sound in 20-ft. radius.</li>
-                <li> Sound Burst: Deals 1d8 sonic damage to subjects; may stun them.</li>
-                <li> Suggestion: Compels subject to follow stated course of action.</li>
-                <li> Tongues: Speak any language.</li>
-                <li> Whispering Wind: Sends a short message 1 mile/level.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Animal Messenger</td>
+                    <td>Sends a Tiny animal to a specific place.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Animal Trance</td>
+                    <td>Fascinates 2d6 HD of animals.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Blindness/Deafness</td>
+                    <td>Makes subject blind or deaf.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Blur</td>
+                    <td>Attacks miss subject 20% of the time.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Calm Emotions</td>
+                    <td>Calms creatures, negating emotion effects.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cure Moderate Wounds</td>
+                    <td>Cures 2d8 damage +1/level (max +10).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Curse of Impending Blades</td>
+                    <td>Subject takes -2 penalty to AC.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Darkness</td>
+                    <td>20-ft. radius of supernatural shadow.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Daze Monster</td>
+                    <td>Living creature of 6 HD or less loses next action.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Delay Poison</td>
+                    <td>Stops poison from harming subject for 1 hour/ level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Delusions of Grandeur</td>
+                    <td>Subject thinks it is better than it is.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Enthrall</td>
+                    <td>Captivates all within 100 ft. + 10 ft./level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Glitterdust</td>
+                    <td>Blinds creatures, outlines invisible creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Heroism</td>
+                    <td>Gives +2 on attack rolls, saves, skill checks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hold Person</td>
+                    <td>Paralyzes one humanoid for 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Hypnotic Pattern</td>
+                    <td>Fascinates (2d4 + level) HD of creatures.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Invisibility</td>
+                    <td>Subject is invisible for 1 min./level or until it attacks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Minor Image</td>
+                    <td>As silent image, plus some sound.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Mirror Image</td>
+                    <td>Creates decoy duplicates of you (1d4 +1 per three levels, max 8).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Pyrotechnics</td>
+                    <td>Turns fire into blinding light or choking smoke.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Scare</td>
+                    <td>Panics creatures of less than 6 HD.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Shatter</td>
+                    <td>Sonic vibration damages objects or crystalline creatures.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Silence</td>
+                    <td>Negates sound in 20-ft. radius.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Sound Burst</td>
+                    <td>Deals 1d8 sonic damage to subjects; may stun them.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Suggestion</td>
+                    <td>Compels subject to follow stated course of action.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Tongues</td>
+                    <td>Speak any language.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Whispering Wind</td>
+                    <td>Sends a short message 1 mile/level.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="rd-level-bard-spells">3rd-Level Bard Spells</h4>
-              <ul>
-                <li> Blink: You randomly vanish and reappear for 1 round/level.</li>
-                <li> Charm Monster: Makes monster believe it is your ally.</li>
-                <li> Confusion: Subjects behave oddly for 1 round/level.</li>
-                <li> Crushing Despair: Subjects take -2 on attack rolls, damage rolls, saves, and checks.</li>
-                <li> Cure Serious Wounds: Cures 3d8 damage +1/level (max +15).</li>
-                <li> Daylight: 60-ft. radius of bright light.</li>
-                <li> Deep Slumber: Puts 10 HD of creatures to sleep.</li>
-                <li> Dispel Magic: Cancels magical spells and effects.</li>
-                <li> Displacement: Attacks miss subject 50%.</li>
-                <li> Fear: Subjects within cone flee for 1 round/level.</li>
-                <li> Gaseous Form: Subject becomes insubstantial and can fly slowly.</li>
-                <li> Geas, Lesser: Commands subject of 7 HD or less.</li>
-                <li> Good Hope: Subjects gain +2 on attack rolls, damage rolls, saves, and checks.</li>
-                <li> Haste: One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.</li>
-                <li> Invisibility Sphere: Makes everyone within 10 ft. invisible.</li>
-                <li> Major Image: As silent image, plus sound, smell and thermal effects.</li>
-                <li> Remove Curse: Frees object or person from curse.</li>
-                <li> Sculpt Sound: Creates new sounds or changes existing ones.</li>
-                <li> See Invisibility: Reveals invisible creatures or objects.</li>
-                <li> Slow: One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.</li>
-              </ul>
-            </div>
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Blink</td>
+                    <td>You randomly vanish and reappear for 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Charm Monster</td>
+                    <td>Makes monster believe it is your ally.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Confusion</td>
+                    <td>Subjects behave oddly for 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Crushing Despair</td>
+                    <td>Subjects take -2 on attack rolls, damage rolls, saves, and checks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cure Serious Wounds</td>
+                    <td>Cures 3d8 damage +1/level (max +15).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Daylight</td>
+                    <td>60-ft. radius of bright light.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Deep Slumber</td>
+                    <td>Puts 10 HD of creatures to sleep.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Dispel Magic</td>
+                    <td>Cancels magical spells and effects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Displacement</td>
+                    <td>Attacks miss subject 50%.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fear</td>
+                    <td>Subjects within cone flee for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Gaseous Form</td>
+                    <td>Subject becomes insubstantial and can fly slowly.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Geas, Lesser</td>
+                    <td>Commands subject of 7 HD or less.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Good Hope</td>
+                    <td>Subjects gain +2 on attack rolls, damage rolls, saves, and checks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Haste</td>
+                    <td>One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Invisibility Sphere</td>
+                    <td>Makes everyone within 10 ft. invisible.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Major Image</td>
+                    <td>As silent image, plus sound, smell and thermal effects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Remove Curse</td>
+                    <td>Frees object or person from curse.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Sculpt Sound</td>
+                    <td>Creates new sounds or changes existing ones.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>See Invisibility</td>
+                    <td>Reveals invisible creatures or objects.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Slow</td>
+                    <td>One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
           </section>
           <section class="class_spell_list">
             <h3 id="cleric-spells">Cleric Spells</h3>
@@ -11618,579 +11903,2131 @@
                 stack with one another.
               </p>
             </div>
-            <div class="spell_list">
+            <section>
               <h4 id="th-level-cleric-spells">0th-Level Cleric Spells</h4>
-              <ul>
-                <li> Create Water: Creates 2 gallons/level of pure water.</li>
-                <li> Cure Minor Wounds: Cures 1 point of damage.</li>
-                <li> Detect Magic: Detects spells and magic items within 60 ft.</li>
-                <li> Detect Poison: Detects poison in one creature or object.</li>
-                <li> Light: Object shines like a torch.</li>
-                <li> Purify Food and Drink: Purifies 1 cu. ft./level of food or water.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Create Water</td>
+                    <td>Creates 2 gallons/level of pure water.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cure Minor Wounds</td>
+                    <td>Cures 1 point of damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Magic</td>
+                    <td>Detects spells and magic items within 60 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Poison</td>
+                    <td>Detects poison in one creature or object.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Light</td>
+                    <td>Object shines like a torch.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Purify Food and Drink</td>
+                    <td>Purifies 1 cu. ft./level of food or water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="st-level-cleric-spells">1st-Level Cleric Spells</h4>
-              <ul>
-                <li> Bane: Enemies take -1 on attack rolls and saves against fear.</li>
-                <li> Bless: Allies gain +1 on attack rolls and saves against fear.</li>
-                <li> Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.</li>
-                <li> Command: One subject obeys selected command for 1 round.</li>
-                <li> Cure Light Wounds: Cures 1d8 damage +1/level (max +5).</li>
-                <li> Detect Chaos/Evil/Good/Law: Reveals creatures, spells, or objects of selected alignment.</li>
-                <li> Detect Undead: Reveals undead within 60 ft.</li>
-                <li> Divine Favor: You gain +1 per three levels on attack and damage rolls.</li>
-                <li> Doom: One subject takes -2 on attack rolls, saves, and checks.</li>
-                <li> Entropic Shield: Ranged attacks against you have 20% miss chance.</li>
-                <li> Hide from Undead: Undead can’t perceive one subject/level.</li>
-                <li> Inflict Light Wounds: Touch deals 1d8 damage +1/level (max +5).</li>
-                <li> Magic Weapon: Weapon gains +1 bonus for 1 hour/level.</li>
-                <li> Protection from Chaos/Evil/Good/Law: +2 to AC and saves, counter mind control.</li>
-                <li> Remove Fear: Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.</li>
-                <li> Sanctuary: Opponents can’t attack you, and you can’t attack.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Bane</td>
+                    <td>Enemies take -1 on attack rolls and saves against fear.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Bless</td>
+                    <td>Allies gain +1 on attack rolls and saves against fear.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cause Fear</td>
+                    <td>One creature of 5 HD or less flees for 1d4 rounds.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Command</td>
+                    <td>One subject obeys selected command for 1 round.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cure Light Wounds</td>
+                    <td>Cures 1d8 damage +1/level (max +5).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Chaos/Evil/Good/Law</td>
+                    <td>Reveals creatures, spells, or objects of selected alignment.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Undead</td>
+                    <td>Reveals undead within 60 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Divine Favor</td>
+                    <td>You gain +1 per three levels on attack and damage rolls.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Doom</td>
+                    <td>One subject takes -2 on attack rolls, saves, and checks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Entropic Shield</td>
+                    <td>Ranged attacks against you have 20% miss chance.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hide from Undead</td>
+                    <td>Undead can’t perceive one subject/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Inflict Light Wounds</td>
+                    <td>Touch deals 1d8 damage +1/level (max +5).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Magic Weapon</td>
+                    <td>Weapon gains +1 bonus for 1 hour/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Protection from Chaos/Evil/Good/Law</td>
+                    <td>+2 to AC and saves, counter mind control.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Remove Fear</td>
+                    <td>Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Sanctuary</td>
+                    <td>Opponents can’t attack you, and you can’t attack.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="nd-level-cleric-spells">2nd-Level Cleric Spells</h4>
-              <ul>
-                <li> Aid: +2 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).</li>
-                <li> Augury: Learns whether an action will be good or bad.</li>
-                <li> Chant: Like Bless, but also +1 to damage rolls.</li>
-                <li> Cure Moderate Wounds: Cures 2d8 damage +1/level (max +10).</li>
-                <li> Darkness: 20-ft. radius of supernatural shadow.</li>
-                <li> Delay Poison: Stops poison from harming subject for 1 hour/level.</li>
-                <li> Find Traps: Notice traps as a rogue does.</li>
-                <li> Hold Person: Paralyzes one humanoid for 1 round/level.</li>
-                <li> Inflict Moderate Wounds: Touch attack, 2d8 damage +1/level (max +10).</li>
-                <li> Protect Other: Ally is protected from damage, effects, can't act at all for 1 minute.</li>
-                <li> Remove Paralysis: Frees one or more creatures from paralysis or slow effect.</li>
-                <li> Resist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.</li>
-                <li> Restoration, Lesser: Dispels magical ability penalty or repairs 1d4 ability damage.</li>
-                <li> Silence: Negates sound in 20-ft. radius.</li>
-                <li> Spiritual Weapon: Magic weapon attacks on its own.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Aid</td>
+                    <td>+2 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Augury</td>
+                    <td>Learns whether an action will be good or bad.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Chant</td>
+                    <td>Like Bless, but also +1 to damage rolls.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cure Moderate Wounds</td>
+                    <td>Cures 2d8 damage +1/level (max +10).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Darkness</td>
+                    <td>20-ft. radius of supernatural shadow.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Delay Poison</td>
+                    <td>Stops poison from harming subject for 1 hour/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Find Traps</td>
+                    <td>Notice traps as a rogue does.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Hold Person</td>
+                    <td>Paralyzes one humanoid for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Inflict Moderate Wounds</td>
+                    <td>Touch attack, 2d8 damage +1/level (max +10).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Protect Other</td>
+                    <td>Ally is protected from damage, effects, can't act at all for 1 minute.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Remove Paralysis</td>
+                    <td>Frees one or more creatures from paralysis or slow effect.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Resist Energy</td>
+                    <td>Ignores 10 (or more) points of damage/attack from specified energy type.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Restoration, Lesser</td>
+                    <td>Dispels magical ability penalty or repairs 1d4 ability damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Silence</td>
+                    <td>Negates sound in 20-ft. radius.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Spiritual Weapon</td>
+                    <td>Magic weapon attacks on its own.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="rd-level-cleric-spells">3rd-Level Cleric Spells</h4>
-              <ul>
-                <li> Bestow Curse: -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.</li>
-                <li> Blindness/Deafness: Makes subject blind or deaf.</li>
-                <li> Continual Flame: Makes a permanent torch.</li>
-                <li> Create Food and Water: Feeds three humans (or one horse)/level.</li>
-                <li> Cure Serious Wounds: Cures 3d8 damage +1/level (max +15).</li>
-                <li> Daylight: 60-ft. radius of bright light.</li>
-                <li> Deeper Darkness: Object sheds supernatural shadow in 60-ft. radius.</li>
-                <li> Dispel Magic: Cancels spells and magical effects.</li>
-                <li> Glyph of Warding: Inscription harms those who pass it.</li>
-                <li> Inflict Serious Wounds: Touch attack, 3d8 damage +1/level (max +15).</li>
-                <li> Magic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.</li>
-                <li> Meld into Stone: You and your gear merge with stone.</li>
-                <li> Prayer: Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.</li>
-                <li> Remove Blindness/Deafness: Cures normal or magical conditions.</li>
-                <li> Remove Curse: Frees object or person from curse.</li>
-                <li> Remove Disease: Cures all diseases affecting subject.</li>
-                <li> Resist Energy, 10' radius: As resist energy, but 10-ft. radius.</li>
-                <li> Searing Light: Ray deals 1d8/two levels damage, more against undead.</li>
-                <li> Stone Shape: Sculpts 10 cu. ft. of stone into any shape, like a door.</li>
-                <li> Water Breathing: Subject can breathe underwater.</li>
-                <li> Water Walk: Subject walks on water as if solid.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Bestow Curse</td>
+                    <td>-6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Blindness/Deafness</td>
+                    <td>Makes subject blind or deaf.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Continual Flame</td>
+                    <td>Makes a permanent torch.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Create Food and Water</td>
+                    <td>Feeds three humans (or one horse)/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cure Serious Wounds</td>
+                    <td>Cures 3d8 damage +1/level (max +15).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Daylight</td>
+                    <td>60-ft. radius of bright light.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Deeper Darkness</td>
+                    <td>Object sheds supernatural shadow in 60-ft. radius.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Dispel Magic</td>
+                    <td>Cancels spells and magical effects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Glyph of Warding</td>
+                    <td>Inscription harms those who pass it.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Inflict Serious Wounds</td>
+                    <td>Touch attack, 3d8 damage +1/level (max +15).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Magic Circle against Chaos/Evil/Good/Law</td>
+                    <td>As protection spells, but 10-ft. radius and 10 min./level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Meld into Stone</td>
+                    <td>You and your gear merge with stone.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Prayer</td>
+                    <td>Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Remove Blindness/Deafness</td>
+                    <td>Cures normal or magical conditions.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Remove Curse</td>
+                    <td>Frees object or person from curse.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Remove Disease</td>
+                    <td>Cures all diseases affecting subject.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Resist Energy, 10' radius</td>
+                    <td>As resist energy, but 10-ft. radius.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Searing Light</td>
+                    <td>Ray deals 1d8/two levels damage, more against undead.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Stone Shape</td>
+                    <td>Sculpts 10 cu. ft. of stone into any shape, like a door.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Water Breathing</td>
+                    <td>Subject can breathe underwater.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Water Walk</td>
+                    <td>Subject walks on water as if solid.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="th-level-cleric-spells1">4th-Level Cleric Spells</h4>
-              <ul>
-                <li> Aura of Life, 10' radius: Allies in your aura heal 3hp/round for 1rd/level.</li>
-                <li> Control Water: Lower or raise water in an area, holds ships in place.</li>
-                <li> Cure Critical Wounds: Cures 4d8 damage +1/level (max +20).</li>
-                <li> Dismissal: Forces a creature to return to native plane.</li>
-                <li> Divination: Provides useful advice for specific proposed actions.</li>
-                <li> Flamestrike: 10' square column of light and fire deals 1d6 damage per level, half fire, half sacred.</li>
-                <li> Freedom of Movement: Subject moves normally despite impediments.</li>
-                <li> Inflict Critical Wounds: Touch attack, 4d8 damage +1/level (max +20).</li>
-                <li> Neutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.</li>
-                <li> Protection from Death: Grants immunity to death spells and negative energy effects.</li>
-                <li> Poison: Touch deals 1d10 Con damage, repeats in 1 min.</li>
-                <li> Restoration: Restores level and ability score drains.</li>
-                <li> Spell Immunity: Subject is immune to one spell per four levels.</li>
-                <li> Sticks to Snakes: Transform 2d8 sticks into snakes.</li>
-                <li> Tongues: Speak any language. </li>
-                <li> Wall Against Evil/Good/Chaos/Law: Magical Wall prevents passage of warded alignment. Must be straight wall or hemisphere.</li>
-              </ul>
-            </div>
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Aura of Life, 10' radius</td>
+                    <td>Allies in your aura heal 3hp/round for 1rd/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Control Water</td>
+                    <td>Lower or raise water in an area, holds ships in place.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cure Critical Wounds</td>
+                    <td>Cures 4d8 damage +1/level (max +20).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Dismissal</td>
+                    <td>Forces a creature to return to native plane.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Divination</td>
+                    <td>Provides useful advice for specific proposed actions.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Flamestrike</td>
+                    <td>10' square column of light and fire deals 1d6 damage per level, half fire, half sacred.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Freedom of Movement</td>
+                    <td>Subject moves normally despite impediments.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Inflict Critical Wounds</td>
+                    <td>Touch attack, 4d8 damage +1/level (max +20).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Neutralize Poison</td>
+                    <td>Immunizes subject against poison, detoxifies venom in or on subject.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Protection from Death</td>
+                    <td>Grants immunity to death spells and negative energy effects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Poison</td>
+                    <td>Touch deals 1d10 Con damage, repeats in 1 min.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Restoration</td>
+                    <td>Restores level and ability score drains.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Spell Immunity</td>
+                    <td>Subject is immune to one spell per four levels.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Sticks to Snakes</td>
+                    <td>Transform 2d8 sticks into snakes.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Tongues</td>
+                    <td>Speak any language. </td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wall Against Evil/Good/Chaos/Law</td>
+                    <td>Magical Wall prevents passage of warded alignment. Must be straight wall or hemisphere.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
           </section>
           <section class="class_spell_list">
             <h3 id="druid-spells">Druid Spells</h3>
-            <div class="spell_list">
+            <section>
               <h4 id="th-level-druid-spells">0th-Level Druid Spells</h4>
-              <ul>
-                <li> Create Water: Creates 2 gallons/level of pure water.</li>
-                <li> Cure Minor Wounds: Cures 1 point of damage.</li>
-                <li> Detect Magic: Detects spells and magic items within 60 ft.</li>
-                <li> Detect Poison: Detects poison in one creature or object.</li>
-                <li> Flare: Dazzles one creature (-1 penalty on attack rolls).</li>
-                <li> Know Direction: You discern north.</li>
-                <li> Light: Object shines like a torch.</li>
-                <li> Purify Food and Drink: Purifies 1 cu. ft./level of food or water.</li>
-                <li> Read Magic: Read scrolls and spellbooks.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Create Water</td>
+                    <td>Creates 2 gallons/level of pure water.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cure Minor Wounds</td>
+                    <td>Cures 1 point of damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Magic</td>
+                    <td>Detects spells and magic items within 60 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Poison</td>
+                    <td>Detects poison in one creature or object.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Flare</td>
+                    <td>Dazzles one creature (-1 penalty on attack rolls).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Know Direction</td>
+                    <td>You discern north.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Light</td>
+                    <td>Object shines like a torch.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Purify Food and Drink</td>
+                    <td>Purifies 1 cu. ft./level of food or water.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Read Magic</td>
+                    <td>Read scrolls and spellbooks.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="st-level-druid-spells">1st-Level Druid Spells</h4>
-              <ul>
-                <li> Animate Fire: Turn campfire or similar into small elemental.</li>
-                <li> Animate Water: Turn water into small elemental.</li>
-                <li> Animate Wood: Turn log or small tree into small elemental.</li>
-                <li> Buoyancy: Creature floats safely on surface despite heavy armor, lack of swimming skill, etc.</li>
-                <li> Calm Animals: Calms (2d4 + level) HD of animals.</li>
-                <li> Charm Animal: Makes one animal your friend.</li>
-                <li> Control Flame: Fire in area burns twice as hot and more intensely, or the opposite.</li>
-                <li> Cure Light Wounds: Cures 1d8 damage +1/level (max +5).</li>
-                <li> Detect Animals or Plants: Detects kinds of animals or plants.</li>
-                <li> Detect Snares and Pits: Reveals natural or primitive traps.</li>
-                <li> Endure Elements: Exist comfortably in hot or cold environments.</li>
-                <li> Entangle: Conjured Plants entangle everyone in 10-ft.-radius.</li>
-                <li> Faerie Fire: Outlines subjects with light, canceling blur, concealment, and the like.</li>
-                <li> Goodberry: 8 + 1 berry/level (max +5) berries each cure 1 hp.</li>
-                <li> Hide from Animals: Animals can’t perceive one subject/level.</li>
-                <li> Jump: Subject gets bonus on Jump checks.</li>
-                <li> Longstrider: Your speed increases by 10 ft.</li>
-                <li> Magic Fang: One natural weapon of subject creature gets +1 on attack and damage rolls.</li>
-                <li> Obscuring Mist: Fog surrounds you.</li>
-                <li> Pass without Trace: One subject/level leaves no tracks.</li>
-                <li> Produce Flame: 1d6 damage +1/level, touch or thrown.</li>
-                <li> Shillelagh: Cudgel or quarterstaff becomes +1 weapon and deals damage as if two sizes larger.</li>
-                <li> Speak with Animals: You can communicate with animals.</li>
-                <li> Wild Shape - Dire Rat</li>
-                <li> Wild Shape - Eagle</li>
-                <li> Wild Shape - Monkey</li>
-                <li> Wild Shape - Octopus</li>
-                <li> Wild Shape - Owl</li>
-                <li> Wild Shape - Porpoise</li>
-                <li> Wild Shape - Small Viper</li>
-                <li> Wild Shape - Wolf</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Animate Fire</td>
+                    <td>Turn campfire or similar into small elemental.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Animate Water</td>
+                    <td>Turn water into small elemental.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Animate Wood</td>
+                    <td>Turn log or small tree into small elemental.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Buoyancy</td>
+                    <td>Creature floats safely on surface despite heavy armor, lack of swimming skill, etc.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Calm Animals</td>
+                    <td>Calms (2d4 + level) HD of animals.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Charm Animal</td>
+                    <td>Makes one animal your friend.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Control Flame</td>
+                    <td>Fire in area burns twice as hot and more intensely, or the opposite.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cure Light Wounds</td>
+                    <td>Cures 1d8 damage +1/level (max +5).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Animals or Plants</td>
+                    <td>Detects kinds of animals or plants.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Snares and Pits</td>
+                    <td>Reveals natural or primitive traps.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Endure Elements</td>
+                    <td>Exist comfortably in hot or cold environments.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Entangle</td>
+                    <td>Conjured Plants entangle everyone in 10-ft.-radius.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Faerie Fire</td>
+                    <td>Outlines subjects with light, canceling blur, concealment, and the like.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Goodberry</td>
+                    <td>8 + 1 berry/level (max +5) berries each cure 1 hp.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hide from Animals</td>
+                    <td>Animals can’t perceive one subject/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Jump</td>
+                    <td>Subject gets bonus on Jump checks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Longstrider</td>
+                    <td>Your speed increases by 10 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Magic Fang</td>
+                    <td>One natural weapon of subject creature gets +1 on attack and damage rolls.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Obscuring Mist</td>
+                    <td>Fog surrounds you.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Pass without Trace</td>
+                    <td>One subject/level leaves no tracks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Produce Flame</td>
+                    <td>1d6 damage +1/level, touch or thrown.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Shillelagh</td>
+                    <td>Cudgel or quarterstaff becomes +1 weapon and deals damage as if two sizes larger.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Speak with Animals</td>
+                    <td>You can communicate with animals.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Dire Rat</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Eagle</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Monkey</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Octopus</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Owl</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Porpoise</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Small Viper</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Wolf</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="nd-level-druid-spells">2nd-Level Druid Spells</h4>
-              <ul>
-                <li> Animal Messenger: Sends a Tiny animal to a specific place.</li>
-                <li> Animal Trance: Fascinates 2d6 HD of animals.</li>
-                <li> Barkskin: Grants +2 (or higher) enhancement to natural armor.</li>
-                <li> Chill/Heat Metal: Cold or hot metal damages those who touch it.</li>
-                <li> Delay Poison: Stops poison from harming subject for 1 hour/level.</li>
-                <li> Fire Trap: Opened object deals 1d4/level damage.</li>
-                <li> Flame Blade: Touch attack deals 1d8 +1/levels damage.</li>
-                <li> Flaming Sphere: Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.</li>
-                <li> Fog Cloud: Fog obscures vision.</li>
-                <li> Gust of Wind: Blows away or knocks down smaller creatures.</li>
-                <li> Hold Animal: Paralyzes one animal for 1 round/level.</li>
-                <li> Reduce Animal: Shrinks one willing animal.</li>
-                <li> Resist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.</li>
-                <li> Restoration, Lesser: Dispels magical ability penalty or repairs 1d4 ability damage.</li>
-                <li> Soften Earth and Stone: Turns stone to clay or dirt to sand or mud.</li>
-                <li> Tree Shape: You look exactly like a tree for 1 hour/level.</li>
-                <li> Wood Shape: Rearranges wooden objects to suit you.</li>
-                <li> Wild Shape - Black Bear</li>
-                <li> Wild Shape - Crocodile</li>
-                <li> Wild Shape - Dire badger</li>
-                <li> Wild Shape - Dire bat</li>
-                <li> Wild Shape - Medium Shark</li>
-                <li> Wild Shape - Medium Viper</li>
-                <li> Wild Shape - Squid</li>
-                <li> Wild Shape - Wolverine</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Animal Messenger</td>
+                    <td>Sends a Tiny animal to a specific place.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Animal Trance</td>
+                    <td>Fascinates 2d6 HD of animals.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Barkskin</td>
+                    <td>Grants +2 (or higher) enhancement to natural armor.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Chill/Heat Metal</td>
+                    <td>Cold or hot metal damages those who touch it.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Delay Poison</td>
+                    <td>Stops poison from harming subject for 1 hour/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fire Trap</td>
+                    <td>Opened object deals 1d4/level damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Flame Blade</td>
+                    <td>Touch attack deals 1d8 +1/levels damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Flaming Sphere</td>
+                    <td>Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Fog Cloud</td>
+                    <td>Fog obscures vision.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Gust of Wind</td>
+                    <td>Blows away or knocks down smaller creatures.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hold Animal</td>
+                    <td>Paralyzes one animal for 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Reduce Animal</td>
+                    <td>Shrinks one willing animal.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Resist Energy</td>
+                    <td>Ignores 10 (or more) points of damage/attack from specified energy type.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Restoration, Lesser</td>
+                    <td>Dispels magical ability penalty or repairs 1d4 ability damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Soften Earth and Stone</td>
+                    <td>Turns stone to clay or dirt to sand or mud.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Tree Shape</td>
+                    <td>You look exactly like a tree for 1 hour/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wood Shape</td>
+                    <td>Rearranges wooden objects to suit you.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Black Bear</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Crocodile</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Dire badger</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Dire bat</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Medium Shark</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Medium Viper</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Squid</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Wolverine</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="rd-level-druid-spells">3rd-Level Druid Spells</h4>
-              <ul>
-                <li> Call Lightning: Calls down lightning bolts (3d6 per bolt) from sky.</li>
-                <li> Diminish Plants: Reduces size or blights growth of normal plants.</li>
-                <li> Dominate Animal: Subject animal obeys silent mental commands.</li>
-                <li> Meld into Stone: You and your gear merge with stone.</li>
-                <li> Neutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.</li>
-                <li> Plant Growth: Grows vegetation, improves crops.</li>
-                <li> Poison: Touch deals 1d10 Con damage, repeats in 1 min.</li>
-                <li> Resist Energy, 10' radius: As resist energy, but 10-ft. radius.</li>
-                <li> Quench: Extinguishes nonmagical fires or one magic item.</li>
-                <li> Remove Disease: Cures all diseases affecting subject.</li>
-                <li> Sleet Storm: Hampers vision and movement.</li>
-                <li> Snare: Creates a magic booby trap.</li>
-                <li> Speak with Plants: You can talk to normal plants and plant creatures.</li>
-                <li> Spike Growth: Creatures in area take 1d4 damage, may be slowed.</li>
-                <li> Stone Shape: Sculpts stone into any shape.</li>
-                <li> Water Breathing: Subjects can breathe underwater.</li>
-                <li> Wind Wall: Deflects arrows, smaller creatures, and gases.</li>
-                <li> Wild Shape - Hippogriff</li>
-                <li> Wild Shape - Ape</li>
-                <li> Wild Shape - Dire weasel</li>
-                <li> Wild Shape - Dire wolf</li>
-                <li> Wild Shape - Giant Eagle</li>
-                <li> Wild Shape - Lion</li>
-                <li> Wild Shape - Giant Owl</li>
-                <li> Wild Shape - Large Shark</li>
-                <li> Wild Shape - Large Viper</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Call Lightning</td>
+                    <td>Calls down lightning bolts (3d6 per bolt) from sky.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Diminish Plants</td>
+                    <td>Reduces size or blights growth of normal plants.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Dominate Animal</td>
+                    <td>Subject animal obeys silent mental commands.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Meld into Stone</td>
+                    <td>You and your gear merge with stone.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Neutralize Poison</td>
+                    <td>Immunizes subject against poison, detoxifies venom in or on subject.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Plant Growth</td>
+                    <td>Grows vegetation, improves crops.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Poison</td>
+                    <td>Touch deals 1d10 Con damage, repeats in 1 min.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Resist Energy, 10' radius</td>
+                    <td>As resist energy, but 10-ft. radius.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Quench</td>
+                    <td>Extinguishes nonmagical fires or one magic item.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Remove Disease</td>
+                    <td>Cures all diseases affecting subject.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Sleet Storm</td>
+                    <td>Hampers vision and movement.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Snare</td>
+                    <td>Creates a magic booby trap.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Speak with Plants</td>
+                    <td>You can talk to normal plants and plant creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Spike Growth</td>
+                    <td>Creatures in area take 1d4 damage, may be slowed.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Stone Shape</td>
+                    <td>Sculpts stone into any shape.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Water Breathing</td>
+                    <td>Subjects can breathe underwater.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wind Wall</td>
+                    <td>Deflects arrows, smaller creatures, and gases.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Hippogriff</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Ape</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Dire weasel</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Dire wolf</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Giant Eagle</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Lion</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Giant Owl</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Large Shark</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Large Viper</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="th-level-druid-spells1">4th-Level Druid Spells</h4>
-              <ul>
-                <li> Air Walk: Subject treads on air as if solid (climb at 45-degree angle).</li>
-                <li> Antiplant Shell: Keeps animated plants at bay.</li>
-                <li> Arc of Lightning: Line of electricity arcs between two creatures (1d6/level damage).</li>
-                <li> Blight: Withers one plant or deals 1d6/level damage to plant creature.</li>
-                <li> Command Plants: Sway the actions of one or more plant creatures.</li>
-                <li> Control Water: Raises or lowers bodies of water.</li>
-                <li> Dispel Magic: Cancels spells and magical effects.</li>
-                <li> Flame Strike: Smite foes with divine fire (1d6/level damage).</li>
-                <li> Freedom of Movement: Subject moves normally despite impediments.</li>
-                <li> Giant Vermin: Turns centipedes, scorpions, or spiders into giant vermin.</li>
-                <li> Ice Storm: Hail deals 5d6 damage in cylinder 40 ft. across.</li>
-                <li> Repel Vermin: Insects, spiders, and other vermin stay 10 ft. away.</li>
-                <li> Spark of Life: Undead creature must save or die.</li>
-                <li> Spike Stones: Creatures in area take 1d8 damage, may be slowed.</li>
-                <li> Wall of Water: Conjure shapeable wall of water.</li>
-                <li> Wild Shape - Brown Bear</li>
-                <li> Wild Shape - Giant Crocodile</li>
-                <li> Wild Shape - Dire ape</li>
-                <li> Wild Shape - Dire boar</li>
-                <li> Wild Shape - Dire wolverine</li>
-                <li> Wild Shape - Sea cat</li>
-                <li> Wild Shape - Huge Shark</li>
-                <li> Wild Shape - Huge Viper</li>
-                <li> Wild Shape - Tiger</li>
-              </ul>
-            </div>
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Air Walk</td>
+                    <td>Subject treads on air as if solid (climb at 45-degree angle).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Antiplant Shell</td>
+                    <td>Keeps animated plants at bay.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Arc of Lightning</td>
+                    <td>Line of electricity arcs between two creatures (1d6/level damage).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Blight</td>
+                    <td>Withers one plant or deals 1d6/level damage to plant creature.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Command Plants</td>
+                    <td>Sway the actions of one or more plant creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Control Water</td>
+                    <td>Raises or lowers bodies of water.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Dispel Magic</td>
+                    <td>Cancels spells and magical effects.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Flame Strike</td>
+                    <td>Smite foes with divine fire (1d6/level damage).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Freedom of Movement</td>
+                    <td>Subject moves normally despite impediments.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Giant Vermin</td>
+                    <td>Turns centipedes, scorpions, or spiders into giant vermin.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Ice Storm</td>
+                    <td>Hail deals 5d6 damage in cylinder 40 ft. across.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Repel Vermin</td>
+                    <td>Insects, spiders, and other vermin stay 10 ft. away.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Spark of Life</td>
+                    <td>Undead creature must save or die.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Spike Stones</td>
+                    <td>Creatures in area take 1d8 damage, may be slowed.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wall of Water</td>
+                    <td>Conjure shapeable wall of water.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Brown Bear</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Giant Crocodile</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Dire ape</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Dire boar</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Dire wolverine</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Sea cat</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Huge Shark</td>
+                    <td></td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wild Shape - Huge Viper</td>
+                    <td></td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wild Shape - Tiger</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
           </section>
           <section class="class_spell_list">
             <h3 id="sorcerer-spells">Sorcerer spells</h3>
-            <div class="spell_list">
+            <section>
               <h4 id="th-level-sorcerer-spells">0th-level Sorcerer spells</h4>
-              <ul>
-                <li> Acid Splash: Orb deals 1d3 acid damage.</li>
-                <li> Dancing Lights: Creates torches or other lights.</li>
-                <li> Daze: Humanoid creature of 4 HD or less loses next action.</li>
-                <li> Detect Magic: Detects spells and magic items within 60 ft.</li>
-                <li> Disrupt Undead: Deals 1d6 damage to one undead.</li>
-                <li> Electroic Jolt: Ranged Touch attack deals 1d3 electricity damage.</li>
-                <li> Flare: Dazzles one creature (-1 on attack rolls).</li>
-                <li> Ghost Sound: Figment sounds.</li>
-                <li> Light: Object shines like a torch.</li>
-                <li> Mage Hand: 5-pound telekinesis.</li>
-                <li> Open/Close: Opens or closes small or light things.</li>
-                <li> Prestidigitation: Performs minor tricks.</li>
-                <li> Ray of Frost: Ray deals 1d3 cold damage.</li>
-                <li> Reload: reloads one mustket/pistol/crossbow per level.</li>
-                <li> Sonic Snap: Subject saves or takes 1 point of sonic damage is deaf for 1 round.</li>
-                <li> Stick: Glues an object weighing 5 pounds or less to another object.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Acid Splash</td>
+                    <td>Orb deals 1d3 acid damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Dancing Lights</td>
+                    <td>Creates torches or other lights.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Daze</td>
+                    <td>Humanoid creature of 4 HD or less loses next action.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Magic</td>
+                    <td>Detects spells and magic items within 60 ft.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Disrupt Undead</td>
+                    <td>Deals 1d6 damage to one undead.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Electroic Jolt</td>
+                    <td>Ranged Touch attack deals 1d3 electricity damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Flare</td>
+                    <td>Dazzles one creature (-1 on attack rolls).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Ghost Sound</td>
+                    <td>Figment sounds.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Light</td>
+                    <td>Object shines like a torch.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Mage Hand</td>
+                    <td>5-pound telekinesis.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Open/Close</td>
+                    <td>Opens or closes small or light things.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Prestidigitation</td>
+                    <td>Performs minor tricks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Ray of Frost</td>
+                    <td>Ray deals 1d3 cold damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Reload</td>
+                    <td>reloads one mustket/pistol/crossbow per level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Sonic Snap</td>
+                    <td>Subject saves or takes 1 point of sonic damage is deaf for 1 round.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Stick</td>
+                    <td>Glues an object weighing 5 pounds or less to another object.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="st-level-sorcerer-spells">1st-level Sorcerer spells</h4>
-              <ul>
-                <li> Animate Rope: Makes a rope move at your command.</li>
-                <li> Animate Skeletons: Animate two skeletons for 1hr/level. EVIL.</li>
-                <li> Benign Transposition: Two willing subjects swap places.</li>
-                <li> Burning Hands: 1d4/level fire damage (max 5d4).</li>
-                <li> Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.</li>
-                <li> Charm Person: Makes one person your friend.</li>
-                <li> Color Spray: Knocks unconscious, blinds, and/or stuns weak creatures.</li>
-                <li> Corrosive Graspe: 1 touch/level deals 1d8 acid damage.</li>
-                <li> Detect Secret Doors: Reveals hidden doors within 60 ft.</li>
-                <li> Disguise Self: Changes your appearance.</li>
-                <li> Expeditious Retreat: Your speed increases by 30 ft.</li>
-                <li> Feather Fall: Objects or creatures fall slowly.</li>
-                <li> Floating Disk: Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.</li>
-                <li> Grease: Makes 10-ft. square or one object slippery.</li>
-                <li> Hypnotism: Fascinates 2d4 HD of creatures.</li>
-                <li> Identify: Determines properties of magic item.</li>
-                <li> Jump: Subject gets bonus on Jump checks.</li>
-                <li> Lesser Elemental Orb: Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/2 levels damage. Ranged Touch attack.</li>
-                <li> Mage Armor: Gives subject +4 armor bonus.</li>
-                <li> Magic Missile: 1d4+1 damage; +1 missile per two levels above 1st (max 5).</li>
-                <li> Magic Weapon: Weapon gains +1 bonus.</li>
-                <li> Obscuring Mist: Fog surrounds you.</li>
-                <li> Protection from Chaos/Evil/Good/Law: +2 to AC and saves, counter mind control.</li>
-                <li> Shield: Invisible disc gives +4 shield bonus to AC, blocks magic missiles.</li>
-                <li> Shocking Grasp: Touch delivers 1d6/level electricity damage (max 5d6).</li>
-                <li> Silent Image: Creates minor illusion of your design.</li>
-                <li> Sleep: Puts 4 HD of creatures into magical slumber.</li>
-                <li> Unseen Servant: Invisible force obeys your commands.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Animate Rope</td>
+                    <td>Makes a rope move at your command.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Animate Skeletons</td>
+                    <td>Animate two skeletons for 1hr/level. EVIL.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Benign Transposition</td>
+                    <td>Two willing subjects swap places.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Burning Hands</td>
+                    <td>1d4/level fire damage (max 5d4).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cause Fear</td>
+                    <td>One creature of 5 HD or less flees for 1d4 rounds.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Charm Person</td>
+                    <td>Makes one person your friend.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Color Spray</td>
+                    <td>Knocks unconscious, blinds, and/or stuns weak creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Corrosive Graspe</td>
+                    <td>1 touch/level deals 1d8 acid damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Secret Doors</td>
+                    <td>Reveals hidden doors within 60 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Disguise Self</td>
+                    <td>Changes your appearance.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Expeditious Retreat</td>
+                    <td>Your speed increases by 30 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Feather Fall</td>
+                    <td>Objects or creatures fall slowly.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Floating Disk</td>
+                    <td>Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Grease</td>
+                    <td>Makes 10-ft. square or one object slippery.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hypnotism</td>
+                    <td>Fascinates 2d4 HD of creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Identify</td>
+                    <td>Determines properties of magic item.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Jump</td>
+                    <td>Subject gets bonus on Jump checks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Lesser Elemental Orb</td>
+                    <td>Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/2 levels damage. Ranged Touch attack.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Mage Armor</td>
+                    <td>Gives subject +4 armor bonus.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Magic Missile</td>
+                    <td>1d4+1 damage; +1 missile per two levels above 1st (max 5).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Magic Weapon</td>
+                    <td>Weapon gains +1 bonus.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Obscuring Mist</td>
+                    <td>Fog surrounds you.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Protection from Chaos/Evil/Good/Law</td>
+                    <td>+2 to AC and saves, counter mind control.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Shield</td>
+                    <td>Invisible disc gives +4 shield bonus to AC, blocks magic missiles.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Shocking Grasp</td>
+                    <td>Touch delivers 1d6/level electricity damage (max 5d6).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Silent Image</td>
+                    <td>Creates minor illusion of your design.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Sleep</td>
+                    <td>Puts 4 HD of creatures into magical slumber.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Unseen Servant</td>
+                    <td>Invisible force obeys your commands.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="nd-level-sorcerer-spells">2nd-level Sorcerer spells</h4>
-              <ul>
-                <li> Acid Arrow: Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.</li>
-                <li> Animate Zombies: Animate two zombies for 1hr/level. EVIL.</li>
-                <li> Baleful Transposition: Two unwilling targets swap positions.</li>
-                <li> Blindness/Deafness: Makes subject blinded or deafened.</li>
-                <li> Blur: Attacks miss subject 20% of the time.</li>
-                <li> Combust: Subject takes 1d8/level fire damage and might catch fire.</li>
-                <li> Darkness: 20-ft. radius of supernatural shadow.</li>
-                <li> Daze Monster: Living creature of 6 HD or less loses next action.</li>
-                <li> Electric Loop: Deals 1d6/level electricity damage plus stunning to a single creature.</li>
-                <li> Enhance ability: Subject's ability becomes 19 for 10min/level.</li>
-                <li> False Life: Gain 1d10 temporary hp +1/level (max +10).</li>
-                <li> Flaming Sphere: Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.</li>
-                <li> Fog Cloud: Fog obscures vision.</li>
-                <li> Ghoul Touch: Paralyzes one subject, which exudes stench that makes those nearby sickened.</li>
-                <li> Gust of Wind: Blows away or knocks down smaller creatures for 1rd/level.</li>
-                <li> Hideous Laughter: Subject loses actions for 1 round/level.</li>
-                <li> Hypnotic Pattern: Fascinates (2d4 + level) HD of creatures.</li>
-                <li> Invisibility: Subject is invisible for 1 min./level or until it attacks.</li>
-                <li> Knock: Opens locked or magically sealed door.</li>
-                <li> Minor Image: As silent image, plus some sound.</li>
-                <li> Mirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).</li>
-                <li> Protection from Arrows: Subject immune to most ranged attacks.</li>
-                <li> Pyrotechnics: Turns fire into blinding light or choking smoke.</li>
-                <li> Scare: Panics creatures of less than 6 HD.</li>
-                <li> Scorching Ray: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).</li>
-                <li> See Invisibility: Reveals invisible creatures or objects.</li>
-                <li> Shatter: Sonic vibration damages objects or crystalline creatures.</li>
-                <li> Snowball Swarm: Snowballs deal 2d6 points of cold damage in 10' burst.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Acid Arrow</td>
+                    <td>Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Animate Zombies</td>
+                    <td>Animate two zombies for 1hr/level. EVIL.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Baleful Transposition</td>
+                    <td>Two unwilling targets swap positions.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Blindness/Deafness</td>
+                    <td>Makes subject blinded or deafened.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Blur</td>
+                    <td>Attacks miss subject 20% of the time.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Combust</td>
+                    <td>Subject takes 1d8/level fire damage and might catch fire.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Darkness</td>
+                    <td>20-ft. radius of supernatural shadow.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Daze Monster</td>
+                    <td>Living creature of 6 HD or less loses next action.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Electric Loop</td>
+                    <td>Deals 1d6/level electricity damage plus stunning to a single creature.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Enhance ability</td>
+                    <td>Subject's ability becomes 19 for 10min/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>False Life</td>
+                    <td>Gain 1d10 temporary hp +1/level (max +10).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Flaming Sphere</td>
+                    <td>Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Fog Cloud</td>
+                    <td>Fog obscures vision.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Ghoul Touch</td>
+                    <td>Paralyzes one subject, which exudes stench that makes those nearby sickened.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Gust of Wind</td>
+                    <td>Blows away or knocks down smaller creatures for 1rd/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Hideous Laughter</td>
+                    <td>Subject loses actions for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hypnotic Pattern</td>
+                    <td>Fascinates (2d4 + level) HD of creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Invisibility</td>
+                    <td>Subject is invisible for 1 min./level or until it attacks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Knock</td>
+                    <td>Opens locked or magically sealed door.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Minor Image</td>
+                    <td>As silent image, plus some sound.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Mirror Image</td>
+                    <td>Creates decoy duplicates of you (1d4 +1 per three levels, max 8).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Protection from Arrows</td>
+                    <td>Subject immune to most ranged attacks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Pyrotechnics</td>
+                    <td>Turns fire into blinding light or choking smoke.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Scare</td>
+                    <td>Panics creatures of less than 6 HD.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Scorching Ray</td>
+                    <td>Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>See Invisibility</td>
+                    <td>Reveals invisible creatures or objects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Shatter</td>
+                    <td>Sonic vibration damages objects or crystalline creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Snowball Swarm</td>
+                    <td>Snowballs deal 2d6 points of cold damage in 10' burst.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="rd-level-sorcerer-spells">3rd-level Sorcerer spells</h4>
-              <ul>
-                <li> Animate Ghouls: Animate two ghouls for 1 hr/level. EVIL.</li>
-                <li> Blink: You randomly vanish and reappear for 1 round/level.</li>
-                <li> Chain Missiles: 1 magic missile per two levels strike one target, then one fewer another, then one fewer another, etc.</li>
-                <li> Daylight: 60-ft. radius of bright light.</li>
-                <li> Deep Slumber: Puts 10 HD of creatures to sleep.</li>
-                <li> Dispel Magic: Cancels magical spells and effects.</li>
-                <li> Displacement: Attacks miss subject 50%.</li>
-                <li> Fireball: 1d6 damage per level, 20-ft. radius.</li>
-                <li> Flame Arrow: Arrows deal +1d6 fire damage.</li>
-                <li> Fly: Subject flies at speed of 60 ft.</li>
-                <li> Haste: One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.</li>
-                <li> Heroism: Gives +2 bonus on attack rolls, saves, skill checks.</li>
-                <li> Hold Person: Paralyzes one humanoid for 1 round/level.</li>
-                <li> Invisibility, 10' radius: Makes everyone within 10 ft. invisible.</li>
-                <li> Lightning Bolt: Electricity deals 1d6/level damage.</li>
-                <li> Mass Mage Armor: one creature per level gains mage armor.</li>
-                <li> Mass Shield: one creature per level gains shield.</li>
-                <li> Magic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.</li>
-                <li> Major Image: As silent image, plus sound, smell and thermal effects.</li>
-                <li> Reverse Arrows: Like Protection From Arrows, but arrows reflect back.</li>
-                <li> Shrink Item: Object shrinks to one-sixteenth size.</li>
-                <li> Sleet Storm: Hampers vision and movement.</li>
-                <li> Slow: One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.</li>
-                <li> Suggestion: Compels subject to follow stated course of action.</li>
-                <li> Vampiric Touch: Touch deals 1d6/two levels damage; caster gains damage as hp.</li>
-                <li> Web: Fills 20-ft.-radius spread with sticky spiderwebs.</li>
-                <li> Wind Gale: 30' cone deals 1d6 slashing damage per level.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Animate Ghouls</td>
+                    <td>Animate two ghouls for 1 hr/level. EVIL.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Blink</td>
+                    <td>You randomly vanish and reappear for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Chain Missiles</td>
+                    <td>1 magic missile per two levels strike one target, then one fewer another, then one fewer another, etc.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Daylight</td>
+                    <td>60-ft. radius of bright light.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Deep Slumber</td>
+                    <td>Puts 10 HD of creatures to sleep.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Dispel Magic</td>
+                    <td>Cancels magical spells and effects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Displacement</td>
+                    <td>Attacks miss subject 50%.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fireball</td>
+                    <td>1d6 damage per level, 20-ft. radius.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Flame Arrow</td>
+                    <td>Arrows deal +1d6 fire damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fly</td>
+                    <td>Subject flies at speed of 60 ft.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Haste</td>
+                    <td>One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Heroism</td>
+                    <td>Gives +2 bonus on attack rolls, saves, skill checks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hold Person</td>
+                    <td>Paralyzes one humanoid for 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Invisibility, 10' radius</td>
+                    <td>Makes everyone within 10 ft. invisible.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Lightning Bolt</td>
+                    <td>Electricity deals 1d6/level damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Mass Mage Armor</td>
+                    <td>one creature per level gains mage armor.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Mass Shield</td>
+                    <td>one creature per level gains shield.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Magic Circle against Chaos/Evil/Good/Law</td>
+                    <td>As protection spells, but 10-ft. radius and 10 min./level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Major Image</td>
+                    <td>As silent image, plus sound, smell and thermal effects.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Reverse Arrows</td>
+                    <td>Like Protection From Arrows, but arrows reflect back.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Shrink Item</td>
+                    <td>Object shrinks to one-sixteenth size.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Sleet Storm</td>
+                    <td>Hampers vision and movement.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Slow</td>
+                    <td>One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Suggestion</td>
+                    <td>Compels subject to follow stated course of action.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Vampiric Touch</td>
+                    <td>Touch deals 1d6/two levels damage; caster gains damage as hp.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Web</td>
+                    <td>Fills 20-ft.-radius spread with sticky spiderwebs.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wind Gale</td>
+                    <td>30' cone deals 1d6 slashing damage per level.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="th-level-sorcerer-spells1">4th-level Sorcerer spells</h4>
-              <ul>
-                <li> Charm Monster: Makes monster believe it is your ally.</li>
-                <li> Cone of Fire: 60 ft cone of fire deals 1d6/level.</li>
-                <li> Confusion: Subjects behave oddly for 1 round/level.</li>
-                <li> Crushing Despair: Subjects take -2 on attack rolls, damage rolls, saves, and checks.</li>
-                <li> Dimension Door: Teleports you short distance.</li>
-                <li> Earthbind: A creature can't fly and falls to the ground.</li>
-                <li> Lesser Elemental Orb: Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/level damage. Ranged Touch attack.</li>
-                <li> Fear: Subjects within cone flee for 1 round/level.</li>
-                <li> Fire Shield: Creatures attacking you take fire damage; you’re protected from heat or cold.</li>
-                <li> Lesser Globe of Invulnerability: Stops 1st- through 3rd-level spell effects.</li>
-                <li> Ice Storm: Hail deals 5d6 damage in cylinder 40 ft. across.</li>
-                <li> Illusory Wall: Wall, floor, or ceiling looks real, but anything can pass through.</li>
-                <li> Greater Invisibility: As invisibility, but subject can attack and stay invisible, becomes partially visible.</li>
-                <li> Greater Flaming Sphere: Like flaming sphere, but 4d6.</li>
-                <li> Phantasmal Killer: Fearsome illusion kills subject or deals 3d6 damage.</li>
-                <li> Remove Curse: Frees object or person from curse.</li>
-                <li> Resilient Sphere: Force globe protects but traps one subject.</li>
-                <li> Shout: Deafens all within cone and deals 5d6 sonic damage.</li>
-                <li> Stinking Cloud: Nauseating vapors, 1 round/level.</li>
-                <li> Stoneskin: Ignore 10 points of damage per attack.</li>
-                <li> Wall of Fire: Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.</li>
-                <li> Wall of Ice: Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.</li>
-              </ul>
-            </div>
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Charm Monster</td>
+                    <td>Makes monster believe it is your ally.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cone of Fire</td>
+                    <td>60 ft cone of fire deals 1d6/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Confusion</td>
+                    <td>Subjects behave oddly for 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Crushing Despair</td>
+                    <td>Subjects take -2 on attack rolls, damage rolls, saves, and checks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Dimension Door</td>
+                    <td>Teleports you short distance.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Earthbind</td>
+                    <td>A creature can't fly and falls to the ground.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Lesser Elemental Orb</td>
+                    <td>Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/level damage. Ranged Touch attack.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fear</td>
+                    <td>Subjects within cone flee for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Fire Shield</td>
+                    <td>Creatures attacking you take fire damage; you’re protected from heat or cold.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Lesser Globe of Invulnerability</td>
+                    <td>Stops 1st- through 3rd-level spell effects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Ice Storm</td>
+                    <td>Hail deals 5d6 damage in cylinder 40 ft. across.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Illusory Wall</td>
+                    <td>Wall, floor, or ceiling looks real, but anything can pass through.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Greater Invisibility</td>
+                    <td>As invisibility, but subject can attack and stay invisible, becomes partially visible.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Greater Flaming Sphere</td>
+                    <td>Like flaming sphere, but 4d6.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Phantasmal Killer</td>
+                    <td>Fearsome illusion kills subject or deals 3d6 damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Remove Curse</td>
+                    <td>Frees object or person from curse.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Resilient Sphere</td>
+                    <td>Force globe protects but traps one subject.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Shout</td>
+                    <td>Deafens all within cone and deals 5d6 sonic damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Stinking Cloud</td>
+                    <td>Nauseating vapors, 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Stoneskin</td>
+                    <td>Ignore 10 points of damage per attack.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wall of Fire</td>
+                    <td>Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wall of Ice</td>
+                    <td>Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
           </section>
           <section class="class_spell_list">
             <h3 id="wizard-spells">Wizard spells</h3>
-            <div class="spell_list">
+            <section>
               <h4 id="th-level-wizard-spells">0th-level Wizard spells</h4>
-              <ul>
-                <li> Acid Splash: Orb deals 1d3 acid damage.</li>
-                <li> Detect Poison: Detects poison in one creature or small object.</li>
-                <li> Detect Magic: Detects spells and magic items within 60 ft.</li>
-                <li> Read Magic: Read scrolls and spellbooks.</li>
-                <li> Daze: Humanoid creature of 4 HD or less loses next action.</li>
-                <li> Dancing Lights: Creates torches or other lights.</li>
-                <li> Flare: Dazzles one creature (-1 on attack rolls).</li>
-                <li> Light: Object shines like a torch.</li>
-                <li> Ray of Frost: Ray deals 1d3 cold damage.</li>
-                <li> Ghost Sound: Figment sounds.</li>
-                <li> Disrupt Undead: Deals 1d6 damage to one undead.</li>
-                <li> Mage Hand: 5-pound telekinesis.</li>
-                <li> Message: Whispered conversation at distance.</li>
-                <li> Open/Close: Opens or closes small or light things.</li>
-                <li> Arcane Mark: Inscribes a personal rune (visible or invisible).</li>
-                <li> Prestidigitation: Performs minor tricks.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Acid Splash</td>
+                    <td>Orb deals 1d3 acid damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Poison</td>
+                    <td>Detects poison in one creature or small object.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Magic</td>
+                    <td>Detects spells and magic items within 60 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Read Magic</td>
+                    <td>Read scrolls and spellbooks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Daze</td>
+                    <td>Humanoid creature of 4 HD or less loses next action.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Dancing Lights</td>
+                    <td>Creates torches or other lights.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Flare</td>
+                    <td>Dazzles one creature (-1 on attack rolls).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Light</td>
+                    <td>Object shines like a torch.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Ray of Frost</td>
+                    <td>Ray deals 1d3 cold damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Ghost Sound</td>
+                    <td>Figment sounds.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Disrupt Undead</td>
+                    <td>Deals 1d6 damage to one undead.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Mage Hand</td>
+                    <td>5-pound telekinesis.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Message</td>
+                    <td>Whispered conversation at distance.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Open/Close</td>
+                    <td>Opens or closes small or light things.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Arcane Mark</td>
+                    <td>Inscribes a personal rune (visible or invisible).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Prestidigitation</td>
+                    <td>Performs minor tricks.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="st-level-wizard-spells">1st-level Wizard spells</h4>
-              <ul>
-                <li> Alarm: Wards an area for 2 hours/level.</li>
-                <li> Animate Rope: Makes a rope move at your command.</li>
-                <li> Burning Hands: 1d4/level fire damage (max 5d4).</li>
-                <li> Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.</li>
-                <li> Charm Person: Makes one person your friend.</li>
-                <li> Chill Touch: One touch/level deals 1d6 damage and possibly 1 Str damage.</li>
-                <li> Color Spray: Knocks unconscious, blinds, and/or stuns weak creatures.</li>
-                <li> Comprehend Languages: You understand all spoken and written languages.</li>
-                <li> Detect Secret Doors: Reveals hidden doors within 60 ft.</li>
-                <li> Detect Undead: Reveals undead within 60 ft.</li>
-                <li> Disguise Self: Changes your appearance.</li>
-                <li> Enlarge Person: Humanoid creature doubles in size.</li>
-                <li> Erase: Mundane or magical writing vanishes.</li>
-                <li> Expeditious Retreat: Your speed increases by 30 ft.</li>
-                <li> Feather Fall: Objects or creatures fall slowly.</li>
-                <li> Floating Disk: Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.</li>
-                <li> Grease: Makes 10-ft. square or one object slippery.</li>
-                <li> Hold Portal: Holds door shut.</li>
-                <li> Hypnotism: Fascinates 2d4 HD of creatures.</li>
-                <li> Identify: Determines properties of magic item.</li>
-                <li> Jump: Subject gets bonus on Jump checks.</li>
-                <li> Mage Armor: Gives subject +4 armor bonus.</li>
-                <li> Magic Aura: Alters object’s magic aura.</li>
-                <li> Magic Missile: 1d4+1 damage; +1 missile per two levels above 1st (max 5).</li>
-                <li> Magic Weapon: Weapon gains +1 bonus.</li>
-                <li> Obscuring Mist: Fog surrounds you.</li>
-                <li> Protection from Chaos/Evil/Good/Law: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</li>
-                <li> Ray of Enfeeblement: Ray deals 1d6 +1 per two levels Str damage.</li>
-                <li> Reduce Person: Humanoid creature halves in size.</li>
-                <li> Shield: Invisible disc gives +4 to AC, blocks magic missiles.</li>
-                <li> Shocking Grasp: Touch delivers 1d6/level electricity damage (max 5d6).</li>
-                <li> Silent Image: Creates minor illusion of your design.</li>
-                <li> Sleep: Puts 4 HD of creatures into magical slumber.</li>
-                <li> Unseen Servant: Invisible force obeys your commands.</li>
-                <li> Ventriloquism: Throws voice for 1 min./level.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Alarm</td>
+                    <td>Wards an area for 2 hours/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Animate Rope</td>
+                    <td>Makes a rope move at your command.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Burning Hands</td>
+                    <td>1d4/level fire damage (max 5d4).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Cause Fear</td>
+                    <td>One creature of 5 HD or less flees for 1d4 rounds.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Charm Person</td>
+                    <td>Makes one person your friend.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Chill Touch</td>
+                    <td>One touch/level deals 1d6 damage and possibly 1 Str damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Color Spray</td>
+                    <td>Knocks unconscious, blinds, and/or stuns weak creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Comprehend Languages</td>
+                    <td>You understand all spoken and written languages.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Detect Secret Doors</td>
+                    <td>Reveals hidden doors within 60 ft.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Detect Undead</td>
+                    <td>Reveals undead within 60 ft.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Disguise Self</td>
+                    <td>Changes your appearance.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Enlarge Person</td>
+                    <td>Humanoid creature doubles in size.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Erase</td>
+                    <td>Mundane or magical writing vanishes.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Expeditious Retreat</td>
+                    <td>Your speed increases by 30 ft.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Feather Fall</td>
+                    <td>Objects or creatures fall slowly.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Floating Disk</td>
+                    <td>Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Grease</td>
+                    <td>Makes 10-ft. square or one object slippery.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Hold Portal</td>
+                    <td>Holds door shut.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hypnotism</td>
+                    <td>Fascinates 2d4 HD of creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Identify</td>
+                    <td>Determines properties of magic item.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Jump</td>
+                    <td>Subject gets bonus on Jump checks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Mage Armor</td>
+                    <td>Gives subject +4 armor bonus.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Magic Aura</td>
+                    <td>Alters object’s magic aura.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Magic Missile</td>
+                    <td>1d4+1 damage; +1 missile per two levels above 1st (max 5).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Magic Weapon</td>
+                    <td>Weapon gains +1 bonus.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Obscuring Mist</td>
+                    <td>Fog surrounds you.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Protection from Chaos/Evil/Good/Law</td>
+                    <td>+2 to AC and saves, counter mind control, hedge out elementals and outsiders.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Ray of Enfeeblement</td>
+                    <td>Ray deals 1d6 +1 per two levels Str damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Reduce Person</td>
+                    <td>Humanoid creature halves in size.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Shield</td>
+                    <td>Invisible disc gives +4 to AC, blocks magic missiles.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Shocking Grasp</td>
+                    <td>Touch delivers 1d6/level electricity damage (max 5d6).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Silent Image</td>
+                    <td>Creates minor illusion of your design.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Sleep</td>
+                    <td>Puts 4 HD of creatures into magical slumber.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Unseen Servant</td>
+                    <td>Invisible force obeys your commands.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Ventriloquism</td>
+                    <td>Throws voice for 1 min./level.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="nd-level-wizard-spells">2nd-level Wizard spells</h4>
-              <ul>
-                <li> Acid Arrow: Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.</li>
-                <li> Arcane Lock: Magically locks a portal or chest.</li>
-                <li> Bear’s Endurance: Subject gains 19 Con for 10 min./level.</li>
-                <li> Blindness/Deafness: Makes subject blinded or deafened.</li>
-                <li> Blur: Attacks miss subject 20% of the time.</li>
-                <li> Bull’s Strength: Subject gains 19 Str for 10 min./level.</li>
-                <li> Cat’s Grace: Subject gains 19 Dex for 10 min./level.</li>
-                <li> Command Undead: Undead creature obeys your commands.</li>
-                <li> Continual Flame: Makes a permanent, heatless torch.</li>
-                <li> Darkness: 20-ft. radius of supernatural shadow.</li>
-                <li> Darkvision: See 60 ft. in total darkness.</li>
-                <li> Daze Monster: Living creature of 6 HD or less loses next action.</li>
-                <li> Eagle’s Splendor: Subject gains 19 Cha for 10 min./level.</li>
-                <li> False Life: Gain 1d10 temporary hp +1/level (max +10).</li>
-                <li> Flaming Sphere: Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.</li>
-                <li> Fog Cloud: Fog obscures vision.</li>
-                <li> Fox’s Cunning: Subject gains 19 Int for 10 min./level.</li>
-                <li> Ghoul Touch: Paralyzes one subject, which exudes stench that makes those nearby sickened.</li>
-                <li> Gust of Wind: Blows away or knocks down smaller creatures for 1rd/level.</li>
-                <li> Hideous Laughter: Subject loses actions for 1 round/level.</li>
-                <li> Hypnotic Pattern: Fascinates (2d4 + level) HD of creatures.</li>
-                <li> Invisibility: Subject is invisible for 1 min./level or until it attacks.</li>
-                <li> Knock: Opens locked or magically sealed door.</li>
-                <li> Levitate: Subject moves up and down at your direction.</li>
-                <li> Locate Object: Senses direction toward object (specific or type).</li>
-                <li> Magic Mouth: Speaks once when triggered.</li>
-                <li> Minor Image: As silent image, plus some sound.</li>
-                <li> Mirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).</li>
-                <li> Misdirection: Misleads divinations for one creature or object.</li>
-                <li> Obscure Object: Masks object against scrying.</li>
-                <li> Owl’s Wisdom: Subject gains 19 Wis for 10 min./level.</li>
-                <li> Phantom Trap: Makes item seem trapped.</li>
-                <li> Protection from Arrows: Subject immune to most ranged attacks.</li>
-                <li> Pyrotechnics: Turns fire into blinding light or choking smoke.</li>
-                <li> Resist Energy: Ignores first 10 (or more) points of damage/attack from specified energy type.</li>
-                <li> Scare: Panics creatures of less than 6 HD.</li>
-                <li> Scorching Ray: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).</li>
-                <li> See Invisibility: Reveals invisible creatures or objects.</li>
-                <li> Shatter: Sonic vibration damages objects or crystalline creatures.</li>
-                <li> Whispering Wind: Sends a short message 1 mile/level.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Acid Arrow</td>
+                    <td>Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Arcane Lock</td>
+                    <td>Magically locks a portal or chest.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Bear’s Endurance</td>
+                    <td>Subject gains 19 Con for 10 min./level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Blindness/Deafness</td>
+                    <td>Makes subject blinded or deafened.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Blur</td>
+                    <td>Attacks miss subject 20% of the time.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Bull’s Strength</td>
+                    <td>Subject gains 19 Str for 10 min./level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Cat’s Grace</td>
+                    <td>Subject gains 19 Dex for 10 min./level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Command Undead</td>
+                    <td>Undead creature obeys your commands.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Continual Flame</td>
+                    <td>Makes a permanent, heatless torch.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Darkness</td>
+                    <td>20-ft. radius of supernatural shadow.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Darkvision</td>
+                    <td>See 60 ft. in total darkness.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Daze Monster</td>
+                    <td>Living creature of 6 HD or less loses next action.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Eagle’s Splendor</td>
+                    <td>Subject gains 19 Cha for 10 min./level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>False Life</td>
+                    <td>Gain 1d10 temporary hp +1/level (max +10).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Flaming Sphere</td>
+                    <td>Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fog Cloud</td>
+                    <td>Fog obscures vision.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Fox’s Cunning</td>
+                    <td>Subject gains 19 Int for 10 min./level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Ghoul Touch</td>
+                    <td>Paralyzes one subject, which exudes stench that makes those nearby sickened.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Gust of Wind</td>
+                    <td>Blows away or knocks down smaller creatures for 1rd/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Hideous Laughter</td>
+                    <td>Subject loses actions for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hypnotic Pattern</td>
+                    <td>Fascinates (2d4 + level) HD of creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Invisibility</td>
+                    <td>Subject is invisible for 1 min./level or until it attacks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Knock</td>
+                    <td>Opens locked or magically sealed door.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Levitate</td>
+                    <td>Subject moves up and down at your direction.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Locate Object</td>
+                    <td>Senses direction toward object (specific or type).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Magic Mouth</td>
+                    <td>Speaks once when triggered.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Minor Image</td>
+                    <td>As silent image, plus some sound.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Mirror Image</td>
+                    <td>Creates decoy duplicates of you (1d4 +1 per three levels, max 8).</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Misdirection</td>
+                    <td>Misleads divinations for one creature or object.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Obscure Object</td>
+                    <td>Masks object against scrying.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Owl’s Wisdom</td>
+                    <td>Subject gains 19 Wis for 10 min./level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Phantom Trap</td>
+                    <td>Makes item seem trapped.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Protection from Arrows</td>
+                    <td>Subject immune to most ranged attacks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Pyrotechnics</td>
+                    <td>Turns fire into blinding light or choking smoke.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Resist Energy</td>
+                    <td>Ignores first 10 (or more) points of damage/attack from specified energy type.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Scare</td>
+                    <td>Panics creatures of less than 6 HD.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Scorching Ray</td>
+                    <td>Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>See Invisibility</td>
+                    <td>Reveals invisible creatures or objects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Shatter</td>
+                    <td>Sonic vibration damages objects or crystalline creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Whispering Wind</td>
+                    <td>Sends a short message 1 mile/level.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="rd-level-wizard-spells">3rd-level Wizard spells</h4>
-              <ul>
-                <li> Arcane Sight: Magical auras become visible to you.</li>
-                <li> Blink: You randomly vanish and reappear for 1 round/level.</li>
-                <li> Daylight: 60-ft. radius of bright light.</li>
-                <li> Deep Slumber: Puts 10 HD of creatures to sleep.</li>
-                <li> Dispel Magic: Cancels magical spells and effects.</li>
-                <li> Displacement: Attacks miss subject 50%.</li>
-                <li> Explosive Runes: Deals 6d6 damage when read.</li>
-                <li> Fireball: 1d6 damage per level, 20-ft. radius.</li>
-                <li> Flame Arrow: Arrows deal +1d6 fire damage.</li>
-                <li> Fly: Subject flies at speed of 60 ft.</li>
-                <li> Gaseous Form: Subject becomes insubstantial and can fly slowly.</li>
-                <li> Gentle Repose: Preserves one corpse.</li>
-                <li> Halt Undead: Immobilizes undead for 1 round/level.</li>
-                <li> Haste: One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.</li>
-                <li> Heroism: Gives +2 bonus on attack rolls, saves, skill checks.</li>
-                <li> Hold Person: Paralyzes one humanoid for 1 round/level.</li>
-                <li> Illusory Script: Only intended reader can decipher.</li>
-                <li> Invisibility Sphere: Makes everyone within 10 ft. invisible.</li>
-                <li> Lightning Bolt: Electricity deals 1d6/level damage.</li>
-                <li> Magic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.</li>
-                <li> Major Image: As silent image, plus sound, smell and thermal effects.</li>
-                <li> Nondetection: Hides subject from divination, scrying.</li>
-                <li> Rage: Subjects gains +2 to Str and Con, +1 on Will saves, -2 to AC.</li>
-                <li> Secret Page: Changes one page to hide its real content.</li>
-                <li> Sepia Snake Sigil: Creates text symbol that immobilizes reader.</li>
-                <li> Shrink Item: Object shrinks to one-sixteenth size.</li>
-                <li> Sleet Storm: Hampers vision and movement.</li>
-                <li> Slow: One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.</li>
-                <li> Suggestion: Compels subject to follow stated course of action.</li>
-                <li> Tongues: Speak any language.</li>
-                <li> Vampiric Touch: Touch deals 1d6/two levels damage; caster gains damage as hp.</li>
-                <li> Water Breathing: Subjects can breathe underwater.</li>
-                <li> Web: Fills 20-ft.-radius spread with sticky spiderwebs.</li>
-                <li> Wind Wall: Deflects arrows, smaller creatures, and gases.</li>
-              </ul>
-            </div>
-            <div class="spell_list">
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Arcane Sight</td>
+                    <td>Magical auras become visible to you.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Blink</td>
+                    <td>You randomly vanish and reappear for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Daylight</td>
+                    <td>60-ft. radius of bright light.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Deep Slumber</td>
+                    <td>Puts 10 HD of creatures to sleep.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Dispel Magic</td>
+                    <td>Cancels magical spells and effects.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Displacement</td>
+                    <td>Attacks miss subject 50%.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Explosive Runes</td>
+                    <td>Deals 6d6 damage when read.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fireball</td>
+                    <td>1d6 damage per level, 20-ft. radius.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Flame Arrow</td>
+                    <td>Arrows deal +1d6 fire damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fly</td>
+                    <td>Subject flies at speed of 60 ft.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Gaseous Form</td>
+                    <td>Subject becomes insubstantial and can fly slowly.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Gentle Repose</td>
+                    <td>Preserves one corpse.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Halt Undead</td>
+                    <td>Immobilizes undead for 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Haste</td>
+                    <td>One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Heroism</td>
+                    <td>Gives +2 bonus on attack rolls, saves, skill checks.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Hold Person</td>
+                    <td>Paralyzes one humanoid for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Illusory Script</td>
+                    <td>Only intended reader can decipher.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Invisibility Sphere</td>
+                    <td>Makes everyone within 10 ft. invisible.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Lightning Bolt</td>
+                    <td>Electricity deals 1d6/level damage.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Magic Circle against Chaos/Evil/Good/Law</td>
+                    <td>As protection spells, but 10-ft. radius and 10 min./level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Major Image</td>
+                    <td>As silent image, plus sound, smell and thermal effects.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Nondetection</td>
+                    <td>Hides subject from divination, scrying.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Rage</td>
+                    <td>Subjects gains +2 to Str and Con, +1 on Will saves, -2 to AC.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Secret Page</td>
+                    <td>Changes one page to hide its real content.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Sepia Snake Sigil</td>
+                    <td>Creates text symbol that immobilizes reader.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Shrink Item</td>
+                    <td>Object shrinks to one-sixteenth size.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Sleet Storm</td>
+                    <td>Hampers vision and movement.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Slow</td>
+                    <td>One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Suggestion</td>
+                    <td>Compels subject to follow stated course of action.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Tongues</td>
+                    <td>Speak any language.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Vampiric Touch</td>
+                    <td>Touch deals 1d6/two levels damage; caster gains damage as hp.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Water Breathing</td>
+                    <td>Subjects can breathe underwater.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Web</td>
+                    <td>Fills 20-ft.-radius spread with sticky spiderwebs.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wind Wall</td>
+                    <td>Deflects arrows, smaller creatures, and gases.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
               <h4 id="th-level-wizard-spells1">4th-level Wizard spells</h4>
-              <ul>
-                <li> Arcane Eye: Invisible floating eye moves 30 ft./round.</li>
-                <li> Bestow Curse: -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.</li>
-                <li> Charm Monster: Makes monster believe it is your ally.</li>
-                <li> Confusion: Subjects behave oddly for 1 round/level.</li>
-                <li> Contagion: Infects subject with chosen disease.</li>
-                <li> Crushing Despair: Subjects take -2 on attack rolls, damage rolls, saves, and checks.</li>
-                <li> Dimension Door: Teleports you short distance.</li>
-                <li> Dimensional Anchor: Bars extradimensional movement.</li>
-                <li> Enervation: Subject gains 1d4 negative levels.</li>
-                <li> Fear: Subjects within cone flee for 1 round/level.</li>
-                <li> Fire Shield: Creatures attacking you take fire damage; you’re protected from heat or cold.</li>
-                <li> Fire Trap: Opened object deals 1d4 damage +1/level.</li>
-                <li> Geas, Lesser: Commands subject of 7 HD or less.</li>
-                <li> Globe of Invulnerability, Lesser: Stops 1st- through 3rd-level spell effects.</li>
-                <li> Hallucinatory Terrain: Makes one type of terrain appear like another (field into forest, or the like).</li>
-                <li> Ice Storm: Hail deals 5d6 damage in cylinder 40 ft. across.</li>
-                <li> Illusory Wall: Wall, floor, or ceiling looks real, but anything can pass through.</li>
-                <li> Invisibility, Greater: As invisibility, but subject can attack and stay invisible.</li>
-                <li> Locate Creature: Indicates direction to familiar creature.</li>
-                <li> Phantasmal Killer: Fearsome illusion kills subject or deals 3d6 damage.</li>
-                <li> Rainbow Pattern: Lights fascinate 24 HD of creatures.</li>
-                <li> Remove Curse: Frees object or person from curse.</li>
-                <li> Resilient Sphere: Force globe protects but traps one subject.</li>
-                <li> Shout: Deafens all within cone and deals 5d6 sonic damage.</li>
-                <li> Stinking Cloud: Nauseating vapors, 1 round/level.</li>
-                <li> Stone Shape: Sculpts stone into any shape.</li>
-                <li> Stoneskin M: Ignore 10 points of damage per attack.</li>
-                <li> Wall of Fire: Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.</li>
-                <li> Wall of Ice: Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.</li>
-              </ul>
-            </div>
+              <table class="spell_list">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Arcane Eye</td>
+                    <td>Invisible floating eye moves 30 ft./round.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Bestow Curse</td>
+                    <td>-6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Charm Monster</td>
+                    <td>Makes monster believe it is your ally.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Confusion</td>
+                    <td>Subjects behave oddly for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Contagion</td>
+                    <td>Infects subject with chosen disease.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Crushing Despair</td>
+                    <td>Subjects take -2 on attack rolls, damage rolls, saves, and checks.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Dimension Door</td>
+                    <td>Teleports you short distance.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Dimensional Anchor</td>
+                    <td>Bars extradimensional movement.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Enervation</td>
+                    <td>Subject gains 1d4 negative levels.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fear</td>
+                    <td>Subjects within cone flee for 1 round/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Fire Shield</td>
+                    <td>Creatures attacking you take fire damage; you’re protected from heat or cold.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Fire Trap</td>
+                    <td>Opened object deals 1d4 damage +1/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Geas, Lesser</td>
+                    <td>Commands subject of 7 HD or less.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Globe of Invulnerability, Lesser</td>
+                    <td>Stops 1st- through 3rd-level spell effects.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Hallucinatory Terrain</td>
+                    <td>Makes one type of terrain appear like another (field into forest, or the like).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Ice Storm</td>
+                    <td>Hail deals 5d6 damage in cylinder 40 ft. across.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Illusory Wall</td>
+                    <td>Wall, floor, or ceiling looks real, but anything can pass through.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Invisibility, Greater</td>
+                    <td>As invisibility, but subject can attack and stay invisible.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Locate Creature</td>
+                    <td>Indicates direction to familiar creature.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Phantasmal Killer</td>
+                    <td>Fearsome illusion kills subject or deals 3d6 damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Rainbow Pattern</td>
+                    <td>Lights fascinate 24 HD of creatures.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Remove Curse</td>
+                    <td>Frees object or person from curse.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Resilient Sphere</td>
+                    <td>Force globe protects but traps one subject.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Shout</td>
+                    <td>Deafens all within cone and deals 5d6 sonic damage.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Stinking Cloud</td>
+                    <td>Nauseating vapors, 1 round/level.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Stone Shape</td>
+                    <td>Sculpts stone into any shape.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Stoneskin M</td>
+                    <td>Ignore 10 points of damage per attack.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Wall of Fire</td>
+                    <td>Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Wall of Ice</td>
+                    <td>Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
           </section>
         </section>
         <section class="rules">

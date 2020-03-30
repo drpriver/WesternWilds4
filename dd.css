@@ -289,3 +289,13 @@ section.chapter+hr:after {
     font-size: 1.5em;
     padding: 0 0.25em;
 }
+table.spell_list *{
+	border: none;
+	/*border-bottom: 1px solid black;*/
+}
+table.spell_list .even {
+	background-color: rgb(205,200,184);
+}
+table.spell_list thead {
+	display:none;
+}
