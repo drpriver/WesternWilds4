@@ -59,6 +59,8 @@
         Longbow, composite  | 100 gp | 1d8 | ×3 | 110 ft. | 2 | Piercing | Two-handed
         Shortbow            | 30 gp  | 1d6 | ×3 | 60 ft.  | 1 | Piercing | Two-handed
         Shortbow, composite | 75 gp  | 1d6 | ×3 | 70 ft.  | 1 | Piercing | Two-handed
+        Musket              | 500gp  | 1d12| x3 | 150 ft. | 2 | Piercing | Two-handed
+        Pistol              | 250gp  | 1d10| x3 | 50 ft.  | 1 | Piercing | One-handed
 
     Exotic Melee Weapons::table
       ::head
