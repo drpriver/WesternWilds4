@@ -24,7 +24,7 @@ function onload(){
         }
         return d;
     }
-    weapons = make_table_view(["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons"]);
+    weapons = make_table_view(["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons", "Ammunition"]);
     armor = make_table_view(["Light Armor", "Medium Armor", "Heavy Armor", "Shields"])
     function restorify(el){
         const links = el.getElementsByTagName("a");
