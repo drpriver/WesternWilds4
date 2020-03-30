@@ -7,7 +7,6 @@ CLASSES=classes.dnd\
 	fighter.dnd\
 	monk.dnd\
 	paladin.dnd\
-	pirate.dnd\
 	ranger.dnd\
 	sorcerer.dnd\
 	thief.dnd\
@@ -27,6 +26,11 @@ RACES=races.dnd\
 
 SPELLS=spells.dnd\
        wild-shape-black-bear.dnd\
+       bard-spells.dnd\
+       cleric-spells.dnd\
+       druid-spells.dnd\
+       sorcerer-spells.dnd\
+       wizard-spells.dnd
 
 FEATS=feats.dnd\
       	general-feats.dnd\

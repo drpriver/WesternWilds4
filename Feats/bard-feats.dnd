@@ -2,6 +2,14 @@
     Song of Defense::section.feat
       Effect::text
         You learn an additional way to use your bardic performance. It grants you and your allies +1 AC, +1 saves and DR 1/- while you play + 5 rounds afterwards.
+
+    Song of Striding::section.feat
+      Effect::text
+        You learn an additional way to use your bardic performance. It grants you and your allies a +10 bonus to speed while you play + 5 rounds afterwards.
+    Song of Conviction::section.feat
+      Effect::text
+        You learn an additional way to use your bardic performance. It grants you and your allies +2 to saving throws while you play + 5 rounds afterwards.
+
     Jack of all Trades::section.feat
       Effect::text
         When you make a skill check, you can choose to roll as if you had ranks in that skill equal to ½ your bard level (rounded up).
@@ -51,9 +59,3 @@
         +4 bonus to listen
 
         +10 bonus on listen checks to pinpoint an invisible creature.
-
-    Battlesong ::section.feat
-      Effect::text
-        While under the effects of your own inspire courage ability, the bonuses are doubled for you only.
-
-        Same for song of defense?
