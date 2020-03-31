@@ -10,8 +10,19 @@ CLASSES=classes.dnd\
 	sorcerer.dnd\
 	thief.dnd\
 	wizard.dnd\
-	fighter-wizard.dnd\
+	cleric-sorcerer.dnd\
+	cleric-thief.dnd\
+	cleric-wizard.dnd\
+	druid-sorcerer.dnd\
+	druid-thief.dnd\
+	druid-wizard.dnd\
+	fighter-cleric.dnd\
+	fighter-druid.dnd\
+	fighter-sorcerer.dnd\
 	fighter-thief.dnd\
+	fighter-wizard.dnd\
+	sorcerer-thief.dnd\
+	wizard-thief.dnd\
 
 RACES=races.dnd\
       humans.dnd\
