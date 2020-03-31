@@ -1,15 +1,17 @@
-Turn Sequence::section.rules
-  ::text
-    The order of play is as such.
-  ::list
-    1. Each side writes orders showing direction and length of move, firing orders including target and aim (high or low). Character actions (if any) are decided upon.
-    2. Movement is simultaneous and at its end firing and damage are determined. Morale is checked if warranted.
-    3. Boarding operations, if any, are conducted
+Naval Combat::chapter
+  THIS CHAPTER IS UNFINISHED
+  Turn Sequence::section.rules
+    ::text
+      The order of play is as such.
+    ::list
+      1. Each side writes orders showing direction and length of move, firing orders including target and aim (high or low). Character actions (if any) are decided upon.
+      2. Movement is simultaneous and at its end firing and damage are determined. Morale is checked if warranted.
+      3. Boarding operations, if any, are conducted
 
-  ::text
-    Each turn of play corresponds to approximately 5 minutes.
+    ::text
+      Each turn of play corresponds to approximately 5 minutes.
 
-    One square on the grid corresponds to 100 yards.
-  
-Movement::section.rules
-  
+      One square on the grid corresponds to 100 yards.
+    
+  Movement::section.rules
+    
