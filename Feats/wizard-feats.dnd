@@ -66,13 +66,6 @@
       Effect::text
         Once you have learned a spell, you know that spell even without access to a spellbook. Thus, you can always prepare any spell you have ever learned. You still must scribe a spell in order to learn it.
 
-
-    Flexible Mind::section.feat
-      Prerequisite::text
-        Perfect Spell Memory
-      Effect::text
-        You can leave up to one spell slot open for each spell level below the highest level spell slot you have. You can use those slots to spontaneously cast spells you know as a sorcerer would. (You know all spells in your spellbook)
-
     Spell Potency::section.feat
       Effect::text
         Add a +2 bonus on caster level checks. (Affects spell resistance and dispel magic, etc)

@@ -38,7 +38,7 @@
     Skill Points at Each Additional Level::text
       10 + Int modifier
     Weapon and Armor Proficiency::text
-      Thieves are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow, and short sword. Thieves are proficient with light armor, but not with shields.
+      Thieves are proficient with all simple weapons, plus the pistol, rapier, sap, shortbow, and short sword. Thieves are proficient with light armor, but not with shields.
 
     Flanker::text
       Thieves have the exclusive ability to flank their opponents to gain an advantage. Flanking is described in the combat chapter, but in short it is when the thief and an ally are on opposite positions of an enemy. The thief gains a +2 attack bonus against creatures he flanks. Flanking enables sneak attack (see sneak attack).

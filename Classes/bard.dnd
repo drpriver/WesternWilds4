@@ -74,7 +74,7 @@
     Bard Spells::text
       A bard casts arcane spells, which are drawn from the bard spell list. He can cast any spell he knows without preparing it ahead of time. Every bard spell has a verbal component (singing, reciting, or music). To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a bard’s spell is 10 + the spell level + the bard’s Charisma modifier.
 
-      Like other spellcasters, a bard can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given his table. In addition, he receives bonus spells per day if he has a high Charisma score.
+      Like other spellcasters, a bard can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given his table.
 
       The bard’s selection of spells is extremely limited. A bard begins play knowing four 0-level spells of your choice. At most new bard levels, he gains one or more new spells.
 

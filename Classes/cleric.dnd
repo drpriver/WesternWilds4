@@ -78,8 +78,7 @@
       spell is 10 + the spell level + the cleric’s Wisdom modifier.
 
       Like other spellcasters, a cleric can cast only a certain number of spells of each
-      spell level per day. His base daily spell allotment is given in his table. In addition,
-      he receives bonus spells per day if he has a high Wisdom score. A cleric also gets one
+      spell level per day. His base daily spell allotment is given in his table. A cleric also gets one
       domain spell of each spell level he can cast, starting at 1st level. When a cleric
       prepares a spell in a domain spell slot, it must come from one of his two domains.
 
@@ -106,7 +105,6 @@
         A cleric may attempt to turn undead a number of times per day equal to 3 + his
         Charisma modifier. A cleric with 5 or more ranks in Knowledge (religion) gets a +1
         bonus on turning checks against undead.
-
 
       Turning Checks::text
         Turning undead is a supernatural ability that a character can perform as a standard

@@ -310,3 +310,9 @@
     Quick Draw::section.feat
       Effect::text
         You can draw/stow weapons as free actions instead of as a move action.
+
+    Champion::section.feat
+      Effect::text
+        You have a 5% chance per fighter level to bend bars/lift gates.
+
+        You can add your fighter level to jump, swim, climb checks.
