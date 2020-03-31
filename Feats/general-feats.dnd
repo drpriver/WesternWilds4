@@ -1,4 +1,10 @@
   General Feats::section.general_feats
+    Toughness::section.feat
+      Effect::text
+        You gain +3 hp.
+    Talented::section.feat
+      Effect::text
+        Select three skills. You get +2 bonuses to all of them.
     Pirate::section.feat
       Effect::text
         +2 on all checks related to sailing, boarding ships, firing cannons, finding treasure, climbing or balancing on a ship, bluffing, and resisting intoxication

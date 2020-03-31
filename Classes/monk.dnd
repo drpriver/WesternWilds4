@@ -76,11 +76,11 @@
       An unarmored monk gains a bonus to their land speed as given in their class table.
 
     Bonus Feat::text
-      At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. 
+      At 1st level, a monk may select either Combat Brawn or Stunning Fist as a bonus feat. 
 
       At 2nd level, the monk may select either Combat Reflexes or Deflect Arrows as a bonus feat. 
 
-      At 6th level, the monk may select either Improved Disarm or Improved Trip as a bonus feat.
+      At 6th level, the monk may select either Combat Tactics, Combat Brawn, their greater versions, or any monk feat if you already have all of those as a bonus feat.
 
       A monk need not have any of the prerequisites normally required for these feats to select them.
 

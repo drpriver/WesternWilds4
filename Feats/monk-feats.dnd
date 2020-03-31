@@ -1,0 +1,282 @@
+  Monk Feats::section.class_feats
+    Special Rules::text
+      Some monk feats are a school feat. You can only have 1 school feat.
+
+
+    School of Elemental Bending::section.feat
+      Prerequisite::text
+        Stunning Fist
+      Effect::section
+        ::text
+          You gain 1 additional use of your stunning fist. Each of the following abilities costs 1 use to activate.
+        ::div.maneuver
+          ::div.maneuver_title
+            Flaming Fist
+          ::div.maneuver_text
+            ::text
+            Swift action, 1 round duration. 
+
+            Your attacks deal 1d4 extra fire damage.
+        ::div.maneuver
+          ::div.maneuver_title
+            Speed of Wind
+          ::div.maneuver_text
+            ::text
+            Swift action, 1 round duration. 
+
+            Your movespeed doubles. +10 on jump checks. Walk on water and up walls.
+        ::div.maneuver
+          ::div.maneuver_title
+            Stone Barrier
+          ::div.maneuver_text
+            ::text
+              Swift action, 1 minute duration, range 5’. 
+
+              Summon a 5x5x5 cube of stone in an unoccupied space on a floor.
+        ::div.maneuver
+          ::div.maneuver_title
+            Water Whip
+          ::div.maneuver_text
+            ::text
+              Swift Action, range 15’, make a ranged touch attack against a creature or object. 
+
+              If you hit, you can pull yourself to them. 
+              If the target is a creature of your size or smaller, you can pull them to you instead. 
+              If the target is an object of size small or smaller, you can pull it to you instead.
+
+    Advanced Bending::section.feat
+      Prerequisite::text
+        School of Elemental Bending, Level 6
+      Effect::section
+        ::text
+          You can cast each of these spells as a SLA as swift actions once per day.
+        ::bullets
+          * Burning Hands
+          * Gust of Wind
+          * Fist of Stone
+          * Wave Blessing
+
+    School of the Iron Fist::section.feat
+      Effect::section
+        ::text
+          If you hit a target with multiple attacks in a single turn, only apply hardness and damage reduction once.
+
+          +1 damage with melee attacks
+            
+          You can use each of these maneuvers once per encounter. Can only apply 1 to a single attack.
+        ::div.maneuver
+          ::div.maneuver_title
+            Critical Attack
+          ::div.maneuver_text
+            If you hit with this attack, you deal double damage.
+        ::div.maneuver
+          ::div.maneuver_title
+            Stonecold Attack
+          ::div.maneuver_text
+            If you hit with this melee attack, you gain DR 5/- (all sources of damage deal 5 less to you) until yyour next turn.
+
+    Iron Fist Master::section.feat
+      Prerequisite::text
+        School of Iron Fist, Level 6
+      Effect::section
+        ::text
+        +1 damage with melee attacks
+
+        Pick two additional maneuvers from the fighter feat Martial Manuevers.
+
+    School of Drunken Fist::section.feat
+      Effect::text
+        You suffer no penalties from inebriation, but only benefit from this feat while intoxicated. You must dedicate 2 slots of inventory space to alcohol (1 for small creatures), but do not need to track exactly how much alcohol you have in each bottle.
+
+        +1 bonus to reflex and fortitude saves
+
+        +1 dodge bonus to AC
+        
+        +1 attack on melee attacks
+
+        Any time you would be knocked prone, make a DC 15 reflex save. If you succeed, you are not knocked prone.
+
+    Drunken Master::section.feat
+      Prerequisite::text
+        School of Drunken Fist, Level 6
+      Effect::text
+        Must be drunk
+
+        +1 bonus to reflex and fortitude saves
+
+        +1 dodge bonus to AC
+
+        +1 attack on melee attacks
+
+        Immediate action, move 5’ without provoking AoO
+
+    School Of Ninjutsu::section.feat
+      Prerequisite::text
+        Stunning Fist
+      Effect::section
+        ::text
+          You gain 1 additional use of your stunning fist. Each of the following abilities costs 1 use to activate.
+        ::div.maneuver
+          ::div.maneuver_title
+            Transformation
+          ::div.maneuver_text
+            Standard action, 8 hours
+
+            Take on the appearance of any medium sized humanoid.
+        ::div.maneuver
+          ::div.maneuver_title
+            Substitution 
+          ::div.maneuver_text
+            Immediate action
+
+            When struck with an attack, move 5 ft and the attack misses instead.
+        ::div.maneuver
+          ::div.maneuver_title
+            Exploding Talisman
+          ::div.maneuver_text
+            Free action
+
+            The next weapon you throw this turn deals an additional d6 fire damage.
+        ::div.maneuver
+          ::div.maneuver_title
+            Ninja Stealth
+          ::div.maneuver_text
+            Swift action, 1 hour
+
+            Hide in shadows as a rogue.
+        ::div.maneuver
+          ::div.maneuver_title
+            Ninja Mobility
+          ::div.maneuver_text
+            Swift Action, 8 hours
+
+            Can walk on water and run on walls.
+
+    Ninja Bloodline::section.feat
+      Prerequisite::text
+        School Of Ninjutsu, Level 6
+      Effect::section
+        ::text
+          Pick one special jutsu. It can be used twice per day and does not require stunning fist uses..
+      ::div.maneuver
+        ::div.maneuver_title
+          Shadow Clone
+        ::div.maneuver_text
+          Swift action: Lasts 1 minute
+
+          Create 3 clones of yourself. When an enemy attacks you, they have a chance of attacking a clone instead. You and each clone have an equal chance of being targeted. These clones are not illusions. Clones have 10 AC and 1 HP.
+      ::div.maneuver
+        ::div.maneuver_title
+          Toad Summon
+        ::div.maneuver_text
+          Standard Action: Lasts 1 minute,
+
+          Summon a large toad in an open space within 30 ft. It follows your commands as best it can. It has a bite attack and can swallow medium-sized enemies.
+      ::div.maneuver
+        ::div.maneuver_title
+          Eyes of the Mirror God
+        ::div.maneuver_text
+          Immediate action when a creature you can see performs some jutsu, spell, or special attack like a dragon breath. 
+
+          Until the end of your next turn, you can perform the same action you saw with new targets. Uses same action type as original but doesn’t require any resources (spell slots, ki, etc).
+
+    School of Gun-Do::section.feat
+      Effect::text
+        +1 attack with guns
+
+        Guns are monk weapons for you.
+
+        Reloading a pistol is a swift action
+
+        Firing guns does not provoke attacks of opportunity
+
+        Firing a gun can be used as a flurry of blows attack.
+
+        Firing at point blank range does not impose a penalty for firing into a melee.
+
+        Meleeing with a gun deals base damage as your unarmed attack, but also benefits from the gun’s magical properties.
+
+    Gun-Do Master::section.feat
+      Prerequisite::text
+        School of Gun-Do, Level 6
+      Effect::text
+        +1 damage with guns
+
+        Reloading your pistol is a free action when you fire at a target within melee range.
+
+        Once per turn after you flurry of blows, you can fire a gun at a target you did not attack yet this turn.
+
+    Open Chakra::section.feat
+      Prerequisite::text
+        Stunning Fist
+      Effect::text
+        You can use stunning fist 3 additional times per day.
+          
+        Gain an ability from either school of ninjutsu or school of elemental bending.
+
+    Spring Attack::section.feat
+      Prerequisite::text
+        Dexterity 13
+      Effect::text
+        If you move, attack, and then move again, you do not provoke attacks of opportunity from the target of your attack(s). Intent is all that matters here (you might fall in a pit and be unable to attack).
+
+    Blind-Fight::section.feat
+      Effect::text
+        In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.
+
+        An invisible attacker gets no advantages related to hitting you in melee. The invisible attacker’s bonuses do still apply for ranged attacks, however.
+
+        You take only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces your speed to three-quarters normal, instead of one-half.
+
+    Quick Draw::section.feat
+      Effect::text
+        You can draw/stow weapons as free actions instead of as a move action.
+
+    Combat Reflexes::section.feat
+      Effect::text
+        You may make up to three attacks of opportunity each round. You receive a +2 bonus on these attacks.
+      Normal::text
+        You can normally only make up to one attack of opportunity each round.
+
+    Combat Brawn::section.feat
+      Effect::text
+        You gain a +2 bonus when bullrushing, grappling and overrunning. 
+
+        Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
+
+    Greater Combat Brawn::section.feat
+      Effect::text
+        Your bonus from combat brawn increases from +2 to +4
+
+    Combat Tactics::section.feat
+      Effect::text
+        You gain a +2 bonus when tripping or disarming.
+
+        Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
+
+    Greater Combat Tactics::section.feat
+      Prerequisite::text
+        Combat Tactics
+      Effect::text
+        Your bonus from combat tactics improves from +2 to +4
+
+    Deflect Arrows::section.feat
+      Effect::text
+        You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed.
+
+    Stunning Fist::section.feat
+      Effect::text
+        You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). 
+
+        Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + ½ your character level + your Wis modifier), in addition to dealing damage normally. 
+
+        A defender who fails this saving throw is stunned for 1 round (until just before your next action). 
+
+        A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, and loses his Dexterity bonus to AC. 
+
+        You may attempt a stunning attack once per day per monk level.
+
+        Some creatures are immune to stun.
+
+
+
