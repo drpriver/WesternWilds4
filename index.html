@@ -558,6 +558,8 @@
               <li><a href="#wizard-feats">Wizard Feats</a></li>
             </ul></li>
             <li><a href="#equipment">Equipment</a><ul>
+              <li><a href="#encumbrance">Encumbrance</a></li>
+              <li><a href="#supplies">Supplies</a></li>
               <li><a href="#weapons">Weapons</a></li>
               <li><a href="#armor">Armor</a></li>
             </ul></li>
@@ -570,11 +572,28 @@
             <li><a href="#guilds">Guilds</a></li>
             <li><a href="#domains1">Domains</a></li>
             <li><a href="#combat">Combat</a><ul>
+              <li><a href="#initiative">Initiative</a></li>
               <li><a href="#grappling">Grappling</a></li>
               <li><a href="#tripping">Tripping</a></li>
               <li><a href="#disarm">Disarm</a></li>
               <li><a href="#overrun">Overrun</a></li>
               <li><a href="#bull-rush">Bull Rush</a></li>
+              <li><a href="#firing-into-melee">Firing into melee</a></li>
+              <li><a href="#reach-and-attacks-of-opportunity">Reach and Attacks of Opportunity</a></li>
+              <li><a href="#firing-into-back-line-or-crowd">Firing into back line or crowd</a></li>
+              <li><a href="#movement">Movement</a></li>
+              <li><a href="#interrupting-casters">Interrupting Casters</a></li>
+              <li><a href="#touch-attacks">Touch Attacks</a></li>
+              <li><a href="#full-attack">Full Attack</a></li>
+              <li><a href="#spell-resistance1">Spell Resistance</a></li>
+              <li><a href="#flanking">Flanking</a></li>
+              <li><a href="#flatfooted">Flatfooted</a></li>
+              <li><a href="#running-away">Running Away</a></li>
+              <li><a href="#soft-cover">Soft Cover</a></li>
+              <li><a href="#cover1">Cover</a></li>
+              <li><a href="#no-merry-go-rounds">No merry go rounds </a></li>
+              <li><a href="#damage-reduction1">Damage Reduction</a></li>
+              <li><a href="#concealment">Concealment</a></li>
             </ul></li>
             <li><a href="#ships">Ships</a></li>
             <li><a href="#magic">Magic</a></li>
@@ -587,7 +606,7 @@
               <li><a href="#wizard-spells">Wizard spells</a></li>
             </ul></li>
             <li><a href="#turn-sequence">Turn Sequence</a></li>
-            <li><a href="#movement">Movement</a></li>
+            <li><a href="#movement1">Movement</a></li>
           </ul>
           <hr>
         </nav>
@@ -15388,7 +15407,78 @@
         </section>
         <section class="chapter">
           <h2 id="equipment">Equipment</h2>
-          TODO
+          <section>
+            <h3 id="encumbrance">Encumbrance</h3>
+            <div>
+              
+              <p>
+                You can carry your strength score in slots without being encumbered
+              </p>
+            </div>
+            <section>
+              <h4 id="heavily-encumbered">Heavily Encumbered</h4>
+              <div>
+                
+                <p>
+                  You can carry up to double your carrying capacity and be heavily encumbered.
+                </p>
+                <p>
+                  Heavily encumbered means:
+                </p>
+              </div>
+              <div>
+                
+                <ul>
+                  <li> Move at half speed</li>
+                  <li> -4 penalty to attacks, saves, skill checks, spell dcs</li>
+                  <li> Automatically fail trip checks</li>
+                  <li> twice as many wandering monsters are rolled for (this is on top of moving half as far between checks)</li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <h4 id="slots">Slots</h4>
+              Weapons, armor and equipment lists how many slots they are in their descriptions.
+              <section>
+                
+                <table>
+                  <thead>
+                    <tr class="table_header">
+                      <th>Thing </th>
+                      <th> Slots</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>1000 coins </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Day of supplies </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Potions </td>
+                      <td> 1/4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Scrolls </td>
+                      <td> 1/10</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </section>
+          </section>
+          <div>
+            <h3 id="supplies">Supplies</h3>
+            <ul>
+              <li> You need supplies or you die.</li>
+              <li> After 1 day without supplies, you become fatigued.</li>
+              <li> Half a day later you become exhausted.</li>
+              <li> Half a day after that you die.</li>
+            </ul>
+          </div>
           
           <section>
             <h3 id="weapons">Weapons</h3>
@@ -17709,7 +17799,7 @@
               </p>
             </div>
             <div>
-              <h4 id="slots">Slots</h4>
+              <h4 id="slots1">Slots</h4>
               <p>
                 The slots column indicates the effective bulk of worn armor. Unworn armor encumbers by 5 more slots than this number.
               </p>
@@ -17874,6 +17964,10 @@
         </section>
         <section class="chapter">
           <h2 id="combat">Combat</h2>
+          <section class="combat_rules">
+            <h3 id="initiative">Initiative</h3>
+            The party rolls initiative as a single unit, using the median of their initiative bonus.
+          </section>
           <section class="special_attack">
             <h3 id="grappling">Grappling</h3>
             TODO: check the balance of this.
@@ -18142,6 +18236,78 @@
                 If you fail, youre movement ends and there is no further consequence.
               </p>
             </div>
+          </section>
+          <section class="combat_rules">
+            <h3 id="firing-into-melee">Firing into melee</h3>
+            A "melee" is creatures engaged in melee combat. It does not include the 2nd ranks.
+            You suffer a -4 penalty to hit such creatures. You can ignore this penalty by targeting randomly into the melee.
+          </section>
+          <section class="combat_rules">
+            <h3 id="reach-and-attacks-of-opportunity">Reach and Attacks of Opportunity</h3>
+            Reach weapons don't threaten if they must strike through another creature (such as when fighting in the second rank).
+          </section>
+          <section class="combat_rules">
+            <h3 id="firing-into-back-line-or-crowd">Firing into back line or crowd</h3>
+            It is impossible to pick out a specific target that is not at the edge of a crowd. To target deeper into a crowed, you must target randomly.
+          </section>
+          <section class="combat_rules">
+            <h3 id="movement">Movement</h3>
+            Movement can be broken up before and after the standard action.
+            If you don't otherwise move for the round, you can move 5ft as a free action.
+            5-ft step cannot move you out of someone’s threatened zone (can move into someones threatened zone though)
+          </section>
+          <section class="combat_rules">
+            <h3 id="interrupting-casters">Interrupting Casters</h3>
+            Each time a spellcaster takes damage or is battered/traumatized (such as being knocked down), there is a 50% chance their spell is interrupted and wasted.
+          </section>
+          <section class="combat_rules">
+            <h3 id="touch-attacks">Touch Attacks</h3>
+            A touch attack is an attack with a +4 bonus.
+          </section>
+          <section class="combat_rules">
+            <h3 id="full-attack">Full Attack</h3>
+            A character with multiple attacks can use them all as a standard action. You can move between attacks.
+          </section>
+          <section class="combat_rules">
+            <h3 id="spell-resistance1">Spell Resistance</h3>
+            Spell Resistance works on all magic. It comes in two flavors: some monsters have a flat percentage chance to ignore magic. Others have an SR value that a caster level check must be rolled to overcome.
+          </section>
+          <section class="combat_rules">
+            <h3 id="flanking">Flanking</h3>
+            Flanking is a special ability that thieves get. If they and an ally are on opposite sides of a creature, the thief gets +2 to his attacks and can backstab.
+          </section>
+          <section class="combat_rules">
+            <h3 id="flatfooted">Flatfooted</h3>
+            A flatfooted creature can't make attacks of opportunity, can be snuck attack and attackers get a +2 bonus on them. EXCEPTION: the side that loses initiative can't make attacks of opportunity, but there is no special advantage to attacking them.
+          </section>
+          <section class="combat_rules">
+            <h3 id="running-away">Running Away</h3>
+            When playing on a grid, moving off the drawn area means that creature has run away from the fight.
+            When playing totm, the character declares his intent to run from the battle and the DM rules if he needs to make a check, needs to move farther away or just gets away.
+          </section>
+          <section class="combat_rules">
+            <h3 id="soft-cover">Soft Cover</h3>
+            Too annoying to track so doesn't exist.
+          </section>
+          <section class="combat_rules">
+            <h3 id="cover1">Cover</h3>
+            generally center of one of your squares to center of one of their squares.
+            A creature with any degree of cover is not threatened.
+          </section>
+          <section class="combat_rules">
+            <h3 id="no-merry-go-rounds">No merry go rounds </h3>
+            Once a creature has attacked, cast a spell or taken any standard action or full round action in a square, no other creature on that creature's side can attack, cast a spell, etc. from that space this turn.
+          </section>
+          <section class="combat_rules">
+            <h3 id="damage-reduction1">Damage Reduction</h3>
+            Damage reduction N/- stacks with everything
+          </section>
+          <section class="combat_rules">
+            <h3 id="concealment">Concealment</h3>
+            There are two grades of concealment: partial and total. Partial causes a 20% miss chance and total is 50%. Additionally, with total concealment you literally can't see them, so you need to declare what square you are attacking and the DM will secretly determine where the enemy actually is. This is much like the game of battleship. If you miss due to rolling poorly or due to conealment, you don't know if a creature is there or not. 
+            If a creature attacks, casts a spell, etc. it reveals what space it is in. If it then moves, a move silently check opposed by the nearest character's listen check is rolled.
+            If you move into a space with a creature you can't see, they can let you pass through. If they don't you can't enter that space but you know where they are. If they are of an appopriate size they can temporarily share the space with you, but there is a 50% chance they are discovered. On their turn they must leave that space.
+            If a creature has concealment against you, you do not threaten their square.
           </section>
         </section>
         <section class="chapter">
@@ -20813,7 +20979,7 @@
           </div>
         </section>
         <section class="rules">
-          <h2 id="movement">Movement</h2>
+          <h2 id="movement1">Movement</h2>
         </section>
         
       </div>

@@ -1,2 +1,34 @@
 Equipment::chapter
-  TODO
+  Encumbrance::section
+    ::text
+      You can carry your strength score in slots without being encumbered
+
+    Heavily Encumbered::section
+      ::text
+        You can carry up to double your carrying capacity and be heavily encumbered.
+
+        Heavily encumbered means:
+      ::bullets
+        * Move at half speed
+        * -4 penalty to attacks, saves, skill checks, spell dcs
+        * Automatically fail trip checks
+        * twice as many wandering monsters are rolled for (this is on top of moving half as far between checks)
+    Slots::section
+      Weapons, armor and equipment lists how many slots they are in their descriptions.
+
+      ::table
+        ::head
+          Thing | Slots
+        ::row
+          1000 coins | 1
+          Day of supplies | 1
+          Potions | 1/4
+          Scrolls | 1/10
+
+  Supplies::bullets
+    * You need supplies or you die.
+    * After 1 day without supplies, you become fatigued.
+    * Half a day later you become exhausted.
+    * Half a day after that you die.
+
+
