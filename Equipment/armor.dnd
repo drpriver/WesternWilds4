@@ -25,11 +25,12 @@
 
     Shields::table.equipment
       ::head
-        Shield        | Price | AC           | Skill Penalty | Slots
+        Shield        | Price | AC               | Skill Penalty | Slots
       ::row
-        Buckler       | 15gp  | +1 vs melee  |    -0         |  0
-        Wooden Shield | 10gp  | +1           |    -1         |  1
-        Metal Shield  | 25gp  | +2           |    -2         |  2
+        Buckler       | 15gp  | +1 vs melee      |    -0         |  0
+        Wooden Shield | 10gp  | +1               |    -1         |  1
+        Metal Shield  | 25gp  | +2               |    -2         |  2
+        Tower Shield  | 50gp  | +2, +4 vs ranged |    -2         |  2
 
   Armor::section
     Armor Proficiency::text

@@ -1,0 +1,50 @@
+  Fighter/Druid::section.character_class
+    Fighter/Druid Class Table::table.class_table
+      ::head
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+      ::row
+        1st | +1    | +2 | +1 | +2 | Bonus fighter feat, Spells, Wild Empathy
+        2nd | +2    | +3 | +1 | +3 | Bonus fighter feat
+        3rd | +3    | +3 | +2 | +3 |
+        4th | +4    | +4 | +2 | +4 | Bonus fighter feat 
+        5th | +5    | +4 | +2 | +4 |
+        6th | +6/+1 | +5 | +3 | +5 | Bonus fighter feat
+        7th | +7/+2 | +5 | +3 | +5 |
+        8th | +8/+3 | +6 | +4 | +6 | Bonus fighter feat
+
+    Fighter/Druid Spells Per Day::table
+      ::head
+        Level | 0 | 1 | 2 | 3 | 4
+      ::row
+        1st   | 3 | 2 |   |   |
+        2nd   | 4 | 3 |   |   |
+        3rd   | 4 | 3 | 2 |   |
+        4th   | 5 | 4 | 3 |   |
+        5th   | 5 | 4 | 3 | 1 |
+        6th   | 5 | 4 | 4 | 2 |
+        7th   | 6 | 5 | 4 | 2 | 1
+        8th   | 6 | 5 | 4 | 3 | 2
+    Hit Die::text
+      d9
+    Alignment Requirement::text
+      Neutral good, lawful neutral, neutral, chaotic neutral, or neutral evil (any neutral).
+    Skill Points at 1st Level:: text
+      (5 + Int modifier) x4
+    Skill Points at Each Additional Level::text
+      5 + Int modifier.
+    Weapon And Armor Proficiency::text
+      A fighter/druid is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields).
+
+      However, the fighter/druid must still obey the druid's prohibition on wearing metal armor.
+    
+    Wild Empathy::text
+      This ability works just like the druid's.
+
+    Bonus Fighter Feat::text
+      At 1st level and every even level, the fighter/druid gets a bonus fighter feat.
+
+    Spells ::text
+      The fighter/druid prepares and casts spells in the same manner a druid does. See the druid for full information. However use the Fighter/Druid spells per day table.
+
+      A fighter/druid must worship a deity, has the same alignment restrictions and picks two domains at 1st level just like a druid.
+
