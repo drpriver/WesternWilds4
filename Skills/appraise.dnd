@@ -7,6 +7,3 @@
       You can also study an item to determine whether or not it is magical.  A DC 20 appraisal check will identify an object as magical. (no retry).
 
       Appraisal also allows one to get a better price in the marketplace or when selling to specialist.  Every skill rank in appraisal improves the selling price of jewlery, gemstone and objets d’art by 1%. The best score in the party is used.
-
-    Synergy::text
-      If you have 5 ranks in any Craft skill, you gain a +2 bonus on Appraise checks related to items made with that Craft skill.
