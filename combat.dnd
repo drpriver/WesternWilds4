@@ -1,5 +1,6 @@
 Combat::chapter
   Grappling::section.special_attack
+    TODO: check the balance of this.
     Grapple Checks::text
       Your grapple bonus is BAB+Str+Size+other. A grapple check is an opposed roll where each
       side rolles a d20+their grapple bonus. A tie maintains the status quo - the grapple is
@@ -106,6 +107,40 @@ Combat::chapter
         points and roll at +11 again (+5 and 3 aiders is +11). They manage to best krug this
         round and roll d4+2 = 5 grapple points. This goes on for a while until krug has
         subdued all of the orcs and forces them into his clan.
+  Tripping::section.special_attack
+    ::text
+      You need a weapon designed for tripping. You can also trip as an unarmed attack, but if you are not a monk you get -4 on this.
+      
+      Tripping replaces an attack. To trip your enemy, make a strength check adding your BAB, opposed by their strength or dex check adding their BAB. The defender also gets a +4 bonus to this. Every size category larger than medium gives the offender/defender +4 and a similar penalty for being smaller. Some creatures are immune to trip or are exceptionally stable and get a bonus. Bonuses to attack (like bless) apply to this check.
 
+      If the offender beats the defender's strength check, the defender falls prone in their space.
 
+      If you trip with a weapon, you can add whatever bonuses you get with that weapon.
 
+  Disarm::section.special_attack
+    ::text
+      Disarming replaces an attack. To disarm your enemy, make an attack roll opposed by their attack roll. Two-handed weapons gives +4, light weapons give -4 and size bonuses are +4 per category different than medium. You get -4 if you disarm unarmed and you are not a monk.
+
+      If you beat their roll, they are now disarmed. If you were unarmed, it is now in your hands. Otherwise it is on the ground in a random space adjacent to you or them.
+
+  Overrun::section.special_attack
+    ::text
+      You can overrun as part of your movement. Generally, you need to be bigger than the creature you are trying to overrun. Overrun costs 10' of movement. You must have enough movement to move to the space past theirs. If you cannot go to that space (perhaps it is a wall), you cannot overrun.
+
+      A creature can decide to let you through. If he does, then you don't need to spend any extra movement and you must continue to the space past theirs.
+
+      If they resist, you both make a strength check, adding your BAB and size modifiers.
+
+      If you fail, your movement ends in your space. If you beat their roll, they are knocked prone and you must continue moving to the space past theirs.
+
+      In any situation, overrunning a creature does not provoke an attack of opportunity from that creature. It provokes from other creatures as normal for movement.
+
+  Bull Rush::section.special_attack
+    ::text
+      Bullrush replaces an attack. You basically are driving them backwards by pushing them and so must spend a consummate amount of movement to both move into their space and then aftewards.
+
+      You make a strength check, adding bab and size and they make a strength or dexterity check adding their bab and size. 
+
+      If you succeed, you push him back 5 feet and 5 more feet for every 5 points you beat his check. He does not provoke attacks of opportunity for this movement, but you do as normal.
+
+      If you fail, youre movement ends and there is no further consequence.

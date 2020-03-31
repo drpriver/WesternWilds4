@@ -150,6 +150,8 @@
 
         Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
 
+        You can force creatures to not move out of the way of your overrun.
+
     Greater Combat Brawn::section.feat
       Effect::text
         Your bonus from combat brawn increases from +2 to +4

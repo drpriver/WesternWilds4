@@ -571,6 +571,10 @@
             <li><a href="#domains1">Domains</a></li>
             <li><a href="#combat">Combat</a><ul>
               <li><a href="#grappling">Grappling</a></li>
+              <li><a href="#tripping">Tripping</a></li>
+              <li><a href="#disarm">Disarm</a></li>
+              <li><a href="#overrun">Overrun</a></li>
+              <li><a href="#bull-rush">Bull Rush</a></li>
             </ul></li>
             <li><a href="#ships">Ships</a></li>
             <li><a href="#magic">Magic</a></li>
@@ -12326,6 +12330,9 @@
                 <p>
                   Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
                 </p>
+                <p>
+                  You can force creatures to not move out of the way of your overrun.
+                </p>
               </div>
             </section>
             <section class="feat">
@@ -17869,6 +17876,7 @@
           <h2 id="combat">Combat</h2>
           <section class="special_attack">
             <h3 id="grappling">Grappling</h3>
+            TODO: check the balance of this.
             <div>
               <h4 id="grapple-checks">Grapple Checks</h4>
               <p>
@@ -18065,6 +18073,75 @@
                 </p>
               </div>
             </section>
+          </section>
+          <section class="special_attack">
+            <h3 id="tripping">Tripping</h3>
+            <div>
+              
+              <p>
+                You need a weapon designed for tripping. You can also trip as an unarmed attack, but if you are not a monk you get -4 on this.
+              </p>
+              <p>
+                Tripping replaces an attack. To trip your enemy, make a strength check adding your BAB, opposed by their strength or dex check adding their BAB. The defender also gets a +4 bonus to this. Every size category larger than medium gives the offender/defender +4 and a similar penalty for being smaller. Some creatures are immune to trip or are exceptionally stable and get a bonus. Bonuses to attack (like bless) apply to this check.
+              </p>
+              <p>
+                If the offender beats the defender's strength check, the defender falls prone in their space.
+              </p>
+              <p>
+                If you trip with a weapon, you can add whatever bonuses you get with that weapon.
+              </p>
+            </div>
+          </section>
+          <section class="special_attack">
+            <h3 id="disarm">Disarm</h3>
+            <div>
+              
+              <p>
+                Disarming replaces an attack. To disarm your enemy, make an attack roll opposed by their attack roll. Two-handed weapons gives +4, light weapons give -4 and size bonuses are +4 per category different than medium. You get -4 if you disarm unarmed and you are not a monk.
+              </p>
+              <p>
+                If you beat their roll, they are now disarmed. If you were unarmed, it is now in your hands. Otherwise it is on the ground in a random space adjacent to you or them.
+              </p>
+            </div>
+          </section>
+          <section class="special_attack">
+            <h3 id="overrun">Overrun</h3>
+            <div>
+              
+              <p>
+                You can overrun as part of your movement. Generally, you need to be bigger than the creature you are trying to overrun. Overrun costs 10' of movement. You must have enough movement to move to the space past theirs. If you cannot go to that space (perhaps it is a wall), you cannot overrun.
+              </p>
+              <p>
+                A creature can decide to let you through. If he does, then you don't need to spend any extra movement and you must continue to the space past theirs.
+              </p>
+              <p>
+                If they resist, you both make a strength check, adding your BAB and size modifiers.
+              </p>
+              <p>
+                If you fail, your movement ends in your space. If you beat their roll, they are knocked prone and you must continue moving to the space past theirs.
+              </p>
+              <p>
+                In any situation, overrunning a creature does not provoke an attack of opportunity from that creature. It provokes from other creatures as normal for movement.
+              </p>
+            </div>
+          </section>
+          <section class="special_attack">
+            <h3 id="bull-rush">Bull Rush</h3>
+            <div>
+              
+              <p>
+                Bullrush replaces an attack. You basically are driving them backwards by pushing them and so must spend a consummate amount of movement to both move into their space and then aftewards.
+              </p>
+              <p>
+                You make a strength check, adding bab and size and they make a strength or dexterity check adding their bab and size.
+              </p>
+              <p>
+                If you succeed, you push him back 5 feet and 5 more feet for every 5 points you beat his check. He does not provoke attacks of opportunity for this movement, but you do as normal.
+              </p>
+              <p>
+                If you fail, youre movement ends and there is no further consequence.
+              </p>
+            </div>
           </section>
         </section>
         <section class="chapter">
