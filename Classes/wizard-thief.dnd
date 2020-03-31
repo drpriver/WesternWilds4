@@ -13,7 +13,7 @@
         8th | +6/+1 | +2 | +4 | +4 | 
     Wizard/Thief Spells Per Day::table
       ::head
-        Level | 0 |  1  |  2  |  3  | 4
+        Level | 0 | 1 | 2 | 3 | 4
       ::row
         1st   | 3 | 2 | — | — | —
         2nd   | 4 | 3 | — | — | —

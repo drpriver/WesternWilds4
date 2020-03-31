@@ -12,9 +12,6 @@
         7th | +7/+2 | +5  | +5  | +2  | 3rd favored terrain
         8th | +8/+3 | +6  | +6  | +2  | Evasion, Bonus Ranger Feat
 
-    Alignment::text
-      Any good.
-
     Hit Die::text
       d8
 
