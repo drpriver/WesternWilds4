@@ -201,3 +201,8 @@
     Weapon Finesse::section.feat
       Effect::text
         You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
+
+    Phantom::section.feat
+      Effect::text
+        When your hide in shadows or an invisibility type spell on you would normally end, they instead last until the start of your next turn.
+
