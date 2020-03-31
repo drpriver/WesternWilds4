@@ -83,4 +83,22 @@
       Effect::text
         Gain one additional domain (both its power and its spells).
 
+    Godly Luck::section.feat
+      Effect::text
+        You gain two luck points.
 
+        If you roll a 1 on a turning attempt, reroll it.
+
+        You can spend a luck point to reroll turn undead attempts.
+
+    Shield Focus::section.feat
+      Effect::text
+        Your shield bonus improves by +1 when using a shield.
+
+    Weapon Focus::section.feat
+      Effect::text
+        Choose a class of weapon: sword, axe, hammer, polearm, bow, crossbow, gun, or flail.
+
+        You receive a +1 bonus to attacks with that class of weapon.
+      Special::text
+        You can take this feat more than once. Each time, choose a different class of weapon for it to apply to.

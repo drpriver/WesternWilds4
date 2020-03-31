@@ -206,9 +206,14 @@
 
         The max precision damage range is increased to 60'.
 
-    Shield Fighting::section.feat
+    Shield Focus::section.feat
       Effect::text
         +1 AC when using a shield.
+
+    Shield Fighting::section.feat
+      Prerequisite::text
+        Shield Focus
+      Effect::text
 
         Add shield AC bonus to reflex saves against damaging area effects.
 
