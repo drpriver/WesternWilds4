@@ -105,7 +105,7 @@
       Prerequisite::text
         Level 6, precise shot
       Effect::text
-        With a single attack, you can attack two creatures who are next to each other.
+        With a single ranged attack, you can attack two creatures who are next to each other.
       Special::text
         Level 6 rangers get this for free if they are in light or no armor.
 
