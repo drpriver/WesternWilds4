@@ -1,0 +1,67 @@
+  Druid/Wizard::section.character_class
+    Druid/Wizard Class Table::table.class_table
+      ::head
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+      ::row
+        1st | +0    | +1 | +0 | +2 | Wild Empath, Spells and Spellbook
+        2nd | +1    | +1 | +0 | +3 | 
+        3rd | +2    | +2 | +1 | +3 |
+        4th | +3    | +2 | +1 | +4 |
+        5th | +3    | +2 | +1 | +4 | Bonus wizard feat
+        6th | +4    | +3 | +2 | +5 |
+        7th | +5    | +3 | +2 | +5 |
+        8th | +6/+1 | +4 | +2 | +6 |
+
+    Druid/Wizard Druid Spells Per Day::table
+      ::head
+        Level | 0 |  1  |  2  |  3  | 4
+      ::row
+        1st   | 3 | 2 |   |   |
+        2nd   | 4 | 3 |   |   |
+        3rd   | 4 | 3 | 2 |   |
+        4th   | 5 | 4 | 3 |   |
+        5th   | 5 | 4 | 3 | 1 |
+        6th   | 5 | 4 | 4 | 2 |
+        7th   | 6 | 5 | 4 | 2 | 1
+        8th   | 6 | 5 | 4 | 3 | 2
+
+    Druid/Wizard Wizard Spells Per Day::table
+      ::head
+        Level | 0 | 1 | 2 | 3 | 4
+      ::row
+        1st   | 3 | 2 | — | — | —
+        2nd   | 4 | 3 | — | — | —
+        3rd   | 4 | 3 | 2 | — | —
+        4th   | 4 | 4 | 3 | — | —
+        5th   | 4 | 4 | 3 | 1 | —
+        6th   | 4 | 4 | 4 | 2 | —
+        7th   | 4 | 5 | 4 | 2 | 1
+        8th   | 4 | 5 | 4 | 3 | 2
+    
+    Hit Die::text
+      d6
+    Skill Points at 1st Level:: text
+      (5 + Int modifier) x4
+    Skill Points at Each Additional Level::text
+      5 + Int modifier.
+    Weapon And Armor Proficiency::text
+      Druids are proficient with the following weapons: club, dagger, dart, quarterstaff, cutlass, sickle, shortspear, sling, and spear. They are also proficient with all natural attacks (claw, bite, and so forth) of any form they assume with wild shape.
+
+      Druids are proficient with light and medium armor but are prohibited from wearing metal armor; thus, they may wear only padded, leather, or hide armor. (A druid may also wear wooden armor that has been altered by the ironwood spell so that it functions as though it were steel. See the ironwood spell description) Druids are proficient with shields (except tower shields) but must use only wooden ones.
+
+      A druid who wears prohibited armor or carries a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.
+
+      A druid/wizard cannot cast any wizard spells while wearing armor, but may cast their druid spells.
+
+    Wild Empathy::text
+      This ability works just like the druid's.
+
+    Spells and Spellbook::text
+      The druid/wizard prepares, casts, and learns wizard spells in the same manner a wizard does. See the wizard for full information. However use the Druid/Wizard Wizard spells per day table.
+
+      The druid/wizard prepares and casts druid spells in the same manner a druid does. See the druid for full information. Howver use the Druid/Wizard Druid spells per day table.
+
+      You may apply metamagic feats to druid spells.
+
+    Bonus Wizard Feat::text
+      At 5th level, the druid/wizard gets a bonus wizard feat.
