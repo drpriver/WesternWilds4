@@ -11,6 +11,17 @@ Classes::chapter
 
       Unlike other games, only certain multiclass combinations are allowed and the math for these combinations are precomputed. Thus each multiclass combination is presented as its own class entry (although it makes copious reference to the normal classes).
 
+      In general:
+    ::bullets
+      * A multiclass character gets one fewer spell slot at each spell level
+      * They get fewer class bonus feats
+      * They get fewer skill points
+      * They get the better of the two BABs
+      * Their saves are the average of the two classes
+      * Their hit die is the average of the two classes
+      * They are missing some of the miscellaneous class features
+      * They count as both classes for all rules and effects
+      * They have the better of the two classes proficiencies, but some specific features might not function in all armors or with all weapons.
 
     Multiclass Combinations::bullets
       * Fighter/Cleric

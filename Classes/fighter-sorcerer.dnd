@@ -1,5 +1,5 @@
-  Fighter/Wizard::section.character_class
-    Fighter/Wizard Class Table::table.class_table
+  Fighter/Sorcerer::section.character_class
+    Fighter/Sorcerer Class Table::table.class_table
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
@@ -7,12 +7,12 @@
         2nd | +2    | +1 | +1 | +3 | Bonus fighter feat
         3rd | +3    | +2 | +2 | +3 |
         4th | +4    | +2 | +2 | +4 | Bonus fighter feat 
-        5th | +5    | +2 | +2 | +4 | Bonus wizard feat
+        5th | +5    | +2 | +2 | +4 | Bonus sorcerer feat
         6th | +6/+1 | +3 | +3 | +5 | Bonus fighter feat
         7th | +7/+2 | +3 | +3 | +5 |
         8th | +8/+3 | +4 | +4 | +6 | Bonus fighter feat
 
-    Fighter/Wizard Spells Per Day::table
+    Fighter/Sorcerer Spells Per Day::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -24,7 +24,7 @@
         6th   | 4 | 3 | 3 | 2 | —
         7th   | 4 | 4 | 3 | 2 | 1
         8th   | 4 | 4 | 3 | 3 | 2
-    Armored Fighter/Wizard Spells Per Day::table
+    Armored Fighter/Sorcerer Spells Per Day::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -43,16 +43,16 @@
     Skill Points at Each Additional Level::text
       4 + Int modifier.
     Weapon And Armor Proficiency::text
-      A fighter/wizard is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). A fighter/wizard cannot cast any spells while wearing armor. 
+      A fighter/sorcerer is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). A fighter/sorcerer cannot cast any spells while wearing armor. 
     
-      At 1st level, a fighter/wizard can choose to instead be able to cast spells in armor. If he does, use the armored fighter/wizard spell table instead.
+      At 1st level, a fighter/sorcerer can choose to instead be able to cast spells in armor. If he does, use the armored fighter/sorcerer spell table instead.
 
 
     Bonus Fighter Feat::text
-      At 1st level and every even level, the fighter/wizard gets a bonus fighter feat.
+      At 1st level and every even level, the fighter/sorcerer gets a bonus fighter feat.
 
-    Spells and Spellbook::text
-      The fighter/wizard prepares, casts, and learns spells in the same manner a wizard does. See the wizard for full information. However use the Fighter/Wizard spells per day table (or the armored fighter/wizard spells per day table).
+    Spells::text
+      The fighter/sorcerer casts, and learns spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Fighter/Sorcerer spells per day table (or the armored fighter/sorcerer spells per day table). He uses the sorcerer spells known table.
 
-    Bonus Wizard Feat::text
-      At 5th level, the fighter/wizard gets a bonus wizard feat.
+    Bonus Sorcerer Feat::text
+      At 5th level, the fighter/sorcerer gets a bonus sorcerer feat.
