@@ -117,3 +117,67 @@
       Special::text
         Level 6 rangers get this for free if they are in light or no armor.
       
+    Tracker::section.feat
+      Effect::text
+        +4 on tracking checks. Move at full speed when tracking. If you succeed on a check, you know exactly how many people you are tracking, what their sizes are, and what their types are (as per the favored enemy list).
+
+    Improved Animal Companion::section.feat
+      Effect::text
+        Your companion gets +1 attack and AC and +3 HP. Additionally, you count as being 1 level higher when determining what animal companion you can have.
+
+    Magic Hunter::section.feat
+      Effect::text
+        Add spellcasters as a favored enemy. You get +2 on saves against spells.
+
+    Ranger School::section.feat
+      Special::text
+        Must be taken at level 1
+      Effect::text
+        All non-thief skills are class skills. You get 4 additional skill points at level 1, and 1 additional point at each new level.
+
+    Improved Hide::section.feat
+      Effect::text
+        Creatures with the scent skill roll against your hide check instead of a fixed DC.
+
+        Creatures with blindsight need to roll against your hide check as well.
+    Ambusher::section.feat
+      Effect::text
+        If you would get a surprise round, you roll a 20 on your initiative check.
+
+        +4 initiative
+
+        +1 on stealth checks
+    Extra Favored Enemy::section.feat
+      Effect::text
+        Pick one additional favored enemy type. It has the bonuses of your highest favored enemy.
+        
+    Improved Favored Enemy::section.feat
+      Effect::text
+        All favored enemy bonuses increased by 2.
+
+    Flexible Misanthropy::section.feat
+      Effect::text
+        All PC races are included with the Elves favored enemy.
+
+    Natural Magic::section.feat
+      Effect::text
+        Gain one level one spell per day. Prepare from the druid list. You get an additional spell per day at levels 4 and 7.
+
+    Shot on the run::section.feat
+      Effect::text
+        You can move, then make a ranged attack, then move again so long as you don’t double back.
+
+    Ranged Pin::section.feat
+      Effect::text
+        Once per encounter per enemy you can declare an attack a ranged pin attack. If it hits, the target must make a DC 11+Dex Mod+(level/2) reflex save or be unable to move on its next turn. The creature gets a +4 on the save for each size category above medium.
+
+    Arrow Volley::section.feat
+      Prerequisite::text 
+        Precise Shot, manyshot
+      Effect::text
+        Full round action. Make attacks against all creatures in a 15’ square.
+
+    Terrain Master::section.feat
+      Effect::text
+        Gain one additional favored terrain. Improve terrain bonuses by 2.
+
