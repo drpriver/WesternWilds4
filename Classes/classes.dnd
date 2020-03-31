@@ -24,16 +24,16 @@ Classes::chapter
       * They have the better of the two classes proficiencies, but some specific features might not function in all armors or with all weapons.
 
     Multiclass Combinations::bullets
+      * Cleric/Sorcerer
+      * Cleric/Thief
+      * Cleric/Wizard
+      * Druid/Sorcerer
+      * Druid/Thief
+      * Druid/Wizard
       * Fighter/Cleric
       * Fighter/Druid
-      * Fighter/Wizard
       * Fighter/Sorcerer
       * Fighter/Thief
-      * Cleric/Wizard
-      * Druid/Wizard
-      * Cleric/Sorcerer
-      * Druid/Sorcerer
-      * Cleric/Thief
-      * Druid/Thief
-      * Wizard/Thief
+      * Fighter/Wizard
       * Sorcerer/Thief
+      * Wizard/Thief

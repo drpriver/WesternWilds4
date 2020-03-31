@@ -1,0 +1,51 @@
+  Druid/Thief::section.character_class
+    Druid/Thief Class Table::table.class_table
+      ::head
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+      ::row
+        1st | +0    | +1 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells,  Wild Empathy
+        2nd | +1    | +1 | +1 | +1 | Evasion
+        3rd | +2    | +2 | +2 | +2 | Sneak attack +2d6
+        4th | +3    | +2 | +2 | +2 | 
+        5th | +3    | +2 | +2 | +2 | Sneak attack +3d6
+        6th | +4    | +3 | +3 | +3 |  
+        7th | +5    | +3 | +3 | +3 | Sneak attack +4d6
+        8th | +6/+1 | +4 | +4 | +4 | 
+    Druid/Thief Spells Per Day::table
+      ::head
+        Level | 0 |  1  |  2  |  3  | 4
+      ::row
+        1st   | 3 | 2 |   |   |
+        2nd   | 4 | 3 |   |   |
+        3rd   | 4 | 3 | 2 |   |
+        4th   | 5 | 4 | 3 |   |
+        5th   | 5 | 4 | 3 | 1 |
+        6th   | 5 | 4 | 4 | 2 |
+        7th   | 6 | 5 | 4 | 2 | 1
+        8th   | 6 | 5 | 4 | 3 | 2
+    Hit Die::text
+      d7
+    Skill Points at 1st Level:: text
+      (9 + Int modifier) x4
+    Skill Points at Each Additional Level::text
+      9 + Int modifier.
+    Weapon And Armor Proficiency::text
+      A druid/thief are proficient with all simple weapons, plus the pistol, rapier, sap, shortbow, and short sword, and with light and medium armor and wooden shields.
+
+      A druid/thief cannot use any thief skills, sneak attack, or hide in shadows while wearing armor heavier than light armor.
+
+      Druids are proficient with light and medium armor but are prohibited from wearing metal armor; thus, they may wear only padded, leather, or hide armor. (A druid may also wear wooden armor that has been altered by the ironwood spell so that it functions as though it were steel. See the ironwood spell description) Druids are proficient with shields (except tower shields) but must use only wooden ones.
+
+      A druid who wears prohibited armor or carries a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.
+
+    Wild Empathy::text
+      This ability works just like the druid's.
+
+    Spells::text
+      The druid/thief prepares and casts spells in the same manner a druid does. See the druid for full information. However use the Druid/Thief spells per day table.
+
+    Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
+      These function as the theif ability. See the thief for details
+
+    Evasion::text
+      At 2nd level, the druid/thief gains evasion. See the thief for details.

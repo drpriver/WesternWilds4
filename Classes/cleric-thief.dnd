@@ -1,0 +1,48 @@
+  Cleric/Thief::section.character_class
+    Cleric/Thief Class Table::table.class_table
+      ::head
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+      ::row
+        1st | +0    | +1 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells, Turn Undead
+        2nd | +1    | +1 | +1 | +1 | Evasion
+        3rd | +2    | +2 | +2 | +2 | Sneak attack +2d6
+        4th | +3    | +2 | +2 | +2 | 
+        5th | +3    | +2 | +2 | +2 | Sneak attack +3d6
+        6th | +4    | +3 | +3 | +3 |  
+        7th | +5    | +3 | +3 | +3 | Sneak attack +4d6
+        8th | +6/+1 | +4 | +4 | +4 | 
+    Cleric/Thief Spells Per Day::table
+      ::head
+        Level | 0 |  1  |  2  |  3  | 4
+      ::row
+        1st   | 3 | 1+1 |     |     |
+        2nd   | 4 | 2+1 |     |     |
+        3rd   | 4 | 2+1 | 1+1 |     |
+        4th   | 5 | 3+1 | 2+1 |     |
+        5th   | 5 | 3+1 | 2+1 | 0+1 |
+        6th   | 5 | 3+1 | 3+1 | 1+1 |
+        7th   | 6 | 4+1 | 3+1 | 1+1 | 0+1
+        8th   | 6 | 4+1 | 3+1 | 2+1 | 1+1
+    Hit Die::text
+      d7
+    Skill Points at 1st Level:: text
+      (8 + Int modifier) x4
+    Skill Points at Each Additional Level::text
+      8 + Int modifier.
+    Weapon And Armor Proficiency::text
+      A cleric/thief are proficient with all simple weapons, plus the pistol, rapier, sap, shortbow, and short sword, and with all armor (heavy, medium, and light) and shields (except tower shields). 
+
+      A cleric/thief cannot use any thief skills, sneak attack, or hide in shadows while wearing armor heavier than light armor.
+
+    Turn Undead::text
+      This functions just like the cleric ability.
+    Spells::text
+      The cleric/thief prepares and casts spells in the same manner a cleric does. See the cleric for full information. However use the Cleric/Thief spells per day table.
+
+      A cleric/thief must worship a deity, has the same alignment restrictions and picks two domains at 1st level just like a cleric.
+
+    Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
+      These function as the theif ability. See the thief for details
+
+    Evasion::text
+      At 2nd level, the cleric/thief gains evasion. See the thief for details.
