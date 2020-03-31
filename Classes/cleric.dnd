@@ -15,14 +15,14 @@
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
-        1st   | 3 | 1+1 |     |     |
-        2nd   | 4 | 2+1 |     |     |
-        3rd   | 4 | 2+1 | 1+1 |     |
-        4th   | 5 | 3+1 | 2+1 |     |
-        5th   | 5 | 3+1 | 2+1 | 1+1 |
-        6th   | 5 | 3+1 | 3+1 | 2+1 |
-        7th   | 6 | 4+1 | 3+1 | 2+1 | 1+1
-        8th   | 6 | 4+1 | 3+1 | 3+1 | 2+1
+        1st   | 3 | 2+1 |     |     |
+        2nd   | 4 | 3+1 |     |     |
+        3rd   | 4 | 3+1 | 2+1 |     |
+        4th   | 5 | 4+1 | 3+1 |     |
+        5th   | 5 | 4+1 | 3+1 | 1+1 |
+        6th   | 5 | 4+1 | 4+1 | 2+1 |
+        7th   | 6 | 5+1 | 4+1 | 2+1 | 1+1
+        8th   | 6 | 5+1 | 4+1 | 3+1 | 2+1
     Cleric Alignment Requirement::text
       A cleric’s alignment must be within one step of his deity’s (that is, it may be one
       step away on either the lawful-chaotic axis or the good-evil axis, but not both).
