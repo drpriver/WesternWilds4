@@ -4,6 +4,96 @@
       
       Some sorcerer feats are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. However, the spell is not higher level for the effects that care about the spell's level. Only one metamagic can be applied to a single casting of a spell.
 
+    Chaos Magic::section.feat
+      Prerequisite::text
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
+
+    Blood Magic::section.feat
+      Prerequisite::text
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
+
+        Additionally, whenever you are the target of a healing effect, heal 1 additional HP.
+
+    Dragon Magic::section.feat
+      Prerequisite::text 
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        Choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
+
+        All spells you cast that deal damage have their damage type changed to the associated type. You gain resistance 5 to that damage type, and spells you cast that would normally deal damage of that type have their DCs increased by 1 and a +1 bonus to any attack rolls. You also ignore 5 points of the target's resistance of that damage type.
+
+    Mana Magic::section.feat
+      TODO: this is cool but currently doesn't work.
+      Prerequisite::text
+        Can take only at level 1, can only have 1 origin feat
+        
+        This is an origin feat.
+      Effect::text
+        Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
+
+        Additionally, you gain +1 saves vs spells and spell-like abilities
+    Draconic Scales::section.feat
+      Prerequisite::text
+        Dragon Magic, Sorcerer level 3
+      Effect::text
+        Your natural armor is increased by 2. 
+        This benefit increases to 3 at level 6.
+
+    Draconic Wings::section.feat
+      Prerequisite::text
+        Dragon Magic, level 6
+      Effect::text 
+        You grow wings and gain a fly speed with average maneuverability equal to your ground speed. 
+
+    Improved Draconic Wings::section.feat
+      Prerequisite::text
+        Draconic Wings
+      Effect::text
+        Your maneuverability improves to good and your fly speed increases by 30'.
+
+    Dragon Breath::section.feat
+      Prerequisite::text 
+        Dragon Magic
+      Effect::text
+        Once per day, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
+
+    Pure Chaos::section.feat
+      Prerequisite::text
+        Chaos Magic
+      Effect::text
+        Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level. 
+
+        Whenever you level up, reroll all hit dice beyond the 1st.
+
+        Whenever you deal or receive damage, roll 2d100. Multiply the damage by that percent.
+
+        You gain +3 HP and a +1 to all saves.
+
+
+    Efficient Mana Manipulation::section.feat
+      Prerequisite::text
+        Mana Magic
+      Effect::text
+        TODO: what does this MEAN???
+
+        Gain +1 spell points for each level of the highest level spell known.
+
+    Immortal Blood::section.feat
+      Prerequisite::text
+        Blood Magic
+      Effect::text
+        When you are below half your maximum hit points, you gain fast healing 1 until you are above half your maximum hit points.
+
 
     Extend Spell::section.feat
       Metamagic
@@ -193,44 +283,6 @@
       Effect::text
         Twice per day, lower the level adjustment of a metamagic. Only usable once per spell cast.
 
-    Chaos Magic::section.feat
-      Prerequisite::text
-        Can take only at level 1, can only have 1 origin feat
-        
-        This is an origin feat.
-      Effect::text
-        Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
-
-    Blood Magic::section.feat
-      Prerequisite::text
-        Can take only at level 1, can only have 1 origin feat
-        
-        This is an origin feat.
-      Effect::text
-        When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
-
-        Additionally, whenever you are the target of a healing effect, heal 1 additional HP.
-
-    Dragon Magic::section.feat
-      Prerequisite::text 
-        Can take only at level 1, can only have 1 origin feat
-        
-        This is an origin feat.
-      Effect::text
-        Choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
-
-        All spells you cast that deal damage have their damage type changed to the associated type. You gain resistance 5 to that damage type, and spells you cast that would normally deal damage of that type have their DCs increased by 1 and a +1 bonus to any attack rolls. You also ignore 5 points of the target's resistance of that damage type.
-
-    Mana Magic::section.feat
-      TODO: this is cool but currently doesn't work.
-      Prerequisite::text
-        Can take only at level 1, can only have 1 origin feat
-        
-        This is an origin feat.
-      Effect::text
-        Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
-
-        Additionally, you gain +1 saves vs spells and spell-like abilities
 
     Fiery Burst::section.feat
       Effect::text
@@ -338,54 +390,3 @@
         ::text
           You create a blob of acid that eats away flesh, steel, bone. If the target fails to evade it, they suffer 1d10 per (level+1)/2 acid damage.
 
-    Draconic Scales::section.feat
-      Prerequisite::text
-        Dragon Magic, Sorcerer level 3
-      Effect::text
-        Your natural armor is increased by 2. 
-        This benefit increases to 3 at level 6.
-
-    Draconic Wings::section.feat
-      Prerequisite::text
-        Dragon Magic, level 6
-      Effect::text 
-        You grow wings and gain a fly speed with average maneuverability equal to your ground speed. 
-
-    Improved Draconic Wings::section.feat
-      Prerequisite::text
-        Draconic Wings
-      Effect::text
-        Your maneuverability improves to good and your fly speed increases by 30'.
-
-    Dragon Breath::section.feat
-      Prerequisite::text 
-        Dragon Magic
-      Effect::text
-        Once per day, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
-
-    Pure Chaos::section.feat
-      Prerequisite::text
-        Chaos Magic
-      Effect::text
-        Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level. 
-
-        Whenever you level up, reroll all hit dice beyond the 1st.
-
-        Whenever you deal or receive damage, roll 2d100. Multiply the damage by that percent.
-
-        You gain +3 HP and a +1 to all saves.
-
-
-    Efficient Mana Manipulation::section.feat
-      Prerequisite::text
-        Mana Magic
-      Effect::text
-        TODO: what does this MEAN???
-
-        Gain +1 spell points for each level of the highest level spell known.
-
-    Immortal Blood::section.feat
-      Prerequisite::text
-        Blood Magic
-      Effect::text
-        When you are below half your maximum hit points, you gain fast healing 1 until you are above half your maximum hit points.

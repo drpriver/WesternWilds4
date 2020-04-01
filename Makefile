@@ -52,8 +52,8 @@ FEATS=feats.dnd\
 	monk-feats.dnd\
 	paladin-feats.dnd\
 	ranger-feats.dnd\
-	thief-feats.dnd\
 	sorcerer-feats.dnd\
+	thief-feats.dnd\
 	wizard-feats.dnd
 
 SKILLS=skills.dnd\
