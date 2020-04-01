@@ -13,6 +13,7 @@
         Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
 
     Blood Magic::section.feat
+      Origin feat
       Prerequisite::text
         Can take only at level 1, can only have 1 origin feat
         
@@ -23,6 +24,7 @@
         Additionally, whenever you are the target of a healing effect, heal 1 additional HP.
 
     Dragon Magic::section.feat
+      Origin feat
       Prerequisite::text 
         Can take only at level 1, can only have 1 origin feat
         
@@ -33,13 +35,16 @@
         All spells you cast that deal damage have their damage type changed to the associated type. You gain resistance 5 to that damage type, and spells you cast that would normally deal damage of that type have their DCs increased by 1 and a +1 bonus to any attack rolls. You also ignore 5 points of the target's resistance of that damage type.
 
     Mana Magic::section.feat
-      TODO: this is cool but currently doesn't work.
+      Origin feat
       Prerequisite::text
         Can take only at level 1, can only have 1 origin feat
         
         This is an origin feat.
       Effect::text
-        Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
+        Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). 
+        Subtract the highest level of spell slots you can cast from this total (so if you can cast 3rd level spells, subtract 3).  To cast a spell, you must spend spell points equal to the spell level.
+
+        When you long rest, you regain all your spell points.
 
         Additionally, you gain +1 saves vs spells and spell-like abilities
     Draconic Scales::section.feat
@@ -84,9 +89,8 @@
       Prerequisite::text
         Mana Magic
       Effect::text
-        TODO: what does this MEAN???
-
-        Gain +1 spell points for each level of the highest level spell known.
+        Gain an extra number of spell points equal to the highest level of spell you can cast.
+        For example, if you can cast 3rd level spells, you gain 3 extra spell points per long rest.
 
     Immortal Blood::section.feat
       Prerequisite::text

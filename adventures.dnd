@@ -1,0 +1,8 @@
+Adventures::chapter
+  Resting::section
+    You heal your level in hit points each night of rest.
+
+    A long rest is a week in your house, inn, stronghold, etc.
+
+    After any period of downtime (which are measured in seasons), it is assumed the character
+    has long rested.

@@ -580,6 +580,9 @@
               <li><a href="#weapons">Weapons</a></li>
               <li><a href="#armor">Armor</a></li>
             </ul></li>
+            <li><a href="#adventures">Adventures</a><ul>
+              <li><a href="#resting">Resting</a></li>
+            </ul></li>
             <li><a href="#experience">Experience</a><ul>
               <li><a href="#level-table">Level table</a></li>
               <li><a href="#leveling-up">Leveling Up</a></li>
@@ -2025,7 +2028,7 @@
             <div>
               <h4 id="rage">Rage</h4>
               <p>
-                A barbarian can fly into a rage a certain number of times per day. In a rage, a barbarian temporarily gains a +4 bonus to <a href="#strenght-str">Strength</a>, a +4 bonus to <a href="#constitution-con">Constitution</a>, and a +2 morale bonus on <a href="#will-saves">Will saves</a>, but he takes a -2 penalty to <a href="#armor-class">Armor Class</a>.
+                A barbarian can fly into a rage a certain number of times per long rest. In a rage, a barbarian temporarily gains a +4 bonus to <a href="#strenght-str">Strength</a>, a +4 bonus to <a href="#constitution-con">Constitution</a>, and a +2 morale bonus on <a href="#will-saves">Will saves</a>, but he takes a -2 penalty to <a href="#armor-class">Armor Class</a>.
               </p>
               <p>
                 The increase in Constitution increases the barbarian’s <a href="#hit-points">hit points</a> by 2 points per level, but these hit points go away at the end of the rage when his Constitution score drops back to normal. (These extra hit points are not lost first the way temporary hit points are.)
@@ -2037,7 +2040,7 @@
                 A fit of rage lasts for a number of rounds equal to 3 + the character’s (newly improved) Constitution modifier. A barbarian may prematurely end his rage. At the end of the rage, the barbarian loses the rage modifiers and restrictions and becomes fatigued (-2 penalty to Strength, -2 penalty to Dexterity, can’t charge or run) for the duration of the current encounter. A barbarian can fly into a rage only once per encounter.
               </p>
               <p>
-                At 1st level he can use his rage ability once per day. At 4th level and at 8th level, he can use it one additional time per day. A barbarian regains use of his rages after restfully sleeping for 8 hours at night.
+                At 1st level he can use his rage ability once per long rest. At 4th level and at 8th level, he can use it one additional time per long rest. A barbarian regains use of his rages after restfully sleeping for 8 hours at night.
               </p>
               <p>
                 Entering a rage takes no time itself, but a barbarian can do it only during his turn, not in response to someone else’s action.
@@ -2374,16 +2377,13 @@
                 A bard casts arcane spells, which are drawn from the bard spell list. He can cast any spell he knows without preparing it ahead of time. Every bard spell has a verbal component (singing, reciting, or music). To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a bard’s spell is 10 + the spell level + the bard’s Charisma modifier.
               </p>
               <p>
-                Like other spellcasters, a bard can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given his table.
+                Like other spellcasters, a bard can cast only a certain number of spells of each spell level before long resting. His base daily spell allotment is given his table.
               </p>
               <p>
                 The bard’s selection of spells is extremely limited. A bard begins play knowing four 0-level spells of your choice. At most new bard levels, he gains one or more new spells.
               </p>
               <p>
                 Upon reaching any level, a bard may choose to learn a new spell in exchange for a spell he already knows.  The new spell’s level must be the same as that of the spell being exchanged. A bard may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.
-              </p>
-              <p>
-                As noted above, a bard need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his allotment of spells per day for the spell’s level.
               </p>
             </div>
             <div>
@@ -2413,7 +2413,7 @@
             <div>
               <h4 id="bardic-music">Bardic Music</h4>
               <p>
-                Once per day per bard level, a bard can use his song or poetics to produce magical effects on those around him (usually including himself, if desired). While these abilities fall under the category of bardic music and the descriptions discuss singing or playing instruments, they can all be activated by reciting poetry, chanting, singing lyrical songs, singing melodies, whistling, playing an instrument, or playing an instrument in combination with some spoken performance. Each ability requires both a minimum bard level and a minimum number of ranks in the Perform skill to qualify; if a bard does not have the required number of ranks in at least one Perform skill, he does not gain the bardic music ability until he acquires the needed ranks.
+                Once per long rest per bard level, a bard can use his song or poetics to produce magical effects on those around him (usually including himself, if desired). While these abilities fall under the category of bardic music and the descriptions discuss singing or playing instruments, they can all be activated by reciting poetry, chanting, singing lyrical songs, singing melodies, whistling, playing an instrument, or playing an instrument in combination with some spoken performance. Each ability requires both a minimum bard level and a minimum number of ranks in the Perform skill to qualify; if a bard does not have the required number of ranks in at least one Perform skill, he does not gain the bardic music ability until he acquires the needed ranks.
               </p>
               <p>
                 Starting a bardic music effect is a standard action. Some bardic music abilities require concentration, which means the bard must take a standard action each round to maintain the ability. Even while using bardic music that doesn’t require concentration, a bard cannot cast spells, activate magic items by spell completion (such as scrolls), spell trigger (such as wands), or command word. Just as for casting a spell with a verbal component, a deaf bard has a 20% chance to fail when attempting to use bardic music. If he fails, the attempt still counts against his daily limit.
@@ -2714,16 +2714,17 @@
               </p>
               <p>
                 Like other spellcasters, a cleric can cast only a certain number of spells of each
-                spell level per day. His base daily spell allotment is given in his table. A cleric also gets one
-                domain spell of each spell level he can cast, starting at 1st level. When a cleric
-                prepares a spell in a domain spell slot, it must come from one of his two domains.
+                spell level per long rest. His base spell allotment is given in his table. A cleric
+                also gets one domain spell of each spell level he can cast, starting at 1st level.
+                When a cleric prepares a spell in a domain spell slot, it must come from one of his
+                two domains.
               </p>
               <p>
-                Clerics meditate or pray for their spells. Each cleric must choose a time at which he
-                must spend 1 hour each day in quiet contemplation or supplication to regain his daily
-                allotment of spells. See <a href="#spell-recuperation">spell recuperation</a>. A cleric may prepare and cast any spell
+                Clerics meditate or pray for their spells. A cleric may prepare and cast any spell
                 on the cleric spell list, provided that he can cast spells of that level, but he must
-                choose which spells to prepare during his daily meditation.
+                choose which spells to prepare during his meditation. A cleric can change their prepared
+                spell slots each morning during their prayer, but they only recover expended spells
+                when they rest for a long time.
               </p>
             </div>
             <div>
@@ -2748,7 +2749,7 @@
                   powerful evil clerics instead command the undead.
                 </p>
                 <p>
-                  A cleric may attempt to turn undead a number of times per day equal to 3 + his
+                  A cleric may attempt to turn undead a number of times per long rest equal to 3 + his
                   Charisma modifier. A cleric with 5 or more ranks in Knowledge (religion) gets a +1
                   bonus on turning checks against undead.
                 </p>
@@ -2841,7 +2842,7 @@
                 <div>
                   <h6 id="granted-powers">Granted Powers</h6>
                   <p>
-                    Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+                    Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
                 <div>
@@ -2859,7 +2860,7 @@
                 <div>
                   <h6 id="granted-powers1">Granted Powers</h6>
                   <p>
-                    You can use speak with animals once per day as a spell-like ability.
+                    You can use speak with animals once per long rest as a spell-like ability.
                   </p>
                   <p>
                     Add Knowledge (nature) to your list of cleric class skills.
@@ -2898,7 +2899,7 @@
                 <div>
                   <h6 id="granted-power1">Granted Power</h6>
                   <p>
-                    You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature’s current hit points, it dies (no save).
+                    You may use a death touch once per long rest. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature’s current hit points, it dies (no save).
                   </p>
                 </div>
                 <div>
@@ -2916,7 +2917,7 @@
                 <div>
                   <h6 id="granted-power2">Granted Power</h6>
                   <p>
-                    You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.
+                    You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per long rest.
                   </p>
                 </div>
                 <div>
@@ -2934,7 +2935,7 @@
                 <div>
                   <h6 id="granted-power3">Granted Power</h6>
                   <p>
-                    Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+                    Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
                 <div>
@@ -2952,7 +2953,7 @@
                 <div>
                   <h6 id="granted-power4">Granted Power</h6>
                   <p>
-                    Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+                    Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
                 <div>
@@ -3024,7 +3025,7 @@
                 <div>
                   <h6 id="granted-power8">Granted Power</h6>
                   <p>
-                    You gain the power of good fortune, which is usable once per day. This extraordinary ability allows you to reroll one roll that you have just made before the game master declares whether the roll results in success or failure. You must take the result of the reroll, even if it’s worse than the original roll.
+                    You gain the power of good fortune, which is usable once per long rest. This extraordinary ability allows you to reroll one roll that you have just made before the game master declares whether the roll results in success or failure. You must take the result of the reroll, even if it’s worse than the original roll.
                   </p>
                 </div>
                 <div>
@@ -3060,7 +3061,7 @@
                 <div>
                   <h6 id="granted-powers2">Granted Powers</h6>
                   <p>
-                    Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+                    Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                   <p>
                     Add Knowledge (nature) to your list of cleric class skills.
@@ -3081,7 +3082,7 @@
                 <div>
                   <h6 id="granted-power10">Granted Power</h6>
                   <p>
-                    You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per day.
+                    You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per long rest.
                   </p>
                 </div>
                 <div>
@@ -3099,7 +3100,7 @@
                 <div>
                   <h6 id="granted-power11">Granted Power</h6>
                   <p>
-                    You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per day.
+                    You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per long rest.
                   </p>
                 </div>
                 <div>
@@ -3117,7 +3118,7 @@
                 <div>
                   <h6 id="granted-power12">Granted Power</h6>
                   <p>
-                    Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.
+                    Once per long rest, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.
                   </p>
                 </div>
                 <div>
@@ -3171,7 +3172,7 @@
                 <div>
                   <h6 id="granted-power15">Granted Power</h6>
                   <p>
-                    Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+                    Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
                 <div>
@@ -3411,10 +3412,10 @@
                   To prepare or cast a spell, the druid must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a druid’s spell is 10 + the spell level + the druid’s Wisdom modifier.
                 </p>
                 <p>
-                  Like other spellcasters, a druid can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Druid. She does not have access to any domain spells or granted powers, as a cleric does.
+                  Like other spellcasters, a druid can cast only a certain number of spells of each spell level per long rest.
                 </p>
                 <p>
-                  A druid prepares and casts spells the way a cleric does. A druid may prepare and cast any spell on the druid spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her daily meditation.
+                  A druid prepares and casts spells the way a cleric does. A druid may prepare and cast any spell on the druid spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her meditation. She can change her prepared spells during her daily meditation, but does not recover any until she rests for a long time.
                 </p>
               </div>
               <div>
@@ -3895,7 +3896,7 @@
               <h4 id="wholeness-of-body">Wholeness of body</h4>
               <p>
                 At 7th level or higher, a monk can heal his own wounds.
-                He can heal a number of hit points of damage equal to twice his current monk level each day, and he can spread this healing out among several uses.
+                He can heal a number of hit points of damage equal to twice his current monk level each long rest, and he can spread this healing out among several uses.
                 This is a swift action.
               </p>
             </div>
@@ -4609,7 +4610,7 @@
                 To learn or cast a spell, a sorcerer must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a sorcerer’s spell is 10 + the spell level + the sorcerer’s Charisma modifier.
               </p>
               <p>
-                Like other spellcasters, a sorcerer can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on the tables above.
+                Like other spellcasters, a sorcerer can cast only a certain number of spells of each spell level per long rest.
               </p>
               <p>
                 A sorcerer’s selection of spells is limited. A sorcerer knows spells according the their table. These new spells can be common spells chosen from the sorcerer spell list, or they can be unusual spells that the sorcerer has gained some understanding of by study. The sorcerer can’t use this method of spell acquisition to learn spells at a faster rate, however.
@@ -4619,7 +4620,7 @@
                 In effect, the sorcerer "loses" the old spell in exchange for the new one. The new spell’s level must be the same as that of the spell being exchanged. A sorcerer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.
               </p>
               <p>
-                Unlike a wizard or a cleric, a sorcerer need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his spells per day for that spell level. He does not have to decide ahead of time which spells he’ll cast.
+                Unlike a wizard or a cleric, a sorcerer need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his spells per long rest for that spell level. He does not have to decide ahead of time which spells he’ll cast.
               </p>
             </div>
             <div>
@@ -5226,10 +5227,10 @@
                 To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a wizard’s spell is 10 + the spell level + the wizard’s Intelligence modifier.
               </p>
               <p>
-                Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Wizard.
+                Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per long rest.
               </p>
               <p>
-                Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare.
+                Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare. A wizard may change her prepared spells at the beginning of each day, but does not recover any. Spells are only recovered during a long rest.
               </p>
             </div>
             <div>
@@ -5243,7 +5244,7 @@
               <div>
                 
                 <p>
-                  A wizard must study her spellbook each day to prepare her spells. She cannot prepare any spell not recorded in her spellbook, except for read magic, which all wizards can prepare from memory. A wizard cannot use anyone else's spellbook to prepare her spells.
+                  A wizard must study her spellbook each long rest to prepare her spells. She cannot prepare any spell not recorded in her spellbook, except for read magic, which all wizards can prepare from memory. A wizard cannot use anyone else's spellbook to prepare her spells.
                 </p>
                 <p>
                   A wizard begins play with a spellbook containing all 0-level wizard spells plus three 1st-level spells of your choice. For each point of Intelligence bonus the wizard has, the spellbook holds one additional 1st-level spell of your choice.
@@ -13767,6 +13768,7 @@
             </section>
             <section class="feat">
               <h4 id="blood-magic">Blood Magic</h4>
+              Origin feat
               <div>
                 <h5 id="prerequisite42">Prerequisite</h5>
                 <p>
@@ -13788,6 +13790,7 @@
             </section>
             <section class="feat">
               <h4 id="dragon-magic">Dragon Magic</h4>
+              Origin feat
               <div>
                 <h5 id="prerequisite43">Prerequisite</h5>
                 <p>
@@ -13809,7 +13812,7 @@
             </section>
             <section class="feat">
               <h4 id="mana-magic">Mana Magic</h4>
-              TODO: this is cool but currently doesn't work.
+              Origin feat
               <div>
                 <h5 id="prerequisite44">Prerequisite</h5>
                 <p>
@@ -13822,7 +13825,11 @@
               <div>
                 <h5 id="effect181">Effect</h5>
                 <p>
-                  Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). For each level of spell you would have at least one slot for beyond 1st level, subtract one spell point. To cast a spell, you must spend spell points equal to the spell level. (does david have crazy rules for getting different spell levels back on rests of different length?? yes)
+                  Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½).
+                  Subtract the highest level of spell slots you can cast from this total (so if you can cast 3rd level spells, subtract 3).  To cast a spell, you must spend spell points equal to the spell level.
+                </p>
+                <p>
+                  When you long rest, you regain all your spell points.
                 </p>
                 <p>
                   Additionally, you gain +1 saves vs spells and spell-like abilities
@@ -13925,10 +13932,8 @@
               <div>
                 <h5 id="effect187">Effect</h5>
                 <p>
-                  TODO: what does this MEAN???
-                </p>
-                <p>
-                  Gain +1 spell points for each level of the highest level spell known.
+                  Gain an extra number of spell points equal to the highest level of spell you can cast.
+                  For example, if you can cast 3rd level spells, you gain 3 extra spell points per long rest.
                 </p>
               </div>
             </section>
@@ -17843,6 +17848,16 @@
                 The slots column indicates the effective bulk of worn armor. Unworn armor encumbers by 5 more slots than this number.
               </p>
             </div>
+          </section>
+        </section>
+        <section class="chapter">
+          <h2 id="adventures">Adventures</h2>
+          <section>
+            <h3 id="resting">Resting</h3>
+            You heal your level in hit points each night of rest.
+            A long rest is a week in your house, inn, stronghold, etc.
+            After any period of downtime (which are measured in seasons), it is assumed the character
+            has long rested.
           </section>
         </section>
         <section class="chapter">

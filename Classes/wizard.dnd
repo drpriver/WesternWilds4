@@ -46,16 +46,16 @@
 
       To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a wizard’s spell is 10 + the spell level + the wizard’s Intelligence modifier.
 
-      Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Wizard.
+      Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per long rest.
 
-      Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare.
+      Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare. A wizard may change her prepared spells at the beginning of each day, but does not recover any. Spells are only recovered during a long rest.
 
     Familiar::text
       A wizard can obtain a familiar in exactly the same manner as a sorcerer can.
 
     Spellbooks::section
       ::text
-        A wizard must study her spellbook each day to prepare her spells. She cannot prepare any spell not recorded in her spellbook, except for read magic, which all wizards can prepare from memory. A wizard cannot use anyone else's spellbook to prepare her spells.
+        A wizard must study her spellbook each long rest to prepare her spells. She cannot prepare any spell not recorded in her spellbook, except for read magic, which all wizards can prepare from memory. A wizard cannot use anyone else's spellbook to prepare her spells.
 
         A wizard begins play with a spellbook containing all 0-level wizard spells plus three 1st-level spells of your choice. For each point of Intelligence bonus the wizard has, the spellbook holds one additional 1st-level spell of your choice.
 

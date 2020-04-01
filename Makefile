@@ -136,6 +136,7 @@ ALL=basics.dnd\
     flaws.dnd\
     $(addprefix Feats/,$(FEATS))\
     $(addprefix Equipment/,$(EQUIPMENT))\
+    adventures.dnd\
     experience.dnd\
     factions.dnd\
     guilds.dnd\

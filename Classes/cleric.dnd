@@ -78,15 +78,16 @@
       spell is 10 + the spell level + the cleric’s Wisdom modifier.
 
       Like other spellcasters, a cleric can cast only a certain number of spells of each
-      spell level per day. His base daily spell allotment is given in his table. A cleric also gets one
-      domain spell of each spell level he can cast, starting at 1st level. When a cleric
-      prepares a spell in a domain spell slot, it must come from one of his two domains.
+      spell level per long rest. His base spell allotment is given in his table. A cleric 
+      also gets one domain spell of each spell level he can cast, starting at 1st level. 
+      When a cleric prepares a spell in a domain spell slot, it must come from one of his 
+      two domains.
 
-      Clerics meditate or pray for their spells. Each cleric must choose a time at which he
-      must spend 1 hour each day in quiet contemplation or supplication to regain his daily
-      allotment of spells. See [spell recuperation]. A cleric may prepare and cast any spell
+      Clerics meditate or pray for their spells. A cleric may prepare and cast any spell
       on the cleric spell list, provided that he can cast spells of that level, but he must
-      choose which spells to prepare during his daily meditation.
+      choose which spells to prepare during his meditation. A cleric can change their prepared
+      spell slots each morning during their prayer, but they only recover expended spells
+      when they rest for a long time.
 
     Spell Conversion::text
       A cleric can spontaneously convert any of his spells into one of his domain spells. He
@@ -102,7 +103,7 @@
         rather than of goodness). Powerful Good and neutral clerics destroy undead, while
         powerful evil clerics instead command the undead.
 
-        A cleric may attempt to turn undead a number of times per day equal to 3 + his
+        A cleric may attempt to turn undead a number of times per long rest equal to 3 + his
         Charisma modifier. A cleric with 5 or more ranks in Knowledge (religion) gets a +1
         bonus on turning checks against undead.
 
@@ -163,7 +164,7 @@
       Air Domain::section.domain
 
         Granted Powers::text
-          Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+          Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
 
         Air Domain Spells::bullets
@@ -174,7 +175,7 @@
 
       Animal Domain::section.domain
         Granted Powers::text
-          You can use speak with animals once per day as a spell-like ability.
+          You can use speak with animals once per long rest as a spell-like ability.
 
           Add Knowledge (nature) to your list of cleric class skills.
 
@@ -196,7 +197,7 @@
 
       Death Domain::section.domain
         Granted Power::text
-          You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature’s current hit points, it dies (no save).
+          You may use a death touch once per long rest. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature’s current hit points, it dies (no save).
 
         Death Domain Spells::bullets
           * Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.
@@ -206,7 +207,7 @@
 
       Destruction Domain::section.domain
         Granted Power::text
-          You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.
+          You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per long rest.
 
         Destruction Domain Spells::bullets
           * Inflict Light Wounds: Touch attack, 1d8 damage +1/level (max +5).
@@ -216,7 +217,7 @@
 
       Earth Domain::section.domain
         Granted Power::text
-          Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+          Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
 
         Earth Domain Spells::bullets
@@ -227,7 +228,7 @@
 
       Fire Domain::section.domain
         Granted Power::text
-          Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+          Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
 
         Fire Domain Spells::bullets
@@ -268,7 +269,7 @@
 
       Luck Domain::section.domain
         Granted Power::text
-          You gain the power of good fortune, which is usable once per day. This extraordinary ability allows you to reroll one roll that you have just made before the game master declares whether the roll results in success or failure. You must take the result of the reroll, even if it’s worse than the original roll.
+          You gain the power of good fortune, which is usable once per long rest. This extraordinary ability allows you to reroll one roll that you have just made before the game master declares whether the roll results in success or failure. You must take the result of the reroll, even if it’s worse than the original roll.
 
         Luck Domain Spells::bullets
           * Entropic Shield: Ranged attacks against you have 20% miss chance.
@@ -288,7 +289,7 @@
 
       Plant Domain::section.domain
         Granted Powers::text
-          Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+          Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
 
           Add Knowledge (nature) to your list of cleric class skills.
@@ -301,7 +302,7 @@
 
       Protection Domain::section.domain
         Granted Power::text
-          You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per day.
+          You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per long rest.
 
         Protection Domain Spells::bullets
           * Sanctuary: Opponents can’t attack you, and you can’t attack.
@@ -312,7 +313,7 @@
 
       Strength Domain::section.domain
         Granted Power::text
-          You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per day.
+          You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per long rest.
 
         Strength Domain Spells::bullets
           * Enlarge Person: Humanoid creature doubles in size.
@@ -322,7 +323,7 @@
 
       Sun Domain::section.domain
         Granted Power::text
-          Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.
+          Once per long rest, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.
 
         Sun Domain Spells::bullets
           * Burning Hands: Shoot cone of fire.
@@ -352,7 +353,7 @@
 
       Water Domain::section.domain
         Granted Power::text
-          Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
+          Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
         Water Domain Spells::bullets
           * Obscuring Mist: Fog surrounds you.
