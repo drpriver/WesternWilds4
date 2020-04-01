@@ -119,35 +119,35 @@
         ::div.maneuver
           ::div.maneuver_title
             Transformation
-          ::div.maneuver_text
+          ::text.maneuver_text
             Standard action, 8 hours
 
             Take on the appearance of any medium sized humanoid.
         ::div.maneuver
           ::div.maneuver_title
             Substitution 
-          ::div.maneuver_text
+          ::text.maneuver_text
             Immediate action
 
             When struck with an attack, move 5 ft and the attack misses instead.
         ::div.maneuver
           ::div.maneuver_title
             Exploding Talisman
-          ::div.maneuver_text
+          ::text.maneuver_text
             Free action
 
             The next weapon you throw this turn deals an additional d6 fire damage.
         ::div.maneuver
           ::div.maneuver_title
             Ninja Stealth
-          ::div.maneuver_text
+          ::text.maneuver_text
             Swift action, 1 hour
 
             Hide in shadows as a rogue.
         ::div.maneuver
           ::div.maneuver_title
             Ninja Mobility
-          ::div.maneuver_text
+          ::text.maneuver_text
             Swift Action, 8 hours
 
             Can walk on water and run on walls.
@@ -161,21 +161,21 @@
       ::div.maneuver
         ::div.maneuver_title
           Shadow Clone
-        ::div.maneuver_text
+        ::text.maneuver_text
           Swift action: Lasts 1 minute
 
           Create 3 clones of yourself. When an enemy attacks you, they have a chance of attacking a clone instead. You and each clone have an equal chance of being targeted. These clones are not illusions. Clones have 10 AC and 1 HP.
       ::div.maneuver
         ::div.maneuver_title
           Toad Summon
-        ::div.maneuver_text
+        ::text.maneuver_text
           Standard Action: Lasts 1 minute,
 
           Summon a large toad in an open space within 30 ft. It follows your commands as best it can. It has a bite attack and can swallow medium-sized enemies.
       ::div.maneuver
         ::div.maneuver_title
           Eyes of the Mirror God
-        ::div.maneuver_text
+        ::text.maneuver_text
           Immediate action when a creature you can see performs some jutsu, spell, or special attack like a dragon breath. 
 
           Until the end of your next turn, you can perform the same action you saw with new targets. Uses same action type as original but doesn’t require any resources (spell slots, ki, etc).
