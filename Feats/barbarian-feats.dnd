@@ -150,7 +150,7 @@
 
     Extra Rage::section.feat
       Effect::text
-        You can Rage two additional times per day.
+        You can Rage two additional times per long rest.
 
     Enduring Rage::section.feat
       Effect::text

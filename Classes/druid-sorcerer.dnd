@@ -12,7 +12,7 @@
         7th | +5    | +3 | +2 | +5 |
         8th | +6/+1 | +4 | +2 | +6 |
 
-    Druid/Sorcerer Druid Spells Per Day::table
+    Druid/Sorcerer Druid Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
@@ -25,7 +25,7 @@
         7th   | 6 | 5 | 4 | 2 | 1
         8th   | 6 | 5 | 4 | 3 | 2
 
-    Druid/Sorcerer Sorcerer Spells Per Day::table
+    Druid/Sorcerer Sorcerer Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -57,9 +57,9 @@
       This ability works just like the druid's.
 
     Spells and Spellbook::text
-      The druid/sorcerer casts and learns sorcerer spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Druid/Sorcerer Sorcerer spells per day table.
+      The druid/sorcerer casts and learns sorcerer spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Druid/Sorcerer Sorcerer spells per long rest table.
 
-      The druid/sorcerer prepares and casts druid spells in the same manner a druid does. See the druid for full information. Howver use the Druid/Sorcerer Druid spells per day table.
+      The druid/sorcerer prepares and casts druid spells in the same manner a druid does. See the druid for full information. Howver use the Druid/Sorcerer Druid spells per long rest table.
 
       You may apply metamagic feats to druid spells.
 

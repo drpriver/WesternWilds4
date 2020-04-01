@@ -49,7 +49,7 @@
         School of Elemental Bending, Level 6
       Effect::section
         ::text
-          You can cast each of these spells as a SLA as swift actions once per day.
+          You can cast each of these spells as a SLA as swift actions once per long rest.
         ::bullets
           * Burning Hands
           * Gust of Wind
@@ -157,7 +157,7 @@
         School Of Ninjutsu, Level 6
       Effect::section
         ::text
-          Pick one special jutsu. It can be used twice per day and does not require stunning fist uses..
+          Pick one special jutsu. It can be used twice per long rest and does not require stunning fist uses..
       ::div.maneuver
         ::div.maneuver_title
           Shadow Clone
@@ -210,7 +210,7 @@
       Prerequisite::text
         Stunning Fist
       Effect::text
-        You can use stunning fist 3 additional times per day.
+        You can use stunning fist 3 additional times per long rest.
           
         Gain an ability from either school of ninjutsu or school of elemental bending.
 
@@ -274,7 +274,7 @@
 
         A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, and loses his Dexterity bonus to AC. 
 
-        You may attempt a stunning attack once per day per monk level.
+        You may attempt a stunning attack once per long rest per monk level.
 
         Some creatures are immune to stun.
 

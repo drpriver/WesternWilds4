@@ -11,7 +11,7 @@
         6th | +4    | +3 | +3 | +3 |  
         7th | +5    | +3 | +3 | +3 | Sneak attack +4d6
         8th | +6/+1 | +4 | +4 | +4 | 
-    Druid/Thief Spells Per Day::table
+    Druid/Thief Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
@@ -42,7 +42,7 @@
       This ability works just like the druid's.
 
     Spells::text
-      The druid/thief prepares and casts spells in the same manner a druid does. See the druid for full information. However use the Druid/Thief spells per day table.
+      The druid/thief prepares and casts spells in the same manner a druid does. See the druid for full information. However use the Druid/Thief spells per long rest table.
 
     Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
       These function as the theif ability. See the thief for details

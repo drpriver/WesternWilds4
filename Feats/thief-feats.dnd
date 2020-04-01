@@ -21,7 +21,7 @@
 
     Lucky Thief::section.feat
       Effect::text
-        Gain two luck points that recover each day.
+        Gain two luck points that recover each long rest.
 
         If you roll a 1 on a thief skill or a DEX skill, reroll it.
 
@@ -29,7 +29,7 @@
 
     Lucky Recovery::section.feat
       Effect::text
-        Gain two luck points that recover each day.
+        Gain two luck points that recover each long rest.
 
         If you roll a 1 on any CHA check, reroll it.
 
@@ -37,14 +37,14 @@
 
     Lucky Save::section.feat
       Effect::text
-        Gain one luck point that recovers each day.
+        Gain one luck point that recovers each long rest.
 
         If you roll a 1 on a saving throw, reroll it.
 
         You can spend a luck point to reroll a failed saving throw.
     Lucky Shot::section.feat
       Effect::text
-        Gain two luck points that recover each day.
+        Gain two luck points that recover each long rest.
 
         When you roll a 1 on a critical hit confirmation roll, reroll it.
 
@@ -105,7 +105,7 @@
       Prerequisite::text
         Level 3
       Effect::text
-        Once per day, you can become invisible as per the greater invisibility spell as a swift action. The effect lasts until the end of your turn.
+        Once per long rest, you can become invisible as per the greater invisibility spell as a swift action. The effect lasts until the end of your turn.
 
     Plagiarize::section.feat
       Prerequisite::text
@@ -114,9 +114,9 @@
         ::text
           Gain one of the following abilities
         ::bullets
-          * Learn 1 level 1 spell from any class. You can use it once per day.
-          * Turn Undead once per day
-          * Inspire Courage bardic music once per day
+          * Learn 1 level 1 spell from any class. You can use it once per long rest.
+          * Turn Undead once per long rest
+          * Inspire Courage bardic music once per long rest
         ::text
           Any factors based on a class level use your thief level. Your spell DC is 10+Dex mod+spell level
 

@@ -11,7 +11,7 @@
         6th | +4    | +2 | +3 | +3 |  
         7th | +5    | +2 | +3 | +3 | Sneak attack +4d6
         8th | +6/+1 | +2 | +4 | +4 | 
-    Sorcerer/Thief Spells Per Day::table
+    Sorcerer/Thief Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
@@ -37,7 +37,7 @@
       A sorcerer/thief cannot cast spells while wearing any armor.
 
     Spells::text
-      The sorcerer/thief casts and learns spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Sorcerer/Thief spells per day table.
+      The sorcerer/thief casts and learns spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Sorcerer/Thief spells per long rest table.
 
     Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
       These function as the theif ability. See the thief for details

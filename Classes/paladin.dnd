@@ -55,7 +55,7 @@
       detect normal people who are aligned with evil.
 
     Smite Evil::text
-      Once per day per paladin level, a paladin may attempt to smite evil with one normal
+      Once per long rest per paladin level, a paladin may attempt to smite evil with one normal
       melee attack. If the paladin hits with this attack, he deals an extra 1d8 sacred
       damage. This damage is doubled if the creature is an undead, demon, devil, evil priest
       or a creature with an evil aura. If the paladin misses with this attack, his use of
@@ -67,7 +67,7 @@
       At 7th level, the damage increases to 2d8.
 
     Lay on Hands::text
-      A paladin can heal wounds (his own or those of others) by touch. Each day he can heal a
+      A paladin can heal wounds (his own or those of others) by touch. Each long rest he can heal a
       total number of hit points of damage equal to his paladin level × 2. A paladin may
       choose to divide his healing among multiple recipients, and he doesn’t have to use it
       all at once. Using lay on hands is a standard action.
@@ -89,7 +89,7 @@
 
     Turn Undead::text
       When a paladin reaches 3rd level, he gains the supernatural ability to turn undead. He
-      may use this ability a number of times per day equal to 3 + his Charisma modifier. He
+      may use this ability a number of times per long rest equal to 3 + his Charisma modifier. He
       turns undead as a cleric of two levels lower would.
 
     Special Mount::text
@@ -98,7 +98,7 @@
       a heavy warhorse (for a Medium paladin) or a warpony (for a Small paladin). The paladin
       might earn special mounts from quests or as rewards from celestial forces.
 
-      Once per day, as a full-round action, a paladin may magically call his mount from the
+      Once per long rest, as a full-round action, a paladin may magically call his mount from the
       celestial realms in which it resides. This ability is the equivalent of a spell of a
       level equal to one-third the paladin’s level. The mount immediately appears adjacent to
       the paladin and remains until dismissed; it may be dismissed at any time as a free
@@ -110,9 +110,9 @@
       when it was last dismissed.
 
       Should the paladin’s mount die, it immediately disappears, leaving behind any equipment
-      it was carrying. The paladin may not summon another mount for thirty days or until he
+      it was carrying. The paladin may not summon another mount for thirty long rest or until he
       gains a paladin level, whichever comes first, even if the mount is somehow returned
-      from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack
+      from the dead. During this thirty-long rest period, the paladin takes a -1 penalty on attack
       and weapon damage rolls.
 
     Code of Conduct::text

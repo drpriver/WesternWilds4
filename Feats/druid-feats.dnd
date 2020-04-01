@@ -5,7 +5,7 @@
         Can only be used with spells that have an area, deal damage, and have a saving throw. Any creatures that fail their saves against the spell are also entangled for 1d4 rounds.
 
     Sudden Entangling Spell::section.feat
-      2/day suddenly add entangling spell to a spell.
+      2/long rest suddenly add entangling spell to a spell.
 
     Wildfire Druid::section.feat
       Effect::section
@@ -64,7 +64,7 @@
       Prerequisite::text
         Wildshape Specialization
       Effect::text
-        Once per day while shapeshifted, you can rage like a barbarian. The rage ends early if you transform back into a person.
+        Once per long rest while shapeshifted, you can rage like a barbarian. The rage ends early if you transform back into a person.
 
     Extra Wildshaping::section.feat
       Prerequisite::text

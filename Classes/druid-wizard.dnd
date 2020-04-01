@@ -12,7 +12,7 @@
         7th | +5    | +3 | +2 | +5 |
         8th | +6/+1 | +4 | +2 | +6 |
 
-    Druid/Wizard Druid Spells Per Day::table
+    Druid/Wizard Druid Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
@@ -25,7 +25,7 @@
         7th   | 6 | 5 | 4 | 2 | 1
         8th   | 6 | 5 | 4 | 3 | 2
 
-    Druid/Wizard Wizard Spells Per Day::table
+    Druid/Wizard Wizard Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -57,9 +57,9 @@
       This ability works just like the druid's.
 
     Spells and Spellbook::text
-      The druid/wizard prepares, casts, and learns wizard spells in the same manner a wizard does. See the wizard for full information. However use the Druid/Wizard Wizard spells per day table.
+      The druid/wizard prepares, casts, and learns wizard spells in the same manner a wizard does. See the wizard for full information. However use the Druid/Wizard Wizard spells per long rest table.
 
-      The druid/wizard prepares and casts druid spells in the same manner a druid does. See the druid for full information. Howver use the Druid/Wizard Druid spells per day table.
+      The druid/wizard prepares and casts druid spells in the same manner a druid does. See the druid for full information. Howver use the Druid/Wizard Druid spells per long rest table.
 
       You may apply metamagic feats to druid spells.
 

@@ -12,7 +12,7 @@
         7th | +7/+2 | +5 | +3 | +5 |
         8th | +8/+3 | +6 | +4 | +6 | Bonus fighter feat
 
-    Fighter/Cleric Spells Per Day::table
+    Fighter/Cleric Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
@@ -40,7 +40,7 @@
       At 1st level and every even level, the fighter/cleric gets a bonus fighter feat.
 
     Spells ::text
-      The fighter/cleric prepares and casts spells in the same manner a cleric does. See the cleric for full information. However use the Fighter/Cleric spells per day table.
+      The fighter/cleric prepares and casts spells in the same manner a cleric does. See the cleric for full information. However use the Fighter/Cleric spells per long rest table.
 
       A fighter/cleric must worship a deity, has the same alignment restrictions and picks two domains at 1st level just like a cleric.
 

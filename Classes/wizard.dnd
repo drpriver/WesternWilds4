@@ -11,7 +11,7 @@
         6th   | +3                | +2        | +2        | +5        |                                  
         7th   | +3                | +2        | +2        | +5        |                                  
         8th   | +4                | +2        | +2        | +6        |                                  
-    Wizard Spells Per Day::table
+    Wizard Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -48,7 +48,7 @@
 
       Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per long rest.
 
-      Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare. A wizard may change her prepared spells at the beginning of each day, but does not recover any. Spells are only recovered during a long rest.
+      Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare. A wizard may change her prepared spells at the beginning of each long rest, but does not recover any. Spells are only recovered during a long rest.
 
     Familiar::text
       A wizard can obtain a familiar in exactly the same manner as a sorcerer can.

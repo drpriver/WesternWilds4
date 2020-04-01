@@ -70,7 +70,7 @@
       Prerequisite::text 
         Dragon Magic
       Effect::text
-        Once per day, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
+        Once per long rest, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
 
     Pure Chaos::section.feat
       Prerequisite::text
@@ -111,7 +111,7 @@
       Prerequisite::text
         Prereq: Any other metamagic feat
       Effect::text
-        Twice per day when you cast a spell with a duration, double the duration.
+        Twice per long rest when you cast a spell with a duration, double the duration.
 
     Enlarge Spell::section.feat
       Metamagic
@@ -125,7 +125,7 @@
       Prerequisite::text
         Prereq: Any other metamagic feat
       Effect::text
-        Twice per day when you cast a spell with an area, increase the dimensions of the area by 50%
+        Twice per long rest when you cast a spell with an area, increase the dimensions of the area by 50%
 
     Reach Spell::section.feat
       Metamagic
@@ -145,7 +145,7 @@
       Prerequisite::text
         Prereq: Any other metamagic feat
       Effect::text
-        Twice per day, Increase the range category of a spell.
+        Twice per long rest, Increase the range category of a spell.
         
         Touch -> Short
         
@@ -165,7 +165,7 @@
       Prerequisite::text
         Prereq: Any other metamagic feat
       Effect::text
-        Four times per day, your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
+        Four times per long rest, your spell always fully affects incorporeal/ethereal creatures, but corporeal creatures now have a 50% chance to not be affected.
 
     Mental Spell::section.feat
       Metamagic
@@ -179,7 +179,7 @@
       Prerequisite::text
         Prereq: Any other metamagic feat
       Effect::text
-        Twice per day, cast a spell without needing to supply verbal, somatic, or low cost material components.
+        Twice per long rest, cast a spell without needing to supply verbal, somatic, or low cost material components.
 
     Flash Frost Spell::section.feat
       Metamagic
@@ -220,7 +220,7 @@
       Prerequisite::text
         Any other metamagic feat
       Effect::text
-        Twice per day, you can change the area of a spell that has an area to be one of the following: 120-foot line, 20-foot radius sphere, 60-foot cone, two 5-foot cylinders.
+        Twice per long rest, you can change the area of a spell that has an area to be one of the following: 120-foot line, 20-foot radius sphere, 60-foot cone, two 5-foot cylinders.
 
         If the area of the spell is originally 2-dimensional, instead use line, circle, triangle, and square.
 
@@ -236,7 +236,7 @@
       Prerequisite::text
         Any other metamagic feat
       Effect::text
-        Once per day, damage and healing of spell increased by 50%.
+        Once per long rest, damage and healing of spell increased by 50%.
 
     Split Ray::section.feat
       Metamagic
@@ -250,7 +250,7 @@
       Prerequisite::text
         Any other metamagic feat
       Effect::text
-        Once per day, add 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
+        Once per long rest, add 1 ray to a ray spell, must be aimed at targets within 30ft. of each other.
 
     Twin Cast::section.feat
       Metamagic
@@ -264,7 +264,7 @@
       Prerequisite::text
         Prereq: Any other metamagic feat
       Effect::text
-        Can only be used on spells that can only affect a single target. Once per day, you cast the spell a second time on a different target.
+        Can only be used on spells that can only affect a single target. Once per long rest, you cast the spell a second time on a different target.
 
     Repeated Spell::section.feat
       Metamagic
@@ -285,7 +285,7 @@
       Prerequisite::text
         Prereq: Any 3 other metamagic feats
       Effect::text
-        Twice per day, lower the level adjustment of a metamagic. Only usable once per spell cast.
+        Twice per long rest, lower the level adjustment of a metamagic. Only usable once per spell cast.
 
 
     Fiery Burst::section.feat

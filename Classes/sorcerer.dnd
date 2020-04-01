@@ -23,7 +23,7 @@
         6th   | 7 | 4 | 2 | 2 | — 
         7th   | 7 | 5 | 3 | 2 | 1 
         8th   | 8 | 5 | 3 | 2 | 2 
-    Sorcerer Spells Per Day::table
+    Sorcerer Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4 
       ::row

@@ -4,7 +4,7 @@
 
     Extra Turning::section.feat
       Effect::text
-        You can turn the undead 4 more times per day.
+        You can turn the undead 4 more times per long rest.
       Special::text
         You can take this feat more than once. Its effects stack.
 

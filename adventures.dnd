@@ -1,8 +1,18 @@
 Adventures::chapter
   Resting::section
-    You heal your level in hit points each night of rest.
+    ::text
+      You heal your level in hit points each night of rest.
 
-    A long rest is a week in your house, inn, stronghold, etc.
+      A long rest is a week in your house, inn, stronghold, etc.
 
-    After any period of downtime (which are measured in seasons), it is assumed the character
-    has long rested.
+      After any period of downtime (which are measured in seasons), it is assumed the character
+      has long rested.
+
+      Anything that refers to "per day" or a daily basis is a mistake and should be per long rest.
+
+    Spells and Resting::text
+      As described in their class sections, casters regain their expended spells after completing a long rest.
+
+      Casters who prepare their spells (clerics, druids, wizards) can swap out their unexpended prepared spells for a spell of the same level each day. Wizards need 8 full hours of sleep (4 for elves) and an hour of study. Clerics and druids have to pray at the right time (usually dawn).
+
+

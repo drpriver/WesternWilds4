@@ -30,7 +30,7 @@
 
     Extra Music ::section.feat
       Effect::text
-        4 additional uses of bardic music per day
+        4 additional uses of bardic music per long rest
 
     Swift Song ::section.feat
       Effect::text

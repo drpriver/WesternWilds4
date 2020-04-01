@@ -12,7 +12,7 @@
         7th | +7/+2 | +3 | +3 | +5 |
         8th | +8/+3 | +4 | +4 | +6 | Bonus fighter feat
 
-    Fighter/Sorcerer Spells Per Day::table
+    Fighter/Sorcerer Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4 
       ::row
@@ -24,7 +24,7 @@
         6th   | 6 | 7 | 7 | 4 | — 
         7th   | 6 | 7 | 7 | 5 | 3 
         8th   | 6 | 7 | 7 | 6 | 4 
-    Armored Fighter/Sorcerer Spells Per Day::table
+    Armored Fighter/Sorcerer Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -51,7 +51,7 @@
       At 1st level and every even level, the fighter/sorcerer gets a bonus fighter feat.
 
     Spells::text
-      The fighter/sorcerer casts, and learns spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Fighter/Sorcerer spells per day table (or the armored fighter/sorcerer spells per day table). He uses the sorcerer spells known table.
+      The fighter/sorcerer casts, and learns spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Fighter/Sorcerer spells per long rest table (or the armored fighter/sorcerer spells per long rest table). He uses the sorcerer spells known table.
 
     Bonus Sorcerer Feat::text
       At 5th level, the fighter/sorcerer gets a bonus sorcerer feat.

@@ -11,7 +11,7 @@
         6th | +4    | +3 | +3 | +3 |  
         7th | +5    | +3 | +3 | +3 | Sneak attack +4d6
         8th | +6/+1 | +4 | +4 | +4 | 
-    Cleric/Thief Spells Per Day::table
+    Cleric/Thief Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
@@ -37,7 +37,7 @@
     Turn Undead::text
       This functions just like the cleric ability.
     Spells::text
-      The cleric/thief prepares and casts spells in the same manner a cleric does. See the cleric for full information. However use the Cleric/Thief spells per day table.
+      The cleric/thief prepares and casts spells in the same manner a cleric does. See the cleric for full information. However use the Cleric/Thief spells per long rest table.
 
       A cleric/thief must worship a deity, has the same alignment restrictions and picks two domains at 1st level just like a cleric.
 

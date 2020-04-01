@@ -161,7 +161,7 @@
 
     Natural Magic::section.feat
       Effect::text
-        Gain one level one spell per day. Prepare from the druid list. You get an additional spell per day at levels 4 and 7.
+        Gain one level one spell per long rest. Prepare from the druid list. You get an additional spell per long rest at levels 4 and 7.
 
     Shot on the run::section.feat
       Effect::text

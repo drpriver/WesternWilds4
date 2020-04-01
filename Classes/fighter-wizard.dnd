@@ -12,7 +12,7 @@
         7th | +7/+2 | +3 | +3 | +5 |
         8th | +8/+3 | +4 | +4 | +6 | Bonus fighter feat
 
-    Fighter/Wizard Spells Per Day::table
+    Fighter/Wizard Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -24,7 +24,7 @@
         6th   | 4 | 4 | 4 | 2 | —
         7th   | 4 | 5 | 4 | 2 | 1
         8th   | 4 | 5 | 4 | 3 | 2
-    Armored Fighter/Wizard Spells Per Day::table
+    Armored Fighter/Wizard Spells Per Long Rest::table
       ::head
         Level | 0 | 1 | 2 | 3 | 4
       ::row
@@ -52,7 +52,7 @@
       At 1st level and every even level, the fighter/wizard gets a bonus fighter feat.
 
     Spells and Spellbook::text
-      The fighter/wizard prepares, casts, and learns spells in the same manner a wizard does. See the wizard for full information. However use the Fighter/Wizard spells per day table (or the armored fighter/wizard spells per day table).
+      The fighter/wizard prepares, casts, and learns spells in the same manner a wizard does. See the wizard for full information. However use the Fighter/Wizard spells per long rest table (or the armored fighter/wizard spells per long rest table).
 
     Bonus Wizard Feat::text
       At 5th level, the fighter/wizard gets a bonus wizard feat.
