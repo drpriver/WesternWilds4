@@ -2,6 +2,7 @@
 let rules;
 let weapons;
 let armor;
+let gear;
 function onload(){
     {
     const chapters = document.getElementsByClassName("chapter");
@@ -15,17 +16,15 @@ function onload(){
     rules = document.getElementsByClassName("center")[0];
     }
 
-    function make_table_view(keys){
+    function make_table_view(section){
         const d = document.createElement("div");
         d.className = "center";
-        for(let key of keys){
-            const table = data_blob[key];
-            d.innerHTML += table;
-        }
+        d.innerHTML += section;
         return d;
     }
-    weapons = make_table_view(["Simple Melee Weapons", "Simple Ranged Weapons", "Martial Melee Weapons", "Martial Ranged Weapons", "Exotic Melee Weapons", "Ammunition"]);
-    armor = make_table_view(["Light Armor", "Medium Armor", "Heavy Armor", "Shields"])
+    weapons = make_table_view(data_blob["Weapon Tables"]);
+    armor = make_table_view(data_blob["Armor Tables"]);
+    gear = make_table_view(data_blob["Gear Tables"]);
     function restorify(el){
         const links = el.getElementsByTagName("a");
         function restore(){
@@ -37,12 +36,14 @@ function onload(){
     }
     restorify(document);
     restorify(weapons);
+    restorify(gear);
     {
-    const button_names = ["Rules", "Weapon Table", "Armor Table"];
+    const button_names = ["Rules", "Weapon", "Armor", "Gear"];
     const button_funcs = [
         function(){document.getElementsByClassName("center")[0].replaceWith(rules);},
         function(){document.getElementsByClassName("center")[0].replaceWith(weapons);},
         function(){document.getElementsByClassName("center")[0].replaceWith(armor);},
+        function(){document.getElementsByClassName("center")[0].replaceWith(gear);},
     ];
     const top = document.getElementsByClassName("top")[0];
     for(let i = 0; i < button_names.length;i++){

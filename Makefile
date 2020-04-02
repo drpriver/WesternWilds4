@@ -127,6 +127,7 @@ EQUIPMENT=equipment.dnd\
 	  Weapons/warhammer.dnd\
 	  Weapons/whip.dnd\
 	  armor.dnd\
+	  gear.dnd\
 
 ALL=basics.dnd\
     $(addprefix Races/,$(RACES))\

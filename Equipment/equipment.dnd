@@ -1,7 +1,17 @@
 Equipment::chapter
   Encumbrance::section
     ::text
-      You can carry your strength score in slots without being encumbered
+      You can carry your strength score in slots without being encumbered.
+
+      See the [backpack] for an easy way to carry more. Without a backpack, a character is limited to just what they can wear and carry in their arms. Something like a basket enables you to carry more in your arms. The drawback of the backpack is it is slow to retrieve items from it.
+
+      A [sack] allows a character to carry more than 200 coins. Without a sack, they are limited to 200 coins. You can fill a large sack with stuff and sling it over your shoulder, but this requires you to hold onto it and there is no weight distribution advantage like with the backpack.
+
+      A [weapon sheath] allows them to carry a 1-handed weapon on their belt or two light weapons. A [holster] lets them carry a pistol as well. You can have at most two weapons on your belt.
+
+      A [belt pouch] allows you to carry small items on your waist. You can have two belt pouches, typically with a potion or scroll or whatever.
+
+      A [bandolier] goes across the chest and has two pouches. Additionally, a pistol can be holstered on it. A bandolier cannot be worn with medium or heavy armor.
 
     Heavily Encumbered::section
       ::text

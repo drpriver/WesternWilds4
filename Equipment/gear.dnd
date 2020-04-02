@@ -1,0 +1,118 @@
+  ::data
+    section
+    Gear Tables::section
+      Adventuring Gear::table.equipment
+        ::head
+          Good | Cost | Slots
+        ::row
+          [Backpack] (empty)    |  2 gp |  -
+          [Bandolier]           |  5gp  |  -
+          Barrel (empty)        |  2 gp |  6
+          Basket (empty)        |  4 sp |  -
+          [Bedroll]             |  1 gp |  1
+          Bell                  |  1 gp |  —
+          [Belt Pouch]          |  1 gp |  -
+          Block and tackle      |  5 gp |  1
+          Bucket (empty)        |  5 sp |  1/2
+          [Bullseye Lantern]    | 12 gp |  1/2
+          Caltrops              |  1 gp |  1/2
+          [Candle]              |  1 cp |  —
+          [Case], map or scroll |  1 gp |  -
+          Chain (10 ft.)        | 30 gp |  1/2
+          Chalk, 1 piece        |  1 cp |  —
+          Chest (empty)         |  2 gp |  5
+          [Crowbar]             |  2 gp |  1
+          Firewood (per day)    |  1 cp |  4
+          Fishhook              |  1 sp |  —
+          Fishing net           |  4 gp |  1
+          Flask (empty)         |  3 cp |  1/10
+          Flint and steel       |  1 gp |  —
+          Grappling hook        |  1 gp |  1
+          Hammer                |  5 sp |  1/3
+          [Holster]             |  5gp  |  -
+          Heavy Blanket         |  5 sp |  1
+          [Hooded Lantern]      |  7 gp |  1/2
+          Ink (1 oz. vial)      |  8 gp |  —
+          Inkpen                |  1 sp |  —
+          Jug, clay             |  3 cp |  1
+          Ladder, 10-foot       |  5 cp |  4
+          [Lamp]                |  1 sp |  1/2
+          Lock                  | 50 gp |  -
+          Manacles              | 15 gp |  1/2
+          Mirror, small steel   | 10 gp |  -
+          Mug/Tankard, clay     |  2 cp |  -
+          Oil (1-pint flask)    |  1 sp |  1/10
+          Paper (sheet)         |  4 sp |  —
+          Parchment (sheet)     |  2 sp |  —
+          Pick, miner’s         |  3 gp |  2
+          Pitcher, clay         |  2 cp |  1
+          Piton  (20)           |  1 sp |  1
+          Pole, 10-foot         |  2 sp |  2
+          Pot, iron             |  5 sp |  2
+          Ram, portable         | 10 gp |  4
+          Rope, hempen (50 ft.) |  1 gp |  2
+          Rope, silk (50 ft.)   | 10 gp |  1
+          [Sack] (empty)        |  1 sp |  1/10
+          Sealing wax           |  1 gp |  -
+          Sewing needle         |  5 sp |  —
+          Signal whistle        |  8 sp |  —
+          Signet ring           |  5 gp |  —
+          Sledge                |  1 gp |  2
+          Spade or shovel       |  2 gp |  2
+          Spyglass              | 1,000 gp | -
+          Tent                  | 10 gp |  2
+          [Torch] (10)          |  1 sp |  1
+          Vial, ink or potion   |  1 gp |  1/10 lb.
+          Waterskin (full)      |  1 gp |  1
+          [Weapon Sheath]       |  5gp  |  -
+    Gear Descriptions::section
+      ::text
+        Most of these just do what they do in real life, but some need specific clarification
+      Backpack::text
+        Without a backpack, a character is limited to just what they can carry in their arms and can wear.
+
+        Additionally, a character with a backpack can carry an additional 5 slots of gear due to the improvement in weight distribution. 
+        However, drawing an item from your backpack is a full-round action that provokes an attack of opportunity. As a character's hands are usually accounted for, almost all items in a character's inventory are assumed to be in their backpack.
+
+      Bandolier::text
+        A bandolier goes across the chest and has two pouches. Additionally, a pistol can be holstered on it. A bandolier cannot be worn with medium or heavy armor. Normally, a character can only wear one bandolier.
+
+      Bedroll::text
+        A character who sleeps in the wilderness without a bedroll suffers (see [Sleeping in the Wilderness]).
+
+      Belt Pouch::text
+        A belt pouch can carry a small item, a potion or 100coins. You can have two belt pouches without penalty.
+
+      Bullseye Lantern::text
+        A bullseye lantern provides clear illumination in a 60-foot cone and shadowy illumination in a 120-foot cone. It burns for 6 hours on a pint of oil. You can carry a bullseye lantern in one hand.
+
+      Candle::text
+        A candle dimly illuminates a 5-foot radius and burns for 1 hour.
+
+      Case::text
+        A map/scroll case is waterproof and reasonably fireproof. Without one, scrolls are 10% chance to be ruined for every round immersed in water and stowed maps/scrolls are 10% to be ruined whenever the character is exposed to fire damage (like a fireball spell).
+
+      Crowbar::text
+        A crowbar is necessary to open some containers or get the proper grip/leverage.
+
+        Any useful application of a crowbar adds +2 to the roll.
+
+      Hooded Lantern::text
+        A hooded lantern clearly illuminates a 30-foot radius and provides shadowy illumination in a 60-foot radius. It burns for 6 hours on a pint of oil. You can carry a hooded lantern in one hand.
+
+      Lamp::text
+        A lamp clearly illuminates a 15-foot radius, provides shadowy illumination out to a 30-foot radius, and burns for 6 hours on a pint of oil. You can carry a lamp in one hand.
+
+        A lamp in a character's hand is AC 15 and has 1 hit point.
+
+      Sack::text
+        You can put stuff in a sack. Without a sack, a character can only carry 200 coins. You can fill a large sack with stuff and sling it over your shoulder, but this requires you to hold onto it and there is no weight distribution advantage like with the backpack.
+
+      Torch::text
+        A torch burns for 1 hour, clearly illuminating a 20-foot radius and providing shadowy illumination out to a 40-foot radius. If a torch is used in combat, treat it as a simple weapon that deals 1d4 fire damage (no strength bonus to damage).
+
+      Weapon Sheath::text
+        A character can have one one-handed weapon sheathed on their belt or two light weapons. Having more than that gives them penalties.
+
+
+
