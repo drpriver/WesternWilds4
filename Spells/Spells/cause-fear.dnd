@@ -1,0 +1,18 @@
+
+  Cause Fear::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 1, [Cleric] 1, [Sorcerer] 1, [Wizard] 1
+        Components:       | V,S
+        Casting Time:     | 1 standard action
+        Range:            | Close(25' + 5' per two levels)
+        Targets:          | One living creature with 5 or fewer hit dice
+        Duration:         | 1d4 rounds
+        Saving Throw:     | Will negates
+        Tags:             | Fear
+    ::text
+      The affected creature becomes [frightened]. Creatures with 6 or more Hit Dice are immune to this effect.
+
+
