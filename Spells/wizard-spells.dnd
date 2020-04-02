@@ -3,173 +3,173 @@
       ::head
         |
       ::row
-        Acid Splash|Orb deals 1d3 acid damage.
-        Detect Poison|Detects poison in one creature or small object.
-        Detect Magic|Detects spells and magic items within 60 ft.
-        Read Magic|Read scrolls and spellbooks.
-        Daze|Humanoid creature of 4 HD or less loses next action.
-        Dancing Lights|Creates torches or other lights.
-        Flare|Dazzles one creature (-1 on attack rolls).
-        Light|Object shines like a torch.
-        Ray of Frost|Ray deals 1d3 cold damage.
-        Ghost Sound|Figment sounds.
-        Disrupt Undead|Deals 1d6 damage to one undead.
-        Mage Hand|5-pound telekinesis.
-        Message|Whispered conversation at distance.
-        Open/Close|Opens or closes small or light things.
-        Arcane Mark|Inscribes a personal rune (visible or invisible).
-        Prestidigitation|Performs minor tricks.
+        [Acid Splash]      | Orb deals 1d3 acid damage.
+        [Detect Poison]    | Detects poison in one creature or small object.
+        [Detect Magic]     | Detects spells and magic items within 60 ft.
+        [Read Magic]       | Read scrolls and spellbooks.
+        [Daze]             | Humanoid creature of 4 HD or less loses next action.
+        [Dancing Lights]   | Creates torches or other lights.
+        [Flare]            | Dazzles one creature (-1 on attack rolls).
+        [Light]            | Object shines like a torch.
+        [Ray of Frost]     | Ray deals 1d3 cold damage.
+        [Ghost Sound]      | Figment sounds.
+        [Disrupt Undead]   | Deals 1d6 damage to one undead.
+        [Mage Hand]        | 5-pound telekinesis.
+        [Message]          | Whispered conversation at distance.
+        [Open/Close]       | Opens or closes small or light things.
+        [Arcane Mark]      | Inscribes a personal rune (visible or invisible).
+        [Prestidigitation] | Performs minor tricks.
     1st-level Wizard spells::table.spell_list
       ::head
         |
       ::row
-        Alarm|Wards an area for 2 hours/level.
-        Animate Rope|Makes a rope move at your command.
-        Burning Hands|1d4/level fire damage (max 5d4).
-        Cause Fear|One creature of 5 HD or less flees for 1d4 rounds.
-        Charm Person|Makes one person your friend.
-        Chill Touch|One touch/level deals 1d6 damage and possibly 1 Str damage.
-        Color Spray|Knocks unconscious, blinds, and/or stuns weak creatures.
-        Comprehend Languages|You understand all spoken and written languages.
-        Detect Secret Doors|Reveals hidden doors within 60 ft.
-        Detect Undead|Reveals undead within 60 ft.
-        Disguise Self|Changes your appearance.
-        Enlarge Person|Humanoid creature doubles in size.
-        Erase|Mundane or magical writing vanishes.
-        Expeditious Retreat|Your speed increases by 30 ft.
-        Feather Fall|Objects or creatures fall slowly.
-        Floating Disk|Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.
-        Grease|Makes 10-ft. square or one object slippery.
-        Hold Portal|Holds door shut.
-        Hypnotism|Fascinates 2d4 HD of creatures.
-        Identify|Determines properties of magic item.
-        Jump|Subject gets bonus on Jump checks.
-        Mage Armor|Gives subject +4 armor bonus.
-        Magic Aura|Alters object’s magic aura.
-        Magic Missile|1d4+1 damage; +1 missile per two levels above 1st (max 5).
-        Magic Weapon|Weapon gains +1 bonus.
-        Obscuring Mist|Fog surrounds you.
-        Protection from Chaos/Evil/Good/Law|+2 to AC and saves, counter mind control, hedge out elementals and outsiders.
-        Ray of Enfeeblement|Ray deals 1d6 +1 per two levels Str damage.
-        Reduce Person|Humanoid creature halves in size.
-        Shield|Invisible disc gives +4 to AC, blocks magic missiles.
-        Shocking Grasp|Touch delivers 1d6/level electricity damage (max 5d6).
-        Silent Image|Creates minor illusion of your design.
-        Sleep|Puts 4 HD of creatures into magical slumber.
-        Unseen Servant|Invisible force obeys your commands.
-        Ventriloquism|Throws voice for 1 min./level.
+        [Alarm]                               | Wards an area for 2 hours/level.
+        [Animate Rope]                        | Makes a rope move at your command.
+        [Burning Hands]                       | 1d4/level fire damage (max 5d4).
+        [Cause Fear]                          | One creature of 5 HD or less flees for 1d4 rounds.
+        [Charm Person]                        | Makes one person your friend.
+        [Chill Touch]                         | One touch/level deals 1d6 damage and possibly 1 Str damage.
+        [Color Spray]                         | Knocks unconscious, blinds, and/or stuns weak creatures.
+        [Comprehend Languages]                | You understand all spoken and written languages.
+        [Detect Secret Doors]                 | Reveals hidden doors within 60 ft.
+        [Detect Undead]                       | Reveals undead within 60 ft.
+        [Disguise Self]                       | Changes your appearance.
+        [Enlarge Person]                      | Humanoid creature doubles in size.
+        [Erase]                               | Mundane or magical writing vanishes.
+        [Expeditious Retreat]                 | You and your allies run away.
+        [Feather Fall]                        | Objects or creatures fall slowly.
+        [Floating Disk]                       | Creates 3-ft.-diameter horizontal disk that holds 20 slots/level.
+        [Grease]                              | Makes 10-ft. square or one object slippery.
+        [Hold Portal]                         | Holds door shut.
+        [Hypnotism]                           | Fascinates 2d4 HD of creatures.
+        [Identify]                            | Determines properties of magic item.
+        [Jump]                                | Subject gets bonus on Jump checks.
+        [Mage Armor]                          | Gives subject +4 armor bonus.
+        [Magic Aura]                          | Alters object’s magic aura.
+        [Magic Missile]                       | 1d4+1 damage; +1 missile per two levels above 1st (max 5).
+        [Magic Weapon]                        | Weapon gains +1 bonus.
+        [Obscuring Mist]                      | Fog surrounds you.
+        [Protection from Chaos/Evil/Good/Law] | +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
+        [Ray of Enfeeblement]                 | Ray deals 1d6 +1 per two levels Str damage.
+        [Reduce Person]                       | Humanoid creature halves in size.
+        [Shield]                              | Invisible disc gives +4 to AC, blocks magic missiles.
+        [Shocking Grasp]                      | Touch delivers 1d6/level electricity damage (max 5d6).
+        [Silent Image]                        | Creates minor illusion of your design.
+        [Sleep]                               | Puts 4 HD of creatures into magical slumber.
+        [Unseen Servant]                      | Invisible force obeys your commands.
+        [Ventriloquism]                       | Throws voice for 1 min./level.
     2nd-level Wizard spells::table.spell_list
       ::head
         |
       ::row
-        Acid Arrow|Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
-        Arcane Lock|Magically locks a portal or chest.
-        Bear’s Endurance|Subject gains 19 Con for 10 min./level.
-        Blindness/Deafness|Makes subject blinded or deafened.
-        Blur|Attacks miss subject 20% of the time.
-        Bull’s Strength|Subject gains 19 Str for 10 min./level.
-        Cat’s Grace|Subject gains 19 Dex for 10 min./level.
-        Command Undead|Undead creature obeys your commands.
-        Continual Flame|Makes a permanent, heatless torch.
-        Darkness|20-ft. radius of supernatural shadow.
-        Darkvision|See 60 ft. in total darkness.
-        Daze Monster|Living creature of 6 HD or less loses next action.
-        Eagle’s Splendor|Subject gains 19 Cha for 10 min./level.
-        False Life|Gain 1d10 temporary hp +1/level (max +10).
-        Flaming Sphere|Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
-        Fog Cloud|Fog obscures vision.
-        Fox’s Cunning|Subject gains 19 Int for 10 min./level.
-        Ghoul Touch|Paralyzes one subject, which exudes stench that makes those nearby sickened.
-        Gust of Wind|Blows away or knocks down smaller creatures for 1rd/level.
-        Hideous Laughter|Subject loses actions for 1 round/level.
-        Hypnotic Pattern|Fascinates (2d4 + level) HD of creatures.
-        Invisibility|Subject is invisible for 1 min./level or until it attacks.
-        Knock|Opens locked or magically sealed door.
-        Levitate|Subject moves up and down at your direction.
-        Locate Object|Senses direction toward object (specific or type).
-        Magic Mouth|Speaks once when triggered.
-        Minor Image|As silent image, plus some sound.
-        Mirror Image|Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
-        Misdirection|Misleads divinations for one creature or object.
-        Obscure Object|Masks object against scrying.
-        Owl’s Wisdom|Subject gains 19 Wis for 10 min./level.
-        Phantom Trap|Makes item seem trapped.
-        Protection from Arrows|Subject immune to most ranged attacks.
-        Pyrotechnics|Turns fire into blinding light or choking smoke.
-        Resist Energy|Ignores first 10 (or more) points of damage/attack from specified energy type.
-        Scare|Panics creatures of less than 6 HD.
-        Scorching Ray|Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
-        See Invisibility|Reveals invisible creatures or objects.
-        Shatter|Sonic vibration damages objects or crystalline creatures.
-        Whispering Wind|Sends a short message 1 mile/level.
+        [Acid Arrow]             | Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
+        [Arcane Lock]            | Magically locks a portal or chest.
+        [Bear’s Endurance]       | Subject gains 19 Con for 10 min./level.
+        [Blindness/Deafness]     | Makes subject blinded or deafened.
+        [Blur]                   | Attacks miss subject 20% of the time.
+        [Bull’s Strength]        | Subject gains 19 Str for 10 min./level.
+        [Cat’s Grace]            | Subject gains 19 Dex for 10 min./level.
+        [Command Undead]         | Undead creature obeys your commands.
+        [Continual Flame]        | Makes a permanent, heatless torch.
+        [Darkness]               | 20-ft. radius of supernatural shadow.
+        [Darkvision]             | See 60 ft. in total darkness.
+        [Daze Monster]           | Living creature of 6 HD or less loses next action.
+        [Eagle’s Splendor]       | Subject gains 19 Cha for 10 min./level.
+        [False Life]             | Gain 1d10 temporary hp +1/level (max +10).
+        [Flaming Sphere]         | Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
+        [Fog Cloud]              | Fog obscures vision.
+        [Fox’s Cunning]          | Subject gains 19 Int for 10 min./level.
+        [Ghoul Touch]            | Paralyzes one subject, which exudes stench that makes those nearby sickened.
+        [Gust of Wind]           | Blows away or knocks down smaller creatures for 1rd/level.
+        [Hideous Laughter]       | Subject loses actions for 1 round/level.
+        [Hypnotic Pattern]       | Fascinates (2d4 + level) HD of creatures.
+        [Invisibility]           | Subject is invisible for 1 min./level or until it attacks.
+        [Knock]                  | Opens locked or magically sealed door.
+        [Levitate]               | Subject moves up and down at your direction.
+        [Locate Object]          | Senses direction toward object (specific or type).
+        [Magic Mouth]            | Speaks once when triggered.
+        [Minor Image]            | As silent image, plus some sound.
+        [Mirror Image]           | Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
+        [Misdirection]           | Misleads divinations for one creature or object.
+        [Obscure Object]         | Masks object against scrying.
+        [Owl’s Wisdom]           | Subject gains 19 Wis for 10 min./level.
+        [Phantom Trap]           | Makes item seem trapped.
+        [Protection from Arrows] | Subject immune to most ranged attacks.
+        [Pyrotechnics]           | Turns fire into blinding light or choking smoke.
+        [Resist Energy]          | Ignores first 10 (or more) points of damage/attack from specified energy type.
+        [Scare]                  | Panics creatures of less than 6 HD.
+        [Scorching Ray]          | Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
+        [See Invisibility]       | Reveals invisible creatures or objects.
+        [Shatter]                | Sonic vibration damages objects or crystalline creatures.
+        [Whispering Wind]        | Sends a short message 1 mile/level.
     3rd-level Wizard spells::table.spell_list
       ::head
         |
       ::row
-        Arcane Sight|Magical auras become visible to you.
-        Blink|You randomly vanish and reappear for 1 round/level.
-        Daylight|60-ft. radius of bright light.
-        Deep Slumber|Puts 10 HD of creatures to sleep.
-        Dispel Magic|Cancels magical spells and effects.
-        Displacement|Attacks miss subject 50%.
-        Explosive Runes|Deals 6d6 damage when read.
-        Fireball|1d6 damage per level, 20-ft. radius.
-        Flame Arrow|Arrows deal +1d6 fire damage.
-        Fly|Subject flies at speed of 60 ft.
-        Gaseous Form|Subject becomes insubstantial and can fly slowly.
-        Gentle Repose|Preserves one corpse.
-        Halt Undead|Immobilizes undead for 1 round/level.
-        Haste|One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
-        Heroism|Gives +2 bonus on attack rolls, saves, skill checks.
-        Hold Person|Paralyzes one humanoid for 1 round/level.
-        Illusory Script|Only intended reader can decipher.
-        Invisibility Sphere|Makes everyone within 10 ft. invisible.
-        Lightning Bolt|Electricity deals 1d6/level damage.
-        Magic Circle against Chaos/Evil/Good/Law|As protection spells, but 10-ft. radius and 10 min./level.
-        Major Image|As silent image, plus sound, smell and thermal effects.
-        Nondetection|Hides subject from divination, scrying.
-        Rage|Subjects gains +2 to Str and Con, +1 on Will saves, -2 to AC.
-        Secret Page|Changes one page to hide its real content.
-        Sepia Snake Sigil|Creates text symbol that immobilizes reader.
-        Shrink Item|Object shrinks to one-sixteenth size.
-        Sleet Storm|Hampers vision and movement.
-        Slow|One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.
-        Suggestion|Compels subject to follow stated course of action.
-        Tongues|Speak any language.
-        Vampiric Touch|Touch deals 1d6/two levels damage; caster gains damage as hp.
-        Water Breathing|Subjects can breathe underwater.
-        Web|Fills 20-ft.-radius spread with sticky spiderwebs.
-        Wind Wall|Deflects arrows, smaller creatures, and gases.
+        [Arcane Sight]                             | Magical auras become visible to you.
+        [Blink]                                    | You randomly vanish and reappear for 1 round/level.
+        [Daylight]                                 | 60-ft. radius of bright light.
+        [Deep Slumber]                             | Puts 10 HD of creatures to sleep.
+        [Dispel Magic]                             | Cancels magical spells and effects.
+        [Displacement]                             | Attacks miss subject 50%.
+        [Explosive Runes]                          | Deals 6d6 damage when read.
+        [Fireball]                                 | 1d6 damage per level, 20-ft. radius.
+        [Flame Arrow]                              | Arrows deal +1d6 fire damage.
+        [Fly]                                      | Subject flies at speed of 60 ft.
+        [Gaseous Form]                             | Subject becomes insubstantial and can fly slowly.
+        [Gentle Repose]                            | Preserves one corpse.
+        [Halt Undead]                              | Immobilizes undead for 1 round/level.
+        [Haste]                                    | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
+        [Heroism]                                  | Gives +2 bonus on attack rolls, saves, skill checks.
+        [Hold Person]                              | Paralyzes one humanoid for 1 round/level.
+        [Illusory Script]                          | Only intended reader can decipher.
+        [Invisibility Sphere]                      | Makes everyone within 10 ft. invisible.
+        [Lightning Bolt]                           | Electricity deals 1d6/level damage.
+        [Magic Circle against Chaos/Evil/Good/Law] | As protection spells, but 10-ft. radius and 10 min./level.
+        [Major Image]                              | As silent image, plus sound, smell and thermal effects.
+        [Nondetection]                             | Hides subject from divination, scrying.
+        [Rage]                                     | Subjects gains +2 to Str and Con, +1 on Will saves, -2 to AC.
+        [Secret Page]                              | Changes one page to hide its real content.
+        [Sepia Snake Sigil]                        | Creates text symbol that immobilizes reader.
+        [Shrink Item]                              | Object shrinks to one-sixteenth size.
+        [Sleet Storm]                              | Hampers vision and movement.
+        [Slow]                                     | One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.
+        [Suggestion]                               | Compels subject to follow stated course of action.
+        [Tongues]                                  | Speak any language.
+        [Vampiric Touch]                           | Touch deals 1d6/two levels damage; caster gains damage as hp.
+        [Water Breathing]                          | Subjects can breathe underwater.
+        [Web]                                      | Fills 20-ft.-radius spread with sticky spiderwebs.
+        [Wind Wall]                                | Deflects arrows, smaller creatures, and gases.
     4th-level Wizard spells::table.spell_list
       ::head
         |
       ::row
-        Arcane Eye|Invisible floating eye moves 30 ft./round.
-        Bestow Curse|-6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.
-        Charm Monster|Makes monster believe it is your ally.
-        Confusion|Subjects behave oddly for 1 round/level.
-        Contagion|Infects subject with chosen disease.
-        Crushing Despair|Subjects take -2 on attack rolls, damage rolls, saves, and checks.
-        Dimension Door|Teleports you short distance.
-        Dimensional Anchor|Bars extradimensional movement.
-        Enervation|Subject gains 1d4 negative levels.
-        Fear|Subjects within cone flee for 1 round/level.
-        Fire Shield|Creatures attacking you take fire damage; you’re protected from heat or cold.
-        Fire Trap|Opened object deals 1d4 damage +1/level.
-        Geas, Lesser|Commands subject of 7 HD or less.
-        Globe of Invulnerability, Lesser|Stops 1st- through 3rd-level spell effects.
-        Hallucinatory Terrain|Makes one type of terrain appear like another (field into forest, or the like).
-        Ice Storm|Hail deals 5d6 damage in cylinder 40 ft. across.
-        Illusory Wall|Wall, floor, or ceiling looks real, but anything can pass through.
-        Invisibility, Greater|As invisibility, but subject can attack and stay invisible.
-        Locate Creature|Indicates direction to familiar creature.
-        Phantasmal Killer|Fearsome illusion kills subject or deals 3d6 damage.
-        Rainbow Pattern|Lights fascinate 24 HD of creatures.
-        Remove Curse|Frees object or person from curse.
-        Resilient Sphere|Force globe protects but traps one subject.
-        Shout|Deafens all within cone and deals 5d6 sonic damage.
-        Stinking Cloud|Nauseating vapors, 1 round/level.
-        Stone Shape|Sculpts stone into any shape.
-        Stoneskin M|Ignore 10 points of damage per attack.
-        Wall of Fire|Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
-        Wall of Ice|Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.
+        [Arcane Eye]                       | Invisible floating eye moves 30 ft./round.
+        [Bestow Curse]                     | -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.
+        [Charm Monster]                    | Makes monster believe it is your ally.
+        [Confusion]                        | Subjects behave oddly for 1 round/level.
+        [Contagion]                        | Infects subject with chosen disease.
+        [Crushing Despair]                 | Subjects take -2 on attack rolls, damage rolls, saves, and checks.
+        [Dimension Door]                   | Teleports you short distance.
+        [Dimensional Anchor]               | Bars extradimensional movement.
+        [Enervation]                       | Subject gains 1d4 negative levels.
+        [Fear]                             | Subjects within cone flee for 1 round/level.
+        [Fire Shield]                      | Creatures attacking you take fire damage; you’re protected from heat or cold.
+        [Fire Trap]                        | Opened object deals 1d4 damage +1/level.
+        [Geas, Lesser]                     | Commands subject of 7 HD or less.
+        [Globe of Invulnerability, Lesser] | Stops 1st- through 3rd-level spell effects.
+        [Hallucinatory Terrain]            | Makes one type of terrain appear like another (field into forest, or the like).
+        [Ice Storm]                        | Hail deals 5d6 damage in cylinder 40 ft. across.
+        [Illusory Wall]                    | Wall, floor, or ceiling looks real, but anything can pass through.
+        [Invisibility, Greater]            | As invisibility, but subject can attack and stay invisible.
+        [Locate Creature]                  | Indicates direction to familiar creature.
+        [Phantasmal Killer]                | Fearsome illusion kills subject or deals 3d6 damage.
+        [Rainbow Pattern]                  | Lights fascinate 24 HD of creatures.
+        [Remove Curse]                     | Frees object or person from curse.
+        [Resilient Sphere]                 | Force globe protects but traps one subject.
+        [Shout]                            | Deafens all within cone and deals 5d6 sonic damage.
+        [Stinking Cloud]                   | Nauseating vapors, 1 round/level.
+        [Stone Shape]                      | Sculpts stone into any shape.
+        [Stoneskin M]                      | Ignore 10 points of damage per attack.
+        [Wall of Fire]                     | Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
+        [Wall of Ice]                      | Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.

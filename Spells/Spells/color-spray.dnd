@@ -1,0 +1,31 @@
+
+  Color Spray::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Sorcerer] 1, [Wizard] 1
+        Components:       | V, S, M (A pinch each of powder or sand that is colored red, yellow, and blue)
+        Casting Time:     | 1 standard action
+        Area:             | 15' cone
+        Duration:         | see text
+        Saving Throw:     | Will negates
+        Tags:             | Mind-affecting
+    ::section
+      ::text
+        A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, or blinded, and or unconscious.
+
+        Sightless creatures are not affected by color spray.
+
+        Each creature within the cone is affected according to its Hit Dice relative to the caster's level.
+
+      ::table
+        ::head
+          |
+        ::row
+          Hit Dice ≤ caster's   | struck unconscious for 2d4 rounds
+          Hit Dice ≤ caster's+2 | blinded 1d4 rounds
+          Hit Dice ≥ caster's+3 | stunned for 1 round
+
+
+

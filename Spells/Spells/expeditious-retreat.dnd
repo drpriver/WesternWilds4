@@ -1,0 +1,13 @@
+
+  Expeditious Retreat::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 1, [Sorcerer] 1, [Wizard] 1
+        Components:       | V,S
+        Casting Time:     | 1 standard action
+        Targets:          | You and up to 3 allies/level
+        Duration:         | 1 minute
+    ::text
+      This spell enables you and your allies to travel 30' per round faster, but only away from a battle or confrontation. See the rules for [running away]. In theater of the mind, this spell effectively let's you and your allies get away from a battle, as long as no one is like in a t-rex's jaws or something.

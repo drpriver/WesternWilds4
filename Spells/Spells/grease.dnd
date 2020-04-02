@@ -1,0 +1,28 @@
+
+  Grease::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 1, [Sorcerer] 1, [Wizard] 1
+        Components:       | V, S, M (a bit of pork rind or butter)
+        Casting Time:     | 1 standard action
+        Range:            | Close (25 ft. + 5 ft./2 levels)
+        Targets:          | One object or a 10-ft. square
+        Duration:         | 1rd / level (D)
+        Saving Throw:     | Reflex
+    ::text
+      A grease spell covers a solid surface with a layer of slippery grease.
+      Any creature in the area when the spell is cast must make a successful Reflex save or fall.
+
+      A creature that enters the grease must also make a succesful reflex save or fall, sliding through the grease to the other side and ending their movement there prone (or farther away if they are charging, the grease is on a slide, etc.).
+
+      Any creature who is standing at the beginning of your turn each round must save again or fall prone in the grease.
+
+      The spell can alternatively be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while an object wielded or employed by a creature allows the creature to make a Reflex saving throw to avoid the effect.
+
+      If the initial saving throw fails, the creature immediately drops the item.
+
+      A saving throw must be made in each round that the creature attempts to pick up or use the greased item.
+
+      A creature wearing greased armor or clothing gains a +10 circumstance bonus on Escape Artist checks and on grapple checks made to resist or escape a grapple or to escape a pin.
