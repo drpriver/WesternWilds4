@@ -3,36 +3,36 @@
     Armor Tables::section
       Light Armor::table.equipment
         ::head
-          Armor           | Price | AC | Max Dex | Skill Penalty | Speed | Slots | Drown
+          Armor           | Price | AC | Max Dex | Skill Penalty | Speed | Slots | Drown
         ::row
-          Padded Armor    | 5gp   | +1 | ∞       |   0           | x1    | 0     | No
+          Padded Armor    | 5gp   | +1 | ∞       |   0           | x1    | 0     | No
           Leather         | 25gp  | +2 |    +6   |   0           | x1    | 1     | Maybe
-          Studded Leather | 50gp  | +3 |    +5   |   -1          | x1    | 2     | Maybe
+          Studded Leather | 50gp  | +3 |    +5   |   -1          | x1    | 2     | Maybe
           Chain Shirt     | 250gp | +4 |    +4   |   -3          | x1    | 2     | Yes
       Medium Armor::table.equipment
         ::head
-          Armor           | Price | AC | Max Dex | Skill Penalty | Speed | Slots | Drown
+          Armor           | Price | AC | Max Dex | Skill Penalty | Speed | Slots | Drown
         ::row
           Hide            |  15gp | +4 |     +4  |       -3      |  x⅔    |  2 | Maybe
-          Scale mail      |  50gp | +4 |     +3  |       -4      |  x⅔    |  2 | Yes
-          Chain mail      | 150gp | +5 |     +2  |       -5      |  x⅔    |  3 | Yes
+          Scale mail      |  50gp | +4 |     +3  |       -4      |  x⅔    |  2 | Yes
+          Chain mail      | 150gp | +5 |     +2  |       -5      |  x⅔    |  3 | Yes
           Breastplate     | 400gp | +5 |     +3  |       -4      |  x⅔    |  3 | Yes
       Heavy Armor::table.equipment
         ::head
-          Armor           | Price| AC | Max Dex | Skill Penalty | Speed | Slots | Drown
+          Armor           | Price| AC | Max Dex | Skill Penalty | Speed | Slots | Drown
         ::row
-          Splint mail     |250gp | +6 | +1      |       -7      | x⅔    |  4    | Yes
-          Half plate      |600gp | +7 | +1      |       -7      | x⅔    |  4    | Yes
-          Full plate      |1500gp| +8 | +1      |       -7      | x⅔    |  5    | Yes
+          Splint mail     |250gp | +6 | +1      |       -7      | x⅔    |  4    | Yes
+          Half plate      |600gp | +7 | +1      |       -7      | x⅔    |  4    | Yes
+          Full plate      |1500gp| +8 | +1      |       -7      | x⅔    |  5    | Yes
 
       Shields::table.equipment
         ::head
-          Shield        | Price | AC               | Skill Penalty | Slots
+          Shield        | Price | AC               | Skill Penalty | Slots
         ::row
-          Buckler       | 15gp  | +1 vs melee      |    -0         |  0
-          Wooden Shield | 10gp  | +1               |    -1         |  1
-          Metal Shield  | 25gp  | +2               |    -2         |  2
-          Tower Shield  | 50gp  | +2, +4 vs ranged |    -2         |  2
+          Buckler       | 15gp  | +1 vs melee      |    -0         |  0
+          Wooden Shield | 10gp  | +1               |    -1         |  1
+          Metal Shield  | 25gp  | +2               |    -2         |  2
+          Tower Shield  | 50gp  | +2, +4 vs ranged |    -2         |  2
 
   Armor Rules::section
     Armor Proficiency::text

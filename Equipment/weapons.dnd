@@ -3,77 +3,77 @@
     Weapon Tables::section
       Simple Melee Weapons::table.equipment
         ::head
-          Weapon        | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
+          Weapon        | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
         ::row
-          [Dagger]      | 2 gp  | 1d4 | 19‑20/x2 | 10'       |  .5   | P/S   | Light
+          [Dagger]      | 2 gp  | 1d4 | 19‑20/x2 | 10'       |  .5   | P/S   | Light
           [Club]        |   —   | 1d6 | x2       | 10'       |  1    | B     | 1‑handed
-          [Mace]        | 12 gp | 1d8 | x2       | —         |  1.5  | B     | 1‑handed
-          [Morningstar] | 8 gp  | 1d8 | x2       | —         |  1.5  | B&P   | 1‑handed
-          [Shortspear]  | 1 gp  | 1d6 | x2       | 20'       |  1    | P     | 1‑handed
+          [Mace]        | 12 gp | 1d8 | x2       | —         |  1.5  | B     | 1‑handed
+          [Morningstar] | 8 gp  | 1d8 | x2       | —         |  1.5  | B&P   | 1‑handed
+          [Shortspear]  | 1 gp  | 1d6 | x2       | 20'       |  1    | P     | 1‑handed
           [Quarterstaff]|  —    | 1d6 | x2       | —         |  1    | B     | 1‑handed
-          [Longspear]   | 5 gp  | 1d8 | x3       | —         |  2    | P     | 2‑handed
-          [Spear]       | 2 gp  | 1d8 | x3       | 20'       |  2    | P     | 2‑handed
+          [Longspear]   | 5 gp  | 1d8 | x3       | —         |  2    | P     | 2‑handed
+          [Spear]       | 2 gp  | 1d8 | x3       | 20'       |  2    | P     | 2‑handed
 
       Simple Ranged Weapons::table.equipment
         ::head
-          Weapon           | Cost  | Dmg  | Critical | Range Inc | Slots | DType | Hands
+          Weapon           | Cost  | Dmg  | Critical | Range Inc | Slots | DType | Hands
         ::row
-          [Heavy crossbow] | 50 gp | 1d10 | 19‑20/x2 | 120'      | 3     | P     | 2‑handed
-          [Light crossbow] | 35 gp | 1d8  | 19‑20/x2 | 80'       | 2     | P     | 2‑handed
-          [Javelin]        | 1 gp  | 1d6  | x2       | 30'       | 1/4   | P     | 1‑handed
+          [Heavy crossbow] | 50 gp | 1d10 | 19‑20/x2 | 120'      | 3     | P     | 2‑handed
+          [Light crossbow] | 35 gp | 1d8  | 19‑20/x2 | 80'       | 2     | P     | 2‑handed
+          [Javelin]        | 1 gp  | 1d6  | x2       | 30'       | 1/4   | P     | 1‑handed
           [Sling]          | —     | 1d4  | x2       | 50'       | 0     | B     | 1‑handed
 
       Martial Melee Weapons::table.equipment
         ::head
-          Weapon          | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
+          Weapon          | Cost  | Dmg | Critical | Range Inc | Slots | DType | Hands
         ::row
-          [Handaxe]       | 6 gp  | 1d6 | x3       | —         | 1     |  S    | Light
-          [Sap]           | 1 gp  | 1d6 | x2       | —         | 1     |  B    | Light
-          [Shortsword]    | 10 gp | 1d6 | 19‑20/x2 | —         | 1     |  P    | Light
-          [Throwing Axe]  | 8 gp  | 1d6 | x2       | 10'       | 1     |  S    | Light
-          [Battleaxe]     | 10 gp | 1d8 | x3       | —         | 1.5   |  S    | 1‑handed
-          [Cutlass]       | 15 gp | 1d6 | 18‑20/x2 | —         | 1     |  S    | 1‑handed
-          [Flail]         | 8 gp  | 1d8 | x2       | —         | 1.5   |  B    | 1‑handed
-          [Heavy Pick]    | 8 gp  | 1d6 | x4       | —         | 1.5   |  P    | 1‑handed
-          [Longsword]     | 15 gp | 1d8 | 19‑20/x2 | —         | 1.5   |  S    | 1‑handed
-          [Rapier]        | 20 gp | 1d6 | 18‑20/x2 | —         | 1.5   |  P    | 1‑handed
-          [Trident]       | 15 gp | 1d8 | x2       | 10'       | 1.5   |  P    | 1‑handed
-          [Warhammer]     | 12 gp | 1d8 | x3       | —         | 1.5   |  B    | 1‑handed
-          [Falchion]      | 75 gp | 2d4 | 18‑20/x2 | —         | 2     |  S    | 2‑handed
-          [Glaive]        | 8 gp  | 1d10| 19-20/x2 | —         | 2     |  S    | 2‑handed
-          [Greataxe]      | 20 gp | 1d12| x3       | —         | 2     |  S    | 2‑handed
-          [Greatclub]     | 5 gp  | 1d10| x2       | —         | 2     |  B    | 2‑handed
-          [Greatsword]    | 50 gp | 1d12| 19‑20/x2 | —         | 2     |  S    | 2‑handed
-          [Halberd]       | 10 gp | 1d10| x3       | —         | 3     |  P/S  | 2‑handed
-          [Heavy Flail]   | 15 gp | 1d10| 19‑20/x2 | —         | 2     |  B    | 2‑handed
+          [Handaxe]       | 6 gp  | 1d6 | x3       | —         | 1     |  S    | Light
+          [Sap]           | 1 gp  | 1d6 | x2       | —         | 1     |  B    | Light
+          [Shortsword]    | 10 gp | 1d6 | 19‑20/x2 | —         | 1     |  P    | Light
+          [Throwing Axe]  | 8 gp  | 1d6 | x2       | 10'       | 1     |  S    | Light
+          [Battleaxe]     | 10 gp | 1d8 | x3       | —         | 1.5   |  S    | 1‑handed
+          [Cutlass]       | 15 gp | 1d6 | 18‑20/x2 | —         | 1     |  S    | 1‑handed
+          [Flail]         | 8 gp  | 1d8 | x2       | —         | 1.5   |  B    | 1‑handed
+          [Heavy Pick]    | 8 gp  | 1d6 | x4       | —         | 1.5   |  P    | 1‑handed
+          [Longsword]     | 15 gp | 1d8 | 19‑20/x2 | —         | 1.5   |  S    | 1‑handed
+          [Rapier]        | 20 gp | 1d6 | 18‑20/x2 | —         | 1.5   |  P    | 1‑handed
+          [Trident]       | 15 gp | 1d8 | x2       | 10'       | 1.5   |  P    | 1‑handed
+          [Warhammer]     | 12 gp | 1d8 | x3       | —         | 1.5   |  B    | 1‑handed
+          [Falchion]      | 75 gp | 2d4 | 18‑20/x2 | —         | 2     |  S    | 2‑handed
+          [Glaive]        | 8 gp  | 1d10| 19-20/x2 | —         | 2     |  S    | 2‑handed
+          [Greataxe]      | 20 gp | 1d12| x3       | —         | 2     |  S    | 2‑handed
+          [Greatclub]     | 5 gp  | 1d10| x2       | —         | 2     |  B    | 2‑handed
+          [Greatsword]    | 50 gp | 1d12| 19‑20/x2 | —         | 2     |  S    | 2‑handed
+          [Halberd]       | 10 gp | 1d10| x3       | —         | 3     |  P/S  | 2‑handed
+          [Heavy Flail]   | 15 gp | 1d10| 19‑20/x2 | —         | 2     |  B    | 2‑handed
 
       Martial Ranged Weapons::table.equipment
         ::head
-          Weapon        | Cost   | Dmg | Critical | Range Inc | Slots | DType | Hands
+          Weapon        | Cost   | Dmg | Critical | Range Inc | Slots | DType | Hands
         ::row
-          [Longbow]     | 100 gp | 1d8 | x3       | 100'      | 2     | P     | 2‑handed
-          [Shortbow]    | 50 gp  | 1d6 | x3       | 60'       | 1     | P     | 2‑handed
-          [Musket]      | 150 gp | 1d12| x3       | 150'      | 2     | P     | 2‑handed
-          [Blunderbuss] | 100 gp | 1d12| x3       | 30'       | 2     | P     | 2‑handed
-          [Pistol]      | 100 gp | 1d10| x3       | 50'       | 1     | P     | 1‑handed
+          [Longbow]     | 100 gp | 1d8 | x3       | 100'      | 2     | P     | 2‑handed
+          [Shortbow]    | 50 gp  | 1d6 | x3       | 60'       | 1     | P     | 2‑handed
+          [Musket]      | 150 gp | 1d12| x3       | 150'      | 2     | P     | 2‑handed
+          [Blunderbuss] | 100 gp | 1d12| x3       | 30'       | 2     | P     | 2‑handed
+          [Pistol]      | 100 gp | 1d10| x3       | 50'       | 1     | P     | 1‑handed
 
       Exotic Melee Weapons::table.equipment
         ::head
-          Weapon           | Cost  | Dmg  | Critical | Range Inc | Slots | DType | Hands
+          Weapon           | Cost  | Dmg  | Critical | Range Inc | Slots | DType | Hands
         ::row
-          [Bastard Sword]  | 35 gp | 1d10 | 19‑20/x2 |  —        | 2     | S     | 1‑handed
-          [Dwarven Waraxe] | 30 gp | 1d10 | x3       |  —        | 2     | S     | 1‑handed
+          [Bastard Sword]  | 35 gp | 1d10 | 19‑20/x2 |  —        | 2     | S     | 1‑handed
+          [Dwarven Waraxe] | 30 gp | 1d10 | x3       |  —        | 2     | S     | 1‑handed
           [Harpoon]        | 5gp   | 1d8  | x3       | 20'       | 1     | P     | 1-handed
-          [Whip]           | 1 gp  | 1d3  | x2       |  —        | 1     | S     | 1‑handed
+          [Whip]           | 1 gp  | 1d3  | x2       |  —        | 1     | S     | 1‑handed
 
       Ammunition::table.equipment
         ::head
           Ammo                    | Cost | Slots
         ::row
-          Bullets and Powder (10) | 3gp  | 1
-          Sling Bullets (10)      | 1sp  | 1
-          Crossbow Bolts (20)     | 1gp  | 1
-          Arrows (20)             | 1gp  | 1
+          Bullets and Powder (10) | 3gp  | 1
+          Sling Bullets (10)      | 1sp  | 1
+          Crossbow Bolts (20)     | 1gp  | 1
+          Arrows (20)             | 1gp  | 1
 
   Weapon Rules::section
     Weapon Proficiency::text
