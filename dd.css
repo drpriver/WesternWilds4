@@ -370,11 +370,36 @@ section.feat {
 }
 .spell {
     background-color: rgb(255, 243, 224);
-    padding: 4px;
+    padding: 16px;
     border: 1px solid grey;
+    max-width:50em;
 }
 
 .feat .spell h5 {
     margin-top: 0;
 }
 
+table.stat_block .even {
+    background-color: rgb(205,200,184);
+}
+
+table.stat_block > tbody > tr td:nth-child(2){
+    border-left: 1px solid black;
+}
+table.spell_info > tbody > tr.even {
+    background-color: rgb(205,200,184);
+}
+table.spell_info > tbody > tr td:nth-child(2){
+    border-left: 1px solid black;
+}
+table.spell_info > tbody > tr td:nth-child(1){
+    white-space:nowrap;
+}
+
+nav li > ul {
+    display: none;
+}
+
+li > ul.expanded {
+    display: block;
+}

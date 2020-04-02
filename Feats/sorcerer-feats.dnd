@@ -295,7 +295,7 @@
         Additionally, your effective caster level for fire spells is 1 higher.
 
       Fiery Burst::section.spell
-        ::table
+        ::table.spell_info
           ::head
             | 
           ::row
@@ -318,7 +318,7 @@
 
         Additionally, your effective caster level for cold spells is 1 higher.
       Icy Breath::section.spell
-        ::table
+        ::table.spell_info
           ::head
             | 
           ::row
@@ -348,7 +348,7 @@
 
         Additionally, your effective caster level for lightning spells is 1 higher.
       Chain Shock::section.spell
-        ::table
+        ::table.spell_info
           ::head
             | 
           ::row
@@ -378,7 +378,7 @@
 
         Additionally, your effective caster level for acid spells is 1 higher.
       Acidic Splatter::section.spell
-        ::table
+        ::table.spell_info
           ::head
             | 
           ::row

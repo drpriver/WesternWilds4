@@ -1,5 +1,5 @@
   Wild Shape - Black Bear::section.spell
-    ::table
+    ::table.spell_info
       ::head
         | 
       ::row
@@ -17,7 +17,7 @@
 
       You can transform back to your normal form as a standard action. While you are in your normal form, you can transform back to being a black bear as a swift action.
 
-    ::table
+    ::table.stat_block
       ::head
         | 
       ::row

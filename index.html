@@ -376,14 +376,39 @@
       }
       .spell {
           background-color: rgb(255, 243, 224);
-          padding: 4px;
+          padding: 16px;
           border: 1px solid grey;
+          max-width:50em;
       }
       
       .feat .spell h5 {
           margin-top: 0;
       }
       
+      table.stat_block .even {
+          background-color: rgb(205,200,184);
+      }
+      
+      table.stat_block > tbody > tr td:nth-child(2){
+          border-left: 1px solid black;
+      }
+      table.spell_info > tbody > tr.even {
+          background-color: rgb(205,200,184);
+      }
+      table.spell_info > tbody > tr td:nth-child(2){
+          border-left: 1px solid black;
+      }
+      table.spell_info > tbody > tr td:nth-child(1){
+          white-space:nowrap;
+      }
+      
+      nav li > ul {
+          display: none;
+      }
+      
+      li > ul.expanded {
+          display: block;
+      }
     </style>
     <script>
       "use strict"
@@ -439,6 +464,18 @@
               link.onclick = button_funcs[i];
               top.appendChild(link);
           }
+          }
+          const hidden_ul = document.querySelectorAll("nav li");
+          console.log(hidden_ul);
+          for(let i = 0; i < hidden_ul.length; i++){
+              hidden_ul[i].addEventListener("click", function(e){
+                  const el = e.target.parentNode.getElementsByTagName("ul")
+                  console.log(el);
+                  console.log(!el);
+                  if(!el.length)
+                      return;
+                  el[0].classList.toggle("expanded");
+              });
           }
       }
       document.addEventListener("DOMContentLoaded", onload)
@@ -14339,7 +14376,7 @@
                 <h5 id="fiery-burst1">Fiery Burst</h5>
                 <section>
                   
-                  <table>
+                  <table class="spell_info">
                     <thead>
                       <tr class="table_header">
                         <th></th>
@@ -14409,7 +14446,7 @@
                 <h5 id="icy-breath1">Icy Breath</h5>
                 <section>
                   
-                  <table>
+                  <table class="spell_info">
                     <thead>
                       <tr class="table_header">
                         <th></th>
@@ -14479,7 +14516,7 @@
                 <h5 id="chain-shock1">Chain Shock</h5>
                 <section>
                   
-                  <table>
+                  <table class="spell_info">
                     <thead>
                       <tr class="table_header">
                         <th></th>
@@ -14549,7 +14586,7 @@
                 <h5 id="acidic-splatter1">Acidic Splatter</h5>
                 <section>
                   
-                  <table>
+                  <table class="spell_info">
                     <thead>
                       <tr class="table_header">
                         <th></th>
@@ -18408,7 +18445,7 @@
             <h3 id="wild-shape---black-bear">Wild Shape - Black Bear</h3>
             <section>
               
-              <table>
+              <table class="spell_info">
                 <thead>
                   <tr class="table_header">
                     <th></th>
@@ -18456,7 +18493,7 @@
             </div>
             <section>
               
-              <table>
+              <table class="stat_block">
                 <thead>
                   <tr class="table_header">
                     <th></th>
