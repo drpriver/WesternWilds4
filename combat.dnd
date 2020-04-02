@@ -127,7 +127,7 @@ Combat::chapter
 
   Overrun::section.special_attack
     ::text
-      You can overrun as part of your movement. Generally, you need to be bigger than the creature you are trying to overrun. Overrun costs 10' of movement. You must have enough movement to move to the space past theirs. If you cannot go to that space (perhaps it is a wall), you cannot overrun.
+      You can overrun as part of your movement. Generally, you need to be bigger than the creature you are trying to overrun. Overrun costs 10' of movement. You must have enough movement to move to the space past theirs. If you cannot go to that space (perhaps it is a wall), you cannot overrun. If there is a creature there, you must overrun them too (see overrunning multiple creatures at once below).
 
       A creature can decide to let you through. If he does, then you don't need to spend any extra movement and you must continue to the space past theirs.
 
@@ -136,6 +136,8 @@ Combat::chapter
       If you fail, your movement ends in your space. If you beat their roll, they are knocked prone and you must continue moving to the space past theirs.
 
       In any situation, overrunning a creature does not provoke an attack of opportunity from that creature. It provokes from other creatures as normal for movement.
+
+      A large creature might try to overrun more than one creature at once. If he does, only one of the creatures rolls the check. He gets +2 on this roll for every other creature that would be overrun. This also applies if you need to overrun more than one creature at once because they are standing one behind the other.
 
   Bull Rush::section.special_attack
     ::text
@@ -146,61 +148,126 @@ Combat::chapter
       If you succeed, you push him back 5 feet and 5 more feet for every 5 points you beat his check. He does not provoke attacks of opportunity for this movement, but you do as normal.
 
       If you fail, youre movement ends and there is no further consequence.
-  Firing into melee::section.combat_rules
-    A "melee" is creatures engaged in melee combat. It does not include the 2nd ranks.
 
-    You suffer a -4 penalty to hit such creatures. You can ignore this penalty by targeting randomly into the melee.
+  Attacks of Opportunity::section.combat_rules
+    Threatened Spaces::text.combat_rules
+      In general, a creature threatens all spaces they can reach. They must be wielding a melee weapon to threaten or be a monk. You don't threaten spaces that are concealed to you or have any degree of cover from you.
 
-  Reach and Attacks of Opportunity::section.combat_rules
-    Reach weapons don't threaten if they must strike through another creature (such as when fighting in the second rank).
+    Movement and attacks of opportunity::text.combat_rules
+      If you move out of a creature's threatened space, this provokes an attack of opportunity.
 
-  Firing into back line or crowd::section.combat_rules
-    It is impossible to pick out a specific target that is not at the edge of a crowd. To target deeper into a crowed, you must target randomly.
+      If you 5'ft step and remain within a creature's threatened spaces, you do not provoke an attack of opportunity from that creature.
 
-  Movement::section.combat_rules
+    Distracting Actions::section.combat_rules
+      ::text
+        Some actions provoke an attack of opportunity. They are listed below. The DM may rule other actions provoke (players invent new actions all the time).
+      ::bullets
+        * Casting a spell or spell-like ability that is not a melee touch spell or originates from the caster (like burning hands)
+        * Attacking with a ranged weapon
+        * Reloading a weapon
+        * Drawing an item from your backpack
+        * Standing up from prone
+        * Drinking a potion
+        * Pick up an item from the ground
+
+    Reach and Attacks of Opportunity::text.combat_rules
+      Reach weapons don't threaten in the dead zone.
+
+      Reach weapons don't threaten if they must strike through another creature (such as when fighting in the second rank).
+
+  Space::section.combat_rules
+    The final frontier
+
+    Size and space::text
+      A creature's space is how big an area they need to act without penalties. A medium or small creature needs an amount of area aproximating a 5' square, a large creature 10', a huge creature 15', etc.
+
+      In general, a creature can fit into an area of about half that size in one dimension, but this is considered squeezing. A creature can only squeeze if they would not physically fit in their full space (like a 5' hallway for a large creature).
+
+    Squeezing::text
+      A creature who is squeezing moves at half speed and all attacks on them enjoy a +2 bonus and all their attacks suffer a -2 penalty.
+
+    Enemies and space::text
+      You cannot end your movement in an enemy's space. If you would, you go back to the last unoccupied space you could be in, or an appropriate location according to the DM.
+
+      In general, you cannot move through an enemy's space unless you overrun, tumble through, or some other unusual maneuver.
+      
+      You may move through your ally's spaces.
+
+  Attacks::section.combat_rules
+    Attack Rolls::text.combat_rules
+      An attack roll is rolled by rolling a d20 + the relevant stat mod + BAB + other bonuses.
+
+      A nautral 20 always hits and a natural 1 always misses.
+
+    Crits::text.combat_rules
+      A roll of 20 on a die (or other numbers as given by the weapon), threatens a critical hit. To confirm the critical hit, roll the attack roll again at the same bonus. If that hits again, you do more damage than normal (as indicated by the weapon, or x2 if not listed).
+
+    Firing into melee::text.combat_rules
+      A "melee" is creatures engaged in melee combat. It does not include the 2nd ranks.
+
+      You suffer a -4 penalty with ranged attacks to hit such creatures. You can ignore this penalty by targeting randomly into the melee.
+
+    Firing into back line or crowd::section.combat_rules
+      It is impossible to pick out a specific target that is not at the edge of a crowd with a ranged attack. To target deeper into a crowed, you must target randomly.
+
+    Touch Attacks::text.combat_rules
+      A touch attack is an attack with a +4 bonus.
+      It targets AC as normal.
+
+    Full Attack::text.combat_rules
+      A character with multiple attacks can use them all as a standard action. You can move between attacks.
+
+  Damage::section.combat_rules
+    Damage Rolls::text
+      Roll the damage indicated by the weapon or spell or whatever. Add whatever bonuses.
+
+    Energy Resistance::text
+      Energy resistance is indicated by a numeric quantity. Reduce all instances of the damage source by that amount.
+
+      If you have multiple sources of energy resistance, only the best one applies.
+
+    Damage Reduction:: section.combat_rules
+      Damage reduction is indicates as DR N/Some damage type. What this means is all bludgeoning, slashing and piercing damage is reduced by that amount unless it is of the specified type. For example, skeletons often have DR 5/bludgeoning which means they take 5 less damage from slashing and piercing attacks. If multiple sources of DR would apply, only use the best one.
+      
+      Damage reduction with the special type "-" works a bit differently. It reduces the damage from all damage types, including energy types. Damage reduction N/- stacks with everything.
+
+      If damage is reduced to 0, that attack does not count as a hit for things that care about that, like poison or a ghoul's paralyzing claws.
+
+  Movement::text.combat_rules
     Movement can be broken up before and after the standard action.
 
     If you don't otherwise move for the round, you can move 5ft as a free action.
     5-ft step cannot move you out of someone’s threatened zone (can move into someones threatened zone though)
 
-  Interrupting Casters::section.combat_rules
+  No merry go rounds :: text.combat_rules
+    Once a creature has attacked, cast a spell or taken any standard action or full round action in a square, no other creature on that creature's side can attack, cast a spell, etc. from that space this turn.
+
+  Interrupting Casters::text.combat_rules
     Each time a spellcaster takes damage or is battered/traumatized (such as being knocked down), there is a 50% chance their spell is interrupted and wasted.
 
-  Touch Attacks::section.combat_rules
-    A touch attack is an attack with a +4 bonus.
-
-  Full Attack::section.combat_rules
-    A character with multiple attacks can use them all as a standard action. You can move between attacks.
-
-  Spell Resistance::section.combat_rules
+  Spell Resistance::text.combat_rules
     Spell Resistance works on all magic. It comes in two flavors: some monsters have a flat percentage chance to ignore magic. Others have an SR value that a caster level check must be rolled to overcome.
 
-  Flanking::section.combat_rules
+  Flanking::text.combat_rules
     Flanking is a special ability that thieves get. If they and an ally are on opposite sides of a creature, the thief gets +2 to his attacks and can backstab.
 
-  Flatfooted::section.combat_rules
+  Flatfooted::text.combat_rules
     A flatfooted creature can't make attacks of opportunity, can be snuck attack and attackers get a +2 bonus on them. EXCEPTION: the side that loses initiative can't make attacks of opportunity, but there is no special advantage to attacking them.
 
-  Running Away::section.combat_rules
+  Running Away::text.combat_rules
     When playing on a grid, moving off the drawn area means that creature has run away from the fight.
 
     When playing totm, the character declares his intent to run from the battle and the DM rules if he needs to make a check, needs to move farther away or just gets away.
 
-  Soft Cover::section.combat_rules
+  Soft Cover::text.combat_rules
     Too annoying to track so doesn't exist.
 
-  Cover::section.combat_rules
+  Cover::text.combat_rules
     generally center of one of your squares to center of one of their squares.
 
     A creature with any degree of cover is not threatened.
 
-  No merry go rounds :: section.combat_rules
-    Once a creature has attacked, cast a spell or taken any standard action or full round action in a square, no other creature on that creature's side can attack, cast a spell, etc. from that space this turn.
-
-  Damage Reduction:: section.combat_rules
-    Damage reduction N/- stacks with everything
-
-  Concealment::section.combat_rules
+  Concealment::text.combat_rules
     There are two grades of concealment: partial and total. Partial causes a 20% miss chance and total is 50%. Additionally, with total concealment you literally can't see them, so you need to declare what square you are attacking and the DM will secretly determine where the enemy actually is. This is much like the game of battleship. If you miss due to rolling poorly or due to conealment, you don't know if a creature is there or not. 
 
     If a creature attacks, casts a spell, etc. it reveals what space it is in. If it then moves, a move silently check opposed by the nearest character's listen check is rolled.
