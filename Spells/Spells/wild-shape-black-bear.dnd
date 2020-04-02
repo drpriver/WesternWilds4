@@ -13,7 +13,7 @@
 
       When you become a black bear, your possessions merge into your new form and become non-functional. Your HP remains unchanged. While a black bear, you cannot speak or cast spells. You can growl and roar.
 
-      A black bear grants you the following benefits. Despite your change in constitution, your HP remains unchanged. You use your ranks in skills, your base save bonuses, and your base attack bonus.
+      A black bear grants you the following benefits.  You use your ranks in skills, your base save bonuses, and your base attack bonus.
 
       You can transform back to your normal form as a standard action. While you are in your normal form, you can transform back to being a black bear as a swift action.
 
@@ -24,7 +24,6 @@
         Size:| Medium
         Str: | 19 (+4)
         Dex: | 13 (+1)
-        Con: | 15 (+2)
         AC:  | 13 (+2 natural armor and +1 dex)
         Speed:| 40'
         Attacks: | 2 claws (1d4+4 each) and a bite (1d6+4)

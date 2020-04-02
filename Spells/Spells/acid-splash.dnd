@@ -1,0 +1,13 @@
+
+  Acid Splash::section.spell
+    ::table.spell_info
+      ::head
+        | 
+      ::row
+        Level:            | [Sorcerer] 0, [Wizard] 0
+        Components:       | V,S
+        Casting Time:     | 1 standard action
+        Range:            | Close (25' +5'/2 levels)
+        Tags:             | Acid
+    ::text
+      You fire a small orb of acid at the target. You must succeed on a ranged [touch attack] to hit your target. The orb deals 1d3 points of acid damage.

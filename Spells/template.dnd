@@ -1,5 +1,5 @@
-::section.spell
-    ::table
+  ::section.spell
+    ::table.spell_info
       ::head
         | 
       ::row
