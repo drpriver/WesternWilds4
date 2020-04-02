@@ -1,0 +1,28 @@
+  Guilds::chapter
+    ::text
+      There is a guild for each class (although not for the multiclass combos). For clerics this is their church, for thieves it is a thieves guild, etc.
+
+      Players can join or found class guilds as an alternative to founding a domain. 
+
+      They need a good relationship with whoever is in charge, or be an organization that can operate secretly (like the thieves guild). An easy way to accomplish this is for one player character to have a domain and the second one to found a class guild in that domain.
+
+      A multiclass character can form a class guild of either of their classes.
+
+    ::table
+      ::head
+        Class | Class Guild
+      ::row
+        Barbarian | Barbarian Village
+        Bard      | Theater (fixed or travelling)
+        Cleric    | Church
+        Druid     | Druid Grove
+        Fighter   | Knight Order or Mercenary Company
+        Ranger    | Ranger Squad
+        Monk      | Temple
+        Sorcerer  | Cabal
+        Thief     | Thieves Guild
+        Wizard    | College
+
+    TODO: GUILD BENEFITS
+
+        

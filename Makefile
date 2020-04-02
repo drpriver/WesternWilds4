@@ -282,6 +282,12 @@ EQUIPMENT=equipment.dnd\
 	  armor.dnd\
 	  gear.dnd\
 
+
+CAMPAIGNS=campaigns.dnd\
+	  guilds.dnd\
+	  factions.dnd\
+	  domains.dnd\
+
 ALL=basics.dnd\
     $(addprefix Races/,$(RACES))\
     alignment.dnd\
@@ -292,9 +298,7 @@ ALL=basics.dnd\
     $(addprefix Equipment/,$(EQUIPMENT))\
     adventures.dnd\
     experience.dnd\
-    factions.dnd\
-    guilds.dnd\
-    domains.dnd\
+    $(addprefix Campaigns/,$(CAMPAIGNS))\
     combat.dnd\
     ships.dnd\
     magic.dnd\

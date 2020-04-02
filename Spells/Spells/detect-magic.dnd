@@ -1,0 +1,16 @@
+
+  Detect Magic::section.spell
+    ::table.spell_info
+      ::head
+        | 
+      ::row
+        Level:            | [Bard] 0, [Cleric] 0, [Druid] 0, [Sorcerer] 0, [Wizard] 0
+        Components:       | V,S
+        Casting Time:     | 1 standard action
+        Range:            | 60'
+        Area:             | Cone-shaped emanation
+        Duration:         | Concentration, up to 1 min./level (D)
+    ::text
+      You detect magical auras. You must focus upon an object or area to detect its magic aura. This generally takes 1 round.
+
+      Illusion spells give off no aura.
