@@ -324,3 +324,6 @@ $(basename $(ALL)):
 make clean:
 	rm -f index.html
 .DEFAULT:index.html
+.PHONY: strip
+strip:
+	python3 stripper.py
