@@ -1,16 +1,16 @@
   Barbarian::section.character_class
     Barbarian Class Table::table.class_table
       ::head
-        Level |  Base Attack Bonus  | Fort Save | Ref Save | Will Save | Special
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st   | +1                  | +2        | +0       | +0        | [Fast movement], [illiteracy], [rage] 1/long rest
-        2nd   | +2                  | +3        | +0       | +0        | [Uncanny dodge]
-        3rd   | +3                  | +3        | +1       | +1        | [Aggressive]
-        4th   | +4                  | +4        | +1       | +1        | [Rage] 2/long rest
-        5th   | +5                  | +4        | +1       | +1        | [Improved uncanny dodge]
-        6th   | +6/+1               | +5        | +2       | +2        | [Spell Resistance]
-        7th   | +7/+2               | +5        | +2       | +2        | [Damage reduction] 1/—
-        8th   | +8/+3               | +6        | +2       | +2        | [Rage] 3/long rest
+        1st   | +1                | +2        | +0       | +0        | [Fast movement], [illiteracy], [rage] 1/long rest
+        2nd   | +2                | +3        | +0       | +0        | [Uncanny dodge]
+        3rd   | +3                | +3        | +1       | +1        | [Aggressive]
+        4th   | +4                | +4        | +1       | +1        | [Rage] 2/long rest
+        5th   | +5                | +4        | +1       | +1        | [Improved uncanny dodge]
+        6th   | +6/+1             | +5        | +2       | +2        | [Spell Resistance]
+        7th   | +7/+2             | +5        | +2       | +2        | [Damage reduction] 1/—
+        8th   | +8/+3             | +6        | +2       | +2        | [Rage] 3/long rest
     Alignment Requirement:: text
       Any non-lawful
     Hit Die::text

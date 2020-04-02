@@ -1,16 +1,16 @@
   Fighter::section.character_class
     Fighter Class Table::table.class_table
       ::head
-        Level | Base Attack Bonus | Fort Save | Ref Save  | Will Save | Special
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +1    | +2 | +2 | +2 | Bonus fighter feat
-        2nd | +2    | +3 | +3 | +3 | Bonus fighter feat
-        3rd | +3    | +3 | +3 | +3 | Bonus fighter feat
-        4th | +4    | +4 | +4 | +4 | Bonus fighter feat
-        5th | +5    | +4 | +4 | +4 | Bonus fighter feat
-        6th | +6/+1 | +5 | +5 | +5 | Bonus fighter feat
-        7th | +7/+2 | +5 | +5 | +5 | Bonus fighter feat
-        8th | +8/+3 | +6 | +6 | +6 | Bonus fighter feat
+        1st   | +1                | +2        | +2       | +2        | Bonus fighter feat
+        2nd   | +2                | +3        | +3       | +3        | Bonus fighter feat
+        3rd   | +3                | +3        | +3       | +3        | Bonus fighter feat
+        4th   | +4                | +4        | +4       | +4        | Bonus fighter feat
+        5th   | +5                | +4        | +4       | +4        | Bonus fighter feat
+        6th   | +6/+1             | +5        | +5       | +5        | Bonus fighter feat
+        7th   | +7/+2             | +5        | +5       | +5        | Bonus fighter feat
+        8th   | +8/+3             | +6        | +6       | +6        | Bonus fighter feat
     Hit Die::text
       d10
     Class Skills::bullets

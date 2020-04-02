@@ -3,14 +3,14 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +1    | +2  | +2  | +0  | 1st favored enemy, Track, wild empathy, 1st favored terrain, Animal Companion, Combat Style
-        2nd | +2    | +3  | +3  | +0  |
-        3rd | +3    | +3  | +3  | +1  | 2nd favored terrain, hide in shadows
-        4th | +4    | +4  | +4  | +1  | Bonus Ranger Feat
-        5th | +5    | +4  | +4  | +1  | 2nd favored enemy
-        6th | +6/+1 | +5  | +5  | +2  | Improved combat style
-        7th | +7/+2 | +5  | +5  | +2  | 3rd favored terrain
-        8th | +8/+3 | +6  | +6  | +2  | Evasion, Bonus Ranger Feat
+        1st   | +1                | +2        | +2       | +0        | 1st favored enemy, Track, wild empathy, 1st favored terrain, Animal Companion, Combat Style
+        2nd   | +2                | +3        | +3       | +0        |
+        3rd   | +3                | +3        | +3       | +1        | 2nd favored terrain, hide in shadows
+        4th   | +4                | +4        | +4       | +1        | Bonus Ranger Feat
+        5th   | +5                | +4        | +4       | +1        | 2nd favored enemy
+        6th   | +6/+1             | +5        | +5       | +2        | Improved combat style
+        7th   | +7/+2             | +5        | +5       | +2        | 3rd favored terrain
+        8th   | +8/+3             | +6        | +6       | +2        | Evasion, Bonus Ranger Feat
 
     Hit Die::text
       d8

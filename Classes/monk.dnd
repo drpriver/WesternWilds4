@@ -1,28 +1,28 @@
   Monk::section.character_class
     Monk Class Table::table.class_table
       ::head
-        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special 
+        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st   | +1                | +2        | +2       | +2        | Bonus feat, flurry of blows, unarmed strike 
-        2nd   | +2                | +3        | +3       | +3        | Bonus feat, evasion                         
-        3rd   | +3                | +3        | +3       | +3        | Still mind                                  
-        4th   | +4                | +4        | +4       | +4        | Ki strike (+1), slow fall 20 ft.            
-        5th   | +5                | +4        | +4       | +4        | Purity of body                              
-        6th   | +6/+1             | +5        | +5       | +5        | Bonus feat, slow fall 30 ft.                
-        7th   | +7/+2             | +5        | +5       | +5        | Wholeness of body                           
-        8th   | +8/+3             | +6        | +6       | +6        | Slow fall 40 ft.,  Greater Flurry of Blows  
+        1st   | +1                | +2        | +2       | +2        | Bonus feat, flurry of blows, unarmed strike
+        2nd   | +2                | +3        | +3       | +3        | Bonus feat, evasion
+        3rd   | +3                | +3        | +3       | +3        | Still mind
+        4th   | +4                | +4        | +4       | +4        | Ki strike (+1), slow fall 20 ft.
+        5th   | +5                | +4        | +4       | +4        | Purity of body
+        6th   | +6/+1             | +5        | +5       | +5        | Bonus feat, slow fall 30 ft.
+        7th   | +7/+2             | +5        | +5       | +5        | Wholeness of body
+        8th   | +8/+3             | +6        | +6       | +6        | Slow fall 40 ft.,  Greater Flurry of Blows
     Monk Unarmed Progression::table
       ::head
         Level | Unarmed Damage | AC Bonus | Speed Bonus
       ::row
-        1st | 1d6            | +2       | +10 ft.
-        2nd | 1d6            | +3       | +10 ft.
-        3rd | 1d8            | +4       | +20 ft.
-        4th | 1d8            | +5       | +20 ft.
-        5th | 1d10           | +6       | +20 ft.
-        6th | 1d10           | +7       | +30 ft.
-        7th | 1d12           | +8       | +30 ft.
-        8th | 1d12           | +9       | +30 ft.
+        1st   | 1d6            | +2       | +10 ft.
+        2nd   | 1d6            | +3       | +10 ft.
+        3rd   | 1d8            | +4       | +20 ft.
+        4th   | 1d8            | +5       | +20 ft.
+        5th   | 1d10           | +6       | +20 ft.
+        6th   | 1d10           | +7       | +30 ft.
+        7th   | 1d12           | +8       | +30 ft.
+        8th   | 1d12           | +9       | +30 ft.
 
     Alignment Requirement::text
       Any lawful.

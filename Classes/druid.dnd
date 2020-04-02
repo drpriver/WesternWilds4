@@ -3,14 +3,14 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +0    | +2 |  +0  | +2  | [Nature Sense], [Wild Empathy]
-        2nd | +1    | +3 |  +0  | +3  | [Woodland stride]
-        3rd | +2    | +3 |  +1  | +3  | [Trackless step]
-        4th | +3    | +4 |  +1  | +4  | [Resist nature’s lure]
-        5th | +3    | +4 |  +1  | +4  |
-        6th | +4    | +5 |  +2  | +5  |
-        7th | +5    | +5 |  +2  | +5  |
-        8th | +6/+1 | +6 |  +2  | +6  |
+        1st   | +0                | +2        | +0       | +2        | [Nature Sense], [Wild Empathy]
+        2nd   | +1                | +3        | +0       | +3        | [Woodland stride]
+        3rd   | +2                | +3        | +1       | +3        | [Trackless step]
+        4th   | +3                | +4        | +1       | +4        | [Resist nature’s lure]
+        5th   | +3                | +4        | +1       | +4        |
+        6th   | +4                | +5        | +2       | +5        |
+        7th   | +5                | +5        | +2       | +5        |
+        8th   | +6/+1             | +6        | +2       | +6        |
 
     Druid Spells Per Long Rest::table
       ::head

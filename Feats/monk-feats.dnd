@@ -14,7 +14,7 @@
             Flaming Fist
           ::div.maneuver_text
             ::text
-            Swift action, 1 round duration. 
+            Swift action, 1 round duration.
 
             Your attacks deal 1d4 extra fire damage.
         ::div.maneuver
@@ -22,7 +22,7 @@
             Speed of Wind
           ::div.maneuver_text
             ::text
-            Swift action, 1 round duration. 
+            Swift action, 1 round duration.
 
             Your movespeed doubles. +10 on jump checks. Walk on water and up walls.
         ::div.maneuver
@@ -30,7 +30,7 @@
             Stone Barrier
           ::div.maneuver_text
             ::text
-              Swift action, 1 minute duration, range 5’. 
+              Swift action, 1 minute duration, range 5’.
 
               Summon a 5x5x5 cube of stone in an unoccupied space on a floor.
         ::div.maneuver
@@ -38,10 +38,10 @@
             Water Whip
           ::div.maneuver_text
             ::text
-              Swift Action, range 15’, make a ranged touch attack against a creature or object. 
+              Swift Action, range 15’, make a ranged touch attack against a creature or object.
 
-              If you hit, you can pull yourself to them. 
-              If the target is a creature of your size or smaller, you can pull them to you instead. 
+              If you hit, you can pull yourself to them.
+              If the target is a creature of your size or smaller, you can pull them to you instead.
               If the target is an object of size small or smaller, you can pull it to you instead.
 
     Advanced Bending::section.feat
@@ -62,7 +62,7 @@
           If you hit a target with multiple attacks in a single turn, only apply hardness and damage reduction once.
 
           +1 damage with melee attacks
-            
+
           You can use each of these maneuvers once per encounter. Can only apply 1 to a single attack.
         ::div.maneuver
           ::div.maneuver_title
@@ -91,7 +91,7 @@
         +1 bonus to reflex and fortitude saves
 
         +1 dodge bonus to AC
-        
+
         +1 attack on melee attacks
 
         Any time you would be knocked prone, make a DC 15 reflex save. If you succeed, you are not knocked prone.
@@ -125,7 +125,7 @@
             Take on the appearance of any medium sized humanoid.
         ::div.maneuver
           ::div.maneuver_title
-            Substitution 
+            Substitution
           ::text.maneuver_text
             Immediate action
 
@@ -176,7 +176,7 @@
         ::div.maneuver_title
           Eyes of the Mirror God
         ::text.maneuver_text
-          Immediate action when a creature you can see performs some jutsu, spell, or special attack like a dragon breath. 
+          Immediate action when a creature you can see performs some jutsu, spell, or special attack like a dragon breath.
 
           Until the end of your next turn, you can perform the same action you saw with new targets. Uses same action type as original but doesn’t require any resources (spell slots, ki, etc).
 
@@ -211,7 +211,7 @@
         Stunning Fist
       Effect::text
         You can use stunning fist 3 additional times per long rest.
-          
+
         Gain an ability from either school of ninjutsu or school of elemental bending.
 
     Spring Attack::section.feat
@@ -240,7 +240,7 @@
 
     Combat Brawn::section.feat
       Effect::text
-        You gain a +2 bonus when bullrushing, grappling and overrunning. 
+        You gain a +2 bonus when bullrushing, grappling and overrunning.
 
         Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
 
@@ -266,17 +266,29 @@
 
     Stunning Fist::section.feat
       Effect::text
-        You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). 
+        You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt).
 
-        Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + ½ your character level + your Wis modifier), in addition to dealing damage normally. 
+        Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + ½ your character level + your Wis modifier), in addition to dealing damage normally.
 
-        A defender who fails this saving throw is stunned for 1 round (until just before your next action). 
+        A defender who fails this saving throw is stunned for 1 round (until just before your next action).
 
-        A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, and loses his Dexterity bonus to AC. 
+        A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, and loses his Dexterity bonus to AC.
 
         You may attempt a stunning attack once per long rest per monk level.
 
         Some creatures are immune to stun.
+    Still Breath::section.feat
+      Prerequisite::text
+        Level 6
+      Effect::text
+        You don’t need to breath. You cannot suffocate or drown, and are immune to inhaled poisons.
 
+        You must still breath to speak.
 
+    Fancy Footwork::section.feat
+      Effect::text
+        +5' movespeed
 
+        You can 5' step twice per turn.
+
+        +2 to defend against trip, disarm, grapple, overrun, bullrush
