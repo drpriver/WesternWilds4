@@ -1,0 +1,32 @@
+
+  Animate Rope::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 1, [Sorcerer] 1, [Wizard] 1
+        Components:       | V,S
+        Casting Time:     | 1 standard action
+        Range:            | Medium (100' + 10'/level)
+        Targets:          | A 50' long rope
+        Duration:         | 1 round/level
+    ::text
+      You can animate a nonliving ropelike object.
+
+      The rope obeys your commands for the duration.
+
+      The possible commands are “coil” (form a neat, coiled stack), “coil and knot,” “loop,” “loop and knot,” “tie and knot,” "move", "strangle" and the opposites of all of the above (“uncoil,” and so forth). You can give one command each round as a move action, as if directing an active spell.
+
+      If commanded to move, the rope moves at a speed of 30' per round. The rope cannot both move and entangle someone in the same round. Because of this, it is useful to use it as a trap.
+
+      The rope can enwrap creatures or objects adjacent to it. To do so, the victim must make a reflex save (as if you cast a spell). On a failure, it is [entangled] in the rope. A creature so entangled can escape with a DC 20 grapple check or a DC 25 [escape artist] check.
+
+      A rope that is entangling someone can be commanded to tie itself in a knot. If knotted in this way, it is 5 points harder to escape from.
+
+      A rope that is entangling someone can also be commanded to strangle them. The creature must succeed on a DC 20 grapple check or DC 25 [escape artist] check or suffer 1d6+level damage.
+
+      The rope can also be commanded to tie itself into ordinary knots for the purpose of securing climbing surfaces, operating a ship's rigging, etc.
+
+      The rope can also be commanded into the form of a trip wire if it can mount itself between two points. Any creature who attempts to cross its line must make a reflex save or fall prone.
+
+      When the spell ends, it does not untie its knots.
