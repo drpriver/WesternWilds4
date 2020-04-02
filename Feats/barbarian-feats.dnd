@@ -10,23 +10,23 @@
 
         You may only use this feat with attacks that add your strength modifier to the
         damage. You cannot subtract from your attack roll a number higher than your base
-        attack. 
+        attack.
 
         If you attack with a two-handed melee weapon, or with a one-handed melee weapon
-        wielded in two hands, instead add twice the number subtracted from your attack 
-        rolls. 
+        wielded in two hands, instead add twice the number subtracted from your attack
+        rolls.
 
         You can't add the bonus from Power Attack to the damage dealt with a light weapon
-        (except with unarmed strikes or natural weapon attacks). 
+        (except with unarmed strikes or natural weapon attacks).
 
     Cleave::section.feat
       Prerequisite::text
         Power Attack
       Effect::text
-        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach. 
-        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. 
+        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach.
+        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature.
 
-        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round. 
+        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round.
 
 
         You can use this ability once per round.
@@ -41,7 +41,7 @@
       Effect::text
         Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon.  The weapons must be one-handed or a double weapon.
 
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
+        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
         For each light weapon you are wielding, reduce the attack penalty by 1.
 
         Reduce the attack penalty by 1 for double weapons.
@@ -70,7 +70,7 @@
 
     Combat Brawn::section.feat
       Effect::text
-        You gain a +2 bonus when bullrushing, grappling and overrunning. 
+        You gain a +2 bonus when bullrushing, grappling and overrunning.
 
         Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
     Greater Combat Brawn::section.feat

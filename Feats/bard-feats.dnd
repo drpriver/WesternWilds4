@@ -22,7 +22,7 @@
 
     Force of Personality ::section.feat
       Effect::text
-        Use CHA instead of WIS for will saves. 
+        Use CHA instead of WIS for will saves.
 
     Dashing Rogue ::section.feat
       Effect::text

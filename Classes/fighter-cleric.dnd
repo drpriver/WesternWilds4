@@ -3,10 +3,10 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +1    | +2 | +1 | +2 | Bonus fighter feat, Spells, Turn Undead, 
+        1st | +1    | +2 | +1 | +2 | Bonus fighter feat, Spells, Turn Undead,
         2nd | +2    | +3 | +1 | +3 | Bonus fighter feat
         3rd | +3    | +3 | +2 | +3 |
-        4th | +4    | +4 | +2 | +4 | Bonus fighter feat 
+        4th | +4    | +4 | +2 | +4 | Bonus fighter feat
         5th | +5    | +4 | +2 | +4 |
         6th | +6/+1 | +5 | +3 | +5 | Bonus fighter feat
         7th | +7/+2 | +5 | +3 | +5 |
@@ -32,7 +32,7 @@
       4 + Int modifier.
     Weapon And Armor Proficiency::text
       A fighter/cleric is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields).
-    
+
     Turn Undead::text
       This ability works just like the cleric's.
 

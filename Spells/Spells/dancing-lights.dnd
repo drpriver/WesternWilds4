@@ -1,7 +1,7 @@
   Dancing Lights::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Gnome] 0, [Bard] 0
         Components:       | V,S
@@ -17,6 +17,6 @@
       * Four glowing spheres of light
       * One faintly glowing, vaguely humanoid shape
     ::text
-      The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. 
+      The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like.
 
       The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.

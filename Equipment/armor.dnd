@@ -47,7 +47,7 @@
       Shields do not affect a character’s maximum Dexterity bonus.
     Skill Penalty::section
       ::text
-        Any armor heavier than leather hurts a character’s ability to use some skills. An armor's skill penalty is the penalty that applies to Climb, Escape Artist, Hide, Jump, Move Silently, and Tumble checks by a character wearing a certain kind of armor. 
+        Any armor heavier than leather hurts a character’s ability to use some skills. An armor's skill penalty is the penalty that applies to Climb, Escape Artist, Hide, Jump, Move Silently, and Tumble checks by a character wearing a certain kind of armor.
 
       Shields::text
         If a character is wearing armor and using a shield, both  penalties apply.

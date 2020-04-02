@@ -87,5 +87,5 @@
     Warden::section.feat
       Effect::text
         +1 to attack and damage with weapon attacks. This includes spell weapons like Flame Blade, but not natural weapons. This effect is doubled for spell weapons like Flame Blade.
-      
+
         You gain +3 HP.

@@ -76,16 +76,16 @@
       An unarmored monk gains a bonus to their land speed as given in their class table.
 
     Bonus Feat::text
-      At 1st level, a monk may select either Combat Brawn or Stunning Fist as a bonus feat. 
+      At 1st level, a monk may select either Combat Brawn or Stunning Fist as a bonus feat.
 
-      At 2nd level, the monk may select either Combat Reflexes or Deflect Arrows as a bonus feat. 
+      At 2nd level, the monk may select either Combat Reflexes or Deflect Arrows as a bonus feat.
 
       At 6th level, the monk may select either Combat Tactics, Combat Brawn, their greater versions, or any monk feat if you already have all of those as a bonus feat.
 
       A monk need not have any of the prerequisites normally required for these feats to select them.
 
     Evasion::text
-      At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, the monk instead takes no damage. 
+      At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, the monk instead takes no damage.
       Evasion can be used only if a monk is wearing no armor.
       A helpless monk does not gain the benefit of evasion.
 
@@ -102,7 +102,7 @@
       At 5th level, a monk gains immunity to all diseases except for supernatural and magical diseases.
 
     Wholeness of body::text
-      At 7th level or higher, a monk can heal his own wounds. 
-      He can heal a number of hit points of damage equal to twice his current monk level each long rest, and he can spread this healing out among several uses. 
+      At 7th level or higher, a monk can heal his own wounds.
+      He can heal a number of hit points of damage equal to twice his current monk level each long rest, and he can spread this healing out among several uses.
       This is a swift action.
 

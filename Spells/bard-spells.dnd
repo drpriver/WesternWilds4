@@ -1,7 +1,7 @@
   Bard Spells::section.class_spell_list
     0th-Level Bard Spells::table.spell_list
       ::head
-        | 
+        |
       ::row
         [Dancing Lights]    | Creates torches or other lights.
         [Daze]              | Humanoid creature of 4 HD or less loses next action.
@@ -44,7 +44,7 @@
         [Ventriloquism]       | Throws voice for 1 min./level.
     [2nd-Level Bard Spells::table.spell_list
       ::head
-        | 
+        |
       ::row
         [Animal Messenger]          | Sends a Tiny animal to a specific place.
         [Animal Trance]             | Fascinates 2d6 HD of animals.

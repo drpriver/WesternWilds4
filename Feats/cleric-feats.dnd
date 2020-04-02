@@ -12,7 +12,7 @@
       Purpose
       Effect::section
         ::text
-          You gain a +1 bonus on knowledge checks. 
+          You gain a +1 bonus on knowledge checks.
 
           You can spend a use of turn undead as a standard action to gain insight into a
           creature you are fighting. You must be able to directly see the creature to do
@@ -39,7 +39,7 @@
             Nature | Animals, plants, vermin
             Religion | Undead, demons, devils, angels
             The Planes | Elementals, other outsiders
-          
+
       Special::text
         You can only take one purpose feat.
 

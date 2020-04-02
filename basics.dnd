@@ -180,21 +180,21 @@ The Basics::chapter
   Ability Scores::section
     Ability Modifiers::table
       ::head
-        Score    | Modifier 
+        Score    | Modifier
       ::row
-        1        | -5       
-        2  -  3  | -4       
-        4  -  5  | -3       
-        6  -  7  | -2       
-        8  -  9  | -1       
-        10 - 11  | +0       
-        12 - 13  | +1       
-        14 - 15  | +2       
-        16 - 17  | +3       
-        18 - 19  | +4       
-        20 - 21  | +5       
-        22 - 23  | +6       
-        24 - 25  | +7       
+        1        | -5
+        2  -  3  | -4
+        4  -  5  | -3
+        6  -  7  | -2
+        8  -  9  | -1
+        10 - 11  | +0
+        12 - 13  | +1
+        14 - 15  | +2
+        16 - 17  | +3
+        18 - 19  | +4
+        20 - 21  | +5
+        22 - 23  | +6
+        24 - 25  | +7
 
 
     Ability Modifiers::text
@@ -298,7 +298,7 @@ The Basics::chapter
           * The number of [languages] your character knows at the start of the game.
           * The number of [skill points] gained each level. (But your character always gets
             at least 1 skill point per level.)
-          * [Alchemy], [Appraise], [Forgery], [Knowledge], and [Spellcraft] checks. These 
+          * [Alchemy], [Appraise], [Forgery], [Knowledge], and [Spellcraft] checks. These
             are the skills that have Intelligence as their key ability.
         ::text
           The minimum Intelligence score needed to cast a wizard spell is 10 + the spell’s level.
@@ -364,7 +364,7 @@ How to make a a Character::chapter
 
     The Hybrid Method::text
       Before rolling anything, assign these three numbers to three of the six abilities:
-      14, 13, 12. 
+      14, 13, 12.
 
       For the remaining ability scores, roll 4d6, discarding the lowest die.
   2. Choose a race ::text

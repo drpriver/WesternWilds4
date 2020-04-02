@@ -2,7 +2,7 @@
   Disrupt Undead::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Sorcerer] 0, [Wizard] 0
         Components:       | V, S

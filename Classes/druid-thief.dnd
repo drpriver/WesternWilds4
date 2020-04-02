@@ -6,11 +6,11 @@
         1st | +0    | +1 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells,  Wild Empathy
         2nd | +1    | +1 | +1 | +1 | Evasion
         3rd | +2    | +2 | +2 | +2 | Sneak attack +2d6
-        4th | +3    | +2 | +2 | +2 | 
+        4th | +3    | +2 | +2 | +2 |
         5th | +3    | +2 | +2 | +2 | Sneak attack +3d6
-        6th | +4    | +3 | +3 | +3 |  
+        6th | +4    | +3 | +3 | +3 |
         7th | +5    | +3 | +3 | +3 | Sneak attack +4d6
-        8th | +6/+1 | +4 | +4 | +4 | 
+        8th | +6/+1 | +4 | +4 | +4 |
     Druid/Thief Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4

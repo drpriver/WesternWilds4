@@ -1,13 +1,13 @@
   Sorcerer Feats::section.class_feats
     Special Rules::text
       Some sorcerer feats are marked as being an "origin" feat. A sorcerer can only have one origin feat and can only take this feat at level 1.
-      
+
       Some sorcerer feats are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell. A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. However, the spell is not higher level for the effects that care about the spell's level. Only one metamagic can be applied to a single casting of a spell.
 
     Chaos Magic::section.feat
       Prerequisite::text
         Can take only at level 1, can only have 1 origin feat
-        
+
         This is an origin feat.
       Effect::text
         Whenever you cast a spell of level 1 or higher, there is a 30% chance for a chaos effect. The DM rolls on a secret table for your chaos effect.
@@ -16,7 +16,7 @@
       Origin feat
       Prerequisite::text
         Can take only at level 1, can only have 1 origin feat
-        
+
         This is an origin feat.
       Effect::text
         When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
@@ -25,9 +25,9 @@
 
     Dragon Magic::section.feat
       Origin feat
-      Prerequisite::text 
+      Prerequisite::text
         Can take only at level 1, can only have 1 origin feat
-        
+
         This is an origin feat.
       Effect::text
         Choose a color of dragon -- red (fire), blue (lighting), white (cold), yellow (wind) or brown (earth). The associated damage types for wind and earth are slashing and bludgeoning, respectively.
@@ -38,10 +38,10 @@
       Origin feat
       Prerequisite::text
         Can take only at level 1, can only have 1 origin feat
-        
+
         This is an origin feat.
       Effect::text
-        Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½). 
+        Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½).
         Subtract the highest level of spell slots you can cast from this total (so if you can cast 3rd level spells, subtract 3).  To cast a spell, you must spend spell points equal to the spell level.
 
         When you long rest, you regain all your spell points.
@@ -51,14 +51,14 @@
       Prerequisite::text
         Dragon Magic, Sorcerer level 3
       Effect::text
-        Your natural armor is increased by 2. 
+        Your natural armor is increased by 2.
         This benefit increases to 3 at level 6.
 
     Draconic Wings::section.feat
       Prerequisite::text
         Dragon Magic, level 6
-      Effect::text 
-        You grow wings and gain a fly speed with average maneuverability equal to your ground speed. 
+      Effect::text
+        You grow wings and gain a fly speed with average maneuverability equal to your ground speed.
 
     Improved Draconic Wings::section.feat
       Prerequisite::text
@@ -67,7 +67,7 @@
         Your maneuverability improves to good and your fly speed increases by 30'.
 
     Dragon Breath::section.feat
-      Prerequisite::text 
+      Prerequisite::text
         Dragon Magic
       Effect::text
         Once per long rest, unleash a 30-foot cone of damage based on your chosen type. Deals 1d6 per character level damage.  At level 6, you can choose for the cone to be a 30-foot cone or a 60-foot cone
@@ -76,7 +76,7 @@
       Prerequisite::text
         Chaos Magic
       Effect::text
-        Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level. 
+        Whenever you level up, randomly determine all spells known instead of you choosing. You know one additional spell per level.
 
         Whenever you level up, reroll all hit dice beyond the 1st.
 
@@ -116,7 +116,7 @@
     Enlarge Spell::section.feat
       Metamagic
       Effect::text
-        Increase the dimensions of the area of the spell by 50%. 
+        Increase the dimensions of the area of the spell by 50%.
 
         Level adjustment +1
 
@@ -133,9 +133,9 @@
         Increase the range category of a spell.
 
         Touch -> Short
-        
+
         Short -> Medium
-        
+
         Medium ->Long
 
         Level adjustment +1
@@ -146,11 +146,11 @@
         Prereq: Any other metamagic feat
       Effect::text
         Twice per long rest, Increase the range category of a spell.
-        
+
         Touch -> Short
-        
+
         Short -> Medium
-        
+
         Medium ->Long
 
     Ghost Touch Spell::section.feat
@@ -290,14 +290,14 @@
 
     Fiery Burst::section.feat
       Effect::text
-        You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+        You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
 
         Additionally, your effective caster level for fire spells is 1 higher.
 
       Fiery Burst::section.spell
         ::table.spell_info
           ::head
-            | 
+            |
           ::row
             Level:            | Special
             Components:       | V, S
@@ -314,13 +314,13 @@
 
     Icy Breath::section.feat
       Effect::text
-        You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+        You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
 
         Additionally, your effective caster level for cold spells is 1 higher.
       Icy Breath::section.spell
         ::table.spell_info
           ::head
-            | 
+            |
           ::row
             Level: | Special
           ::row
@@ -344,13 +344,13 @@
 
     Chain Shock::section.feat
       Effect::text
-        You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+        You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
 
         Additionally, your effective caster level for lightning spells is 1 higher.
       Chain Shock::section.spell
         ::table.spell_info
           ::head
-            | 
+            |
           ::row
             Level: | Special
           ::row
@@ -374,13 +374,13 @@
 
     Acidic Splatter::section.feat
       Effect::text
-        You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast. 
+        You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
 
         Additionally, your effective caster level for acid spells is 1 higher.
       Acidic Splatter::section.spell
         ::table.spell_info
           ::head
-            | 
+            |
           ::row
             Level: | Special
             Components: |V, S

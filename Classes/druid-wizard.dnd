@@ -4,7 +4,7 @@
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
         1st | +0    | +1 | +0 | +2 | Wild Empath, Spells and Spellbook
-        2nd | +1    | +1 | +0 | +3 | 
+        2nd | +1    | +1 | +0 | +3 |
         3rd | +2    | +2 | +1 | +3 |
         4th | +3    | +2 | +1 | +4 |
         5th | +3    | +2 | +1 | +4 | Bonus wizard feat
@@ -37,7 +37,7 @@
         6th   | 4 | 4 | 4 | 2 | —
         7th   | 4 | 5 | 4 | 2 | 1
         8th   | 4 | 5 | 4 | 3 | 2
-    
+
     Hit Die::text
       d6
     Skill Points at 1st Level:: text

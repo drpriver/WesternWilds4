@@ -3,26 +3,26 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +0    | +0 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells 
+        1st | +0    | +0 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells
         2nd | +1    | +0 | +1 | +1 | Evasion
         3rd | +2    | +1 | +2 | +2 | Sneak attack +2d6
-        4th | +3    | +1 | +2 | +2 | 
+        4th | +3    | +1 | +2 | +2 |
         5th | +3    | +1 | +2 | +2 | Sneak attack +3d6
-        6th | +4    | +2 | +3 | +3 |  
+        6th | +4    | +2 | +3 | +3 |
         7th | +5    | +2 | +3 | +3 | Sneak attack +4d6
-        8th | +6/+1 | +2 | +4 | +4 | 
+        8th | +6/+1 | +2 | +4 | +4 |
     Sorcerer/Thief Spells Per Long Rest::table
       ::head
         Level | 0 |  1  |  2  |  3  | 4
       ::row
-        1st   | 5 | 4 | — | — | — 
-        2nd   | 6 | 5 | — | — | — 
-        3rd   | 6 | 6 | 4 | — | — 
-        4th   | 6 | 7 | 5 | — | — 
-        5th   | 6 | 7 | 6 | 3 | — 
-        6th   | 6 | 7 | 7 | 4 | — 
-        7th   | 6 | 7 | 7 | 5 | 3 
-        8th   | 6 | 7 | 7 | 6 | 4 
+        1st   | 5 | 4 | — | — | —
+        2nd   | 6 | 5 | — | — | —
+        3rd   | 6 | 6 | 4 | — | —
+        4th   | 6 | 7 | 5 | — | —
+        5th   | 6 | 7 | 6 | 3 | —
+        6th   | 6 | 7 | 7 | 4 | —
+        7th   | 6 | 7 | 7 | 5 | 3
+        8th   | 6 | 7 | 7 | 6 | 4
     Hit Die::text
       d5
     Skill Points at 1st Level:: text
@@ -30,10 +30,10 @@
     Skill Points at Each Additional Level::text
       8 + Int modifier.
     Weapon And Armor Proficiency::text
-      A sorcerer/thief is proficient with all simple weapons, plus the pistol, rapier, sap, shortbow, and short sword, and with light armor. 
+      A sorcerer/thief is proficient with all simple weapons, plus the pistol, rapier, sap, shortbow, and short sword, and with light armor.
 
       A sorcerer/thief cannot use any thief skills, sneak attack, or hide in shadows while wearing armor heavier than light armor.
-      
+
       A sorcerer/thief cannot cast spells while wearing any armor.
 
     Spells::text

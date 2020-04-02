@@ -1,6 +1,6 @@
   Thief Feats::section.class_feats
     Special Rules::text
-      Some thief feats are marked as being a "style" feat. A thief can only have one style 
+      Some thief feats are marked as being a "style" feat. A thief can only have one style
       feat, but they do not have to pick this at level 1.
 
     Spy::section.feat
@@ -49,7 +49,7 @@
         When you roll a 1 on a critical hit confirmation roll, reroll it.
 
         Whenever you fail to confirm a critical hit, you can spend a luck point to confirm it instead.
-      
+
 
     Improved Hide::section.feat
       Effect::text
@@ -62,7 +62,7 @@
         You are considered flanking if you and an ally are at least 90 degrees from each other.
 
     Surgical Strike::section.feat
-      Prerequisite::text 
+      Prerequisite::text
         Level 3
       Effect::section
         ::text
@@ -137,9 +137,9 @@
 
         This is evil.
 
-        Any enemy that you have dealt damage to with a weapon attack takes an additional 
+        Any enemy that you have dealt damage to with a weapon attack takes an additional
         1 damage at the start of each of their turns. Additionally, the effectiveness of fast
-        healing, regeneration, and other healing effects on them are halved. 
+        healing, regeneration, and other healing effects on them are halved.
 
         This effect lasts until they receive first aid in the form of a DC 12 heal check, or
         any form of magical healing.
@@ -148,10 +148,10 @@
       Effect::text
         Each time you make an attack with your primary weapon, you can make an extra attack
         with your off-hand weapon.  The weapons must be one-handed.
-        
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
+
+        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
         For each light weapon you are wielding, reduce the attack penalty by 1.
-        
+
         Additionally, you can draw two weapons as part of the same action. You may also sheath two one-handed weapons on your belt.
 
     Precise Shot::section.feat
@@ -173,7 +173,7 @@
         Precise Shot
       Effect::section
         ::text
-          You can reload gun and crossbows faster 
+          You can reload gun and crossbows faster
 
         ::bullets
           * move->no action

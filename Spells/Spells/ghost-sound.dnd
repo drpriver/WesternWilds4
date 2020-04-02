@@ -2,7 +2,7 @@
   Ghost Sound::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Bard] 0, [Sorcerer] 0, [Wizard] 0
         Components:       | V,S,M
@@ -10,17 +10,17 @@
         Range:            | Close (25 ft. + 5 ft./2 levels)
         Duration:         | 1 round/level (D)
     ::text
-      Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. 
+      Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
 
       You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound’s basic character.
 
       You must create some general kind of sound, like a group of people moaning, talking, singing, shouting walking, marching, running, etc. The nature of the sound is fixed upon casting and cannot react to situations. If you make people talk, attentive listening will reveal it to be gibberish.
 
-      The volume of sound created depends on your level. You can produce as much noise as four normal humans per caster level (maximum twenty humans). 
-      
-      The noise a ghost sound spell produces can be virtually any type of sound within the volume limit. 
+      The volume of sound created depends on your level. You can produce as much noise as four normal humans per caster level (maximum twenty humans).
 
-      A horde of rats running and squeaking is about the same volume as eight humans running and shouting. 
+      The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
+
+      A horde of rats running and squeaking is about the same volume as eight humans running and shouting.
 
       A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans.
 

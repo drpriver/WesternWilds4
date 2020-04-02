@@ -6,7 +6,7 @@
         1st | +1    | +1 | +1 | +2 | Bonus fighter feat, Spells and Spellbook
         2nd | +2    | +1 | +1 | +3 | Bonus fighter feat
         3rd | +3    | +2 | +2 | +3 |
-        4th | +4    | +2 | +2 | +4 | Bonus fighter feat 
+        4th | +4    | +2 | +2 | +4 | Bonus fighter feat
         5th | +5    | +2 | +2 | +4 | Bonus wizard feat
         6th | +6/+1 | +3 | +3 | +5 | Bonus fighter feat
         7th | +7/+2 | +3 | +3 | +5 |
@@ -43,8 +43,8 @@
     Skill Points at Each Additional Level::text
       4 + Int modifier.
     Weapon And Armor Proficiency::text
-      A fighter/wizard is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). A fighter/wizard cannot cast any spells while wearing armor. 
-    
+      A fighter/wizard is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields). A fighter/wizard cannot cast any spells while wearing armor.
+
       At 1st level, a fighter/wizard can choose to instead be able to cast spells in armor. If he does, use the armored fighter/wizard spell table instead.
 
 

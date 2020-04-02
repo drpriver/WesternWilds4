@@ -2,7 +2,7 @@
   Detect Magic::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Bard] 0, [Cleric] 0, [Druid] 0, [Sorcerer] 0, [Wizard] 0
         Components:       | V,S

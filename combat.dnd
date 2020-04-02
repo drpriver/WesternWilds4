@@ -9,17 +9,17 @@ Combat::chapter
       not initiated, or no grapple points are earned or you do not escape from the pin.
 
     Grapple Points::text
-      Grapple points represent how in control of the grapple you are. 
+      Grapple points represent how in control of the grapple you are.
 
-      You earn grapple points by winning grapple checks and can spend grapple points to 
+      You earn grapple points by winning grapple checks and can spend grapple points to
       achieve certain effects.
 
       When you earn grapple points, you earn 1d4+BAB grapple points.
 
     Starting a Grapple::text
-      To start a grapple, make a grapple check on your opponent. 
+      To start a grapple, make a grapple check on your opponent.
 
-      If you beat their check, you two are now grappling and you move into their space. 
+      If you beat their check, you two are now grappling and you move into their space.
 
       You earn half as many grapple points as if you succeeded on a grapple contest.
 
@@ -88,7 +88,7 @@ Combat::chapter
 
         Each round, randomly pair off who you are rolling against. If there is an excess on
         one side, the remainder pair up as they want, but this must be divided as evenly as
-        possible. 
+        possible.
 
         When a subgroup rolls against a subgroup, the creature within a subgroup with the
         highest bonus makes the check and the others grant him a +2 bonus per each of them.
@@ -112,7 +112,7 @@ Combat::chapter
   Tripping::section.special_attack
     ::text
       You need a weapon designed for tripping. You can also trip as an unarmed attack, but if you are not a monk you get -4 on this.
-      
+
       Tripping replaces an attack. To trip your enemy, make a strength check adding your BAB, opposed by their strength or dex check adding their BAB. The defender also gets a +4 bonus to this. Every size category larger than medium gives the offender/defender +4 and a similar penalty for being smaller. Some creatures are immune to trip or are exceptionally stable and get a bonus. Bonuses to attack (like bless) apply to this check.
 
       If the offender beats the defender's strength check, the defender falls prone in their space.
@@ -143,7 +143,7 @@ Combat::chapter
     ::text
       Bullrush replaces an attack. You basically are driving them backwards by pushing them and so must spend a consummate amount of movement to both move into their space and then aftewards.
 
-      You make a strength check, adding bab and size and they make a strength or dexterity check adding their bab and size. 
+      You make a strength check, adding bab and size and they make a strength or dexterity check adding their bab and size.
 
       If you succeed, you push him back 5 feet and 5 more feet for every 5 points you beat his check. He does not provoke attacks of opportunity for this movement, but you do as normal.
 
@@ -190,7 +190,7 @@ Combat::chapter
       You cannot end your movement in an enemy's space. If you would, you go back to the last unoccupied space you could be in, or an appropriate location according to the DM.
 
       In general, you cannot move through an enemy's space unless you overrun, tumble through, or some other unusual maneuver.
-      
+
       You may move through your ally's spaces.
 
   Attacks::section.combat_rules
@@ -228,7 +228,7 @@ Combat::chapter
 
     Damage Reduction:: text.combat_rules
       Damage reduction is indicates as DR N/Some damage type. What this means is all bludgeoning, slashing and piercing damage is reduced by that amount unless it is of the specified type. For example, skeletons often have DR 5/bludgeoning which means they take 5 less damage from slashing and piercing attacks. If multiple sources of DR would apply, only use the best one.
-      
+
       Damage reduction with the special type "-" works a bit differently. It reduces the damage from all damage types, including energy types. Damage reduction N/- stacks with everything.
 
       If damage is reduced to 0, that attack does not count as a hit for things that care about that, like poison or a ghoul's paralyzing claws.
@@ -268,7 +268,7 @@ Combat::chapter
     A creature with any degree of cover is not threatened.
 
   Concealment::text.combat_rules
-    There are two grades of concealment: partial and total. Partial causes a 20% miss chance and total is 50%. Additionally, with total concealment you literally can't see them, so you need to declare what square you are attacking and the DM will secretly determine where the enemy actually is. This is much like the game of battleship. If you miss due to rolling poorly or due to conealment, you don't know if a creature is there or not. 
+    There are two grades of concealment: partial and total. Partial causes a 20% miss chance and total is 50%. Additionally, with total concealment you literally can't see them, so you need to declare what square you are attacking and the DM will secretly determine where the enemy actually is. This is much like the game of battleship. If you miss due to rolling poorly or due to conealment, you don't know if a creature is there or not.
 
     If a creature attacks, casts a spell, etc. it reveals what space it is in. If it then moves, a move silently check opposed by the nearest character's listen check is rolled.
 

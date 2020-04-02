@@ -4,7 +4,7 @@
         Each time you make an attack with your primary weapon, you can make an extra attack
         with your off-hand weapon.  The weapons must be one-handed or a double weapon.
 
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
+        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
         For each light weapon you are wielding, reduce the attack penalty by 1.
 
         Additionally, you can draw two weapons as part of the same action. You may also sheath two one-handed weapons on your belt.
@@ -29,7 +29,7 @@
 
     Combat Brawn::section.feat
       Effect::text
-        You gain a +2 bonus when bullrushing, grappling and overrunning. 
+        You gain a +2 bonus when bullrushing, grappling and overrunning.
 
         Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
 
@@ -50,7 +50,7 @@
         Precise Shot
       Effect::section
         ::text
-          You can reload gun and crossbows faster 
+          You can reload gun and crossbows faster
 
         ::bullets
           * move->no action
@@ -116,7 +116,7 @@
         You deal an extra 2 damage when you fight with two weapons.
       Special::text
         Level 6 rangers get this for free if they are in light or no armor.
-      
+
     Tracker::section.feat
       Effect::text
         +4 on tracking checks. Move at full speed when tracking. If you succeed on a check, you know exactly how many people you are tracking, what their sizes are, and what their types are (as per the favored enemy list).
@@ -150,7 +150,7 @@
     Extra Favored Enemy::section.feat
       Effect::text
         Pick one additional favored enemy type. It has the bonuses of your highest favored enemy.
-        
+
     Improved Favored Enemy::section.feat
       Effect::text
         All favored enemy bonuses increased by 2.
@@ -172,7 +172,7 @@
         Once per encounter per enemy you can declare an attack a ranged pin attack. If it hits, the target must make a DC 11+Dex Mod+(level/2) reflex save or be unable to move on its next turn. The creature gets a +4 on the save for each size category above medium.
 
     Arrow Volley::section.feat
-      Prerequisite::text 
+      Prerequisite::text
         Precise Shot, manyshot
       Effect::text
         Full round action. Make attacks against all creatures in a 15’ square.

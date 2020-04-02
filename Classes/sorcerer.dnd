@@ -13,28 +13,28 @@
         8th   | +4                | +2        | +2       | +6        |
     Sorcerer Spells Known::table
       ::head
-        Level | 0 | 1 | 2 | 3 | 4 
+        Level | 0 | 1 | 2 | 3 | 4
       ::row
-        1st   | 4 | 2 | — | — | — 
-        2nd   | 5 | 2 | — | — | — 
-        3rd   | 5 | 3 | 1 | — | — 
-        4th   | 6 | 3 | 2 | — | — 
-        5th   | 6 | 4 | 2 | 1 | — 
-        6th   | 7 | 4 | 2 | 2 | — 
-        7th   | 7 | 5 | 3 | 2 | 1 
-        8th   | 8 | 5 | 3 | 2 | 2 
+        1st   | 4 | 2 | — | — | —
+        2nd   | 5 | 2 | — | — | —
+        3rd   | 5 | 3 | 1 | — | —
+        4th   | 6 | 3 | 2 | — | —
+        5th   | 6 | 4 | 2 | 1 | —
+        6th   | 7 | 4 | 2 | 2 | —
+        7th   | 7 | 5 | 3 | 2 | 1
+        8th   | 8 | 5 | 3 | 2 | 2
     Sorcerer Spells Per Long Rest::table
       ::head
-        Level | 0 | 1 | 2 | 3 | 4 
+        Level | 0 | 1 | 2 | 3 | 4
       ::row
-        1st   | 6 | 5 | — | — | — 
-        2nd   | 7 | 6 | — | — | — 
-        3rd   | 7 | 7 | 5 | — | — 
-        4th   | 7 | 8 | 6 | — | — 
-        5th   | 7 | 8 | 7 | 4 | — 
-        6th   | 7 | 8 | 8 | 5 | — 
-        7th   | 7 | 8 | 8 | 6 | 4 
-        8th   | 7 | 8 | 8 | 7 | 5 
+        1st   | 6 | 5 | — | — | —
+        2nd   | 7 | 6 | — | — | —
+        3rd   | 7 | 7 | 5 | — | —
+        4th   | 7 | 8 | 6 | — | —
+        5th   | 7 | 8 | 7 | 4 | —
+        6th   | 7 | 8 | 8 | 5 | —
+        7th   | 7 | 8 | 8 | 6 | 4
+        8th   | 7 | 8 | 8 | 7 | 5
 
     Hit Die::text
       d4
@@ -51,8 +51,8 @@
       4 + Int modifier
 
     Weapon and Armor Proficiency::text
-      Sorcerers are proficient with all simple weapons. 
-      They are not proficient with any type of armor or shield. 
+      Sorcerers are proficient with all simple weapons.
+      They are not proficient with any type of armor or shield.
       Sorcerers cannot cast spells while wearing armor.
 
     Spells::text
@@ -64,7 +64,7 @@
 
       A sorcerer’s selection of spells is limited. A sorcerer knows spells according the their table. These new spells can be common spells chosen from the sorcerer spell list, or they can be unusual spells that the sorcerer has gained some understanding of by study. The sorcerer can’t use this method of spell acquisition to learn spells at a faster rate, however.
 
-      At every level, a sorcer can choose to learn a new spell in place of one he already knows. 
+      At every level, a sorcer can choose to learn a new spell in place of one he already knows.
       In effect, the sorcerer "loses" the old spell in exchange for the new one. The new spell’s level must be the same as that of the spell being exchanged. A sorcerer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.
 
       Unlike a wizard or a cleric, a sorcerer need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his spells per long rest for that spell level. He does not have to decide ahead of time which spells he’ll cast.
@@ -72,7 +72,7 @@
     Familiar::text
       A sorcerer can obtain a familiar any time during play (he cannot start play with one). Doing so takes 24 hours and uses up magical materials that cost 100 gp. A familiar is a magical beast that is a small animal and is unusually tough and intelligent. The creature serves as a companion and servant.
 
-      The sorcerer can seek out a particular kind of familiar, or see what is most responsive to his personality. 
+      The sorcerer can seek out a particular kind of familiar, or see what is most responsive to his personality.
       As the sorcerer advances in level, his familiar also increases in power.
 
       If the familiar dies, the sorcerer must roll against [System Shock]. Failure means he loses 200 experience points per sorcerer level; success reduces the loss to one-half that amount. However, a sorcerer’s experience point total can never go below 0 as the result of a familiar’s demise or dismissal. A slain or dismissed familiar cannot be replaced for a year and day. A slain familiar can be raised from the dead just as a character can be, and it does not lose a level or a Constitution point when this happy event occurs.

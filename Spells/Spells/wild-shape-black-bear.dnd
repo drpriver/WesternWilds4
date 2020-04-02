@@ -1,7 +1,7 @@
   Wild Shape - Black Bear::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Druid] 2
         Components:       | V
@@ -9,7 +9,7 @@
         Duration:         | 10 minutes/level (dismissable)
         Tags:             | Wild Shape
     ::text
-      You transform into a black bear for the duration of this spell. 
+      You transform into a black bear for the duration of this spell.
 
       When you become a black bear, your possessions merge into your new form and become non-functional. Your HP remains unchanged. While a black bear, you cannot speak or cast spells. You can growl and roar.
 
@@ -19,7 +19,7 @@
 
     ::table.stat_block
       ::head
-        | 
+        |
       ::row
         Size:| Medium
         Str: | 19 (+4)

@@ -9,7 +9,7 @@
     Craft Masterwork Weapon::section
       ::text
         A character with at least 5 ranks in craft weapon can craft superior versions of normal weapons. One property can be added to a weapon when crafting it. The procedure is the same as the one listed above, but the character must expend an extra 2000gp in raw materials.
-      Masterwork Weapon Properties::table 
+      Masterwork Weapon Properties::table
         ::head
           Property | Effect
         ::row

@@ -9,7 +9,7 @@
     Craft Masterwork Armor::section
       ::text
         A character with at least 5 ranks in craft armor can craft superior versions of normal armor. One property can be added to a suit of armor when crafting it. The procedure is the same as the one listed above, but the character must expend an extra 2000gp in raw materials.
-      Masterwork Armor Properties::table 
+      Masterwork Armor Properties::table
         ::head
           Property | Effect
         ::row

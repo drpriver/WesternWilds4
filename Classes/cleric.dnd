@@ -78,9 +78,9 @@
       spell is 10 + the spell level + the cleric’s Wisdom modifier.
 
       Like other spellcasters, a cleric can cast only a certain number of spells of each
-      spell level per long rest. His base spell allotment is given in his table. A cleric 
-      also gets one domain spell of each spell level he can cast, starting at 1st level. 
-      When a cleric prepares a spell in a domain spell slot, it must come from one of his 
+      spell level per long rest. His base spell allotment is given in his table. A cleric
+      also gets one domain spell of each spell level he can cast, starting at 1st level.
+      When a cleric prepares a spell in a domain spell slot, it must come from one of his
       two domains.
 
       Clerics meditate or pray for their spells. A cleric may prepare and cast any spell
@@ -282,7 +282,7 @@
           Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.
 
         Magic Domain Spells::bullets
-          * Magic Weapon: 
+          * Magic Weapon:
           * Identify: Determines properties of magic item.
           * Dispel Magic: Cancels magical spells and effects.
           * Imbue with Spell Ability: Transfer spells to subject.
@@ -360,4 +360,4 @@
           * Fog Cloud: Fog obscures vision.
           * Water Breathing: Subjects can breathe underwater.
           * Control Water: Raises or lowers bodies of water.
-        
+

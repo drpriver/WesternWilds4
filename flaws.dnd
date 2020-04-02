@@ -3,7 +3,7 @@ Flaws::chapter
     After a character's ability scores, race and class has been determined, the player may opt to roll for up to two flaws. Before rolling, the player is allowed to ban 1 of the possible options. For every flaw a character has, they can choose an extra feat at first level.
 
     A character cannot roll the same flaw twice. There is no way to remove a flaw.
-  
+
   Flaw Table::table
     ::head
       d30 | Flaw
@@ -75,8 +75,8 @@ Flaws::chapter
         If in a misty area (like within 10 feet of a waterfall), you become shaken.
 
         A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.
-        
-        You will not willingly jump into water and if you can stay more than 5 feet from it, you will. 
+
+        You will not willingly jump into water and if you can stay more than 5 feet from it, you will.
 
         Effects that suppress fear suppress these penalties
     Inattentive::section.feat
@@ -86,7 +86,7 @@ Flaws::chapter
     Light Sensitivity::section.feat
       Bright light gives you headaches.
       Effect::text
-        You are dazzled in daylight or similarly bright light. 
+        You are dazzled in daylight or similarly bright light.
         A dazzled creature takes a -1 penalty on attack rolls and Spot checks.
     Lightweight::section.feat
       You are very light for your size.

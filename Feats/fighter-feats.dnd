@@ -21,7 +21,7 @@
             Focused Attack
           ::div.maneuver_text
             Roll two attack rolls for this attack.
-            You may pick which roll to use. 
+            You may pick which roll to use.
             If you use the lower roll, your attack deals an extra 1d6 damage.
         ::div.maneuver
           ::div.maneuver_title
@@ -79,14 +79,14 @@
 
         You may only use this feat with attacks that add your strength modifier to the
         damage. You cannot subtract from your attack roll a number higher than your base
-        attack. 
+        attack.
 
         If you attack with a two-handed melee weapon, or with a one-handed melee weapon
-        wielded in two hands, instead add twice the number subtracted from your attack 
-        rolls. 
+        wielded in two hands, instead add twice the number subtracted from your attack
+        rolls.
 
         You can't add the bonus from Power Attack to the damage dealt with a light weapon
-        (except with unarmed strikes or natural weapon attacks). 
+        (except with unarmed strikes or natural weapon attacks).
 
         You can't use Power Attack and Combat Expertise in the same round.
 
@@ -104,10 +104,10 @@
       Prerequisite::text
         Power Attack
       Effect::text
-        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach. 
-        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. 
+        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach.
+        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature.
 
-        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round. 
+        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round.
 
 
         You can use this ability once per round.
@@ -123,7 +123,7 @@
         Each time you make an attack with your primary weapon, you can make an extra attack
         with your off-hand weapon.  The weapons must be one-handed or a double weapon.
 
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack. 
+        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
         For each light weapon you are wielding, reduce the attack penalty by 1.
 
         Additionally, you can draw two weapons as part of the same action. You may also sheath two one-handed weapons on your belt.
@@ -146,7 +146,7 @@
 
     Combat Brawn::section.feat
       Effect::text
-        You gain a +2 bonus when bullrushing, grappling and overrunning. 
+        You gain a +2 bonus when bullrushing, grappling and overrunning.
 
         Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
 
@@ -175,7 +175,7 @@
     Two-Handed Fighting::section.feat
       Effect::text
         When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemy that is adjacent to you as well.
-      
+
     Precise Shot::section.feat
       Effect::text
         You don't suffer the -4 penalty for firing into a melee.
@@ -187,7 +187,7 @@
         Precise Shot
       Effect::section
         ::text
-          You can reload gun and crossbows faster 
+          You can reload gun and crossbows faster
 
         ::bullets
           * move->no action

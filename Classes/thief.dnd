@@ -119,7 +119,7 @@
         TODO
       Find and Disarm Trap (Int)::section.skill_description
         ::text
-          This skill is used to both find and disarm traps. The DC for both is determined by the trap itself. 
+          This skill is used to both find and disarm traps. The DC for both is determined by the trap itself.
           Some traps cannot be disarmed (for example a camouflaged pit trap - disarming it would just be triggering it).
 
           A thief who fails to disarm a trap by more than 5 sets the trap off.
@@ -148,7 +148,7 @@
 
     Uncanny Dodge::text
       Starting at 4th level, a thief can react to danger before her senses would normally allow her to do so. She retains her Dexterity bonus to AC (if any) even if she is caught flat-footed or struck by an invisible attacker. However, she still loses her Dexterity bonus to AC if immobilized.
-      
+
     Improved Uncanny Dodge::text
       A thief of 8th level or higher can no longer be flanked.  This defense denies another thief the ability to sneak attack the character by flanking her.
 

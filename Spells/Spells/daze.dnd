@@ -2,7 +2,7 @@
   Daze::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Sorcerer] 0
         Components:       | V, S, M
@@ -13,8 +13,8 @@
         Saving Throw:     | Will negates
         Tags:             | Mind-affecting
     ::text
-      This enchantment clouds the mind of a medium creature with 4 or fewer Hit Dice so that it takes no actions. 
+      This enchantment clouds the mind of a medium creature with 4 or fewer Hit Dice so that it takes no actions.
 
-      Creatures of 5 or more HD are not affected. 
+      Creatures of 5 or more HD are not affected.
 
       A dazed subject is not stunned, so attackers get no special advantage against it.

@@ -2,7 +2,7 @@
   Electric Jolt::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Sorcerer] 0
         Components:       | V,S

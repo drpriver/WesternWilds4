@@ -1,9 +1,9 @@
   ::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
-        Level:            | 
+        Level:            |
         Components:       |
         Casting Time:     |
         Range:            |

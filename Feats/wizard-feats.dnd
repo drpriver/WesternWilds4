@@ -16,7 +16,7 @@
         It takes half the time and gold to scribe spells of these schools into your spellbook.
 
         You gain a +2 bonus on checks to learn spells of these schools.
-        
+
         If you have the mental spell metamagic feat, the level adjustment is always +0 when applied to spells of these schools.
     Genesis::section.feat
       Specialization
@@ -52,7 +52,7 @@
       Prerequisite::text
         Can take only at level 1, can only have 1 specialization feat
       Effect::text
-        You know an additional two 1st level spells at level 1. 
+        You know an additional two 1st level spells at level 1.
 
         You learn one additional spell every level.
 
@@ -104,7 +104,7 @@
     Enlarge Spell::section.feat
       Metamagic
       Effect::text
-        Increase the dimensions of the area of the spell by 50%. 
+        Increase the dimensions of the area of the spell by 50%.
 
         Level adjustment +1
 
@@ -114,9 +114,9 @@
         Increase the range category of a spell.
 
         Touch -> Short
-        
+
         Short -> Medium
-        
+
         Medium ->Long
 
         Level adjustment +1

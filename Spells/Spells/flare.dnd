@@ -2,7 +2,7 @@
   Flare::section.spell
     ::table.spell_info
       ::head
-        | 
+        |
       ::row
         Level:            | [Bard] 0, [Sorcerer] 0, [Wizard] 0
         Components:       | V
@@ -12,9 +12,9 @@
         Saving Throw:     | Fortitude negates
         Tags:             | Light
     ::text
-      This cantrip creates a burst of light. 
+      This cantrip creates a burst of light.
 
-      If you cause the light to burst directly in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save. 
+      If you cause the light to burst directly in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save.
 
       Sightless creatures, as well as creatures already dazzled, are not affected by flare.
 

@@ -10,7 +10,7 @@
       familiar sights.
 
       Water, particularly running water, ruins a trail for air-breathing creatures.
-      Water-breathing creatures that have the scent skill, however, can use it in 
+      Water-breathing creatures that have the scent skill, however, can use it in
       the water easily.
 
       False, powerful odors can easily mask other scents. The presence of such an odor
@@ -24,7 +24,7 @@
       creature must be within 30 feet in relatively still conditions. If downwind, the
       range is 15' and upwind the range is 60'.
 
-      A successful check indicates the direction of the creature (or creatures). If 
+      A successful check indicates the direction of the creature (or creatures). If
       adjacent to the creature, their position is revealed.
 
     Smell Tracks::text
@@ -35,5 +35,5 @@
     Special::text
       Gnomes who somehow have the scent skill get +2 to scent checks due to their keen nose.
 
-      
+
 
