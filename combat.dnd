@@ -207,7 +207,7 @@ Combat::chapter
 
       You suffer a -4 penalty with ranged attacks to hit such creatures. You can ignore this penalty by targeting randomly into the melee.
 
-    Firing into back line or crowd::section.combat_rules
+    Firing into back line or crowd::text.combat_rules
       It is impossible to pick out a specific target that is not at the edge of a crowd with a ranged attack. To target deeper into a crowed, you must target randomly.
 
     Touch Attacks::text.combat_rules
@@ -226,7 +226,7 @@ Combat::chapter
 
       If you have multiple sources of energy resistance, only the best one applies.
 
-    Damage Reduction:: section.combat_rules
+    Damage Reduction:: text.combat_rules
       Damage reduction is indicates as DR N/Some damage type. What this means is all bludgeoning, slashing and piercing damage is reduced by that amount unless it is of the specified type. For example, skeletons often have DR 5/bludgeoning which means they take 5 less damage from slashing and piercing attacks. If multiple sources of DR would apply, only use the best one.
       
       Damage reduction with the special type "-" works a bit differently. It reduces the damage from all damage types, including energy types. Damage reduction N/- stacks with everything.
