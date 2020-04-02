@@ -53,12 +53,9 @@ function onload(){
     }
     }
     const hidden_ul = document.querySelectorAll("nav li");
-    console.log(hidden_ul);
     for(let i = 0; i < hidden_ul.length; i++){
         hidden_ul[i].addEventListener("click", function(e){
             const el = e.target.parentNode.getElementsByTagName("ul")
-            console.log(el);
-            console.log(!el);
             if(!el.length)
                 return;
             el[0].classList.toggle("expanded");
