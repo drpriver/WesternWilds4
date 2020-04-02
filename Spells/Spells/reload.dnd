@@ -1,0 +1,13 @@
+
+  Reload::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Sorcerer] 0
+        Components:       | V
+        Casting Time:     | 1 swift action
+        Range:            | 30'
+        Targets:          | one firearm or crossbow per level
+    ::text
+      You quickly reload your own or allies firearms and crossbows.
