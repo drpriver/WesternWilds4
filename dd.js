@@ -3,6 +3,7 @@ let rules;
 let weapons;
 let armor;
 let gear;
+let needs_restore = false;
 function onload(){
     {
     const chapters = document.getElementsByClassName("chapter");
@@ -28,7 +29,11 @@ function onload(){
     function restorify(el){
         const links = el.getElementsByTagName("a");
         function restore(){
-            document.getElementsByClassName("center")[0].replaceWith(rules);
+            const cent = document.getElementsByClassName("center")[0];
+            if(needs_restore){
+                cent.replaceWith(rules);
+                needs_restore = false;
+            }
         }
         for(let i = 0; i < links.length; i++){
             links[i].addEventListener("click", restore);
@@ -41,9 +46,9 @@ function onload(){
     const button_names = ["Rules", "Weapon", "Armor", "Gear"];
     const button_funcs = [
         function(){document.getElementsByClassName("center")[0].replaceWith(rules);},
-        function(){document.getElementsByClassName("center")[0].replaceWith(weapons);},
-        function(){document.getElementsByClassName("center")[0].replaceWith(armor);},
-        function(){document.getElementsByClassName("center")[0].replaceWith(gear);},
+        function(){document.getElementsByClassName("center")[0].replaceWith(weapons); needs_restore=true;},
+        function(){document.getElementsByClassName("center")[0].replaceWith(armor); needs_restore=true;},
+        function(){document.getElementsByClassName("center")[0].replaceWith(gear); needs_restore=true;},
     ];
     const top = document.getElementsByClassName("top")[0];
     for(let i = 0; i < button_names.length;i++){
