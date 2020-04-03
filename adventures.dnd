@@ -15,7 +15,7 @@ Adventures::chapter
 
       Casters who prepare their spells (clerics, druids, wizards) can swap out their unexpended prepared spells for a spell of the same level each day. Wizards need 8 full hours of sleep (4 for elves) and an hour of study. Clerics and druids have to pray at the right time (usually dawn).
 
-  Sleeping in the Wilderness::section
+  Sleeping in the Wilderness::text
     If you sleep in the wilderness without a bedroll, you sleep poorly and suffer a -1 penalty to attacks, savings throws, skill rolls and spell DCs until you get a proper night's sleep. Rangers are immune to this effect.
 
     If weather is inclement (rain for example), an unsheltered character suffers the same penalty, which stacks with the above penalty.

@@ -42,7 +42,7 @@
         [Sleep]               | Puts 4 HD of creatures into magical slumber.
         [Unseen Servant]      | Invisible force obeys your commands.
         [Ventriloquism]       | Throws voice for 1 min./level.
-    [2nd-Level Bard Spells::table.spell_list
+    2nd-Level Bard Spells::table.spell_list
       ::head
         |
       ::row

@@ -14,7 +14,7 @@ a, img {
 html, body {
     height: 100%;
     margin: 0;
-    font-family: "Tahoma";
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
     background-color: rgb(228,223,204);
@@ -28,7 +28,7 @@ div.grid_container{
     }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Tahoma";
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -417,6 +417,9 @@ div.weapon > h4 {
     color: black;
     border-bottom: 1px solid grey;
     width: auto;
+}
+table.level_table .odd {
+    background-color: rgb(205,200,184);
 }
 
 

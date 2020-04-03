@@ -20,7 +20,7 @@
       html, body {
           height: 100%;
           margin: 0;
-          font-family: "Tahoma";
+          font-family: Tahoma, Geneva, Verdana, sans-serif;
       }
       body {
           background-color: rgb(228,223,204);
@@ -34,7 +34,7 @@
           }
       
       h1,h2,h3,h4,h5,h6 {
-          font-family: "Tahoma";
+          font-family: Tahoma, Geneva, Verdana, sans-serif;
       
       }
       
@@ -424,6 +424,9 @@
           border-bottom: 1px solid grey;
           width: auto;
       }
+      table.level_table .odd {
+          background-color: rgb(205,200,184);
+      }
       
       
       
@@ -518,7 +521,7 @@
           {
           const button_names = ["Rules", "Weapon", "Armor", "Gear"];
           const button_funcs = [
-              function(){document.getElementsByClassName("center")[0].replaceWith(rules);},
+              function(){if(needs_restore) document.getElementsByClassName("center")[0].replaceWith(rules); needs_restore=false},
               function(){document.getElementsByClassName("center")[0].replaceWith(weapons); needs_restore=true;},
               function(){document.getElementsByClassName("center")[0].replaceWith(armor); needs_restore=true;},
               function(){document.getElementsByClassName("center")[0].replaceWith(gear); needs_restore=true;},
@@ -19310,11 +19313,15 @@
               </p>
             </div>
           </section>
-          <section>
+          <div>
             <h3 id="sleeping-in-the-wilderness">Sleeping in the Wilderness</h3>
-            If you sleep in the wilderness without a bedroll, you sleep poorly and suffer a -1 penalty to attacks, savings throws, skill rolls and spell DCs until you get a proper night's sleep. Rangers are immune to this effect.
-            If weather is inclement (rain for example), an unsheltered character suffers the same penalty, which stacks with the above penalty.
-          </section>
+            <p>
+              If you sleep in the wilderness without a bedroll, you sleep poorly and suffer a -1 penalty to attacks, savings throws, skill rolls and spell DCs until you get a proper night's sleep. Rangers are immune to this effect.
+            </p>
+            <p>
+              If weather is inclement (rain for example), an unsheltered character suffers the same penalty, which stacks with the above penalty.
+            </p>
+          </div>
         </section>
         <section class="chapter">
           <h2 id="experience">Experience</h2>
@@ -19329,7 +19336,7 @@
           </div>
           <section>
             <h3 id="level-table">Level table</h3>
-            <table>
+            <table class="level_table">
               <thead>
                 <tr class="table_header">
                   <th>Level </th>
@@ -20230,7 +20237,7 @@
               </table>
             </section>
             <section>
-              <h4 id="nd-level-bard-spells">[2nd-Level Bard Spells</h4>
+              <h4 id="nd-level-bard-spells">2nd-Level Bard Spells</h4>
               <table class="spell_list">
                 <thead>
                   <tr class="table_header">

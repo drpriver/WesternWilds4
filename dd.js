@@ -45,7 +45,7 @@ function onload(){
     {
     const button_names = ["Rules", "Weapon", "Armor", "Gear"];
     const button_funcs = [
-        function(){document.getElementsByClassName("center")[0].replaceWith(rules);},
+        function(){if(needs_restore) document.getElementsByClassName("center")[0].replaceWith(rules); needs_restore=false},
         function(){document.getElementsByClassName("center")[0].replaceWith(weapons); needs_restore=true;},
         function(){document.getElementsByClassName("center")[0].replaceWith(armor); needs_restore=true;},
         function(){document.getElementsByClassName("center")[0].replaceWith(gear); needs_restore=true;},

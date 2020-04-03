@@ -3,40 +3,25 @@ Experience::chapter
     XP for gold (coins, gems, jewelry). This treasure must be gained by risking life and limb. Magic items do not grant XP, but can be sold. They do not grant xp when sold.
 
     XP is also earned from ruling domains, running a class guild, and rescuing maidens.
-  Level table::table
+  Level table::table.level_table
     ::head
       Level | Total XP to this level
     ::row
       Level 1 | 0 xp
-    ::row
       Level 1.5 | 1000xp
-    ::row
       Level 2| 2000xp
-    ::row
       Level 2.5| 3000xp
-    ::row
       Level 3| 4000xp
-    ::row
       Level 3.5| 6000xp
-    ::row
       Level 4| 8000xp
-    ::row
       Level 4.5| 12,000xp
-    ::row
       Level 5| 16,000xp
-    ::row
       Level 5.5| 24,000xp
-    ::row
       Level 6| 32,000xp
-    ::row
       Level 6.5| 48,000xp
-    ::row
       Level 7| 64,000xp
-    ::row
       Level 7.5| 100,000xp
-    ::row
       Level 8| 125,000xp
-    ::row
       Level 8+ | 125,000 more xp
   ::text
     Every 125,000 xp more that is earned after level 8 allows the character to choose another feat. Additionally, they can retry any skills checks they have failed.
