@@ -10,9 +10,9 @@
         Targets:          | self
         Duration:         | 1 minute/level
     ::text
-      Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you. 
+      Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you.
 
-      It negates magic missile attacks directed at you. 
+      It negates magic missile attacks directed at you.
 
       The disk also provides a +2 shield bonus to AC against melee attacks and a +4 bonus to AC against ranged attacks.
 

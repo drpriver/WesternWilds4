@@ -9,6 +9,6 @@
         Range:            | Medium (100' + 10'/level)
         Targets:          | 1 creature
     ::text
-      Choose a type of orb: cold (water), fire (fire), bludgeoning (earth) or slashing (wind). 
+      Choose a type of orb: cold (water), fire (fire), bludgeoning (earth) or slashing (wind).
 
       You must succeed on a ranged [touch attack] to hit your target. The orb deals 1d8 + 1d8/ 2 levels damage of the chosen type.
