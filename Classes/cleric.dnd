@@ -168,7 +168,7 @@
 
 
         Air Domain Spells::bullets
-          * [Obscuring Mist]: Fog surrounds you.
+          * [Lesser Elemental Orb] (wind only): Shoot an orb of wind dealing 1d8 + 1d8/ per 2 levels slashing damage.
           * Wind Wall: Deflects arrows, smaller creatures, and gases.
           * Gaseous Form: Subject becomes insubstantial and can fly slowly.
           * Air Walk: Subject treads on air as if solid (climb at 45-degree angle).
@@ -356,7 +356,7 @@
           Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
         Water Domain Spells::bullets
-          * [Obscuring Mist]: Fog surrounds you.
+          * [Lesser Elemental Orb] (water only): Shoot an orb of water dealing 1d8 + 1d8/ per 2 levels cold damage.
           * Fog Cloud: Fog obscures vision.
           * Water Breathing: Subjects can breathe underwater.
           * Control Water: Raises or lowers bodies of water.
