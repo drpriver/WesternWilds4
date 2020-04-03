@@ -1,0 +1,16 @@
+
+  Bless::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 1
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | 50'
+        Area:             | The caster and all allies within 50'
+        Duration:         | 1 min/level
+    ::text
+      Bless fills your allies with divine courage. Each ally gains a +1 sacred bonus on attack rolls and on saving throws against fear effects.
+
+

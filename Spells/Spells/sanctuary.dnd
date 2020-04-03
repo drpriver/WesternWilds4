@@ -1,0 +1,18 @@
+  Sanctuary::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 1
+        Components:       | V, S
+        Casting Time:     | 1 swift action
+        Target            | self
+        Duration:         | 1 round/level
+    ::text
+      Any opponent attempting to strike or otherwise directly attack you, even with a targeted spell, can't. Those not attempting to attack the subject remain unaffected. 
+
+      This spell does not prevent you from being attacked or affected by area of effect spells. 
+
+      You cannot attack without breaking the spell but may use nonattack spells or otherwise act.
+
+

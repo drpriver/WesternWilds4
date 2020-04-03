@@ -1,0 +1,12 @@
+  Divine Favor::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 1
+        Components:       | V,S
+        Casting Time:     | 1 standard action
+        Targets:          | self
+        Duration:         | 1 min/level
+    ::text
+      Calling upon the strength and wisdom of your deity, you gain a +1 sacred bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn’t apply to spell damage.

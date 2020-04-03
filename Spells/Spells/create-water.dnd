@@ -1,0 +1,10 @@
+  Create Water::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 0, [Druid] 0
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+    ::text
+      This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large—possibly creating a downpour or filling many small receptacles. Do note how little a gallon is when spread out.
