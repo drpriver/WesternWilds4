@@ -168,7 +168,7 @@
 
 
         Air Domain Spells::bullets
-          * Obscuring Mist: Fog surrounds you.
+          * [Obscuring Mist]: Fog surrounds you.
           * Wind Wall: Deflects arrows, smaller creatures, and gases.
           * Gaseous Form: Subject becomes insubstantial and can fly slowly.
           * Air Walk: Subject treads on air as if solid (climb at 45-degree angle).
@@ -180,7 +180,7 @@
           Add Knowledge (nature) to your list of cleric class skills.
 
         Animal Domain Spells::bullets
-          * Calm Animals: Calms (2d4 + level) HD of animals.
+          * [Calm Animals]: Calms (2d4 + level) HD of animals.
           * Hold Animal: Paralyzes one animal for 1 round/level.
           * Dominate Animal: Subject animal obeys silent mental commands.
           * TODO: 4th level animal spell
@@ -190,7 +190,7 @@
           You cast chaos spells at +1 caster level.
 
         Chaos Domain Spells::bullets
-          * Protection from Law: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
+          * [Protection from Law, Prtection from Chaos/Evil/Good/Law]: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
           * Shatter: Sonic vibration damages objects or crystalline creatures.
           * Magic Circle against Law: As protection spells, but 10-ft. radius and 10 min./level.
           * Chaos Hammer: Damages and staggers lawful creatures.
@@ -200,7 +200,7 @@
           You may use a death touch once per long rest. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature’s current hit points, it dies (no save).
 
         Death Domain Spells::bullets
-          * Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.
+          * [Cause Fear]: One creature of 5 HD or less flees for 1d4 rounds.
           * Death Knell: Kill dying creature and gain 1d8 temporary hp, +2 to Str, and +1 caster level.
           * Animate Dead: Creates undead skeletons and zombies.
           * Death Ward: Grants immunity to death spells and negative energy effects.
@@ -210,7 +210,7 @@
           You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per long rest.
 
         Destruction Domain Spells::bullets
-          * Inflict Light Wounds: Touch attack, 1d8 damage +1/level (max +5).
+          * [Inflict Light Wounds]: Touch attack, 1d8 damage +1/level (max +5).
           * Inflict Moderate Wounds: Touch attack, 2d8+1/level (max+10)
           * Inflict Serious Wounds: Touch attack, 3d8+1/level (max +15)
           * Inflict Critical Wounds: Touch attack, 4d8 damage +1/level (max +20).
@@ -221,7 +221,7 @@
 
 
         Earth Domain Spells::bullets
-          * Magic Stone: Three stones become +1 projectiles, 1d6 +1 damage.
+          * [Lesser Elemental Orb] (earth only): Shoot an orb of earth dealing 1d8 + 1d8/ per 2 levels bludgeoning damage.
           * Soften Earth and Stone: Turns stone to clay or dirt to sand or mud.
           * Stone Shape: Sculpts stone into any shape.
           * Spike Stones: Creatures in area take 1d8 damage, may be lowed.
@@ -232,7 +232,7 @@
 
 
         Fire Domain Spells::bullets
-          * Burning Hands: 1d4/level fire damage (max 5d4).
+          * [Lesser Elemental Orb] (fire only): Shoot an orb of fire dealing 1d8 + 1d8/ per 2 levels fire damage.
           * Produce Flame: 1d6 damage +1/ level, touch or thrown.
           * Resist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.
           * Wall of Fire: Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
@@ -242,7 +242,7 @@
           You cast good spells at +1 caster level.
 
         Good Domain Spells::bullets
-        *  Protection from Evil: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
+        *  [Protection from Evil, Protection from Chaos/Evil/Good/Law]: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
         *  Aid: +1 on attack rolls, +1 on saves against fear, 1d8 temporary hp +1/level (max +10).
         *  Magic Circle against Evil: As protection spells, but 10-ft. radius and 10 min./level.
         *  Holy Smite: Damages and blinds evil creatures.
@@ -252,7 +252,7 @@
           You cast healing spells at +1 caster level.
 
         Healing Domain Spells::bullets
-          * Cure Light Wounds: Cures 1d8 damage +1/level (max +5).
+          * [Cure Light Wounds]: Cures 1d8 damage +1/level (max +5).
           * Cure Moderate Wounds: Cures 2d8 damage +1/level (max +10).
           * Cure Serious Wounds: Cures 3d8 damage +1/level (max +15).
           * Cure Critical Wounds: Cures 4d8 damage +1/level (max +20).
@@ -262,7 +262,7 @@
           You cast law spells at +1 caster level.
 
         Law Domain Spells::bullets
-          * Protection from Chaos: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
+          * [Protection from Chaos, Protection from Chaos/Evil/Good/Law]: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
           * Calm Emotions: Calms creatures, negating emotion effects.
           * Magic Circle against Chaos: As protection spells, but 10-ft. radius and 10 min./level.
           * Order’s Wrath: Damages and dazes chaotic creatures.
@@ -272,7 +272,7 @@
           You gain the power of good fortune, which is usable once per long rest. This extraordinary ability allows you to reroll one roll that you have just made before the game master declares whether the roll results in success or failure. You must take the result of the reroll, even if it’s worse than the original roll.
 
         Luck Domain Spells::bullets
-          * Entropic Shield: Ranged attacks against you have 20% miss chance.
+          * [Entropic Shield]: Ranged attacks against you have 20% miss chance.
           * Aid: +1 on attack rolls, +1 against fear, 1d8 temporary hp +1/level (max +10).
           * TODO: 3rd level luck
           * Freedom of Movement: Subject moves normally despite impediments.
@@ -282,7 +282,7 @@
           Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.
 
         Magic Domain Spells::bullets
-          * Magic Weapon:
+          * [Magic Weapon]:
           * Identify: Determines properties of magic item.
           * Dispel Magic: Cancels magical spells and effects.
           * Imbue with Spell Ability: Transfer spells to subject.
@@ -295,7 +295,7 @@
           Add Knowledge (nature) to your list of cleric class skills.
 
         Plant Domain Spells::bullets
-          * Entangle: Conjured Plants entangle everyone in 10-ft.-radius.
+          * [Entangle]: Conjured Plants entangle everyone in 10-ft.-radius.
           * Barkskin: Grants +2 (or higher) enhancement to natural armor.
           * Plant Growth: Grows vegetation, improves crops.
           * Command Plants: Sway the actions of one or more plant creatures.
@@ -305,7 +305,7 @@
           You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per long rest.
 
         Protection Domain Spells::bullets
-          * Sanctuary: Opponents can’t attack you, and you can’t attack.
+          * [Sanctuary] Opponents can’t attack you, and you can’t attack.
           * Shield Other: You take half of subject’s damage.
           * Protection from Energy: Absorb 12 points/level of damage from one kind of energy.
           * Spell Immunity: Subject is immune to one spell per four levels.
@@ -316,7 +316,7 @@
           You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per long rest.
 
         Strength Domain Spells::bullets
-          * Enlarge Person: Humanoid creature doubles in size.
+          * [Enlarge Person]: Humanoid creature doubles in size.
           * Bull’s Strength: Subject gains +4 to Str for 1 min./level.
           * Magic Vestment: Armor or shield gains +1 enhancement per four levels.
           * Spell Immunity: Subject is immune to one spell per four levels.
@@ -326,7 +326,7 @@
           Once per long rest, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.
 
         Sun Domain Spells::bullets
-          * Burning Hands: Shoot cone of fire.
+          * [Burning Hands]: Shoot cone of fire.
           * Heat Metal: Make metal so hot it damages those who touch it.
           * Searing Light: Ray deals 1d8/two levels, more against undead.
           * Fire Shield: Creatures attacking you take fire damage; you’re protected from heat or cold.
@@ -336,7 +336,7 @@
           Add Bluff, Disguise, and Hide to your list of cleric class skills.
 
         Trickery Domain Spells::bullets
-          * Disguise Self: Disguise own appearance.
+          * [Disguise Self]: Disguise own appearance.
           * Invisibility: Subject invisible 1 min./level or until it attacks.
           * Nondetection M: Hides subject from divination, scrying.
           * Confusion: Subjects behave oddly for 1 round/level.
@@ -346,7 +346,7 @@
           Free Martial Weapon Proficiency with deity’s favored weapon (if necessary) and Weapon Focus with the deity’s favored weapon.
 
         War Domain Spells::bullets
-          * Magic Weapon: Weapon gains +1 bonus.
+          * [Magic Weapon]: Weapon gains +1 bonus.
           * Spiritual Weapon: Magical weapon attacks on its own.
           * Magic Vestment: Armor or shield gains +1 enhancement per four levels.
           * Divine Power: You gain attack bonus, +6 to Str, and 1 hp/level.
@@ -356,7 +356,7 @@
           Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
         Water Domain Spells::bullets
-          * Obscuring Mist: Fog surrounds you.
+          * [Obscuring Mist]: Fog surrounds you.
           * Fog Cloud: Fog obscures vision.
           * Water Breathing: Subjects can breathe underwater.
           * Control Water: Raises or lowers bodies of water.
