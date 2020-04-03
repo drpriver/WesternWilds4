@@ -33,6 +33,7 @@ RACES=races.dnd\
       half-orcs.dnd\
       halflings.dnd\
       loxodon.dnd\
+      succubus.dnd\
 
 THESPELLS=acid-arrow.dnd\
           acid-splash.dnd\
