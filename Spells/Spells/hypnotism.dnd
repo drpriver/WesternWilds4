@@ -1,0 +1,27 @@
+
+  Hypnotism::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 1, [Sorcerer] 1, [Wizard] 1
+        Components:       | V, S
+        Casting Time:     | 1 swift action
+        Range:            | Close (25' + 5'/2 levels)
+        Duration:         | 2d4 rounds
+        Saving Throw:     | Will negates
+        Tags:             | Mind affecting
+    ::text
+      This spell does not work in combat.
+
+      The gestures of the wizard, along with his droning incantation, cause 1d6 creatures within the area to become susceptible to a suggestion--a brief and reasonable-sounding request. 
+
+      The request must be given after the hypnotism spell is cast. Until that time, the success of the spell is unknown. 
+
+      Note that the subsequent suggestion is not a spell, but simply a vocalized urging (the caster must speak a language the creature understands for this spell to work). 
+
+      Creatures that successfully roll their saving throws are not under hypnotic influence. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast at an individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. 
+
+      A creature that fails its saving throw does not remember that the caster enspelled it.
+
+

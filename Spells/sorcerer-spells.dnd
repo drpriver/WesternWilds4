@@ -37,7 +37,7 @@
         [Feather Fall]                        | Objects or creatures fall slowly.
         [Floating Disk]                       | Creates 3-ft.-diameter horizontal disk that holds 20 slots./level.
         [Grease]                              | Makes 10-ft. square or one object slippery.
-        [Hypnotism]                           | Fascinates 2d4 HD of creatures.
+        [Hypnotism]                           | Hypnotize 1d6 creatures.
         [Identify]                            | Determines properties of magic item.
         [Jump]                                | Subject gets bonus on Jump checks.
         [Lesser Elemental Orb]                | Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/2 levels damage. Ranged Touch attack.
@@ -46,7 +46,7 @@
         [Magic Weapon]                        | Weapon gains +1 bonus.
         [Obscuring Mist]                      | Fog surrounds you.
         [Protection from Chaos/Evil/Good/Law] | +2 to AC and saves, counter mind control.
-        [Shield]                              | Invisible disc gives +4 shield bonus to AC, blocks magic missiles.
+        [Shield]                              | Invisible disc gives +2/+4 shield bonus to AC, blocks magic missiles.
         [Shocking Grasp]                      | Touch delivers 1d6/level electricity damage (max 5d6).
         [Silent Image]                        | Creates minor illusion of your design.
         [Sleep]                               | Puts 4 HD of creatures into magical slumber.

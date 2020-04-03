@@ -1,0 +1,14 @@
+
+  Identify::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 1, [Sorcerer] 1, [Wizard] 1
+        Components:       | V, S, M (100gp pearl powdered into wine, with an owl feather which is then drunk)
+        Casting Time:     | 1 hour
+    ::text
+      The spell determines all magic properties of a single magic item, including how to activate those functions (if appropriate), and how many charges are left (if any).
+
+      To identify an item, the caster must handle the item and more or less use it as it is intended (a helmet must be worn, a sword swung, a wand pointed and pseudo activated, a potion sipped, etc.).
+      Thus, if the item is cursed, the caster will suffer the consequences.

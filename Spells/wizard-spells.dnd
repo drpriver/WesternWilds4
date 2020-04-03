@@ -41,7 +41,7 @@
         [Floating Disk]                       | Creates 3-ft.-diameter horizontal disk that holds 20 slots/level.
         [Grease]                              | Makes 10-ft. square or one object slippery.
         [Hold Portal]                         | Holds door shut.
-        [Hypnotism]                           | Fascinates 2d4 HD of creatures.
+        [Hypnotism]                           | Hypnotizes 1d6 creatures.
         [Identify]                            | Determines properties of magic item.
         [Jump]                                | Subject gets bonus on Jump checks.
         [Mage Armor]                          | Gives subject +4 armor bonus.
