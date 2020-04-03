@@ -36,14 +36,20 @@ RACES=races.dnd\
 
 THESPELLS=acid-arrow.dnd\
           acid-splash.dnd\
+          aid.dnd\
           animal-messenger.dnd\
           animal-trance.dnd\
           animate-ghouls.dnd\
           animate-rope.dnd\
           animate-skeletons.dnd\
           animate-zombies.dnd\
+          augury.dnd\
+          aura-of-life-10-radius.dnd\
           baleful-transposition.dnd\
+          bane.dnd\
           benign-transposition.dnd\
+          bestow-curse.dnd\
+          bless.dnd\
           blindness-deafness.dnd\
           blink.dnd\
           blur.dnd\
@@ -51,16 +57,24 @@ THESPELLS=acid-arrow.dnd\
           calm-emotions.dnd\
           cause-fear.dnd\
           chain-missiles.dnd\
+          chant.dnd\
           charm-monster.dnd\
           charm-person.dnd\
           color-spray.dnd\
           combust.dnd\
+          command.dnd\
           cone-of-fire.dnd\
           confusion,-lesser.dnd\
           confusion.dnd\
+          continual-flame.dnd\
+          control-water.dnd\
           corrosive-grasp.dnd\
+          create-food-and-water.dnd\
+          create-water.dnd\
           crushing-despair.dnd\
+          cure-critical-wounds.dnd\
           cure-light-wounds.dnd\
+          cure-minor-wounds.dnd\
           cure-moderate-wounds.dnd\
           cure-serious-wounds.dnd\
           curse-of-impending-blades.dnd\
@@ -70,39 +84,52 @@ THESPELLS=acid-arrow.dnd\
           daze-monster.dnd\
           daze.dnd\
           deep-slumber.dnd\
+          deeper-darkness.dnd\
           delay-poison.dnd\
           delusions-of-grandeur.dnd\
+          detect-chaos-evil-good-law.dnd\
           detect-magic.dnd\
+          detect-poison.dnd\
           detect-secret-doors.dnd\
+          detect-undead.dnd\
           dimension-door.dnd\
           disguise-self.dnd\
+          dismissal.dnd\
           dispel-magic.dnd\
           displacement.dnd\
           disrupt-undead.dnd\
           distort-speech.dnd\
+          divination.dnd\
+          divine-favor.dnd\
+          doom.dnd\
           earthbind.dnd\
           electric-loop.dnd\
           electroic-jolt.dnd\
           elemental-orb.dnd\
           enhance-ability.dnd\
           enthrall.dnd\
+          entropic-shield.dnd\
           expeditious-retreat.dnd\
           false-life.dnd\
           fear.dnd\
           feather-fall.dnd\
+          find-traps.dnd\
           fire-shield.dnd\
           fireball.dnd\
           flame-arrow.dnd\
+          flamestrike.dnd\
           flaming-sphere.dnd\
           flare.dnd\
           floating-disk.dnd\
           fly.dnd\
           fog-cloud.dnd\
+          freedom-of-movement.dnd\
           gaseous-form.dnd\
           ghost-harp.dnd\
           ghost-sound.dnd\
           ghoul-touch.dnd\
           glitterdust.dnd\
+          glyph-of-warding.dnd\
           good-hope.dnd\
           grease.dnd\
           greater-flaming-sphere.dnd\
@@ -111,6 +138,7 @@ THESPELLS=acid-arrow.dnd\
           gust-of-wind.dnd\
           haste.dnd\
           heroism.dnd\
+          hide-from-undead.dnd\
           hideous-laughter.dnd\
           hold-person.dnd\
           hypnotic-pattern.dnd\
@@ -118,6 +146,10 @@ THESPELLS=acid-arrow.dnd\
           ice-storm.dnd\
           identify.dnd\
           illusory-wall.dnd\
+          inflict-critical-wounds.dnd\
+          inflict-light-wounds.dnd\
+          inflict-moderate-wounds.dnd\
+          inflict-serious-wounds.dnd\
           inspirational-boost.dnd\
           invisibility,-10-radius.dnd\
           invisibility.dnd\
@@ -138,25 +170,41 @@ THESPELLS=acid-arrow.dnd\
           major-image.dnd\
           mass-mage-armor.dnd\
           mass-shield.dnd\
+          meld-into-stone.dnd\
           message.dnd\
           minor-image.dnd\
           mirror-image.dnd\
+          neutralize-poison.dnd\
           obscuring-mist.dnd\
           open-close.dnd\
           phantasmal-killer.dnd\
+          poison.dnd\
+          prayer.dnd\
           prestidigitation.dnd\
+          protect-other.dnd\
           protection-from-arrows.dnd\
           protection-from-chaos-evil-good-law.dnd\
+          protection-from-death.dnd\
+          purify-food-and-drink.dnd\
           pyrotechnics.dnd\
           ray-of-frost.dnd\
           reload.dnd\
+          remove-blindness-deafness.dnd\
           remove-curse.dnd\
+          remove-disease.dnd\
           remove-fear.dnd\
+          remove-paralysis.dnd\
           resilient-sphere.dnd\
+          resist-energy-10-radius.dnd\
+          resist-energy.dnd\
+          restoration,-lesser.dnd\
+          restoration.dnd\
           reverse-arrows.dnd\
+          sanctuary.dnd\
           scare.dnd\
           scorching-ray.dnd\
           sculpt-sound.dnd\
+          searing-light.dnd\
           see-invisibility.dnd\
           shatter.dnd\
           shield.dnd\
@@ -171,8 +219,12 @@ THESPELLS=acid-arrow.dnd\
           snowball-swarm.dnd\
           sonic-snap.dnd\
           sound-burst.dnd\
+          spell-immunity.dnd\
+          spiritual-weapon.dnd\
           stick.dnd\
+          sticks-to-snakes.dnd\
           stinking-cloud.dnd\
+          stone-shape.dnd\
           stoneskin.dnd\
           suggestion.dnd\
           summon-instrument.dnd\
@@ -180,10 +232,13 @@ THESPELLS=acid-arrow.dnd\
           unseen-servant.dnd\
           vampiric-touch.dnd\
           ventriloquism.dnd\
+          wall-against-evil-good-chaos-law.dnd\
           wall-of-ice.dnd\
+          water-breathing.dnd\
+          water-walk.dnd\
           web.dnd\
           whispering-wind.dnd\
-	  wild-shape-black-bear.dnd\
+          wild-shape-black-bear.dnd\
           wind-gale.dnd
 
 SPELLS=spell-lists.dnd\
