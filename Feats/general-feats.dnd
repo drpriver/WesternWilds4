@@ -137,3 +137,8 @@
         You get a -1 to all d20 rolls.
 
         When you are below 50% HP, or when you have any negative status ailments, you instead have a +3 to all d20 rolls.
+    Hero::section.feat
+      Prerequisite::text
+        Good alignment
+      Effect::text
+        Once per day, when you would be reduced to 0 or fewer HP, you may instead go to 1 HP and remove all negative conditions.

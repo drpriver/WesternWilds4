@@ -1,0 +1,12 @@
+
+  Inspirational Boost::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 0
+        Components:       | V
+        Casting Time:     | 1 swift action
+        Duration:         | 1 minute or until you use a bardic music 
+    ::text
+      All numeric effects of your next bardic music is 1 better. For example, your inspire courage adds an extra +1 to saving throws against charm and fear, an extra +1 to attack and an extra +1 to damage.
