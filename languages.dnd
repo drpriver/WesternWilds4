@@ -1,0 +1,49 @@
+Languages::chapter
+  ::text
+    All characters know how to speak Common (Spanish). A dwarf, elf, gnome, half-elf, half-orc, or halfling also speaks a racial language, as appropriate. A character who has an Intelligence bonus at 1st level speaks other languages as well, one extra language per point of Intelligence bonus as a starting character.
+
+  Literacy::section
+    ::text
+      Any character except a barbarian can read and write all the languages he or she speaks.
+
+  Class-Related Languages::section
+    ::text
+      Clerics, druids, rangers, and wizards can choose certain languages as bonus languages even if they’re not on the lists found in the race descriptions. These class-related languages are as follows:
+    ::table
+      ::head
+        Class | Languages
+      ::row
+        Cleric | Abyssal, Celestial, Infernal
+        Druid | Sylvan
+        Wizard | Draconic
+        Ranger | Giant, Goblin, Orc
+
+  Common Languages::section
+    ::bullets
+      * Spanish (Common)
+      * French
+      * English
+      * Dutch
+      * Swedish
+      * Turkish
+      * Elvish
+      * Dwarf
+      * Halfling
+      * Gnome
+
+  Uncommon Languages::section
+    ::bullets
+      * Giant
+      * Goblin
+      * Orc
+      * Abyssal
+      * Celestial
+      * Infernal
+      * Sylvan
+      * Draconic
+      * Terran
+      * Ignan
+      * Aquan
+      * Auran
+      * Scalytongue
+      * Mertongue

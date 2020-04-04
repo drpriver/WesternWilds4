@@ -181,3 +181,8 @@
       Effect::text
         Gain one additional favored terrain. Improve terrain bonuses by 2.
 
+    Trophy Collector::section.feat
+      Effect::text
+        Once your party has slain a creature in combat, you can take a trophy from the corpse. If you do, you get +1 attack and saves when fighting that creature type. For example, your party kills their first goblin, and you take a goblin tooth and put it on your necklace. From now on, you get +1 attack on goblins, and +1 on saves from goblin effects.
+
+        At level 5, this bonus increases to +2.

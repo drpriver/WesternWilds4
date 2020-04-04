@@ -24,6 +24,6 @@
     Alchemists::text
       Gnomes have a +2 bonus to [alchemy] checks. This counts as 2 bonus ranks for effects that care how many ranks in alchemy you have, but do not count against the gnome for how many ranks he may purchase.
     Languages::text
-      All gnomes speak Gnome and all adventuring elves speak common. Gnomes who receive bonus languages due to a high [Intelligence] can choose from Draconic, Dwarven, Elven, Giant, Goblin and Orc.
+      All gnomes speak Gnome and all adventuring elves speak common (spanish). Gnomes who receive bonus languages due to a high [Intelligence] can choose from Draconic, Dwarven, Elven, Giant, Goblin and Orc.
 
       In addition, a gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like) at will.

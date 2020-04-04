@@ -346,6 +346,7 @@ CAMPAIGNS=campaigns.dnd\
 
 ALL=basics.dnd\
     $(addprefix Races/,$(RACES))\
+    languages.dnd\
     alignment.dnd\
     $(addprefix Classes/,$(CLASSES))\
     $(addprefix Skills/,$(SKILLS))\
