@@ -54,7 +54,7 @@
 
         ::bullets
           * move->no action
-          * standard -> move action, can also move half your speed.
+          * standard -> move action, can also move half your speed or reload a second standard action weapon
           * full round -> move action
 
     Gun Fighting::section.feat
