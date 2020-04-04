@@ -88,7 +88,6 @@
           * A new domain
           * A new town
           * A class guild
-          * A faction
         ::text
           A character can only control/manage one of these. He can turn over the institution
           to an NPC if he desires, which frees him to pick up a different one.
@@ -108,3 +107,33 @@
           You control the cohort during combat and adventures. The DM will roleplay the cohort
           if necessary (or you can do it, whatever).
 
+    Resilient::section.feat
+      Effect::text
+        Ignore 1 level of fear
+
+        Panicked -> Frightened -> Shaken  -> Normal
+
+        Ignore 1 level of exhaustion. Act as if you are 1 level less exhausted.
+
+        Exhausted -> Fatigued -> Normal
+
+        Dying from lack of supplies takes 1 additional day.
+      Special::text
+        You cannot take this feat if you have any of the phobia flaws.
+
+    Kraken Blessed::section.feat
+      Special::text
+        Can only be taken at level 1.
+      Effect::text
+        One of your arms is an octopus style tentacle. You can pick up objects as normal, but cannot wield a weapon, wand, shield, etc. in this arm.
+
+        You can use this arm to make a slam attack that deals 1d6+str Damage, and can make a free slam attack when you take a standard or full round attack action. If you make the free attack, all your attacks are at -2 for the turn.
+
+        You get a +2 on grapple checks, and when you have a creature grappled with your tentacle, you do not count as being in the grapple (thus you can act normally).
+
+        Additionally, the Kraken Cult holds you in high regard.
+    Procrastinator::section.feat
+      Effect::text
+        You get a -1 to all d20 rolls.
+
+        When you are below 50% HP, or when you have any negative status ailments, you instead have a +3 to all d20 rolls.

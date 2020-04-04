@@ -43,6 +43,44 @@
               If you hit, you can pull yourself to them.
               If the target is a creature of your size or smaller, you can pull them to you instead.
               If the target is an object of size small or smaller, you can pull it to you instead.
+    Intermediate Bending::section.feat
+      Prerequisite::text
+        Level 3, School of Elemental Bending
+      Effect::section
+        ::text
+          Pick one of the following abilities. You can use it twice per day without spending stunning fist uses.
+        ::div.maneuver
+          ::div.maneuver_title
+            Greater Flaming Fist
+          ::div.maneuver_text
+            ::text
+              Swift action
+
+              Each of your attacks deal 1d6 additional damage this turn. Does not stack with Flaming Fist.
+        ::div.maneuver
+          ::div.maneuver_title
+            Wind Walker
+          ::div.maneuver_text
+            ::text
+            Swift action, 1 hour.
+
+            you can float above the ground while moving as you normally do. You ignore difficult terrain, can float above water and lava, don’t trigger weight based traps, leave no footprints, and you are immune to fall damage. Additionally, you get a +5 on jump checks.
+        ::div.maneuver
+          ::div.maneuver_title
+            Greater Stone Barrier
+          ::div.maneuver_text
+            ::text
+            Swift action, 10 min, range 30’.
+
+            Summon up to 8 5x5x5 stone cubes. You can stack them. If you place one into the space of a medium or smaller creature, they must make a reflex save (DC 11+Wis mod + (level-1/2)) or take 1d6+level damage and they are pushed to the nearest open space. If they succeed, they take no damage and the cube is pushed to the nearest open space. The cubes are summoned simultaneously so you cannot chain summon them on a single target.
+        ::div.maneuver
+          ::div.maneuver_title
+            Greater Water Whip
+          ::div.maneuver_text
+            ::text
+            Swift action
+
+            As water whip, but the range is extended to 20’, you can pull large creatures 5’,  you can choose to have the whip deal 1d6+level damage, and it does not require any kind of attack roll when you target an object or surface.
 
     Advanced Bending::section.feat
       Prerequisite::text
@@ -75,6 +113,14 @@
           ::div.maneuver_text
             If you hit with this melee attack, you gain DR 5/- (all sources of damage deal 5 less to you) until yyour next turn.
 
+    Intermediate Iron Fist::section.feat
+      Prerequisite::text
+        Level 3, School of Iron Fist
+      Effect::text
+        Pick one additional Maneuver
+
+        +1 damage with melee attacks
+
     Iron Fist Master::section.feat
       Prerequisite::text
         School of Iron Fist, Level 6
@@ -95,6 +141,14 @@
         +1 attack on melee attacks
 
         Any time you would be knocked prone, make a DC 15 reflex save. If you succeed, you are not knocked prone.
+
+    Intermediate Drunken Fist::section.feat
+      Prerequisite::text
+        Level 3, Drunken Fist
+      Effect::text
+        Once per encounter as a standard action, spray and ignite alcohol in a 15’ cone. Deals 1d4 damage per level, reflex save (DC 11+Wis mod + (level-1/2)) for half damage. At level 5, it can be made into a 20’ cone.
+
+        Additionally, once per day, you can autosucced a will save that you have failed, but you become sober and do not benefit from any Drunken Fist feats until you have had the chance to booze up again.
 
     Drunken Master::section.feat
       Prerequisite::text
@@ -151,6 +205,15 @@
             Swift Action, 8 hours
 
             Can walk on water and run on walls.
+    Intermediate Ninjutsu::section.feat
+      Prerequisite::text
+        Level 3, School of Ninjutsu
+      Effect::text
+        Your transformation ability lets you be small or medium sized.
+
+        Ninja Mobility lasts until you long rest.
+
+        You gain flanking and hide in shadows as a rogue.
 
     Ninja Bloodline::section.feat
       Prerequisite::text
@@ -195,6 +258,16 @@
         Firing at point blank range does not impose a penalty for firing into a melee.
 
         Meleeing with a gun deals base damage as your unarmed attack, but also benefits from the gun’s magical properties.
+
+    Intermediate Gun-Do::section.feat
+      Prerequisite::text
+        Level 3, School of Gun-Do
+      Effect::text
+        When you deflect a bullet, you can use it to reload as a free action.
+
+        When you can fire your gun as an AoO.
+
+        Your guns benefit from your Ki bonus (that you get at level 4).
 
     Gun-Do Master::section.feat
       Prerequisite::text

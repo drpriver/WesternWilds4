@@ -5,6 +5,7 @@
         ::head
           Good | Cost | Slots
         ::row
+          [Bandages] (10)       |  5gp  |  1
           [Backpack] (empty)    |  2 gp |  -
           [Bandolier]           |  5gp  |  -
           Barrel (empty)        |  2 gp |  6
@@ -68,6 +69,8 @@
     Gear Descriptions::section
       ::text
         Most of these just do what they do in real life, but some need specific clarification
+      Bandages::text
+        Bandages are used to apply [first aid].
       Backpack::text
         Without a backpack, a character is limited to just what they can carry in their arms and can wear.
 
