@@ -404,15 +404,19 @@ section.the_spells>section {
     margin-bottom: 1em;
 }
 
-div.weapon {
+section.domain, div.weapon {
     background-color: rgb(255, 243, 224);
     padding: 16px;
     border: 1px solid grey;
     max-width:30em;
     margin-bottom: 1em;
 }
+section.domain {
+    max-width: 45em;
+}
 
-div.weapon > h4 {
+div.weapon > h4,
+section.domain > h5 {
     margin-top: 0;
     color: black;
     border-bottom: 1px solid grey;

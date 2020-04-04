@@ -410,15 +410,19 @@
           margin-bottom: 1em;
       }
       
-      div.weapon {
+      section.domain, div.weapon {
           background-color: rgb(255, 243, 224);
           padding: 16px;
           border: 1px solid grey;
           max-width:30em;
           margin-bottom: 1em;
       }
+      section.domain {
+          max-width: 45em;
+      }
       
-      div.weapon > h4 {
+      div.weapon > h4,
+      section.domain > h5 {
           margin-top: 0;
           color: black;
           border-bottom: 1px solid grey;
@@ -3060,15 +3064,40 @@
                     Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="air-domain-spells">Air Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (wind only): Shoot an orb of wind dealing 1d8 + 1d8/ per 2 levels slashing damage.</li>
-                    <li> Wind Wall: Deflects arrows, smaller creatures, and gases.</li>
-                    <li> Gaseous Form: Subject becomes insubstantial and can fly slowly.</li>
-                    <li> Air Walk: Subject treads on air as if solid (climb at 45-degree angle).</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st </td>
+                        <td> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (wind only) </td>
+                        <td>  Shoot an orb of wind dealing 1d8 + 1d8/ per 2 levels slashing damage.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd </td>
+                        <td> Wind Wall </td>
+                        <td> Deflects arrows, smaller creatures, and gases.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd </td>
+                        <td> Gaseous Form </td>
+                        <td> Subject becomes insubstantial and can fly slowly.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th </td>
+                        <td> Air Walk </td>
+                        <td> Subject treads on air as if solid (climb at 45-degree angle).</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="animal-domain">Animal Domain</h5>
@@ -3081,15 +3110,40 @@
                     Add Knowledge (nature) to your list of cleric class skills.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="animal-domain-spells">Animal Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#calm-animals">Calm Animals</a>: Calms (2d4 + level) HD of animals.</li>
-                    <li> Hold Animal: Paralyzes one animal for 1 round/level.</li>
-                    <li> Dominate Animal: Subject animal obeys silent mental commands.</li>
-                    <li> TODO: 4th level animal spell</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#calm-animals">Calm Animals</a></td>
+                        <td> Calms (2d4 + level) HD of animals.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Hold Animal</td>
+                        <td> Paralyzes one animal for 1 round/level.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Dominate Animal</td>
+                        <td> Subject animal obeys silent mental commands.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> TODO</td>
+                        <td> 4th level animal spell</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="chaos-domain">Chaos Domain</h5>
@@ -3099,15 +3153,40 @@
                     You cast chaos spells at +1 caster level.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="chaos-domain-spells">Chaos Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#prtection-from-chaosevilgoodlaw">Protection from Law</a>: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</li>
-                    <li> Shatter: Sonic vibration damages objects or crystalline creatures.</li>
-                    <li> Magic Circle against Law: As protection spells, but 10-ft. radius and 10 min./level.</li>
-                    <li> Chaos Hammer: Damages and staggers lawful creatures.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#prtection-from-chaosevilgoodlaw">Protection from Law</a></td>
+                        <td> +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Shatter</td>
+                        <td> Sonic vibration damages objects or crystalline creatures.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Magic Circle against Law</td>
+                        <td> As protection spells, but 10-ft. radius and 10 min./level.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Chaos Hammer</td>
+                        <td> Damages and staggers lawful creatures.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="death-domain">Death Domain</h5>
@@ -3117,15 +3196,40 @@
                     You may use a death touch once per long rest. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature’s current hit points, it dies (no save).
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="death-domain-spells">Death Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#cause-fear">Cause Fear</a>: One creature of 5 HD or less flees for 1d4 rounds.</li>
-                    <li> Death Knell: Kill dying creature and gain 1d8 temporary hp, +2 to Str, and +1 caster level.</li>
-                    <li> Animate Dead: Creates undead skeletons and zombies.</li>
-                    <li> Death Ward: Grants immunity to death spells and negative energy effects.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#cause-fear">Cause Fear</a></td>
+                        <td> One creature of 5 HD or less flees for 1d4 rounds.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Death Knell</td>
+                        <td> Kill dying creature and gain 1d8 temporary hp, +2 to Str, and +1 caster level.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Animate Dead</td>
+                        <td> Creates undead skeletons and zombies.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Death Ward</td>
+                        <td> Grants immunity to death spells and negative energy effects.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="destruction-domain">Destruction Domain</h5>
@@ -3135,15 +3239,40 @@
                     You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per long rest.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="destruction-domain-spells">Destruction Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#inflict-light-wounds">Inflict Light Wounds</a>: Touch attack, 1d8 damage +1/level (max +5).</li>
-                    <li> Inflict Moderate Wounds: Touch attack, 2d8+1/level (max+10)</li>
-                    <li> Inflict Serious Wounds: Touch attack, 3d8+1/level (max +15)</li>
-                    <li> Inflict Critical Wounds: Touch attack, 4d8 damage +1/level (max +20).</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#inflict-light-wounds">Inflict Light Wounds</a></td>
+                        <td> Touch attack, 1d8 damage +1/level (max +5).</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Inflict Moderate Wounds</td>
+                        <td> Touch attack, 2d8+1/level (max+10)</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Inflict Serious Wounds</td>
+                        <td> Touch attack, 3d8+1/level (max +15)</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Inflict Critical Wounds</td>
+                        <td> Touch attack, 4d8 damage +1/level (max +20).</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="earth-domain">Earth Domain</h5>
@@ -3153,15 +3282,40 @@
                     Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="earth-domain-spells">Earth Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (earth only): Shoot an orb of earth dealing 1d8 + 1d8/ per 2 levels bludgeoning damage.</li>
-                    <li> Soften Earth and Stone: Turns stone to clay or dirt to sand or mud.</li>
-                    <li> Stone Shape: Sculpts stone into any shape.</li>
-                    <li> Spike Stones: Creatures in area take 1d8 damage, may be lowed.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (earth only)</td>
+                        <td> Shoot an orb of earth dealing 1d8 + 1d8/ per 2 levels bludgeoning damage.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Soften Earth and Stone</td>
+                        <td> Turns stone to clay or dirt to sand or mud.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Stone Shape</td>
+                        <td> Sculpts stone into any shape.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Spike Stones</td>
+                        <td> Creatures in area take 1d8 damage, may be lowed.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="fire-domain">Fire Domain</h5>
@@ -3171,15 +3325,40 @@
                     Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="fire-domain-spells">Fire Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (fire only): Shoot an orb of fire dealing 1d8 + 1d8/ per 2 levels fire damage.</li>
-                    <li> Produce Flame: 1d6 damage +1/ level, touch or thrown.</li>
-                    <li> Resist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.</li>
-                    <li> Wall of Fire: Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (fire only)</td>
+                        <td> Shoot an orb of fire dealing 1d8 + 1d8/ per 2 levels fire damage.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Produce Flame</td>
+                        <td> 1d6 damage +1/ level, touch or thrown.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Resist Energy</td>
+                        <td> Ignores 10 (or more) points of damage/attack from specified energy type.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Wall of Fire</td>
+                        <td> Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="good-domain">Good Domain</h5>
@@ -3189,15 +3368,40 @@
                     You cast good spells at +1 caster level.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="good-domain-spells">Good Domain Spells</h6>
-                  <ul>
-                  </ul>
-                </div>
-                *  <a href="#protection-from-chaosevilgoodlaw">Protection from Evil</a>: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
-                *  Aid: +1 on attack rolls, +1 on saves against fear, 1d8 temporary hp +1/level (max +10).
-                *  Magic Circle against Evil: As protection spells, but 10-ft. radius and 10 min./level.
-                *  Holy Smite: Damages and blinds evil creatures.
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td>  <a href="#protection-from-chaosevilgoodlaw">Protection from Evil</a></td>
+                        <td> +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td>  Aid</td>
+                        <td> +1 on attack rolls, +1 on saves against fear, 1d8 temporary hp +1/level (max +10).</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td>  Magic Circle against Evil</td>
+                        <td> As protection spells, but 10-ft. radius and 10 min./level.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td>  Holy Smite</td>
+                        <td> Damages and blinds evil creatures.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="healing-domain">Healing Domain</h5>
@@ -3207,15 +3411,40 @@
                     You cast healing spells at +1 caster level.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="healing-domain-spells">Healing Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#cure-light-wounds">Cure Light Wounds</a>: Cures 1d8 damage +1/level (max +5).</li>
-                    <li> Cure Moderate Wounds: Cures 2d8 damage +1/level (max +10).</li>
-                    <li> Cure Serious Wounds: Cures 3d8 damage +1/level (max +15).</li>
-                    <li> Cure Critical Wounds: Cures 4d8 damage +1/level (max +20).</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#cure-light-wounds">Cure Light Wounds</a></td>
+                        <td> Cures 1d8 damage +1/level (max +5).</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Cure Moderate Wounds</td>
+                        <td> Cures 2d8 damage +1/level (max +10).</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Cure Serious Wounds</td>
+                        <td> Cures 3d8 damage +1/level (max +15).</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Cure Critical Wounds</td>
+                        <td> Cures 4d8 damage +1/level (max +20).</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="law-domain">Law Domain</h5>
@@ -3225,15 +3454,40 @@
                     You cast law spells at +1 caster level.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="law-domain-spells">Law Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#protection-from-chaosevilgoodlaw">Protection from Chaos</a>: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</li>
-                    <li> Calm Emotions: Calms creatures, negating emotion effects.</li>
-                    <li> Magic Circle against Chaos: As protection spells, but 10-ft. radius and 10 min./level.</li>
-                    <li> Order’s Wrath: Damages and dazes chaotic creatures.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#protection-from-chaosevilgoodlaw">Protection from Chaos</a></td>
+                        <td> +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Calm Emotions</td>
+                        <td> Calms creatures, negating emotion effects.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Magic Circle against Chaos</td>
+                        <td> As protection spells, but 10-ft. radius and 10 min./level.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Order’s Wrath</td>
+                        <td> Damages and dazes chaotic creatures.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="luck-domain">Luck Domain</h5>
@@ -3243,15 +3497,40 @@
                     You gain the power of good fortune, which is usable once per long rest. This extraordinary ability allows you to reroll one roll that you have just made before the game master declares whether the roll results in success or failure. You must take the result of the reroll, even if it’s worse than the original roll.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="luck-domain-spells">Luck Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#entropic-shield">Entropic Shield</a>: Ranged attacks against you have 20% miss chance.</li>
-                    <li> Aid: +1 on attack rolls, +1 against fear, 1d8 temporary hp +1/level (max +10).</li>
-                    <li> TODO: 3rd level luck</li>
-                    <li> Freedom of Movement: Subject moves normally despite impediments.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#entropic-shield">Entropic Shield</a></td>
+                        <td> Ranged attacks against you have 20% miss chance.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Aid</td>
+                        <td> +1 on attack rolls, +1 against fear, 1d8 temporary hp +1/level (max +10).</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> TODO</td>
+                        <td> 3rd level luck</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Freedom of Movement</td>
+                        <td> Subject moves normally despite impediments.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="magic-domain">Magic Domain</h5>
@@ -3261,15 +3540,40 @@
                     Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="magic-domain-spells">Magic Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#magic-weapon">Magic Weapon</a>:</li>
-                    <li> Identify: Determines properties of magic item.</li>
-                    <li> Dispel Magic: Cancels magical spells and effects.</li>
-                    <li> Imbue with Spell Ability: Transfer spells to subject.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#magic-weapon">Magic Weapon</a></td>
+                        <td></td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Identify</td>
+                        <td> Determines properties of magic item.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Dispel Magic</td>
+                        <td> Cancels magical spells and effects.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Imbue with Spell Ability</td>
+                        <td> Transfer spells to subject.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="plant-domain">Plant Domain</h5>
@@ -3282,15 +3586,40 @@
                     Add Knowledge (nature) to your list of cleric class skills.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="plant-domain-spells">Plant Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#entangle">Entangle</a>: Conjured Plants entangle everyone in 10-ft.-radius.</li>
-                    <li> Barkskin: Grants +2 (or higher) enhancement to natural armor.</li>
-                    <li> Plant Growth: Grows vegetation, improves crops.</li>
-                    <li> Command Plants: Sway the actions of one or more plant creatures.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#entangle">Entangle</a></td>
+                        <td> Conjured Plants entangle everyone in 10-ft.-radius.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Barkskin</td>
+                        <td> Grants +2 (or higher) enhancement to natural armor.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Plant Growth</td>
+                        <td> Grows vegetation, improves crops.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Command Plants</td>
+                        <td> Sway the actions of one or more plant creatures.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="protection-domain">Protection Domain</h5>
@@ -3300,15 +3629,40 @@
                     You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per long rest.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="protection-domain-spells">Protection Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#sanctuary">Sanctuary</a> Opponents can’t attack you, and you can’t attack.</li>
-                    <li> Shield Other: You take half of subject’s damage.</li>
-                    <li> Protection from Energy: Absorb 12 points/level of damage from one kind of energy.</li>
-                    <li> Spell Immunity: Subject is immune to one spell per four levels.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#sanctuary">Sanctuary</a> </td>
+                        <td> Opponents can’t attack you, and you can’t attack.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd </td>
+                        <td>Shield Other</td>
+                        <td> You take half of subject’s damage.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Protection from Energy</td>
+                        <td> Absorb 12 points/level of damage from one kind of energy.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Spell Immunity</td>
+                        <td> Subject is immune to one spell per four levels.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="strength-domain">Strength Domain</h5>
@@ -3318,15 +3672,40 @@
                     You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per long rest.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="strength-domain-spells">Strength Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#enlarge-person">Enlarge Person</a>: Humanoid creature doubles in size.</li>
-                    <li> Bull’s Strength: Subject gains +4 to Str for 1 min./level.</li>
-                    <li> Magic Vestment: Armor or shield gains +1 enhancement per four levels.</li>
-                    <li> Spell Immunity: Subject is immune to one spell per four levels.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#enlarge-person">Enlarge Person</a></td>
+                        <td> Humanoid creature doubles in size.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Bull’s Strength</td>
+                        <td> Subject gains +4 to Str for 1 min./level.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Magic Vestment</td>
+                        <td> Armor or shield gains +1 enhancement per four levels.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Spell Immunity</td>
+                        <td> Subject is immune to one spell per four levels.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="sun-domain">Sun Domain</h5>
@@ -3336,15 +3715,40 @@
                     Once per long rest, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="sun-domain-spells">Sun Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#burning-hands">Burning Hands</a>: Shoot cone of fire.</li>
-                    <li> Heat Metal: Make metal so hot it damages those who touch it.</li>
-                    <li> Searing Light: Ray deals 1d8/two levels, more against undead.</li>
-                    <li> Fire Shield: Creatures attacking you take fire damage; you’re protected from heat or cold.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#burning-hands">Burning Hands</a></td>
+                        <td> Shoot cone of fire.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Heat Metal</td>
+                        <td> Make metal so hot it damages those who touch it.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Searing Light</td>
+                        <td> Ray deals 1d8/two levels, more against undead.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Fire Shield</td>
+                        <td> Creatures attacking you take fire damage; you’re protected from heat or cold.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="trickery-domain">Trickery Domain</h5>
@@ -3354,15 +3758,40 @@
                     Add Bluff, Disguise, and Hide to your list of cleric class skills.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="trickery-domain-spells">Trickery Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#disguise-self">Disguise Self</a>: Disguise own appearance.</li>
-                    <li> Invisibility: Subject invisible 1 min./level or until it attacks.</li>
-                    <li> Nondetection M: Hides subject from divination, scrying.</li>
-                    <li> Confusion: Subjects behave oddly for 1 round/level.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#disguise-self">Disguise Self</a></td>
+                        <td> Disguise own appearance.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Invisibility</td>
+                        <td> Subject invisible 1 min./level or until it attacks.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Nondetection M</td>
+                        <td> Hides subject from divination, scrying.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Confusion</td>
+                        <td> Subjects behave oddly for 1 round/level.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="war-domain">War Domain</h5>
@@ -3372,15 +3801,40 @@
                     Free Martial Weapon Proficiency with deity’s favored weapon (if necessary) and Weapon Focus with the deity’s favored weapon.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="war-domain-spells">War Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#magic-weapon">Magic Weapon</a>: Weapon gains +1 bonus.</li>
-                    <li> Spiritual Weapon: Magical weapon attacks on its own.</li>
-                    <li> Magic Vestment: Armor or shield gains +1 enhancement per four levels.</li>
-                    <li> Divine Power: You gain attack bonus, +6 to Str, and 1 hp/level.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#magic-weapon">Magic Weapon</a></td>
+                        <td> Weapon gains +1 bonus.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Spiritual Weapon</td>
+                        <td> Magical weapon attacks on its own.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Magic Vestment</td>
+                        <td> Armor or shield gains +1 enhancement per four levels.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Divine Power</td>
+                        <td> You gain attack bonus, +6 to Str, and 1 hp/level.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
               <section class="domain">
                 <h5 id="water-domain">Water Domain</h5>
@@ -3390,15 +3844,40 @@
                     Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
                   </p>
                 </div>
-                <div>
+                <section>
                   <h6 id="water-domain-spells">Water Domain Spells</h6>
-                  <ul>
-                    <li> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (water only): Shoot an orb of water dealing 1d8 + 1d8/ per 2 levels cold damage.</li>
-                    <li> Fog Cloud: Fog obscures vision.</li>
-                    <li> Water Breathing: Subjects can breathe underwater.</li>
-                    <li> Control Water: Raises or lowers bodies of water.</li>
-                  </ul>
-                </div>
+                  <table class="spell_list">
+                    <thead>
+                      <tr class="table_header">
+                        <th>Spell Level </th>
+                        <th> Spell </th>
+                        <th> Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="odd">
+                        <td>1st</td>
+                        <td> <a href="#lesser-elemental-orb">Lesser Elemental Orb</a> (water only)</td>
+                        <td> Shoot an orb of water dealing 1d8 + 1d8/ per 2 levels cold damage.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>2nd</td>
+                        <td> Fog Cloud</td>
+                        <td> Fog obscures vision.</td>
+                      </tr>
+                      <tr class="odd">
+                        <td>3rd</td>
+                        <td> Water Breathing</td>
+                        <td> Subjects can breathe underwater.</td>
+                      </tr>
+                      <tr class="even">
+                        <td>4th</td>
+                        <td> Control Water</td>
+                        <td> Raises or lowers bodies of water.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
               </section>
             </section>
           </section>
