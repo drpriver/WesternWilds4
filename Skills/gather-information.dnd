@@ -7,10 +7,8 @@
       This table is incomplete because I am lazy.
     ::table
       ::head
-        Usage | DC | Cost | Result
+        Usage                                           | DC | Cost   | Result
       ::row
-        Obtain local general rumors | 5 | 6d4gp | Learn 1d6 local rumors
-      ::row
-        Learn Semi-hidden location (black market, etc.) | 12 | 2d12 | Learn its location
-      ::row
-        Learn habits of specific person | 2d20gp | 16 | Learn 2d4 habits
+        Obtain local general rumors                     | 5  | 6d4gp  | Learn 1d6 local rumors
+        Learn Semi-hidden location (black market, etc.) | 12 | 2d12   | Learn its location
+        Learn habits of specific person                 | 16 | 2d20gp | Learn 2d4 habits

@@ -12,7 +12,7 @@
 
     Jack of all Trades::section.feat
       Effect::text
-        When you make a skill check, you can choose to roll as if you had ranks in that skill equal to ½ your bard level (rounded up).
+        When you make a skill check, you can choose to roll as if you had ranks in that skill equal to ½ your bard level (rounded down) + 2
 
     Calming Music ::section.feat
       Effect::text

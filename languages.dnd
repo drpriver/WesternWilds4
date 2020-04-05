@@ -13,7 +13,7 @@ Languages::chapter
       ::head
         Class | Languages
       ::row
-        Cleric | Abyssal, Celestial, Infernal
+        Cleric | Demonic, Celestial
         Druid | Sylvan
         Wizard | Draconic
         Ranger | Giant, Goblin, Orc
@@ -36,9 +36,8 @@ Languages::chapter
       * Giant
       * Goblin
       * Orc
-      * Abyssal
+      * Demonic
       * Celestial
-      * Infernal
       * Sylvan
       * Draconic
       * Terran
