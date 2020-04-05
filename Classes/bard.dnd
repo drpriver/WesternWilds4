@@ -61,7 +61,7 @@
     Skill Points at Each Additional Level::text
       8 + Int modifier.
     Weapon Proficiencies::text
-      A bard is proficient with all simple weapons, plus the longsword, rapier, sap, short sword, shortbow, and whip.
+      A bard is proficient with all simple weapons, plus the longsword, pistol, rapier, sap, short sword, shortbow, and whip.
     Armor Proficiencies::text
       Bards are proficient with light armor and shields (except tower shields).
 
