@@ -1,0 +1,12 @@
+
+  Ghost Harp::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 0
+        Components:       | V, S
+        Casting Time:     | length of performance
+        Duration:         | 5 days / level
+    ::text
+      Ghost Harp allows you to record a song into an object. You can then set some trigger that will cause the object to play back the song. It will do so every time the song is triggered, but won't restart if it is already playing. The ghost harp's music itself cannot transmit music (no bardic music abilities).
