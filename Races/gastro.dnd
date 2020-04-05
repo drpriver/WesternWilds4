@@ -1,4 +1,6 @@
   Gastrodians::section.race
+    ::text
+      Gastrodians are snail people. They are native to france and normally live in idyllic farming communities in the eastern part of france. Most gastrodians prefer to stay at home.
     Ability Score Adjustments::text
       +4 [Constitution], -4 [Dexterity]
 
