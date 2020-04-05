@@ -197,12 +197,12 @@
           ::text.maneuver_text
             Swift action, 1 hour
 
-            Hide in shadows as a rogue.
+            Hide in shadows as a thief.
         ::div.maneuver
           ::div.maneuver_title
             Ninja Mobility
           ::text.maneuver_text
-            Swift Action, 8 hours
+            Swift Action, 1 minute.
 
             Can walk on water and run on walls.
     Intermediate Ninjutsu::section.feat
