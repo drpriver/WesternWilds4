@@ -105,12 +105,12 @@
 
         ::table
           ::head
-            Magic Item | Required Ranks
+            Magic Item            | Required Ranks
           ::row
-            Use Scroll | Spell Level + 3
-            Use Wand   | 5
-            Impersonate Class | 6
-            Impersonate Race  | 7
+            Use Scroll            | Spell Level + 3
+            Use Wand              | 5
+            Impersonate Class     | 6
+            Impersonate Race      | 7
             Impersonate Alignment | 8
             
       Find and Disarm Trap (Int)::section.skill_description
