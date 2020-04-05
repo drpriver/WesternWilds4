@@ -3,3 +3,24 @@ Ships::chapter
     TODO
 
     Stuff about sailing, obtaining and maintaining a craft, staffing the ship, raiding other ships, ship-to-ship combat, boardings, etc.
+  Ship Prices::table
+    ::head
+      Class              | Price | Base Speed | Gun Capacity | No. Sailors | No. Soldiers | Tonnage | Length
+    ::row
+      Sloop              | ???   | 8 knots    | 8            | 15          | 40           | 100     | 
+      Schooner           | ???   | 11 knots   | 10           |             |              |         |
+      Brigantine         | ???   | 9 knots    | 12           | 20          | 80           |         |
+      Brig               | ???   | 9 knots    | 16           | 20          | 80           |         |
+      Corvette           | ???   | 11 knots   | 8            |             |              |         |
+      Frigate            | ???   | 8 knots    | 40           | 40          | 160          |         |
+      Man-o-War          | ???   | ??? knots  | 60           |             |              |         |
+      Galleon            | ???   | ??? knots  |              |             |              |         |
+      Freighter (small)  | ???   |            |              |             |              |         |
+      Freighter (medium) | ???   |            |              |             |              |         |
+      Freighter (large)  | ???   |            |              |             |              |         |
+
+  ::text
+    Base Speed is a fully loaded ship with average winds.
+
+    No. of sailors is the number of sailors needed to man the ship. No. of soldiers is how many additional people can be aboard the ship (often soldiers for fighting purpose). Alternatively, that space can be used for cargo. Can be for one, the other, or 50/50.
+
