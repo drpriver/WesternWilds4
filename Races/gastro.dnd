@@ -5,7 +5,7 @@
       +4 [Constitution], -4 [Dexterity]
 
     Medium Creature::text
-      You are medium, but absurdly slow. Your speed is 10' per round.
+      You are medium, but absurdly slow. Your speed is 10' per round. Your movement speed cannot be enhanced.
 
     Shell::text
       Your shell gives you a +8 armor bonus to AC (does not stack with armor).
