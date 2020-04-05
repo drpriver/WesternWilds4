@@ -13,7 +13,7 @@
         ::head
           Armor           | Price | AC | Max Dex | Skill Penalty | Speed | Slots | Drown
         ::row
-          Hide            |  15gp | +4 |     +4  |       -3      |  x⅔    |  2 | Maybe
+          Hide            |  15gp | +3 |     +4  |       -3      |  x⅔    |  2 | Maybe
           Scale mail      |  50gp | +4 |     +3  |       -4      |  x⅔    |  2 | Yes
           Chain mail      | 150gp | +5 |     +2  |       -5      |  x⅔    |  3 | Yes
           Breastplate     | 400gp | +5 |     +3  |       -4      |  x⅔    |  3 | Yes
