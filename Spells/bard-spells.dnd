@@ -17,6 +17,8 @@
         [Prestidigitation]  | Performs minor tricks.
         [Stick]             | Glues an object weighing 5 pounds or less to another object.
         [Summon Instrument] | Summons one instrument of the caster’s choice.
+        [Magic Mouth]       | Speaks once when triggered.
+        [Ventriloquism]     | Throws voice for 1 min./level.
     1st-Level Bard Spells::table.spell_list
       ::head
         |
@@ -24,7 +26,6 @@
         [Animate Rope]        | Makes a rope move at your command.
         [Cause Fear]          | One creature of 5 HD or less flees for 1d4 rounds.
         [Charm Person]        | Makes one person your friend.
-        [Confusion, Lesser]   | One creature is confused for 1 round.
         [Cure Light Wounds]   | Cures 1d8 damage +1/level (max +5).
         [Detect Secret Doors] | Reveals hidden doors within 60 ft.
         [Distort Speech]      | 50% of target's speech is gibberish for 1rd/level, spoils spells.
@@ -36,12 +37,11 @@
         [Hypnotism]           | Hypnotize 1d6 creatures
         [Identify]            | Determines properties of magic item.
         [Inspirational Boost] | Your next bardic music is +1 better.
-        [Magic Mouth]         | Speaks once when triggered.
+        [Lesser Confusion]    | One creature is confused for 1 round.
         [Remove Fear]         | Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
         [Silent Image]        | Creates minor illusion of your design.
         [Sleep]               | Puts 4 HD of creatures into magical slumber.
         [Unseen Servant]      | Invisible force obeys your commands.
-        [Ventriloquism]       | Throws voice for 1 min./level.
     2nd-Level Bard Spells::table.spell_list
       ::head
         |

@@ -1,0 +1,10 @@
+  Summon Instrument::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 0
+        Components:       | V
+        Casting Time:     | 1 swift action
+    ::text
+      You summon your instrument to you from anywhere. It teleports into your hands. It must weight 50 pounds or less.

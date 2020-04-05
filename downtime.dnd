@@ -1,2 +1,5 @@
 Downtime::section
-  TODO
+  ::text
+    Downtime is a period of rest, training, etc. for an entire season (3 months). Downtime is usually necessary for crafting, research, training, leveling up, etc.
+  Leveling up::text
+    Leveling can only happen during downtime.
