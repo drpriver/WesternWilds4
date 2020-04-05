@@ -1,0 +1,28 @@
+  Gastrodians::section.race
+    Ability Score Adjustments::text
+      +4 [Constitution], -4 [Dexterity]
+
+    Medium Creature::text
+      You are medium, but absurdly slow. Your speed is 10' per round.
+
+    Shell::text
+      Your shell gives you a +8 armor bonus to AC (does not stack with armor).
+
+      You can retreat into your shell as a standard action. They then have to sunder your shell.
+
+      If you take the total defense action, the benefit is doubled (to +8).
+
+    Salt sensitivity::text
+      You take 1d6 damage/round that you are exposed to salt water. Pouring salt on you inflicts 1d6 per oz.
+
+    Gross::text
+      You receive a +2 bonus to saves against poison.
+
+    Slimy::text
+      You receive a +10 racial bonus to escape artist.
+
+    Steady::text
+      Due to your anatomy, you cannot be knocked prone.
+
+    Languages::text
+      Gastrodians all speak french. Adventuring gastrodians also speak spanish. You can pick any humanoid language if you have bonus languages due to high intelligence.

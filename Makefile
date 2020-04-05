@@ -28,6 +28,7 @@ RACES=races.dnd\
       humans.dnd\
       dwarves.dnd\
       elves.dnd\
+      gastro.dnd\
       gnomes.dnd\
       half-elves.dnd\
       half-orcs.dnd\

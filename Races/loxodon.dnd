@@ -1,6 +1,6 @@
   Loxodon::section.race
     Ability Score Adjustments::text
-      +2 [Strength], +2 [Wisdom], -4 [Dexterity]
+      +2 [Strength], +1 [Wisdom], -2 [Dexterity]
     Tough Hide::text
       When unarmored, base AC is 12 is due to elephant hide
     Mediumish Creature::text
