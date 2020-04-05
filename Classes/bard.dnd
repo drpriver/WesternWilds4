@@ -94,29 +94,78 @@
       When the bard's hiding is tested, the bard rolls a hide check contested by the opposing creature's spot check. A creature must be within 20 feet of the bard to be eligible to roll a spot check.
 
     Bardic Music::text
-      Once per long rest per bard level, a bard can use his song or poetics to produce magical effects on those around him (usually including himself, if desired). While these abilities fall under the category of bardic music and the descriptions discuss singing or playing instruments, they can all be activated by reciting poetry, chanting, singing lyrical songs, singing melodies, whistling, playing an instrument, or playing an instrument in combination with some spoken performance. Each ability requires both a minimum bard level and a minimum number of ranks in the Perform skill to qualify; if a bard does not have the required number of ranks in at least one Perform skill, he does not gain the bardic music ability until he acquires the needed ranks.
+      Once per long rest per bard level, a bard can use his song or poetics to produce magical effects on those around him (usually including himself, if desired). 
 
-      Starting a bardic music effect is a standard action. Some bardic music abilities require concentration, which means the bard must take a standard action each round to maintain the ability. Even while using bardic music that doesn’t require concentration, a bard cannot cast spells, activate magic items by spell completion (such as scrolls), spell trigger (such as wands), or command word. Just as for casting a spell with a verbal component, a deaf bard has a 20% chance to fail when attempting to use bardic music. If he fails, the attempt still counts against his daily limit.
+      While these abilities fall under the category of bardic music and the descriptions discuss singing or playing instruments, they can all be activated by reciting poetry, chanting, singing lyrical songs, singing melodies, whistling, playing an instrument, or playing an instrument in combination with some spoken performance, as long as there is a sonic component to the performance.
+
+      Each ability requires both a minimum bard level and a minimum number of ranks in the Perform skill to qualify; if a bard does not have the required number of ranks in at least one Perform skill, he does not gain the bardic music ability until he acquires the needed ranks.
+
+      Starting a bardic music effect is a standard action. 
+
+      Some bardic music abilities require concentration, which means the bard must take a standard action each round to maintain the ability. 
+
+      Even while using bardic music that doesn’t require concentration, a bard cannot cast spells, activate magic items by spell completion (such as scrolls), spell trigger (such as wands), or command word. 
+
+      Just as for casting a spell with a verbal component, a deaf bard has a 20% chance to fail when attempting to use bardic music. If he fails, the attempt still counts against his daily limit.
 
     Countersong::text
-      A bard with 3 or more ranks in a Perform skill can use his music or poetics to counter magical effects that depend on sound (but not spells that simply have verbal components). Each round of the countersong, he makes a Perform check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard’s Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher. If a creature within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard’s Perform check result for the save. Countersong has no effect against effects that don’t allow saves. The bard may keep up the countersong for 10 rounds.
+      Standard action to start, but not to maintain. Max 10 rounds.
+
+      A bard with 3 or more ranks in a Perform skill can use his music or poetics to counter magical effects that depend on sound (but not spells that simply have verbal components). 
+
+      Each round of the countersong, he makes a Perform check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic attack or a language-dependent magical attack may use the bard’s Perform check result in place of its saving throw if it is greater. 
+
+      If a creature within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard’s Perform check result for the save.
+
+      Countersong has no effect against effects that don’t allow saves. 
 
     Fascinate::text
-      A bard with 3 or more ranks in a Perform skill can use his music or poetics to cause one or more creatures to become fascinated with him. Each creature to be fascinated must be within 90 feet, able to see and hear the bard, and able to pay attention to him. The bard must also be able to see the creature. The distraction of a nearby combat or other dangers prevents the ability from working. For every three levels a bard attains beyond 1st, he can target one additional creature with a single use of this ability.
+      Standard action to start, standard action each round (but cannot be used in combat). Max 10 minutes.
 
-      To use the ability, a bard makes a Perform check. His check result is the DC for each affected creature’s Will save against the effect. If a creature’s saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. If its saving throw fails, the creature sits quietly and listens to the song, taking no other actions, for as long as the bard continues to play and concentrate (up to a maximum of 1 round per bard level). While fascinated, a target takes a -4 penalty on skill checks made as reactions, such as Listen and Spot checks. Any potential threat requires the bard to make another Perform check and allows the creature a new saving throw against a DC equal to the new Perform check result.
+      A bard with 3 or more ranks in a Perform skill can use his music or poetics to cause one or more creatures to become fascinated with him. 
 
-      Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the target, automatically breaks the effect. Fascinate is an enchantment (compulsion), mind-affecting ability.
+      Each creature to be fascinated must be within 90 feet, able to see and hear the bard, and able to pay attention to him. The bard must also be able to see the creature. 
+
+      The distraction of a nearby combat or other dangers prevents the ability from working. 
+
+      For every three levels a bard attains beyond 1st, he can target one additional creature with a single use of this ability.
+
+      To use the ability, a bard makes a Perform check. His check result is the DC for the Will save against the effect. 
+
+      If a creature’s saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. 
+
+      If its saving throw fails, the creature sits quietly and listens to the song, taking no other actions, for as long as the bard continues to play.
+
+      Any potential threat requires the bard to make another Perform check and allows the creature a new saving throw against a DC equal to the new Perform check result.
+
+      Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the target, automatically breaks the effect. 
 
     Inspire Courage::text
-      A bard with 3 or more ranks in a Perform skill can use song or poetics to inspire courage in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to hear the bard sing. The effect lasts for as long as the ally hears the bard sing and for 5 rounds thereafter. An affected ally receives a +1 morale bonus on saving throws against charm and fear effects and a +1 morale bonus on attack and weapon damage rolls. At 4th and 8th level, this bonus increases by 1. Inspire courage is a mind-affecting ability.
+      Standard action to start, must use voice each round to maintain (thus cannot cast bard spells). Maximum of 5 minutes.
+
+      A bard with 3 or more ranks in a Perform skill can use song or poetics to inspire courage in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to hear the bard sing. 
+
+      The effect lasts for as long as the ally hears the bard sing and for 5 rounds thereafter. 
+
+      An affected ally receives a +1 morale bonus on saving throws against charm and fear effects and a +1 morale bonus on attack and weapon damage rolls.
+
+      At 4th and 8th level, this bonus increases by 1. Inspire courage is a mind-affecting ability.
 
     Inspire Competence::text
+      Standard action, maximum of 2 minutes, must play each round.
       A bard of 3rd level or higher with 6 or more ranks in a Perform skill can use his music or poetics to help an ally succeed at a task. The ally must be within 30 feet and able to see and hear the bard. The bard must also be able to see the ally.
 
-      The ally gets a +2 competence bonus on skill checks with a particular skill as long as he or she continues to hear the bard’s music. Certain uses of this ability are infeasible. The effect lasts as long as the bard concentrates, up to a maximum of 2 minutes. A bard can’t inspire competence in himself. Inspire competence is a mind-affecting ability.
+      The ally gets a +2 competence bonus on skill checks with a particular skill as long as he or she continues to hear the bard’s music. 
+
+      Certain uses of this ability are infeasible (such as stealth).
+
+      A bard can’t inspire competence in himself.
 
     Suggestion::text
-      A bard of 6th level or higher with 9 or more ranks in a Perform skill can make a suggestion (as the spell) to a creature that he has already fascinated. Using this ability does not break the bard’s concentration on the fascinate effect, nor does it allow a second saving throw against the fascinate effect.
+      A bard of 6th level or higher with 9 or more ranks in a Perform skill can make a suggestion (as the spell) to a creature that he has already fascinated. 
 
-      Making a suggestion doesn’t count against a bard’s daily limit on bardic music performances. A Will saving throw (DC 10 + ½ bard’s level + bard’s Cha modifier) negates the effect. This ability affects only a single creature (but see mass suggestion, below). Suggestion is an enchantment (compulsion), mind-affecting, language dependent ability.
+      Using this ability does not break the bard’s concentration on the fascinate effect, nor does it allow a second saving throw against the fascinate effect.
+
+      Making a suggestion doesn’t count against a bard’s daily limit on bardic music performances. 
+
+      A Will saving throw (DC the bard's performance check) negates the effect. This ability affects all fascinated creatures. 
