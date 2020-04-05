@@ -1,31 +1,34 @@
-Experience::chapter
-  ::text
+Advancement::chapter
+  Experience::text
     XP for gold (coins, gems, jewelry). This treasure must be gained by risking life and limb. Magic items do not grant XP, but can be sold. They do not grant xp when sold.
 
     XP is also earned from ruling domains, running a class guild, and rescuing maidens.
-  Level table::table.level_table
-    ::head
-      Level | Total XP to this level
-    ::row
-      Level 1 | 0 xp
-      Level 1.5 | 1000xp
-      Level 2| 2000xp
-      Level 2.5| 3000xp
-      Level 3| 4000xp
-      Level 3.5| 6000xp
-      Level 4| 8000xp
-      Level 4.5| 12,000xp
-      Level 5| 16,000xp
-      Level 5.5| 24,000xp
-      Level 6| 32,000xp
-      Level 6.5| 48,000xp
-      Level 7| 64,000xp
-      Level 7.5| 100,000xp
-      Level 8| 125,000xp
-      Level 8+ | 125,000 more xp
-  ::text
-    Every 125,000 xp more that is earned after level 8 allows the character to choose another feat. Additionally, they can retry any skills checks they have failed.
+  Level Table::section
+    ::table.level_table
+      ::head
+        Level     | Total XP to this level
+      ::row
+        Level 1   | 0 xp
+        Level 1.5 | 1000xp
+        Level 2   | 2000xp
+        Level 2.5 | 3000xp
+        Level 3   | 4000xp
+        Level 3.5 | 6000xp
+        Level 4   | 8000xp
+        Level 4.5 | 12,000xp
+        Level 5   | 16,000xp
+        Level 5.5 | 24,000xp
+        Level 6   | 32,000xp
+        Level 6.5 | 48,000xp
+        Level 7   | 64,000xp
+        Level 7.5 | 100,000xp
+        Level 8   | 125,000xp
+        Level 8+  | 125,000 more xp
+    ::text
+      Every 125,000 xp more that is earned after level 8 allows the character to choose another feat. Additionally, they can retry any skills checks they have failed.
+
   Leveling Up::text
     Leveling up requires downtime. See the downtime rules.
+
   Half Levels::text
     At the half level, you gain the next level's hit die and no other benefits.
