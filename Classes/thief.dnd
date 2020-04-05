@@ -70,41 +70,25 @@
           DM judgement is required for when these circumstances apply. For example, it doesn't matter if the victim trusts the thief if he can't see him because he is hidden in shadows.
         ::table
           ::head
-            Circumstance | Check Modifier
+            Circumstance                                          | Check Modifier
           ::row
             Physical contact, such as bumping into another person | +2
-          ::row
-            Speaking with the victim | +0
-          ::row
-            Someone else has the victim's attention | +4
-          ::row
-            Victim is otherwise distracted | +2
-          ::row
-            Victim trusts the thief | +2
-          ::row
-            Victim distrusts the thief | -2
-          ::row
-            Victim is blind | +4
-          ::row
-            Victim is deaf | +2
-          ::row
-            Victim is sleeping | +10
-          ::row
-            Thief is hidden in shadows | +4
-          ::row
-            Area is crowded | +2
-          ::row
-            Area is noisy | +2
-          ::row
-            Item in victim's pocket | +0
-          ::row
-            Item is small ( &lt; 1 slot) | +2
-          ::row
-            Item is worn | -4
-          ::row
-            Item is heavy | -2 per encumbrance slot
-          ::row
-            Item is large (like a greatsword) | -4
+            Speaking with the victim                              | +0
+            Someone else has the victim's attention               | +4
+            Victim is otherwise distracted                        | +2
+            Victim trusts the thief                               | +2
+            Victim distrusts the thief                            | -2
+            Victim is blind                                       | +4
+            Victim is deaf                                        | +2
+            Victim is sleeping                                    | +10
+            Thief is hidden in shadows                            | +4
+            Area is crowded                                       | +2
+            Area is noisy                                         | +2
+            Item in victim's pocket                               | +0
+            Item is small ( &lt; 1 slot)                          | +2
+            Item is worn                                          | -4
+            Item is heavy                                         | -2 per encumbrance slot
+            Item is large (like a greatsword)                     | -4
         ::text
           The victim notices the item is missing 1d6 hours later or when they next try to use the item.
 
@@ -115,8 +99,20 @@
           No
         Normal::text
           Normally, any character can spend 1 dungeon turn searching for a secret door or compartment, with a 1-in-6 chance of discovering such a secret door.
-      Use Magic Device (Cha)::section.skill_description
-        TODO
+      Use Magic Device::section.skill_description
+        ::text
+          A thief with sufficient ranks in this skill can use magical items, despite their lack of natural talent for them.
+
+        ::table
+          ::head
+            Magic Item | Required Ranks
+          ::row
+            Use Scroll | Spell Level + 3
+            Use Wand   | 5
+            Impersonate Class | 6
+            Impersonate Race  | 7
+            Impersonate Alignment | 8
+            
       Find and Disarm Trap (Int)::section.skill_description
         ::text
           This skill is used to both find and disarm traps. The DC for both is determined by the trap itself.
