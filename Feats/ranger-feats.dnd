@@ -1,19 +1,6 @@
   Ranger Feats::section.class_feats
-    Two Weapon Fighting::section.feat
-      Effect::text
-        Each time you make an attack with your primary weapon, you can make an extra attack
-        with your off-hand weapon.  The weapons must be one-handed or a double weapon.
-
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
-        For each light weapon you are wielding, reduce the attack penalty by 1.
-
-        Additionally, you can draw two weapons as part of the same action. You may also sheath two one-handed weapons on your belt.
-      Special::text
-        A ranger gets this for free if he is wearing light or no armor.
-
-    Two Weapon Defense::section.feat
-      Effect::text
-        When fighting with two weapons, you gain a +1 shield bonus to AC. This shield bonus doubles if you fight defensively, take total defense or use [combat expertise].
+    Fighting Style::section.feat
+      This is a placeholder feat. You can take [Brute Fighting], [Defender Fighting], [Dual Wield Fighting], [Swashbuckling], [Musketeering] or [Archery], just as the fighter feats. Note that level 1 rangers and level 6 rangers can get [Dual Wield Fighting], [Swashbuckling] or [Musketeering] for free.
 
     Combat Tactics::section.feat
       Effect::text
@@ -21,11 +8,7 @@
 
         Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
 
-    Greater Combat Tactics::section.feat
-      Prerequisite::text
-        Combat Tactics
-      Effect::text
-        Your bonus from combat tactics improves from +2 to +4
+        At 4th level, the bonus increases to +4.
 
     Combat Brawn::section.feat
       Effect::text
@@ -33,67 +16,9 @@
 
         Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
 
-    Greater Combat Brawn::section.feat
-      Effect::text
-        Your bonus from combat brawn increases from +2 to +4
+        You can force creatures to not move out of the way of your overrun.
 
-    Precise Shot::section.feat
-      Effect::text
-        You don't suffer the -4 penalty for firing into a melee.
-      Normal::text
-        Normally you must take a -4 penalty to attack a specific target in a group or melee with a ranged attack.
-      Special::text
-        A ranger gets this for free if he is wearing light or no armor.
-
-    Rapid Reload::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::section
-        ::text
-          You can reload gun and crossbows faster
-
-        ::bullets
-          * move->no action
-          * standard -> move action, can also move half your speed or reload a second standard action weapon
-          * full round -> move action
-
-    Gun Fighting::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::text
-        You can add your BAB to the damage of your gun attacks.
-
-    Sharpshooter::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::text
-        Add ½ DEX bonus to damage with crossbows and guns.
-
-        The max precision damage range is increased to 60'.
-
-    Swashbuckling::section.feat
-      Effect::text
-        Once per turn when you attack with a one-handed weapon, you may also attack with a one-handed ranged weapon in another hand with no two-weapon fighting penalty and without provoking attacks of opportunity.
-
-        You can reload a pistol as a move action.
-
-        If you fight with a sword-type weapon in one hand and the other hand is empty, you get a +2 dodge bonus to AC.
-
-        You get a +2 bonus to flirting.
-
-    Weapon Focus::section.feat
-      Effect::text
-        Choose a class of weapon: sword, axe, hammer, polearm, bow, crossbow, gun, or flail.
-
-        You receive a +1 bonus to attacks with that class of weapon.
-      Special::text
-        You can take this feat more than once. Each time, choose a different class of weapon for it to apply to.
-
-    Improved Critical::section.feat
-      Prerequisite::text
-        Weapon Focus, level 6
-      Effect::text
-        Increase the critical range by 1 for any weapon you have weapon focus.
+        At 4th level level, the bonus increase to +4.
 
     Spring Attack::section.feat
       Prerequisite::text
@@ -103,17 +28,9 @@
 
     Manyshot::section.feat
       Prerequisite::text
-        Level 6, precise shot
+        Level 6
       Effect::text
         With a single ranged attack, you can attack two creatures who are next to each other.
-      Special::text
-        Level 6 rangers get this for free if they are in light or no armor.
-
-    Improved Two Weapon Fighting::section.feat
-      Prerequisite::text
-        Level 6, Two Weapon Fighting
-      Effect::text
-        You deal an extra 2 damage when you fight with two weapons.
       Special::text
         Level 6 rangers get this for free if they are in light or no armor.
 
@@ -144,9 +61,10 @@
       Effect::text
         If you would get a surprise round, you roll a 20 on your initiative check.
 
-        +4 initiative
+        Your party gets +2 to initiative. If multiple party members have this feat, this benefit does not stack.
 
         +1 on stealth checks
+
     Extra Favored Enemy::section.feat
       Effect::text
         Pick one additional favored enemy type. It has the bonuses of your highest favored enemy.
@@ -173,7 +91,7 @@
 
     Arrow Volley::section.feat
       Prerequisite::text
-        Precise Shot, manyshot
+        Manyshot
       Effect::text
         Full round action. Make attacks against all creatures in a 15’ square.
 

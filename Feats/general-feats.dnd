@@ -2,9 +2,11 @@
     Toughness::section.feat
       Effect::text
         You gain +3 hp.
+
     Talented::section.feat
       Effect::text
         Select three skills. You get +2 bonuses to all of them.
+
     Pirate::section.feat
       Effect::text
         +2 on all checks related to sailing, boarding ships, firing cannons, finding treasure, climbing or balancing on a ship, bluffing, and resisting intoxication
@@ -72,11 +74,13 @@
         Pick a skill you have at least 1 rank in. You gain a +3 bonus to that skill.
       Special::text
         You can pick skill focus more than once. Each time, pick a different skill.
+
     Run::section.feat
       Effect::text
         You move 5x your speed when running instead of 4x (or 4x if wearing heavy armor).
 
         Additionally, you suffer no defensive penalties while running.
+
     Leadership::section.feat
       Prerequisite::text
         Level 6
@@ -142,3 +146,19 @@
         Good alignment
       Effect::text
         Once per day, when you would be reduced to 0 or fewer HP, you may instead go to 1 HP and remove all negative conditions.
+
+    Quick Draw::section.feat
+      Effect::text
+        You can draw/stow weapons and items as free actions instead of as a move action. Retrieving an item from your backpack is also a free action.
+
+    Mage Slayer::section.feat
+      Prerequisite::text
+        Level 6
+      Effect::text
+        +2 on saves against spells and spell-like abilities
+
+        2 in 3 chance to interrupt a spell instead of 1 in 2
+
+        If you miss an attack due to a magical miss chance or a mirror image, roll again and take the better result.
+
+        When you search, you can easily notice the presence of magic, even if you do not manage to pinpoint its source.

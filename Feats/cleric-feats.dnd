@@ -30,15 +30,15 @@
 
         Knowledge Requirements::table.medium
           ::head
-            Skill | Creatures
+            Skill                        | Creatures
           ::row
-            Arcana | Dragons, Magical creatures
+            Arcana                       | Dragons, Magical creatures
             Architecture and Engineering | Constructs (like golems, animated statues)
-            Dungeoneering | Oozes, Slimes
-            History | Demihumans, giants
-            Nature | Animals, plants, vermin
-            Religion | Undead, demons, devils, angels
-            The Planes | Elementals, other outsiders
+            Dungeoneering                | Oozes, Slimes
+            History                      | Demihumans, giants
+            Nature                       | Animals, plants, vermin
+            Religion                     | Undead, demons, devils, angels
+            The Planes                   | Elementals, other outsiders
 
       Special::text
         You can only take one purpose feat.
@@ -46,7 +46,7 @@
     Undead Hunter::section.feat
       Purpose
       Effect::text
-        Gain 1 additional use of turn undead. You turn undead as if you were 1 level higher.
+        Gain 1 additional use of turn undead. You turn as if you were 1 level higher.
 
         Once per turn when you hit an undead creature, a demon, devil or evil priest with a weapon attack, you can spend one use of turn undead to deal an additional 1d6 sacred damage. This damage increases by 1d6 at each odd level. (2d6 at 3, 3d6 at 5, etc.)
       Special::text
@@ -69,6 +69,8 @@
       Effect::text
         You can expend two uses of turn undead instead of one in order to turn as a swift action. You can only turn undead once per turn.
 
+        This also benefits the weird turnings from cleric domains, like plant domain.
+
     Augment Healing::section.feat
       Effect::text
         Increase healing of your spells by +2 per spell level
@@ -90,15 +92,9 @@
         If you roll a 1 on a turning attempt, reroll it.
 
         You can spend a luck point to reroll turn undead attempts.
+      Special::text
+        If you are a cleric/thief, these luck points are the smae as the points of the thief luck feats.
 
     Shield Focus::section.feat
       Effect::text
         Your shield bonus improves by +1 when using a shield.
-
-    Weapon Focus::section.feat
-      Effect::text
-        Choose a class of weapon: sword, axe, hammer, polearm, bow, crossbow, gun, or flail.
-
-        You receive a +1 bonus to attacks with that class of weapon.
-      Special::text
-        You can take this feat more than once. Each time, choose a different class of weapon for it to apply to.

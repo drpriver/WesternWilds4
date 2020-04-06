@@ -69,14 +69,11 @@
         You move at half your normal speed (or at your normal speed with a -5 penalty on the check, or at up to twice your normal speed with a -20 penalty on the check). The DC depends on the surface and the prevailing conditions, as given on Table: Track DC.
       ::table
         ::head
-          Surface | Survival DC
+          Surface          | Survival DC
         ::row
           Very soft ground | 5
-        ::row
           Soft ground      | 10
-        ::row
           Firm ground      | 15
-        ::row
           Hard ground      | 20
       Very Soft Ground::text
         Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.
@@ -94,26 +91,26 @@
         Several modifiers may apply to the Survival check, as given on Table: Track DC Modifiers.
       ::table
         ::head
-          Condition | Survival DC Modifier
+          Condition                                           | Survival DC Modifier
         ::row
-          Every three creatures in the group being tracked | -1
-          Creature is size Fine   | +8
-          Creature is size Diminutive   | +4
-          Creature is size Tiny   | +2
-          Creature is size Small  | +1
-          Creature is size Medium   | 0
-          Creature is size Large  | -1
-          Creature is size Huge  |  -2
-          Creature is size Gargantuan   | -4
-          Creature is size Colossal   | -8
-          Every 24 hours since the trail was made  | +1
-          Every hour of rain since the trail was made  | +1
-          Fresh snow cover since the trail was made  | +10
-          Poor visibility | +2
-          Overcast or moonless night   | +6
-          Moonlight  | +3
-          Fog or precipitation   | +3
-          Tracked party hides trail (and moves at half speed)  | +5
+          Every three creatures in the group being tracked    | -1
+          Creature is size Fine                               | +8
+          Creature is size Diminutive                         | +4
+          Creature is size Tiny                               | +2
+          Creature is size Small                              | +1
+          Creature is size Medium                             |  0
+          Creature is size Large                              | -1
+          Creature is size Huge                               | -2
+          Creature is size Gargantuan                         | -4
+          Creature is size Colossal                           | -8
+          Every 24 hours since the trail was made             | +1
+          Every hour of rain since the trail was made         | +1
+          Fresh snow cover since the trail was made           | +10
+          Poor visibility                                     | +2
+          Overcast or moonless night                          | +6
+          Moonlight                                           | +3
+          Fog or precipitation                                | +3
+          Tracked party hides trail (and moves at half speed) | +5
       ::text
         For a group of creatures, use the size modifier of the largest creature in the group.
 
@@ -153,10 +150,10 @@
 
       A 1st-level ranger’s companion is completely typical for its kind except as noted below. As a ranger advances in level, the animal’s power increases as shown on the table. If a ranger releases her companion from service, he may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer. This ceremony can also replace an animal companion that has perished.
 
-      A ranger of 4th level or higher may select from alternative lists of animals. Should he select an animal companion from one of these alternative lists, the creature gains abilities as if the character’s ranger level were lower than it actually is. Subtract the value indicated in the appropriate list header from the character’s ranger level and compare the result with the ranger level entry on the table to determine the animal companion’s powers. (If this adjustment would reduce the ranger’s effective level to 0 or lower, he can’t have that animal as a companion.)
-
     Combat Style::text
-      A ranger is selected as having the Precise Shot and Two Weapon Fighting feats, even if he does not have the normal prerequisites for that feat. He loses these benefits when wearing medium or heavy armor.
+      A ranger is selected as having one of [Dual Wield Fighting], [Swashbuckling] or [Musketeering] fighter feats. Hey must choose one at level 1, but can change during a period of downtime.
+
+      He loses these benefits when wearing medium or heavy armor.
 
     Hide In Shadows::text
       At 3rd level, the ranger is able to blend into shadows and darkness to make himself nearly invisible. This functions similarily to the thief ability. He cannot use it while wearing medium or heavy armor.
@@ -171,7 +168,8 @@
       At 4th and 8th level, the ranger may select an extra ranger feat. He must still meet the prerequisites.
 
     Improved Combat Style::text
-      At 6th level, a ranger’s aptitude combat style improves.  He gains the [Manyshot] and [Improved Two Weapon Fighting] feat, even if he does not have the normal prerequisites for that feat.
+      At 6th level, you can pick another of [Dual Wield Fighting], [Swashbuckling] or [Musketeering]. In addition, you gain [Manyshot] for free.
+
       He loses these benefits if he wears medium or heavy armor.
 
     Evasion::text

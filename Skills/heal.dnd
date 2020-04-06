@@ -10,6 +10,8 @@
 
       Only one attempt can be made on the aided character.
 
+      A character can benefit from first aid a number of times equal to 3 + their con modifier per long rest.
+
     Long Term Care::text
       A character with at least 5 ranks in heal can effectively provide long term care to wounded persons.
       Providing long-term care means treating a wounded person for a day or more. If your Heal check is successful, the patient recovers hit points or ability score points (lost to ability damage) at twice the normal rate: 2 hit points per level for a full 8 hours of rest in a day, or 4 hit points per level for each full day of complete rest; 2 ability score points for a full 8 hours of rest in a day, or 4 ability score points for each full day of complete rest.

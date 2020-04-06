@@ -1,60 +1,8 @@
   Barbarian Feats::section.class_feats
     Special Rules::text
       Some barbarian feats are "totem" feats. This is indicated by having totem in the name. A barbarian can only have 3 totem feats.
-
-    Power Attack::section.feat
-      Effect::text
-        On your action, before making attack rolls for a round, you may choose to subtract a
-        number from all weapon attack rolls and add the same number to all weapon damage
-        rolls. The penalty on attacks and bonus on damage apply until your next turn.
-
-        You may only use this feat with attacks that add your strength modifier to the
-        damage. You cannot subtract from your attack roll a number higher than your base
-        attack.
-
-        If you attack with a two-handed melee weapon, or with a one-handed melee weapon
-        wielded in two hands, instead add twice the number subtracted from your attack
-        rolls.
-
-        You can't add the bonus from Power Attack to the damage dealt with a light weapon
-        (except with unarmed strikes or natural weapon attacks).
-
-    Cleave::section.feat
-      Prerequisite::text
-        Power Attack
-      Effect::text
-        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach.
-        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature.
-
-        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round.
-
-
-        You can use this ability once per round.
-
-    Great Cleave::section.feat
-      Prerequisite::text
-        Cleave
-      Effect::text
-        There is no limit on the number of cleaves you can make in a turn. Additionally, you can move in between cleave attacks (not restricted to 5' steps).
-
-    Two Weapon Style::section.feat
-      Effect::text
-        Each time you make an attack with your primary weapon, you can make an extra attack with your off-hand weapon.  The weapons must be one-handed or a double weapon.
-
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
-        For each light weapon you are wielding, reduce the attack penalty by 1.
-
-        Reduce the attack penalty by 1 for double weapons.
-
-        Additionally, you can draw two weapons as part of the same action.
-
-      Normal::text
-        Normally, you can only attack with your primary weapon.
-
-    Two-Handed Style::section.feat
-      Effect::text
-        When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemey that is adjacent to you as well.
-
+    Fighting Style::section.feat
+      This is a placeholder feat. You can take [Brute Fighting], [Defender Fighting], [Dual Wield Fighting], or [Archery], just as the fighter feats. Note that swashbuckling and musketeering are missing.
 
     Combat Tactics::section.feat
       Effect::text
@@ -62,24 +10,21 @@
 
         Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
 
-    Greater Combat Tactics::section.feat
-      Prerequisite::text
-        Combat Tactics
-      Effect::text
-        Your bonus from combat tactics improves from +2 to +4
+        At 4th level, the bonus increases to +4.
 
     Combat Brawn::section.feat
       Effect::text
         You gain a +2 bonus when bullrushing, grappling and overrunning.
 
         Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
-    Greater Combat Brawn::section.feat
-      Effect::text
-        Your bonus from combat brawn increases from +2 to +4
+
+        You can force creatures to not move out of the way of your overrun.
+
+        At 4th level level, the bonus increase to +4.
 
     Shock Trooper::section.feat
       Prerequisite::text
-        Combat Tactics or Combat Brawn, Power Attack, Level 3
+        Combat Tactics or Combat Brawn, Level 3
       Effect::text
         When you hit an enemy with a charge attack, you can make a free bullrush attempt. If you succeed, you can push them in any direction up to 10 feet.
 
@@ -171,15 +116,11 @@
         ::text
           Once per rage while raging, you can cast one of the following sorcerer spells as a swift action.
         ::bullets
-          * Burning Hands
-          * Color Spray
-          * Jump
-          * Magic Missile
+          * [Burning Hands]
+          * [Color Spray]
+          * [Jump]
+          * [Magic Missile]
         ::text
-          At level 5, these spells are accessible.
-        ::bullets
-          * Acid Arrow
-          * See Invisibility
-          * Resist Energy
+          At level 5, you can cast two of the above spells per rage.
         ::text
           The caster level for your spells is your level. If a spell has a duration, the spell ends when your rage ends. Your spellcasting attribute for spell DCs is strength. The only component for the spell is verbal.

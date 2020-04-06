@@ -1,20 +1,13 @@
   Thief Feats::section.class_feats
-    Special Rules::text
-      Some thief feats are marked as being a "style" feat. A thief can only have one style
-      feat, but they do not have to pick this at level 1.
-
     Spy::section.feat
-      Style
       Effect::text
-        +4 to disguise, bluff, and forgery
+        +4 to disguise, bluff, gather information and forgery.
 
     Assassin::section.feat
-      Style
       Effect::text
         Once per turn when you deal sneak attack damage while hiding in shadows, you gain bonus damage equal to twice your level.
 
     Master Thief::section.feat
-      Style
       Effect::text
         +1 to all thief skills
         +2 to stealth
@@ -50,7 +43,6 @@
 
         Whenever you fail to confirm a critical hit, you can spend a luck point to confirm it instead.
 
-
     Improved Hide::section.feat
       Effect::text
         Creatures with the scent skill roll against your hide check instead of a fixed DC.
@@ -60,34 +52,6 @@
     Improved Flanking::section.feat
       Effect::text
         You are considered flanking if you and an ally are at least 90 degrees from each other.
-
-    Surgical Strike::section.feat
-      Prerequisite::text
-        Level 3
-      Effect::section
-        ::text
-          When you would deal sneak attack damage, you can forgo damage dice in favor of other effects. You cannot reduce your damage pool to 0 dice. All effects are a fort save to negate against a DC of 10+Dex Mod+(Level+1)/2. Once a target has been affected by an effect, they are immune to that effect for 24 hours. Ie if you blind an opponent, you can’t blind them again for 24 hours.
-        ::table
-          ::head
-            Price | Effect
-          ::row
-            1d6   | Victim is deafened for 1 minute.
-            1d6   | Victim's movespeed is halved and cannot take opportunity attacks for 2 rounds.
-            2d6   | Loses spell levels equal to their level, starting with highest slots (if level 5, could lose 2 level 3 slots)
-            2d6   | Victim is blinded for 2 rounds
-            3d6   | Victim is dazed for 1 round
-            3d6   | Victim is muted for 2 rounds
-    Mage Slayer::section.feat
-      Prerequisite::text
-        Level 6
-      Effect::text
-        +2 on saves against spells and spell-like abilities
-
-        2 in 3 chance to interrupt a spell instead of 1 in 2
-
-        If you miss an attack due to a magical miss chance or a mirror image, roll again and take the better result.
-
-        When you make a search check, you can easily notice the presence of magic, even if you do not manage to pinpoint its source.
 
     Skilled::section.feat
       Effect::text
@@ -99,17 +63,18 @@
       Effect::text
         If you are able to maneuver around, your opponent's partially weakened defenses allows a partial sneak attack.
 
-        If you move at least 10 feet before you attack, deal ½  of your sneak attack damage even if you would not otherwise qualify. This does not allow you to use Surgical Strike.
+        If you move at least 10 feet before you attack, deal ½  of your sneak attack damage even if you would not otherwise qualify.
 
     Cloak of Shadows::section.feat
-      Prerequisite::text
-        Level 3
       Effect::text
-        Once per long rest, you can become invisible as per the greater invisibility spell as a swift action. The effect lasts until the end of your turn.
+        Once per battle, you can become invisible as per the greater invisibility spell as a swift action.
+        The effect lasts until the end of your turn.
+
+    Phantom::section.feat
+      Effect::text
+        When your hide in shadows or an invisibility type spell on you would normally end, they instead last until the start of your next turn.
 
     Plagiarize::section.feat
-      Prerequisite::text
-        Level 3
       Effect::section
         ::text
           Gain one of the following abilities
@@ -118,7 +83,7 @@
           * Turn Undead once per long rest
           * Inspire Courage bardic music once per long rest
         ::text
-          Any factors based on a class level use your thief level. Your spell DC is 10+Dex mod+spell level
+          Any factors based on a class level use your thief level. You use charisma for in place of the normal ability score for spell DCs.
 
           When you have downtime, you can swap to a different choice without spending any extra downtime.
 
@@ -126,7 +91,7 @@
       Effect::text
         If you would get a surprise round, you roll a 20 on your initiative check.
 
-        +4 initiative
+        Your party gets +2 to initiative. If multiple party members have this feat, this benefit does not stack.
 
         +1 on stealth checks
 
@@ -139,70 +104,7 @@
 
         Any enemy that you have dealt damage to with a weapon attack takes an additional
         1 damage at the start of each of their turns. Additionally, the effectiveness of fast
-        healing, regeneration, and other healing effects on them are halved.
+        healing, regeneration, and any other healing effect on them is halved.
 
-        This effect lasts until they receive first aid in the form of a DC 12 heal check, or
+        This effect lasts until they receive first aid in the form of a DC 12 heal check or
         any form of magical healing.
-
-    Two Weapon Fighting::section.feat
-      Effect::text
-        Each time you make an attack with your primary weapon, you can make an extra attack
-        with your off-hand weapon.  The weapons must be one-handed.
-
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
-        For each light weapon you are wielding, reduce the attack penalty by 1.
-
-        Additionally, you can draw two weapons as part of the same action. You may also sheath two one-handed weapons on your belt.
-
-    Precise Shot::section.feat
-      Effect::text
-        You don't suffer the -4 penalty for firing into a melee.
-      Normal::text
-        Normally you must take a -4 penalty to attack a specific target in a group or melee with a ranged attack.
-
-    Sharpshooter::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::text
-        Add ½ DEX bonus to damage with crossbows and guns.
-
-        The max precision damage range is increased to 60'.
-
-    Rapid Reload::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::section
-        ::text
-          You can reload gun and crossbows faster
-
-        ::bullets
-          * move->no action
-          * standard -> move action, can also move half your speed or reload a second standard action weapon
-          * full round -> move action
-
-    Gun Fighting::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::text
-        You can add your BAB to the damage of your gun attacks.
-
-    Swashbuckling::section.feat
-      Effect::text
-        Once per turn when you attack with a one-handed weapon, you may also attack with a
-        one-handed ranged weapon in another hand with no two-weapon fighting penalty and
-        without provoking attacks of opportunity.
-
-        You can reload a pistol as a move action.
-
-        If you fight with a sword-type weapon in one hand and the other hand is empty, you get a +2 dodge bonus to AC.
-
-        You get a +2 bonus to flirting.
-
-    Weapon Finesse::section.feat
-      Effect::text
-        You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
-
-    Phantom::section.feat
-      Effect::text
-        When your hide in shadows or an invisibility type spell on you would normally end, they instead last until the start of your next turn.
-

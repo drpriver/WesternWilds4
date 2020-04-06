@@ -19,7 +19,9 @@
 
         This is an origin feat.
       Effect::text
-        When you take damage, add an equal amount of points to your Blood Pool. When you apply metamagic to a spell, you can spend 5 points from your Blood Pool to reduce the level adjustment by 1. You can use this ability only once per spell, even if applying more than one metamagic. A metamagic must have at least a +1 adjustment to qualify. Your Blood Pool is reset whenever you start a new encounter.
+        When you cast a spell modified by a metamagic feat, you can sacrifice HP to mitigate the level adjustment of the metamagic. 
+
+        For each 1d4 HP you sacrifice, you can mitigate the level adjustment by 1.
 
         Additionally, whenever you are the target of a healing effect, heal 1 additional HP.
 
@@ -42,6 +44,7 @@
         This is an origin feat.
       Effect::text
         Convert all spell slots to points. Each spell level gives 1 spell point (level 0 = ½).
+
         Subtract the highest level of spell slots you can cast from this total (so if you can cast 3rd level spells, subtract 3).  To cast a spell, you must spend spell points equal to the spell level.
 
         When you long rest, you regain all your spell points.
@@ -283,114 +286,104 @@
     Metamagic Mastery::section.feat
       Metamagic
       Prerequisite::text
-        Prereq: Any 3 other metamagic feats
+        Any 3 other metamagic feats
       Effect::text
         Twice per long rest, lower the level adjustment of a metamagic. Only usable once per spell cast.
 
 
-    Fiery Burst::section.feat
+    Elemental Mastery::section.feat
+      Special::text
+        You can take this feat twice. The second time, you learn the other two.
       Effect::text
-        You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+        Pick two of Fiery Burst, Icy Breath, Chain Shock and Acidic Splatter. You learn those.
+      
+      Fiery Burst::section
+        Effect::text
+          You learn a special spell called fiery burst for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
 
-        Additionally, your effective caster level for fire spells is 1 higher.
+          Additionally, your effective caster level for fire spells is 1 higher.
 
-      Fiery Burst::section.spell
-        ::table.spell_info
-          ::head
-            |
-          ::row
-            Level:            | Special
-            Components:       | V, S
-            Casting Time:     | 1 standard action
-            Range:            | Medium ( 100 feet + 10 feet per caster level)
-            Area:             | 10-ft.-radius spread
-            Duration:         | Instantaneous
-            Saving Throw:     | Reflex negates
-            Spell Resistance: | Yes
-            Tags:             | Fire
+        Fiery Burst::section.spell
+          ::table.spell_info
+            ::head
+              |
+            ::row
+              Level:            | Special
+              Components:       | V, S
+              Casting Time:     | 1 standard action
+              Range:            | Medium ( 100 feet + 10 feet per caster level)
+              Area:             | 10-ft.-radius spread
+              Duration:         | Instantaneous
+              Saving Throw:     | Reflex negates
+              Spell Resistance: | Yes
+              Tags:             | Fire
 
-        ::text
-          You create a burst of flame at a location of your choosing. Those in the area may make a reflex save to negate the damage. Those who fail suffer d4 per (level+1)/2 fire damage. Flammable objects in the area, like papers and tinder, ignite.
+          ::text
+            You create a burst of flame at a location of your choosing. Those in the area may make a reflex save to negate the damage. Those who fail suffer d4 per (level+1)/2 fire damage. Flammable objects in the area, like papers and tinder, ignite.
 
-    Icy Breath::section.feat
-      Effect::text
-        You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+      Icy Breath::section
+        Effect::text
+          You learn a special spell called icy breath for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
 
-        Additionally, your effective caster level for cold spells is 1 higher.
-      Icy Breath::section.spell
-        ::table.spell_info
-          ::head
-            |
-          ::row
-            Level: | Special
-          ::row
-            Components: |V, S
-          ::row
-            Casting Time: |1 standard action
-          ::row
-            Range: |20 ft.
-          ::row
-            Area: |Cone-shaped burst
-          ::row
-            Duration: |Instantaneous
-          ::row
-            Saving Throw: |Reflex negates
-          ::row
-            Spell Resistance: |Yes
-          ::row
-            Tags: | Cold
-        ::text
-          You create a blast of icy cold that freezes people. Those in the cone who fail their saves take d6 per (level+1)/2 cold damage.
+          Additionally, your effective caster level for cold spells is 1 higher.
+        Icy Breath::section.spell
+          ::table.spell_info
+            ::head
+              |
+            ::row
+              Level:        | Special
+              Components:   | V, S
+              Casting Time: | 1 standard action
+              Range:        | 20 ft.
+              Area:         | Cone-shaped burst
+              Duration:     | Instantaneous
+              Saving Throw: | Reflex negates
+              Tags:         | Cold
+          ::text
+            You create a blast of icy cold that freezes people. Those in the cone who fail their saves take d6 per (level+1)/2 cold damage.
 
-    Chain Shock::section.feat
-      Effect::text
-        You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+      Chain Shock::section
+        Effect::text
+          You learn a special spell called chain shock for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
 
-        Additionally, your effective caster level for lightning spells is 1 higher.
-      Chain Shock::section.spell
-        ::table.spell_info
-          ::head
-            |
-          ::row
-            Level: | Special
-          ::row
-            Components: |V, S
-          ::row
-            Casting Time: |1 standard action
-          ::row
-            Range: | Medium ( 100 feet + 10 feet per caster level)
-          ::row
-            Targets: | One primary target, plus one secondary target within 10 feet of the primary target.
-          ::row
-            Duration: |Instantaneous
-          ::row
-            Saving Throw: |Reflex negates
-          ::row
-            Spell Resistance: |Yes
-          ::row
-            Tags: | Lightning
-        ::text
-          You create an arc of lighting that strikes a creature and then arcs from them to another creature. The primary target takes d8 per (level+1)/2 lightning damage and the second target takes half as much.
+          Additionally, your effective caster level for lightning spells is 1 higher.
+        Chain Shock::section.spell
+          ::table.spell_info
+            ::head
+              |
+            ::row
+              Level:        | Special
+              Components:   | V, S
+              Casting Time: | 1 standard action
+              Range:        | Medium ( 100 feet + 10 feet per caster level)
+              Targets:      | One primary target, plus one secondary target within 10 feet of the primary target.
+              Duration:     | Instantaneous
+              Saving Throw: | Reflex negates
+              Tags:         | Lightning
+          ::text
+            You create an arc of lighting that strikes a creature and then arcs from them to another creature. The primary target takes d8 per (level+1)/2 lightning damage and the second target takes half as much.
 
-    Acidic Splatter::section.feat
-      Effect::text
-        You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+            If you target a creature in a grapple, it targets both of them.
 
-        Additionally, your effective caster level for acid spells is 1 higher.
-      Acidic Splatter::section.spell
-        ::table.spell_info
-          ::head
-            |
-          ::row
-            Level: | Special
-            Components: |V, S
-            Casting Time: |1 standard action
-            Range: | Medium ( 100 feet + 10 feet per caster level)
-            Targets: | One target
-            Duration: |Instantaneous
-            Saving Throw: |Reflex negates
-            Spell Resistance: |Yes
-            Tags: | Acid
-        ::text
-          You create a blob of acid that eats away flesh, steel, bone. If the target fails to evade it, they suffer 1d10 per (level+1)/2 acid damage.
+      Acidic Splatter::section
+        Effect::text
+          You learn a special spell called acidic splatter for which you do not need to expend spell slots to cast. The level of the spell is the highest level of spells you can cast.
+
+          Additionally, your effective caster level for acid spells is 1 higher.
+        Acidic Splatter::section.spell
+          ::table.spell_info
+            ::head
+              |
+            ::row
+              Level:            | Special
+              Components:       | V, S
+              Casting Time:     | 1 standard action
+              Range:            | Medium ( 100 feet + 10 feet per caster level)
+              Targets:          | One target
+              Duration:         | Instantaneous
+              Saving Throw:     | Reflex negates
+              Spell Resistance: | Yes
+              Tags:             | Acid
+          ::text
+            You create a blob of acid that eats away flesh, steel, bone. If the target fails to evade it, they suffer 1d10 per (level+1)/2 acid damage.
 

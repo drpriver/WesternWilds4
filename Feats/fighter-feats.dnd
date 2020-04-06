@@ -86,14 +86,16 @@
           This is referred to as swashbuckling below.
         ::text
           Additionally, you get a +2 bonus to flirting.
+
+          You also gain harpoon proficiency.
         Swashbuckling Focus::text
           At 1st level, you get +1 to attacks while swashbuckling.
         Swashbuckling Defense::text
-          At 1st level, while you only have a Cutlass, Rapier, Harpoon or Longsword in one hand, you get a +2 shield bonus to AC.
+          At 1st level, while you only have a Dagger, Cutlass, Rapier, Harpoon or Longsword in one hand, you get a +2 shield bonus to AC.
         Swift Reload::text
           At 1st level, you can reload your pistol as half of a move action while swashbuckling. What this means is you can either reload two pistols as one move action or reload one pistol and then move half your speed.
         Daring-do::text
-          At 1st level, if you attack with a Cutlass, Rapier, Harpoon or Longsword, you can fire your pistol as a free action this round without provoking attacks of opportunity.
+          At 1st level, if you attack with a Dagger, Cutlass, Rapier, Harpoon or Longsword, you can fire your pistol as a free action this round without provoking attacks of opportunity.
 
           Additionally, if you have a pistol in each hand, you can fire one and then fire the other one for free. This still provokes attacks of opportunities for ranged attacks as normal.
         Swashbuckling Specialization::text
@@ -144,7 +146,7 @@
           At 4th level, you get an additional +1 to attacks with archery.
         Greater Archery Specialization::text
           At 6th level, you get an additional +2 to damage with archery.
-        
+
     Combat Tactics::section.feat
       Effect::text
         You gain a +2 bonus when tripping or disarming.
@@ -272,7 +274,7 @@
       Normal::text
         You can normally only make up to one attack of opportunity each round.
 
-    Weapon Finesse ::section.feat
+    Weapon Finesse::section.feat
       Effect::text
         You can use dexterity for attack rolls instead of strength, for anything.
 
@@ -311,10 +313,6 @@
     Improved Feint::section.feat
       Effect::text
         You can [feint, Feinting in Combat] as a move action instead of as a standard action. If you succeed, the feint bonus is +4 instead of +2.
-
-    Quick Draw::section.feat
-      Effect::text
-        You can draw/stow weapons as free actions instead of as a move action.
 
     Champion::section.feat
       Effect::text

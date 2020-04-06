@@ -15,7 +15,7 @@
       ::head
         Level | 0 | 1 | 2 | 3
       ::row
-        1     | 4 |   |   |
+        1     | 4 | 1 |   |
         2     | 5 | 2 |   |
         3     | 6 | 3 |   |
         4     | 6 | 3 | 2 |
@@ -28,10 +28,10 @@
       ::head
         Level | 0 | 1 | 2 | 3
       ::row
-        1     | 2 |   |   |
-        2     | 3 | 1 |   |
-        3     | 3 | 2 |   |
-        4     | 3 | 3 | 1 |
+        1     | 2 | 1 |   |
+        2     | 3 | 2 |   |
+        3     | 3 | 3 |   |
+        4     | 3 | 4 | 1 |
         5     | 3 | 4 | 2 |
         6     | 3 | 4 | 3 |
         7     | 3 | 4 | 3 | 1
@@ -73,13 +73,19 @@
     Some Thief Skills::text
       The bard can purchase ranks in [Pick Pockets] and [Use Magic Device] like a thief can. See the thief for details.
     Bard Spells::text
-      A bard casts arcane spells, which are drawn from the bard spell list. He can cast any spell he knows without preparing it ahead of time. Every bard spell has a verbal component (singing, reciting, or music). To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a bard’s spell is 10 + the spell level + the bard’s Charisma modifier.
+      A bard casts arcane spells, which are drawn from the bard spell list. He can cast any spell he knows without preparing it ahead of time.
 
-      Like other spellcasters, a bard can cast only a certain number of spells of each spell level before long resting. His base daily spell allotment is given his table.
+      To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell level.
+
+      The Difficulty Class for a saving throw against a bard’s spell is 10 + the spell level + the bard’s Charisma modifier.
+
+      Every bard spell has a verbal component (singing, reciting, or music).
+
+      Like other spellcasters, a bard can cast only a certain number of spells of each spell level before long resting. His base daily spell allotment is given in his table.
 
       The bard’s selection of spells is extremely limited. A bard begins play knowing four 0-level spells of your choice. At most new bard levels, he gains one or more new spells.
 
-      Upon reaching any level, a bard may choose to learn a new spell in exchange for a spell he already knows.  The new spell’s level must be the same as that of the spell being exchanged. A bard may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.
+      Upon reaching any level, a bard may choose to learn a new spell in exchange for a spell he already knows.
 
     Bardic Knowledge::text
       A bard may make a special bardic knowledge check with a bonus equal to his bard level + his Intelligence modifier to see whether he knows some relevant information about local notable people, legendary items, or noteworthy places. (If the bard has 5 or more ranks in Knowledge (history), he gains a +2 bonus on this check.)
@@ -95,58 +101,58 @@
       When the bard's hiding is tested, the bard rolls a hide check contested by the opposing creature's spot check. A creature must be within 20 feet of the bard to be eligible to roll a spot check.
 
     Bardic Music::text
-      Once per long rest per bard level, a bard can use his song or poetics to produce magical effects on those around him (usually including himself, if desired). 
+      Once per long rest per bard level, a bard can use his song or poetics to produce magical effects on those around him (usually including himself, if desired).
 
       While these abilities fall under the category of bardic music and the descriptions discuss singing or playing instruments, they can all be activated by reciting poetry, chanting, singing lyrical songs, singing melodies, whistling, playing an instrument, or playing an instrument in combination with some spoken performance, as long as there is a sonic component to the performance.
 
       Each ability requires both a minimum bard level and a minimum number of ranks in the Perform skill to qualify; if a bard does not have the required number of ranks in at least one Perform skill, he does not gain the bardic music ability until he acquires the needed ranks.
 
-      Starting a bardic music effect is a standard action. 
+      Starting a bardic music effect is a standard action.
 
-      Some bardic music abilities require concentration, which means the bard must take a standard action each round to maintain the ability. 
+      Some bardic music abilities require concentration, which means the bard must take a standard action each round to maintain the ability.
 
-      Even while using bardic music that doesn’t require concentration, a bard cannot cast spells, activate magic items by spell completion (such as scrolls), spell trigger (such as wands), or command word. 
+      Even while using bardic music that doesn’t require concentration, a bard cannot cast spells, activate magic items by spell completion (such as scrolls), spell trigger (such as wands), or command word.
 
       Just as for casting a spell with a verbal component, a deaf bard has a 20% chance to fail when attempting to use bardic music. If he fails, the attempt still counts against his daily limit.
 
     Countersong::text
       Standard action to start, but not to maintain. Max 10 rounds.
 
-      A bard with 3 or more ranks in a Perform skill can use his music or poetics to counter magical effects that depend on sound (but not spells that simply have verbal components). 
+      A bard with 3 or more ranks in a Perform skill can use his music or poetics to counter magical effects that depend on sound (but not spells that simply have verbal components).
 
-      Each round of the countersong, he makes a Perform check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic attack or a language-dependent magical attack may use the bard’s Perform check result in place of its saving throw if it is greater. 
+      Each round of the countersong, he makes a Perform check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic attack or a language-dependent magical attack may use the bard’s Perform check result in place of its saving throw if it is greater.
 
-      If a creature within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard’s Perform check result for the save.
+      If a creature within range of the countersong is already under the effect of a noninstantaneous sonic attack or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard’s Perform check result for the save.
 
-      Countersong has no effect against effects that don’t allow saves. 
+      Countersong does nothing against effects that don’t allow saves.
 
     Fascinate::text
       Standard action to start, standard action each round (but cannot be used in combat). Max 10 minutes.
 
-      A bard with 3 or more ranks in a Perform skill can use his music or poetics to cause one or more creatures to become fascinated with him. 
+      A bard with 3 or more ranks in a Perform skill can use his music or poetics to cause one or more creatures to become fascinated with him.
 
-      Each creature to be fascinated must be within 90 feet, able to see and hear the bard, and able to pay attention to him. The bard must also be able to see the creature. 
+      Each creature to be fascinated must be within 90 feet, able to see and hear the bard, and able to pay attention to him. The bard must also be able to see the creature.
 
-      The distraction of a nearby combat or other dangers prevents the ability from working. 
+      The distraction of a nearby combat or other dangers prevents the ability from working.
 
       For every three levels a bard attains beyond 1st, he can target one additional creature with a single use of this ability.
 
-      To use the ability, a bard makes a Perform check. His check result is the DC for the Will save against the effect. 
+      To use the ability, a bard makes a Perform check. His check result is the DC for the Will save against the effect.
 
-      If a creature’s saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. 
+      If a creature’s saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours.
 
       If its saving throw fails, the creature sits quietly and listens to the song, taking no other actions, for as long as the bard continues to play.
 
       Any potential threat requires the bard to make another Perform check and allows the creature a new saving throw against a DC equal to the new Perform check result.
 
-      Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the target, automatically breaks the effect. 
+      Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the target, automatically breaks the effect.
 
     Inspire Courage::text
       Standard action to start, must use voice each round to maintain (thus cannot cast bard spells). Maximum of 5 minutes.
 
-      A bard with 3 or more ranks in a Perform skill can use song or poetics to inspire courage in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to hear the bard sing. 
+      A bard with 3 or more ranks in a Perform skill can use song or poetics to inspire courage in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to hear the bard sing.
 
-      The effect lasts for as long as the ally hears the bard sing and for 5 rounds thereafter. 
+      The effect lasts for as long as the ally hears the bard sing and for 5 rounds thereafter.
 
       An affected ally receives a +1 morale bonus on saving throws against charm and fear effects and a +1 morale bonus on attack and weapon damage rolls.
 
@@ -156,17 +162,17 @@
       Standard action, maximum of 2 minutes, must play each round.
       A bard of 3rd level or higher with 6 or more ranks in a Perform skill can use his music or poetics to help an ally succeed at a task. The ally must be within 30 feet and able to see and hear the bard. The bard must also be able to see the ally.
 
-      The ally gets a +2 competence bonus on skill checks with a particular skill as long as he or she continues to hear the bard’s music. 
+      The ally gets a +2 competence bonus on skill checks with a particular skill as long as he or she continues to hear the bard’s music.
 
       Certain uses of this ability are infeasible (such as stealth).
 
       A bard can’t inspire competence in himself.
 
     Suggestion::text
-      A bard of 6th level or higher with 9 or more ranks in a Perform skill can make a suggestion (as the spell) to a creature that he has already fascinated. 
+      A bard of 6th level or higher with 9 or more ranks in a Perform skill can make a suggestion (as the spell) to a creature that he has already fascinated.
 
       Using this ability does not break the bard’s concentration on the fascinate effect, nor does it allow a second saving throw against the fascinate effect.
 
-      Making a suggestion doesn’t count against a bard’s daily limit on bardic music performances. 
+      Making a suggestion doesn’t count against a bard’s daily limit on bardic music performances.
 
-      A Will saving throw (DC the bard's performance check) negates the effect. This ability affects all fascinated creatures. 
+      A Will saving throw (DC the bard's performance check) negates the effect. This ability affects all fascinated creatures.
