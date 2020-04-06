@@ -1,6 +1,6 @@
   Ranger Feats::section.class_feats
     Fighting Style::section.feat
-      This is a placeholder feat. You can take [Brute Fighting], [Defender Fighting], [Dual Wield Fighting], [Swashbuckling], [Musketeering] or [Archery], just as the fighter feats. Note that level 1 rangers and level 6 rangers can get [Dual Wield Fighting], [Swashbuckling] or [Musketeering] for free.
+      This is a placeholder feat. You can take [Brute Fighting], [Defender Fighting], [Dual Wield Fighting], [Swashbuckling], [Musketeering], [Polearm fighting] or [Archery], just as the fighter feats. Note that level 1 rangers and level 6 rangers can get [Dual Wield Fighting], [Swashbuckling] or [Musketeering] for free.
 
     Combat Tactics::section.feat
       Effect::text

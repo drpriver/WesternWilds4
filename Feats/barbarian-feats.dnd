@@ -2,7 +2,7 @@
     Special Rules::text
       Some barbarian feats are "totem" feats. This is indicated by having totem in the name. A barbarian can only have 3 totem feats.
     Fighting Style::section.feat
-      This is a placeholder feat. You can take [Brute Fighting], [Defender Fighting], [Dual Wield Fighting], or [Archery], just as the fighter feats. Note that swashbuckling and musketeering are missing.
+      This is a placeholder feat. You can take [Brute Fighting], [Defender Fighting], [Dual Wield Fighting], [Polearm fighting] or [Archery], just as the fighter feats. Note that swashbuckling and musketeering are missing.
 
     Combat Tactics::section.feat
       Effect::text

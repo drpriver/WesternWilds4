@@ -4,7 +4,7 @@
 
     Brute Fighting::section.feat
       ::text
-        You are better with fighting with brute force.
+        You are better at fighting with brute force.
       Effect::section
         ::text
           For the following effects, the brute weapons are:
@@ -135,6 +135,8 @@
     Archery::section.feat
       ::text
         You are better at fighting with the bow.
+
+        Note: archery fighting is weaker than the other ones.
       Effect::section
         ::text
           Archery is fighting with a shortbow or longbow.
@@ -146,6 +148,30 @@
           At 4th level, you get an additional +1 to attacks with archery.
         Greater Archery Specialization::text
           At 6th level, you get an additional +2 to damage with archery.
+    Polearm Fighting::section.feat
+      ::text
+        You're best when wielding a long pole.
+
+        Note: polearm fighting is weaker than the other ones.
+      Effect::section
+        ::text
+          The following are polearms:
+        ::bullets
+          * Glaive
+          * Halberd
+          * Longspear
+          * Shortspear
+          * Spear
+          * Trident
+        Polearm Focus::text
+          At 1st level, you get +1 to attacks with polearms.
+        Polearm Specialization::text
+          At 2nd level, you get +2 damage with polearms.
+        Greater Polearm Focus::text
+          At 4th level, you get an additional +1 to attacks with polearms.
+        Greater Polearm Specialization::text
+          At 6th level, you get an additional +2 to damage with polearms.
+      
 
     Combat Tactics::section.feat
       Effect::text
@@ -256,7 +282,21 @@
           If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round.
 
           You can keep using this maneuver until you stop dropping people.
+    Deadly Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Deadly Attack
+        ::div.maneuver_text
+          If you hit with this attack, you deal an extra 1d6 damage.
 
+    Riposte::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Riposte
+        ::div.maneuver_text
+          When an enemy misses you with an attack, you can use this maneuver to take an attack of opportunity against them.
 
     Combat Brawn::section.feat
       Effect::text
