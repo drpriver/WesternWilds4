@@ -27,7 +27,7 @@
     Skill Points At Each Additional Level::text
       6 + [Int] modifier
     Weapon Proficiencies::text
-      All simple and martial weapons
+      All simple and martial weapons, except for firearms.
     Armor Proficiencies::text
       Light and Medium Armor. Shields (but not the tower shield).
     Fast Movement::text

@@ -1,148 +1,260 @@
   Fighter Feats::section.class_feats
-    Martial Maneuvers::section.feat
+    Special Rules::text
+      Some fighter feats are "maneuvers". Maneuvers can be used once per battle. When you choose a maneuver feat, you can also pick another maneuver feat for free (BOGO). Only 1 maneuver may be applied to a single attack.
+
+    Brute Fighting::section.feat
+      ::text
+        You are better with fighting with brute force.
       Effect::section
         ::text
-          Pick two maneuvers from the list below. You can use those maneuvers once per battle. Most are made as part of an attack.
+          For the following effects, the brute weapons are:
+        ::bullets
+          * Greatsword
+          * Greataxe
+          * Greatclub
+          * Greathammer
+        ::text
+          Brute fighting gives you several benefits, which improve as you level up
+        Brute Weapon Focus::text
+          At 1st level, you get a +1 bonus to attacks with brute weapons.
+        Power Attack::text
+          At 1st level, on your turn before you make any attacks, you can choose to willingly inflict a penalty to your attacks up to your BAB. If you do, you add twice that much to your damage rolls with brute weapons this turn. This penalty on attacks and bonus on damage apply until your next turn.
 
-          You can only apply one of these to a single attack.
+          You can only subtract up to 5, or your BAB, whichever is lower.
+        Brute Weapon Specialization::text
+          At 2nd level, you get +2 damage with brute weapons
+        Greater Brute Weapon Focus::text
+          At 4th level, you get an additional +1 to attacks with brute weapons (for a total of +2).
+        Greater Brute Weapon Specialization::text
+          At 6th level, you get an additional +2 to damage with brute weapons (for a total of +4).
 
-        ::div.maneuver
-          ::div.maneuver_title
-            Sweeping Blow
-          ::div.maneuver_text
-            This melee attack attacks two adjacent creatures within your reach (only roll one attack).
-        ::div.maneuver
-          ::div.maneuver_title
-            Brazen Attack
-          ::div.maneuver_text
-            This melee attack gets a +4 bonus, but you suffer -4 to your AC until beginning of the next turn.
-        ::div.maneuver
-          ::div.maneuver_title
-            Focused Attack
-          ::div.maneuver_text
-            Roll two attack rolls for this attack.
-            You may pick which roll to use.
-            If you use the lower roll, your attack deals an extra 1d6 damage.
-        ::div.maneuver
-          ::div.maneuver_title
-            Blocking Attack
-          ::div.maneuver_text
-            If you hit with this melee attack, that creature can only take opportunity attacks against you this turn.
-        ::div.maneuver
-          ::div.maneuver_title
-            Clever Positioning
-          ::div.maneuver_text
-            If you hit with this melee attack, you and the creature swap positions. Neither of you need to spend movement.
-        ::div.maneuver
-          ::div.maneuver_title
-            Overwhelming Attack
-          ::div.maneuver_text
-            If you hit with this melee attack, the creature loses their move action on their next turn.
-        ::div.maneuver
-          ::div.maneuver_title
-            Leap Attack
-          ::div.maneuver_text
-            For this melee attack, you can use your ranks in jump instead of your base attack bonus. For every 5 points you exceed their AC, you deal an extra 1d6 damage. Any miscellaneous bonuses to jump you have (such as [Halfling athleticism]) applies to this attack.
-        ::div.maneuver
-          ::div.maneuver_title
-            Distracting Attack
-          ::div.maneuver_text
-            If you hit with this melee attack, your allies get a +2 bonus against that enemy. This enables sneak attack.
-        ::div.maneuver
-          ::div.maneuver_title
-            Stonecold Attack
-          ::div.maneuver_text
-            If you hit with this melee attack, you gain DR 5/- (all sources of damage deal 5 less to you) until yyour next turn.
-        ::div.maneuver
-          ::div.maneuver_title
-            Impairing Attack
-          ::div.maneuver_text
-            If you hit with this melee attack, the victim suffers -4 to their attacks until your next turn.
-        ::div.maneuver
-          ::div.maneuver_title
-            Dedicated Attack
-          ::div.maneuver_text
-            Use this after you miss. You can reroll.
-        ::div.maneuver
-          ::div.maneuver_title
-            Critical Attack
-          ::div.maneuver_text
-            If you hit with this attack, you deal double damage.
-      Special::text
-        You can take this feat multiple times. Each time, pick two new maneuvers. You can use each maneuver once per battle.
+    Defender Fighting::section.feat
+      ::text
+        You are better at fighting with shield and sword (or axe, whatever).
+      Effect::section
+        ::text
+          You gain the benefits of defender fighting as long as you have a one-handed melee weapon in one hand and a shield in the other. If you drop or are disarmed of one or the other or otherwise don't have one in your hands, you lose the benefits.
 
-    Power Attack::section.feat
-      Effect::text
-        On your action, before making attack rolls for a round, you may choose to subtract a
-        number from all weapon attack rolls and add the same number to all weapon damage
-        rolls. The penalty on attacks and bonus on damage apply until your next turn.
+          This is referred to as "defender fighting" below.
+        Defender Focus::text
+          At 1st level, you get a +1 bonus to attacks and a +1 bonus to AC while defender fighting.
 
-        You may only use this feat with attacks that add your strength modifier to the
-        damage. You cannot subtract from your attack roll a number higher than your base
-        attack.
+          While defender fighting, you add double your strength bonus to your damage rolls instead of just your strength bonus.
+        Combat Expertise::text
+          At 1st level, on your turn before you make any attacks, you can choose to willingly inflict a penalty to your attacks up to your BAB. If you do, you add that much to your AC until your next turn. You must attack this turn to receive this benefit.
 
-        If you attack with a two-handed melee weapon, or with a one-handed melee weapon
-        wielded in two hands, instead add twice the number subtracted from your attack
-        rolls.
+          You lose this benefit if you stop defender fighting.
+        Defender Fighting Specialization::text
+          At 2nd level, you get +2 damage when defender fighting.
+        Greater Defender Fighting Focus::text
+          At 4th level, you get an additional +1 to attacks when defender fighting.
+        Greater Defender Fighting Specialization::text
+          At 6th level, you get an additional +2 to damage when defender fighting.
 
-        You can't add the bonus from Power Attack to the damage dealt with a light weapon
-        (except with unarmed strikes or natural weapon attacks).
+    Dual Wield Fighting::section.feat
+      ::text
+        You are better at fighting with two weapons, like a frigging ninja.
+      Effect::section
+        ::text
+          You gain the benefits of Dual Wield Fighting as long as you have two light melee weapons in your hands. If you ever stop having two in your hands, you lose the benefits. Having a light weapon in each hand is referred to as "dual wielding" below.
+        Two Weapon Fighting::text
+          At 1st level, when you attack with your main hand weapon, you get an extra free attack with your off hand weapon this round. You benefit from this when dual wielding and once per round.
 
-        You can't use Power Attack and Combat Expertise in the same round.
+          When you draw or sheath a light weapon, you can instead do so for both of your weapons.
 
-    Combat Expertise::section.feat
-      Effect::text
-        On your action, before making attack rolls for a round, you may choose to subtract a number from all melee weapon attack rolls and add the same number to your AC. The penalty on attacks and bonus on AC apply until the start of your next turn.
+          Additionally, you get a +1 shield bonus to AC when fighting with two weapons.
+        Two Weapon Focus::text
+          At 1st level, you get a +1 bonus to attacks with dual wielding.
+        Two Weapon Specialization::text
+          At 2nd level, you get +2 damage when dual wielding.
+        Greater Two Weapon Focus::text
+          At 4th level, you get an additional +1 to attacks when dual wielding.
+        Greater Two Weapon Specialization::text
+          At 6th level, you get an additional +2 to damage when dual wielding.
 
-        You must be using a melee weapon to gain this benefit. If you are disarmed or otherwise left without a melee weapon in your hands, you lose the benefit to your AC.
+    Swashbuckling::section.feat
+      ::text
+        You are better at fighting like a pirate.
+      Effect::section
+        ::text
+          You gain the benefits of swashbuckling when you:
+        ::bullets
+          * Fight with a pistol in each hand
+          * Fight with a Dagger, Cutlass, Rapier, Harpoon, or Longsword in one hand and a pistol in the other
+          * Fight with just a Dagger, Cutlass, Rapier, Harpoon or Longsword in one hand and the other hand is empty.
+        ::text
+          This is referred to as swashbuckling below.
+        ::text
+          Additionally, you get a +2 bonus to flirting.
+        Swashbuckling Focus::text
+          At 1st level, you get +1 to attacks while swashbuckling.
+        Swashbuckling Defense::text
+          At 1st level, while you only have a Cutlass, Rapier, Harpoon or Longsword in one hand, you get a +2 shield bonus to AC.
+        Swift Reload::text
+          At 1st level, you can reload your pistol as half of a move action while swashbuckling. What this means is you can either reload two pistols as one move action or reload one pistol and then move half your speed.
+        Daring-do::text
+          At 1st level, if you attack with a Cutlass, Rapier, Harpoon or Longsword, you can fire your pistol as a free action this round without provoking attacks of opportunity.
 
-        You cannot subtract more than your base attack from your attack roll and cannot subtract more than 5.
-
-        You can't use Combat Expertise and Power Attack in the same round.
-
-    Cleave::section.feat
-      Prerequisite::text
-        Power Attack
-      Effect::text
-        If you deal a creature enough damage with a melee attack to make it dead/unconscious, you get an immediate, extra melee attack against another creature within reach.
-        The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature.
-
-        If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round.
-
-
-        You can use this ability once per round.
-
-    Great Cleave::section.feat
-      Prerequisite::text
-        Cleave
-      Effect::text
-        There is no limit on the number of cleaves you can make in a turn. Additionally, you can move in between cleave attacks (not restricted to 5' steps).
-
-    Two Weapon Fighting::section.feat
-      Effect::text
-        Each time you make an attack with your primary weapon, you can make an extra attack
-        with your off-hand weapon.  The weapons must be one-handed or a double weapon.
-
-        When you choose to use this ability, all your attacks get a -3 bonus on the attack.
-        For each light weapon you are wielding, reduce the attack penalty by 1.
-
-        Additionally, you can draw two weapons as part of the same action. You may also sheath two one-handed weapons on your belt.
-
-    Two Weapon Defense::section.feat
-      Effect::text
-        When fighting with two weapons, you gain a +1 shield bonus to AC. This shield bonus doubles if you fight defensively, take total defense or use [combat expertise].
-
+          Additionally, if you have a pistol in each hand, you can fire one and then fire the other one for free. This still provokes attacks of opportunities for ranged attacks as normal.
+        Swashbuckling Specialization::text
+          At 2nd level, you get +2 damage while swashbuckling.
+        Greater Swashbuckling Focus::text
+          At 4th level, you get an additional +1 to attacks while swashbuckling.
+        Greater Swashbuckling Specialization::text
+          At 6th level, you get an additional +2 to damage while swashbuckling.
+    Musketeering::section.feat
+      ::text
+        You are better at fighting with musket, bayonet and blunderbuss.
+      Effect::section
+        ::text
+          You gain the benefits of musketeering when you:
+        ::bullets
+          * Fight with a musket as a ranged weapon
+          * Fight with a bayonet attached to a musket as a melee weapon
+          * Fight with a blunderbuss.
+        ::text
+          This is referred to as "musketeering" below.
+        Musketeering Focus::text
+          At 1st level, you get +1 to attacks while musketeering.
+        Swift Reload::text
+          At 1st level, you can reload your musket or blunderbuss as a move action.
+        Sharpshooter::text
+          At 1st level, you add your dexterity bonus to damage with your musket.
+        Blunderblaster::text
+          At 1st level, you can target an additional creature when you attack with the blunderbuss.
+        Bayonetter::text
+          At 1st level, you can use the bayonet on your musket as a reach weapon with 10' of reach and no deadzone.
+        Musketeering Specialization::text
+          At 2nd level, you get +2 damage while musketeering.
+        Greater Musketeering Focus::text
+          At 4th level, you get an additional +1 to attacks while musketeering.
+        Greater Musketeering Specialization::text
+          At 6th level, you get an additional +2 to damage while musketeering.
+    Archery::section.feat
+      ::text
+        You are better at fighting with the bow.
+      Effect::section
+        ::text
+          Archery is fighting with a shortbow or longbow.
+        Archery Focus::text
+          At 1st level, you get +1 to attacks with archery.
+        Archery Specialization::text
+          At 2nd level, you get +2 damage with archery.
+        Greater Archery Focus::text
+          At 4th level, you get an additional +1 to attacks with archery.
+        Greater Archery Specialization::text
+          At 6th level, you get an additional +2 to damage with archery.
+        
     Combat Tactics::section.feat
       Effect::text
         You gain a +2 bonus when tripping or disarming.
 
         Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
 
-    Greater Combat Tactics::section.feat
-      Prerequisite::text
-        Combat Tactics
-      Effect::text
-        Your bonus from combat tactics improves from +2 to +4
+        At 4th level, the bonus increases to +4.
+
+    Sweeping Blow::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Sweeping Blow
+        ::div.maneuver_text
+          This melee attack attacks two adjacent creatures within your reach (only roll one attack).
+    Brazen Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Brazen Attack
+        ::div.maneuver_text
+          This melee attack gets a +4 bonus, but you suffer -4 to your AC until beginning of the next turn.
+    Focused Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Focused Attack
+        ::div.maneuver_text
+          Roll two attack rolls for this attack.
+          You may pick which roll to use.
+          If you use the lower roll, your attack deals an extra 1d6 damage.
+    Blocking Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Blocking Attack
+        ::div.maneuver_text
+          If you hit with this melee attack, that creature can only take opportunity attacks against you this turn.
+    Clever Positioning::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Clever Positioning
+        ::div.maneuver_text
+          If you hit with this melee attack, you and the creature swap positions. Neither of you need to spend movement.
+    Overwhelming Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Overwhelming Attack
+        ::div.maneuver_text
+          If you hit with this melee attack, the creature loses their move action on their next turn.
+    Leap Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Leap Attack
+        ::div.maneuver_text
+          For this melee attack, you can use your ranks in jump instead of your base attack bonus. For every 5 points you exceed their AC, you deal an extra 1d6 damage. Any miscellaneous bonuses to jump you have (such as [Halfling athleticism]) applies to this attack.
+    Distracting Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Distracting Attack
+        ::div.maneuver_text
+          If you hit with this melee attack, your allies get a +2 bonus against that enemy. This enables sneak attack.
+    Stonecold Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Stonecold Attack
+        ::div.maneuver_text
+          If you hit with this melee attack, you gain DR 5/- (all sources of damage deal 5 less to you) until your next turn.
+    Impairing Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Impairing Attack
+        ::div.maneuver_text
+          If you hit with this melee attack, the victim suffers -4 to their attacks until your next turn.
+    Dedicated Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Dedicated Attack
+        ::div.maneuver_text
+          Use this after you miss. You can reroll.
+    Critical Attack::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Critical Attack
+        ::div.maneuver_text
+          If you hit with this attack, you deal double damage.
+    Cleave::section.feat
+      Maneuver
+      ::div.maneuver
+        ::div.maneuver_title
+          Cleave
+        ::div.maneuver_text
+          Use this after you drop a creature with a melee attack.
+
+          Take an immediate, extra, free, melee attack aginst another creature within your reach.
+
+          The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature.
+
+          If it is your turn, you can 5' step before making the extra attack if you haven't already moved this round.
+
+          You can keep using this maneuver until you stop dropping people.
+
 
     Combat Brawn::section.feat
       Effect::text
@@ -152,132 +264,23 @@
 
         You can force creatures to not move out of the way of your overrun.
 
-    Greater Combat Brawn::section.feat
-      Effect::text
-        Your bonus from combat brawn increases from +2 to +4
-
-    Shock Trooper::section.feat
-      Prerequisite::text
-        Combat Tactics or Combat Brawn, Power Attack, Level 3
-      Effect::text
-        When you hit an enemy with a charge attack, you can make a free bullrush attempt. If you succeed, you can push them in any direction up to 10 feet.
-
-        When you bullrush an enemy, if they collide with a solid barrier or another enemy, you get a free trip attempt on the primary target. This does not trigger combat tactics.
-
-        When you use your power attack with your charge attack with a penalty of at least -2 attack, you may choose to take a -2 penalty to AC for a +2 bonus to attack.
+        At 4th level level, the bonus increase to +4.
 
     Combat Reflexes::section.feat
       Effect::text
-        You may make up to three attacks of opportunity each round. You receive a +2 bonus on these attacks.
+        You may make up to three attacks of opportunity each round.
       Normal::text
         You can normally only make up to one attack of opportunity each round.
 
-    Two-Handed Fighting::section.feat
-      Effect::text
-        When you hit an enemy with a two-handed weapon, you can deal the non-dice component of the damage to another enemy that is adjacent to you as well.
-
-    Precise Shot::section.feat
-      Effect::text
-        You don't suffer the -4 penalty for firing into a melee.
-      Normal::text
-        Normally you must take a -4 penalty to attack a specific target in a group or melee with a ranged attack.
-
-    Rapid Reload::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::section
-        ::text
-          You can reload gun and crossbows faster
-
-        ::bullets
-          * move->no action
-          * standard -> move action, can also move half your speed or reload a second standard action weapon
-          * full round -> move action
-
-    Gun Fighting::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::text
-        You can add your BAB to the damage of your gun attacks.
-
-    Sharpshooter::section.feat
-      Prerequisite::text
-        Precise Shot
-      Effect::text
-        Add ½ DEX bonus to damage with crossbows and guns.
-
-        The max precision damage range is increased to 60'.
-
-    Shield Focus::section.feat
-      Effect::text
-        +1 AC when using a shield.
-
-    Shield Fighting::section.feat
-      Prerequisite::text
-        Shield Focus
-      Effect::text
-
-        Add shield AC bonus to reflex saves against damaging area effects.
-
-        You can shield bash without losing your shields AC bonus.
-
-        When you bullrush an enemy, you can make a shield bash attack for free.
-
-    Swashbuckling::section.feat
-      Effect::text
-        Once per turn when you attack with a one-handed weapon, you may also attack with a one-handed ranged weapon in another hand with no two-weapon fighting penalty and without provoking attacks of opportunity.
-
-        You can reload a pistol as a move action.
-
-        If you fight with a sword-type weapon in one hand and the other hand is empty, you get a +2 dodge bonus to AC.
-
-        You get a +2 bonus to flirting.
-
     Weapon Finesse ::section.feat
       Effect::text
-        You can use dexterity for attack rolls with one-handed non-bludgeoning melee weapons.
-
-    Weapon Focus::section.feat
-      Effect::text
-        Choose a class of weapon: sword, axe, hammer, polearm, bow, crossbow, gun, or flail.
-
-        You receive a +1 bonus to attacks with that class of weapon.
-      Special::text
-        You can take this feat more than once. Each time, choose a different class of weapon for it to apply to.
-
-    Weapon Specialization::section.feat
-      Prerequisite::text
-        Weapon Focus, level 2
-      Effect::text
-        You receive a +2 bonus to damage with the classes of weapons in which you have weapon focus.
-
-    Improved Critical::section.feat
-      Prerequisite::text
-        Weapon Focus, level 6
-      Effect::text
-        Increase the critical range by 1 for any weapon you have weapon focus.
+        You can use dexterity for attack rolls instead of strength, for anything.
 
     Provoker::section.feat
       Effect::text
         Once per enemy, when you hit them with a melee attack, you may make a DC 15 bluff check. If you succeed, that enemy must target you next round. If they make multiple attacks, they must continue targeting you until they hit you once. If they use an ability with an area, you must be inside the area. If they use a single target ability, they must target you.
 
         You gain +3 HP
-
-    Skirmisher Stances::section.feat
-      Effect::text
-        As a swift action, you can change between the following stances. You can only have one active stance at a time.
-
-        Mobile Stance: You don’t provoke AoO for movement if you have not attacked this turn.
-
-        Power Stance: Your first melee attack each turn deals an additional d6 damage, you have -2 AC until your next turn.
-
-    Vanguard Stances::section.feat
-      Effect::text
-        As a swift action, you can change between the following stances. You can only have one active stance at a time.
-
-        (TODO: boring?) Inspiring Stance: You and all allies who can see you gain a +4 bonus on will saves.
-
-        (TODO: OP?) Mountain Stance: +10 to defend or escape against bullrush and grapple. When you deal unarmed damage with a grapple check, your unarmed damage is a d12+STR. When you bullrush an enemy, double the distance you push them.
 
     Spring Attack::section.feat
       Prerequisite::text
@@ -287,11 +290,11 @@
 
     Whirlwind Attack::section.feat
       Prerequisite::text
-        Power Attack, Cleave, Combat Expertise, Spring Attack, Level 4
+        Level 4
       Effect::text
         When you use attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.
 
-        When you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities, with the exception of cleave and great cleave.
+        When you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities, with the exception of cleave.
 
     Blind-Fight::section.feat
       Effect::text
@@ -315,6 +318,6 @@
 
     Champion::section.feat
       Effect::text
-        You have a 5% chance per fighter level to bend bars/lift gates.
+        You have a 25%+5% chance per fighter level to bend bars/lift gates.
 
         You can add your fighter level to jump, swim, climb checks.

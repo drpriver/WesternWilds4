@@ -51,9 +51,9 @@
       4 + Int modifier
 
     Weapon and Armor Proficiency::text
-      Sorcerers are proficient with all simple weapons.
+      Sorcerers are proficient with all simple weapons as well as the musket and blunderbuss.
       They are not proficient with any type of armor or shield.
-      Sorcerers cannot cast spells while wearing armor.
+      Sorcerers cannot cast spells while wearing armor or shields.
 
     Spells::text
       A sorcerer casts arcane spells which are drawn from the sorcerer spell list. He can cast any spell he knows without preparing it ahead of time.

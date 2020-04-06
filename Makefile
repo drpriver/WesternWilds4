@@ -304,7 +304,6 @@ EQUIPMENT=equipment.dnd\
 	  Weapons/dagger.dnd\
 	  Weapons/dwarven-waraxe.dnd\
 	  Weapons/falchion.dnd\
-	  Weapons/flail.dnd\
 	  Weapons/glaive.dnd\
 	  Weapons/greataxe.dnd\
 	  Weapons/greatclub.dnd\
@@ -313,8 +312,6 @@ EQUIPMENT=equipment.dnd\
 	  Weapons/handaxe.dnd\
 	  Weapons/harpoon.dnd\
 	  Weapons/heavy-crossbow.dnd\
-	  Weapons/heavy-flail.dnd\
-	  Weapons/heavy-pick.dnd\
 	  Weapons/javelin.dnd\
 	  Weapons/light-crossbow.dnd\
 	  Weapons/longbow.dnd\
@@ -332,7 +329,6 @@ EQUIPMENT=equipment.dnd\
 	  Weapons/shortsword.dnd\
 	  Weapons/sling.dnd\
 	  Weapons/spear.dnd\
-	  Weapons/throwing-axe.dnd\
 	  Weapons/trident.dnd\
 	  Weapons/warhammer.dnd\
 	  Weapons/whip.dnd\

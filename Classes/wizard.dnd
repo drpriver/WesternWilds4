@@ -38,7 +38,7 @@
       4 + Int modifier
 
     Weapon and Armor Proficiency::text
-      Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield.
+      Wizards are proficient with the club, dagger, pistol, and quarterstaff, but not with any type of armor or shield.
       Wizards cannot cast spells while wearing armor or shields.
 
     Spells::text

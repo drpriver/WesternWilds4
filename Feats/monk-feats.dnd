@@ -2,7 +2,6 @@
     Special Rules::text
       Some monk feats are a school feat. You can only have 1 school feat.
 
-
     School of Elemental Bending::section.feat
       Prerequisite::text
         Stunning Fist
@@ -283,7 +282,6 @@
       Prerequisite::text
         Stunning Fist
       Effect::text
-        You can use stunning fist 3 additional times per long rest.
 
         Gain an ability from either school of ninjutsu or school of elemental bending.
 
@@ -347,7 +345,7 @@
 
         A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, and loses his Dexterity bonus to AC.
 
-        You may attempt a stunning attack once per long rest per monk level.
+        You may attempt a stunning attack two times at level one and an additional time per monk level above level one per long rest.
 
         Some creatures are immune to stun.
     Still Breath::section.feat
