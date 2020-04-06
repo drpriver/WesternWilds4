@@ -18,6 +18,8 @@
           Flexible    | Armor check penalty is reduced by 2 and maximum allowable dexterity bonus is increased by 1.
           Spiked      | Armor has [weapon spikes] protruding from it.
           Fortified   | 10% chance to negate any critical hit upon the wearer.
+      Weapon Spikes::text
+        Weapon spikes deal 1d6 damage if used as a weapon by themselves. They count as a martial weapon. Whenever the creature succeeds at a grapple check to deal damage, they deal an extra 1d6 damage as well due to the spikes.
     Craft Grandmasterwork Armor::section
       ::text
         A character with at least 10 ranks in craft armor can craft grandmasterwork armors.

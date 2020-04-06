@@ -43,6 +43,25 @@
   "catacombs of zargon 4 & 5":"zargon_4_5.html",
   "isle of death": "isle_of_death.html",
   "giant two-headed snake":"monsters.html#giant-two-headed-snake",
-  "priest of zargon":"monsters.html#priest-of-zargon"
+  "priest of zargon":"monsters.html#priest-of-zargon",
+  "barbarians":"#barbarian",
+  "bards":"#bard",
+  "clerics":"#cleric",
+  "druids":"#druid",
+  "fighters":"#fighter",
+  "monks":"#monk",
+  "rangers":"#ranger",
+  "thiefs":"#thief",
+  "sorcerers":"#sorcerer",
+  "wizards":"#wizard",
+  "gnome":"#gnomes",
+  "elf":"#elves",
+  "human":"#humans",
+  "touch attack":"#touch-attacks",
+  "grapple check":"#grapple-checks",
+  "feat":"#feats",
+  "deaf":"#deafened",
+  "flat-footed":"#flatfooted",
+  "cower":"#cowering"
 }
 

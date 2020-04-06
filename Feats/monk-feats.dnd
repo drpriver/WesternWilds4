@@ -7,7 +7,7 @@
         Stunning Fist
       Effect::section
         ::text
-          You gain 1 additional use of your stunning fist. Each of the following abilities costs 1 use to activate.
+          You gain 1 additional stunt point. Each of the following abilities costs 1 point to activate.
         ::div.maneuver
           ::div.maneuver_title
             Flaming Fist
@@ -47,7 +47,7 @@
         Level 3, School of Elemental Bending
       Effect::section
         ::text
-          Pick one of the following abilities. You can use it twice per day without spending stunning fist uses.
+          Pick one of the following abilities. You can use it twice per day without spending stunt points.
         ::div.maneuver
           ::div.maneuver_title
             Greater Flaming Fist
@@ -127,7 +127,7 @@
         ::text
         +1 damage with melee attacks
 
-        Pick two additional maneuvers from the fighter feat Martial Manuevers.
+        Pick two additional maneuvers from the fighter feat list.
 
     School of Drunken Fist::section.feat
       Effect::text
@@ -164,11 +164,11 @@
         Immediate action, move 5’ without provoking AoO
 
     School Of Ninjutsu::section.feat
-      Prerequisite::text
-        Stunning Fist
       Effect::section
         ::text
-          You gain 1 additional use of your stunning fist. Each of the following abilities costs 1 use to activate.
+          You become proficient with short swords and they are monk weapons.
+
+          You gain 1 additional stunt point. Each of the following abilities costs 1 point to activate.
         ::div.maneuver
           ::div.maneuver_title
             Transformation
@@ -248,7 +248,7 @@
 
         Guns are monk weapons for you.
 
-        Reloading a pistol is a swift action
+        Reloading a pistol is a move action
 
         Firing guns does not provoke attacks of opportunity
 
@@ -279,10 +279,7 @@
         Once per turn after you flurry of blows, you can fire a gun at a target you did not attack yet this turn.
 
     Open Chakra::section.feat
-      Prerequisite::text
-        Stunning Fist
       Effect::text
-
         Gain an ability from either school of ninjutsu or school of elemental bending.
 
     Spring Attack::section.feat
@@ -305,19 +302,9 @@
 
     Combat Reflexes::section.feat
       Effect::text
-        You may make up to three attacks of opportunity each round. You receive a +2 bonus on these attacks.
+        You may make up to three attacks of opportunity each round.
       Normal::text
         You can normally only make up to one attack of opportunity each round.
-
-    Combat Brawn::section.feat
-      Effect::text
-        You gain a +2 bonus when bullrushing, grappling and overrunning.
-
-        Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
-
-    Greater Combat Brawn::section.feat
-      Effect::text
-        Your bonus from combat brawn increases from +2 to +4
 
     Combat Tactics::section.feat
       Effect::text
@@ -325,29 +312,17 @@
 
         Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
 
-    Greater Combat Tactics::section.feat
-      Prerequisite::text
-        Combat Tactics
+        At 4th level, the bonus increases to +4.
+    Combat Brawn::section.feat
       Effect::text
-        Your bonus from combat tactics improves from +2 to +4
+        You gain a +2 bonus when bullrushing, grappling and overrunning.
 
-    Deflect Arrows::section.feat
-      Effect::text
-        You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed.
+        Additionally, if you succeed on any of these maneuvers, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature. When grappling, you can use this to make a grapple check.
 
-    Stunning Fist::section.feat
-      Effect::text
-        You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt).
+        You can force creatures to not move out of the way of your overrun.
 
-        Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + ½ your character level + your Wis modifier), in addition to dealing damage normally.
+        At 4th level level, the bonus increase to +4.
 
-        A defender who fails this saving throw is stunned for 1 round (until just before your next action).
-
-        A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, and loses his Dexterity bonus to AC.
-
-        You may attempt a stunning attack two times at level one and an additional time per monk level above level one per long rest.
-
-        Some creatures are immune to stun.
     Still Breath::section.feat
       Prerequisite::text
         Level 6

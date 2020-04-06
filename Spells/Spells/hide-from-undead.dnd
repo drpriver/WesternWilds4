@@ -1,0 +1,21 @@
+  Hide from Undead::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 1
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | touch
+        Targets:          | One touched creature/level
+        Duration:         | 10 min/level
+    ::text
+      Undead cannot see, hear, or smell the warded creatures. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. 
+
+      Nonintelligent undead creatures are automatically affected and act as though the warded creatures are not there. 
+
+      An intelligent undead creature gets a single Will saving throw. If it fails, the subject can’t see any of the warded creatures. However, if it has reason to believe unseen opponents are present, it can attempt to find or strike them. 
+
+      If a warded creature attempts to turn or command undead, touches an undead creature, or attacks any creature, the spell ends for all recipients.
+
+

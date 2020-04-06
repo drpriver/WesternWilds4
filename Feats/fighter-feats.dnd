@@ -173,13 +173,6 @@
           At 6th level, you get an additional +2 to damage with polearms.
       
 
-    Combat Tactics::section.feat
-      Effect::text
-        You gain a +2 bonus when tripping or disarming.
-
-        Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
-
-        At 4th level, the bonus increases to +4.
 
     Sweeping Blow::section.feat
       Maneuver
@@ -298,6 +291,13 @@
         ::div.maneuver_text
           When an enemy misses you with an attack, you can use this maneuver to take an attack of opportunity against them.
 
+    Combat Tactics::section.feat
+      Effect::text
+        You gain a +2 bonus when tripping or disarming.
+
+        Additionally, if you successfully trip or disarm someone, you are granted an immediate free extra melee attack at the same base attack bonus on the same creature.
+
+        At 4th level, the bonus increases to +4.
     Combat Brawn::section.feat
       Effect::text
         You gain a +2 bonus when bullrushing, grappling and overrunning.

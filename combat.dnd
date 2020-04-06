@@ -1,6 +1,6 @@
 Combat::chapter
   Initiative::section.combat_rules
-    The party rolls initiative as a single unit, using the median of their initiative bonus.
+    The party rolls initiative as a single unit, using the median of their initiative bonus. A character's initiative bonus is their dexterity bonus.
   Grappling::section.special_attack
     TODO: check the balance of this.
     Grapple Checks::text
@@ -59,7 +59,7 @@ Combat::chapter
           0.5x enemy HD | [move the grapple]
           1.5x enemy HD | [throw enemy]
           Any number of points | reduce your enemy’s grapple point pool by the same amount
-      Inflict Pinned Creature::text
+      Inflict Pinned Condition::text
         A pinned creature's only possible action is to try to escape from the pin, which they
         can do by besting the enemy's grapple check. The enemy gets a +4 bonus. If they
         succeed, they are no longer pinned (and are standing), but are still in the grapple.
@@ -251,8 +251,6 @@ Combat::chapter
   Flanking::text.combat_rules
     Flanking is a special ability that thieves get. If they and an ally are on opposite sides of a creature, the thief gets +2 to his attacks and can backstab.
 
-  Flatfooted::text.combat_rules
-    A flatfooted creature can't make attacks of opportunity, can be snuck attack and attackers get a +2 bonus on them. EXCEPTION: the side that loses initiative can't make attacks of opportunity, but there is no special advantage to attacking them.
 
   Running Away::text.combat_rules
     When playing on a grid, moving off the drawn area means that creature has run away from the fight.

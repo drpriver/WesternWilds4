@@ -190,6 +190,7 @@ table.large {
 table.class_table {
     max-width: 90%;
 }
+section.condition,
 section.feat {
     border: 1px solid grey;
     padding: 12px;
@@ -197,6 +198,8 @@ section.feat {
     margin-left: 6px;
     margin-right:6px;
     width:50em;
+    max-width:34em;
+    background-color: rgb(248,243,224);
 }
 
 section.spell{
@@ -351,10 +354,6 @@ table.weapon_stats tr td:nth-child(1){
     text-align:right;
 }
 
-section.feat {
-    max-width:34em;
-    background-color: rgb(248,243,224);
-}
 .feat h4 {
     color: black;
 }
@@ -382,6 +381,8 @@ table.spell_info > tbody > tr.even {
 table.spell_info > tbody > tr td:nth-child(2){
     border-left: 1px solid black;
 }
+
+table > tbody > tr td:nth-child(1),
 table.spell_info > tbody > tr td:nth-child(1){
     white-space:nowrap;
 }

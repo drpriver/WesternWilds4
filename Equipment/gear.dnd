@@ -119,6 +119,5 @@
 
       Weapon Sheath::text
         A character can have one one-handed weapon sheathed on their belt or two light weapons. Having more than that gives them penalties.
-
-
-
+      Holster::text
+        A holster is like a weapon sheath but for pistols.

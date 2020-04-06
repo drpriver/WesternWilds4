@@ -86,7 +86,7 @@ Flaws::chapter
     Light Sensitivity::section.feat
       Bright light gives you headaches.
       Effect::text
-        You are dazzled in daylight or similarly bright light.
+        You are [dazzled] in daylight or similarly bright light.
         A dazzled creature takes a -1 penalty on attack rolls and Spot checks.
     Lightweight::section.feat
       You are very light for your size.

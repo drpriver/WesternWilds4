@@ -64,21 +64,21 @@
       ::row
         [Acid Arrow]             | Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
         [Arcane Lock]            | Magically locks a portal or chest.
-        [Bear’s Endurance]       | Subject gains 19 Con for 10 min./level.
+        [Bear's Endurance]       | Subject gains 19 Con for 10 min./level.
         [Blindness/Deafness]     | Makes subject blinded or deafened.
         [Blur]                   | Attacks miss subject 20% of the time.
-        [Bull’s Strength]        | Subject gains 19 Str for 10 min./level.
-        [Cat’s Grace]            | Subject gains 19 Dex for 10 min./level.
+        [Bull's Strength]        | Subject gains 19 Str for 10 min./level.
+        [Cat's Grace]            | Subject gains 19 Dex for 10 min./level.
         [Command Undead]         | Undead creature obeys your commands.
         [Continual Flame]        | Makes a permanent, heatless torch.
         [Darkness]               | 20-ft. radius of supernatural shadow.
         [Darkvision]             | See 60 ft. in total darkness.
         [Daze Monster]           | Living creature of 6 HD or less loses next action.
-        [Eagle’s Splendor]       | Subject gains 19 Cha for 10 min./level.
+        [Eagle's Splendor]       | Subject gains 19 Cha for 10 min./level.
         [False Life]             | Gain 1d10 temporary hp +1/level (max +10).
         [Flaming Sphere]         | Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
         [Fog Cloud]              | Fog obscures vision.
-        [Fox’s Cunning]          | Subject gains 19 Int for 10 min./level.
+        [Fox's Cunning]          | Subject gains 19 Int for 10 min./level.
         [Ghoul Touch]            | Paralyzes one subject, which exudes stench that makes those nearby sickened.
         [Gust of Wind]           | Blows away or knocks down smaller creatures for 1rd/level.
         [Hideous Laughter]       | Subject loses actions for 1 round/level.
@@ -92,7 +92,7 @@
         [Mirror Image]           | Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
         [Misdirection]           | Misleads divinations for one creature or object.
         [Obscure Object]         | Masks object against scrying.
-        [Owl’s Wisdom]           | Subject gains 19 Wis for 10 min./level.
+        [Owl's Wisdom]           | Subject gains 19 Wis for 10 min./level.
         [Phantom Trap]           | Makes item seem trapped.
         [Protection from Arrows] | Subject immune to most ranged attacks.
         [Pyrotechnics]           | Turns fire into blinding light or choking smoke.
@@ -156,7 +156,7 @@
         [Fear]                             | Subjects within cone flee for 1 round/level.
         [Fire Shield]                      | Creatures attacking you take fire damage; you’re protected from heat or cold.
         [Fire Trap]                        | Opened object deals 1d4 damage +1/level.
-        [Geas, Lesser]                     | Commands subject of 7 HD or less.
+        [Lesser Geas]                     | Commands subject of 7 HD or less.
         [Globe of Invulnerability, Lesser] | Stops 1st- through 3rd-level spell effects.
         [Hallucinatory Terrain]            | Makes one type of terrain appear like another (field into forest, or the like).
         [Ice Storm]                        | Hail deals 5d6 damage in cylinder 40 ft. across.

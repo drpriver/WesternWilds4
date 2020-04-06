@@ -1,0 +1,11 @@
+  Paralyzed::section.condition
+    ::text
+    A paralyzed character is frozen in place and unable to move or act. 
+
+    A paralyzed character is helpless and cannot act. 
+
+    A creature can move through a space occupied by a paralyzed creature — ally or not. 
+
+    Each square occupied by a paralyzed creature, however, counts as 2 squares.
+
+

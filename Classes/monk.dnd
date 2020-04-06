@@ -3,8 +3,8 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st   | +1                | +2        | +2       | +2        | Bonus feat, flurry of blows, unarmed strike
-        2nd   | +2                | +3        | +3       | +3        | Bonus feat, evasion
+        1st   | +1                | +2        | +2       | +2        | Stunning Fist, flurry of blows, unarmed strike, stunt points
+        2nd   | +2                | +3        | +3       | +3        | Deflect arrows, evasion
         3rd   | +3                | +3        | +3       | +3        | Still mind
         4th   | +4                | +4        | +4       | +4        | Ki strike (+1), slow fall 20 ft.
         5th   | +5                | +4        | +4       | +4        | Purity of body
@@ -13,16 +13,16 @@
         8th   | +8/+3             | +6        | +6       | +6        | Slow fall 40 ft.,  Greater Flurry of Blows
     Monk Unarmed Progression::table
       ::head
-        Level | Unarmed Damage | AC Bonus | Speed Bonus
+        Level | Unarmed Damage | AC Bonus | Speed Bonus | Stunt Points
       ::row
-        1st   | 1d6            | +2       | +10 ft.
-        2nd   | 1d6            | +3       | +10 ft.
-        3rd   | 1d8            | +4       | +20 ft.
-        4th   | 1d8            | +5       | +20 ft.
-        5th   | 1d10           | +6       | +20 ft.
-        6th   | 1d10           | +7       | +30 ft.
-        7th   | 1d12           | +8       | +30 ft.
-        8th   | 1d12           | +9       | +30 ft.
+        1st   | 1d6            | +2       | +10 ft.     | 3
+        2nd   | 1d6            | +3       | +10 ft.     | 4
+        3rd   | 1d8            | +4       | +20 ft.     | 5
+        4th   | 1d8            | +5       | +20 ft.     | 6
+        5th   | 1d10           | +6       | +20 ft.     | 7
+        6th   | 1d10           | +7       | +30 ft.     | 8
+        7th   | 1d12           | +8       | +30 ft.     | 9
+        8th   | 1d12           | +9       | +30 ft.     | 10
 
     Alignment Requirement::text
       Any lawful.
@@ -75,14 +75,37 @@
     Fast Movement::text
       An unarmored monk gains a bonus to their land speed as given in their class table.
 
+
+    Stunt Points::text
+      Monks have stunt points they can use to do cool stuff. Look at the table to see how many you get.
+
+      These stunt points are regained when you long rest.
+
+    Stunning Fist::text
+      At 1st level, you learn how to stunning fist.
+
+      Stunning fist costs 1 stunt point.
+
+      You must declare that you are using this before you make your attack roll (thus, a failed attack roll ruins the attempt).
+
+      Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + ½ your character level + your Wis modifier), in addition to dealing damage normally.
+
+      A defender who fails this saving throw is stunned for 1 round (until just before your next action).
+
+      A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, can be sneak attacked.
+
+      Some creatures are immune to stun.
+    Deflect Arrows::text
+      At 2nd level, a monk can deflect arrows and bullets.
+
+      You must have at least one hand free (holding nothing) to use this. 
+
+      Once per round when you would normally be hit with a ranged weapon (including firearms!), you may deflect it so that you take no damage from it. 
+
+      You must be aware of the attack and able to respond.
+
     Bonus Feat::text
-      At 1st level, a monk may select either Combat Brawn or Stunning Fist as a bonus feat.
-
-      At 2nd level, the monk may select either Combat Reflexes or Deflect Arrows as a bonus feat.
-
-      At 6th level, the monk may select either Combat Tactics, Combat Brawn, their greater versions, or any monk feat if you already have all of those as a bonus feat.
-
-      A monk need not have any of the prerequisites normally required for these feats to select them.
+      At 6th level, monk can take a bonus monk feat.
 
     Evasion::text
       At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, the monk instead takes no damage.

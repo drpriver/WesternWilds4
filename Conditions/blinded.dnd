@@ -1,0 +1,13 @@
+  Blinded::section.condition
+    ::text
+      The character cannot see. 
+
+      He takes a -2 penalty to Armor Class, moves at half speed. 
+
+      All checks and activities that rely on vision (such as reading and Spot checks) automatically fail. 
+
+      All opponents are considered to have total concealment (50% miss chance) to the blinded character. 
+
+      Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them.
+
+

@@ -6,6 +6,9 @@ Skills::chapter
 
     Your maximum actual rank in a skill is your character level + 3.
 
+  Skill Points::text
+    Skill points are used to purchase skill ranks. They are usually earned from levelling up and must be spent immediately - they cannot be banked.
+
   Skill Ranks::text
     A character’s number of ranks in a skill is based on how many skill points a character has invested in a skill. Many skills can be used even if the character has no ranks in them; doing this is called making an untrained skill check.
 

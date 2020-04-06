@@ -294,6 +294,34 @@ SKILLS=skills.dnd\
 	swim.dnd\
 	tumble.dnd\
 
+CONDITIONS=conditions.dnd\
+	   blinded.dnd\
+	   confused.dnd\
+	   cowering.dnd\
+	   dazed.dnd\
+	   dazzled.dnd\
+	   deafened.dnd\
+	   entangled.dnd\
+	   exhausted.dnd\
+	   fascinated.dnd\
+	   fatigued.dnd\
+	   flat-footed.dnd\
+	   frightened.dnd\
+	   incorporeal.dnd\
+	   invisible.dnd\
+	   nauseated.dnd\
+	   panicked.dnd\
+	   paralyzed.dnd\
+	   petrified.dnd\
+	   prone.dnd\
+	   shaken.dnd\
+	   sickened.dnd\
+	   staggered.dnd\
+	   stunned.dnd\
+	   turned.dnd\
+	   unconscious.dnd\
+
+
 EQUIPMENT=equipment.dnd\
 	  weapons.dnd\
 	  Weapons/bastard-sword.dnd\
@@ -307,6 +335,7 @@ EQUIPMENT=equipment.dnd\
 	  Weapons/glaive.dnd\
 	  Weapons/greataxe.dnd\
 	  Weapons/greatclub.dnd\
+	  Weapons/greathammer.dnd\
 	  Weapons/greatsword.dnd\
 	  Weapons/halberd.dnd\
 	  Weapons/handaxe.dnd\
@@ -354,18 +383,19 @@ ALL=basics.dnd\
     experience.dnd\
     $(addprefix Campaigns/,$(CAMPAIGNS))\
     combat.dnd\
+    $(addprefix Conditions/,$(CONDITIONS))\
     ships.dnd\
     magic.dnd\
     $(addprefix Spells/,$(SPELLS))\
     NavalCombat/naval_combat.dnd
 
-index.html: $(ALL) dd.css dd.js
+index.html: $(ALL) dd.css dd.js links.json
 	rm -rf build
 	mkdir build
 	cat $(ALL) > build/rules.dnd
 	python3 -m ez_dungeon.document build/rules.dnd build
 	cp build/rules.html index.html
-	rm -rf build
+	#rm -rf build
 
 validate:
 	python3 -m ez_dungeon.html_validate index.html

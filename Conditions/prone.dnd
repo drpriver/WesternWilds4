@@ -1,0 +1,7 @@
+  Prone::section.text
+    ::text
+      The character is on the ground. 
+
+      A creature who is prone has a -4 penalty on melee attack rolls and cannot use a ranged weapon (except for a pistol, which is at -4). A creature who is prone also grants melee attackers a +4 bonus against him.
+
+      Ranged attackers suffer no penalty against the prone creature, but being prone often means you are behind cover which can grant +4 or greater AC.
