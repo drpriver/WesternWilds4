@@ -28,7 +28,7 @@ Advancement::chapter
       Every 125,000 xp more that is earned after level 8 allows the character to choose another feat. Additionally, they can retry any skills checks they have failed.
 
   Leveling Up::text
-    Leveling up requires downtime. See the downtime rules.
+    Leveling up requires [downtime].
 
   Half Levels::text
     At the half level, you gain the next level's hit die and no other benefits.

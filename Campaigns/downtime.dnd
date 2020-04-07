@@ -8,7 +8,7 @@
 
       Many downtime activities have an associated gold cost.
 
-      During the 90 days of downtime, you need to have somewhere to live. Inns costs 1gp/day.
+      Subtracting days of rest, etc. downtime has 75 days in it.
     Downtime Activity Summary::table
       ::head
         Activity                       | Time           | Cost

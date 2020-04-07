@@ -94,7 +94,7 @@
         ::text
           Any factors based on a class level use your thief level. You use charisma for in place of the normal ability score for spell DCs.
 
-          When you have downtime, you can swap to a different choice without spending any extra downtime.
+          When you have [downtime], you can swap to a different choice without spending any extra downtime.
 
     Ambusher::section.feat
       Effect::text
