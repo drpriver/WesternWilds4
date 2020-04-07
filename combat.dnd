@@ -67,6 +67,11 @@ Combat::chapter
 
     Disarm Your Opponent::text
       You can disarm your opponent by winning an opposed grapple check.
+
+    Constrict::text
+      Some monsters (particulary snakes) have a constrict attack. In a grapple they automatically
+      deal this damage on their turn unless they are pinned. They don't need to roll for this 
+      and can also use the deal grapple damage action to deal the damage again.
     
     Pin Your Opponent::text
       You can pin your opponent by beating them at a grapple check twice in a row (this action + next
@@ -89,6 +94,31 @@ Combat::chapter
 
       When he has you in a lock, he can do nothing but maintain the lock, or to squeeze you to sleep.
       You can't do anything.
+
+  Grab::section.special_attack
+    ::text
+      Grab is a special attack that monsters can have (Think a t-rex having you in its teeth). 
+
+      It works somewhat like grappling but differs in a few ways. You will make grapple 
+      checks/escape artists checks the same way you do in a grapple.
+
+      Every round you are grabbed, the monster usually does automatic damage to you in some form.
+
+      On your turn you can try to escape. The monster will have a fixed escape DC in its description.
+      You can also try to draw a light weapon and attack the monster back, suffering the same penalties as
+      if you were grappling. Depending on the monster, you might be able to use a one-handed weapon in
+      addition to light weapons. Some monsters will let you go if you deal enough damage, tentacles might
+      be severed, etc. as adjudicated by the DM.
+
+      Some monsters might try to swallow you when you are in this position - in that case, they need to
+      beat you on a grapple check or you get swallowed.
+
+      Most monsters are allowed to fling you as a free action. If they are big, they can fling you 10' per
+      size category above medium and you suffer 1d6 damage + str for every 10'. This damage is doubled
+      if you hit a wall.
+
+      Spellcasting suffers the same constraints are per grapples - only if it has no somatic components
+      and there is a 50% failure chance.
 
   Tripping::section.special_attack
     ::text
@@ -122,26 +152,36 @@ Combat::chapter
 
   Bull Rush::section.special_attack
     ::text
-      Bullrush replaces an attack. You basically are driving them backwards by pushing them and so must spend a consummate amount of movement to both move into their space and then aftewards.
+      Bullrush replaces an attack. You basically are driving them backwards by pushing them and so must
+      spend a consummate amount of movement to both move into their space and then aftewards.
 
-      You make a strength check, adding bab and size and they make a strength or dexterity check adding their bab and size.
+      You make a strength check, adding bab and size and they make a strength or dexterity check adding
+      their bab and size.
 
-      If you succeed, you push him back 5 feet and 5 more feet for every 5 points you beat his check. He does not provoke attacks of opportunity for this movement, but you do as normal.
+      If you succeed, you push him back 5 feet and 5 more feet for every 5 points you beat his check. He
+      does not provoke attacks of opportunity for this movement, but you do as normal.
 
       If you fail, youre movement ends and there is no further consequence.
 
+      If you bull rush them into a wall or similar strong hard surface, they suffer 1d6 damage for every
+      5' you would have driven them back. You can add your strength modifier to this damage total.
+
   Attacks of Opportunity::section.combat_rules
     Threatened Spaces::text.combat_rules
-      In general, a creature threatens all spaces they can reach. They must be wielding a melee weapon to threaten or be a monk. You don't threaten spaces that are concealed to you or have any degree of cover from you.
+      In general, a creature threatens all spaces they can reach. They must be wielding a melee weapon to
+      threaten or be a monk. You don't threaten spaces that are concealed to you or have any degree of
+      cover from you.
 
     Movement and attacks of opportunity::text.combat_rules
       If you move out of a creature's threatened space, this provokes an attack of opportunity.
 
-      If you 5'ft step and remain within a creature's threatened spaces, you do not provoke an attack of opportunity from that creature.
+      If you 5'ft step and remain within a creature's threatened spaces, you do not provoke an attack of
+      opportunity from that creature.
 
     Distracting Actions::section.combat_rules
       ::text
-        Some actions provoke an attack of opportunity. They are listed below. The DM may rule other actions provoke (players invent new actions all the time).
+        Some actions provoke an attack of opportunity. They are listed below. The DM may rule other
+        actions provoke (players invent new actions all the time).
       ::bullets
         * Casting a spell or spell-like ability that is not a melee touch spell or originates from the caster (like burning hands)
         * Attacking with a ranged weapon
