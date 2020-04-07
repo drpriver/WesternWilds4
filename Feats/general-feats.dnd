@@ -75,7 +75,7 @@
 
         X bonus to owned trade routes
 
-    Master Blacksmith::section.feat
+    Blacksmith::section.feat
       Effect::text
         +2 to craft weapon and craft armor.
 
