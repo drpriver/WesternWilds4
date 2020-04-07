@@ -42,13 +42,6 @@ Combat::chapter
       All of these suffer a -4 penalty to hit your opponent. Monks and natural weapons suffer 
       no penalty.
 
-    Earning Grapple Points::text
-      Earning grapple points is an attack (so if you have multiple attacks due to high BAB or
-      haste, you can do it more than once). To earn grapple points, win an opposed grapple
-      check.
-
-      When you earn grapple points, you earn 1d4+BAB grapple points.
-
     Deal Grapple damage::text
       You can hurt your opponent by winning an opposed grapple check. If you do, they suffer
       damage equal to your unarmed strike (1d3 + strength for a medium creature). You can deal
