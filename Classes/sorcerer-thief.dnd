@@ -3,7 +3,7 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +0    | +0 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells
+        1st | +0    | +0 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells, Weapon Finesse
         2nd | +1    | +0 | +1 | +1 | Evasion
         3rd | +2    | +1 | +2 | +2 | Sneak attack +2d6
         4th | +3    | +1 | +2 | +2 |
@@ -39,8 +39,8 @@
     Spells::text
       The sorcerer/thief casts and learns spells in the same manner a sorcerer does. See the sorcerer for full information. However use the Sorcerer/Thief spells per long rest table.
 
-    Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
-      These function as the theif ability. See the thief for details
+    Flanker, Sneak Attack, Thief Skills, Hide in Shadows, Weapon Finesse::text
+      These function as the thief ability. See the thief for details
 
     Evasion::text
       At 2nd level, the sorcerer/thief gains evasion. See the thief for details.

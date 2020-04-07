@@ -43,6 +43,15 @@
 
         Whenever you fail to confirm a critical hit, you can spend a luck point to confirm it instead.
 
+    Better Lucky Than Good::section.feat
+      Prerequisite::text
+        Any two luck feats.
+      Effect::text
+        Gain two luck points that recover each long rest.
+
+        When you roll a 1 on a d20 roll and you would reroll it due to one of your luck feats,
+        you can instead spend a luck point to replace that roll with a natural 20.
+
     Improved Hide::section.feat
       Effect::text
         Creatures with the scent skill roll against your hide check instead of a fixed DC.

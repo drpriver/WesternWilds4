@@ -3,7 +3,7 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +0    | +1 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells, Turn Undead
+        1st | +0    | +1 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells, Turn Undead, Weapon Finesse
         2nd | +1    | +1 | +1 | +1 | Evasion
         3rd | +2    | +2 | +2 | +2 | Sneak attack +2d6
         4th | +3    | +2 | +2 | +2 |
@@ -41,8 +41,8 @@
 
       A cleric/thief must worship a deity, has the same alignment restrictions and picks two domains at 1st level just like a cleric.
 
-    Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
-      These function as the theif ability. See the thief for details
+    Flanker, Sneak Attack, Thief Skills, Hide in Shadows, Weapon Finesse::text
+      These function as the thief ability. See the thief for details
 
     Evasion::text
       At 2nd level, the cleric/thief gains evasion. See the thief for details.

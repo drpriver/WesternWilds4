@@ -1,4 +1,9 @@
   General Feats::section.general_feats
+    Dodge::section.feat
+      Prerequisite::text
+        Dexterity 13
+      Effect::text
+        You get a +1 dodge bonus to AC as long as you wear light or no armor.
     Toughness::section.feat
       Effect::text
         You gain +3 hp.
@@ -63,12 +68,26 @@
 
         Sell nonmagical items for 5% more
 
-        When making a diplomacy check, you may bribe them up to 10gp per level. For each 10gp you give them, you get an additional +1 on the check.
+        When making a diplomacy check, you may bribe them up to 10gp per level. 
+        For each 10gp you give them, you get an additional +1 on the check.
 
         Can make DC 25 appraise checks to identify magic items.
 
         X bonus to owned trade routes
 
+    Master Blacksmith::section.feat
+      Effect::text
+        +2 to craft weapon and craft armor.
+
+        +1 attack with weapons you have crafted yourself.
+        
+        Weapons and Armors you craft are 10% cheaper to craft.
+
+        You can craft magical arms and armors by forging them with magical gems
+        you find during your adventures. Each one will have a corresponding
+        craft weapon or craft armor requirement. 
+        These can be used to upgrade existing arms and armor or to make new ones. They can't be used on already enchanted items.
+      
     Skill Focus::section.feat
       Effect::text
         Pick a skill you have at least 1 rank in. You gain a +3 bonus to that skill.
@@ -162,3 +181,4 @@
         If you miss an attack due to a magical miss chance or a mirror image, roll again and take the better result.
 
         When you search, you can easily notice the presence of magic, even if you do not manage to pinpoint its source.
+

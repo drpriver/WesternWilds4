@@ -3,7 +3,7 @@
       ::head
         Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       ::row
-        1st | +0    | +1 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells,  Wild Empathy
+        1st | +0    | +1 | +1 | +1 | Thief Skills, Sneak attack +1d6, Hide in Shadows, Flanker, Spells,  Wild Empathy, Weapon Finesse
         2nd | +1    | +1 | +1 | +1 | Evasion
         3rd | +2    | +2 | +2 | +2 | Sneak attack +2d6
         4th | +3    | +2 | +2 | +2 |
@@ -44,8 +44,8 @@
     Spells::text
       The druid/thief prepares and casts spells in the same manner a druid does. See the druid for full information. However use the Druid/Thief spells per long rest table.
 
-    Flanker, Sneak Attack, Thief Skills, Hide in Shadows::text
-      These function as the theif ability. See the thief for details
+    Flanker, Sneak Attack, Thief Skills, Hide in Shadows, Weapon Finesse::text
+      These function as the thief ability. See the thief for details
 
     Evasion::text
       At 2nd level, the druid/thief gains evasion. See the thief for details.
