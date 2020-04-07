@@ -390,13 +390,13 @@ ALL=basics.dnd\
     $(addprefix Spells/,$(SPELLS))\
     NavalCombat/naval_combat.dnd
 
-index.html: $(ALL) dd.css dd.js links.json
+index.html: $(ALL) dd.css dd.js links.json Makefile
 	rm -rf build
 	mkdir build
 	cat $(ALL) > build/rules.dnd
 	python3 -m ez_dungeon.document build/rules.dnd build
 	cp build/rules.html index.html
-	#rm -rf build
+	rm -rf build
 
 validate:
 	python3 -m ez_dungeon.html_validate index.html

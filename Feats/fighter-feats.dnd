@@ -73,38 +73,38 @@
         Greater Two Weapon Specialization::text
           At 6th level, you get an additional +2 to damage when dual wielding.
 
-    Swashbuckling::section.feat
+    Pirate Fighting::section.feat
       ::text
         You are better at fighting like a pirate.
       Effect::section
         ::text
-          You gain the benefits of swashbuckling when you:
+          You gain the benefits of pirate fighting when you:
         ::bullets
           * Fight with a pistol in each hand
           * Fight with a Dagger, Cutlass, Rapier, Harpoon, or Longsword in one hand and a pistol in the other
           * Fight with just a Dagger, Cutlass, Rapier, Harpoon or Longsword in one hand and the other hand is empty.
         ::text
-          This is referred to as swashbuckling below.
+          This is referred to as pirate fighting below.
         ::text
           Additionally, you get a +2 bonus to flirting.
 
           You also gain harpoon proficiency.
-        Swashbuckling Focus::text
-          At 1st level, you get +1 to attacks while swashbuckling.
-        Swashbuckling Defense::text
+        Pirate Fighting Focus::text
+          At 1st level, you get +1 to attacks while pirate fighting.
+        Pirate Fighting Defense::text
           At 1st level, while you only have a Dagger, Cutlass, Rapier, Harpoon or Longsword in one hand, you get a +2 shield bonus to AC.
         Swift Reload::text
-          At 1st level, you can reload your pistol as half of a move action while swashbuckling. What this means is you can either reload two pistols as one move action or reload one pistol and then move half your speed.
+          At 1st level, you can reload your pistol as half of a move action while pirate fighting. What this means is you can either reload two pistols as one move action or reload one pistol and then move half your speed.
         Daring-do::text
           At 1st level, if you attack with a Dagger, Cutlass, Rapier, Harpoon or Longsword, you can fire your pistol as a free action this round without provoking attacks of opportunity.
 
           Additionally, if you have a pistol in each hand, you can fire one and then fire the other one for free. This still provokes attacks of opportunities for ranged attacks as normal.
-        Swashbuckling Specialization::text
-          At 2nd level, you get +2 damage while swashbuckling.
-        Greater Swashbuckling Focus::text
-          At 4th level, you get an additional +1 to attacks while swashbuckling.
-        Greater Swashbuckling Specialization::text
-          At 6th level, you get an additional +2 to damage while swashbuckling.
+        Pirate Fighting Specialization::text
+          At 2nd level, you get +2 damage while pirate fighting.
+        Greater Pirate Fighting Focus::text
+          At 4th level, you get an additional +1 to attacks while pirate fighting.
+        Greater Pirate Fighting Specialization::text
+          At 6th level, you get an additional +2 to damage while pirate fighting.
     Musketeering::section.feat
       ::text
         You are better at fighting with musket, bayonet and blunderbuss.
