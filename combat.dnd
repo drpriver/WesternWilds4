@@ -1,114 +1,95 @@
 Combat::chapter
   Initiative::section.combat_rules
-    The party rolls initiative as a single unit, using the median of their initiative bonus. A character's initiative bonus is their dexterity bonus.
+    The party rolls initiative as a single unit, using the median of their initiative bonus. 
+    A character's initiative bonus is their dexterity bonus.
   Grappling::section.special_attack
-    TODO: check the balance of this.
     Grapple Checks::text
       Your grapple bonus is BAB+Str+Size+other. A grapple check is an opposed roll where each
       side rolles a d20+their grapple bonus. A tie maintains the status quo - the grapple is
-      not initiated, or no grapple points are earned or you do not escape from the pin.
-
-    Grapple Points::text
-      Grapple points represent how in control of the grapple you are.
-
-      You earn grapple points by winning grapple checks and can spend grapple points to
-      achieve certain effects.
-
-      When you earn grapple points, you earn 1d4+BAB grapple points.
+      not initiated, or no grapple damage is dealt, etc.
 
     Starting a Grapple::text
       To start a grapple, make a grapple check on your opponent.
 
       If you beat their check, you two are now grappling and you move into their space.
 
-      You earn half as many grapple points as if you succeeded on a grapple contest.
+      You immediately deal grapple damage if you succesfully initiate a grapple.
 
-    In the grapple::text
-      While engaged in the grapple, you can either try to earn grapple points, escape the
-      grapple, or attack your opponent.
+    Attacking into the grapple::text
+      Any creatures outside the grapple can attack creatures in the grapple, but their target is
+      randomly determined, weighted by the size of a creature (a large creature is 4x a medium one, huge is 9x, etc.).
 
+      A spell that targets one creature in the grapple suffers a similar chance (or might affect both
+      depending on the spell).
+
+    Attacking out of the grapple::text
+      If you are grappling, you do not threaten the areas around you.
+
+    Actions In the grapple::text
+      While in the grapple, your options for actions are limited. They are described in the following
+      sections.
+
+    Spellcasting in the Grapple::text
+      The only spells you can cast while grappling are those with no somatic components and
+      those fail 50% of the time.
+
+    Attacking while in the grapple::text
+      You can attack with light weapons, unarmed attacks, natural weapons or armor spikes.
+
+      All of these suffer a -4 penalty to hit your opponent. Monks and natural weapons suffer 
+      no penalty.
+
+    Earning Grapple Points::text
       Earning grapple points is an attack (so if you have multiple attacks due to high BAB or
       haste, you can do it more than once). To earn grapple points, win an opposed grapple
       check.
 
-      To escape, win an opposed grapple check (or you can use escape artist), but your
-      opponent gets +2 to their roll. If your opponent lets you escape, there is no need to
-      roll.
+      When you earn grapple points, you earn 1d4+BAB grapple points.
 
-      Attacking your opponent is at -4 and can only be done with light weapons, unarmed
-      attacks, natural weapons or armor spikes.
-      Monks and natural weapons do not suffer the -4.
+    Deal Grapple damage::text
+      You can hurt your opponent by winning an opposed grapple check. If you do, they suffer
+      damage equal to your unarmed strike (1d3 + strength for a medium creature). You can deal
+      either lethal or nonlethal with this damage. Armor spikes add 1d6 to this, but the damage
+      must be lethal.
 
-      Additionally, you can spend grapple points as a free action once per turn. If there is
-      more than one enemy in the grapple, you can spend your grapple points as many times as
-      there are enemies, once for each.
+    Escape the Grapple::text
+      You can escape the grapple by either winning a gapple check or by using escape artist vs their
+      grapple check. Your opponent can choose to let you out.
 
-      The only spells you can cast while grappling are those with no somatic components and
-      those fail 50% of the time.
+    Throw your Opponent::text
+      You can throw your opponent by beating them at a grapple check. They are thrown 5' and
+      take your grapple damage.
 
-    Uses of grapple points::section
-      ::table
-        ::head
-          Cost | Effect
-        ::row
-          3x enemy HD | [Inflict pinned condition]
-          1x enemy HD | [subdue pinned creature]
-          1x enemy HD | [Disarm them]
-          0.5x enemy HD | Draw a light weapon, etc.
-          0.5x enemy HD | [deal grapple damage]
-          0.5x enemy HD | [move the grapple]
-          1.5x enemy HD | [throw enemy]
-          Any number of points | reduce your enemy’s grapple point pool by the same amount
-      Inflict Pinned Condition::text
-        A pinned creature's only possible action is to try to escape from the pin, which they
-        can do by besting the enemy's grapple check. The enemy gets a +4 bonus. If they
-        succeed, they are no longer pinned (and are standing), but are still in the grapple.
+      If you are larger than your opponent you can do this as a free action and the distance
+      is doubled for every size category. (so an ogre would throw you 10').
 
-        Pinned creatures still aid in multiple grappling (as keeping them pinned distracts
-        the pinner).
-      Subdue Pinned Creature::text
-        A subdued creature is defeated and is no longer able to fight due to a combination of
-        exhaustion, bruising, etc. Treat them as having as much subdual damage as necessary
-        to bring them to -10. They are effectively no longer combatants.
-      Disarm Them::text
-        A disarmed weapon is scattered in a random directly by 5-15'.
-      Deal Grapple Damage::text
-        Grapple damage is equal to a creature's unarmed damage. If you have armor spikes, you
-        can deal damage with those instead.
-      Throw Enemy::text
-        Throw them  10’ from the grapple and deal grapple damage to them.
-    Multiple grapplers::section
-      ::text
-        If a grapple is already ongoing, you don't need to roll to join it. Additionally, if
-        a creature next to you is grappled, you are allowed to join the grapple as well
-        immediately.
+      If you are thrown into a wall or other hard and resisting object, the damage is doubled.
 
-        The area of a grapple is as many 5ft squares as there are participants, divided by
-        two. Adjust as needed for larger creatures.
+    Disarm Your Opponent::text
+      You can disarm your opponent by winning an opposed grapple check.
+    
+    Pin Your Opponent::text
+      You can pin your opponent by beating them at a grapple check twice in a row (this action + next
+      round's, or if you have grapple actions then all in one turn). If you don't attempt to complete
+      the pin next round, your success is lost.
 
-        Each round, randomly pair off who you are rolling against. If there is an excess on
-        one side, the remainder pair up as they want, but this must be divided as evenly as
-        possible.
+    Move the Grapple::text
+      You can move half your speed (bringing all others engaged in the grapple with you) by winning 
+      an opposed grapple check.
 
-        When a subgroup rolls against a subgroup, the creature within a subgroup with the
-        highest bonus makes the check and the others grant him a +2 bonus per each of them.
+    Spending Grapple Points::text
+      You can spend grapple points as a free action once per turn.
 
-        Creatures within a subgroup may pool their grapple points to achieve results.
+    Being Pinned::text
+      If you're pinned, you get one chance to escape the pin and going back to just grappling. This is
+      the only action you can take.
 
-      Example::text
-        For example, Krug the 8th level barbarian goes into a dungeon and encounters 4
-        2HD orcs who refuse to join his clan. To make them join, he enters into a grapple
-        with them. The 4 orcs are paired against Krug. The orc's individual grapple bonus is
-        +5 and Krug's is +20 while raging as he has gone hard on grapple. One of the orcs is
-        the chosen one to roll against krug each round and the others lend him +6 in total.
-        Thus, the orc will roll at +11 and Krug rolls at +20. Krug easily wins his check and
-        earns 1d4 + 8 grapple points, in this case 12 (rolled a 4 +8). As this is the
-        initiation of the grapple, he earns half as many points and thus 6. Krug has a second
-        attack, so he goes for it again, winning and earning another 9 points. He uses 12 of
-        his 15 points to immediately pin two of the orcs. On the orcs' turn they go for
-        points and roll at +11 again (+5 and 3 aiders is +11). They manage to best krug this
-        round and roll d4+2 = 5 grapple points. This goes on for a while until krug has
-        subdued all of the orcs and forces them into his clan.
+      If you fail you are pinned for as long as the opponent chooses to hold you (he has gotten a 
+      full lock on you).
+
+      When he has you in a lock, he can do nothing but maintain the lock, or to squeeze you to sleep.
+      You can't do anything.
+
   Tripping::section.special_attack
     ::text
       You need a weapon designed for tripping. You can also trip as an unarmed attack, but if you are not a monk you get -4 on this.
@@ -201,11 +182,6 @@ Combat::chapter
 
     Crits::text.combat_rules
       A roll of 20 on a die (or other numbers as given by the weapon), threatens a critical hit. To confirm the critical hit, roll the attack roll again at the same bonus. If that hits again, you do more damage than normal (as indicated by the weapon, or x2 if not listed).
-
-    Firing into melee::text.combat_rules
-      A "melee" is creatures engaged in melee combat. It does not include the 2nd ranks.
-
-      You suffer a -4 penalty with ranged attacks to hit such creatures. You can ignore this penalty by targeting randomly into the melee.
 
     Firing into back line or crowd::text.combat_rules
       It is impossible to pick out a specific target that is not at the edge of a crowd with a ranged attack. To target deeper into a crowed, you must target randomly.
