@@ -99,9 +99,12 @@
 
     Enduring Rage::section.feat
       Effect::text
-        When you enter into a rage, you gain temporary HP equal to ½ your level. You lose this temp HP when your rage ends.
+        When you enter into a rage, you gain temporary HP equal to your level. You lose this temp HP when your rage ends.
 
-        Additionally, when your rage ends, if the loss of your constitution bonus would reduce your HP  below 0 you instead have 0 HP.
+        While raging, if you would be reduced to below 0 hp, but not to -10 or lower, instead you are reduced to 0 hp and your rage ends.
+
+        Additionally, when your rage ends, if the loss of your constitution bonus would reduce your HP below 0 you instead have 0 HP.
+
 
     Mindless Rage::section.feat
       Effect::text

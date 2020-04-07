@@ -93,7 +93,7 @@
 
         You can spend a luck point to reroll turn undead attempts.
       Special::text
-        If you are a cleric/thief, these luck points are the smae as the points of the thief luck feats.
+        If you are a cleric/thief, these luck points are the same as the points of the thief luck feats.
 
     Shield Focus::section.feat
       Effect::text

@@ -72,7 +72,7 @@
 
     Mobile Spellcasting::section.feat
       Prerequisite::text
-        Dodge, Mobility
+        Dodge 
       Effect::text
         You can move before and after you cast a spell (up to your normal maximum).
 
