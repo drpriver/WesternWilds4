@@ -80,13 +80,16 @@
         +2 to craft weapon and craft armor.
 
         +1 attack with weapons you have crafted yourself.
+        +1 AC with armor you have crafted yourself.
         
         Weapons and Armors you craft are 10% cheaper to craft.
 
         You can craft magical arms and armors by forging them with magical gems
         you find during your adventures. Each one will have a corresponding
         craft weapon or craft armor requirement. 
-        These can be used to upgrade existing arms and armor or to make new ones. They can't be used on already enchanted items.
+
+        These can be used to upgrade existing arms and armor or to make new ones. 
+        They can't be used on already enchanted items.
       
     Skill Focus::section.feat
       Effect::text

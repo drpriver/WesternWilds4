@@ -1,10 +1,23 @@
   Craft Weapon (Str)::section.skill_description
     ::text
       Craft weapon represents skill in weapon-making and related skills like weapon repair.
-    Craft Weapon::text
-      A character with at least 1 rank in craft weapon can craft any normal weapon.
+    Craft Weapon::section
+      ::text
+        A character with at least 1 rank in craft weapon can craft any normal weapon.
 
-      To do so, he must purchase or acquire one half the cost of the weapon in raw materials and spend an amount of days equal to the remaining cost/their craft bonus. This activity can only be done during downtime. After that length of time, an ordinary weapon is produced.
+        They will need a workshop to craft.
+
+        To do so, he must purchase or acquire one half the cost of the weapon in raw materials and spend an
+        amount of time crafting the weapon according to the below formula. This activity can only be done
+        during downtime. 
+        After that length of time, an ordinary weapon is produced.
+
+      Crafting Formula::text
+        The amount of time to craft an weapon is as follows:
+
+        (Half the cost of the weapon in gp) / (25gp) / (craft bonus).
+
+        The minimum amount of time is 1 day.
 
     Craft Masterwork Weapon::section
       ::text

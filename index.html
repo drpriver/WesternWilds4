@@ -9861,7 +9861,7 @@
                   </tr>
                   <tr class="even">
                     <td>25           </td>
-                    <td> Reverse Engineer formula of potion. Requires XXX downtime and consumes the potion.</td>
+                    <td> Reverse Engineer formula of potion. Requires 7 days downtime and consumes the potion.</td>
                   </tr>
                   <tr class="odd">
                     <td>Varies       </td>
@@ -9940,7 +9940,7 @@
               <div>
                 
                 <p>
-                  During downtime, you can brew potions. Brewing a potion takes XXX units of time and some amount of
+                  During downtime, you can brew potions. Brewing a potion takes sqrt(cost/25) days of time and some amount of
                   gold or unique material.
                 </p>
                 <p>
@@ -10170,15 +10170,36 @@
                 Craft armor represents skill in armor-making and related skills like armor repair.
               </p>
             </div>
-            <div>
+            <section>
               <h4 id="craft-armor1">Craft Armor</h4>
-              <p>
-                A character with at least 1 rank in craft armor can craft any normal armor.
-              </p>
-              <p>
-                To do so, he must purchase or acquire one half the cost of the armor in raw materials and spend an amount of days equal to the remaining cost/their craft bonus. This activity can only be done during downtime. After that length of time, an ordinary suit of armor is produced.
-              </p>
-            </div>
+              <div>
+                
+                <p>
+                  A character with at least 1 rank in craft armor can craft any normal armor.
+                </p>
+                <p>
+                  They will need a workshop to craft.
+                </p>
+                <p>
+                  To do so, he must purchase or acquire one half the cost of the armor in raw materials and spend an
+                  amount of time crafting the armor according to the below formula. This activity can only be done
+                  during downtime.
+                  After that length of time, an ordinary suit of armor is produced.
+                </p>
+              </div>
+              <div>
+                <h5 id="crafting-formula">Crafting Formula</h5>
+                <p>
+                  The amount of time to craft an armor is as follows:
+                </p>
+                <p>
+                  (Half the cost of the armor in gp) / (25gp) / (craft bonus).
+                </p>
+                <p>
+                  The minimum amount of time is 1 day.
+                </p>
+              </div>
+            </section>
             <section>
               <h4 id="craft-masterwork-armor">Craft Masterwork Armor</h4>
               <div>
@@ -10211,7 +10232,7 @@
                     </tr>
                     <tr class="even">
                       <td>Spiked      </td>
-                      <td> Armor has <a href="#weapon-spikes">weapon spikes</a> protruding from it.</td>
+                      <td> Armor has <a href="#armor-spikes">armor spikes</a> protruding from it.</td>
                     </tr>
                     <tr class="odd">
                       <td>Fortified   </td>
@@ -10221,9 +10242,10 @@
                 </table>
               </section>
               <div>
-                <h5 id="weapon-spikes">Weapon Spikes</h5>
+                <h5 id="armor-spikes">Armor Spikes</h5>
                 <p>
-                  Weapon spikes deal 1d6 damage if used as a weapon by themselves. They count as a martial weapon. Whenever the creature succeeds at a grapple check to deal damage, they deal an extra 1d6 damage as well due to the spikes.
+                  Armor spikes deal 1d6 damage if used as a weapon by themselves. They count as a martial weapon.
+                  Whenever the creature succeeds at a grapple check to deal damage, they deal an extra 1d6 damage as well due to the spikes.
                 </p>
               </div>
             </section>
@@ -10233,7 +10255,8 @@
                 
                 <p>
                   A character with at least 10 ranks in craft armor can craft grandmasterwork armors.
-                  This follows the same procedure as crafting masterwork armor, but requires an extra 6000gp on top of that and allows two properties to be added. The properties must be different.
+                  This follows the same procedure as crafting masterwork armor, but requires an extra 6000gp on top of that and allows two properties to be added.
+                  The properties must be different.
                 </p>
               </div>
             </section>
@@ -10255,15 +10278,36 @@
                 Craft weapon represents skill in weapon-making and related skills like weapon repair.
               </p>
             </div>
-            <div>
+            <section>
               <h4 id="craft-weapon1">Craft Weapon</h4>
-              <p>
-                A character with at least 1 rank in craft weapon can craft any normal weapon.
-              </p>
-              <p>
-                To do so, he must purchase or acquire one half the cost of the weapon in raw materials and spend an amount of days equal to the remaining cost/their craft bonus. This activity can only be done during downtime. After that length of time, an ordinary weapon is produced.
-              </p>
-            </div>
+              <div>
+                
+                <p>
+                  A character with at least 1 rank in craft weapon can craft any normal weapon.
+                </p>
+                <p>
+                  They will need a workshop to craft.
+                </p>
+                <p>
+                  To do so, he must purchase or acquire one half the cost of the weapon in raw materials and spend an
+                  amount of time crafting the weapon according to the below formula. This activity can only be done
+                  during downtime.
+                  After that length of time, an ordinary weapon is produced.
+                </p>
+              </div>
+              <div>
+                <h5 id="crafting-formula1">Crafting Formula</h5>
+                <p>
+                  The amount of time to craft an weapon is as follows:
+                </p>
+                <p>
+                  (Half the cost of the weapon in gp) / (25gp) / (craft bonus).
+                </p>
+                <p>
+                  The minimum amount of time is 1 day.
+                </p>
+              </div>
+            </section>
             <section>
               <h4 id="craft-masterwork-weapon">Craft Masterwork Weapon</h4>
               <div>
@@ -12150,6 +12194,7 @@
                 </p>
                 <p>
                   +1 attack with weapons you have crafted yourself.
+                  +1 AC with armor you have crafted yourself.
                 </p>
                 <p>
                   Weapons and Armors you craft are 10% cheaper to craft.
@@ -12158,7 +12203,10 @@
                   You can craft magical arms and armors by forging them with magical gems
                   you find during your adventures. Each one will have a corresponding
                   craft weapon or craft armor requirement.
-                  These can be used to upgrade existing arms and armor or to make new ones. They can't be used on already enchanted items.
+                </p>
+                <p>
+                  These can be used to upgrade existing arms and armor or to make new ones.
+                  They can't be used on already enchanted items.
                 </p>
               </div>
             </section>

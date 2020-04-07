@@ -10,7 +10,7 @@
         20           | Identify a potion. Requires 1 minute.
         20 or higher | Understand a strange or unique chemical effect, such as as a slime.
         25 or higher | Replicate a strange or unique chemical effect, such as a slime.
-        25           | Reverse Engineer formula of potion. Requires XXX downtime and consumes the potion.
+        25           | Reverse Engineer formula of potion. Requires 7 days downtime and consumes the potion.
         Varies       | Brew potion
         Varies       | Craft alchemical good
 
@@ -33,7 +33,7 @@
           Tanglefoot bag            |   4                    | 30gp
     Brew Potion::section
       ::text
-        During downtime, you can brew potions. Brewing a potion takes XXX units of time and some amount of
+        During downtime, you can brew potions. Brewing a potion takes sqrt(cost/25) days of time and some amount of
         gold or unique material.
 
         All alchemists know how to brew potions of healing. To brew other potions, they need to learn the
