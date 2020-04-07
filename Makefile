@@ -366,6 +366,7 @@ EQUIPMENT=equipment.dnd\
 
 
 CAMPAIGNS=campaigns.dnd\
+	  downtime.dnd\
 	  guilds.dnd\
 	  factions.dnd\
 	  domains.dnd\
