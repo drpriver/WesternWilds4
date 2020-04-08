@@ -366,7 +366,6 @@ EQUIPMENT=equipment.dnd\
 
 
 CAMPAIGNS=campaigns.dnd\
-	  downtime.dnd\
 	  guilds.dnd\
 	  factions.dnd\
 	  domains.dnd\
@@ -380,8 +379,9 @@ ALL=basics.dnd\
     flaws.dnd\
     $(addprefix Feats/,$(FEATS))\
     $(addprefix Equipment/,$(EQUIPMENT))\
-    adventures.dnd\
     experience.dnd\
+    adventures.dnd\
+    downtime.dnd\
     $(addprefix Campaigns/,$(CAMPAIGNS))\
     combat.dnd\
     $(addprefix Conditions/,$(CONDITIONS))\

@@ -1,0 +1,71 @@
+Downtime::chapter
+  ::text
+    Downtime is a period of rest, training, etc. for an entire season (3 months).
+
+    Downtime is usually necessary for crafting, research, training, leveling up, etc.
+
+    Downtime activities are measured in days.
+
+    Many downtime activities have an associated gold cost.
+
+    Subtracting days of rest, etc. downtime has 75 days in it.
+  Downtime Activity Summary::table
+    ::head
+      Activity                       | Time           | Cost
+    ::row
+      [Leveling up]                  | 5 days/level   | 100gp/level
+      [Retrain a Feat]               | 20 days        | 200gp
+      [Retrain Skill Ranks]          | 5 days/rank    | 25gp/rank
+      [Change Class Feature]         | 10 days        | -
+      [Research New Spell]           | 75 days        | 1000gp/spell level
+      [Craft Item]                   | varies         | varies
+      [Fight Disease]                | varies         | varies
+      [Carouse]                      | 10 days        | 1d10 * 1d10 gp
+      [Recruit]                      | 3 days/recruit | -
+      [Manage Domain or Class Guild] | 30 days        | -
+      [Repair Ship]                  | special        | -
+
+  Leveling up::text
+    Leveling can only happen during downtime.
+
+    Leveling up takes 5 days per level and 100 gp per level.
+    To go from level 1 to level 2 would take 5 days and 100gp.
+
+  Retrain a Feat::text
+    You can change one of your feats during a period of downtime.
+    It can't be a feat that you can only pick at level 1 (like a sorcerer origin or a monk school).
+
+    Retraining a feat takes 20 days and 200gp.
+
+  Retrain Skill Ranks::text
+    You can shift some of your skill ranks during downtime.
+    You are still limited by your character level for the maximum number of ranks you can have in a single
+    skill.
+
+    You can retrain up to 4 skill ranks during a period of downtime.
+    Doing so takes 5 days per skill rank and 25gp per rank.
+
+  Change Class Feature::text
+    Some class features say you can change them during downtime. This takes 10 days and doesn't cost gold.
+
+  Research New Spell::text
+    Wizards can engage in magical research to invent brand new spells.
+    This takes 75 days and costs 1000gp per level of the spell.
+
+    The player describes the concept, chooses the level of the spell and the DM will provide the actual
+    spell description.
+  Craft Item::text
+    Some skills, like [Craft Armor], [Craft Weapon], [Alchemy] allows you to make stuff during downtime.
+    Those skills will list the time and costs needed.
+  Fight Disease::text
+    Some diseases take a long time to fight off. Each disease describes its mechanism.
+  Carouse::text
+    You go on a wild bender. The DM will roll to see what happened.
+  Recruit::text
+    You can recruit newbie sailors to man your ship.
+  Manage Domain or Class Guild::text
+    If you are in charge of a domain or guild, you will need to spend 30 days out of each season ruling it.
+
+    Consequences for neglecting this duty are described in the domain rules.
+  Repair Ship::text
+    If your ship becomes damaged, it will probably take a while to repair. 
