@@ -162,19 +162,17 @@
     Cleric Domains::section
 
       Air Domain::section.domain
-
         Granted Powers::text
           Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
 
-
         Air Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell                  | Description
           ::row
-            1st | [Lesser Elemental Orb] (wind only) |  Shoot an orb of wind dealing 1d8 + 1d8/ per 2 levels slashing damage.
-            2nd | Wind Wall | Deflects arrows, smaller creatures, and gases.
-            3rd | Gaseous Form | Subject becomes insubstantial and can fly slowly.
-            4th | Air Walk | Subject treads on air as if solid (climb at 45-degree angle).
+            1st         | [Lesser Elemental Orb] | (wind only) Shoot an orb of wind dealing 1d8 + 1d8/ per 2 levels slashing damage.
+            2nd         | Wind Wall              | Deflects arrows, smaller creatures, and gases.
+            3rd         | Gaseous Form           | Subject becomes insubstantial and can fly slowly.
+            4th         | Air Walk               | Subject treads on air as if solid (climb at 45-degree angle).
 
       Animal Domain::section.domain
         Granted Powers::text
@@ -186,11 +184,10 @@
           ::head
             Spell Level | Spell | Description
           ::row
-            1st| [Calm Animals]| Calms (2d4 + level) HD of animals.
-            2nd| Hold Animal| Paralyzes one animal for 1 round/level.
-            3rd| Dominate Animal| Subject animal obeys silent mental commands.
-            4th| TODO| 4th level animal spell
-
+            1st | [Calm Animals]  | Calms (2d4 + level) HD of animals.
+            2nd | Hold Animal     | Paralyzes one animal for 1 round/level.
+            3rd | Dominate Animal | Subject animal obeys silent mental commands.
+            4th | TODO            | 4th level animal spell
 
       Death Domain::section.domain
         Granted Power::text
@@ -198,13 +195,13 @@
 
         Death Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell                 | Description
 
           ::row
-            1st| [Cause Fear]| One creature of 5 HD or less flees for 1d4 rounds.
-            2nd| Death Knell| Kill dying creature and gain 1d8 temporary hp, +2 to Str, and +1 caster level.
-            3rd| Animate Dead| Creates undead skeletons and zombies.
-            4th| Death Ward| Grants immunity to death spells and negative energy effects.
+            1st         | [Cause Fear]          | One creature of 5 HD or less flees for 1d4 rounds.
+            2nd         | TODO                  |
+            3rd         | Animate Dead          | Creates undead skeletons and zombies.
+            4th         | Protection from Death | Grants immunity to death spells and negative energy effects.
 
       Destruction Domain::section.domain
         Granted Power::text
@@ -212,13 +209,13 @@
 
         Destruction Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell                   | Description
 
           ::row
-            1st| [Inflict Light Wounds]| Touch attack, 1d8 damage +1/level (max +5).
-            2nd| Inflict Moderate Wounds| Touch attack, 2d8+1/level (max+10)
-            3rd| Inflict Serious Wounds| Touch attack, 3d8+1/level (max +15)
-            4th| Inflict Critical Wounds| Touch attack, 4d8 damage +1/level (max +20).
+            1st         | [Inflict Light Wounds]  | Touch attack, 1d8 damage +1/level (max +5).
+            2nd         | Inflict Moderate Wounds | Touch attack, 2d8+1/level (max+10)
+            3rd         | Inflict Serious Wounds  | Touch attack, 3d8+1/level (max +15)
+            4th         | Inflict Critical Wounds | Touch attack, 4d8 damage +1/level (max +20).
 
       Earth Domain::section.domain
         Granted Power::text
@@ -263,32 +260,6 @@
             3rd| Cure Serious Wounds| Cures 3d8 damage +1/level (max +15).
             4th| Cure Critical Wounds| Cures 4d8 damage +1/level (max +20).
 
-      Luck Domain::section.domain
-        Granted Power::text
-          You gain the power of good fortune, which is usable once per long rest. This extraordinary ability allows you to reroll one roll that you have just made before the game master declares whether the roll results in success or failure. You must take the result of the reroll, even if it’s worse than the original roll.
-
-        Luck Domain Spells::table.spell_list
-          ::head
-            Spell Level | Spell | Description
-          ::row
-            1st| [Entropic Shield]| Ranged attacks against you have 20% miss chance.
-            2nd| Aid| +1 on attack rolls, +1 against fear, 1d8 temporary hp +1/level (max +10).
-            3rd| TODO| 3rd level luck
-            4th| Freedom of Movement| Subject moves normally despite impediments.
-
-      Magic Domain::section.domain
-        Granted Power::text
-          Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.
-
-        Magic Domain Spells::table.spell_list
-          ::head
-            Spell Level | Spell | Description
-          ::row
-            1st| [Magic Weapon]|
-            2nd| Identify| Determines properties of magic item.
-            3rd| Dispel Magic| Cancels magical spells and effects.
-            4th| Imbue with Spell Ability| Transfer spells to subject.
-
       Plant Domain::section.domain
         Granted Powers::text
           Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per long rest equal to 3 + your Charisma modifier. This granted power is a supernatural ability. You cannot use these for anything that lets you spend turn attempts.
@@ -324,12 +295,12 @@
 
         Strength Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell            | Description
           ::row
-            1st| [Enlarge Person]| Humanoid creature doubles in size.
-            2nd| Bull’s Strength| Subject gains +4 to Str for 1 min./level.
-            3rd| Magic Vestment| Armor or shield gains +1 enhancement per four levels.
-            4th| Spell Immunity| Subject is immune to one spell per four levels.
+            1st         | [Enlarge Person] | Humanoid creature doubles in size.
+            2nd         | Bull’s Strength  | Subject gains 19 Str for 1 min./level.
+            3rd         | Magic Vestment   | Armor or shield gains +1 enhancement per four levels.
+            4th         | Spell Immunity   | Subject is immune to one spell per four levels.
 
       Sun Domain::section.domain
         Granted Power::text
@@ -337,25 +308,12 @@
 
         Sun Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell           | Description
           ::row
-            1st| [Burning Hands]| Shoot cone of fire.
-            2nd| Heat Metal| Make metal so hot it damages those who touch it.
-            3rd| Searing Light| Ray deals 1d8/two levels, more against undead.
-            4th| Fire Shield| Creatures attacking you take fire damage; you’re protected from heat or cold.
-
-      Trickery Domain::section.domain
-        Granted Power::text
-          Add Bluff, Disguise, and Hide to your list of cleric class skills.
-
-        Trickery Domain Spells::table.spell_list
-          ::head
-            Spell Level | Spell | Description
-          ::row
-            1st| [Disguise Self]| Disguise own appearance.
-            2nd| Invisibility| Subject invisible 1 min./level or until it attacks.
-            3rd| Nondetection M| Hides subject from divination, scrying.
-            4th| Confusion| Subjects behave oddly for 1 round/level.
+            1st         | [Burning Hands] | Shoot cone of fire.
+            2nd         | Heat Metal      | Make metal so hot it damages those who touch it.
+            3rd         | Searing Light   | Ray deals 1d8/two levels, more against undead.
+            4th         | Fire Shield     | Creatures attacking you take fire damage; you’re protected from heat or cold.
 
       War Domain::section.domain
         Granted Power::text
@@ -366,9 +324,9 @@
             Spell Level | Spell | Description
           ::row
             1st| [Magic Weapon]| Weapon gains +1 bonus.
-            2nd| Spiritual Weapon| Magical weapon attacks on its own.
-            3rd| Magic Vestment| Armor or shield gains +1 enhancement per four levels.
-            4th| Divine Power| You gain attack bonus, +6 to Str, and 1 hp/level.
+            2nd| [Spiritual Weapon]| Magical weapon attacks on its own.
+            3rd| TODO |
+            4th| TODO | 
 
       Water Domain::section.domain
         Granted Power::text
