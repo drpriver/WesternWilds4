@@ -25,7 +25,7 @@
         ::row
           Hit Dice ≤ caster's   | struck unconscious for 2d4 rounds
           Hit Dice ≤ caster's+2 | blinded 1d4 rounds
-          Hit Dice ≥ caster's+3 | stunned for 1 round
+          Hit Dice >= caster's+3 | stunned for 1 round
 
 
 

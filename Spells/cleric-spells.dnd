@@ -25,7 +25,7 @@
         [Detect Undead]                       | Reveals undead within 60 ft.
         [Divine Favor]                        | You gain +1 per three levels on attack and damage rolls.
         [Doom]                                | One subject takes -2 on attack rolls, saves, and checks.
-        [Entropic Shield]                     | Ranged attacks against you have 20% miss chance.
+        Entropic Shield                     | Ranged attacks against you have 20% miss chance.
         [Hide from Undead]                    | Undead can’t perceive one subject/level.
         [Inflict Light Wounds]                | Touch deals 1d8 damage +1/level (max +5).
         [Magic Weapon]                        | Weapon gains +1 bonus for 1 hour/level.
@@ -36,19 +36,17 @@
       ::head
         |
       ::row
-        [Aid]                     | +2 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).
         [Augury]                  | Learns whether an action will be good or bad.
-        [Chant]                   | Like Bless, but also +1 to damage rolls.
         [Cure Moderate Wounds]    | Cures 2d8 damage +1/level (max +10).
         [Darkness]                | 20-ft. radius of supernatural shadow.
         [Delay Poison]            | Stops poison from harming subject for 1 hour/level.
-        [Find Traps]              | Notice traps as a rogue does.
+        [Find Traps]              | Notice traps
         [Hold Person]             | Paralyzes one humanoid for 1 round/level.
         [Inflict Moderate Wounds] | Touch attack, 2d8 damage +1/level (max +10).
         [Protect Other]           | Ally is protected from damage, effects, can't act at all for 1 minute.
         [Remove Paralysis]        | Frees one or more creatures from paralysis or slow effect.
         [Resist Energy]           | Ignores 10 (or more) points of damage/attack from specified energy type.
-        [Restoration, Lesser]     | Dispels magical ability penalty or repairs 1d4 ability damage.
+        [Lesser Restoration]     | Dispels magical ability penalty or repairs 1d4 ability damage.
         [Silence]                 | Negates sound in 20-ft. radius.
         [Spiritual Weapon]        | Magic weapon attacks on its own.
     3rd-Level Cleric Spells::table.spell_list
@@ -58,41 +56,40 @@
         [Bestow Curse]                             | -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.
         [Blindness/Deafness]                       | Makes subject blind or deaf.
         [Continual Flame]                          | Makes a permanent torch.
-        [Create Food and Water]                    | Feeds three humans (or one horse)/level.
+        Create Food and Water                    | Feeds three humans (or one horse)/level.
         [Cure Serious Wounds]                      | Cures 3d8 damage +1/level (max +15).
-        [Daylight]                                 | 60-ft. radius of bright light.
-        [Deeper Darkness]                          | Object sheds supernatural shadow in 60-ft. radius.
-        [Dispel Magic]                             | Cancels spells and magical effects.
-        [Glyph of Warding]                         | Inscription harms those who pass it.
+        Daylight                                 | 60-ft. radius of bright light.
+        Deeper Darkness                          | Object sheds supernatural shadow in 60-ft. radius.
+        Dispel Magic                             | Cancels spells and magical effects.
+        Glyph of Warding                         | Inscription harms those who pass it.
         [Inflict Serious Wounds]                   | Touch attack, 3d8 damage +1/level (max +15).
-        [Magic Circle against Chaos/Evil/Good/Law] | As protection spells, but 10-ft. radius and 10 min./level.
-        [Meld into Stone]                          | You and your gear merge with stone.
-        [Prayer]                                   | Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.
-        [Remove Blindness/Deafness]                | Cures normal or magical conditions.
-        [Remove Curse]                             | Frees object or person from curse.
-        [Remove Disease]                           | Cures all diseases affecting subject.
-        [Resist Energy, 10' radius]                | As resist energy, but 10-ft. radius.
-        [Searing Light]                            | Ray deals 1d8/two levels damage, more against undead.
-        [Stone Shape]                              | Sculpts 10 cu. ft. of stone into any shape, like a door.
-        [Water Breathing]                          | Subject can breathe underwater.
-        [Water Walk]                               | Subject walks on water as if solid.
+        Magic Circle against Chaos/Evil/Good/Law | As protection spells, but 10-ft. radius and 10 min./level.
+        Meld into Stone                          | You and your gear merge with stone.
+        Prayer                                   | Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.
+        Remove Blindness/Deafness                | Cures normal or magical conditions.
+        Remove Curse                             | Frees object or person from curse.
+        Remove Disease                           | Cures all diseases affecting subject.
+        Resist Energy, 10' radius                | As resist energy, but 10-ft. radius.
+        Searing Light                            | Ray deals 1d8/two levels damage, more against undead.
+        Stone Shape                              | Sculpts 10 cu. ft. of stone into any shape, like a door.
+        Water Breathing                          | Subject can breathe underwater.
+        Water Walk                               | Subject walks on water as if solid.
     4th-Level Cleric Spells::table.spell_list
       ::head
         |
       ::row
-        [Aura of Life, 10' radius]         | Allies in your aura heal 3hp/round for 1rd/level.
-        [Control Water]                    | Lower or raise water in an area, holds ships in place.
+        Aura of Life, 10' radius         | Allies in your aura heal 3hp/round for 1rd/level.
+        Control Water                    | Lower or raise water in an area, holds ships in place.
         [Cure Critical Wounds]             | Cures 4d8 damage +1/level (max +20).
-        [Dismissal]                        | Forces a creature to return to native plane.
-        [Divination]                       | Provides useful advice for specific proposed actions.
-        [Flamestrike]                      | 10' square column of light and fire deals 1d6 damage per level, half fire, half sacred.
-        [Freedom of Movement]              | Subject moves normally despite impediments.
+        Dismissal                        | Forces a creature to return to native plane.
+        Divination                       | Provides useful advice for specific proposed actions.
+        Flamestrike                      | 10' square column of light and fire deals 1d6 damage per level, half fire, half sacred.
+        Freedom of Movement              | Subject moves normally despite impediments.
         [Inflict Critical Wounds]          | Touch attack, 4d8 damage +1/level (max +20).
-        [Neutralize Poison]                | Immunizes subject against poison, detoxifies venom in or on subject.
-        [Protection from Death]            | Grants immunity to death spells and negative energy effects.
-        [Poison]                           | Touch deals 1d10 Con damage, repeats in 1 min.
-        [Restoration]                      | Restores level and ability score drains.
-        [Spell Immunity]                   | Subject is immune to one spell per four levels.
-        [Sticks to Snakes]                 | Transform 2d8 sticks into snakes.
-        [Tongues]                          | Speak any language.
-        [Wall Against Evil/Good/Chaos/Law] | Magical Wall prevents passage of warded alignment. Must be straight wall or hemisphere.
+        Neutralize Poison                | Immunizes subject against poison, detoxifies venom in or on subject.
+        Protection from Death            | Grants immunity to death spells and negative energy effects.
+        Poison                           | Touch deals 1d10 Con damage, repeats in 1 min.
+        Restoration                      | Restores level and ability score drains.
+        Spell Immunity                   | Subject is immune to one spell per four levels.
+        Sticks to Snakes                 | Transform 2d8 sticks into snakes.
+        Wall Against Evil/Good/Chaos/Law | Magical Wall prevents passage of warded alignment. Must be straight wall or hemisphere.

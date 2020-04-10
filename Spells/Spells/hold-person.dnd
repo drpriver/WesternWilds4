@@ -1,0 +1,21 @@
+
+  Hold Person::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 2, [Cleric] 2, [Sorcerer] 3, [Wizard] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | Medium (100' + 10'/level)
+        Targets:          | one man-shaped, man-sized or smaller creature
+        Duration:         | 1 round/level (D)
+        Saving Throw:     | Will negates
+    ::text
+      The subject becomes paralyzed and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. 
+
+      Each round on its turn, the subject may attempt a new saving throw to end the effect. (This is a full-round action that does not provoke attacks of opportunity.)
+
+      A winged creature who is paralyzed cannot flap its wings and falls. A swimmer can’t swim and will drown.
+
+

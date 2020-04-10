@@ -1,0 +1,28 @@
+
+  Spiritual weapon::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 2
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | Medium (100' + 10'/level)
+        Duration:         | 1 round/level (D)
+    ::text
+      A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing 1d8 force damage per hit, +1 point per three caster levels.
+
+      The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you. 
+
+      It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. 
+
+      It uses your base attack bonus plus your Wisdom modifier as its attack bonus. 
+
+      Each round after the first, you can use a move action to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round’s target. 
+
+      On any round that the weapon switches targets, it gets one attack. 
+
+      A spiritual weapon cannot be attacked or harmed by physical attacks.
+
+
+

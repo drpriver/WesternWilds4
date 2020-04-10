@@ -1,0 +1,50 @@
+
+  Bestow Curse::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 4, [Cleric] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | Touch
+        Targets:          | Person or Object
+        Duration:         | 10 min/level (Person) or Permanent (Object)
+        Saving Throw:     | Will Negates
+    ::text
+      When cast on a person (man shaped-creature of man-size or smaller), 
+      the curse can have one of the following effects (roll percentile dice): 
+    ::table
+      ::head
+        d100   | Curse
+      ::row
+        01-50  | random ability score is reduce to 3 (roll a d6)
+        51-75  | -4 penalty to attack and saving throws
+        76-100 | At the beginning of each turn, 50% to do nothing.
+    ::text
+      When cast on a weapon:
+    ::table
+      ::head
+        d100   | Curse
+      ::row
+        01-25  | Weapon strikes wielder instead.
+        26-50  | Weapon suffers -4 penalty to attack and damage.
+        51-75  | Weapon returns to wielder's sheath whenever an attack is made.
+        76-100 | Weapon becomes a noodle.
+    ::text
+      The effect is permanent on non-magical weaponry and lasts 10min/level on magical weaponry.
+    ::text
+      When cast on armor:
+    ::table
+      ::head
+        d100 | Curse
+      ::row
+        01-25 | Armor suffers -4 AC
+        26-50 | Armor is 50% to trip wearer whenever he moves (ending their movement)
+        51-75 | Armor attracts all attacks upon it.
+        76-100| Wearer is totally encumbered.
+    ::text
+      The effect is permanent on non-magical armor and lasts 10min/level on magical armor.
+
+      Whenever a player casts a curse, they must devise one of similar power (DM may tweak it). 
+      It is then permanently added to the table. Beware! Evil clerics will be casting it!

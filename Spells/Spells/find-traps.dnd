@@ -1,0 +1,12 @@
+
+  Find Traps::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 2
+        Components:       | V, S
+        Casting Time:     | 10 minutes
+        Range:            | 30'
+    ::text
+      You are alerted to the presence and general location of traps within 30' (for example, you learn a door is trapped or a chest is trapped, but not how).

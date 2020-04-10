@@ -56,16 +56,13 @@
         [Daze Monster]              | Living creature of 6 HD or less loses next action.
         [Delay Poison]              | Stops poison from harming subject for 1 hour/ level.
         [Delusions of Grandeur]     | Subject thinks it is better than it is.
-        [Enthrall]                  | Captivates all within 100 ft. + 10 ft./level.
         [Glitterdust]               | Blinds creatures, outlines invisible creatures.
-        [Heroism]                   | Gives +2 on attack rolls, saves, skill checks.
         [Hold Person]               | Paralyzes one humanoid for 1 round/level.
         [Hypnotic Pattern]          | Fascinates (2d4 + level) HD of creatures.
         [Invisibility]              | Subject is invisible for 1 min./level or until it attacks.
-        [Minor Image]               | As silent image, plus some sound.
         [Mirror Image]              | Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
         [Pyrotechnics]              | Turns fire into blinding light or choking smoke.
-        [Scare]                     | Panics creatures of less than 6 HD.
+        [Scare]                     | Frightens creatures of less than 6 HD.
         [Shatter]                   | Sonic vibration damages objects or crystalline creatures.
         [Silence]                   | Negates sound in 20-ft. radius.
         [Sound Burst]               | Deals 1d8 sonic damage to subjects; may stun them.
@@ -76,23 +73,23 @@
       ::head
         |
       ::row
-        [Blink]               | You randomly vanish and reappear for 1 round/level.
-        [Charm Monster]       | Makes monster believe it is your ally.
-        [Confusion]           | Subjects behave oddly for 1 round/level.
-        [Crushing Despair]    | Subjects take -2 on attack rolls, damage rolls, saves, and checks.
-        [Cure Serious Wounds] | Cures 3d8 damage +1/level (max +15).
-        [Daylight]            | 60-ft. radius of bright light.
-        [Deep Slumber]        | Puts 10 HD of creatures to sleep.
-        [Dispel Magic]        | Cancels magical spells and effects.
-        [Displacement]        | Attacks miss subject 50%.
-        [Fear]                | Subjects within cone flee for 1 round/level.
-        [Gaseous Form]        | Subject becomes insubstantial and can fly slowly.
-        [Good Hope]           | Subjects gain +2 on attack rolls, damage rolls, saves, and checks.
-        [Haste]               | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
-        [Invisibility Sphere] | Makes everyone within 10 ft. invisible.
-        [Lesser Geas]         | Commands subject of 7 HD or less.
-        [Major Image]         | As silent image, plus sound, smell and thermal effects.
-        [Remove Curse]        | Frees object or person from curse.
-        [Sculpt Sound]        | Creates new sounds or changes existing ones.
-        [See Invisibility]    | Reveals invisible creatures or objects.
-        [Slow]                | One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.
+        Blink               | You randomly vanish and reappear for 1 round/level.
+        Charm Monster       | Makes monster believe it is your ally.
+        Confusion           | Subjects behave oddly for 1 round/level.
+        Crushing Despair    | Subjects take -2 on attack rolls, damage rolls, saves, and checks.
+        Cure Serious Wounds | Cures 3d8 damage +1/level (max +15).
+        Daylight            | 60-ft. radius of bright light.
+        Deep Slumber        | Puts 10 HD of creatures to sleep.
+        Dispel Magic        | Cancels magical spells and effects.
+        Displacement        | Attacks miss subject 50%.
+        Fear                | Subjects within cone flee for 1 round/level.
+        Gaseous Form        | Subject becomes insubstantial and can fly slowly.
+        Good Hope           | Subjects gain +2 on attack rolls, damage rolls, saves, and checks.
+        Haste               | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
+        Invisibility Sphere | Makes everyone within 10 ft. invisible.
+        Lesser Geas         | Commands subject of 7 HD or less.
+        Major Image         | As silent image, plus sound, smell and thermal effects.
+        Remove Curse        | Frees object or person from curse.
+        Sculpt Sound        | Creates new sounds or changes existing ones.
+        See Invisibility    | Reveals invisible creatures or objects.
+        Slow                | One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.

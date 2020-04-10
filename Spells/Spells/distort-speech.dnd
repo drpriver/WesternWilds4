@@ -1,0 +1,14 @@
+  Distort Speech::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 1
+        Components:       | V, S
+        Casting Time:     | Standard Action
+        Range:            | Close (25' + 5'/level)
+        Targets:          | One Creature
+        Duration:         | 1 round/level
+        Saving Throw:     | Fortitude Negates
+    ::text
+      For the duration of this spell, the subject has a 50% chance to miscast spells that have verbal components, and any time the subject speaks, there is a 50% chance that the utterance is completely incomprehensible and therefore ineffective.

@@ -56,6 +56,7 @@ THESPELLS=acid-arrow.dnd\
           blink.dnd\
           blur.dnd\
           burning-hands.dnd\
+	  calm-animals.dnd\
           calm-emotions.dnd\
           cause-fear.dnd\
           chain-missiles.dnd\
@@ -109,7 +110,8 @@ THESPELLS=acid-arrow.dnd\
           electroic-jolt.dnd\
           elemental-orb.dnd\
           enhance-ability.dnd\
-          enthrall.dnd\
+	  enlarge-person.dnd\
+	  entangle.dnd\
           entropic-shield.dnd\
           expeditious-retreat.dnd\
           false-life.dnd\
@@ -160,6 +162,7 @@ THESPELLS=acid-arrow.dnd\
           lesser-elemental-orb.dnd\
           lesser-geas.dnd\
           lesser-globe-of-invulnerability.dnd\
+          lesser-restoration.dnd\
           light.dnd\
           lightning-bolt.dnd\
           lullaby.dnd\
@@ -174,7 +177,6 @@ THESPELLS=acid-arrow.dnd\
           mass-shield.dnd\
           meld-into-stone.dnd\
           message.dnd\
-          minor-image.dnd\
           mirror-image.dnd\
           neutralize-poison.dnd\
           obscuring-mist.dnd\
@@ -199,7 +201,6 @@ THESPELLS=acid-arrow.dnd\
           resilient-sphere.dnd\
           resist-energy-10-radius.dnd\
           resist-energy.dnd\
-          restoration,-lesser.dnd\
           restoration.dnd\
           reverse-arrows.dnd\
           sanctuary.dnd\
@@ -396,7 +397,7 @@ index.html: $(ALL) dd.css dd.js links.json Makefile
 	cat $(ALL) > build/rules.dnd
 	python3 -m ez_dungeon.document build/rules.dnd build
 	cp build/rules.html index.html
-	rm -rf build
+	#rm -rf build
 
 validate:
 	python3 -m ez_dungeon.html_validate index.html

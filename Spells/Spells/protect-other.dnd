@@ -1,0 +1,18 @@
+
+  Protect Other::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 2
+        Components:       | V, S
+        Casting Time:     | 1 swift action
+        Range:            | Medium (100' + 10'/level)
+        Targets:          | 1 ally
+        Duration:         | 1 minute
+    ::text
+      You are not your own ally.
+
+      Any opponent attempting to strike or otherwise directly attack the ally, even with a targeted spell, can't. Those not attempting to attack the subject remain unaffected. Additionally, the ally is protected from area of effect spells.
+
+      The ally cannot attack without breaking the spell, and in fact cannot act at all!

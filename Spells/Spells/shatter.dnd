@@ -1,0 +1,22 @@
+
+  Shatter ::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 2, [Cleric] 2, [Sorcerer] 2, [Wizard] 2
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Range:            | Close (25' + 5'/2 levels)
+        Targets:          | 5' radius spread or one solid object or crystalline creature
+        Saving Throw:     | Fortitude negates
+    ::text
+      Shatter creates a loud, ringing noise that breaks brittle, nonmagical objects (like glass); sunders a single solid, nonmagical object; or damages a crystalline creature.
+
+      Used as an area attack, shatter destroys nonmagical objects of crystal, glass, ceramic, or porcelain. All such objects within a 5-foot radius of the point of origin are smashed into dozens of pieces by the spell. Objects weighing more than 1 pound per your level are not affected, but all other objects of the appropriate composition are shattered.
+
+      Alternatively, you can target shatter against a single nonmagical, solid object, regardless of composition, weighing up to 10 pounds per caster level. Held items get a saving throw rolled by their wielder.
+
+      Targeted against a crystalline creature (of any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6), with a Fortitude save for half damage.
+
+

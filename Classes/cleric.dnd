@@ -337,12 +337,12 @@
 
         Plant Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell          | Description
           ::row
-            1st| [Entangle]| Conjured Plants entangle everyone in 10-ft.-radius.
-            2nd| Barkskin| Grants +2 (or higher) enhancement to natural armor.
-            3rd| Plant Growth| Grows vegetation, improves crops.
-            4th| Command Plants| Sway the actions of one or more plant creatures.
+            1st         | [Entangle]     | Plants entangle everyone in 20' square
+            2nd         | Barkskin       | Grants +2 (or higher) enhancement to natural armor.
+            3rd         | Plant Growth   | Grows vegetation, improves crops.
+            4th         | Command Plants | Sway the actions of one or more plant creatures.
 
       Protection Domain::section.domain
         Granted Power::text

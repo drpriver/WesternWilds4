@@ -74,11 +74,10 @@
         [Hypnotic Pattern]       | Fascinates (2d4 + level) HD of creatures.
         [Invisibility]           | Subject is invisible for 1 min./level or until it attacks.
         [Knock]                  | Opens locked or magically sealed door.
-        [Minor Image]            | As silent image, plus some sound.
         [Mirror Image]           | Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
         [Protection from Arrows] | Subject immune to most ranged attacks.
         [Pyrotechnics]           | Turns fire into blinding light or choking smoke.
-        [Scare]                  | Panics creatures of less than 6 HD.
+        [Scare]                  | Frightens creatures of less than 6 HD.
         [Scorching Ray]          | Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
         [See Invisibility]       | Reveals invisible creatures or objects.
         [Shatter]                | Sonic vibration damages objects or crystalline creatures.
@@ -98,9 +97,8 @@
         [Flame Arrow]                              | Arrows deal +1d6 fire damage.
         [Fly]                                      | Subject flies at speed of 60 ft.
         [Haste]                                    | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
-        [Heroism]                                  | Gives +2 bonus on attack rolls, saves, skill checks.
         [Hold Person]                              | Paralyzes one humanoid for 1 round/level.
-        [Invisibility, 10' radius]                 | Makes everyone within 10 ft. invisible.
+        [Invisibility 10' radius]                 | Makes everyone within 10 ft. invisible.
         [Lightning Bolt]                           | Electricity deals 1d6/level damage.
         [Mass Mage Armor]                          | one creature per level gains mage armor.
         [Mass Shield]                              | one creature per level gains shield.
@@ -118,25 +116,25 @@
       ::head
         |
       ::row
-        [Charm Monster]                   | Makes monster believe it is your ally.
-        [Cone of Fire]                    | 60 ft cone of fire deals 1d6/level.
-        [Confusion]                       | Subjects behave oddly for 1 round/level.
-        [Crushing Despair]                | Subjects take -2 on attack rolls, damage rolls, saves, and checks.
-        [Dimension Door]                  | Teleports you short distance.
-        [Earthbind]                       | A creature can't fly and falls to the ground.
-        [Elemental Orb]                   | Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/level damage. Ranged Touch attack.
-        [Fear]                            | Subjects within cone flee for 1 round/level.
-        [Fire Shield]                     | Creatures attacking you take fire damage; you’re protected from heat or cold.
-        [Lesser Globe of Invulnerability] | Stops 1st- through 3rd-level spell effects.
-        [Ice Storm]                       | Hail deals 5d6 damage in cylinder 40 ft. across.
-        [Illusory Wall]                   | Wall, floor, or ceiling looks real, but anything can pass through.
-        [Greater Invisibility]            | As invisibility, but subject can attack and stay invisible, becomes partially visible.
-        [Greater Flaming Sphere]          | Like flaming sphere, but 4d6.
-        [Phantasmal Killer]               | Fearsome illusion kills subject or deals 3d6 damage.
-        [Remove Curse]                    | Frees object or person from curse.
-        [Resilient Sphere]                | Force globe protects but traps one subject.
-        [Shout]                           | Deafens all within cone and deals 5d6 sonic damage.
-        [Stinking Cloud]                  | Nauseating vapors, 1 round/level.
-        [Stoneskin]                       | Ignore 10 points of damage per attack.
-        [Wall of Fire]                    | Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
-        [Wall of Ice]                     | Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.
+        Charm Monster                   | Makes monster believe it is your ally.
+        Cone of Fire                    | 60 ft cone of fire deals 1d6/level.
+        Confusion                       | Subjects behave oddly for 1 round/level.
+        Crushing Despair                | Subjects take -2 on attack rolls, damage rolls, saves, and checks.
+        Dimension Door                  | Teleports you short distance.
+        Earthbind                       | A creature can't fly and falls to the ground.
+        Elemental Orb                   | Orb of cold (water), fire (fire), bludgeoning (earth), or slashing (wind) deals 1d8 + 1d8/level damage. Ranged Touch attack.
+        Fear                            | Subjects within cone flee for 1 round/level.
+        Fire Shield                     | Creatures attacking you take fire damage; you’re protected from heat or cold.
+        Lesser Globe of Invulnerability | Stops 1st- through 3rd-level spell effects.
+        Ice Storm                       | Hail deals 5d6 damage in cylinder 40 ft. across.
+        Illusory Wall                   | Wall, floor, or ceiling looks real, but anything can pass through.
+        Greater Invisibility            | As invisibility, but subject can attack and stay invisible, becomes partially visible.
+        Greater Flaming Sphere          | Like flaming sphere, but 4d6.
+        Phantasmal Killer               | Fearsome illusion kills subject or deals 3d6 damage.
+        Remove Curse                    | Frees object or person from curse.
+        Resilient Sphere                | Force globe protects but traps one subject.
+        Shout                           | Deafens all within cone and deals 5d6 sonic damage.
+        Stinking Cloud                  | Nauseating vapors, 1 round/level.
+        Stoneskin                       | Ignore 10 points of damage per attack.
+        Wall of Fire                    | Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
+        Wall of Ice                     | Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.
