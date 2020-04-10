@@ -191,19 +191,6 @@
             3rd| Dominate Animal| Subject animal obeys silent mental commands.
             4th| TODO| 4th level animal spell
 
-      Chaos Domain::section.domain
-        Granted Power::text
-          You cast chaos spells at +1 caster level.
-
-        Chaos Domain Spells::table.spell_list
-          ::head
-            Spell Level | Spell | Description
-
-          ::row
-            1st| [Protection from Law, Protection from Chaos/Evil/Good/Law]| +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
-            2nd| Shatter| Sonic vibration damages objects or crystalline creatures.
-            3rd| Magic Circle against Law| As protection spells, but 10-ft. radius and 10 min./level.
-            4th| Chaos Hammer| Damages and staggers lawful creatures.
 
       Death Domain::section.domain
         Granted Power::text
@@ -263,19 +250,6 @@
             3rd| Resist Energy| Ignores 10 (or more) points of damage/attack from specified energy type.
             4th| Wall of Fire| Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
 
-      Good Domain::section.domain
-        Granted Power::text
-          You cast good spells at +1 caster level.
-
-        Good Domain Spells::table.spell_list
-          ::head
-            Spell Level | Spell | Description
-          ::row
-            1st|  [Protection from Evil, Protection from Chaos/Evil/Good/Law]| +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
-            2nd|  Aid| +1 on attack rolls, +1 on saves against fear, 1d8 temporary hp +1/level (max +10).
-            3rd|  Magic Circle against Evil| As protection spells, but 10-ft. radius and 10 min./level.
-            4th|  Holy Smite| Damages and blinds evil creatures.
-
       Healing Domain::section.domain
         Granted Power::text
           You cast healing spells at +1 caster level.
@@ -288,19 +262,6 @@
             2nd| Cure Moderate Wounds| Cures 2d8 damage +1/level (max +10).
             3rd| Cure Serious Wounds| Cures 3d8 damage +1/level (max +15).
             4th| Cure Critical Wounds| Cures 4d8 damage +1/level (max +20).
-
-      Law Domain::section.domain
-        Granted Power::text
-          You cast law spells at +1 caster level.
-
-        Law Domain Spells::table.spell_list
-          ::head
-            Spell Level | Spell | Description
-          ::row
-            1st| [Protection from Chaos, Protection from Chaos/Evil/Good/Law]| +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
-            2nd| Calm Emotions| Calms creatures, negating emotion effects.
-            3rd| Magic Circle against Chaos| As protection spells, but 10-ft. radius and 10 min./level.
-            4th| Order’s Wrath| Damages and dazes chaotic creatures.
 
       Luck Domain::section.domain
         Granted Power::text
@@ -350,13 +311,12 @@
 
         Protection Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell           | Description
           ::row
-            1st| [Sanctuary] | Opponents can’t attack you, and you can’t attack.
-            2nd |Shield Other| You take half of subject’s damage.
-            3rd| Protection from Energy| Absorb 12 points/level of damage from one kind of energy.
-            4th| Spell Immunity| Subject is immune to one spell per four levels.
-
+            1st         | [Sanctuary]     | Opponents can’t attack you, and you can’t attack.
+            2nd         | [Protect Other] | Ally can't act, can't be attacked or effected.
+            3rd         | TODO            | Absorb 12 points/level of damage from one kind of energy.
+            4th         | Spell Immunity  | Subject is immune to one spell per four levels.
 
       Strength Domain::section.domain
         Granted Power::text
