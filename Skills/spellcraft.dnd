@@ -5,14 +5,14 @@
       ::head
         Spellcraft DC | Task
       ::row
-        13  | When using read magic, identify a glyph of warding. No action required.
-        15 + spell level  | Identify a spell being cast.
+        13               | When using read magic, identify a glyph of warding. No action required.
+        15 + spell level | Identify a spell being cast.
         15 + spell level | When casting detect magic, determine the school of magic involved in the aura of a single item or creature you can see.
-        19  | When using read magic, identify a symbol.
-        20 + spell level  | Identify a spell that’s already in place and in effect.
+        19               | When using read magic, identify a symbol.
+        20 + spell level | Identify a spell that’s already in place and in effect.
         20 + spell level | Identify materials created or shaped by magic, such as noting that an iron wall is the result of a wall of iron spell.
         20 + spell level | Decipher a written spell (such as a scroll) without using read magic. One try per day.
         25 + spell level | After rolling a saving throw against a spell targeted on you, determine what that spell was.
-        25 | Identify a potion. Requires 1 minute.
-        20 | Draw a diagram to allow dimensional anchor to be cast on a magic circle spell. Requires 10 minutes. This check is made secretly so you do not know the result.
-        30 or higher | Understand a strange or unique magical effect, such as the effects of a magic stream
+        25               | Identify a potion. Requires 1 minute.
+        20               | Draw a diagram to allow dimensional anchor to be cast on a magic circle spell. Requires 10 minutes. This check is made secretly so you do not know the result.
+        30 or higher     | Understand a strange or unique magical effect, such as the effects of a magic stream

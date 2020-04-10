@@ -26,15 +26,19 @@
         [Alarm]                               | Wards an area for 2 hours/level.
         [Animate Rope]                        | Makes a rope move at your command.
         [Burning Hands]                       | 1d4/level fire damage (max 5d4).
+        [Bone Bomb]                           | Create 3 bombs that can be thrown, dealing 1d4/level damage (max 3d4) piercing damage.
         [Cause Fear]                          | One creature of 5 HD or less flees for 1d4 rounds.
         [Charm Person]                        | Makes one person your friend.
         [Chill Touch]                         | One touch/level deals 1d6 damage and possibly 1 Str damage.
         [Color Spray]                         | Knocks unconscious, blinds, and/or stuns weak creatures.
         [Comprehend Languages]                | You understand all spoken and written languages.
+        [Curse Potion]                        | Potion becomes potion of poison, appears like original potion.
         [Detect Secret Doors]                 | Reveals hidden doors within 60 ft.
         [Detect Undead]                       | Reveals undead within 60 ft.
         [Disguise Self]                       | Changes your appearance.
         [Enlarge Person]                      | Humanoid creature doubles in size.
+        [Enlarge Toad]                        | Make a toad a formidable threat.
+        [Enhance Potion]                      | Potion or alchemical item's effect is doubled.
         [Erase]                               | Mundane or magical writing vanishes.
         [Expeditious Retreat]                 | You and your allies run away.
         [Feather Fall]                        | Objects or creatures fall slowly.
@@ -52,10 +56,12 @@
         [Protection from Chaos/Evil/Good/Law] | +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
         [Ray of Enfeeblement]                 | Ray deals 1d6 +1 per two levels Str damage.
         [Reduce Person]                       | Humanoid creature halves in size.
+        [Shadow Warrior]                      | Create a shadowy fighter that fights for you.
         [Shield]                              | Invisible disc gives +4 to AC, blocks magic missiles.
         [Shocking Grasp]                      | Touch delivers 1d6/level electricity damage (max 5d6).
         [Silent Image]                        | Creates minor illusion of your design.
         [Sleep]                               | Puts 4 HD of creatures into magical slumber.
+        [Toad Bomb]                           | Turn a living toad into a bomb.
         [Unseen Servant]                      | Invisible force obeys your commands.
         [Ventriloquism]                       | Throws voice for 1 min./level.
     2nd-level Wizard spells::table.spell_list
