@@ -1,0 +1,31 @@
+
+  Wind Wall::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 3, [Sorcerer] 3, [Wizard] 3
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Range:            | Medium (100' + 10'/level)
+        Area:             | Wall up to 10 ft./level long and 5 ft./level high
+        Duration:         | 1 round/level
+    ::text
+      An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. 
+
+      It is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A Reflex save allows a creature to maintain its grasp on an object.) 
+
+      Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a wind wall.
+
+      Arrows and bolts are deflected upward and miss, while any other normal ranged weapon passing through the wall suffer a -4 penalty.
+
+      Sling stones and firearms suffer a -4 penalty.
+
+      (A giant-thrown boulder, a cannonball, and other massive ranged weapons are not affected.) 
+
+      Gases, most gaseous breath weapons, and creatures in gaseous form cannot pass through the wall.
+
+      While the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square wind walls to enclose specific points.
+
+
+      

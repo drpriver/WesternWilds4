@@ -1,0 +1,13 @@
+  Pass Without Trace::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Targets:          | One creature/level touched
+        Duration:         | 1 hour / level (D)
+    ::text
+      The subject or subjects can move through any type of terrain and leave neither footprints nor scent.
+      Tracking the subjects is impossible by nonmagical means such as magical scent.

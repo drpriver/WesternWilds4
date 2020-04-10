@@ -42,7 +42,7 @@
 
     Bear Totem::section.feat
       Effect::text
-        While raging, your DR and natural armor are increased by 1.
+        While raging, your DR is increased by 1 and you get a +1 bonus to AC.
 
         While raging, you get a +4 bonus on grapple checks.
       Special::text

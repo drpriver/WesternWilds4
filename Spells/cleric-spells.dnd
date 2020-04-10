@@ -25,7 +25,7 @@
         [Detect Undead]                       | Reveals undead within 60 ft.
         [Divine Favor]                        | You gain +1 per three levels on attack and damage rolls.
         [Doom]                                | One subject takes -2 on attack rolls, saves, and checks.
-        Entropic Shield                     | Ranged attacks against you have 20% miss chance.
+        [Entropic Shield]                     | Ranged attacks against you have 20% miss chance.
         [Hide from Undead]                    | Undead can’t perceive one subject/level.
         [Inflict Light Wounds]                | Touch deals 1d8 damage +1/level (max +5).
         [Magic Weapon]                        | Weapon gains +1 bonus for 1 hour/level.
@@ -46,7 +46,7 @@
         [Protect Other]           | Ally is protected from damage, effects, can't act at all for 1 minute.
         [Remove Paralysis]        | Frees one or more creatures from paralysis or slow effect.
         [Resist Energy]           | Ignores 10 (or more) points of damage/attack from specified energy type.
-        [Lesser Restoration]     | Dispels magical ability penalty or repairs 1d4 ability damage.
+        [Lesser Restoration]      | Dispels magical ability penalty or repairs 1d4 ability damage.
         [Silence]                 | Negates sound in 20-ft. radius.
         [Spiritual Weapon]        | Magic weapon attacks on its own.
     3rd-Level Cleric Spells::table.spell_list
@@ -55,7 +55,6 @@
       ::row
         [Bestow Curse]                             | -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.
         [Blindness/Deafness]                       | Makes subject blind or deaf.
-        [Continual Flame]                          | Makes a permanent torch.
         Create Food and Water                    | Feeds three humans (or one horse)/level.
         [Cure Serious Wounds]                      | Cures 3d8 damage +1/level (max +15).
         Daylight                                 | 60-ft. radius of bright light.

@@ -1,0 +1,13 @@
+
+  Know Direction::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 0
+        Components:       | V, S
+        Casting Time:     | 1 minute
+    ::text
+      You instantly know the direction of north from your current position. 
+
+

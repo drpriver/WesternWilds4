@@ -1,0 +1,12 @@
+  Longstrider::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Targets:          | You
+        Duration:         | 1 hour / level (D)
+    ::text
+      This spell increases your base land speed by 10 feet

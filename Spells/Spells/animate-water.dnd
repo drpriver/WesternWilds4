@@ -1,0 +1,28 @@
+
+  Animate Water::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | V, S, M (a 5x5x5 cube of water).
+        Casting Time:     | 1 round
+        Duration:         | Concentration, up to 1round/level (D)
+    ::text
+      You animate a cube of water.
+
+      The animated water has the below statistics and attacks as you direct. 
+      It cannot move beyond the range of its source water (25 ft. + 5 ft./2 levels).
+    Animated Water::table.stat_block
+      ::head
+        |
+      ::row
+        Size:| Small
+        Speed:| 20' (land), 90' (water)
+        HP:| 11
+        AC:| 17
+        Attack:| +4
+        Damage:| 1d6+3
+        Fort:| +4
+        Ref:| +0
+        Will:| +0 (but immune to most effects)

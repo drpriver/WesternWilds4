@@ -1,0 +1,21 @@
+
+  Air Walk::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 4
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Targets:          | 1 creature touched
+        Duration:         | 10 min/level
+    ::text
+      The subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or downward angle possible is 45 degrees, at a rate equal to one-half the air walker’s normal speed.
+
+      A strong wind (21+ mph) can push the subject along or hold it back. At the end of its turn each round, the wind blows the air walker 5 feet for each 5 miles per hour of wind speed. The creature may be subject to additional penalties in exceptionally strong or turbulent winds, such as loss of control over movement or physical damage from being buffeted about.
+
+      Should the spell duration expire while the subject is still aloft, the creature falls.
+
+      You can cast air walk on a specially trained mount so it can be ridden through the air.
+
+

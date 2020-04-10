@@ -1,0 +1,15 @@
+
+  Wild Recovery::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | -
+        Casting Time:     | 1 swift action
+        Targets:          | Self
+    ::text
+      Unlike other spells, wild recovery can be cast while the druid is wild shaped into a different creature.
+
+      The druid heals for 1d8 + level hit points.
+

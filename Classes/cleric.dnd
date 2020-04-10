@@ -170,9 +170,9 @@
             Spell Level | Spell                  | Description
           ::row
             1st         | [Lesser Elemental Orb] | (wind only) Shoot an orb of wind dealing 1d8 + 1d8/ per 2 levels slashing damage.
-            2nd         | Wind Wall              | Deflects arrows, smaller creatures, and gases.
-            3rd         | Gaseous Form           | Subject becomes insubstantial and can fly slowly.
-            4th         | Air Walk               | Subject treads on air as if solid (climb at 45-degree angle).
+            2nd         | [Gust of Wind]         | Blows away or knocks down smaller creatures for 1rd/level.
+            3rd         | [Wind Wall]            | Make wall of wind to block arrows, penalize firearms.
+            4th         | [Air Walk]             | Subject treads on air as if solid (climb at 45-degree angle).
 
       Animal Domain::section.domain
         Granted Powers::text
@@ -182,12 +182,12 @@
 
         Animal Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell           | Description
           ::row
-            1st | [Calm Animals]  | Calms (2d4 + level) HD of animals.
-            2nd | Hold Animal     | Paralyzes one animal for 1 round/level.
-            3rd | Dominate Animal | Subject animal obeys silent mental commands.
-            4th | TODO            | 4th level animal spell
+            1st         | [Calm Animals]  | Calms (2d4 + level) HD of animals.
+            2nd         | Hold Animal     | Paralyzes one animal for 1 round/level.
+            3rd         | Dominate Animal | Subject animal obeys silent mental commands.
+            4th         | TODO            | 4th level animal spell
 
       Death Domain::section.domain
         Granted Power::text
@@ -243,9 +243,9 @@
 
           ::row
             1st| [Lesser Elemental Orb] (fire only)| Shoot an orb of fire dealing 1d8 + 1d8/ per 2 levels fire damage.
-            2nd| Produce Flame| 1d6 damage +1/ level, touch or thrown.
-            3rd| Resist Energy| Ignores 10 (or more) points of damage/attack from specified energy type.
-            4th| Wall of Fire| Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
+            2nd| [Produce Flame] | 1d6 damage +1/ level, touch or thrown.
+            3rd| [Resist Energy] | (Fire/Cold only) Ignores 10 (or more) points of damage/attack from specified energy type.
+            4th| Wall of Fire | Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
 
       Healing Domain::section.domain
         Granted Power::text
@@ -272,7 +272,7 @@
             Spell Level | Spell          | Description
           ::row
             1st         | [Entangle]     | Plants entangle everyone in 20' square
-            2nd         | Barkskin       | Grants +2 (or higher) enhancement to natural armor.
+            2nd         | [Barkskin]     | Turns skin into armor (+5).
             3rd         | Plant Growth   | Grows vegetation, improves crops.
             4th         | Command Plants | Sway the actions of one or more plant creatures.
 
@@ -299,8 +299,8 @@
           ::row
             1st         | [Enlarge Person] | Humanoid creature doubles in size.
             2nd         | Bull’s Strength  | Subject gains 19 Str for 1 min./level.
-            3rd         | Magic Vestment   | Armor or shield gains +1 enhancement per four levels.
-            4th         | Spell Immunity   | Subject is immune to one spell per four levels.
+            3rd         | TODO | 
+            4th         | TODO | 
 
       Sun Domain::section.domain
         Granted Power::text
@@ -308,12 +308,13 @@
 
         Sun Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell           | Description
+            Spell Level | Spell         | Description
           ::row
-            1st         | [Burning Hands] | Shoot cone of fire.
-            2nd         | Heat Metal      | Make metal so hot it damages those who touch it.
-            3rd         | Searing Light   | Ray deals 1d8/two levels, more against undead.
-            4th         | Fire Shield     | Creatures attacking you take fire damage; you’re protected from heat or cold.
+            1st         | [Remove Fear]   | Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
+
+            2nd         | Daylight      | 60-ft. radius of bright light.
+            3rd         | Searing Light | Ray deals 1d8/two levels, more against undead.
+            4th         | Flamestrike   | 10' square column of light and fire deals 1d6 damage per level, half fire, half sacred.
 
       War Domain::section.domain
         Granted Power::text
@@ -325,7 +326,7 @@
           ::row
             1st| [Magic Weapon]| Weapon gains +1 bonus.
             2nd| [Spiritual Weapon]| Magical weapon attacks on its own.
-            3rd| TODO |
+            3rd| Prayer | Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.
             4th| TODO | 
 
       Water Domain::section.domain
@@ -334,10 +335,10 @@
 
         Water Domain Spells::table.spell_list
           ::head
-            Spell Level | Spell | Description
+            Spell Level | Spell                  | Description
           ::row
-            1st| [Lesser Elemental Orb] (water only)| Shoot an orb of water dealing 1d8 + 1d8/ per 2 levels cold damage.
-            2nd| Fog Cloud| Fog obscures vision.
-            3rd| Water Breathing| Subjects can breathe underwater.
-            4th| Control Water| Raises or lowers bodies of water.
+            1st         | [Lesser Elemental Orb] | (water only) Shoot an orb of water dealing 1d8 + 1d8/ per 2 levels cold damage.
+            2nd         | Fog Cloud              | Fog obscures vision.
+            3rd         | Water Breathing        | Subjects can breathe underwater.
+            4th         | Control Water          | Raises or lowers bodies of water.
 

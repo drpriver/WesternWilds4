@@ -1,0 +1,17 @@
+  Buoyancy::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | V
+        Casting Time:     | 1 immediate action
+        Range:            | Close (25' + 5'/2 levels)
+        Targets:          | One willing creature/ level, no two of which are more than 20 ft. apart
+        Duration:         | 1 minute/ level (D)
+    ::text
+      The subjects of this spell are borne toward the surface at 60 feet per round until they are floating on it, regardless of their weight, equipment, lack of swimming skill, etc.
+
+      The subject then rests at the top of the liquid (rescuing it from drowning if it was a sinking air-breather) and can swim away under its own power or be moved by others (such as with a rope). 
+
+      If the subject is removed from the liquid, the spell ends.

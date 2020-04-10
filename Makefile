@@ -39,8 +39,12 @@ RACES=races.dnd\
 THESPELLS=acid-arrow.dnd\
           acid-splash.dnd\
           aid.dnd\
+	  air-walk.dnd\
           animal-messenger.dnd\
           animal-trance.dnd\
+	  animate-fire.dnd\
+	  animate-wood.dnd\
+	  animate-water.dnd\
           animate-ghouls.dnd\
           animate-rope.dnd\
           animate-skeletons.dnd\
@@ -49,18 +53,21 @@ THESPELLS=acid-arrow.dnd\
           aura-of-life-10-radius.dnd\
           baleful-transposition.dnd\
           bane.dnd\
+	  barkskin.dnd\
           benign-transposition.dnd\
           bestow-curse.dnd\
           bless.dnd\
           blindness-deafness.dnd\
           blink.dnd\
           blur.dnd\
+	  buoyancy.dnd\
           burning-hands.dnd\
 	  calm-animals.dnd\
           calm-emotions.dnd\
           cause-fear.dnd\
           chain-missiles.dnd\
           chant.dnd\
+	  charm-animal.dnd\
           charm-monster.dnd\
           charm-person.dnd\
           color-spray.dnd\
@@ -70,6 +77,7 @@ THESPELLS=acid-arrow.dnd\
           confusion,-lesser.dnd\
           confusion.dnd\
           continual-flame.dnd\
+	  control-flame.dnd\
           control-water.dnd\
           corrosive-grasp.dnd\
           create-food-and-water.dnd\
@@ -114,6 +122,7 @@ THESPELLS=acid-arrow.dnd\
 	  entangle.dnd\
           entropic-shield.dnd\
           expeditious-retreat.dnd\
+	  faerie-fire.dnd\
           false-life.dnd\
           fear.dnd\
           feather-fall.dnd\
@@ -134,6 +143,7 @@ THESPELLS=acid-arrow.dnd\
           ghoul-touch.dnd\
           glitterdust.dnd\
           glyph-of-warding.dnd\
+	  goodberry.dnd\
           good-hope.dnd\
           grease.dnd\
           greater-flaming-sphere.dnd\
@@ -142,6 +152,7 @@ THESPELLS=acid-arrow.dnd\
           gust-of-wind.dnd\
           haste.dnd\
           heroism.dnd\
+	  hide-from-animals.dnd\
           hide-from-undead.dnd\
           hideous-laughter.dnd\
           hold-person.dnd\
@@ -159,16 +170,19 @@ THESPELLS=acid-arrow.dnd\
           invisibility.dnd\
           jump.dnd\
           knock.dnd\
+	  know-direction.dnd\
           lesser-elemental-orb.dnd\
           lesser-geas.dnd\
           lesser-globe-of-invulnerability.dnd\
           lesser-restoration.dnd\
           light.dnd\
           lightning-bolt.dnd\
+	  longstrider.dnd\
           lullaby.dnd\
           mage-armor.dnd\
           mage-hand.dnd\
           magic-circle-against-chaos-evil-good-law.dnd\
+	  magic-fang.dnd\
           magic-missile.dnd\
           magic-mouth.dnd\
           magic-weapon.dnd\
@@ -181,10 +195,12 @@ THESPELLS=acid-arrow.dnd\
           neutralize-poison.dnd\
           obscuring-mist.dnd\
           open-close.dnd\
+	  pass-without-trace.dnd\
           phantasmal-killer.dnd\
           poison.dnd\
           prayer.dnd\
           prestidigitation.dnd\
+	  produce-flame.dnd\
           protect-other.dnd\
           protection-from-arrows.dnd\
           protection-from-chaos-evil-good-law.dnd\
@@ -211,6 +227,7 @@ THESPELLS=acid-arrow.dnd\
           see-invisibility.dnd\
           shatter.dnd\
           shield.dnd\
+	  shillelagh.dnd\
           shocking-grasp.dnd\
           shout.dnd\
           shrink-item.dnd\
@@ -241,8 +258,10 @@ THESPELLS=acid-arrow.dnd\
           water-walk.dnd\
           web.dnd\
           whispering-wind.dnd\
+	  wild-recovery.dnd\
           wild-shape-black-bear.dnd\
-          wind-gale.dnd
+          wind-gale.dnd\
+	  wind-wall.dnd\
 
 SPELLS=spell-lists.dnd\
        bard-spells.dnd\

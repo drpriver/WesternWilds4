@@ -47,7 +47,9 @@ The Basics::chapter
 
         Armor Bonus::text
           An armor bonus applies to [Armor Class] and is granted by armor or by a spell or
-          magical effect that mimics armor.
+          magical effect that mimics armor. It can also be granted by "natural" armor, like
+          a dragon's scales or a bear's tough hide. "Natural" armor and armor don't stack.
+
         Circumstance Modifier::text
           A circumstance bonus (or penalty) arises from specific conditional factors
           impacting the success of the task at hand. Circumstance bonuses stack with all
@@ -81,10 +83,6 @@ The Basics::chapter
         Morale Modifier::text
           A morale bonus represents the effects of greater hope, courage, and determination
           (or hopelessness, cowardice, and despair in the case of a morale penalty).
-
-        Natural Armor Bonus::text
-          A natural armor bonus improves [Armor Class] resulting from a creature's naturally
-          tough hide.
 
         Profane Modifier::text
           A profane bonus (or penalty) stems from the power of evil. Multiple profane bonuses

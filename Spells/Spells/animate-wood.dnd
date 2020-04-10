@@ -1,0 +1,30 @@
+  Animate Wood::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | V, S, M (a piece of wood with at least 4 cubic feet of volume and no more than a 5x5x5 cube).
+        Casting Time:     | 1 round
+        Duration:         | Concentration, up to 1round/level (D)
+    ::text
+      You animate an amount of wood.
+
+      If the wood is fixed to something (like a door is), it remains fixed and is thus immobile. Unlocked doors can open themselves. Barred doors can unbar themselves.
+
+      The animated wood has the below statistics and attacks as you direct. 
+    Animated Wood::table.stat_block
+      ::head
+        |
+      ::row
+        Size:| Small
+        Speed:| 30' (unless fixed to something).
+        HP:| 15
+        AC:| 14
+        Attack:| +1
+        Damage:| 1d4
+        Fort:| +0
+        Ref:| +1
+        Will:| -5 (but immune to most effects)
+    ::text
+      The animated wood can only be harmed by appropriate weaponry: axes do full damage, bludgeoning weapons deal half, swords and arrows are ineffective, etc. Fire does full damage and the wood must save or catch on fire, dealing 1d6 damage each round.

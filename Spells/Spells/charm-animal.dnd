@@ -1,0 +1,33 @@
+  Charm Animal::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:        | [Druid] 1
+        Components:   | V,S
+        Casting Time: | 1 round
+        Range:        | Close (25' + 5' per two levels)
+        Targets:      | One natural animal.
+        Duration:     | 1 hour / level (but see text)
+        Saving Throw: | Will negates
+        Tags:         | Charm
+    ::text
+      This spell applies to all natural animals.
+
+      This charm makes an animal regard you as its trusted friend and ally. Essentially, the creature will join your party.
+
+      If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.
+
+      The spell does not enable you to control the charmed animal as if it were an automaton, but it perceives your words and actions in the most favorable way.
+
+      You can try to give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn’t ordinarily do.
+
+      An affected creature never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.
+
+      Any act by you or your apparent allies that threatens the charmed animal breaks the spell.
+
+      When the spell ends, the creature must save again or the spell is permanent. It still ends if you or your apparent allies attack or threaten the charmed subject. A permanent charm animal can be dispelled as any other spell can be. A creature who succeeds on this save may pretend to still be under the sway of it to get its revenge on you. Thus this second save is rolled in secret.
+
+      A caster can only charm up to 1 creature per level of experience.
+
+      A creature who resists this spell can never come under your charm.

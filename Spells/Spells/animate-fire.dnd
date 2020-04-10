@@ -1,0 +1,34 @@
+
+  Animate Fire::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | V, S, M (a lit campfire)
+        Casting Time:     | 1 round
+        Duration:         | Concentration, up to 1round/level (D)
+    ::text
+      You animate a fire, which must be approximately the size of a campfire. 
+
+      The animated fire has the below statistics and attacks as you direct. 
+      It cannot move beyond the range of its source fire (25 ft. + 5 ft./2 levels).
+    Animated Fire::table.stat_block
+      ::head
+        |
+      ::row
+        Size:| Small
+        Speed:| 50'
+        HP:| 9
+        AC:| 15
+        Attack:| +3
+        Damage:| 1d4 + 1d4 fire + DC 11 reflex save and catch fire 
+        Vulnerability:| Double damage from cold, suffers 1d6 damage/gallon of water
+        Fort:| +0
+        Ref:| +4
+        Will:| +0 (but immune to most effects)
+
+    ::text
+      A creature on fire from the fire's attack suffers 1d6 damage each round until put out (creature must spend move action to drop and roll).
+
+

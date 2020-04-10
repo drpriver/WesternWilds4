@@ -18,15 +18,13 @@
         [Animate Fire]             | Turn campfire or similar into small elemental.
         [Animate Water]            | Turn water into small elemental.
         [Animate Wood]             | Turn log or small tree into small elemental.
-        [Bestial recovery]         | Heal yourself for 1d8+spell level (max +5) as a swift action while wild shaped
         [Buoyancy]                 | Creature floats safely on surface despite heavy armor, lack of swimming skill, etc.
         [Calm Animals]             | Calms (2d4 + level) HD of animals.
         [Charm Animal]             | Makes one animal your friend.
         [Control Flame]            | Fire in area burns twice as hot and more intensely, or the opposite.
         [Cure Light Wounds]        | Cures 1d8 damage +1/level (max +5).
-        [Detect Animals or Plants] | Detects kinds of animals or plants.
-        [Detect Snares and Pits]   | Reveals natural or primitive traps.
-        [Endure Elements]          | Exist comfortably in hot or cold environments.
+        Detect Animals or Plants | Detects kinds of animals or plants.
+        Detect Snares and Pits   | Reveals natural or primitive traps.
         [Entangle]                 | Plants entangle everyone in 20' square
         [Faerie Fire]              | Outlines subjects with light, canceling blur, concealment, and the like.
         [Goodberry]                | 8 + 1 berry/level (max +5) berries each cure 1 hp.
@@ -39,21 +37,22 @@
         [Produce Flame]            | 1d6 damage +1/level, touch or thrown.
         [Shillelagh]               | Cudgel or quarterstaff becomes +1 weapon and deals damage as if two sizes larger.
         [Speak with Animals]       | You can communicate with animals.
-        [Wild Shape - Dire Rat]    |
-        [Wild Shape - Eagle]       |
-        [Wild Shape - Monkey]      |
-        [Wild Shape - Octopus]     |
-        [Wild Shape - Owl]         |
-        [Wild Shape - Porpoise]    |
-        [Wild Shape - Small Viper] |
-        [Wild Shape - Wolf]        |
+        [Wild Recovery]            | Heal self for 1d8+level (max +5) as a swift action while wild shaped
+        Wild Shape - Dire Rat      |
+        Wild Shape - Eagle         |
+        Wild Shape - Monkey        |
+        Wild Shape - Octopus       |
+        Wild Shape - Owl           |
+        Wild Shape - Porpoise      |
+        Wild Shape - Small Viper   |
+        Wild Shape - Wolf          |
     2nd-Level Druid Spells::table.spell_list
       ::head
         |
       ::row
         [Animal Messenger]          | Sends a Tiny animal to a specific place.
         [Animal Trance]             | Fascinates 2d6 HD of animals.
-        [Barkskin]                  | Grants +2 (or higher) enhancement to natural armor.
+        [Barkskin]                  | Turns skin into armor (+5).
         [Chill/Heat Metal]          | Cold or hot metal damages those who touch it.
         [Delay Poison]              | Stops poison from harming subject for 1 hour/level.
         [Fire Trap]                 | Opened object deals 1d4/level damage.
