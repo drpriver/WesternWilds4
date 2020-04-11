@@ -1,0 +1,15 @@
+  Curse Potion::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S
+        Casting Time:     | 1 minute
+        Targets:          | 1 touched potion
+        Duration:         | 1 day/level
+        Saving Throw:     | Fortitude negates
+    ::text
+      You curse a potion, turning it into a potion of poison.
+      If a creature drinks it, they must make a fortitude save or die from the poison.
+

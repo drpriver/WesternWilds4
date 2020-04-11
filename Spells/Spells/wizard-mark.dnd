@@ -1,0 +1,23 @@
+
+  Wizard Mark::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 0
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | Touch
+        Duration:         | Permanent
+    ::text
+      This spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible.
+
+      A wizard mark spell enables you to etch the rune upon any substance without harm to the material upon which it is placed.
+
+      If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable.
+
+      See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible wizard mark. A read magic spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster.
+
+      If a wizard mark is placed on a living being, normal wear gradually causes the effect to fade in about a month.
+
+

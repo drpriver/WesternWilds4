@@ -15,36 +15,36 @@
       ::head
         |
       ::row
-        [Animate Fire]             | Turn campfire or similar into small elemental.
-        [Animate Water]            | Turn water into small elemental.
-        [Animate Wood]             | Turn log or small tree into small elemental.
-        [Buoyancy]                 | Creature floats safely on surface despite heavy armor, lack of swimming skill, etc.
-        [Calm Animals]             | Calms (2d4 + level) HD of animals.
-        [Charm Animal]             | Makes one animal your friend.
-        [Control Flame]            | Fire in area burns twice as hot and more intensely, or the opposite.
-        [Cure Light Wounds]        | Cures 1d8 damage +1/level (max +5).
+        [Animate Fire]           | Turn campfire or similar into small elemental.
+        [Animate Water]          | Turn water into small elemental.
+        [Animate Wood]           | Turn log or small tree into small elemental.
+        [Buoyancy]               | Creature floats safely on surface despite heavy armor, lack of swimming skill, etc.
+        [Calm Animals]           | Calms (2d4 + level) HD of animals.
+        [Charm Animal]           | Makes one animal your friend.
+        [Control Flame]          | Fire in area burns twice as hot and more intensely, or the opposite.
+        [Cure Light Wounds]      | Cures 1d8 damage +1/level (max +5).
         Detect Animals or Plants | Detects kinds of animals or plants.
         Detect Snares and Pits   | Reveals natural or primitive traps.
-        [Entangle]                 | Plants entangle everyone in 20' square
-        [Faerie Fire]              | Outlines subjects with light, canceling blur, concealment, and the like.
-        [Goodberry]                | 8 + 1 berry/level (max +5) berries each cure 1 hp.
-        [Hide from Animals]        | Animals can’t perceive one subject/level.
-        [Jump]                     | Subject gets bonus on Jump checks.
-        [Longstrider]              | Your speed increases by 10 ft.
-        [Magic Fang]               | One natural weapon of subject creature gets +1 on attack and damage rolls.
-        [Obscuring Mist]           | Fog surrounds you.
-        [Pass without Trace]       | One subject/level leaves no tracks.
-        [Produce Flame]            | 1d6 damage +1/level, touch or thrown.
-        [Shillelagh]               | Cudgel or quarterstaff becomes +1 weapon and deals damage as if two sizes larger.
-        [Speak with Animals]       | You can communicate with animals.
-        [Wild Recovery]            | Heal self for 1d8+level (max +5) as a swift action while wild shaped
-        Wild Shape - Dire Rat      |
-        Wild Shape - Eagle         |
-        Wild Shape - Monkey        |
-        Wild Shape - Octopus       |
-        Wild Shape - Owl           |
-        Wild Shape - Porpoise      |
-        Wild Shape - Small Viper   |
+        [Entangle]               | Plants entangle everyone in 20' square
+        [Faerie Fire]            | Outlines subjects with light, canceling blur, concealment, and the like.
+        [Goodberry]              | 8 + 1 berry/level (max +5) berries each cure 1 hp.
+        [Hide from Animals]      | Animals can’t perceive one subject/level.
+        [Jump]                   | Subject gets bonus on Jump checks.
+        [Longstrider]            | Your speed increases by 10 ft.
+        [Magic Fang]             | One natural weapon of subject creature gets +1 on attack and damage rolls.
+        [Obscuring Mist]         | Fog surrounds you.
+        [Pass without Trace]     | One subject/level leaves no tracks.
+        [Produce Flame]          | 1d6 damage +1/level, touch or thrown.
+        [Shillelagh]             | Cudgel or quarterstaff becomes +1 weapon and deals damage as if two sizes larger.
+        [Speak with Animals]     | You can communicate with animals.
+        [Wild Recovery]          | Heal self for 1d8+level (max +5) as a swift action while wild shaped
+        Wild Shape - Dire Rat    |
+        Wild Shape - Eagle       |
+        Wild Shape - Monkey      |
+        Wild Shape - Octopus     |
+        Wild Shape - Owl         |
+        Wild Shape - Porpoise    |
+        Wild Shape - Small Viper |
         Wild Shape - Wolf          |
     2nd-Level Druid Spells::table.spell_list
       ::head
@@ -77,31 +77,30 @@
       ::head
         |
       ::row
-        Call Lightning            | Calls down lightning bolts (3d6 per bolt) from sky.
-        Diminish Plants           | Reduces size or blights growth of normal plants.
-        Dominate Animal           | Subject animal obeys silent mental commands.
-        Meld into Stone           | You and your gear merge with stone.
-        Neutralize Poison         | Immunizes subject against poison, detoxifies venom in or on subject.
-        Plant Growth              | Grows vegetation, improves crops.
-        Poison                    | Touch deals 1d10 Con damage, repeats in 1 min.
-        Resist Energy 10' radius | As resist energy, but 10-ft. radius.
-        Quench                    | Extinguishes nonmagical fires or one magic item.
-        Remove Disease            | Cures all diseases affecting subject.
-        Snare                     | Creates a magic booby trap.
-        Speak with Plants         | You can talk to normal plants and plant creatures.
-        Spike Growth              | Creatures in area take 1d4 damage, may be slowed.
-        Stone Shape               | Sculpts stone into any shape.
-        Water Breathing           | Subjects can breathe underwater.
-        Wind Wall                 | Deflects arrows, smaller creatures, and gases.
-        Wild Shape - Hippogriff   |
-        Wild Shape - Ape          |
-        Wild Shape - Dire weasel  |
-        Wild Shape - Dire wolf    |
-        Wild Shape - Giant Eagle  |
-        Wild Shape - Lion         |
-        Wild Shape - Giant Owl    |
-        Wild Shape - Large Shark  |
-        Wild Shape - Large Viper  |
+        Call Lightning           | Calls down lightning bolts (3d6 per bolt) from sky.
+        Diminish Plants          | Reduces size or blights growth of normal plants.
+        Dominate Animal          | Subject animal obeys silent mental commands.
+        Meld into Stone          | You and your gear merge with stone.
+        [Neutralize Poison]      | Removes poisons
+        Plant Growth             | Grows vegetation, improves crops.
+        Poison                   | Touch deals 1d10 Con damage, repeats in 1 min.
+        Quench                   | Extinguishes nonmagical fires or one magic item.
+        Remove Disease           | Cures all diseases affecting subject.
+        Snare                    | Creates a magic booby trap.
+        Speak with Plants        | You can talk to normal plants and plant creatures.
+        Spike Growth             | Creatures in area take 1d4 damage, may be slowed.
+        Stone Shape              | Sculpts stone into any shape.
+        [Water Breathing]        | Subjects can breathe underwater.
+        [Wind Wall]              | Deflects arrows, smaller creatures, and gases.
+        Wild Shape - Hippogriff  |
+        Wild Shape - Ape         |
+        Wild Shape - Dire weasel |
+        Wild Shape - Dire wolf   |
+        Wild Shape - Giant Eagle |
+        Wild Shape - Lion        |
+        Wild Shape - Giant Owl   |
+        Wild Shape - Large Shark |
+        Wild Shape - Large Viper |
     4th-Level Druid Spells::table.spell_list
       ::head
         |
@@ -117,6 +116,7 @@
         Freedom of Movement          | Subject moves normally despite impediments.
         Giant Vermin                 | Turns centipedes, scorpions, or spiders into giant vermin.
         Ice Storm                    | Hail deals 5d6 damage in cylinder 40 ft. across.
+        [Resist Energy 10' radius]   | As resist energy, but 10-ft. radius.
         Repel Vermin                 | Insects, spiders, and other vermin stay 10 ft. away.
         Spark of Life                | Undead creature must save or die.
         Spike Stones                 | Creatures in area take 1d8 damage, may be slowed.

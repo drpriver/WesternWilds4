@@ -9,7 +9,7 @@
         Targets:          | 1 touched creature
         Duration:         | 1 hour / level
     ::text
-      The warded creature gains resistance to ranged weapons. The subject gains damage reduction 10/magic against ranged weapons. 
+      The warded creature gains resistance to ranged weapons. The subject gains damage reduction 10/magic against ranged weapons.
 
       Any ranged attack that you reduce to 0 damage instead flies back to the attacker, using the same attack roll.
 

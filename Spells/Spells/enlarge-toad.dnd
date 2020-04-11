@@ -1,0 +1,26 @@
+
+  Enlarge Toad::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S, M (the toad)
+        Casting Time:     | 1 round
+        Range:            | Touch
+        Targets:          | 1 toad
+        Duration:         | 1 min/level
+    ::text
+      The caster enlarges a toad in their hand to become aproximately as large as a person. The toad enters the battle and can act immediately. At the caster's option she may hurl the toad as a grenade-like attack before the magic fully takes effect to a space within 30'.
+
+      If the toad takes any damage, it instead turns back into a normal toad.
+
+      The toad has 10 AC and a +2 bonus to saves.
+
+      The toad will try to grapple an enemy with their tongue each turn.
+
+      It has a grapple bonus equal to the caster's level +4.
+
+      The tongue allows it to grapple from a range of 15' away, and, if the initial grapple check is successful, pulls the creature adjacent to the toad.
+
+      The toad's grapple damage is a mere 1 point of damage.

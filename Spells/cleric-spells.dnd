@@ -53,39 +53,39 @@
       ::head
         |
       ::row
-        [Bestow Curse]                             | -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.
-        [Blindness/Deafness]                       | Makes subject blind or deaf.
-        Create Food and Water                    | Feeds three humans (or one horse)/level.
-        [Cure Serious Wounds]                      | Cures 3d8 damage +1/level (max +15).
-        [Daylight]                               | 60-ft. radius of bright light.
-        Deeper Darkness                          | Object sheds supernatural shadow in 60-ft. radius.
-        [Dispel Magic]                            | Cancels spells and magical effects.
-        Glyph of Warding                         | Inscription harms those who pass it.
-        [Inflict Serious Wounds]                   | Touch attack, 3d8 damage +1/level (max +15).
-        Meld into Stone                          | You and your gear merge with stone.
-        Prayer                                   | Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.
+        [Bestow Curse]                                   | -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.
+        [Blindness/Deafness]                             | Makes subject blind or deaf.
+        Create Food and Water                            | Feeds three humans (or one horse)/level.
+        [Cure Serious Wounds]                            | Cures 3d8 damage +1/level (max +15).
+        [Daylight]                                       | 60-ft. radius of bright light.
+        Deeper Darkness                                  | Object sheds supernatural shadow in 60-ft. radius.
+        [Dispel Magic]                                   | Cancels spells and magical effects.
+        Glyph of Warding                                 | Inscription harms those who pass it.
+        [Inflict Serious Wounds]                         | Touch attack, 3d8 damage +1/level (max +15).
+        Meld into Stone                                  | You and your gear merge with stone.
+        Prayer                                           | Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.
         [Protection from Chaos/Evil/Good/Law 10' Radius] | As protection spells, but 10-ft. radius and 10 min./level.
-        Remove Blindness/Deafness                | Cures normal or magical conditions.
-        Remove Curse                             | Frees object or person from curse.
-        Remove Disease                           | Cures all diseases affecting subject.
-        Resist Energy 10' radius                | As resist energy, but 10-ft. radius.
-        Searing Light                            | Ray deals 1d8/two levels damage, more against undead.
-        Stone Shape                              | Sculpts 10 cu. ft. of stone into any shape, like a door.
-        [Water Breathing]                        | Subject can breathe underwater.
-        Water Walk                               | Subject walks on water as if solid.
+        Remove Blindness/Deafness                        | Cures normal or magical conditions.
+        Remove Curse                                     | Frees object or person from curse.
+        Remove Disease                                   | Cures all diseases affecting subject.
+        Searing Light                                    | Ray deals 1d8/two levels damage, more against undead.
+        Stone Shape                                      | Sculpts 10 cu. ft. of stone into any shape, like a door.
+        [Water Breathing]                                | Subject can breathe underwater.
+        Water Walk                                       | Subject walks on water as if solid.
     4th-Level Cleric Spells::table.spell_list
       ::head
         |
       ::row
-        Aura of Life 10' radius         | Allies in your aura heal 3hp/round for 1rd/level.
+        Aura of Life 10' radius          | Allies in your aura heal 3hp/round for 1rd/level.
         Control Water                    | Lower or raise water in an area, holds ships in place.
-        [Cure Critical Wounds]             | Cures 4d8 damage +1/level (max +20).
+        [Cure Critical Wounds]           | Cures 4d8 damage +1/level (max +20).
         Dismissal                        | Forces a creature to return to native plane.
         Divination                       | Provides useful advice for specific proposed actions.
         Flamestrike                      | 10' square column of light and fire deals 1d6 damage per level, half fire, half sacred.
         Freedom of Movement              | Subject moves normally despite impediments.
-        [Inflict Critical Wounds]          | Touch attack, 4d8 damage +1/level (max +20).
-        Neutralize Poison                | Immunizes subject against poison, detoxifies venom in or on subject.
+        [Inflict Critical Wounds]        | Touch attack, 4d8 damage +1/level (max +20).
+        [Neutralize Poison]              | Removes poisons
+        [Resist Energy 10' radius]       | As resist energy, but 10-ft. radius.
         Protection from Death            | Grants immunity to death spells and negative energy effects.
         Poison                           | Touch deals 1d10 Con damage, repeats in 1 min.
         Restoration                      | Restores level and ability score drains.

@@ -1,0 +1,12 @@
+  Bone Bomb::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S, M (bones to make the bombs)
+        Casting Time:     | 1 standard action
+        Duration:         | 10 min/level
+    ::text
+      You create 3 bombs out of bone. The bombs can be hurled as a grenade-like weapon or set to trigger when a creature is adjacent to them. In either case, they deal 3d4 piercing damage and allow a reflex save for half damage. A direct hit by a hurled bomb allows no such save.
+

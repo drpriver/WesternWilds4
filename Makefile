@@ -40,6 +40,7 @@ THESPELLS=acid-arrow.dnd\
           acid-splash.dnd\
           aid.dnd\
           air-walk.dnd\
+          alarm.dnd\
           animal-messenger.dnd\
           animal-trance.dnd\
           animate-fire.dnd\
@@ -49,6 +50,7 @@ THESPELLS=acid-arrow.dnd\
           animate-water.dnd\
           animate-wood.dnd\
           animate-zombies.dnd\
+          arcane-sight.dnd\
           augury.dnd\
           aura-of-life-10-radius.dnd\
           baleful-transposition.dnd\
@@ -61,6 +63,7 @@ THESPELLS=acid-arrow.dnd\
           blindness-deafness.dnd\
           blink.dnd\
           blur.dnd\
+          bone-bomb.dnd\
           bulls-strength.dnd\
           buoyancy.dnd\
           burning-hands.dnd\
@@ -76,7 +79,9 @@ THESPELLS=acid-arrow.dnd\
           chill-heat-metal.dnd\
           color-spray.dnd\
           combust.dnd\
+          command-undead.dnd\
           command.dnd\
+          comprehend-languages.dnd\
           cone-of-fire.dnd\
           confusion.dnd\
           continual-flame.dnd\
@@ -92,6 +97,7 @@ THESPELLS=acid-arrow.dnd\
           cure-moderate-wounds.dnd\
           cure-serious-wounds.dnd\
           curse-of-impending-blades.dnd\
+          curse-potion.dnd\
           dancing-lights.dnd\
           darkness.dnd\
           daylight.dnd\
@@ -121,10 +127,13 @@ THESPELLS=acid-arrow.dnd\
           electric-loop.dnd\
           electroic-jolt.dnd\
           elemental-orb.dnd\
+          enhance-potion.dnd\
           enlarge-person.dnd\
+          enlarge-toad.dnd\
           entangle.dnd\
           entropic-shield.dnd\
           expeditious-retreat.dnd\
+          explosive-runes.dnd\
           faerie-fire.dnd\
           false-life.dnd\
           fear.dnd\
@@ -144,6 +153,7 @@ THESPELLS=acid-arrow.dnd\
           foxs-cunning.dnd\
           freedom-of-movement.dnd\
           gaseous-form.dnd\
+          gentle-repose.dnd\
           ghost-harp.dnd\
           ghost-sound.dnd\
           ghoul-touch.dnd\
@@ -156,6 +166,7 @@ THESPELLS=acid-arrow.dnd\
           greater-invisibility.dnd\
           guiding-light.dnd\
           gust-of-wind.dnd\
+          halt-undead.dnd\
           haste.dnd\
           heroism.dnd\
           hide-from-animals.dnd\
@@ -163,10 +174,12 @@ THESPELLS=acid-arrow.dnd\
           hideous-laughter.dnd\
           hold-animal.dnd\
           hold-person.dnd\
+          hold-portal.dnd\
           hypnotic-pattern.dnd\
           hypnotism.dnd\
           ice-storm.dnd\
           identify.dnd\
+          illusory-script.dnd\
           illusory-wall.dnd\
           inflict-critical-wounds.dnd\
           inflict-light-wounds.dnd\
@@ -183,12 +196,14 @@ THESPELLS=acid-arrow.dnd\
           lesser-geas.dnd\
           lesser-globe-of-invulnerability.dnd\
           lesser-restoration.dnd\
+          levitate.dnd\
           light.dnd\
           lightning-bolt.dnd\
           longstrider.dnd\
           lullaby.dnd\
           mage-armor.dnd\
           mage-hand.dnd\
+          magic-aura.dnd\
           magic-fang.dnd\
           magic-missile.dnd\
           magic-mouth.dnd\
@@ -199,12 +214,16 @@ THESPELLS=acid-arrow.dnd\
           meld-into-stone.dnd\
           message.dnd\
           mirror-image.dnd\
+          misdirection.dnd\
           neutralize-poison.dnd\
+          nondetection.dnd\
+          obscure-object.dnd\
           obscuring-mist.dnd\
           open-close.dnd\
           owls-wisdom.dnd\
           pass-without-trace.dnd\
           phantasmal-killer.dnd\
+          phantom-trap.dnd\
           poison.dnd\
           prayer.dnd\
           prestidigitation.dnd\
@@ -217,6 +236,8 @@ THESPELLS=acid-arrow.dnd\
           purify-food-and-drink.dnd\
           pyrotechnics.dnd\
           ray-of-frost.dnd\
+          read-magic.dnd\
+          reduce-person.dnd\
           reload.dnd\
           remove-blindness-deafness.dnd\
           remove-curse.dnd\
@@ -233,7 +254,10 @@ THESPELLS=acid-arrow.dnd\
           scorching-ray.dnd\
           sculpt-sound.dnd\
           searing-light.dnd\
+          secret-page.dnd\
           see-invisibility.dnd\
+          sepia-snake-sigil.dnd\
+          shadow-warrior.dnd\
           shatter.dnd\
           shield.dnd\
           shillelagh.dnd\
@@ -258,6 +282,7 @@ THESPELLS=acid-arrow.dnd\
           stoneskin.dnd\
           suggestion.dnd\
           summon-instrument.dnd\
+          toad-bomb.dnd\
           tongues.dnd\
           tree-shape.dnd\
           unseen-servant.dnd\
@@ -274,6 +299,7 @@ THESPELLS=acid-arrow.dnd\
           wind-gale.dnd\
           wind-wall.dnd\
           wizard-lock.dnd\
+          wizard-mark.dnd\
           wood-shape.dnd\
 
 SPELLS=spell-lists.dnd\

@@ -62,6 +62,7 @@
   "feat":"#feats",
   "deaf":"#deafened",
   "flat-footed":"#flatfooted",
-  "cower":"#cowering"
+  "cower":"#cowering",
+  "paralyze":"#paralyzed"
 }
 

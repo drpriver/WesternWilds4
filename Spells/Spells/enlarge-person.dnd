@@ -1,4 +1,3 @@
-
   Enlarge Person::section.spell
     ::table.spell_info
       ::head
@@ -29,5 +28,3 @@
       Magical properties of enlarged items are not increased by this spell.
 
       Multiple magical effects that increase size do not stack,.
-
-

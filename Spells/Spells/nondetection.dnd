@@ -1,0 +1,17 @@
+  Nondetection::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 3
+        Components:       | V, S, M (diamond dust worth 50gp)
+        Casting Time:     | 1 standard action
+        Duration:         | 1 hour/level
+    ::text
+      The warded creature or object becomes difficult to detect by divination spells.
+
+      Nondetection also prevents location by such magic items as crystal balls.
+
+      If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a will save.
+
+      If cast on a creature, nondetection wards the creature’s gear as well as the creature itself.

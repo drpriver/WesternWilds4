@@ -1,0 +1,12 @@
+  Enhance Potion::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Targets:          | 1 potion
+        Duration:         | 10 min/level
+    ::text
+      The effect of the potion or alchemical item is doubled. If there is no clear thing to double, the duration is instead doubled. The DM will rule exactly what happens, but for example a potion of healing will heal twice as much.

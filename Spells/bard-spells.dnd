@@ -80,14 +80,14 @@
         [Daylight]              | 60-ft. radius of bright light.
         [Deep Slumber]          | Puts 10 HD of creatures to sleep.
         [Dispel Magic]          | Cancels magical spells and effects.
-        Displacement            | Attacks miss subject 50%.
+        [Displacement]            | Attacks miss subject 50%.
         Fear                    | Subjects within cone flee for 1 round/level.
-        Gaseous Form            | Subject becomes insubstantial and can fly slowly.
+        [Gaseous Form]            | Subject becomes insubstantial and can fly slowly.
         Good Hope               | Subjects gain +2 on attack rolls, damage rolls, saves, and checks.
-        Haste                   | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
-        Invisibility 10' radius | Makes everyone within 10 ft. invisible.
+        [Haste]                   | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
+        [Invisibility 10' radius] | Makes everyone within 10 ft. invisible.
         Lesser Geas             | Commands subject of 7 HD or less.
-        Major Image             | As silent image, plus sound, smell and thermal effects.
+        [Major Image]             | As silent image, plus sound, smell and thermal effects.
         Remove Curse            | Frees object or person from curse.
         Sculpt Sound            | Creates new sounds or changes existing ones.
         [See Invisibility]      | Reveals invisible creatures or objects.

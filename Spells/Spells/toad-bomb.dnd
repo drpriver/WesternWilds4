@@ -1,0 +1,21 @@
+  Toad Bomb::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S, M (a living toad)
+        Casting Time:     | 1 standard action
+        Targets:          | 1 toad touched
+        Duration:         | 10 min/level
+        Saving Throw:     | Reflex half
+    ::text
+      The living toad becomes a bomb. After casting this spell you drop the toad onto a space adjacent to you. The toad cannot be hurled as that would cause it to detonate.
+
+      The toad hops at a speed of 5' round as you direct it.
+
+      You can detonate the toad as a swift action. The toad also detonates if any creature touches it, it takes any damage or any creature enters its space.
+
+      When the toad detonates it deals 1d10 fire damage/level (max 3d10) in a 15x15 square centered on the toad. Creatures in the area can make a reflex save for half damage.
+
+      When the spell expires, the toad explodes.

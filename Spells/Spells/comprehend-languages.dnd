@@ -1,0 +1,21 @@
+  Comprehend Languages::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S, M
+        Casting Time:     | 1 round
+        Duration:         | 1 min/level
+    ::text
+      When this spell is cast, the wizard is able to understand the spoken words of a creature or read an otherwise incomprehensible written message (such as writing in another language).
+
+      In either case, the wizard must touch the creature or the writing.
+
+      Note that the ability to read does not necessarily impart understanding of the material, nor does the spell enable the caster to speak or write an unknown language.
+
+      Written material can be read at the rate of one page or equivalent per round.
+
+      Magical writing cannot be read, other than to know it is magical, but the spell is often useful when deciphering treasure maps.
+
+      This spell can be foiled by certain warding magic (the level secret page and illusionary script spells), and it does not reveal messages concealed in otherwise normal text.

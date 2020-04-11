@@ -1,0 +1,40 @@
+  Shadow Warrior::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S
+        Casting Time:     | 1 round
+        Range:            | Medium (100' + 10'/level)
+        Duration:         | 10 min/level
+    ::text
+      You conjure a shadowy creature from the shadow realm, a realm that both exists and does not exist.
+      You can change its appearance, but it must be generally that of a humanoid fighter-type.
+
+      This creature fights like a warrior, but can only make normal attacks (no trip attacks, called shots, etc.).
+      It cannot grapple creatures or be grappled. It must yield to overruns, but can defend against bull rush.
+
+      The shadow warrior has whatever nonmagical arms and armor you want from the armor and weapons tables.
+
+      The shadow warrior automatically makes saving throws.
+
+      The shadow warrior cannot be healed.
+
+      The Shadow Warrior obeys your commands. You can give it a new command as a move action. It will otherwise continue its last course of action (attacking a single target for example).
+
+      Due to it not being real, it does not detonate traps and cannot pick up things.
+
+      It can only hurt living things that believe that it is real. Thus it is ineffective against slimes, constructs, etc. Additionally, the victim of its attacks must believe that they would be hurt by the attack, which generally means only melee attacks will work.
+
+      A creature with true sight can ignore the shadow warrior, but this does not end the spell.
+
+    The Shadow Warrior::table.stat_block
+      ::head
+        |
+      ::row
+        Speed:| 30' (modified by armor)
+        AC: | 10 + armor bonus + 1
+        HP: | 10 + 5hp/caster level
+        Attack:| +1/caster level
+        Damage:| As weapon, +1/caster level

@@ -1,4 +1,3 @@
-
   Protection from Chaos/Evil/Good/Law 10' Radius::section.spell
     ::table.spell_info
       ::head
@@ -12,7 +11,7 @@
         Duration:         | 10 min/level
     ::text
       This spell grants the touched creature and all creatures within the area the benefits of protection from evil (or good, chaos, etc., chosen at casting). The effect moves with the creature targeted by this spell. Creatures who leave the area lose the benefits, but regain it if they re-enter the area.
-      
+
       Protection from evil is repeated below.
 
       This spell wards a creature from attacks by evil creatures and from mental control.

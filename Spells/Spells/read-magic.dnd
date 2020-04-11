@@ -1,0 +1,13 @@
+  Read Magic::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 0
+        Components:       | V, S
+        Casting Time:     | 1 minute
+        Duration:         | 1 day
+    ::text
+      This spell allows you to understand magic texts. This allows you to understand the spells of other wizards from their spellbooks, to understand what is on a scroll, and other magical writings. Note to understand what these are you have to read them, which may trigger a curse or explosion.
+
+      Once you have read and understood the magical inscription, you do not need the benefit of this spell to do so again for that magical inscription.

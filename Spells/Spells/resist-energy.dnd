@@ -3,7 +3,7 @@
       ::head
         |
       ::row
-        Level:            | [Cleric] 2, [Druid] 2, [Wizard] 2
+        Level:            | [Cleric] 2, [Druid] 2, [Sorcerer] 2, [Wizard] 2
         Components:       | V, S
         Casting Time:     | 1 standard action
         Targets:          | 1 touched creature
@@ -16,6 +16,3 @@
       The spell protects the recipient’s equipment as well.
 
       Resist energy absorbs only damage. The subject could still suffer unfortunate side effects.
-
-
-

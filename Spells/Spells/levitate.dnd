@@ -1,0 +1,20 @@
+  Levitate::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 2
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Targets:          | 1 willing creature touched
+        Duration:         | 1 min/level
+    ::text
+      Levitate allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature.
+
+      You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action.
+
+      You cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half its base land speed).
+
+      Due to general instability, attacks suffer a -2 penalty while levitating and spells are 20% to be spoiled.
+
+      When the spell ends, the target plummets to the ground.

@@ -1,0 +1,21 @@
+  Resist Energy 10' Radius::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 4, [Druid] 4, [Sorcerer] 4, [Wizard] 4
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Targets:          | 1 creature touched
+        Area:             | 10' radius emanation from touched creature
+        Duration:         | 10 min/level
+    ::text
+      This spell works like resist energy, but those that stay within 10' of the targeted creature benefits from the protection.
+
+      This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic.
+
+      The subject gains energy resistance 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature’s hit points.
+
+      The spell protects the recipient’s equipment as well.
+
+      Resist energy absorbs only damage. The subject could still suffer unfortunate side effects.

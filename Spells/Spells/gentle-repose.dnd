@@ -1,0 +1,12 @@
+  Gentle Repose::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 3
+        Components:       | V, S
+        Casting Time:     | 1 minute
+        Targets:          | 1 corpse
+        Duration:         | 1 day/level
+    ::text
+      You preserve the remains of a dead creature so that they do not decay.

@@ -1,0 +1,12 @@
+
+  Neutralize Poison::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 4, [Druid] 3
+        Components:       | V, S, M (bit of charcoal)
+        Casting Time:     | 1 standard action
+        Targets:          | Creature touched
+    ::text
+      This spell removes all poisons from the creature.

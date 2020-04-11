@@ -1,0 +1,17 @@
+  Phantom Trap::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 2
+        Components:       | V, S, M (A piece of iron pyrite touched to the object to be trapped while the object is sprinkled with a special dust requiring 50 gp to prepare.)
+        Casting Time:     | 1 minute
+        Targets:          | 1 door, chest, etc.
+        Duration:         | Permanent
+    ::text
+      You make something look like it has a trap. Thieves will automatically find this trap and will be convinced it is deadly.
+
+      Any character able to detect traps, or who uses any spell or device enabling trap detection, is 100% certain a real trap exists. Of course, the effect is illusory and nothing happens if the trap is “sprung”; its primary purpose is to frighten away thieves or make them waste precious time.
+
+      Attempts to disarm the "trap" will fail, regardless of the number rolled.
+

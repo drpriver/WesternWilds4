@@ -1,0 +1,18 @@
+  Alarm::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 1
+        Components:       | V, S
+        Casting Time:     | 1 minute
+        Area:             | 20' radius emanation
+        Duration:         | 2 hours/level
+    ::text
+      Alarm sounds a mental or audible alarm each time a creature larger than a rat enters the warded area or touches it. A creature that speaks the password (determined by you at the time of casting) does not set off the alarm.
+
+      An alarm produces the sound of a hand bell, and anyone within 60 feet of the warded area can hear it clearly. Reduce the distance by 10 feet for each interposing closed door and by 20 feet for each substantial interposing wall.
+
+      In quiet conditions, the ringing can be heard faintly as far as 180 feet away. The sound lasts for 1 round.
+
+      You can intentionally make the alarm spell smaller, in order for it to be more specific. It must be at least 5' in diameter.

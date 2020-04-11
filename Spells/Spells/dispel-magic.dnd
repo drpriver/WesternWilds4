@@ -12,7 +12,7 @@
     ::text
       There are 3 forms of dispel magic. Some spells can't be dispelled - in particular curses. Spell description should describe if it needs a different spell to be dispelled.
     Area Dispel::text
-      In this form, dispel magic affects all creatures and objects in a 30' cube. All spells of 3rd level or lower in the cube immediately end. 
+      In this form, dispel magic affects all creatures and objects in a 30' cube. All spells of 3rd level or lower in the cube immediately end.
 
       Animated creatures and summoned creatures can make a will saving throw to ignore this effect.
 
