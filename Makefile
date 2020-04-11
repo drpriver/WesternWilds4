@@ -453,7 +453,7 @@ ALL=basics.dnd\
     $(addprefix Spells/,$(SPELLS))\
     NavalCombat/naval_combat.dnd
 
-index.html: $(ALL) dd.css dd.js links.json Makefile
+index.html: strip $(ALL) dd.css dd.js links.json Makefile
 	rm -rf build
 	mkdir build
 	cat $(ALL) > build/rules.dnd

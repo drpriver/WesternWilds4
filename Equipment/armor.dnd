@@ -66,8 +66,3 @@
       Heavy armor reduces your run speed from x4 to x3.
     Slots::text
       The slots column indicates the effective bulk of worn armor. Unworn armor encumbers by 5 more slots than this number.
-
-
-
-
-

@@ -27,4 +27,3 @@ Ships::chapter
     No. of sailors is the number of sailors needed to man the ship. No. of soldiers is how many additional people can be aboard the ship (often soldiers for fighting purpose). Alternatively, that space can be used for cargo. Can be for one, the other, or 50/50.
 
     A ships hit points is proportional to its tonnage.
-

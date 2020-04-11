@@ -24,6 +24,9 @@ def main():
                 if not line and not lines:
                     continue
                 lines.append(line)
+            if lines:
+                while not lines[-1]:
+                    lines.pop()
         with open(f, 'w') as fp:
             for line in lines:
                 print(line, file=fp)
