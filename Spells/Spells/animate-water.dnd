@@ -11,7 +11,7 @@
     ::text
       You animate a cube of water.
 
-      The animated water has the below statistics and attacks as you direct. 
+      The animated water has the below statistics and attacks as you direct.
       It cannot move beyond the range of its source water (25 ft. + 5 ft./2 levels).
     Animated Water::table.stat_block
       ::head

@@ -1,6 +1,6 @@
 Combat::chapter
   Initiative::section.combat_rules
-    The party rolls initiative as a single unit, using the median of their initiative bonus. 
+    The party rolls initiative as a single unit, using the median of their initiative bonus.
     A character's initiative bonus is their dexterity bonus.
   Grappling::section.special_attack
     Size and Grappling::text
@@ -39,7 +39,7 @@ Combat::chapter
     Attacking while in the grapple::text
       You can attack with light weapons, unarmed attacks, natural weapons or armor spikes.
 
-      All of these suffer a -4 penalty to hit your opponent. Monks and natural weapons suffer 
+      All of these suffer a -4 penalty to hit your opponent. Monks and natural weapons suffer
       no penalty.
 
     Deal Grapple damage::text
@@ -66,16 +66,16 @@ Combat::chapter
 
     Constrict::text
       Some monsters (particulary snakes) have a constrict attack. In a grapple they automatically
-      deal this damage on their turn unless they are pinned. They don't need to roll for this 
+      deal this damage on their turn unless they are pinned. They don't need to roll for this
       and can also use the deal grapple damage action to deal the damage again.
-    
+
     Pin Your Opponent::text
       You can pin your opponent by beating them at a grapple check twice in a row (this action + next
       round's, or if you have grapple actions then all in one turn). If you don't attempt to complete
       the pin next round, your success is lost.
 
     Move the Grapple::text
-      You can move half your speed (bringing all others engaged in the grapple with you) by winning 
+      You can move half your speed (bringing all others engaged in the grapple with you) by winning
       an opposed grapple check.
 
     Spending Grapple Points::text
@@ -85,7 +85,7 @@ Combat::chapter
       If you're pinned, you get one chance to escape the pin and going back to just grappling. This is
       the only action you can take.
 
-      If you fail you are pinned for as long as the opponent chooses to hold you (he has gotten a 
+      If you fail you are pinned for as long as the opponent chooses to hold you (he has gotten a
       full lock on you).
 
       When he has you in a lock, he can do nothing but maintain the lock, or to squeeze you to sleep.
@@ -93,9 +93,9 @@ Combat::chapter
 
   Grab::section.special_attack
     ::text
-      Grab is a special attack that monsters can have (Think a t-rex having you in its teeth). 
+      Grab is a special attack that monsters can have (Think a t-rex having you in its teeth).
 
-      It works somewhat like grappling but differs in a few ways. You will make grapple 
+      It works somewhat like grappling but differs in a few ways. You will make grapple
       checks/escape artists checks the same way you do in a grapple.
 
       Unlike grappling, the monster usually still threatens other creatures, unless it has you grabbed
@@ -114,9 +114,9 @@ Combat::chapter
       Some monsters might try to swallow you when you are in this position - in that case, they need to
       beat you on a grapple check or you get swallowed.
 
-      Most monsters are allowed to fling you as a free action. 
+      Most monsters are allowed to fling you as a free action.
       If they are big, they can fling you 10' per size category above medium and you suffer 1d6/10' +str
-      damage. 
+      damage.
       This damage is doubled if you hit a wall.
 
       Spellcasting suffers the same constraints are per grapples - only if it has no somatic components
@@ -124,7 +124,7 @@ Combat::chapter
 
   Climb Monster::section.special_attack
     ::text
-      Some monsters are so big you can't hurt them by stabbing them in their foot. 
+      Some monsters are so big you can't hurt them by stabbing them in their foot.
 
       You will often need to climb them to get at their eyes or weakspots or whatever and they can try to
       throw you off.
@@ -296,19 +296,19 @@ Combat::chapter
     A creature with any degree of cover is not threatened.
 
   Concealment::text.combat_rules
-    There are two grades of concealment: partial and total. 
+    There are two grades of concealment: partial and total.
 
-    Partial causes a 20% miss chance and total is 50%. 
+    Partial causes a 20% miss chance and total is 50%.
     Additionally, with total concealment you literally can't see them, so you need to declare what square
-    you are attacking and the DM will secretly determine where the enemy actually is. 
-    This is much like the game of battleship. 
+    you are attacking and the DM will secretly determine where the enemy actually is.
+    This is much like the game of battleship.
     If you miss due to rolling poorly or due to concealment, you don't know if a creature is there or not.
 
     If a creature attacks, casts a spell, etc. it reveals what space it is in. If it then moves, a move silently check opposed by the nearest character's listen check is rolled.
 
-    If you move into a space with a creature you can't see, they can let you pass through. 
-    If they don't you can't enter that space but you know where they are. 
-    If they are of an appopriate size they can temporarily share the space with you, but there is a 50% chance they are discovered. 
+    If you move into a space with a creature you can't see, they can let you pass through.
+    If they don't you can't enter that space but you know where they are.
+    If they are of an appopriate size they can temporarily share the space with you, but there is a 50% chance they are discovered.
     On their turn they must leave that space.
 
     If a creature has concealment against you, you do not threaten their square.

@@ -58,15 +58,15 @@ The Basics::chapter
 
         Competence Modifier::text
           A competence bonus (or penalty) affects a character's performance of a particular
-          task, as in the case of the bardic ability to [inspire competence]. 
+          task, as in the case of the bardic ability to [inspire competence].
 
         Deflection Bonus::text
           A deflection bonus affects [Armor Class] and is granted by a spell or magic effect
-          that makes attacks veer off harmlessly. 
+          that makes attacks veer off harmlessly.
 
         Dodge Bonus::text
           A dodge bonus improves [Armor Class] (and sometimes Reflex saves) resulting from
-          physical skill at avoiding blows and other ill effects. Dodge bonuses stack with 
+          physical skill at avoiding blows and other ill effects. Dodge bonuses stack with
           all other bonuses to AC, even other dodge bonuses.
 
         Enhancement Bonus::text
@@ -74,7 +74,7 @@ The Basics::chapter
           of armor or natural armor, or the effectiveness of a weapon, or a general bonus to
           an ability score. Multiple enhancement bonuses on the same object (in the case of
           armor and weapons), creature (in the case of natural armor), or ability score do
-          not stack. Only the highest enhancement bonus applies. 
+          not stack. Only the highest enhancement bonus applies.
 
         Luck Modifier::text
           A luck modifier represents good (or bad) fortune. Multiple luck bonuses on the same
@@ -305,19 +305,19 @@ The Basics::chapter
   Hit Points::section
     ::text
       Hit points represents a character's ability to withstand damage before they die.
-      
+
       A character with positive hit points suffers no penalties and can act normally.
 
       A character with 0 hit points is staggered and cannot take strenuous actions without falling unconscious. In combat, they can either take move actions or take 1 damage to take a standard action.
 
       A character at negative hit points is unconscious and dying. There is a 10% chance they stabilize each round, otherwise they lose 1 hp. A stabilized character is still unconscious but doesn't lose hit points each round.
-      
+
       A character who reaches -10 or lower is dead.
   Saving Throws::section
     A saving throw is a d20 roll + modifiers to avoid or partially avoid a harmful effect or circumstance.
 
     There are three saving throw categories.
-    
+
     Saves::table
       ::head
         Kind      | Ability Score | Example

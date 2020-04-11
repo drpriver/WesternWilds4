@@ -12,8 +12,8 @@
         Duration:         | 10 min/level (Person) or Permanent (Object)
         Saving Throw:     | Will Negates
     ::text
-      When cast on a person (man shaped-creature of man-size or smaller), 
-      the curse can have one of the following effects (roll percentile dice): 
+      When cast on a person (man shaped-creature of man-size or smaller),
+      the curse can have one of the following effects (roll percentile dice):
     ::table
       ::head
         d100   | Curse
@@ -46,5 +46,5 @@
     ::text
       The effect is permanent on non-magical armor and lasts 10min/level on magical armor.
 
-      Whenever a player casts a curse, they must devise one of similar power (DM may tweak it). 
+      Whenever a player casts a curse, they must devise one of similar power (DM may tweak it).
       It is then permanently added to the table. Beware! Evil clerics will be casting it!

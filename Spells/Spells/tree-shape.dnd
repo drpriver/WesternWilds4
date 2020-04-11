@@ -1,0 +1,20 @@
+  Tree Shape::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 2
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Duration:         | 1 hour + 10min/level (D)
+    ::text
+      By means of this spell, the caster is able to assume the form of a small living tree or shrub or that of a large dead tree trunk with only a few limbs.
+
+      Although the closest inspection cannot reveal that this plant is actually a person, and for all normal tests he is, in fact, a tree or shrub, the caster is able to observe all that goes on around him just as if he were in normal form.
+
+      The Armor Class and hit points of the plant are those of the caster.
+
+      The caster can remove the spell at any time, instantly changing from plant to his normal form and having full capability for any action normally possible (including spellcasting).
+
+      Note that all clothing and gear worn or carried change with the caster.
+

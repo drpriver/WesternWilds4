@@ -15,16 +15,16 @@
       Pyrotechnics turns a fire into either a burst of blinding fireworks or a thick cloud of choking smoke, depending on the version you choose.
 
     Fireworks::text
-      The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights. 
+      The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights.
 
       This effect causes creatures within 120 feet of the fire source to become [blinded] for 1d4+1 rounds (Fortitude negates). These creatures must have line of sight to the fire to be affected.
 
     Smoke Cloud::text
-      A writhing stream of smoke billows out from the source, forming a choking cloud. 
+      A writhing stream of smoke billows out from the source, forming a choking cloud.
 
-      The cloud spreads 20 feet in all directions and lasts for 1 round per caster level. 
+      The cloud spreads 20 feet in all directions and lasts for 1 round per caster level.
 
-      All sight, even darkvision, is ineffective in or through the cloud. 
+      All sight, even darkvision, is ineffective in or through the cloud.
 
       All within the cloud are [sickened] (Fortitude negates). These effects last for 1d4+1 rounds after the cloud dissipates or after the creature leaves the area of the cloud.
 

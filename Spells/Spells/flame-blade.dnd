@@ -1,0 +1,20 @@
+
+  Flame Blade::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 2
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Duration:         | 1 min/level
+    ::text
+      A 3-foot-long, blazing beam of red-hot fire springs forth from your hand.
+
+      You wield this bladelike beam as if it were a scimitar. Attacks with the flame blade are melee [touch attacks]. The blade deals 1d8 points of fire damage +1 point per caster level.
+
+      A flame blade can ignite combustible materials such as parchment, straw, dry sticks, and cloth.
+
+      The spell does not function underwater.
+
+

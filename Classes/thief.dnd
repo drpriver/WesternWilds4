@@ -35,7 +35,7 @@
     Skill Points at Each Additional Level::text
       10 + Int modifier
     Weapon and Armor Proficiency::text
-      Thieves are proficient with all simple weapons, plus the rapier, sap, and short sword. 
+      Thieves are proficient with all simple weapons, plus the rapier, sap, and short sword.
 
       Thieves are proficient with light armor, and with the buckler, but not with other shields.
 
@@ -48,7 +48,7 @@
     Sneak Attack::text
       If a thief can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.
 
-      The thief’s attack deals extra damage any time her target is flat-footed, or when the thief flanks her target, or other disadvantageous circumstances. Any condition that lowers the target's AC or grants attackers a bonus against him enables sneak attack. 
+      The thief’s attack deals extra damage any time her target is flat-footed, or when the thief flanks her target, or other disadvantageous circumstances. Any condition that lowers the target's AC or grants attackers a bonus against him enables sneak attack.
 
       This extra damage is 1d6 at 1st level, and it increases by 1d6 every two thief levels thereafter. Should the thief score a critical hit with a sneak attack, this extra damage is multiplied.
 
@@ -116,7 +116,7 @@
             Impersonate Class     | 6
             Impersonate Race      | 7
             Impersonate Alignment | 8
-            
+
       Find and Disarm Trap (Int)::section.skill_description
         ::text
           This skill is used to both find and disarm traps. The DC for both is determined by the trap itself.

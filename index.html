@@ -820,9 +820,9 @@
               <li><a href="#cause-fear">Cause Fear</a></li>
               <li><a href="#charm-animal">Charm Animal</a></li>
               <li><a href="#charm-person">Charm Person</a></li>
+              <li><a href="#chillheat-metal">Chill/Heat Metal</a></li>
               <li><a href="#color-spray">Color Spray</a></li>
               <li><a href="#command">Command</a></li>
-              <li><a href="#lesser-confusion">Lesser Confusion</a></li>
               <li><a href="#control-flame">Control Flame</a></li>
               <li><a href="#corrosive-grasp">Corrosive Grasp</a></li>
               <li><a href="#create-water">Create Water</a></li>
@@ -856,8 +856,12 @@
               <li><a href="#faerie-fire">Faerie Fire</a></li>
               <li><a href="#feather-fall">Feather Fall</a></li>
               <li><a href="#find-traps">Find Traps</a></li>
+              <li><a href="#fire-trap">Fire Trap</a></li>
+              <li><a href="#flame-blade">Flame Blade</a></li>
+              <li><a href="#flaming-sphere">Flaming Sphere</a></li>
               <li><a href="#flare">Flare</a></li>
               <li><a href="#floating-disk">Floating Disk</a></li>
+              <li><a href="#fog-cloud">Fog Cloud</a></li>
               <li><a href="#ghost-harp">Ghost Harp</a></li>
               <li><a href="#ghost-sound">Ghost Sound</a></li>
               <li><a href="#glitterdust">Glitterdust</a></li>
@@ -868,6 +872,7 @@
               <li><a href="#hide-from-animals">Hide from Animals</a></li>
               <li><a href="#hide-from-undead">Hide from Undead</a></li>
               <li><a href="#hideous-laughter">Hideous Laughter</a></li>
+              <li><a href="#hold-animal">Hold Animal</a></li>
               <li><a href="#hold-person">Hold Person</a></li>
               <li><a href="#hypnotic-pattern">Hypnotic Pattern</a></li>
               <li><a href="#hypnotism">Hypnotism</a></li>
@@ -880,6 +885,7 @@
               <li><a href="#invisibility">Invisibility</a></li>
               <li><a href="#jump1">Jump</a></li>
               <li><a href="#know-direction">Know Direction</a></li>
+              <li><a href="#lesser-confusion">Lesser Confusion</a></li>
               <li><a href="#lesser-elemental-orb">Lesser Elemental Orb</a></li>
               <li><a href="#lesser-restoration">Lesser Restoration</a></li>
               <li><a href="#light">Light</a></li>
@@ -917,10 +923,12 @@
               <li><a href="#sleep">Sleep</a></li>
               <li><a href="#sonic-snap">Sonic Snap</a></li>
               <li><a href="#sound-burst">Sound Burst</a></li>
+              <li><a href="#speak-with-animals">Speak With Animals</a></li>
               <li><a href="#spiritual-weapon">Spiritual weapon</a></li>
               <li><a href="#stick">Stick</a></li>
               <li><a href="#suggestion1">Suggestion</a></li>
               <li><a href="#summon-instrument">Summon Instrument</a></li>
+              <li><a href="#tree-shape">Tree Shape</a></li>
               <li><a href="#tongues">Tongues</a></li>
               <li><a href="#unseen-servant">Unseen Servant</a></li>
               <li><a href="#ventriloquism">Ventriloquism</a></li>
@@ -928,6 +936,7 @@
               <li><a href="#wild-recovery">Wild Recovery</a></li>
               <li><a href="#wild-shape---black-bear">Wild Shape - Black Bear</a></li>
               <li><a href="#wind-wall">Wind Wall</a></li>
+              <li><a href="#wood-shape">Wood Shape</a></li>
             </ul></li>
             <li><a href="#naval-combat">Naval Combat</a><ul>
               <li><a href="#turn-sequence">Turn Sequence</a></li>
@@ -3840,12 +3849,12 @@
                       <tr class="odd">
                         <td>3rd         </td>
                         <td> TODO </td>
-                        <td> </td>
+                        <td></td>
                       </tr>
                       <tr class="even">
                         <td>4th         </td>
                         <td> TODO </td>
-                        <td> </td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -3931,7 +3940,7 @@
                       <tr class="even">
                         <td>4th</td>
                         <td> TODO </td>
-                        <td> </td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -19872,7 +19881,7 @@
           <h2 id="combat">Combat</h2>
           <section class="combat_rules">
             <h3 id="initiative">Initiative</h3>
-            The party rolls initiative as a single unit, using the median of their initiative bonus. 
+            The party rolls initiative as a single unit, using the median of their initiative bonus.
             A character's initiative bonus is their dexterity bonus.
           </section>
           <section class="special_attack">
@@ -20680,9 +20689,9 @@
             <div>
               
             </div>
-            A paralyzed character is frozen in place and unable to move or act. 
-            A paralyzed character is helpless and cannot act. 
-            A creature can move through a space occupied by a paralyzed creature — ally or not. 
+            A paralyzed character is frozen in place and unable to move or act.
+            A paralyzed character is helpless and cannot act.
+            A creature can move through a space occupied by a paralyzed creature — ally or not.
             Each square occupied by a paralyzed creature, however, counts as 2 squares.
           </section>
           <section class="condition">
@@ -21837,75 +21846,67 @@
                 </thead>
                 <tbody>
                   <tr class="odd">
-                    <td><a href="#animal-messenger">Animal Messenger</a>          </td>
+                    <td><a href="#animal-messenger">Animal Messenger</a>        </td>
                     <td> Sends a Tiny animal to a specific place.</td>
                   </tr>
                   <tr class="even">
-                    <td><a href="#animal-trance">Animal Trance</a>             </td>
+                    <td><a href="#animal-trance">Animal Trance</a>           </td>
                     <td> Fascinates 2d6 HD of animals.</td>
                   </tr>
                   <tr class="odd">
-                    <td><a href="#barkskin">Barkskin</a>                  </td>
+                    <td><a href="#barkskin">Barkskin</a>                </td>
                     <td> Turns skin into armor (+5).</td>
                   </tr>
                   <tr class="even">
-                    <td><a href="#chillheat-metal">Chill/Heat Metal</a>          </td>
+                    <td><a href="#chillheat-metal">Chill/Heat Metal</a>        </td>
                     <td> Cold or hot metal damages those who touch it.</td>
                   </tr>
                   <tr class="odd">
-                    <td><a href="#delay-poison">Delay Poison</a>              </td>
+                    <td><a href="#delay-poison">Delay Poison</a>            </td>
                     <td> Stops poison from harming subject for 1 hour/level.</td>
                   </tr>
                   <tr class="even">
-                    <td><a href="#fire-trap">Fire Trap</a>                 </td>
+                    <td><a href="#fire-trap">Fire Trap</a>               </td>
                     <td> Opened object deals 1d4/level damage.</td>
                   </tr>
                   <tr class="odd">
-                    <td><a href="#flame-blade">Flame Blade</a>               </td>
+                    <td><a href="#flame-blade">Flame Blade</a>             </td>
                     <td> Touch attack deals 1d8 +1/levels damage.</td>
                   </tr>
                   <tr class="even">
-                    <td><a href="#flaming-sphere">Flaming Sphere</a>            </td>
+                    <td><a href="#flaming-sphere">Flaming Sphere</a>          </td>
                     <td> Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.</td>
                   </tr>
                   <tr class="odd">
-                    <td><a href="#fog-cloud">Fog Cloud</a>                 </td>
+                    <td><a href="#fog-cloud">Fog Cloud</a>               </td>
                     <td> Fog obscures vision.</td>
                   </tr>
                   <tr class="even">
-                    <td><a href="#gust-of-wind">Gust of Wind</a>              </td>
+                    <td><a href="#gust-of-wind">Gust of Wind</a>            </td>
                     <td> Blows away or knocks down smaller creatures.</td>
                   </tr>
                   <tr class="odd">
-                    <td><a href="#hold-animal">Hold Animal</a>               </td>
+                    <td><a href="#hold-animal">Hold Animal</a>             </td>
                     <td> Paralyzes one animal for 1 round/level.</td>
                   </tr>
                   <tr class="even">
-                    <td><a href="#reduce-animal">Reduce Animal</a>             </td>
-                    <td> Shrinks one willing animal.</td>
-                  </tr>
-                  <tr class="odd">
-                    <td><a href="#resist-energy">Resist Energy</a>             </td>
+                    <td><a href="#resist-energy">Resist Energy</a>           </td>
                     <td> Ignores 10 (or more) points of damage/attack from specified energy type.</td>
                   </tr>
-                  <tr class="even">
-                    <td><a href="#lesser-restoration">Lesser Restoration</a>       </td>
+                  <tr class="odd">
+                    <td><a href="#lesser-restoration">Lesser Restoration</a>      </td>
                     <td> Dispels magical ability penalty or repairs 1d4 ability damage.</td>
                   </tr>
-                  <tr class="odd">
-                    <td><a href="#soften-earth-and-stone">Soften Earth and Stone</a>    </td>
-                    <td> Turns stone to clay or dirt to sand or mud.</td>
-                  </tr>
                   <tr class="even">
-                    <td>Tree Shape                </td>
+                    <td><a href="#tree-shape">Tree Shape</a>              </td>
                     <td> You look exactly like a tree for 1 hour/level.</td>
                   </tr>
                   <tr class="odd">
-                    <td>Wood Shape                </td>
+                    <td><a href="#wood-shape">Wood Shape</a>              </td>
                     <td> Rearranges wooden objects to suit you.</td>
                   </tr>
                   <tr class="even">
-                    <td>Wild Shape - Black Bear   </td>
+                    <td><a href="#wild-shape---black-bear">Wild Shape - Black Bear</a> </td>
                     <td></td>
                   </tr>
                   <tr class="odd">
@@ -23671,7 +23672,7 @@
                   </tr>
                   <tr class="even">
                     <td>Damage:</td>
-                    <td> 1d4 + 1d4 fire + DC 11 reflex save and catch fire </td>
+                    <td> 1d4 + 1d4 fire + DC 11 reflex save and catch fire</td>
                   </tr>
                   <tr class="odd">
                     <td>Vulnerability:</td>
@@ -24960,6 +24961,65 @@
             </div>
           </section>
           <section class="spell">
+            <h3 id="chillheat-metal">Chill/Heat Metal</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 2</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Range:            </td>
+                    <td> Close (25' + 5'/2 levels)</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Targets:          </td>
+                    <td> Metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lb. of metal/level, none of which can be more than 30 ft. away from any of the rest</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> 7 rounds</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Saving Throw:     </td>
+                    <td> Will Negates</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                Heat metal makes metal extremely warm. Unattended, nonmagical metal gets no saving throw. Magical metal is allowed a saving throw against the spell. An item in a creature’s possession uses the creature’s saving throw bonus unless its own is higher.
+              </p>
+              <p>
+                A creature takes fire damage if its equipment is heated. It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight. The creature takes minimum damage if it’s not wearing metal armor and the metal that it’s carrying weighs less than one-fifth of its weight.
+              </p>
+              <p>
+                The hot metal causes 2d4 points of fire damage to the one in contact (minimum damage is thus 2).
+              </p>
+              <p>
+                Chill metal works the same, but makes the metal painfully cold.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
             <h3 id="color-spray">Color Spray</h3>
             <section>
               
@@ -25123,107 +25183,6 @@
               <h4 id="halt">Halt</h4>
               <p>
                 The subject stands in place for 1 round. It may not take any actions but is not considered helpless.
-              </p>
-            </div>
-          </section>
-          <section class="spell">
-            <h3 id="lesser-confusion">Lesser Confusion</h3>
-            <section>
-              
-              <table class="spell_info">
-                <thead>
-                  <tr class="table_header">
-                    <th></th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="odd">
-                    <td>Level:            </td>
-                    <td> <a href="#bard">Bard</a> 1</td>
-                  </tr>
-                  <tr class="even">
-                    <td>Components:       </td>
-                    <td> V, S</td>
-                  </tr>
-                  <tr class="odd">
-                    <td>Casting Time:     </td>
-                    <td> 1 standard action</td>
-                  </tr>
-                  <tr class="even">
-                    <td>Range:            </td>
-                    <td> Close (25' + 5/ 2levels)</td>
-                  </tr>
-                  <tr class="odd">
-                    <td>Targets:          </td>
-                    <td> One living creature</td>
-                  </tr>
-                  <tr class="even">
-                    <td>Duration:         </td>
-                    <td> 1 round</td>
-                  </tr>
-                  <tr class="odd">
-                    <td>Saving Throw:     </td>
-                    <td> Will negates</td>
-                  </tr>
-                </tbody>
-              </table>
-            </section>
-            <div>
-              
-              <p>
-                This spell causes the targets to become confused, making them unable to independently determine what they will do.
-              </p>
-              <p>
-                Roll on the following table at the beginning of each subject’s turn each round to see what the subject does in that round.
-              </p>
-            </div>
-            <section>
-              
-              <table>
-                <thead>
-                  <tr class="table_header">
-                    <th>d%  </th>
-                    <th> Behavior</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="odd">
-                    <td>01-10  </td>
-                    <td> Attack caster with melee or ranged weapons (or close with caster if attack is not possible).</td>
-                  </tr>
-                  <tr class="even">
-                    <td>11-20  </td>
-                    <td> Act normally.</td>
-                  </tr>
-                  <tr class="odd">
-                    <td>21-50  </td>
-                    <td> Do nothing but babble incoherently.</td>
-                  </tr>
-                  <tr class="even">
-                    <td>51-70  </td>
-                    <td> Flee away from caster at top possible speed.</td>
-                  </tr>
-                  <tr class="odd">
-                    <td>71-100 </td>
-                    <td> Attack nearest creature (for this purpose, a familiar counts as part of the subject’s self).</td>
-                  </tr>
-                </tbody>
-              </table>
-            </section>
-            <div>
-              
-              <p>
-                A confused character who can’t carry out the indicated action does nothing but babble incoherently.
-              </p>
-              <p>
-                Attackers are not at any special advantage when attacking a confused character.
-              </p>
-              <p>
-                Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes.
-              </p>
-              <p>
-                Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).
               </p>
             </div>
           </section>
@@ -26640,7 +26599,7 @@
                   </tr>
                   <tr class="odd">
                     <td>Saving Throw:     </td>
-                    <td> Reflex </td>
+                    <td> Reflex</td>
                   </tr>
                 </tbody>
               </table>
@@ -26788,7 +26747,7 @@
                   </tr>
                   <tr class="even">
                     <td>Duration:         </td>
-                    <td> 1 min/level </td>
+                    <td> 1 min/level</td>
                   </tr>
                   <tr class="odd">
                     <td>Tags:             </td>
@@ -26910,6 +26869,180 @@
             </div>
           </section>
           <section class="spell">
+            <h3 id="fire-trap">Fire Trap</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 2, <a href="#wizard">Wizard</a> 4</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S, M (25gp of gold dust)</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 10 minutes</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> Permanent</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Saving Throw:     </td>
+                    <td> Reflex Half</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                Fire trap creates a fiery explosion when an intruder opens the item that the trap protects. A fire trap can ward any object that can be opened and closed.
+              </p>
+              <p>
+                When casting fire trap, you select a point on the object as the spell’s center. When someone other than you opens the object, a fiery explosion fills the area within a 5-foot radius around the spell’s center. The flames deal 1d4 points of fire damage +1 point per caster level. The item protected by the trap is not harmed by this explosion. However, it is quite useful to also have a bomb or keg of gunpowder that the firetrap detonates.
+              </p>
+              <p>
+                A fire trapped item cannot have a second closure or warding spell placed on it.
+              </p>
+              <p>
+                A knock spell does not bypass a fire trap. An unsuccessful dispel magic spell does not detonate the spell.
+              </p>
+              <p>
+                Underwater, this ward deals half damage and creates a large cloud of steam.
+              </p>
+              <p>
+                You can use the fire trapped object without discharging it, as can any individual to whom the object was specifically attuned when cast. Attuning a fire trapped object to an individual usually involves setting a password that you can share with friends.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
+            <h3 id="flame-blade">Flame Blade</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 2</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> 1 min/level</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                A 3-foot-long, blazing beam of red-hot fire springs forth from your hand.
+              </p>
+              <p>
+                You wield this bladelike beam as if it were a scimitar. Attacks with the flame blade are melee <a href="#touch-attacks">touch attacks</a>. The blade deals 1d8 points of fire damage +1 point per caster level.
+              </p>
+              <p>
+                A flame blade can ignite combustible materials such as parchment, straw, dry sticks, and cloth.
+              </p>
+              <p>
+                The spell does not function underwater.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
+            <h3 id="flaming-sphere">Flaming Sphere</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 2, <a href="#sorcerer">Sorcerer</a> 2, <a href="#wizard">Wizard</a> 2</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S, M</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Range:            </td>
+                    <td> Medium (100 ft. + 10 ft./level)</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Duration:         </td>
+                    <td> 1 round/level</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Saving Throw:     </td>
+                    <td> Reflex Negates</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                A burning globe of fire rolls in whichever direction you point and burns those it strikes.
+              </p>
+              <p>
+                It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target.
+              </p>
+              <p>
+                If it attempts to enter a space with a creature, it stops moving for the round and deals 2d6 points of fire damage to that creature, though a successful Reflex save negates that damage.
+              </p>
+              <p>
+                A flaming sphere rolls over barriers less than 4 feet tall.
+              </p>
+              <p>
+                It ignites flammable substances it touches and illuminates the same area as a torch would.
+              </p>
+              <p>
+                The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and burns.
+              </p>
+              <p>
+                It can be extinguished by any means that would put out a normal fire of its size.
+              </p>
+              <p>
+                The surface of the sphere has a spongy, yielding consistency and so does not cause damage except by its flame.  It cannot push aside unwilling creatures or batter down large obstacles. A Giant could kick it like a soccer ball, suffering 2d6 fire damage in the process and propelling it to where he chooses within 30'.
+              </p>
+              <p>
+                A flaming sphere winks out if it exceeds the spell’s range.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
             <h3 id="flare">Flare</h3>
             <section>
               
@@ -27024,6 +27157,58 @@
               </p>
               <p>
                 When the disk winks out, whatever it was supporting crashes to the surface beneath it.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
+            <h3 id="fog-cloud">Fog Cloud</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 2, <a href="#sorcerer">Sorcerer</a> 2, <a href="#wizard">Wizard</a> 2</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Range:            </td>
+                    <td> Medium (100 ft. + 10 ft. level)</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Area:             </td>
+                    <td> 20' radius of fog</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> 10 min./level</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                A bank of fog billows out from the point you designate. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker can’t use sight to locate the target).
+              </p>
+              <p>
+                A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.
+              </p>
+              <p>
+                The spell does not function underwater.
               </p>
             </div>
           </section>
@@ -27539,7 +27724,7 @@
                   </tr>
                   <tr class="even">
                     <td>Components:       </td>
-                    <td> V, S </td>
+                    <td> V, S</td>
                   </tr>
                   <tr class="odd">
                     <td>Casting Time:     </td>
@@ -27574,6 +27759,62 @@
               </p>
               <p>
                 A creature who isn't humaoid receives a +4 bonus on its saving throw, because humor doesn’t “translate” well.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
+            <h3 id="hold-animal">Hold Animal</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 2</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Range:            </td>
+                    <td> Medium (100' + 10'/level)</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Targets:          </td>
+                    <td> one animal</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> 1 round/level (D)</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Saving Throw:     </td>
+                    <td> Will negates</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                The subject becomes paralyzed and freezes in place. It is aware and breathes normally but cannot take any actions, even speech.
+              </p>
+              <p>
+                Each round on its turn, the subject may attempt a new saving throw to end the effect. (This is a full-round action that does not provoke attacks of opportunity.)
+              </p>
+              <p>
+                A winged creature who is paralyzed cannot flap its wings and falls. A swimmer can’t swim and will drown.
               </p>
             </div>
           </section>
@@ -28000,7 +28241,7 @@
                   </tr>
                   <tr class="even">
                     <td>Duration:         </td>
-                    <td> 1 minute or until you use a bardic music </td>
+                    <td> 1 minute or until you use a bardic music</td>
                   </tr>
                 </tbody>
               </table>
@@ -28145,6 +28386,107 @@
               
               <p>
                 You instantly know the direction of north from your current position.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
+            <h3 id="lesser-confusion">Lesser Confusion</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#bard">Bard</a> 1</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Range:            </td>
+                    <td> Close (25' + 5/ 2levels)</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Targets:          </td>
+                    <td> One living creature</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> 1 round</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Saving Throw:     </td>
+                    <td> Will negates</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                This spell causes the targets to become confused, making them unable to independently determine what they will do.
+              </p>
+              <p>
+                Roll on the following table at the beginning of each subject’s turn each round to see what the subject does in that round.
+              </p>
+            </div>
+            <section>
+              
+              <table>
+                <thead>
+                  <tr class="table_header">
+                    <th>d%  </th>
+                    <th> Behavior</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>01-10  </td>
+                    <td> Attack caster with melee or ranged weapons (or close with caster if attack is not possible).</td>
+                  </tr>
+                  <tr class="even">
+                    <td>11-20  </td>
+                    <td> Act normally.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>21-50  </td>
+                    <td> Do nothing but babble incoherently.</td>
+                  </tr>
+                  <tr class="even">
+                    <td>51-70  </td>
+                    <td> Flee away from caster at top possible speed.</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>71-100 </td>
+                    <td> Attack nearest creature (for this purpose, a familiar counts as part of the subject’s self).</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                A confused character who can’t carry out the indicated action does nothing but babble incoherently.
+              </p>
+              <p>
+                Attackers are not at any special advantage when attacking a confused character.
+              </p>
+              <p>
+                Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes.
+              </p>
+              <p>
+                Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).
               </p>
             </div>
           </section>
@@ -30030,6 +30372,50 @@
             </div>
           </section>
           <section class="spell">
+            <h3 id="speak-with-animals">Speak With Animals</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 1</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> 1 min/level</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                You can comprehend and communicate with animals. You are able to ask questions of and receive answers from animals, although the spell doesn’t make them any more friendly or cooperative than normal.
+              </p>
+              <p>
+                Furthermore, wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments.
+              </p>
+              <p>
+                If an animal is friendly toward you, it may do some favor or service for you.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
             <h3 id="spiritual-weapon">Spiritual weapon</h3>
             <section>
               
@@ -30224,6 +30610,56 @@
               
               <p>
                 You summon your instrument to you from anywhere. It teleports into your hands. It must weight 50 pounds or less.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
+            <h3 id="tree-shape">Tree Shape</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:            </td>
+                    <td> <a href="#druid">Druid</a> 2</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:       </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time:     </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Duration:         </td>
+                    <td> 1 hour + 10min/level (D)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                By means of this spell, the caster is able to assume the form of a small living tree or shrub or that of a large dead tree trunk with only a few limbs.
+              </p>
+              <p>
+                Although the closest inspection cannot reveal that this plant is actually a person, and for all normal tests he is, in fact, a tree or shrub, the caster is able to observe all that goes on around him just as if he were in normal form.
+              </p>
+              <p>
+                The Armor Class and hit points of the plant are those of the caster.
+              </p>
+              <p>
+                The caster can remove the spell at any time, instantly changing from plant to his normal form and having full capability for any action normally possible (including spellcasting).
+              </p>
+              <p>
+                Note that all clothing and gear worn or carried change with the caster.
               </p>
             </div>
           </section>
@@ -30620,6 +31056,50 @@
               </p>
               <p>
                 While the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square wind walls to enclose specific points.
+              </p>
+            </div>
+          </section>
+          <section class="spell">
+            <h3 id="wood-shape">Wood Shape</h3>
+            <section>
+              
+              <table class="spell_info">
+                <thead>
+                  <tr class="table_header">
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Level:        </td>
+                    <td> <a href="#druid">Druid</a> 2</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Components:   </td>
+                    <td> V, S</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Casting Time: </td>
+                    <td> 1 standard action</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Target:       </td>
+                    <td> One touched piece of wood no larger than 10 cu. ft. + 1 cu. ft./level</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                Wood shape enables you to form one existing piece of wood into any shape that suits your purpose.
+              </p>
+              <p>
+                While it is possible to make crude coffers, doors, and so forth, fine detail isn’t possible.
+              </p>
+              <p>
+                There is a 30% chance that any shape that includes moving parts simply doesn’t work.
               </p>
             </div>
           </section>

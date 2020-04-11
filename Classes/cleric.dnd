@@ -299,8 +299,8 @@
           ::row
             1st         | [Enlarge Person] | Humanoid creature doubles in size.
             2nd         | Bull’s Strength  | Subject gains 19 Str for 1 min./level.
-            3rd         | TODO | 
-            4th         | TODO | 
+            3rd         | TODO |
+            4th         | TODO |
 
       Sun Domain::section.domain
         Granted Power::text
@@ -327,7 +327,7 @@
             1st| [Magic Weapon]| Weapon gains +1 bonus.
             2nd| [Spiritual Weapon]| Magical weapon attacks on its own.
             3rd| Prayer | Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.
-            4th| TODO | 
+            4th| TODO |
 
       Water Domain::section.domain
         Granted Power::text

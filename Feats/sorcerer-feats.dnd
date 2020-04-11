@@ -4,7 +4,7 @@
 
       Some sorcerer feats are marked as being a metamagic feat. A metamagic feat is a feat that modifies a spell.
 
-      A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. However, the spell is not higher level for the effects that care about the spell's level. 
+      A feat modified by metamagic usually requires expending a slot of a higher level than normal for the spell. However, the spell is not higher level for the effects that care about the spell's level.
 
       Only one metamagic can be applied to a single casting of a spell.
 
@@ -65,7 +65,7 @@
 
       For some spells this is benign (turning mage armor into a ray means you can shoot it at yourself or an ally), but for other spells it has weird effects.
 
-      Spells that allow a save are 50% more powerful, but you also have to hit them with a ranged touch attack. 
+      Spells that allow a save are 50% more powerful, but you also have to hit them with a ranged touch attack.
       They still get a save for half damage or whatever if that is allowed.
 
       Ask your DM how other spells work. In general, a ranged touch attack is also now required.

@@ -50,24 +50,22 @@
       ::head
         |
       ::row
-        [Animal Messenger]          | Sends a Tiny animal to a specific place.
-        [Animal Trance]             | Fascinates 2d6 HD of animals.
-        [Barkskin]                  | Turns skin into armor (+5).
-        [Chill/Heat Metal]          | Cold or hot metal damages those who touch it.
-        [Delay Poison]              | Stops poison from harming subject for 1 hour/level.
-        [Fire Trap]                 | Opened object deals 1d4/level damage.
-        [Flame Blade]               | Touch attack deals 1d8 +1/levels damage.
-        [Flaming Sphere]            | Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
-        [Fog Cloud]                 | Fog obscures vision.
-        [Gust of Wind]              | Blows away or knocks down smaller creatures.
-        [Hold Animal]               | Paralyzes one animal for 1 round/level.
-        [Reduce Animal]             | Shrinks one willing animal.
-        [Resist Energy]             | Ignores 10 (or more) points of damage/attack from specified energy type.
-        [Lesser Restoration]       | Dispels magical ability penalty or repairs 1d4 ability damage.
-        [Soften Earth and Stone]    | Turns stone to clay or dirt to sand or mud.
-        Tree Shape                | You look exactly like a tree for 1 hour/level.
-        Wood Shape                | Rearranges wooden objects to suit you.
-        Wild Shape - Black Bear   |
+        [Animal Messenger]        | Sends a Tiny animal to a specific place.
+        [Animal Trance]           | Fascinates 2d6 HD of animals.
+        [Barkskin]                | Turns skin into armor (+5).
+        [Chill/Heat Metal]        | Cold or hot metal damages those who touch it.
+        [Delay Poison]            | Stops poison from harming subject for 1 hour/level.
+        [Fire Trap]               | Opened object deals 1d4/level damage.
+        [Flame Blade]             | Touch attack deals 1d8 +1/levels damage.
+        [Flaming Sphere]          | Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
+        [Fog Cloud]               | Fog obscures vision.
+        [Gust of Wind]            | Blows away or knocks down smaller creatures.
+        [Hold Animal]             | Paralyzes one animal for 1 round/level.
+        [Resist Energy]           | Ignores 10 (or more) points of damage/attack from specified energy type.
+        [Lesser Restoration]      | Dispels magical ability penalty or repairs 1d4 ability damage.
+        [Tree Shape]              | You look exactly like a tree for 1 hour/level.
+        [Wood Shape]              | Rearranges wooden objects to suit you.
+        [Wild Shape - Black Bear] |
         Wild Shape - Crocodile    |
         Wild Shape - Dire badger  |
         Wild Shape - Dire bat     |

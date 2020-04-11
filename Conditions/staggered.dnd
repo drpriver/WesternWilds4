@@ -1,5 +1,5 @@
   Staggered::section.condition
     ::text
-      A character whose nonlethal damage exactly equals his current hit points is staggered. 
+      A character whose nonlethal damage exactly equals his current hit points is staggered.
 
       A staggered character may take a single move action or standard action each round (but not both, nor can she take full-round actions).

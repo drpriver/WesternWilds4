@@ -1,0 +1,17 @@
+  Speak With Animals::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Druid] 1
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Duration:         | 1 min/level
+    ::text
+      You can comprehend and communicate with animals. You are able to ask questions of and receive answers from animals, although the spell doesn’t make them any more friendly or cooperative than normal.
+
+      Furthermore, wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments.
+
+      If an animal is friendly toward you, it may do some favor or service for you.
+
+

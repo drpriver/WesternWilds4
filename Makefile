@@ -70,11 +70,11 @@ THESPELLS=acid-arrow.dnd\
 	  charm-animal.dnd\
           charm-monster.dnd\
           charm-person.dnd\
+	  chill-heat-metal.dnd\
           color-spray.dnd\
           combust.dnd\
           command.dnd\
           cone-of-fire.dnd\
-          confusion,-lesser.dnd\
           confusion.dnd\
           continual-flame.dnd\
 	  control-flame.dnd\
@@ -127,9 +127,11 @@ THESPELLS=acid-arrow.dnd\
           fear.dnd\
           feather-fall.dnd\
           find-traps.dnd\
+	  fire-trap.dnd\
           fire-shield.dnd\
           fireball.dnd\
           flame-arrow.dnd\
+	  flame-blade.dnd\
           flamestrike.dnd\
           flaming-sphere.dnd\
           flare.dnd\
@@ -155,6 +157,7 @@ THESPELLS=acid-arrow.dnd\
 	  hide-from-animals.dnd\
           hide-from-undead.dnd\
           hideous-laughter.dnd\
+	  hold-animal.dnd\
           hold-person.dnd\
           hypnotic-pattern.dnd\
           hypnotism.dnd\
@@ -171,6 +174,7 @@ THESPELLS=acid-arrow.dnd\
           jump.dnd\
           knock.dnd\
 	  know-direction.dnd\
+	  lesser-confusion.dnd\
           lesser-elemental-orb.dnd\
           lesser-geas.dnd\
           lesser-globe-of-invulnerability.dnd\
@@ -239,6 +243,7 @@ THESPELLS=acid-arrow.dnd\
           snowball-swarm.dnd\
           sonic-snap.dnd\
           sound-burst.dnd\
+	  speak-with-animals.dnd\
           spell-immunity.dnd\
           spiritual-weapon.dnd\
           stick.dnd\
@@ -248,6 +253,7 @@ THESPELLS=acid-arrow.dnd\
           stoneskin.dnd\
           suggestion.dnd\
           summon-instrument.dnd\
+	  tree-shape.dnd\
           tongues.dnd\
           unseen-servant.dnd\
           vampiric-touch.dnd\
@@ -262,6 +268,7 @@ THESPELLS=acid-arrow.dnd\
           wild-shape-black-bear.dnd\
           wind-gale.dnd\
 	  wind-wall.dnd\
+	  wood-shape.dnd\
 
 SPELLS=spell-lists.dnd\
        bard-spells.dnd\

@@ -55,7 +55,7 @@ Downtime::chapter
     The player describes the concept, chooses the level of the spell and the DM will provide the actual
     spell description.
 
-    This requires a DC 15 + spell level spellcraft check. 
+    This requires a DC 15 + spell level spellcraft check.
     A failed check means the wizard cannot try again until the wizard has gained a level.
   Craft Item::text
     Some skills, like [Craft Armor], [Craft Weapon], [Alchemy] allows you to make stuff during downtime.
@@ -71,4 +71,4 @@ Downtime::chapter
 
     Consequences for neglecting this duty are described in the domain rules.
   Repair Ship::text
-    If your ship becomes damaged, it will probably take a while to repair. 
+    If your ship becomes damaged, it will probably take a while to repair.

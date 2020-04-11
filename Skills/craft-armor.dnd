@@ -37,7 +37,7 @@
     Craft Grandmasterwork Armor::section
       ::text
         A character with at least 10 ranks in craft armor can craft grandmasterwork armors.
-        This follows the same procedure as crafting masterwork armor, but requires an extra 6000gp on top of that and allows two properties to be added. 
+        This follows the same procedure as crafting masterwork armor, but requires an extra 6000gp on top of that and allows two properties to be added.
         The properties must be different.
     Repair Armor::text
       Repairing non-magical armors is like crafting the armor, but costs half as much time and money.

@@ -10,7 +10,7 @@
         Targets:          | 1 creature touched
         Duration:         | 10 min/level
     ::text
-      Barkskin turns the touched creature's skin into bark, which is effectively "natural" armor. 
+      Barkskin turns the touched creature's skin into bark, which is effectively "natural" armor.
       This gives them a +4 armor bonus to AC +1 / 4 levels (so +5 at level 4, +6 at level 8).
 
       This armor does not stack with regular armor.

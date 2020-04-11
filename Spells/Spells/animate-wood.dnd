@@ -12,7 +12,7 @@
 
       If the wood is fixed to something (like a door is), it remains fixed and is thus immobile. Unlocked doors can open themselves. Barred doors can unbar themselves.
 
-      The animated wood has the below statistics and attacks as you direct. 
+      The animated wood has the below statistics and attacks as you direct.
     Animated Wood::table.stat_block
       ::head
         |

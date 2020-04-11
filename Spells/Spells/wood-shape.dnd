@@ -1,0 +1,15 @@
+  Wood Shape::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:        | [Druid] 2
+        Components:   | V, S
+        Casting Time: | 1 standard action
+        Target:       | One touched piece of wood no larger than 10 cu. ft. + 1 cu. ft./level
+    ::text
+      Wood shape enables you to form one existing piece of wood into any shape that suits your purpose.
+
+      While it is possible to make crude coffers, doors, and so forth, fine detail isn’t possible.
+
+      There is a 30% chance that any shape that includes moving parts simply doesn’t work.
