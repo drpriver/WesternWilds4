@@ -24,7 +24,6 @@
         |
       ::row
         [Animate Rope]                        | Makes a rope move at your command.
-        [Animate Skeletons]                   | Animate two skeletons for 1hr/level. EVIL.
         [Benign Transposition]                | Two willing subjects swap places.
         [Burning Hands]                       | 1d4/level fire damage (max 5d4).
         [Cause Fear]                          | One creature of 5 HD or less flees for 1d4 rounds.
@@ -56,7 +55,6 @@
         |
       ::row
         [Acid Arrow]             | Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
-        [Animate Zombies]        | Animate two zombies for 1hr/level. EVIL.
         [Baleful Transposition]  | Two unwilling targets swap positions.
         [Blindness/Deafness]     | Makes subject blinded or deafened.
         [Blur]                   | Attacks miss subject 20% of the time.
@@ -64,7 +62,6 @@
         [Darkness]               | 20-ft. radius of supernatural shadow.
         [Daze Monster]           | Living creature of 6 HD or less loses next action.
         [Electric Loop]          | Deals 1d6/level electricity damage plus stunning to a single creature.
-        [Enhance ability]        | Subject's ability becomes 19 for 10min/level.
         [False Life]             | Gain 1d10 temporary hp +1/level (max +10).
         [Flaming Sphere]         | Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.
         [Fog Cloud]              | Fog obscures vision.
@@ -75,10 +72,10 @@
         [Invisibility]           | Subject is invisible for 1 min./level or until it attacks.
         [Knock]                  | Opens locked or magically sealed door.
         [Mirror Image]           | Creates decoy duplicates of you (1d4 +1 per three levels, max 8).
-        [Protection from Arrows] | Subject immune to most ranged attacks.
+        [Protection from Arrows] | Subject gains DR 10 to most ranged attacks.
         [Pyrotechnics]           | Turns fire into blinding light or choking smoke.
         [Scare]                  | Frightens creatures of less than 6 HD.
-        [Scorching Ray]          | Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
+        [Scorching Ray]          | Ranged touch attack deals 1d6/level fire damage.
         [See Invisibility]       | Reveals invisible creatures or objects.
         [Shatter]                | Sonic vibration damages objects or crystalline creatures.
         [Snowball Swarm]         | Snowballs deal 2d6 points of cold damage in 10' burst.
@@ -86,32 +83,30 @@
       ::head
         |
       ::row
-        [Animate Ghouls]                           | Animate two ghouls for 1 hr/level. EVIL.
-        [Blink]                                    | You randomly vanish and reappear for 1 round/level.
-        [Chain Missiles]                           | 1 magic missile per two levels strike one target, then one fewer another, then one fewer another, etc.
-        [Daylight]                                 | 60-ft. radius of bright light.
-        [Deep Slumber]                             | Puts 10 HD of creatures to sleep.
-        [Dispel Magic]                             | Cancels magical spells and effects.
-        [Displacement]                             | Attacks miss subject 50%.
-        [Fireball]                                 | 1d6 damage per level, 20-ft. radius.
-        [Flame Arrow]                              | Arrows deal +1d6 fire damage.
-        [Fly]                                      | Subject flies at speed of 60 ft.
-        [Haste]                                    | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
-        [Hold Person]                              | Paralyzes one humanoid for 1 round/level.
-        [Invisibility 10' radius]                 | Makes everyone within 10 ft. invisible.
-        [Lightning Bolt]                           | Electricity deals 1d6/level damage.
-        [Mass Mage Armor]                          | one creature per level gains mage armor.
-        [Mass Shield]                              | one creature per level gains shield.
-        [Magic Circle against Chaos/Evil/Good/Law] | As protection spells, but 10-ft. radius and 10 min./level.
-        [Major Image]                              | As silent image, plus sound, smell and thermal effects.
-        [Reverse Arrows]                           | Like Protection From Arrows, but arrows reflect back.
-        [Shrink Item]                              | Object shrinks to one-sixteenth size.
-        [Sleet Storm]                              | Hampers vision and movement.
-        [Slow]                                     | One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.
-        [Suggestion]                               | Compels subject to follow stated course of action.
-        [Vampiric Touch]                           | Touch deals 1d6/two levels damage; caster gains damage as hp.
-        [Web]                                      | Fills 20-ft.-radius spread with sticky spiderwebs.
-        [Wind Gale]                                | 30' cone deals 1d6 slashing damage per level.
+        [Chain Missiles]                                 | 1 magic missile per two levels strike one target, then one fewer another, then one fewer another, etc.
+        [Daylight]                                       | 60-ft. radius of bright light.
+        [Deep Slumber]                                   | Puts 10 HD of creatures to sleep.
+        [Dispel Magic]                                   | Cancels magical spells and effects.
+        [Displacement]                                   | Attacks miss subject 50%.
+        [Fireball]                                       | 1d6 damage per level, 20-ft. radius.
+        [Flame Arrow]                                    | Shoot fiery arrows at people.
+        [Fly]                                            | Subject flies at speed of 60 ft.
+        [Haste]                                          | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
+        [Hold Person]                                    | Paralyzes one humanoid for 1 round/level.
+        [Invisibility 10' radius]                        | Makes everyone within 10 ft. invisible.
+        [Lightning Bolt]                                 | Electricity deals 1d6/level damage.
+        [Mass Mage Armor]                                | one creature per level gains mage armor.
+        [Mass Shield]                                    | one creature per level gains shield.
+        [Major Image]                                    | As silent image, plus sound, smell and thermal effects.
+        [Protection from Chaos/Evil/Good/Law 10' Radius] | As protection spells, but 10-ft. radius and 10 min./level.
+        [Reverse Arrows]                                 | Like Protection From Arrows, but arrows reflect back.
+        [Shrink Item]                                    | Object shrinks to one-sixteenth size.
+        [Slow]                                           | Creatures are slowed
+        [Suggestion]                                     | Compels subject to follow stated course of action.
+        [Vampiric Touch]                                 | Touch deals 1d6/two levels damage; caster gains damage as hp.
+        [Water Breathing]                                | Subject can breathe underwater.
+        [Web]                                            | Fills 20-ft.-radius spread with sticky spiderwebs.
+        [Wind Gale]                                      | 30' cone deals 1d6 slashing damage per level.
     4th-level Sorcerer spells::table.spell_list
       ::head
         |

@@ -1,0 +1,23 @@
+
+  Deep Slumber::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 3, [Sorcerer] 3, [Wizard] 3
+        Components:       | V, S, M (A pinch of fine sand, rose petals, or a live cricket)
+        Casting Time:     | 1 round
+        Range:            | Medium (100' + 10'/level)
+        Area:             | One or more living creatures within a 10' radius burst
+        Duration:         | 1 min/level
+        Saving Throw:     | Will negates
+    ::text
+      A deep slumber spell causes a magical slumber to come upon 10 Hit Dice of creatures. Creatures with the fewest HD are affected first.
+
+      Among creatures with equal HD, those who are closest to the spell’s point of origin are affected first. Hit Dice that are not sufficient to affect a creature are wasted.
+
+      Sleeping creatures are helpless. Slapping or wounding awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action).
+
+      Sleep does not target unconscious creatures, constructs, or undead creatures.
+
+      When the duration ends, the creatures continue sleeping naturally, but may wake up due to normal noise or other normal ways of waking a creature.

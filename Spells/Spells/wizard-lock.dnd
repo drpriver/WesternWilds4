@@ -1,0 +1,16 @@
+  Wizard Lock::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 2
+        Components:       | V, S, M
+        Casting Time:     | 1 minute
+        Duration:         | Permanent
+    ::text
+      A wizard lock spell cast upon a door, chest, or portal magically locks it. The caster can freely pass his own lock without affecting it; otherwise, the wizard-locked door or object can be opened only by breaking in, by a successful dispel magic or knock spell, or by a wizard four or more levels higher than the one casting the spell. 
+
+      Note that the last two methods do not remove the wizard lock; they only negate it for a brief duration--about one turn. 
+
+      Creatures from other planes cannot burst a wizard lock as they can a held portal (see the hold portal spell).
+

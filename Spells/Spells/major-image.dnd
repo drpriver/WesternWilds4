@@ -1,0 +1,17 @@
+  Major Image::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 3, [Sorcerer] 3, [Wizard] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | Long (400' + 40'/level)
+        Duration:         | Concentration + 3 rounds
+    ::text
+      This spell creates the visual illusion of an object, creature, or force, as visualized by you. 
+
+      The illusion does create sound, smell, texture, or temperature. 
+      You can move the image within the limits of the size of the effect.
+
+      The image disappears when struck by an opponent unless you cause the illusion to react appropriately (must be concentrating).

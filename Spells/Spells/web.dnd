@@ -1,0 +1,26 @@
+  Web::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Sorcerer] 2, [Wizard] 2
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Range:            | 15'/level
+        Area:             | 20' radius spread
+        Duration:         | 10 min/level
+        Saving Throw:     | Reflex Negates
+    ::text
+      A web spell creates a many-layered mass of strong, sticky strands similar to spider webs but far larger and tougher. These masses must be anchored to two or more solid and diametrically opposed points--floor and ceiling, opposite walls, etc.--or the web collapses upon itself and disappears.
+
+      Webs are only effective against creatures of medium size or smaller.
+
+      Anyone in the effect’s area when the spell is cast must make a Reflex save. If this save succeeds, the creature is [entangled], but not prevented from moving, though moving is more difficult than normal for being entangled (see below). 
+
+      If the save fails, the creature is entangled and can’t move from its space, but can break loose by spending 1 round and making a DC 15 Strength check or a DC 20 Escape Artist check. 
+
+      Once loose (either by making the initial Reflex save or a later Strength check or Escape Artist check), a creature is not entangled, but can only move 5' per round through the web (or double that by hustling). 
+
+      If you have at least 5 feet of web between you and an opponent, it provides cover. If you have at least 20 feet of web between you, it provides total cover. Additionally, missile fire into or through a web is generally ineffective as it gets caught in the sticky strands.
+
+      The strands of a web spell are flammable. A magic flaming sword can slash them away as easily as a hand brushes away cobwebs. Any fire can set the webs alight and burns away the entire web in a flash.  All creatures within flaming webs take 2d4 points of fire damage from the flames.

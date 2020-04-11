@@ -57,27 +57,27 @@
         [Blindness/Deafness]                       | Makes subject blind or deaf.
         Create Food and Water                    | Feeds three humans (or one horse)/level.
         [Cure Serious Wounds]                      | Cures 3d8 damage +1/level (max +15).
-        Daylight                                 | 60-ft. radius of bright light.
+        [Daylight]                               | 60-ft. radius of bright light.
         Deeper Darkness                          | Object sheds supernatural shadow in 60-ft. radius.
-        Dispel Magic                             | Cancels spells and magical effects.
+        [Dispel Magic]                            | Cancels spells and magical effects.
         Glyph of Warding                         | Inscription harms those who pass it.
         [Inflict Serious Wounds]                   | Touch attack, 3d8 damage +1/level (max +15).
-        Magic Circle against Chaos/Evil/Good/Law | As protection spells, but 10-ft. radius and 10 min./level.
         Meld into Stone                          | You and your gear merge with stone.
         Prayer                                   | Allies +1 bonus to saves, attacks, damage rolls, enemies -1 penalty.
+        [Protection from Chaos/Evil/Good/Law 10' Radius] | As protection spells, but 10-ft. radius and 10 min./level.
         Remove Blindness/Deafness                | Cures normal or magical conditions.
         Remove Curse                             | Frees object or person from curse.
         Remove Disease                           | Cures all diseases affecting subject.
-        Resist Energy, 10' radius                | As resist energy, but 10-ft. radius.
+        Resist Energy 10' radius                | As resist energy, but 10-ft. radius.
         Searing Light                            | Ray deals 1d8/two levels damage, more against undead.
         Stone Shape                              | Sculpts 10 cu. ft. of stone into any shape, like a door.
-        Water Breathing                          | Subject can breathe underwater.
+        [Water Breathing]                        | Subject can breathe underwater.
         Water Walk                               | Subject walks on water as if solid.
     4th-Level Cleric Spells::table.spell_list
       ::head
         |
       ::row
-        Aura of Life, 10' radius         | Allies in your aura heal 3hp/round for 1rd/level.
+        Aura of Life 10' radius         | Allies in your aura heal 3hp/round for 1rd/level.
         Control Water                    | Lower or raise water in an area, holds ships in place.
         [Cure Critical Wounds]             | Cures 4d8 damage +1/level (max +20).
         Dismissal                        | Forces a creature to return to native plane.

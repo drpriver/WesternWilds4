@@ -1,0 +1,15 @@
+  Chain Missiles::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Sorcerer] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | Medium (100' + 10'/level)
+    ::text
+      You fire a barrage of magic missiles. You fire one missile per two levels. All missiles target 1 creature, striking him for 1d4+1 damage each. Then, one missile disappears and the other missiles move to strike a different creature of your choice. This process repeats until there are no more missiles.
+
+      For example, a 6th level sorcerer casts this spell. He sends 3 missiles at an orc, then 2 at a goblin and then 1 at a kobold.
+
+      The missile strikes unerringly, even if the target is in melee combat or has less than total cover or total concealment. Specific parts of a creature can’t be singled out. Inanimate objects are not damaged by the spell.

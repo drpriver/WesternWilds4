@@ -1,0 +1,16 @@
+  Reverse Arrows::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Sorcerer] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Targets:          | 1 touched creature
+        Duration:         | 1 hour / level
+    ::text
+      The warded creature gains resistance to ranged weapons. The subject gains damage reduction 10/magic against ranged weapons. 
+
+      Any ranged attack that you reduce to 0 damage instead flies back to the attacker, using the same attack roll.
+
+      Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.

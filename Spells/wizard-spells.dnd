@@ -69,7 +69,6 @@
         |
       ::row
         [Acid Arrow]             | Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.
-        [Arcane Lock]            | Magically locks a portal or chest.
         [Bear's Endurance]       | Subject gains 19 Con for 10 min./level.
         [Blindness/Deafness]     | Makes subject blinded or deafened.
         [Blur]                   | Attacks miss subject 20% of the time.
@@ -98,27 +97,28 @@
         [Obscure Object]         | Masks object against scrying.
         [Owl's Wisdom]           | Subject gains 19 Wis for 10 min./level.
         [Phantom Trap]           | Makes item seem trapped.
-        [Protection from Arrows] | Subject immune to most ranged attacks.
+        [Protection from Arrows] | Subject gains DR 10 to most ranged attacks.
         [Pyrotechnics]           | Turns fire into blinding light or choking smoke.
         [Resist Energy]          | Ignores first 10 (or more) points of damage/attack from specified energy type.
         [Scare]                  | Frightens creatures of less than 6 HD.
-        [Scorching Ray]          | Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
+        [Scorching Ray]          | Ranged touch attack deals 1d6/level fire damage.
         [See Invisibility]       | Reveals invisible creatures or objects.
         [Shatter]                | Sonic vibration damages objects or crystalline creatures.
+        [Web]                    | Fills 20-ft.-radius spread with sticky spiderwebs.
         [Whispering Wind]        | Sends a short message 1 mile/level.
+        [Wizard Lock]            | Magically locks a portal or chest.
     3rd-level Wizard spells::table.spell_list
       ::head
         |
       ::row
         [Arcane Sight]                             | Magical auras become visible to you.
-        [Blink]                                    | You randomly vanish and reappear for 1 round/level.
         [Daylight]                                 | 60-ft. radius of bright light.
         [Deep Slumber]                             | Puts 10 HD of creatures to sleep.
         [Dispel Magic]                             | Cancels magical spells and effects.
         [Displacement]                             | Attacks miss subject 50%.
         [Explosive Runes]                          | Deals 6d6 damage when read.
         [Fireball]                                 | 1d6 damage per level, 20-ft. radius.
-        [Flame Arrow]                              | Arrows deal +1d6 fire damage.
+        [Flame Arrow]                              | Shoot fiery arrows at people.
         [Fly]                                      | Subject flies at speed of 60 ft.
         [Gaseous Form]                             | Subject becomes insubstantial and can fly slowly.
         [Gentle Repose]                            | Preserves one corpse.
@@ -126,21 +126,18 @@
         [Haste]                                    | One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.
         [Hold Person]                              | Paralyzes one humanoid for 1 round/level.
         [Illusory Script]                          | Only intended reader can decipher.
-        [Invisibility Sphere]                      | Makes everyone within 10 ft. invisible.
+        [Invisibility 10' Radius]                  | Makes everyone within 10 ft. invisible.
         [Lightning Bolt]                           | Electricity deals 1d6/level damage.
-        [Magic Circle against Chaos/Evil/Good/Law] | As protection spells, but 10-ft. radius and 10 min./level.
         [Major Image]                              | As silent image, plus sound, smell and thermal effects.
         [Nondetection]                             | Hides subject from divination, scrying.
-        [Rage]                                     | Subjects gains +2 to Str and Con, +1 on Will saves, -2 to AC.
+        [Protection from Chaos/Evil/Good/Law 10' Radius] | As protection spells, but 10-ft. radius and 10 min./level.
         [Secret Page]                              | Changes one page to hide its real content.
         [Sepia Snake Sigil]                        | Creates text symbol that immobilizes reader.
         [Shrink Item]                              | Object shrinks to one-sixteenth size.
-        [Sleet Storm]                              | Hampers vision and movement.
-        [Slow]                                     | One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.
+        [Slow]                                     | Creatures are slowed
         [Suggestion]                               | Compels subject to follow stated course of action.
         [Vampiric Touch]                           | Touch deals 1d6/two levels damage; caster gains damage as hp.
         [Water Breathing]                          | Subjects can breathe underwater.
-        [Web]                                      | Fills 20-ft.-radius spread with sticky spiderwebs.
         [Wind Wall]                                | Deflects arrows, smaller creatures, and gases.
     4th-level Wizard spells::table.spell_list
       ::head

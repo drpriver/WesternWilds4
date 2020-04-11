@@ -1,0 +1,12 @@
+  Fox's Cunning::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 2
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Targets:          | 1 creature touched other than the caster
+        Duration:         | 10 min/level
+    ::text
+      The touched creature intelligence score becomes 19. This spell has no effect on those with a  intelligence higher than this. Enhancement effects do not enhance this score further.

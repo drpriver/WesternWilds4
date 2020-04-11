@@ -54,16 +54,19 @@ THESPELLS=acid-arrow.dnd\
           baleful-transposition.dnd\
           bane.dnd\
           barkskin.dnd\
+          bears-endurance.dnd\
           benign-transposition.dnd\
           bestow-curse.dnd\
           bless.dnd\
           blindness-deafness.dnd\
           blink.dnd\
           blur.dnd\
+          bulls-strength.dnd\
           buoyancy.dnd\
           burning-hands.dnd\
           calm-animals.dnd\
           calm-emotions.dnd\
+          cats-grace.dnd\
           cause-fear.dnd\
           chain-missiles.dnd\
           chant.dnd\
@@ -113,11 +116,11 @@ THESPELLS=acid-arrow.dnd\
           divination.dnd\
           divine-favor.dnd\
           doom.dnd\
+          eagles-splendor.dnd\
           earthbind.dnd\
           electric-loop.dnd\
           electroic-jolt.dnd\
           elemental-orb.dnd\
-          enhance-ability.dnd\
           enlarge-person.dnd\
           entangle.dnd\
           entropic-shield.dnd\
@@ -138,6 +141,7 @@ THESPELLS=acid-arrow.dnd\
           floating-disk.dnd\
           fly.dnd\
           fog-cloud.dnd\
+          foxs-cunning.dnd\
           freedom-of-movement.dnd\
           gaseous-form.dnd\
           ghost-harp.dnd\
@@ -185,7 +189,6 @@ THESPELLS=acid-arrow.dnd\
           lullaby.dnd\
           mage-armor.dnd\
           mage-hand.dnd\
-          magic-circle-against-chaos-evil-good-law.dnd\
           magic-fang.dnd\
           magic-missile.dnd\
           magic-mouth.dnd\
@@ -199,6 +202,7 @@ THESPELLS=acid-arrow.dnd\
           neutralize-poison.dnd\
           obscuring-mist.dnd\
           open-close.dnd\
+          owls-wisdom.dnd\
           pass-without-trace.dnd\
           phantasmal-killer.dnd\
           poison.dnd\
@@ -207,6 +211,7 @@ THESPELLS=acid-arrow.dnd\
           produce-flame.dnd\
           protect-other.dnd\
           protection-from-arrows.dnd\
+          protection-from-chaos-evil-good-law-10-radius.dnd\
           protection-from-chaos-evil-good-law.dnd\
           protection-from-death.dnd\
           purify-food-and-drink.dnd\
@@ -268,6 +273,7 @@ THESPELLS=acid-arrow.dnd\
           wild-shape-black-bear.dnd\
           wind-gale.dnd\
           wind-wall.dnd\
+          wizard-lock.dnd\
           wood-shape.dnd\
 
 SPELLS=spell-lists.dnd\

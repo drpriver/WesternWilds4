@@ -1,0 +1,16 @@
+  Water Breathing::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Cleric] 3, [Druid] 3, [Sorcerer] 3, [Wizard] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Targets:          | 1 creature touched
+        Duration:         | 1 hour/level
+    ::text
+      The recipient of a water breathing spell is able to breathe under water freely for the duration of the spell -- i.e., one hour for each experience level of the caster. 
+
+      The caster can divide the base duration between multiple characters. 
+
+      Thus, an 8th-level cleric can confer this ability to two characters for four hours, four for two hours, eight for one hour, etc., to a minimum of one half-hour per character.

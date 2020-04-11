@@ -1,0 +1,28 @@
+
+  Knock::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Wizard] 2
+        Components:       | V, S, M
+        Casting Time:     | 10 minutes
+    ::text
+      Upon casting this spell, a very loud "knock" sound can be heard and barriers to entry are undone.
+      This noise is certainly loud enough to attract the attention of anyone who happened to be wandering by.
+
+      The knock spell opens stuck, barred, locked, held, or arcane locked doors. 
+
+      It opens secret doors, as well as locked or trick-opening boxes or chests. 
+
+      It also loosens welds, shackles, or chains (provided they serve to hold closures shut). 
+
+      If used to open a arcane locked door, the spell does not remove the arcane lock but simply suspends its functioning for 10 minutes. 
+
+      In all other cases, the door does not relock itself or become stuck again on its own. 
+
+      Knock does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like. 
+
+      Each spell can undo as many as two means of preventing egress.
+
+

@@ -1,0 +1,22 @@
+
+  Mass Shield::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Sorcerer] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Range:            | Close (25' + 5'/2 levels)
+        Targets:          | one creature per level, no two of which are more than 30' apart
+        Duration:         | 1 minute / level
+    ::text
+      Mass shield grants the benefit of shield to all of the targets.
+
+      Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you.
+
+      It negates magic missile attacks directed at you.
+
+      The disk also provides a +2 shield bonus to AC against melee attacks and a +4 bonus to AC against ranged attacks.
+
+      As you do not actually hold the shield, it imposes no skill penalty.

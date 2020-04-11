@@ -1,0 +1,24 @@
+
+  Dispel Magic::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Bard] 3, [Cleric] 3, [Sorcerer] 3, [Wizard] 3
+        Components:       | V, S
+        Casting Time:     | 1 standard action
+        Target:            | 30' cube or one magical object or one spell being cast
+        Saving Throw:     | Special
+    ::text
+      There are 3 forms of dispel magic. Some spells can't be dispelled - in particular curses. Spell description should describe if it needs a different spell to be dispelled.
+    Area Dispel::text
+      In this form, dispel magic affects all creatures and objects in a 30' cube. All spells of 3rd level or lower in the cube immediately end. 
+
+      Animated creatures and summoned creatures can make a will saving throw to ignore this effect.
+
+      Note that this affects <em>all</em> spells, including the spells of the caster and his allies.
+
+    Object Suppress::text
+      In this form, the magical properties of a single item, device, ward, etc. is suppressed. Roll a caster level check (d20 + caster level) against a DC set by the DM on a per-item basis. This renders the item non-operational for 1d4 rounds.
+    Counterspell::text
+      A spell of 3rd level or lower is automatically countered. Higher level spells require opposed caster level checks.

@@ -1,0 +1,22 @@
+
+  Lightning Bolt::section.spell
+    ::table.spell_info
+      ::head
+        |
+      ::row
+        Level:            | [Sorcerer] 3, [Wizard] 3
+        Components:       | V, S, M
+        Casting Time:     | 1 standard action
+        Area:             | 120' x 5' line or 60' x 10' line
+        Saving Throw:     | Reflex Half
+        Tags:             | Lightning
+    ::text
+      A lightning bolt blasts from your fingertip. You can choose for it either to be a 10' wide, 60' long line (the lightning bolt zigzags to effectively cover that area) or a 5'x wide, 120' long line.
+
+      When the lightning bolt strikes a hard, non-conductive surface like a wall, the lightning bolt bounces, reflecting according to its angle of attack.
+
+      A cresture struck by the lightning bolt suffers 1d6 lightning damage per caster level.
+
+      The lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze (significantly reducing the value of jewelery or art objects). 
+
+      A lightning bolt cast into water spreads out into a globe, affecting a 20' radius sphere.
