@@ -59,6 +59,7 @@ THESPELLS=acid-arrow.dnd\
           bears-endurance.dnd\
           benign-transposition.dnd\
           bestow-curse.dnd\
+          betrayal-of-flesh.dnd\
           bless.dnd\
           blindness-deafness.dnd\
           blink.dnd\
@@ -132,6 +133,7 @@ THESPELLS=acid-arrow.dnd\
           enlarge-toad.dnd\
           entangle.dnd\
           entropic-shield.dnd\
+          enwebben.dnd\
           expeditious-retreat.dnd\
           explosive-runes.dnd\
           faerie-fire.dnd\
@@ -150,6 +152,7 @@ THESPELLS=acid-arrow.dnd\
           floating-disk.dnd\
           fly.dnd\
           fog-cloud.dnd\
+          forget.dnd\
           foxs-cunning.dnd\
           freedom-of-movement.dnd\
           gaseous-form.dnd\
@@ -274,6 +277,7 @@ THESPELLS=acid-arrow.dnd\
           sound-burst.dnd\
           speak-with-animals.dnd\
           spell-immunity.dnd\
+          spider-climb.dnd\
           spiritual-weapon.dnd\
           stick.dnd\
           sticks-to-snakes.dnd\
@@ -455,7 +459,7 @@ index.html: $(ALL) dd.css dd.js links.json Makefile
 	cat $(ALL) > build/rules.dnd
 	python3 -m ez_dungeon.document build/rules.dnd build
 	cp build/rules.html index.html
-	#rm -rf build
+	rm -rf build
 
 validate:
 	python3 -m ez_dungeon.html_validate index.html

@@ -38,6 +38,7 @@
         [Disguise Self]                       | Changes your appearance.
         [Enlarge Person]                      | Humanoid creature doubles in size.
         [Enlarge Toad]                        | Make a toad a formidable threat.
+        [Enwebben]                            | Shoot a web at someone.
         [Enhance Potion]                      | Potion or alchemical item's effect is doubled.
         [Expeditious Retreat]                 | You and your allies run away.
         [Feather Fall]                        | Objects or creatures fall slowly.
@@ -59,6 +60,7 @@
         [Shocking Grasp]                      | Touch delivers 1d6/level electricity damage (max 5d6).
         [Silent Image]                        | Creates minor illusion of your design.
         [Sleep]                               | Puts 4 HD of creatures into magical slumber.
+        [Spider Climb]                        | Climb like a spider
         [Toad Bomb]                           | Turn a living toad into a bomb.
         [Unseen Servant]                      | Invisible force obeys your commands.
         [Ventriloquism]                       | Throws voice for 1 min./level.

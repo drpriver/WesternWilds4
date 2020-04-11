@@ -25,6 +25,7 @@
       ::row
         [Animate Rope]                        | Makes a rope move at your command.
         [Benign Transposition]                | Two willing subjects swap places.
+        [Betrayal of Flesh]                   | Subjects flesh starts to rot away, dealing 1d6 damage per round
         [Burning Hands]                       | 1d4/level fire damage (max 5d4).
         [Cause Fear]                          | One creature of 5 HD or less flees for 1d4 rounds.
         [Charm Person]                        | Makes one person your friend.
@@ -32,6 +33,7 @@
         [Corrosive Grasp]                     | 1 touch/level deals 1d8 acid damage.
         [Detect Secret Doors]                 | Reveals hidden doors within 60 ft.
         [Disguise Self]                       | Changes your appearance.
+        [Enwebben]                            | Shoot a web at someone.
         [Expeditious Retreat]                 | You and your allies run away.
         [Feather Fall]                        | Objects or creatures fall slowly.
         [Floating Disk]                       | Creates 3-ft.-diameter horizontal disk that holds 20 slots./level.
