@@ -162,7 +162,7 @@
       Effect::text
         You get a -1 to all d20 rolls.
 
-        When you are below 50% HP, or when you have any negative status ailments, you instead have a +3 to all d20 rolls.
+        When you are below 50% HP, or when you are [blinded], [confused], [entangled], [exhausted], [nauseated], [sickened], [paralyzed], [prone], [stunned] or any other sufficiently severe condtion, the -1 is replaced with a +3 to all d20 rolls. The conditions still apply.
     Hero::section.feat
       Prerequisite::text
         Good alignment
