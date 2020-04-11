@@ -54,6 +54,9 @@
       demons, devils, those with an evil aura (like evil priests), evil spells. It does not
       detect normal people who are aligned with evil.
 
+      This ability can penetrate barriers, but 1 foot of stone, 1 inch of common metal,
+      a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+
     Smite Evil::text
       Once per long rest per paladin level, a paladin may attempt to smite evil with one normal
       melee attack. If the paladin hits with this attack, he deals an extra 1d8 sacred
