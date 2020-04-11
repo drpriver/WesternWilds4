@@ -1,4 +1,3 @@
-
   Bless::section.spell
     ::table.spell_info
       ::head
@@ -11,6 +10,4 @@
         Area:             | The caster and all allies within 50'
         Duration:         | 1 min/level
     ::text
-      Bless fills your allies with divine courage. Each ally gains a +1 sacred bonus on attack rolls and on saving throws against fear effects.
-
-
+      Bless fills your allies with divine courage. Each ally gains a +1 sacred bonus on attack rolls and on saving throws.
