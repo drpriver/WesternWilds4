@@ -1,4 +1,3 @@
-
   Charm Person::section.spell
     ::table.spell_info
       ::head

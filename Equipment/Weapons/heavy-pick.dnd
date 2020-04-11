@@ -1,4 +1,3 @@
-
     Heavy Pick::div.weapon
       ::table.weapon_stats
         ::head

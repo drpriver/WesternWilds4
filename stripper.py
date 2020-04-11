@@ -18,7 +18,12 @@ def main():
     files = find_files('.')
     for f in files:
         with open(f, 'r') as fp:
-            lines = [line.rstrip() for line in fp]
+            lines = []
+            for line in fp:
+                line = line.rstrip()
+                if not line and not lines:
+                    continue
+                lines.append(line)
         with open(f, 'w') as fp:
             for line in lines:
                 print(line, file=fp)
