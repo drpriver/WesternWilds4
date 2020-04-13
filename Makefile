@@ -427,6 +427,7 @@ EQUIPMENT=equipment.dnd\
 	  Weapons/whip.dnd\
 	  armor.dnd\
 	  gear.dnd\
+	  naval-gear.dnd\
 
 
 CAMPAIGNS=campaigns.dnd\

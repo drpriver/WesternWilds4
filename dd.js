@@ -3,6 +3,7 @@ let rules;
 let weapons;
 let armor;
 let gear;
+let naval_gear;
 let needs_restore = false;
 function onload(){
     {
@@ -26,6 +27,7 @@ function onload(){
     weapons = make_table_view(data_blob["Weapon Tables"]);
     armor = make_table_view(data_blob["Armor Tables"]);
     gear = make_table_view(data_blob["Gear Tables"]);
+    naval_gear = make_table_view(data_blob["Naval Gear Tables"]);
     function restorify(el){
         const links = el.getElementsByTagName("a");
         function restore(){
@@ -42,13 +44,15 @@ function onload(){
     restorify(document);
     restorify(weapons);
     restorify(gear);
+    restorify(naval_gear);
     {
-    const button_names = ["Rules", "Weapon", "Armor", "Gear"];
+    const button_names = ["Rules", "Weapon", "Armor", "Gear", "Naval Gear"];
     const button_funcs = [
         function(){if(needs_restore) document.getElementsByClassName("center")[0].replaceWith(rules); needs_restore=false},
         function(){document.getElementsByClassName("center")[0].replaceWith(weapons); needs_restore=true;},
         function(){document.getElementsByClassName("center")[0].replaceWith(armor); needs_restore=true;},
         function(){document.getElementsByClassName("center")[0].replaceWith(gear); needs_restore=true;},
+        function(){document.getElementsByClassName("center")[0].replaceWith(naval_gear); needs_restore=true;},
     ];
     const top = document.getElementsByClassName("top")[0];
     for(let i = 0; i < button_names.length;i++){

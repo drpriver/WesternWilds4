@@ -1,0 +1,14 @@
+  ::data
+    section
+    Naval Gear Tables::section
+      Naval Gear::table.equipment
+        ::head
+          Good | Cost
+        ::row
+          [Naval supplies] | 2gp/crew/day
+          [Cannonball] | 10gp
+    Naval Gear Descriptions::section
+      Naval supplies::text
+        Naval supplies include rum rations (grog).
+      Cannonball::text
+        A cannonball includes the powder needed to fire the cannon.
