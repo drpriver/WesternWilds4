@@ -1,29 +1,113 @@
 Ships::chapter
   ::text
-    TODO
+    I do not claim these numbers to be historically accurate!
 
-    Stuff about sailing, obtaining and maintaining a craft, staffing the ship, raiding other ships, ship-to-ship combat, boardings, etc.
-
-  Ships stats are WIP
   Ship Prices::table
     ::head
-      Class              | Price   | Base Speed | Cannon Capacity | No. Sailors | No. Soldiers | Tonnage | Length
+      Ship Class                 | Price     | Speed    | Cannons | Sailors | Extra Persons | Tonnage | Length | AC | HP Below | HP Above
     ::row
-      Sloop              | 5,000gp | 12knots    | 10           | 15          | 40           | 100     |
-      Schooner           | ???     | 11 knots   | 15           | 20          |              |         |
-      Corvette           | ???     | 11 knots   | 20           |             |              |         |
-      Brigantine         | ???     | 9 knots    | 20           | 25          | 80           |         |
-      Brig               | ???     | 9 knots    | 25           | 30          | 80           |         |
-      Frigate            | ???     | 8 knots    | 40           | 40          | 160          |         |
-      Man-o-War          | ???     | 8 knots    | 60           | 70          | 200          |         |
-      Freighter (small)  | ???     | 11 knots   | 20           | 20          | 80           |         |
-      Freighter (medium) | ???     | 9 knots    | 30           | 30          | 120          |         |
-      Freighter (large)  | ???     | 7 knots    | 40           | 40          | 160          |         |
-      Galleon            | ???     | 5 knots    | 90           | 50          | 200          |         |
+      [Sloop]                    | 5,000gp   | 12 knots | 10      | 15      | 40            | 80      | 50'    | 13 | 20       | 10
+      [Brigantine]               | 10,000gp  | 10 knots | 14      | 25      | 80            | 150     | 80'    | 14 | 40       | 20
+      [Frigate]                  | 25,000gp  | 8 knots  | 32      | 50      | 140           | 300     | 110'   | 15 | 80       | 40
+      [Merchant Vessel] (small)  | 5,000gp   | 10 knots | 6       | 15      | 20            | 50      | 50'    | 13 | 20       | 10
+      [Merchant Vessel] (medium) | 10,000gp  | 8 knots  | 30      | 25      | 40            | 100     | 80'    | 14 | 40       | 20
+      [Merchant Vessel] (large)  | 25,000gp  | 6 knots  | 40      | 30      | 40            | 200     | 110'   | 15 | 80       | 40
+      [Galleon]                  | 100,000gp | 5 knots  | 90      | 100     | 300           | 1000    | 200'   | 18 | 200      | 100
 
   ::text
-    Base Speed is a fully loaded ship with average winds.
+    Speed is a tactical speed and is altered by the wind. While travelling farther distances, a ship travels one nautical hex per day.
 
-    No. of sailors is the number of sailors needed to man the ship. No. of soldiers is how many additional people can be aboard the ship (often soldiers for fighting purpose). Alternatively, that space can be used for cargo. Can be for one, the other, or 50/50.
+    Sailors is the number of sailors needed to man the ship.
+    A ship can be manned with a skeleton crew (half as many), but goes at half speed.
+    Fewer than this number means the ship can't be effectively piloted and floats with the wind.
 
-    A ships hit points is proportional to its tonnage.
+    A ships tonnage is how much cargo it can carry (in tons).
+
+    A ship carrying more than half its tonnage is encumbered and moves 2 knots slower. This cargo can be jettisoned in the event of a chase.
+  Ship Descriptions::section
+    Sloop::text
+      The sloop is a favored ship of pirates and smugglers. It is 50' long and has 3 decks - the surface, the hold and the bilge.
+      It has a single mast.
+
+      A sloop can have up to 10 guns. 4 on each side, one front and one back.
+      The front and back-facing guns are double range and double strength compared to the side guns.
+
+      A sloop draws a mere 8' of water, making it ideal for shallow waters.
+
+      Maneuvering with a sloop receives a +4 bonus due to its speed and agility.
+    Brigantine::text
+      The Brigantine is more of a captain's ship for a pirate.
+      She has two masts and carry about twice as much as the sloop.
+
+      The Brigantine can have up to 14 guns. 6 on each side, one front and one back.
+      The front and back-facing guns are double range and double strength compared to the side guns.
+
+      The Brigantine draws 16' of water, meaning it must stay to deeper water than the sloop.
+
+      Maneuvering with a brigantine receives a +2 bonus due to its speed and agility.
+
+    Frigate::text
+      The frigate is a warship, most often used to defend convoys.
+      The frigate can have 32 cannons, below deck. 2 are mounted in front and 2 in back, with the remaining 14 to each side.
+
+    Merchant Vessel::text
+      Merchant ships are outfitted to carry cargo rather than men and cannon. They are essentially the same as the sloop, brigantine, frigate, etc.
+      They can be refitted into those vessels (convering cargo space into quarters, a gun deck, etc.) for 1/5th of their price.
+
+    Galleon::text
+      The Galleon is the largest ship and functions as both warship and merchant vessel. They are almost all owned by the Spanish.
+
+      They pack incredible firepower while still hauling a massive amount of cargo. Beware these ships!
+
+      The gallen often travels via flotilla.
+
+  Ship Roles::section
+    ::text
+      A single character can only act in a single role each day. Characters may change roles.
+
+      In addition to the below roles, there should be a first mate, cook and boatswain. They can perform other duties as well.
+
+    Captain::text
+      Every crew needs a captain. The captain does not directly roll anything, but he gives commands and should be obeyed. If a mutiny threatens, he will need to make a check to prevent it.
+
+    Pilot::text
+      He who actually drives the ship. He will roll for maneuvers (such as evading other ships, chasing down merchants, avoiding reefs).
+
+    Navigator::text
+      Figures out where and how to go. A ship without a navigator can only travel by sticking to coastlines and slowly at that.
+
+    Carpenter::text
+      Maintains and repairs the ship. A ship does not need a carpenter every day, but it does for any day of repairs.
+
+    Surgeon::text
+      Heals the sick and wounded. A ship does not need a surgen every day, but it does if any crew is wounded, otherwise they die.
+
+    Musician::text
+      Sailing is boring. A musician improves the spirits of the crew. Whenever the crew is feeling unhappy or bored, the musician can roll a check to prevent this.
+
+    Lookout::text
+      The lookout sits in the crow's nest and looks for trouble and signs of other ships.
+
+    Quartermaster::text
+      The quartermaster manages the ships supplies. A ship without a quartermaster will find it goes through supplies twice as fast.
+
+    Gunner::text
+      The gunner manages the cannons and powders. A ship without a gunner cannot fire in the first three rounds of a naval combat.
+
+
+  Crewman Experience::section
+    ::text
+      Crewman earn experience by surviving successful pirating expeditions. They earn a simplified form of experience points.
+
+      For every 100gp (rounded down) they earn as their share, they get 1 experience point.
+    Crewman Ranks::table
+      ::head
+        Rank         | Hit Dice | xp
+      ::row
+        Raw Recruit  | 1/2      | 0
+        Seaman       | 1        | 5
+        Salty Seaman | 2        | 10
+        Buccaneer    | 3        | 20
+
+    ::text
+      For simplicity, npc crews will be of uniform rank.

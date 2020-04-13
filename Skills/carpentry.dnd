@@ -1,0 +1,7 @@
+  Carpentry (Int)::section.skill_description
+    ::text
+      Carpentry is skill in working with wood.
+      This skill be used to earn money during downtime, but its main purpose is to repair ships.
+
+    Repair Ship::section
+      With proper supplies, a skilled carpenter can repair 1d6 + carpentry modifier points of ship damage a day.

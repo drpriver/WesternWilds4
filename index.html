@@ -649,6 +649,7 @@
             <li><a href="#the-skills">The Skills</a><ul>
               <li><a href="#alchemy">Alchemy (Int)</a></li>
               <li><a href="#appraise">Appraise (Int)</a></li>
+              <li><a href="#carpentry">Carpentry (Int)</a></li>
               <li><a href="#craft-armor">Craft Armor (Str)</a></li>
               <li><a href="#craft-weapon">Craft Weapon (Str)</a></li>
               <li><a href="#bluff">Bluff (Cha)</a></li>
@@ -727,7 +728,7 @@
               <li><a href="#carouse">Carouse</a></li>
               <li><a href="#recruit">Recruit</a></li>
               <li><a href="#manage-domain-or-class-guild">Manage Domain or Class Guild</a></li>
-              <li><a href="#repair-ship">Repair Ship</a></li>
+              <li><a href="#repair-ship1">Repair Ship</a></li>
             </ul></li>
             <li><a href="#campaigns">Campaigns</a><ul>
               <li><a href="#guilds">Guilds</a></li>
@@ -786,6 +787,9 @@
             </ul></li>
             <li><a href="#ships">Ships</a><ul>
               <li><a href="#ship-prices">Ship Prices</a></li>
+              <li><a href="#ship-descriptions">Ship Descriptions</a></li>
+              <li><a href="#ship-roles">Ship Roles</a></li>
+              <li><a href="#crewman-experience">Crewman Experience</a></li>
             </ul></li>
             <li><a href="#magic">Magic</a></li>
             <li><a href="#class-spell-lists">Class Spell Lists</a><ul>
@@ -1009,8 +1013,9 @@
               <li><a href="#wood-shape">Wood Shape</a></li>
             </ul></li>
             <li><a href="#naval-combat">Naval Combat</a><ul>
-              <li><a href="#turn-sequence">Turn Sequence</a></li>
-              <li><a href="#movement1">Movement</a></li>
+              <li><a href="#ship-grappling">Ship Grappling</a></li>
+              <li><a href="#ship-boarding">Ship Boarding</a></li>
+              <li><a href="#casualties">Casualties</a></li>
             </ul></li>
           </ul>
           <hr>
@@ -10091,6 +10096,20 @@
                 Appraisal also allows one to get a better price in the marketplace or when selling to specialist.  Every skill rank in appraisal improves the selling price of jewlery, gemstone and objets d’art by 1%. The best score in the party is used.
               </p>
             </div>
+          </section>
+          <section class="skill_description">
+            <h3 id="carpentry">Carpentry (Int)</h3>
+            <div>
+              
+              <p>
+                Carpentry is skill in working with wood.
+                This skill be used to earn money during downtime, but its main purpose is to repair ships.
+              </p>
+            </div>
+            <section>
+              <h4 id="repair-ship">Repair Ship</h4>
+              With proper supplies, a skilled carpenter can repair 1d6 + carpentry modifier points of ship damage a day.
+            </section>
           </section>
           <section class="skill_description">
             <h3 id="craft-armor">Craft Armor (Str)</h3>
@@ -19832,7 +19851,7 @@
             </p>
           </div>
           <div>
-            <h3 id="repair-ship">Repair Ship</h3>
+            <h3 id="repair-ship1">Repair Ship</h3>
             <p>
               If your ship becomes damaged, it will probably take a while to repair.
             </p>
@@ -20843,138 +20862,118 @@
           <div>
             
             <p>
-              TODO
-            </p>
-            <p>
-              Stuff about sailing, obtaining and maintaining a craft, staffing the ship, raiding other ships, ship-to-ship combat, boardings, etc.
+              I do not claim these numbers to be historically accurate!
             </p>
           </div>
-          Ships stats are WIP
           <section>
             <h3 id="ship-prices">Ship Prices</h3>
             <table>
               <thead>
                 <tr class="table_header">
-                  <th>Class              </th>
-                  <th> Price   </th>
-                  <th> Base Speed </th>
-                  <th> Cannon Capacity </th>
-                  <th> No. Sailors </th>
-                  <th> No. Soldiers </th>
+                  <th>Ship Class                 </th>
+                  <th> Price     </th>
+                  <th> Speed    </th>
+                  <th> Cannons </th>
+                  <th> Sailors </th>
+                  <th> Extra Persons </th>
                   <th> Tonnage </th>
-                  <th> Length</th>
+                  <th> Length </th>
+                  <th> AC </th>
+                  <th> HP Below </th>
+                  <th> HP Above</th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="odd">
-                  <td>Sloop              </td>
-                  <td> 5,000gp </td>
-                  <td> 12knots    </td>
-                  <td> 10           </td>
-                  <td> 15          </td>
-                  <td> 40           </td>
+                  <td><a href="#sloop">Sloop</a>                    </td>
+                  <td> 5,000gp   </td>
+                  <td> 12 knots </td>
+                  <td> 10      </td>
+                  <td> 15      </td>
+                  <td> 40            </td>
+                  <td> 80      </td>
+                  <td> 50'    </td>
+                  <td> 13 </td>
+                  <td> 20       </td>
+                  <td> 10</td>
+                </tr>
+                <tr class="even">
+                  <td><a href="#brigantine">Brigantine</a>               </td>
+                  <td> 10,000gp  </td>
+                  <td> 10 knots </td>
+                  <td> 14      </td>
+                  <td> 25      </td>
+                  <td> 80            </td>
+                  <td> 150     </td>
+                  <td> 80'    </td>
+                  <td> 14 </td>
+                  <td> 40       </td>
+                  <td> 20</td>
+                </tr>
+                <tr class="odd">
+                  <td><a href="#frigate">Frigate</a>                  </td>
+                  <td> 25,000gp  </td>
+                  <td> 8 knots  </td>
+                  <td> 32      </td>
+                  <td> 50      </td>
+                  <td> 140           </td>
+                  <td> 300     </td>
+                  <td> 110'   </td>
+                  <td> 15 </td>
+                  <td> 80       </td>
+                  <td> 40</td>
+                </tr>
+                <tr class="even">
+                  <td><a href="#merchant-vessel">Merchant Vessel</a> (small)  </td>
+                  <td> 5,000gp   </td>
+                  <td> 10 knots </td>
+                  <td> 6       </td>
+                  <td> 15      </td>
+                  <td> 20            </td>
+                  <td> 50      </td>
+                  <td> 50'    </td>
+                  <td> 13 </td>
+                  <td> 20       </td>
+                  <td> 10</td>
+                </tr>
+                <tr class="odd">
+                  <td><a href="#merchant-vessel">Merchant Vessel</a> (medium) </td>
+                  <td> 10,000gp  </td>
+                  <td> 8 knots  </td>
+                  <td> 30      </td>
+                  <td> 25      </td>
+                  <td> 40            </td>
                   <td> 100     </td>
-                  <td></td>
+                  <td> 80'    </td>
+                  <td> 14 </td>
+                  <td> 40       </td>
+                  <td> 20</td>
                 </tr>
                 <tr class="even">
-                  <td>Schooner           </td>
-                  <td> ???     </td>
-                  <td> 11 knots   </td>
-                  <td> 15           </td>
-                  <td> 20          </td>
-                  <td>              </td>
-                  <td>         </td>
-                  <td></td>
+                  <td><a href="#merchant-vessel">Merchant Vessel</a> (large)  </td>
+                  <td> 25,000gp  </td>
+                  <td> 6 knots  </td>
+                  <td> 40      </td>
+                  <td> 30      </td>
+                  <td> 40            </td>
+                  <td> 200     </td>
+                  <td> 110'   </td>
+                  <td> 15 </td>
+                  <td> 80       </td>
+                  <td> 40</td>
                 </tr>
                 <tr class="odd">
-                  <td>Corvette           </td>
-                  <td> ???     </td>
-                  <td> 11 knots   </td>
-                  <td> 20           </td>
-                  <td>             </td>
-                  <td>              </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="even">
-                  <td>Brigantine         </td>
-                  <td> ???     </td>
-                  <td> 9 knots    </td>
-                  <td> 20           </td>
-                  <td> 25          </td>
-                  <td> 80           </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="odd">
-                  <td>Brig               </td>
-                  <td> ???     </td>
-                  <td> 9 knots    </td>
-                  <td> 25           </td>
-                  <td> 30          </td>
-                  <td> 80           </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="even">
-                  <td>Frigate            </td>
-                  <td> ???     </td>
-                  <td> 8 knots    </td>
-                  <td> 40           </td>
-                  <td> 40          </td>
-                  <td> 160          </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="odd">
-                  <td>Man-o-War          </td>
-                  <td> ???     </td>
-                  <td> 8 knots    </td>
-                  <td> 60           </td>
-                  <td> 70          </td>
-                  <td> 200          </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="even">
-                  <td>Freighter (small)  </td>
-                  <td> ???     </td>
-                  <td> 11 knots   </td>
-                  <td> 20           </td>
-                  <td> 20          </td>
-                  <td> 80           </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="odd">
-                  <td>Freighter (medium) </td>
-                  <td> ???     </td>
-                  <td> 9 knots    </td>
-                  <td> 30           </td>
-                  <td> 30          </td>
-                  <td> 120          </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="even">
-                  <td>Freighter (large)  </td>
-                  <td> ???     </td>
-                  <td> 7 knots    </td>
-                  <td> 40           </td>
-                  <td> 40          </td>
-                  <td> 160          </td>
-                  <td>         </td>
-                  <td></td>
-                </tr>
-                <tr class="odd">
-                  <td>Galleon            </td>
-                  <td> ???     </td>
-                  <td> 5 knots    </td>
-                  <td> 90           </td>
-                  <td> 50          </td>
-                  <td> 200          </td>
-                  <td>         </td>
-                  <td></td>
+                  <td><a href="#galleon">Galleon</a>                  </td>
+                  <td> 100,000gp </td>
+                  <td> 5 knots  </td>
+                  <td> 90      </td>
+                  <td> 100     </td>
+                  <td> 300           </td>
+                  <td> 1000    </td>
+                  <td> 200'   </td>
+                  <td> 18 </td>
+                  <td> 200      </td>
+                  <td> 100</td>
                 </tr>
               </tbody>
             </table>
@@ -20982,15 +20981,201 @@
           <div>
             
             <p>
-              Base Speed is a fully loaded ship with average winds.
+              Speed is a tactical speed and is altered by the wind. While travelling farther distances, a ship travels one nautical hex per day.
             </p>
             <p>
-              No. of sailors is the number of sailors needed to man the ship. No. of soldiers is how many additional people can be aboard the ship (often soldiers for fighting purpose). Alternatively, that space can be used for cargo. Can be for one, the other, or 50/50.
+              Sailors is the number of sailors needed to man the ship.
+              A ship can be manned with a skeleton crew (half as many), but goes at half speed.
+              Fewer than this number means the ship can't be effectively piloted and floats with the wind.
             </p>
             <p>
-              A ships hit points is proportional to its tonnage.
+              A ships tonnage is how much cargo it can carry (in tons).
+            </p>
+            <p>
+              A ship carrying more than half its tonnage is encumbered and moves 2 knots slower. This cargo can be jettisoned in the event of a chase.
             </p>
           </div>
+          <section>
+            <h3 id="ship-descriptions">Ship Descriptions</h3>
+            <div>
+              <h4 id="sloop">Sloop</h4>
+              <p>
+                The sloop is a favored ship of pirates and smugglers. It is 50' long and has 3 decks - the surface, the hold and the bilge.
+                It has a single mast.
+              </p>
+              <p>
+                A sloop can have up to 10 guns. 4 on each side, one front and one back.
+                The front and back-facing guns are double range and double strength compared to the side guns.
+              </p>
+              <p>
+                A sloop draws a mere 8' of water, making it ideal for shallow waters.
+              </p>
+              <p>
+                Maneuvering with a sloop receives a +4 bonus due to its speed and agility.
+              </p>
+            </div>
+            <div>
+              <h4 id="brigantine">Brigantine</h4>
+              <p>
+                The Brigantine is more of a captain's ship for a pirate.
+                She has two masts and carry about twice as much as the sloop.
+              </p>
+              <p>
+                The Brigantine can have up to 14 guns. 6 on each side, one front and one back.
+                The front and back-facing guns are double range and double strength compared to the side guns.
+              </p>
+              <p>
+                The Brigantine draws 16' of water, meaning it must stay to deeper water than the sloop.
+              </p>
+              <p>
+                Maneuvering with a brigantine receives a +2 bonus due to its speed and agility.
+              </p>
+            </div>
+            <div>
+              <h4 id="frigate">Frigate</h4>
+              <p>
+                The frigate is a warship, most often used to defend convoys.
+                The frigate can have 32 cannons, below deck. 2 are mounted in front and 2 in back, with the remaining 14 to each side.
+              </p>
+            </div>
+            <div>
+              <h4 id="merchant-vessel">Merchant Vessel</h4>
+              <p>
+                Merchant ships are outfitted to carry cargo rather than men and cannon. They are essentially the same as the sloop, brigantine, frigate, etc.
+                They can be refitted into those vessels (convering cargo space into quarters, a gun deck, etc.) for 1/5th of their price.
+              </p>
+            </div>
+            <div>
+              <h4 id="galleon">Galleon</h4>
+              <p>
+                The Galleon is the largest ship and functions as both warship and merchant vessel. They are almost all owned by the Spanish.
+              </p>
+              <p>
+                They pack incredible firepower while still hauling a massive amount of cargo. Beware these ships!
+              </p>
+              <p>
+                The gallen often travels via flotilla.
+              </p>
+            </div>
+          </section>
+          <section>
+            <h3 id="ship-roles">Ship Roles</h3>
+            <div>
+              
+              <p>
+                A single character can only act in a single role each day. Characters may change roles.
+              </p>
+              <p>
+                In addition to the below roles, there should be a first mate, cook and boatswain. They can perform other duties as well.
+              </p>
+            </div>
+            <div>
+              <h4 id="captain">Captain</h4>
+              <p>
+                Every crew needs a captain. The captain does not directly roll anything, but he gives commands and should be obeyed. If a mutiny threatens, he will need to make a check to prevent it.
+              </p>
+            </div>
+            <div>
+              <h4 id="pilot">Pilot</h4>
+              <p>
+                He who actually drives the ship. He will roll for maneuvers (such as evading other ships, chasing down merchants, avoiding reefs).
+              </p>
+            </div>
+            <div>
+              <h4 id="navigator">Navigator</h4>
+              <p>
+                Figures out where and how to go. A ship without a navigator can only travel by sticking to coastlines and slowly at that.
+              </p>
+            </div>
+            <div>
+              <h4 id="carpenter">Carpenter</h4>
+              <p>
+                Maintains and repairs the ship. A ship does not need a carpenter every day, but it does for any day of repairs.
+              </p>
+            </div>
+            <div>
+              <h4 id="surgeon">Surgeon</h4>
+              <p>
+                Heals the sick and wounded. A ship does not need a surgen every day, but it does if any crew is wounded, otherwise they die.
+              </p>
+            </div>
+            <div>
+              <h4 id="musician">Musician</h4>
+              <p>
+                Sailing is boring. A musician improves the spirits of the crew. Whenever the crew is feeling unhappy or bored, the musician can roll a check to prevent this.
+              </p>
+            </div>
+            <div>
+              <h4 id="lookout">Lookout</h4>
+              <p>
+                The lookout sits in the crow's nest and looks for trouble and signs of other ships.
+              </p>
+            </div>
+            <div>
+              <h4 id="quartermaster">Quartermaster</h4>
+              <p>
+                The quartermaster manages the ships supplies. A ship without a quartermaster will find it goes through supplies twice as fast.
+              </p>
+            </div>
+            <div>
+              <h4 id="gunner">Gunner</h4>
+              <p>
+                The gunner manages the cannons and powders. A ship without a gunner cannot fire in the first three rounds of a naval combat.
+              </p>
+            </div>
+          </section>
+          <section>
+            <h3 id="crewman-experience">Crewman Experience</h3>
+            <div>
+              
+              <p>
+                Crewman earn experience by surviving successful pirating expeditions. They earn a simplified form of experience points.
+              </p>
+              <p>
+                For every 100gp (rounded down) they earn as their share, they get 1 experience point.
+              </p>
+            </div>
+            <section>
+              <h4 id="crewman-ranks">Crewman Ranks</h4>
+              <table>
+                <thead>
+                  <tr class="table_header">
+                    <th>Rank         </th>
+                    <th> Hit Dice </th>
+                    <th> xp</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Raw Recruit  </td>
+                    <td> 1/2      </td>
+                    <td> 0</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Seaman       </td>
+                    <td> 1        </td>
+                    <td> 5</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Salty Seaman </td>
+                    <td> 2        </td>
+                    <td> 10</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Buccaneer    </td>
+                    <td> 3        </td>
+                    <td> 20</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div>
+              
+              <p>
+                For simplicity, npc crews will be of uniform rank.
+              </p>
+            </div>
+          </section>
         </section>
         <section class="chapter">
           <h2 id="magic">Magic</h2>
@@ -34773,35 +34958,268 @@
         </section>
         <section class="chapter">
           <h2 id="naval-combat">Naval Combat</h2>
-          THIS CHAPTER IS UNFINISHED
-          <section class="rules">
-            <h3 id="turn-sequence">Turn Sequence</h3>
+          This is very WIP and will evolve with the campaign.
+          <div>
+            <h3 id="ship-grappling">Ship Grappling</h3>
+            <p>
+              If ships both wish to fight, there is no need for a grapple check.
+            </p>
+            <p>
+              If one ship wishes to fight, the aggressors can roll 1 grapple attempt.
+            </p>
+            <p>
+              This attempt is a DC 15 Sailing check (BAB+str may be substituted for this check).
+              If the ships are traveling opposite directions, then the DC is 20 instead.
+            </p>
+            <p>
+              A successful grapple check leads directly to a general melee onboard.
+            </p>
+          </div>
+          <section>
+            <h3 id="ship-boarding">Ship Boarding</h3>
             <div>
               
               <p>
-                The order of play is as such.
+                The players will declare if they wish to rush onboard and fight on their ship or defend their ship. The DM will secretly decide if the other ship will attack or defend.
+                If both attack, which ship is the battlefield is randomly determined and there is no defender advantage.
+                If one side attacks and the other defends, the battle is on the defender’s ship and the defender gains a +2 bonus for that turn only.
+              </p>
+              <p>
+                If both defends, there is no melee that round and the grapples may be cut.
+                The boarding ends at that point (but can be restarted the next round if the pilot is able to keep the ships abreast).
+              </p>
+              <p>
+                The battle ends with the defeat or surrender of the captain. To reach the enemy captain, you must advance through the decks. Some captains may surrender early if they believe themselves greatly overpowered.
+              </p>
+              <p>
+                Ships have a different number of decks depending on the size of the ship.
+              </p>
+            </div>
+            <section>
+              <h4 id="ship-decks">Ship Decks</h4>
+              <table>
+                <thead>
+                  <tr class="table_header">
+                    <th>Ship </th>
+                    <th> No. decks</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>Sloop  </td>
+                    <td> 1</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Brig   </td>
+                    <td> 2</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Frigate</td>
+                    <td> 3</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Larger </td>
+                    <td> 4</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Small Merchant </td>
+                    <td> 1</td>
+                  </tr>
+                  <tr class="even">
+                    <td>Medium Merchant </td>
+                    <td> 2</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>Large Merchant </td>
+                    <td> 3</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section>
+              <h4 id="crew-strength">Crew Strength</h4>
+              <div>
+                
+                <p>
+                  To calculate the strength of the crew, add up their hit dice, including the officers (raw recruits have 1/2 hit die). Normal sailors have 1 hit die. Men who are poorly outfitted fight at half effectiveness (so a raw recruit with a club fights at 1/4 effectiveness). Exceptionally well armed crews fight at a higher bonus as determined by the dm (for example if all their swords are +1, then they fight with an extra hit die per man).
+                </p>
+                <p>
+                  To calculate the damage dice done by the crew, divide their strength by 6. This number is used for inflicting casualties.
+                </p>
+              </div>
+              <section>
+                <h5 id="reputed-hit-dice">Reputed Hit Dice</h5>
+                <table>
+                  <thead>
+                    <tr class="table_header">
+                      <th>Group </th>
+                      <th> Reputed effective hit dice</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>English </td>
+                      <td> 4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>France </td>
+                      <td> 3</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Swedes </td>
+                      <td> 2</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Turks </td>
+                      <td>  1.5</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Spanish </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Portugese </td>
+                      <td> 1</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>Pirates </td>
+                      <td> 1 (varies)</td>
+                    </tr>
+                    <tr class="even">
+                      <td>Dutch </td>
+                      <td> 1/2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <div>
+                
+                <p>
+                  Note that some of these groups take compensatory strategies. For example, the Spanish have unremarkable strength of sailors, but their ships are often stuffed with extra soldiers.
+                </p>
+                <p>
+                  Then, compare the ratio of the hit dice totals against the following chart to determine the hit dice bonus.
+                </p>
+                <p>
+                  TODO figure out if these are reasonable figures.
+                </p>
+              </div>
+              <section>
+                <h5 id="relative-strength">Relative Strength</h5>
+                <table>
+                  <thead>
+                    <tr class="table_header">
+                      <th>Ratio </th>
+                      <th> bonus</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td>less than 1.2x </td>
+                      <td> + 0</td>
+                    </tr>
+                    <tr class="even">
+                      <td>less than 1.5x </td>
+                      <td> +2</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>less than 2x   </td>
+                      <td> +4</td>
+                    </tr>
+                    <tr class="even">
+                      <td>less than 3x   </td>
+                      <td> +6</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>less than 4x   </td>
+                      <td> +8</td>
+                    </tr>
+                    <tr class="even">
+                      <td>less than 5x   </td>
+                      <td> +10</td>
+                    </tr>
+                    <tr class="odd">
+                      <td>etc.           </td>
+                      <td> etc.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </section>
+            <div>
+              <h4 id="boarding-melees">Boarding Melees</h4>
+              <p>
+                Each round, both sides get a chance to attack. First one side rolls a d20+ their bonus against 10+enemy bonus. If they “hit”, they roll a d6 for each of their damage dice (calculated above). Casualties are subtracted and the ratios recalculated at the end of each round.
+              </p>
+              <p>
+                Casualties are subtracted from that sides effective hit dice. Keep track of when only the hit dice of the officers remain. If this happens to the PCs, they can either surrender or we switch to man to man, but they have to fight the entire remaining enemy crew in a massive melee clusterfuck. If it happens to the NPCs, then something something.
+              </p>
+              <p>
+                If both sides hit or neither side hits, that round is a draw. If this was the first round of the boarding, crews met briefly and repulse back to respective vessels. 33% chance the grapple is immediately severed (if that side wants to).
+              </p>
+              <p>
+                If only one side hits, then the side that hits advances one area.
+              </p>
+              <p>
+                If one side is ever driven back to their ship, the grapple lines are cut.
+              </p>
+              <p>
+                After every movement, check to see if the captain is reached. When the captain is reached, each side rolls to hit one more time, but only for the purpose of inflicting casualties. Regardless of the result, we immediately switch to resolving the captain showdown.
               </p>
             </div>
             <div>
-              
-              <ol>
-                <li> Each side writes orders showing direction and length of move, firing orders including target and aim (high or low). Character actions (if any) are decided upon.</li>
-                <li> Movement is simultaneous and at its end firing and damage are determined. Morale is checked if warranted.</li>
-                <li> Boarding operations, if any, are conducted</li>
-              </ol>
-            </div>
-            <div>
-              
+              <h4 id="captain-showdown">Captain Showdown</h4>
               <p>
-                Each turn of play corresponds to approximately 5 minutes.
+                When the captain is reached, he can either surrender or commit to battle. At this point each ships captains + officers will have a man-to-man battle. The side with fewer people in this battle will fill in with crewmen until the numbers are balanced (or they run out of crewmen).
               </p>
               <p>
-                One square on the grid corresponds to 100 yards.
+                This battle is then resolved in the usual manner. NPCs dropped due to negative hit points are 33% to survive, but be dying and needing medical attention to survive (the DM is too lazy to track negative NPC HPs).
+              </p>
+              <p>
+                If the party is defeated, any who did not fall to negative 10 (and thus die outright) will almost certainly be ransomed (unless they have no reputation or money, in which case they will be given to the sharks).
               </p>
             </div>
           </section>
-          <section class="rules">
-            <h3 id="movement1">Movement</h3>
+          <section>
+            <h3 id="casualties">Casualties</h3>
+            <div>
+              
+              <p>
+                Casualties should be distributed as evenly as possible. After as many whole number casualties are inflicted as possible, determine randomly. Determine casualties after everything is resolved.
+              </p>
+              <p>
+                Roll on the following table to determine casualty distribution. Note that casualties are counted in hit dice. Thus if you rolled a 1 on the below table (1/3rd to each category) and had suffered 6 hit dice of casualties, you have 2 hit dice dead, 2 hit dice wounded, 2 hit dice fled.
+              </p>
+            </div>
+            <section>
+              <h4 id="casualty-distributions">Casualty Distributions</h4>
+              <table>
+                <thead>
+                  <tr class="table_header">
+                    <th>d4 </th>
+                    <th> Distribution</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="odd">
+                    <td>1 </td>
+                    <td> 1/3rd dead, 1/3rd wounded, 1/3rd fled</td>
+                  </tr>
+                  <tr class="even">
+                    <td>2 </td>
+                    <td> 1/2 dead, 1/4 wounded , 1/4 fled</td>
+                  </tr>
+                  <tr class="odd">
+                    <td>3 </td>
+                    <td> 1/4 dead, 1/2 wounded , 1/4 fled</td>
+                  </tr>
+                  <tr class="even">
+                    <td>4 </td>
+                    <td> 1/4 dead, 1/4 wounded , 1/2 fled</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
           </section>
         </section>
         

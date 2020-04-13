@@ -1,16 +1,106 @@
 Naval Combat::chapter
-  THIS CHAPTER IS UNFINISHED
-  Turn Sequence::section.rules
+  This is very WIP and will evolve with the campaign.
+  Ship Grappling::text
+    If ships both wish to fight, there is no need for a grapple check.
+
+    If one ship wishes to fight, the aggressors can roll 1 grapple attempt.
+
+    This attempt is a DC 15 Sailing check (BAB+str may be substituted for this check).
+    If the ships are traveling opposite directions, then the DC is 20 instead.
+
+    A successful grapple check leads directly to a general melee onboard.
+
+  Ship Boarding::section
     ::text
-      The order of play is as such.
-    ::list
-      1. Each side writes orders showing direction and length of move, firing orders including target and aim (high or low). Character actions (if any) are decided upon.
-      2. Movement is simultaneous and at its end firing and damage are determined. Morale is checked if warranted.
-      3. Boarding operations, if any, are conducted
+      The players will declare if they wish to rush onboard and fight on their ship or defend their ship. The DM will secretly decide if the other ship will attack or defend.
+      If both attack, which ship is the battlefield is randomly determined and there is no defender advantage.
+      If one side attacks and the other defends, the battle is on the defender’s ship and the defender gains a +2 bonus for that turn only.
 
+      If both defends, there is no melee that round and the grapples may be cut.
+      The boarding ends at that point (but can be restarted the next round if the pilot is able to keep the ships abreast).
+
+      The battle ends with the defeat or surrender of the captain. To reach the enemy captain, you must advance through the decks. Some captains may surrender early if they believe themselves greatly overpowered.
+
+      Ships have a different number of decks depending on the size of the ship.
+    Ship Decks::table
+      ::head
+        Ship | No. decks
+      ::row
+        Sloop  | 1
+        Brig   | 2
+        Frigate| 3
+        Larger | 4
+        Small Merchant | 1
+        Medium Merchant | 2
+        Large Merchant | 3
+    Crew Strength::section
+      ::text
+        To calculate the strength of the crew, add up their hit dice, including the officers (raw recruits have 1/2 hit die). Normal sailors have 1 hit die. Men who are poorly outfitted fight at half effectiveness (so a raw recruit with a club fights at 1/4 effectiveness). Exceptionally well armed crews fight at a higher bonus as determined by the dm (for example if all their swords are +1, then they fight with an extra hit die per man).
+
+        To calculate the damage dice done by the crew, divide their strength by 6. This number is used for inflicting casualties.
+
+      Reputed Hit Dice::table
+        ::head
+          Group | Reputed effective hit dice
+        ::row
+          English | 4
+          France | 3
+          Swedes | 2
+          Turks |  1.5
+          Spanish | 1
+          Portugese | 1
+          Pirates | 1 (varies)
+          Dutch | 1/2
+
+
+      ::text
+        Note that some of these groups take compensatory strategies. For example, the Spanish have unremarkable strength of sailors, but their ships are often stuffed with extra soldiers.
+
+        Then, compare the ratio of the hit dice totals against the following chart to determine the hit dice bonus.
+
+        TODO figure out if these are reasonable figures.
+      Relative Strength::table
+        ::head
+          Ratio | bonus
+        ::row
+          less than 1.2x | + 0
+          less than 1.5x | +2
+          less than 2x   | +4
+          less than 3x   | +6
+          less than 4x   | +8
+          less than 5x   | +10
+          etc.           | etc.
+    Boarding Melees::text
+      Each round, both sides get a chance to attack. First one side rolls a d20+ their bonus against 10+enemy bonus. If they “hit”, they roll a d6 for each of their damage dice (calculated above). Casualties are subtracted and the ratios recalculated at the end of each round.
+
+      Casualties are subtracted from that sides effective hit dice. Keep track of when only the hit dice of the officers remain. If this happens to the PCs, they can either surrender or we switch to man to man, but they have to fight the entire remaining enemy crew in a massive melee clusterfuck. If it happens to the NPCs, then something something.
+
+      If both sides hit or neither side hits, that round is a draw. If this was the first round of the boarding, crews met briefly and repulse back to respective vessels. 33% chance the grapple is immediately severed (if that side wants to).
+
+      If only one side hits, then the side that hits advances one area.
+
+      If one side is ever driven back to their ship, the grapple lines are cut.
+
+      After every movement, check to see if the captain is reached. When the captain is reached, each side rolls to hit one more time, but only for the purpose of inflicting casualties. Regardless of the result, we immediately switch to resolving the captain showdown.
+
+    Captain Showdown::text
+      When the captain is reached, he can either surrender or commit to battle. At this point each ships captains + officers will have a man-to-man battle. The side with fewer people in this battle will fill in with crewmen until the numbers are balanced (or they run out of crewmen).
+
+      This battle is then resolved in the usual manner. NPCs dropped due to negative hit points are 33% to survive, but be dying and needing medical attention to survive (the DM is too lazy to track negative NPC HPs).
+
+      If the party is defeated, any who did not fall to negative 10 (and thus die outright) will almost certainly be ransomed (unless they have no reputation or money, in which case they will be given to the sharks).
+
+  Casualties::section
     ::text
-      Each turn of play corresponds to approximately 5 minutes.
+      Casualties should be distributed as evenly as possible. After as many whole number casualties are inflicted as possible, determine randomly. Determine casualties after everything is resolved.
 
-      One square on the grid corresponds to 100 yards.
+      Roll on the following table to determine casualty distribution. Note that casualties are counted in hit dice. Thus if you rolled a 1 on the below table (1/3rd to each category) and had suffered 6 hit dice of casualties, you have 2 hit dice dead, 2 hit dice wounded, 2 hit dice fled.
 
-  Movement::section.rules
+    Casualty Distributions::table
+      ::head
+        d4 | Distribution
+      ::row
+        1 | 1/3rd dead, 1/3rd wounded, 1/3rd fled
+        2 | 1/2 dead, 1/4 wounded , 1/4 fled
+        3 | 1/4 dead, 1/2 wounded , 1/4 fled
+        4 | 1/4 dead, 1/4 wounded , 1/2 fled
