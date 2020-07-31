@@ -133,6 +133,29 @@
       or greater hit dice than the thief instead performs a regular
       backstab with the bludgeoning weapon.
 
+    Read Script::text
+      3rd level Thieves can comprehend 50% of the written content of
+      languages they do not know. For example, a Goblin note reading
+      "Beware of the ogre in the kitchen" might be understood as
+      "beware kitchen", according to the DM's judgment.
+
+      Treasure maps can also be understood by them.
+
+      In addition, this ability allows them to use spell scrolls. A thief
+      can automatically identify and use any scroll of half their level or
+      lower (rounded down). For example, a 3rd level thief can use scrolls
+      of 1st level.
+
+      A thief may also blindly activate higher level scrolls. To do so,
+      they announce their intended target (without knowing what the
+      spell's real targeting is). Example options include the thief,
+      another creature, an object, an area, etc. The DM then compares the
+      spell's required thief level to the thief's actual level. For every
+      level of difference there is a 5% chance of things going awry. For
+      example, a 5th level thief attempting to use a 9th level scroll is a
+      difference of 13 levels (9*2 - 5), thus there is a 65% chance of
+      failure. The DM will consult his spell mishap table.
+
     Extra Attack::text
       At 5th level, thieves can make two attacks instead of one attack
       when they take the attack action. They still only get one attack
