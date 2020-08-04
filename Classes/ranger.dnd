@@ -1,176 +1,204 @@
   Ranger::section.character_class
     Ranger Class Table::table.class_table
       ::head
-        Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+        Level | Hit Dice | Proficiency | 1st | 2nd | 3rd | Features
       ::row
-        1st   | +1                | +2        | +2       | +0        | 1st favored enemy, Track, wild empathy, 1st favored terrain, Animal Companion, Combat Style
-        2nd   | +2                | +3        | +3       | +0        |
-        3rd   | +3                | +3        | +3       | +1        | 2nd favored terrain, hide in shadows
-        4th   | +4                | +4        | +4       | +1        | Bonus Ranger Feat
-        5th   | +5                | +4        | +4       | +1        | 2nd favored enemy
-        6th   | +6/+1             | +5        | +5       | +2        | Improved combat style
-        7th   | +7/+2             | +5        | +5       | +2        | 3rd favored terrain
-        8th   | +8/+3             | +6        | +6       | +2        | Evasion, Bonus Ranger Feat
-
-    Hit Die::text
-      d8
-
-    Class Skills::bullets
-      * [Climb]
-      * [Heal]
-      * [Jump]
-      * [Knowledge (dungeoneering)]
-      * [Knowledge (geography)]
-      * [Knowledge (nature)]
-      * [Listen]
-      * [Ride]
-      * [Spot]
-      * [Stealth]
-      * [Survival]
-      * [Swim]
-
-    Skill Points at 1st Level::text
-      (8 + Int modifier) ×4.
-
-    Skill Points at Each Additional Level::text
-      8 + Int modifier.
+        1st   | 1d8      | +1          | -   | -   | -   | [Favored Enemy], [Favored Terrain], [Animal Friend], [Dual Wielder], [Hunter's Focus], [Loner]
+        2nd   | 2d8      | +2          | 2   | -   | -   | Spellcasting
+        3rd   | 3d8      | +3          | 3   | -   | -   | [Hide in Shadows], [Offensive Tactics]
+        4th   | 4d8      | +4          | 3   | -   | -   | Ability Score Improvement
+        5th   | 5d8      | +5          | 4   | 2   | -   | Extra Attack
+        6th   | 6d8      | +6          | 4   | 3   | -   | Extra [Favored Enemy], Extra [Favored Terrain]
+        7th   | 7d8      | +7          | 4   | 3   | -   | [Defensive Tactics]
+        8th   | 8d8      | +8          | 4   | 3   | -   | Ability Score Improvement
+        9th   | 9d8      | +9          | 4   | 3   | 2   | [Ranger Protector]
 
     Weapon and Armor Proficiency::text
-      A ranger is proficient with all simple and martial weapons, and with light armor, medium armor, heavy armor and shields (except tower shields).
+      A ranger is proficient with all simple and martial weapons, and with
+      light armor, medium armor, and shields (except tower
+      shields). The ranger cannot use any of his class features if he is
+      wearing heavy armor.
 
-      Note that many of the ranger's features only function if he is ot wearing medium or heavy armor.
+    Loner::text
+      No more than 3 rangers are allowed to gather at once and it must be
+      brief. A party can only have 1 ranger. A 30 mile radius region can only
+      support one ranger - any other rangers in the area will find it too
+      crowded with rangers and will want to move on.
 
-    Favored Enemy::text
-      At 1st level, a ranger may select a type of creature to be his favored enemy (given below).
-      The ranger gains a +2 bonus on Bluff, Listen, Sense Motive, Spot, and Survival checks when using these skills against creatures of this type.
-      Likewise, he gets a +2 bonus on weapon damage rolls against such creatures.
-      At 5th level, the ranger may select an additional favored enemy.
-      In addition, the bonus against any one favored enemy (including the one just selected, if so desired) increases by 2.
-
-    ::bullets
-      * Goblinoids and Orcs -- additionally, learn goblin and orc
-      * Giants -- additionally, gain a dodge bonus to AC against giants (equal to favored enemy bonus)
-      * Dragons -- additionally, automatically succeed on saves against dragon breath and dragon fear
-      * Elementals -- additionally, learn aquan, auran, terran, ignan
-      * Oozes -- additionally, may automatically escape from an ooze as a move action
-      * Elves -- additionally, learn elvish
-      * Undead -- additionally, incorporeal miss chance against ghosts is reduced to 20% with magic weapons.
-      * Animals
-      * Shark and lizard people -- additionally, learn scalytongue
-
-    ::text
-      If a specific creature falls into more than one category of favored enemy, the ranger’s bonuses do not stack; he simply uses whichever bonus is higher.
-
-    Track::section
+    Favored Enemy::section
       ::text
-        The ranger is able to follow tracks.
-        To find tracks or to follow them for 1 mile requires a successful Survival check. You must make another Survival check every time the tracks become difficult to follow.
+        At 1st level, a ranger may select a class of creature to be his favored
+        enemy (given below).  The ranger can add his level to the damage rolls
+        when striking the favored enemy. For example, a 3rd level ranger would
+        add 3 damage to each damage roll when he hits a goblin.
 
-        You move at half your normal speed (or at your normal speed with a -5 penalty on the check, or at up to twice your normal speed with a -20 penalty on the check). The DC depends on the surface and the prevailing conditions, as given on Table: Track DC.
+        The ranger has advantage on any ability check involving bluffing,
+        listening, spotting, tracking or similar when using these skills
+        against creatures of this type.
+
+        If a specific creature falls into more than one category of favored
+        enemy, the ranger’s bonuses do not stack; he simply uses whichever
+        bonus is higher.
+
+        Additionally, the ranger gains a special ability depending on what his
+        favored enemy is.
+
+        At 6th level, the ranger can pick another class of creature to also be
+        his favored enemy.
+
+      Chaotic Humanoids::section
+        This class of creature includes goblinoids (goblins, bugbears,
+        hobgoblins), orcs (including half-orcs and orogs), and giants (both
+        true giants and inferior giants such as ogres and trolls).
+
+        A ranger who chooses to favor fighting this class of creature
+        additionally gains a bonus to AC equal to his level against such
+        creatures.
+
+      Reptiles, Dragons and Dragonkind::section
+        This class of creature includes dragons and demi-dragons such as
+        chimeras, giant lizards, dinosaurs, lizardmen, troglodytes and kobolds.
+
+        A ranger who chooses to favor fighting this class of creature
+        automatically succeeds on saves against dragon's breath and dragon
+        fear.
+
+      Undead::section
+        Zombies, skeletons, ghosts, vampires, etc.
+
+        A ranger who chooses to favor fighting this class of creature is immune
+        to the level and ability drain often inflicted by such creatures as
+        well as their supernatural diseases and the paralysis of ghouls.
+
+      Fey and Elves::section
+        Elves, faeries and other creatures of the "fey" or "trickster"
+        category.
+
+        A ranger who chooses to favor fighting this class of creature
+        automatically succeeds on the enchantments of those creatures.
+
+      Animals::section
+        Normal animals as well as monstrous and giant kind. Also applies to
+        unnatural animal-like creatures like owlbears.
+
+        A ranger who chooses to favor fighting this class of creature has their
+        favored enemy bonus against them doubled.
+
+    Animal Friend::text
+      Rangers are able to communicate with animals and broadly understand their
+      wants, needs, desires. They can thus befriend them the same way others
+      could befriend humanoids. Rangers are permitted to recruit animals as
+      henchmen (such as bears, wolves, etc.), but are not allowed to recruit humanoids to serve as henchmen, men-at-arms, servants, aides, etc.
+
+    Favored Terrain::section
+      ::text
+        At 1st level, a ranger may select a type of terrain to be his favored
+        terrain (given below).  The ranger has advantage on any ability check
+        involving stealth, search, listen, spot, tracking, navigation, or
+        general wilderness survival while operating in his favored terrain.
+        These benefits only apply outdoors - if you enter a dungeon the
+        benefits no longer apply.
+
+        In addition, a ranger gains a special benefit based on his choice of
+        favored terrain:
+
       ::table
         ::head
-          Surface          | Survival DC
+          Terrain | Benefit
         ::row
-          Very soft ground | 5
-          Soft ground      | 10
-          Firm ground      | 15
-          Hard ground      | 20
-      Very Soft Ground::text
-        Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.
+          Forest/Jungle            | +1 AC
+          Grasslands/Farmland      | +10 speed
+          Desert (rocky and sandy) | Fire Resistance
+          Hills/Mountains          | +1 hp/level
+          Marsh/Swamp              | Poison Resistance
+          Glacier/Arctic/Frigid    | Cold Resistance
 
-      Soft Ground::text
-        Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which a creature leaves frequent but shallow footprints.
+    Dual Wielder::text
+      When you take the attack action while dual-wielding weapons, you can
+      attack with your offhand this round as a free action. If you do, you
+      cannot use your bonus action to attack with your offhand.
 
-      Firm Ground::text
-        Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs and very dirty or dusty floors). The creature might leave some traces (broken branches or tufts of hair), but it leaves only occasional or partial footprints.
+    Hunter's Focus::text
+      By becoming focused on a creature, you can kill them better. As a bonus
+      action, you can mark a single creature you can see as your quarry.
+      Whenever you hit that creature and deal damage, you deal an extra 1d6
+      damage. Once you have marked a creature, you cannot mark another creature
+      until you take an action to refocus. If your quarry dies, you can refocus
+      as a free action. You have advantage on tracking, spotting and otherwise
+      perceiving your quarry.
 
-      Hard Ground::text
-        Any surface that doesn’t hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles).
-
-      ::text
-        Several modifiers may apply to the Survival check, as given on Table: Track DC Modifiers.
-      ::table
-        ::head
-          Condition                                           | Survival DC Modifier
-        ::row
-          Every three creatures in the group being tracked    | -1
-          Creature is size Fine                               | +8
-          Creature is size Diminutive                         | +4
-          Creature is size Tiny                               | +2
-          Creature is size Small                              | +1
-          Creature is size Medium                             |  0
-          Creature is size Large                              | -1
-          Creature is size Huge                               | -2
-          Creature is size Gargantuan                         | -4
-          Creature is size Colossal                           | -8
-          Every 24 hours since the trail was made             | +1
-          Every hour of rain since the trail was made         | +1
-          Fresh snow cover since the trail was made           | +10
-          Poor visibility                                     | +2
-          Overcast or moonless night                          | +6
-          Moonlight                                           | +3
-          Fog or precipitation                                | +3
-          Tracked party hides trail (and moves at half speed) | +5
-      ::text
-        For a group of creatures, use the size modifier of the largest creature in the group.
-
-    Wild Empathy::text
-      A ranger can improve the attitude of an animal. This ability functions just like a Diplomacy check to improve the attitude of a person. The ranger rolls 1d20 and adds his ranger level and his Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.
-
-      To use wild empathy, the ranger and the animal must be able to study each other, which means that they must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time.
-
-      The ranger can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but he takes a -4 penalty on the check.
-
-    Favored Terrain::text
-      At 1st level, a ranger may select a type of terrain to be his favored terrain (given below).
-      The ranger gains a +2 bonus on Hide, Move Silently, Search, Listen, Spot, and Survival skill checks while operating in his favored terrain. These benefits only apply outdoors - if you enter a dungeon the benefits no longer apply.
-
-      Additionally, when the ranger builds a shelter in the wilderness (see [Survival]), the level of the shelter is upgraded by 1 level. The ranger can build level 3 shelters even in wilderness in hostile territories.
-
-      Also, when travelling long distances through his favored terrain, the ranger and a number of creatures up to (his level + 2)*2 move at twice the normal speed for that terrain if traveling off road. This speed may not exceed the speed of open terrain.
-
-      At 3rd and 7th level, the ranger may select an additional favored terrain.
-      In addition, the bonus against any one favored terrain (including the one just selected, if so desired) increases by 2.
-
-    ::bullets
-      * Forest
-      * Hills
-      * Desert
-      * Mountains
-      * Sea
-      * Open (Grasslands, savannah)
-      * Swamp (also marshes)
-      * Jungle
-
-    ::text
-      If a specific terrain falls into more than one category of terrain, the ranger’s bonuses do not stack; he simply uses whichever bonus is higher.
-
-    Animal Companion::text
-      A ranger may begin play with an animal companion selected from the following list: badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf. If the campaign takes place wholly or partly in an aquatic environment, the following creatures are also available: porpoise, Medium shark, and squid. This animal is a loyal companion that accompanies the ranger on her adventures as appropriate for its kind.
-
-      A 1st-level ranger’s companion is completely typical for its kind except as noted below. As a ranger advances in level, the animal’s power increases as shown on the table. If a ranger releases her companion from service, he may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer. This ceremony can also replace an animal companion that has perished.
-
-    Combat Style::text
-      A ranger is selected as having one of [Dual Wield Fighting], [Pirate Fighting] or [Musketeering] fighter feats. Hey must choose one at level 1, but can change during a period of [downtime].
-
-      He loses these benefits when wearing medium or heavy armor.
+    Spellcasting::text
+      At 2nd level, you can prepare and cast spells in the same manner a druid
+      does, but from the ranger spell list.
 
     Hide In Shadows::text
-      At 3rd level, the ranger is able to blend into shadows and darkness to make himself nearly invisible. This functions similarily to the thief ability. He cannot use it while wearing medium or heavy armor.
+      At 3rd level, the ranger is able to blend into shadows and darkness to
+      make himself nearly invisible. This functions similarily to the thief
+      ability.
 
-      The ranger may not do this once combat has begun. Any amount of shadowy lighting is sufficient to allow the ranger to attempt to hide in the shadows. Additionally, the ranger may use the natural environment of his favored terrain to hide in the shadows. For the forest, this would be in the canopy of trees or behind bushes, for the jungle behind ferns or other vines, etc. The natural environment must provide some amount of concealment.
+      The ranger may not do this once combat has begun. Any amount of shadowy
+      lighting is sufficient to allow the ranger to attempt to hide in the
+      shadows. Additionally, the ranger may use the natural environment of his
+      favored terrain to hide in the shadows. For the forest, this would be in
+      the canopy of trees or behind bushes, for the jungle behind ferns or
+      other vines, etc. The natural environment must provide some amount of
+      concealment.
 
-      While hiding in shadows, the ranger gains the benefits of invisibility (he is not literally invisible, but if no one sees you, you effectively are). This ends if he draws attention to himself, attacks, casts a spell, etc. Although he may not hide while in combat, a ranger will often begin combat hidden in the shadows. The ranger may move about while hiding in shadows, as long as he remains within some amount of shadow or natural obscurement.
+      While hiding in shadows, the ranger gains the benefits of invisibility
+      (he is not literally invisible, but if no one sees you, you effectively
+      are). This ends if he draws attention to himself, attacks, casts a spell,
+      etc. Although he may not hide while in combat, a ranger will often begin
+      combat hidden in the shadows. The ranger may move about while hiding in
+      shadows, as long as he remains within some amount of shadow or natural
+      obscurement.
 
-      When the ranger's hiding is tested, the ranger rolls a hide check contested by the opposing creature's spot check. A creature must be within 20 feet of the ranger to be eligible to roll a spot check.
+      When the ranger's hiding is tested, the ranger rolls a hide check
+      contested by the opposing creature's spot check. A creature must be
+      within 20 feet of the ranger to be eligible to roll a spot check.
 
-    Bonus Ranger Feat::text
-      At 4th and 8th level, the ranger may select an extra ranger feat. He must still meet the prerequisites.
+    Offensive Tactics::section
+      ::text
+        At 3rd level, Choose one of the below.
 
-    Improved Combat Style::text
-      At 6th level, you can pick another of [Dual Wield Fighting], [Pirate Fighting] or [Musketeering]. In addition, you gain [Manyshot] for free.
+      Colossus Slayer::text
+        Your tenacity can wear down the most potent foes.  When you hit a
+        creature with a weapon attack, the creature takes an extra ld8 damage
+        if it's below its hit point maximum.  You can deal this extra damage
+        only once per turn
 
-      He loses these benefits if he wears medium or heavy armor.
+      Horde Breaker::text
+        Once on each of your turns when you make a weapon attack, you can make
+        another attack with the same weapon against a different creature that
+        is within 5 feet of the original target and within range of your
+        weapon.
+    Defensive Tactics::section
+      ::text
+        At 7th level, choose one of the below.
+      Escape the Horde::text
+        Opportunity attacks against you are made with disadvantage.
+      Multiattack Defense::text
+        When a creature hits you with an attack, you gain a +4 bonus to AC
+        against all subsequent attacks made by that creature for the rest of
+        the turn
+      Steel Will::text
+        You have advantage on Wisdom saving throws.
 
-    Evasion::text
-      At 8th level, a ranger can avoid even magical and unusual attacks with great agility. If he makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the ranger is wearing light armor or no armor. A helpless ranger does not gain the benefit of evasion.
+    Ranger Protector::section
+      ::text
+        At 9th level, the ranger has achieved the status of Ranger Protector.
+        They can select a region on the edge of civilization that has a
+        significant part of their favored terrain to be under their protection.
+        When they do so, a small number of trusted humanoid henchmen can be
+        recruited (no more than 2 dozen) to assist the ranger in this endeavor.
+        Additionally, they can acquire a special mount if they do not already
+        have one: either a griffin, brown bear, hippogriff, pegasus, giant spider
+        (large), dire wolf, elephant, mammoth, rhinocerous or triceratops,
+        depending on the campaign setting and choice of protected domain.
+
+        A region under the ranger's protection will not be invaded by chaotic
+        humanoids, undead, faeries, etc. The ranger will swiftly notice the
+        presence of his favored enemies within his region of protection.
+
+        If the region becomes too settled and civilized (as it will be attractive
+        to do so due to the ranger's removal of dangerous elements), the ranger
+        will be forced to move on to a less settled region.
